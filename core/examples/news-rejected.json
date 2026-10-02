@@ -1,0 +1,67 @@
+{
+  "issue_date": "2026-10-01",
+  "dataset_mode": "fixture",
+  "note": "合成邏輯測試，不代表真實新聞",
+  "events": [
+    {
+      "event_id": "event-01",
+      "event_date": "2026-09-25",
+      "title": "合成事件：人工智慧",
+      "summary": "測試事件與候選資料關聯。",
+      "categories": [
+        "科技"
+      ],
+      "fact_status": "confirmed",
+      "event_score": 90,
+      "anchor_event": true,
+      "sources": [
+        {
+          "source_id": "source-0",
+          "publisher": "合成測試資料",
+          "kind": "fixture",
+          "url": "https://example.invalid/fixture/event-01",
+          "published_at": "2026-10-01",
+          "excerpt": "本事件以「人工智慧」作為測試詞彙。"
+        }
+      ],
+      "keywords": [
+        {
+          "word": "人工智慧",
+          "clue_draft": "人工智慧是模擬人類思考的技術。",
+          "answer_score": 90,
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "event_id": "event-02",
+      "event_date": "2026-09-26",
+      "title": "合成事件：無人機",
+      "summary": "測試事件與候選資料關聯。",
+      "categories": [
+        "國際"
+      ],
+      "fact_status": "confirmed",
+      "event_score": 90,
+      "anchor_event": false,
+      "sources": [
+        {
+          "source_id": "source-1",
+          "publisher": "合成測試資料",
+          "kind": "fixture",
+          "url": "https://example.invalid/fixture/event-02",
+          "published_at": "2026-10-01",
+          "excerpt": "本事件以「無人機」作為測試詞彙。"
+        }
+      ],
+      "keywords": [
+        {
+          "word": "無人機",
+          "clue_draft": "不需機上駕駛操作的飛行器。（2字）",
+          "answer_score": 90,
+          "difficulty": "medium"
+        }
+      ]
+    }
+  ]
+}

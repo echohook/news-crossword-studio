@@ -1,0 +1,341 @@
+{
+  "note": "僅作邏輯測試；詞彙沿用先前概念，不宣稱為已查證的當週新聞。",
+  "candidates": [
+    {
+      "id": "c01",
+      "word": "台積電",
+      "event_id": "fixture-event-0",
+      "clue": "台灣晶圓代工企業的常用簡稱。（3字）",
+      "difficulty": "fixture",
+      "source_support": [],
+      "event": {
+        "fact_status": "fixture",
+        "title": "邏輯測試事件"
+      }
+    },
+    {
+      "id": "c02",
+      "word": "電競",
+      "event_id": "fixture-event-1",
+      "clue": "電子競技的簡稱。（2字）",
+      "difficulty": "fixture",
+      "source_support": [],
+      "event": {
+        "fact_status": "fixture",
+        "title": "邏輯測試事件"
+      }
+    },
+    {
+      "id": "c03",
+      "word": "半導體",
+      "event_id": "fixture-event-2",
+      "clue": "",
+      "difficulty": "fixture",
+      "source_support": [],
+      "event": {
+        "fact_status": "fixture",
+        "title": "邏輯測試事件"
+      }
+    },
+    {
+      "id": "c04",
+      "word": "團體競速",
+      "event_id": "fixture-event-3",
+      "clue": "",
+      "difficulty": "fixture",
+      "source_support": [],
+      "event": {
+        "fact_status": "fixture",
+        "title": "邏輯測試事件"
+      }
+    },
+    {
+      "id": "c05",
+      "word": "人工智慧",
+      "event_id": "fixture-event-4",
+      "clue": "讓電腦模擬人類智慧的技術領域。（4字）",
+      "difficulty": "fixture",
+      "source_support": [],
+      "event": {
+        "fact_status": "fixture",
+        "title": "邏輯測試事件"
+      }
+    },
+    {
+      "id": "c06",
+      "word": "無人機",
+      "event_id": "fixture-event-5",
+      "clue": "不需機上駕駛操作的飛行器。（3字）",
+      "difficulty": "fixture",
+      "source_support": [],
+      "event": {
+        "fact_status": "fixture",
+        "title": "邏輯測試事件"
+      }
+    },
+    {
+      "id": "c07",
+      "word": "美軍",
+      "event_id": "fixture-event-6",
+      "clue": "",
+      "difficulty": "fixture",
+      "source_support": [],
+      "event": {
+        "fact_status": "fixture",
+        "title": "邏輯測試事件"
+      }
+    },
+    {
+      "id": "c08",
+      "word": "撤軍",
+      "event_id": "fixture-event-7",
+      "clue": "",
+      "difficulty": "fixture",
+      "source_support": [],
+      "event": {
+        "fact_status": "fixture",
+        "title": "邏輯測試事件"
+      }
+    },
+    {
+      "id": "c09",
+      "word": "黃金",
+      "event_id": "fixture-event-8",
+      "clue": "",
+      "difficulty": "fixture",
+      "source_support": [],
+      "event": {
+        "fact_status": "fixture",
+        "title": "邏輯測試事件"
+      }
+    },
+    {
+      "id": "c10",
+      "word": "金牌",
+      "event_id": "fixture-event-9",
+      "clue": "",
+      "difficulty": "fixture",
+      "source_support": [],
+      "event": {
+        "fact_status": "fixture",
+        "title": "邏輯測試事件"
+      }
+    },
+    {
+      "id": "c11",
+      "word": "債市",
+      "event_id": "fixture-event-10",
+      "clue": "",
+      "difficulty": "fixture",
+      "source_support": [],
+      "event": {
+        "fact_status": "fixture",
+        "title": "邏輯測試事件"
+      }
+    },
+    {
+      "id": "c12",
+      "word": "債券",
+      "event_id": "fixture-event-11",
+      "clue": "",
+      "difficulty": "fixture",
+      "source_support": [],
+      "event": {
+        "fact_status": "fixture",
+        "title": "邏輯測試事件"
+      }
+    },
+    {
+      "id": "c13",
+      "word": "利率",
+      "event_id": "fixture-event-12",
+      "clue": "",
+      "difficulty": "fixture",
+      "source_support": [],
+      "event": {
+        "fact_status": "fixture",
+        "title": "邏輯測試事件"
+      }
+    },
+    {
+      "id": "c14",
+      "word": "殖利率",
+      "event_id": "fixture-event-13",
+      "clue": "",
+      "difficulty": "fixture",
+      "source_support": [],
+      "event": {
+        "fact_status": "fixture",
+        "title": "邏輯測試事件"
+      }
+    },
+    {
+      "id": "c15",
+      "word": "單槓",
+      "event_id": "fixture-event-14",
+      "clue": "",
+      "difficulty": "fixture",
+      "source_support": [],
+      "event": {
+        "fact_status": "fixture",
+        "title": "邏輯測試事件"
+      }
+    },
+    {
+      "id": "c16",
+      "word": "槓桿",
+      "event_id": "fixture-event-15",
+      "clue": "",
+      "difficulty": "fixture",
+      "source_support": [],
+      "event": {
+        "fact_status": "fixture",
+        "title": "邏輯測試事件"
+      }
+    },
+    {
+      "id": "c17",
+      "word": "女籃",
+      "event_id": "fixture-event-16",
+      "clue": "",
+      "difficulty": "fixture",
+      "source_support": [],
+      "event": {
+        "fact_status": "fixture",
+        "title": "邏輯測試事件"
+      }
+    },
+    {
+      "id": "c18",
+      "word": "籃球",
+      "event_id": "fixture-event-17",
+      "clue": "",
+      "difficulty": "fixture",
+      "source_support": [],
+      "event": {
+        "fact_status": "fixture",
+        "title": "邏輯測試事件"
+      }
+    },
+    {
+      "id": "c19",
+      "word": "聯合國",
+      "event_id": "fixture-event-18",
+      "clue": "",
+      "difficulty": "fixture",
+      "source_support": [],
+      "event": {
+        "fact_status": "fixture",
+        "title": "邏輯測試事件"
+      }
+    },
+    {
+      "id": "c20",
+      "word": "中國",
+      "event_id": "fixture-event-19",
+      "clue": "",
+      "difficulty": "fixture",
+      "source_support": [],
+      "event": {
+        "fact_status": "fixture",
+        "title": "邏輯測試事件"
+      }
+    },
+    {
+      "id": "c21",
+      "word": "智慧城市",
+      "event_id": "fixture-event-20",
+      "clue": "",
+      "difficulty": "fixture",
+      "source_support": [],
+      "event": {
+        "fact_status": "fixture",
+        "title": "邏輯測試事件"
+      }
+    },
+    {
+      "id": "c22",
+      "word": "城市",
+      "event_id": "fixture-event-21",
+      "clue": "",
+      "difficulty": "fixture",
+      "source_support": [],
+      "event": {
+        "fact_status": "fixture",
+        "title": "邏輯測試事件"
+      }
+    },
+    {
+      "id": "c23",
+      "word": "再生能源",
+      "event_id": "fixture-event-22",
+      "clue": "",
+      "difficulty": "fixture",
+      "source_support": [],
+      "event": {
+        "fact_status": "fixture",
+        "title": "邏輯測試事件"
+      }
+    },
+    {
+      "id": "c24",
+      "word": "能源",
+      "event_id": "fixture-event-23",
+      "clue": "",
+      "difficulty": "fixture",
+      "source_support": [],
+      "event": {
+        "fact_status": "fixture",
+        "title": "邏輯測試事件"
+      }
+    },
+    {
+      "id": "c25",
+      "word": "國際合作",
+      "event_id": "fixture-event-24",
+      "clue": "",
+      "difficulty": "fixture",
+      "source_support": [],
+      "event": {
+        "fact_status": "fixture",
+        "title": "邏輯測試事件"
+      }
+    },
+    {
+      "id": "c26",
+      "word": "合作社",
+      "event_id": "fixture-event-25",
+      "clue": "",
+      "difficulty": "fixture",
+      "source_support": [],
+      "event": {
+        "fact_status": "fixture",
+        "title": "邏輯測試事件"
+      }
+    },
+    {
+      "id": "c27",
+      "word": "全民運動",
+      "event_id": "fixture-event-26",
+      "clue": "",
+      "difficulty": "fixture",
+      "source_support": [],
+      "event": {
+        "fact_status": "fixture",
+        "title": "邏輯測試事件"
+      }
+    },
+    {
+      "id": "c28",
+      "word": "運動員",
+      "event_id": "fixture-event-27",
+      "clue": "",
+      "difficulty": "fixture",
+      "source_support": [],
+      "event": {
+        "fact_status": "fixture",
+        "title": "邏輯測試事件"
+      }
+    }
+  ]
+}

@@ -1,0 +1,942 @@
+{
+  "schema_version": "1.0",
+  "board": [
+    [
+      "殖",
+      "■",
+      "■",
+      "■",
+      "■",
+      "■",
+      "國",
+      "■"
+    ],
+    [
+      "利",
+      "率",
+      "■",
+      "文",
+      "化",
+      "資",
+      "產",
+      "■"
+    ],
+    [
+      "率",
+      "■",
+      "無",
+      "■",
+      "■",
+      "■",
+      "化",
+      "■"
+    ],
+    [
+      "■",
+      "■",
+      "人",
+      "工",
+      "智",
+      "慧",
+      "■",
+      "金"
+    ],
+    [
+      "■",
+      "■",
+      "機",
+      "■",
+      "■",
+      "■",
+      "銅",
+      "牌"
+    ],
+    [
+      "國",
+      "■",
+      "■",
+      "■",
+      "■",
+      "半",
+      "■",
+      "■"
+    ],
+    [
+      "科",
+      "學",
+      "園",
+      "區",
+      "■",
+      "導",
+      "■",
+      "■"
+    ],
+    [
+      "會",
+      "■",
+      "■",
+      "■",
+      "團",
+      "體",
+      "競",
+      "速"
+    ]
+  ],
+  "placements": [
+    {
+      "candidate_id": "ai-voluntary::人工智慧",
+      "direction": "H",
+      "row": 3,
+      "col": 2
+    },
+    {
+      "candidate_id": "police-announcement::無人機",
+      "direction": "V",
+      "row": 2,
+      "col": 2
+    },
+    {
+      "candidate_id": "parks-results::國科會",
+      "direction": "V",
+      "row": 5,
+      "col": 0
+    },
+    {
+      "candidate_id": "parks-results::科學園區",
+      "direction": "H",
+      "row": 6,
+      "col": 0
+    },
+    {
+      "candidate_id": "boxing-final::金牌",
+      "direction": "V",
+      "row": 3,
+      "col": 7
+    },
+    {
+      "candidate_id": "cycling-bronze::銅牌",
+      "direction": "H",
+      "row": 4,
+      "col": 6
+    },
+    {
+      "candidate_id": "gold-decline::利率",
+      "direction": "H",
+      "row": 1,
+      "col": 0
+    },
+    {
+      "candidate_id": "gold-decline::殖利率",
+      "direction": "V",
+      "row": 0,
+      "col": 0
+    },
+    {
+      "candidate_id": "cycling-bronze::團體競速",
+      "direction": "H",
+      "row": 7,
+      "col": 4
+    },
+    {
+      "candidate_id": "tsmc-texas::半導體",
+      "direction": "V",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "candidate_id": "heritage-awards::文化資產",
+      "direction": "H",
+      "row": 1,
+      "col": 3
+    },
+    {
+      "candidate_id": "wind-deadline::國產化",
+      "direction": "V",
+      "row": 0,
+      "col": 6
+    }
+  ],
+  "expected": [
+    {
+      "word": "人工智慧",
+      "clue_draft": "美國業者簽自律承諾，針對讓電腦模擬人類思考的技術，中文全稱為何？",
+      "answer_score": 92,
+      "difficulty": "medium",
+      "id": "ai-voluntary::人工智慧",
+      "event_id": "ai-voluntary",
+      "event_revision": "ai-voluntary",
+      "clue": "美國業者簽自律承諾，針對讓電腦模擬人類思考的技術，中文全稱為何？（4字）",
+      "source_support": [
+        {
+          "source_id": "ai-voluntary-cna",
+          "evidence": "將自願建立人工智慧（AI）標準。"
+        }
+      ],
+      "event": {
+        "event_id": "ai-voluntary",
+        "event_date": "2026-09-30",
+        "title": "美國科技業者簽署 AI 自律承諾",
+        "summary": "報導指出科技業者同意自願採取 AI 安全措施，承諾不具法律強制力。",
+        "categories": [
+          "國際",
+          "科技"
+        ],
+        "fact_status": "confirmed",
+        "event_score": 80,
+        "anchor_event": true,
+        "sources": [
+          {
+            "source_id": "ai-voluntary-cna",
+            "publisher": "中央社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aopl/202609300015.aspx",
+            "published_at": "2026-09-30",
+            "excerpt": "將自願建立人工智慧（AI）標準。輝達"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "人工智慧",
+            "clue_draft": "美國業者簽自律承諾，針對讓電腦模擬人類思考的技術，中文全稱為何？",
+            "answer_score": 92,
+            "difficulty": "medium"
+          },
+          {
+            "word": "輝達",
+            "clue_draft": "參與白宮科技會議、由黃仁勳領導的晶片公司中文名稱為何？",
+            "answer_score": 80,
+            "difficulty": "medium"
+          }
+        ],
+        "dedup_key": "ai-voluntary",
+        "aliases": [
+          "ai-voluntary"
+        ],
+        "content_revision": "ai-voluntary"
+      }
+    },
+    {
+      "word": "無人機",
+      "clue_draft": "警方公布追緝成果，曾用哪種不用機上駕駛的飛行器追蹤山區嫌犯？",
+      "answer_score": 90,
+      "difficulty": "medium",
+      "id": "police-announcement::無人機",
+      "event_id": "police-announcement",
+      "event_revision": "police-announcement",
+      "clue": "警方公布追緝成果，曾用哪種不用機上駕駛的飛行器追蹤山區嫌犯？（3字）",
+      "source_support": [
+        {
+          "source_id": "police-announcement-cna",
+          "evidence": "運用警用無人機。"
+        }
+      ],
+      "event": {
+        "event_id": "police-announcement",
+        "event_date": "2026-09-30",
+        "title": "台中警方公布科技追緝詐團成果",
+        "summary": "本週新發展是警方公布偵辦成果；報導亦說明案件已於七月起訴，不能把逮捕當作本週才發生。",
+        "categories": [
+          "台灣",
+          "生活"
+        ],
+        "fact_status": "announced",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "police-announcement-cna",
+            "publisher": "中央社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/asoc/202609300023.aspx",
+            "published_at": "2026-09-30",
+            "excerpt": "運用警用無人機。假投資。虛擬貨幣"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "無人機",
+            "clue_draft": "警方公布追緝成果，曾用哪種不用機上駕駛的飛行器追蹤山區嫌犯？",
+            "answer_score": 90,
+            "difficulty": "medium"
+          },
+          {
+            "word": "假投資",
+            "clue_draft": "警方公布的案件中，以理財獲利為幌子的詐騙手法稱為什麼？",
+            "answer_score": 82,
+            "difficulty": "medium"
+          },
+          {
+            "word": "虛擬貨幣",
+            "clue_draft": "警方說明嫌犯以泰達幣轉移款項，這類數位資產的通稱為何？",
+            "answer_score": 83,
+            "difficulty": "medium"
+          }
+        ],
+        "event_scope": "announcement",
+        "underlying_event_period": "2026-07",
+        "dedup_key": "police-announcement",
+        "aliases": [
+          "police-announcement"
+        ],
+        "content_revision": "police-announcement"
+      }
+    },
+    {
+      "word": "國科會",
+      "clue_draft": "本週發布三大科技園區營業額的國家科學及技術委員會，常用簡稱為何？",
+      "answer_score": 86,
+      "difficulty": "medium",
+      "id": "parks-results::國科會",
+      "event_id": "parks-results",
+      "event_revision": "parks-results",
+      "clue": "本週發布三大科技園區營業額的國家科學及技術委員會，常用簡稱為何？（3字）",
+      "source_support": [
+        {
+          "source_id": "parks-results-cna",
+          "evidence": "國科會。"
+        }
+      ],
+      "event": {
+        "event_id": "parks-results",
+        "event_date": "2026-09-29",
+        "title": "國科會公布園區上半年營業額",
+        "summary": "國科會本週發布上半年統計，三大園區合計營業額約三點五四兆元，創歷年同期新高。",
+        "categories": [
+          "台灣",
+          "科技",
+          "財經"
+        ],
+        "fact_status": "confirmed",
+        "event_score": 80,
+        "anchor_event": true,
+        "sources": [
+          {
+            "source_id": "parks-results-cna",
+            "publisher": "中央社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/afe/202609290198.aspx",
+            "published_at": "2026-09-29",
+            "excerpt": "國科會。科學園區。積體電路"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "科學園區",
+            "clue_draft": "主管機關公布上半年營業額，這類聚集科技廠商的特定產業園地稱為何？",
+            "answer_score": 90,
+            "difficulty": "medium"
+          },
+          {
+            "word": "國科會",
+            "clue_draft": "本週發布三大科技園區營業額的國家科學及技術委員會，常用簡稱為何？",
+            "answer_score": 86,
+            "difficulty": "medium"
+          },
+          {
+            "word": "積體電路",
+            "clue_draft": "園區成長產業之一，將多個電子元件整合在小晶片上的電路稱為何？",
+            "answer_score": 86,
+            "difficulty": "medium"
+          }
+        ],
+        "event_scope": "statistical_release",
+        "reference_period": "2026 上半年",
+        "dedup_key": "parks-results",
+        "aliases": [
+          "parks-results"
+        ],
+        "content_revision": "parks-results"
+      }
+    },
+    {
+      "word": "科學園區",
+      "clue_draft": "主管機關公布上半年營業額，這類聚集科技廠商的特定產業園地稱為何？",
+      "answer_score": 90,
+      "difficulty": "medium",
+      "id": "parks-results::科學園區",
+      "event_id": "parks-results",
+      "event_revision": "parks-results",
+      "clue": "主管機關公布上半年營業額，這類聚集科技廠商的特定產業園地稱為何？（4字）",
+      "source_support": [
+        {
+          "source_id": "parks-results-cna",
+          "evidence": "科學園區。"
+        }
+      ],
+      "event": {
+        "event_id": "parks-results",
+        "event_date": "2026-09-29",
+        "title": "國科會公布園區上半年營業額",
+        "summary": "國科會本週發布上半年統計，三大園區合計營業額約三點五四兆元，創歷年同期新高。",
+        "categories": [
+          "台灣",
+          "科技",
+          "財經"
+        ],
+        "fact_status": "confirmed",
+        "event_score": 80,
+        "anchor_event": true,
+        "sources": [
+          {
+            "source_id": "parks-results-cna",
+            "publisher": "中央社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/afe/202609290198.aspx",
+            "published_at": "2026-09-29",
+            "excerpt": "國科會。科學園區。積體電路"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "科學園區",
+            "clue_draft": "主管機關公布上半年營業額，這類聚集科技廠商的特定產業園地稱為何？",
+            "answer_score": 90,
+            "difficulty": "medium"
+          },
+          {
+            "word": "國科會",
+            "clue_draft": "本週發布三大科技園區營業額的國家科學及技術委員會，常用簡稱為何？",
+            "answer_score": 86,
+            "difficulty": "medium"
+          },
+          {
+            "word": "積體電路",
+            "clue_draft": "園區成長產業之一，將多個電子元件整合在小晶片上的電路稱為何？",
+            "answer_score": 86,
+            "difficulty": "medium"
+          }
+        ],
+        "event_scope": "statistical_release",
+        "reference_period": "2026 上半年",
+        "dedup_key": "parks-results",
+        "aliases": [
+          "parks-results"
+        ],
+        "content_revision": "parks-results"
+      }
+    },
+    {
+      "word": "金牌",
+      "clue_draft": "選手晉級爭奪冠軍的決賽，通常頒給第一名的獎章稱為何？",
+      "answer_score": 85,
+      "difficulty": "medium",
+      "id": "boxing-final::金牌",
+      "event_id": "boxing-final",
+      "event_revision": "boxing-final",
+      "clue": "選手晉級爭奪冠軍的決賽，通常頒給第一名的獎章稱為何？（2字）",
+      "source_support": [
+        {
+          "source_id": "boxing-final-cna",
+          "evidence": "金牌戰"
+        }
+      ],
+      "event": {
+        "event_id": "boxing-final",
+        "event_date": "2026-09-29",
+        "title": "陳念琴亞運拳擊晉級決賽",
+        "summary": "陳念琴擊敗北韓對手，進入女子六十五公斤級決賽；此快照尚非決賽勝負。",
+        "categories": [
+          "體育"
+        ],
+        "fact_status": "confirmed",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "boxing-final-cna",
+            "publisher": "中央社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aspt/202609290116.aspx",
+            "published_at": "2026-09-29",
+            "excerpt": "女子拳擊。陳念琴。金牌戰"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "拳擊",
+            "clue_draft": "陳念琴晉級亞運決賽，以戴拳套、用拳頭進攻的競技運動稱為何？",
+            "answer_score": 88,
+            "difficulty": "medium"
+          },
+          {
+            "word": "陳念琴",
+            "clue_draft": "本週晉級亞運女子六十五公斤級決賽、被稱為抗癌女王的台灣選手是誰？",
+            "answer_score": 86,
+            "difficulty": "medium"
+          },
+          {
+            "word": "金牌",
+            "clue_draft": "選手晉級爭奪冠軍的決賽，通常頒給第一名的獎章稱為何？",
+            "answer_score": 85,
+            "difficulty": "medium"
+          }
+        ],
+        "dedup_key": "boxing-final",
+        "aliases": [
+          "boxing-final"
+        ],
+        "content_revision": "boxing-final"
+      }
+    },
+    {
+      "word": "銅牌",
+      "clue_draft": "台灣女子場地車隊擊敗日本後，取得第三名通常頒發的哪一種獎章？",
+      "answer_score": 88,
+      "difficulty": "medium",
+      "id": "cycling-bronze::銅牌",
+      "event_id": "cycling-bronze",
+      "event_revision": "cycling-bronze",
+      "clue": "台灣女子場地車隊擊敗日本後，取得第三名通常頒發的哪一種獎章？（2字）",
+      "source_support": [
+        {
+          "source_id": "cycling-bronze-cna",
+          "evidence": "銅牌"
+        }
+      ],
+      "event": {
+        "event_id": "cycling-bronze",
+        "event_date": "2026-09-29",
+        "title": "台灣亞運女子場地自行車隊摘銅",
+        "summary": "台灣女子場地自行車隊在第三名爭奪賽，以零點零七六秒差擊敗日本。",
+        "categories": [
+          "體育"
+        ],
+        "fact_status": "confirmed",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "cycling-bronze-cna",
+            "publisher": "中央社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aspt/202609290285.aspx",
+            "published_at": "2026-09-29",
+            "excerpt": "自由車場地女子團體競速賽。銅牌"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "團體競速",
+            "clue_draft": "台灣女子隊擊敗日本，由多名選手共同完成的場地速度賽項目稱為何？",
+            "answer_score": 87,
+            "difficulty": "medium"
+          },
+          {
+            "word": "自由車",
+            "clue_draft": "台灣亞運女子隊摘銅，場地自行車運動的台灣慣用三字名稱為何？",
+            "answer_score": 85,
+            "difficulty": "medium"
+          },
+          {
+            "word": "銅牌",
+            "clue_draft": "台灣女子場地車隊擊敗日本後，取得第三名通常頒發的哪一種獎章？",
+            "answer_score": 88,
+            "difficulty": "medium"
+          }
+        ],
+        "dedup_key": "cycling-bronze",
+        "aliases": [
+          "cycling-bronze"
+        ],
+        "content_revision": "cycling-bronze"
+      }
+    },
+    {
+      "word": "利率",
+      "clue_draft": "金價分析提到資金成本，借貸成本占本金的百分比，通稱為何？",
+      "answer_score": 88,
+      "difficulty": "medium",
+      "id": "gold-decline::利率",
+      "event_id": "gold-decline",
+      "event_revision": "gold-decline",
+      "clue": "金價分析提到資金成本，借貸成本占本金的百分比，通稱為何？（2字）",
+      "source_support": [
+        {
+          "source_id": "gold-decline-cna",
+          "evidence": "債券殖利率。"
+        }
+      ],
+      "event": {
+        "event_id": "gold-decline",
+        "event_date": "2026-09-28",
+        "title": "金價受升息預期影響下跌",
+        "summary": "報導描述金價當日下跌逾百分之二，並引述分析師說明公債收益率與油價走高的壓力。",
+        "categories": [
+          "財經",
+          "國際"
+        ],
+        "fact_status": "confirmed",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "gold-decline-cna",
+            "publisher": "中央社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/afe/202609280138.aspx",
+            "published_at": "2026-09-28",
+            "excerpt": "黃金。債券殖利率。高利率環境"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "黃金",
+            "clue_draft": "報導指出價格下跌逾百分之二，常用於首飾、呈黃色的貴金屬為何？",
+            "answer_score": 90,
+            "difficulty": "medium"
+          },
+          {
+            "word": "債券",
+            "clue_draft": "金價分析提到其收益率走高，政府或企業發行、約定還本付息的證券為何？",
+            "answer_score": 84,
+            "difficulty": "medium"
+          },
+          {
+            "word": "殖利率",
+            "clue_draft": "報導談及債券價格與收益的關係，年度收益相對市場價格的比率稱為何？",
+            "answer_score": 82,
+            "difficulty": "medium"
+          },
+          {
+            "word": "利率",
+            "clue_draft": "金價分析提到資金成本，借貸成本占本金的百分比，通稱為何？",
+            "answer_score": 88,
+            "difficulty": "medium"
+          }
+        ],
+        "dedup_key": "gold-decline",
+        "aliases": [
+          "gold-decline"
+        ],
+        "content_revision": "gold-decline"
+      }
+    },
+    {
+      "word": "殖利率",
+      "clue_draft": "報導談及債券價格與收益的關係，年度收益相對市場價格的比率稱為何？",
+      "answer_score": 82,
+      "difficulty": "medium",
+      "id": "gold-decline::殖利率",
+      "event_id": "gold-decline",
+      "event_revision": "gold-decline",
+      "clue": "報導談及債券價格與收益的關係，年度收益相對市場價格的比率稱為何？（3字）",
+      "source_support": [
+        {
+          "source_id": "gold-decline-cna",
+          "evidence": "債券殖利率。"
+        }
+      ],
+      "event": {
+        "event_id": "gold-decline",
+        "event_date": "2026-09-28",
+        "title": "金價受升息預期影響下跌",
+        "summary": "報導描述金價當日下跌逾百分之二，並引述分析師說明公債收益率與油價走高的壓力。",
+        "categories": [
+          "財經",
+          "國際"
+        ],
+        "fact_status": "confirmed",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "gold-decline-cna",
+            "publisher": "中央社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/afe/202609280138.aspx",
+            "published_at": "2026-09-28",
+            "excerpt": "黃金。債券殖利率。高利率環境"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "黃金",
+            "clue_draft": "報導指出價格下跌逾百分之二，常用於首飾、呈黃色的貴金屬為何？",
+            "answer_score": 90,
+            "difficulty": "medium"
+          },
+          {
+            "word": "債券",
+            "clue_draft": "金價分析提到其收益率走高，政府或企業發行、約定還本付息的證券為何？",
+            "answer_score": 84,
+            "difficulty": "medium"
+          },
+          {
+            "word": "殖利率",
+            "clue_draft": "報導談及債券價格與收益的關係，年度收益相對市場價格的比率稱為何？",
+            "answer_score": 82,
+            "difficulty": "medium"
+          },
+          {
+            "word": "利率",
+            "clue_draft": "金價分析提到資金成本，借貸成本占本金的百分比，通稱為何？",
+            "answer_score": 88,
+            "difficulty": "medium"
+          }
+        ],
+        "dedup_key": "gold-decline",
+        "aliases": [
+          "gold-decline"
+        ],
+        "content_revision": "gold-decline"
+      }
+    },
+    {
+      "word": "團體競速",
+      "clue_draft": "台灣女子隊擊敗日本，由多名選手共同完成的場地速度賽項目稱為何？",
+      "answer_score": 87,
+      "difficulty": "medium",
+      "id": "cycling-bronze::團體競速",
+      "event_id": "cycling-bronze",
+      "event_revision": "cycling-bronze",
+      "clue": "台灣女子隊擊敗日本，由多名選手共同完成的場地速度賽項目稱為何？（4字）",
+      "source_support": [
+        {
+          "source_id": "cycling-bronze-cna",
+          "evidence": "自由車場地女子團體競速賽。"
+        }
+      ],
+      "event": {
+        "event_id": "cycling-bronze",
+        "event_date": "2026-09-29",
+        "title": "台灣亞運女子場地自行車隊摘銅",
+        "summary": "台灣女子場地自行車隊在第三名爭奪賽，以零點零七六秒差擊敗日本。",
+        "categories": [
+          "體育"
+        ],
+        "fact_status": "confirmed",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "cycling-bronze-cna",
+            "publisher": "中央社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aspt/202609290285.aspx",
+            "published_at": "2026-09-29",
+            "excerpt": "自由車場地女子團體競速賽。銅牌"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "團體競速",
+            "clue_draft": "台灣女子隊擊敗日本，由多名選手共同完成的場地速度賽項目稱為何？",
+            "answer_score": 87,
+            "difficulty": "medium"
+          },
+          {
+            "word": "自由車",
+            "clue_draft": "台灣亞運女子隊摘銅，場地自行車運動的台灣慣用三字名稱為何？",
+            "answer_score": 85,
+            "difficulty": "medium"
+          },
+          {
+            "word": "銅牌",
+            "clue_draft": "台灣女子場地車隊擊敗日本後，取得第三名通常頒發的哪一種獎章？",
+            "answer_score": 88,
+            "difficulty": "medium"
+          }
+        ],
+        "dedup_key": "cycling-bronze",
+        "aliases": [
+          "cycling-bronze"
+        ],
+        "content_revision": "cycling-bronze"
+      }
+    },
+    {
+      "word": "半導體",
+      "clue_draft": "德州投資仍在評估，晶片使用、導電性介於導體與絕緣體之間的材料為何？",
+      "answer_score": 86,
+      "difficulty": "medium",
+      "id": "tsmc-texas::半導體",
+      "event_id": "tsmc-texas",
+      "event_revision": "tsmc-texas",
+      "clue": "德州投資仍在評估，晶片使用、導電性介於導體與絕緣體之間的材料為何？（3字）",
+      "source_support": [
+        {
+          "source_id": "tsmc-texas-cna",
+          "evidence": "德州有半導體產業基礎"
+        }
+      ],
+      "event": {
+        "event_id": "tsmc-texas",
+        "event_date": "2026-09-29",
+        "title": "台積電德州投資傳聞仍待正式決策",
+        "summary": "媒體傳出赴德州增設園區；國科會指出仍須公司董事會決策及宣布，不是已定案。",
+        "categories": [
+          "台灣",
+          "科技",
+          "財經"
+        ],
+        "fact_status": "considering",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "tsmc-texas-cna",
+            "publisher": "中央社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/afe/202609290281.aspx",
+            "published_at": "2026-09-29",
+            "excerpt": "台積電。德州有半導體產業基礎"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "台積電",
+            "clue_draft": "傳出評估德州設廠、仍待董事會決策的台灣晶圓代工龍頭，簡稱為何？",
+            "answer_score": 94,
+            "difficulty": "medium"
+          },
+          {
+            "word": "德州",
+            "clue_draft": "台積電傳出評估的新園區位於美國哪一州，該州有達拉斯市？",
+            "answer_score": 88,
+            "difficulty": "medium"
+          },
+          {
+            "word": "半導體",
+            "clue_draft": "德州投資仍在評估，晶片使用、導電性介於導體與絕緣體之間的材料為何？",
+            "answer_score": 86,
+            "difficulty": "medium"
+          }
+        ],
+        "dedup_key": "tsmc-texas",
+        "aliases": [
+          "tsmc-texas"
+        ],
+        "content_revision": "tsmc-texas"
+      }
+    },
+    {
+      "word": "文化資產",
+      "clue_draft": "本週頒獎肯定保存工作，具有歷史、藝術等價值的有形或無形事物統稱為何？",
+      "answer_score": 88,
+      "difficulty": "medium",
+      "id": "heritage-awards::文化資產",
+      "event_id": "heritage-awards",
+      "event_revision": "heritage-awards",
+      "clue": "本週頒獎肯定保存工作，具有歷史、藝術等價值的有形或無形事物統稱為何？（4字）",
+      "source_support": [
+        {
+          "source_id": "heritage-awards-cna",
+          "evidence": "文化資產。"
+        }
+      ],
+      "event": {
+        "event_id": "heritage-awards",
+        "event_date": "2026-09-30",
+        "title": "國家文資保存獎頒獎與修復成果",
+        "summary": "第七屆保存獎在台北頒獎，致詞介紹文化部支持保存與活化的政策及建築修復例子。",
+        "categories": [
+          "文化",
+          "台灣"
+        ],
+        "fact_status": "confirmed",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "heritage-awards-cna",
+            "publisher": "中央社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/acul/202609300193.aspx",
+            "published_at": "2026-09-30",
+            "excerpt": "文化資產。文化部。建築保存"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "文化資產",
+            "clue_draft": "本週頒獎肯定保存工作，具有歷史、藝術等價值的有形或無形事物統稱為何？",
+            "answer_score": 88,
+            "difficulty": "medium"
+          },
+          {
+            "word": "文化部",
+            "clue_draft": "保存獎報導提到支持歷史修復計畫，主管台灣文化政策的中央部會為何？",
+            "answer_score": 86,
+            "difficulty": "medium"
+          },
+          {
+            "word": "建築",
+            "clue_draft": "報導提到路思義教堂修復，此類由人營造供使用的構造物，統稱為何？",
+            "answer_score": 78,
+            "difficulty": "medium"
+          }
+        ],
+        "dedup_key": "heritage-awards",
+        "aliases": [
+          "heritage-awards"
+        ],
+        "content_revision": "heritage-awards"
+      }
+    },
+    {
+      "word": "國產化",
+      "clue_draft": "這次選商取消強制要求在本地製造，此類政策常用的三字名稱為何？",
+      "answer_score": 83,
+      "difficulty": "medium",
+      "id": "wind-deadline::國產化",
+      "event_id": "wind-deadline",
+      "event_revision": "wind-deadline",
+      "clue": "這次選商取消強制要求在本地製造，此類政策常用的三字名稱為何？（3字）",
+      "source_support": [
+        {
+          "source_id": "wind-deadline-cna",
+          "evidence": "國產化。"
+        }
+      ],
+      "event": {
+        "event_id": "wind-deadline",
+        "event_date": "2026-09-30",
+        "title": "離岸風電第三期後段選商收件期限",
+        "summary": "九月二十六日報導公告九月三十日收件截止的規則，取消強制在地製造要求；快照未確認實際投標結果。",
+        "categories": [
+          "台灣",
+          "財經"
+        ],
+        "fact_status": "announced",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "wind-deadline-cna",
+            "publisher": "中央社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/afe/202609260023.aspx",
+            "published_at": "2026-09-26",
+            "excerpt": "離岸風電。國產化。供應鏈"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "離岸風電",
+            "clue_draft": "選商公告預定九月三十日截止收件，利用海上風力發電的產業稱為何？",
+            "answer_score": 90,
+            "difficulty": "medium"
+          },
+          {
+            "word": "國產化",
+            "clue_draft": "這次選商取消強制要求在本地製造，此類政策常用的三字名稱為何？",
+            "answer_score": 83,
+            "difficulty": "medium"
+          },
+          {
+            "word": "供應鏈",
+            "clue_draft": "報導提到過去扶持本土廠商，從原料到產品交付相互銜接的體系稱為何？",
+            "answer_score": 82,
+            "difficulty": "medium"
+          }
+        ],
+        "event_scope": "announced_deadline",
+        "dedup_key": "wind-deadline",
+        "aliases": [
+          "wind-deadline"
+        ],
+        "content_revision": "wind-deadline"
+      }
+    }
+  ]
+}

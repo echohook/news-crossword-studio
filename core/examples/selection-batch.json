@@ -1,0 +1,126 @@
+{
+  "cases": [
+    {
+      "id": "anchor-before-short-pair",
+      "operation": "solve",
+      "data": {
+        "candidates": [
+          {
+            "id": "ai",
+            "word": "人工智慧",
+            "event_id": "tech",
+            "event": {
+              "anchor_event": true,
+              "event_score": 90
+            },
+            "answer_score": 90
+          },
+          {
+            "id": "drone",
+            "word": "無人機",
+            "event_id": "police",
+            "answer_score": 80
+          },
+          {
+            "id": "gold",
+            "word": "黃金",
+            "event_id": "market",
+            "answer_score": 95
+          },
+          {
+            "id": "medal",
+            "word": "金牌",
+            "event_id": "sports",
+            "answer_score": 95
+          }
+        ]
+      },
+      "options": {
+        "target": 2,
+        "minEntries": 2,
+        "attempts": 2,
+        "seed": 1
+      },
+      "expect": {
+        "status": "SOLVED",
+        "valid": true,
+        "size": 8,
+        "entryCount": 2,
+        "lengthCounts": {
+          "2": 0,
+          "3": 1,
+          "4": 1
+        }
+      }
+    },
+    {
+      "id": "isolated-anchor-warning",
+      "operation": "solve",
+      "data": {
+        "candidates": [
+          {
+            "id": "ai",
+            "word": "人工智慧",
+            "event_id": "tech",
+            "event": {
+              "anchor_event": true,
+              "event_score": 90
+            },
+            "answer_score": 90
+          },
+          {
+            "id": "drone",
+            "word": "無人機",
+            "event_id": "police",
+            "answer_score": 80
+          },
+          {
+            "id": "gold",
+            "word": "黃金",
+            "event_id": "market",
+            "answer_score": 95
+          },
+          {
+            "id": "medal",
+            "word": "金牌",
+            "event_id": "sports",
+            "answer_score": 95
+          },
+          {
+            "id": "isolated",
+            "word": "天地",
+            "event_id": "isolated-event",
+            "anchor_event": true
+          }
+        ]
+      },
+      "options": {
+        "target": 4,
+        "minEntries": 4,
+        "attempts": 8
+      },
+      "expect": {
+        "status": "SOLVED",
+        "valid": true,
+        "size": 8,
+        "entryCount": 4
+      }
+    },
+    {
+      "id": "real-default",
+      "operation": "pipeline",
+      "input": "news-real-20261001.json",
+      "expect": {
+        "status": "REVIEW_REQUIRED",
+        "valid": true,
+        "size": 8,
+        "entryCount": 12,
+        "lengthCounts": {
+          "4": 4,
+          "3": 5,
+          "2": 3
+        }
+      }
+    }
+  ]
+}

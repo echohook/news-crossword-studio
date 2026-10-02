@@ -1,0 +1,15 @@
+遊戲品質：REVIEW_REQUIRED / 字盤：VALID
+GRID PASS
+NEWS_FACTS_AND_FRESHNESS REVIEW_REQUIRED
+CLUE_UNIQUENESS REVIEW_REQUIRED
+CLUE_MECHANICS PASS
+NEWS_SCOPE PASS
+字數平衡：17.5/20
+主題多樣性：18.26/20
+跨主題交叉：7.5/15
+難度平衡：10/20
+盤面緊湊度：7.27/15
+重點新聞涵蓋：10/10
+原型參考分數：70.53/100
+權重依凍結規格；各項數值公式為原型參考，不會取代新聞、唯一性及正式出版資格檢查。
+正式出版核准：否

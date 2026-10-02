@@ -1,0 +1,74 @@
+{
+  "content_type": "idiom_collection",
+  "checked_at": "2026-10-02",
+  "candidates": [
+    {
+      "id": "idiom-promise",
+      "word": "一諾千金",
+      "event_id": "idiom-promise",
+      "content_kind": "idiom",
+      "categories": [
+        "文化"
+      ],
+      "difficulty": "easy",
+      "answer_score": 90,
+      "clue": "【成語】說出的承諾很有價值，形容守信用；第二字是「諾」。（4字）",
+      "knowledge_source": {
+        "publisher": "教育部《成語典》",
+        "url": "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=69&webMd=1",
+        "meaning": "形容信守承諾，說話算數。"
+      }
+    },
+    {
+      "id": "idiom-halfway",
+      "word": "半途而廢",
+      "event_id": "idiom-halfway",
+      "content_kind": "idiom",
+      "categories": [
+        "文化"
+      ],
+      "difficulty": "easy",
+      "answer_score": 90,
+      "clue": "【成語】事情尚未做完便中途放棄；第二字是「途」。（4字）",
+      "knowledge_source": {
+        "publisher": "教育部《成語典》",
+        "meaning": "事情沒做成功就停止，比喻做事情有始無終。",
+        "url": "https://dict.idioms.moe.edu.tw/bookView.jsp?ID=11111111"
+      }
+    },
+    {
+      "id": "idiom-lucky",
+      "word": "大吉大利",
+      "event_id": "idiom-lucky",
+      "content_kind": "idiom",
+      "categories": [
+        "文化"
+      ],
+      "difficulty": "easy",
+      "answer_score": 90,
+      "clue": "【成語】祝福非常吉祥順利，第一與第三字都是「大」。（4字）",
+      "knowledge_source": {
+        "publisher": "教育部《國語辭典簡編本》",
+        "url": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=7167&la=0&powerMode=0",
+        "meaning": "形容非常吉利。"
+      }
+    },
+    {
+      "id": "idiom-peace",
+      "word": "國泰民安",
+      "event_id": "idiom-peace",
+      "content_kind": "idiom",
+      "categories": [
+        "文化"
+      ],
+      "difficulty": "easy",
+      "answer_score": 90,
+      "clue": "【成語】祝福國家安定、人民安樂；第二字是「泰」。（4字）",
+      "knowledge_source": {
+        "publisher": "教育部臺灣客語辭典",
+        "url": "https://hakkadict.moe.edu.tw/search_result/?id=9186",
+        "meaning": "國家安定，人民安樂。"
+      }
+    }
+  ]
+}

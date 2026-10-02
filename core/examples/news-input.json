@@ -1,0 +1,847 @@
+{
+  "issue_date": "2026-10-01",
+  "dataset_mode": "fixture",
+  "note": "合成邏輯測試，不代表真實新聞",
+  "events": [
+    {
+      "event_id": "event-01",
+      "event_date": "2026-09-25",
+      "title": "合成事件：台積電",
+      "summary": "測試事件與候選資料關聯。",
+      "categories": [
+        "科技"
+      ],
+      "fact_status": "confirmed",
+      "event_score": 90,
+      "anchor_event": true,
+      "sources": [
+        {
+          "source_id": "source-0",
+          "publisher": "合成測試資料",
+          "kind": "fixture",
+          "url": "https://example.invalid/fixture/event-01",
+          "published_at": "2026-10-01",
+          "excerpt": "本事件以「台積電」作為測試詞彙。"
+        }
+      ],
+      "keywords": [
+        {
+          "word": "台積電",
+          "clue_draft": "台灣晶圓代工企業的常用簡稱。",
+          "answer_score": 90,
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "event_id": "event-02",
+      "event_date": "2026-09-26",
+      "title": "合成事件：電競",
+      "summary": "測試事件與候選資料關聯。",
+      "categories": [
+        "國際"
+      ],
+      "fact_status": "confirmed",
+      "event_score": 90,
+      "anchor_event": false,
+      "sources": [
+        {
+          "source_id": "source-1",
+          "publisher": "合成測試資料",
+          "kind": "fixture",
+          "url": "https://example.invalid/fixture/event-02",
+          "published_at": "2026-10-01",
+          "excerpt": "本事件以「電競」作為測試詞彙。"
+        }
+      ],
+      "keywords": [
+        {
+          "word": "電競",
+          "clue_draft": "電子競技的常用簡稱。",
+          "answer_score": 90,
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "event_id": "event-03",
+      "event_date": "2026-09-27",
+      "title": "合成事件：半導體",
+      "summary": "測試事件與候選資料關聯。",
+      "categories": [
+        "科技"
+      ],
+      "fact_status": "confirmed",
+      "event_score": 90,
+      "anchor_event": false,
+      "sources": [
+        {
+          "source_id": "source-2",
+          "publisher": "合成測試資料",
+          "kind": "fixture",
+          "url": "https://example.invalid/fixture/event-03",
+          "published_at": "2026-10-01",
+          "excerpt": "本事件以「半導體」作為測試詞彙。"
+        }
+      ],
+      "keywords": [
+        {
+          "word": "半導體",
+          "clue_draft": "導電性介於導體與絕緣體之間的材料。",
+          "answer_score": 90,
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "event_id": "event-04",
+      "event_date": "2026-09-28",
+      "title": "合成事件：團體競速",
+      "summary": "測試事件與候選資料關聯。",
+      "categories": [
+        "國際"
+      ],
+      "fact_status": "confirmed",
+      "event_score": 90,
+      "anchor_event": false,
+      "sources": [
+        {
+          "source_id": "source-3",
+          "publisher": "合成測試資料",
+          "kind": "fixture",
+          "url": "https://example.invalid/fixture/event-04",
+          "published_at": "2026-10-01",
+          "excerpt": "本事件以「團體競速」作為測試詞彙。"
+        }
+      ],
+      "keywords": [
+        {
+          "word": "團體競速",
+          "clue_draft": "自行車場地賽中由多名選手共同完成的速度項目。",
+          "answer_score": 90,
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "event_id": "event-05",
+      "event_date": "2026-09-29",
+      "title": "合成事件：人工智慧",
+      "summary": "測試事件與候選資料關聯。",
+      "categories": [
+        "科技"
+      ],
+      "fact_status": "confirmed",
+      "event_score": 90,
+      "anchor_event": false,
+      "sources": [
+        {
+          "source_id": "source-4",
+          "publisher": "合成測試資料",
+          "kind": "fixture",
+          "url": "https://example.invalid/fixture/event-05",
+          "published_at": "2026-10-01",
+          "excerpt": "本事件以「人工智慧」作為測試詞彙。"
+        }
+      ],
+      "keywords": [
+        {
+          "word": "人工智慧",
+          "clue_draft": "讓電腦模擬人類智慧的技術領域。",
+          "answer_score": 90,
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "event_id": "event-06",
+      "event_date": "2026-09-30",
+      "title": "合成事件：無人機",
+      "summary": "測試事件與候選資料關聯。",
+      "categories": [
+        "國際"
+      ],
+      "fact_status": "confirmed",
+      "event_score": 90,
+      "anchor_event": false,
+      "sources": [
+        {
+          "source_id": "source-5",
+          "publisher": "合成測試資料",
+          "kind": "fixture",
+          "url": "https://example.invalid/fixture/event-06",
+          "published_at": "2026-10-01",
+          "excerpt": "本事件以「無人機」作為測試詞彙。"
+        }
+      ],
+      "keywords": [
+        {
+          "word": "無人機",
+          "clue_draft": "不需機上駕駛操作的飛行器。",
+          "answer_score": 90,
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "event_id": "event-07",
+      "event_date": "2026-10-01",
+      "title": "合成事件：美軍",
+      "summary": "測試事件與候選資料關聯。",
+      "categories": [
+        "科技"
+      ],
+      "fact_status": "confirmed",
+      "event_score": 90,
+      "anchor_event": false,
+      "sources": [
+        {
+          "source_id": "source-6",
+          "publisher": "合成測試資料",
+          "kind": "fixture",
+          "url": "https://example.invalid/fixture/event-07",
+          "published_at": "2026-10-01",
+          "excerpt": "本事件以「美軍」作為測試詞彙。"
+        }
+      ],
+      "keywords": [
+        {
+          "word": "美軍",
+          "clue_draft": "美國的武裝部隊常用簡稱。",
+          "answer_score": 90,
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "event_id": "event-08",
+      "event_date": "2026-09-25",
+      "title": "合成事件：撤軍",
+      "summary": "測試事件與候選資料關聯。",
+      "categories": [
+        "國際"
+      ],
+      "fact_status": "confirmed",
+      "event_score": 90,
+      "anchor_event": false,
+      "sources": [
+        {
+          "source_id": "source-7",
+          "publisher": "合成測試資料",
+          "kind": "fixture",
+          "url": "https://example.invalid/fixture/event-08",
+          "published_at": "2026-10-01",
+          "excerpt": "本事件以「撤軍」作為測試詞彙。"
+        }
+      ],
+      "keywords": [
+        {
+          "word": "撤軍",
+          "clue_draft": "將部隊從原駐地退出的行動。",
+          "answer_score": 90,
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "event_id": "event-09",
+      "event_date": "2026-09-26",
+      "title": "合成事件：黃金",
+      "summary": "測試事件與候選資料關聯。",
+      "categories": [
+        "科技"
+      ],
+      "fact_status": "confirmed",
+      "event_score": 90,
+      "anchor_event": false,
+      "sources": [
+        {
+          "source_id": "source-8",
+          "publisher": "合成測試資料",
+          "kind": "fixture",
+          "url": "https://example.invalid/fixture/event-09",
+          "published_at": "2026-10-01",
+          "excerpt": "本事件以「黃金」作為測試詞彙。"
+        }
+      ],
+      "keywords": [
+        {
+          "word": "黃金",
+          "clue_draft": "常用於首飾、呈黃色的貴金屬。",
+          "answer_score": 90,
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "event_id": "event-10",
+      "event_date": "2026-09-27",
+      "title": "合成事件：金牌",
+      "summary": "測試事件與候選資料關聯。",
+      "categories": [
+        "國際"
+      ],
+      "fact_status": "confirmed",
+      "event_score": 90,
+      "anchor_event": false,
+      "sources": [
+        {
+          "source_id": "source-9",
+          "publisher": "合成測試資料",
+          "kind": "fixture",
+          "url": "https://example.invalid/fixture/event-10",
+          "published_at": "2026-10-01",
+          "excerpt": "本事件以「金牌」作為測試詞彙。"
+        }
+      ],
+      "keywords": [
+        {
+          "word": "金牌",
+          "clue_draft": "競賽第一名通常獲頒的獎牌。",
+          "answer_score": 90,
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "event_id": "event-11",
+      "event_date": "2026-09-28",
+      "title": "合成事件：債市",
+      "summary": "測試事件與候選資料關聯。",
+      "categories": [
+        "科技"
+      ],
+      "fact_status": "confirmed",
+      "event_score": 90,
+      "anchor_event": false,
+      "sources": [
+        {
+          "source_id": "source-10",
+          "publisher": "合成測試資料",
+          "kind": "fixture",
+          "url": "https://example.invalid/fixture/event-11",
+          "published_at": "2026-10-01",
+          "excerpt": "本事件以「債市」作為測試詞彙。"
+        }
+      ],
+      "keywords": [
+        {
+          "word": "債市",
+          "clue_draft": "固定收益證券交易市場的常用簡稱。",
+          "answer_score": 90,
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "event_id": "event-12",
+      "event_date": "2026-09-29",
+      "title": "合成事件：債券",
+      "summary": "測試事件與候選資料關聯。",
+      "categories": [
+        "國際"
+      ],
+      "fact_status": "confirmed",
+      "event_score": 90,
+      "anchor_event": false,
+      "sources": [
+        {
+          "source_id": "source-11",
+          "publisher": "合成測試資料",
+          "kind": "fixture",
+          "url": "https://example.invalid/fixture/event-12",
+          "published_at": "2026-10-01",
+          "excerpt": "本事件以「債券」作為測試詞彙。"
+        }
+      ],
+      "keywords": [
+        {
+          "word": "債券",
+          "clue_draft": "政府或企業發行、約定還本付息的證券。",
+          "answer_score": 90,
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "event_id": "event-13",
+      "event_date": "2026-09-30",
+      "title": "合成事件：利率",
+      "summary": "測試事件與候選資料關聯。",
+      "categories": [
+        "科技"
+      ],
+      "fact_status": "confirmed",
+      "event_score": 90,
+      "anchor_event": false,
+      "sources": [
+        {
+          "source_id": "source-12",
+          "publisher": "合成測試資料",
+          "kind": "fixture",
+          "url": "https://example.invalid/fixture/event-13",
+          "published_at": "2026-10-01",
+          "excerpt": "本事件以「利率」作為測試詞彙。"
+        }
+      ],
+      "keywords": [
+        {
+          "word": "利率",
+          "clue_draft": "借貸成本常以本金百分比表示的金融指標。",
+          "answer_score": 90,
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "event_id": "event-14",
+      "event_date": "2026-10-01",
+      "title": "合成事件：殖利率",
+      "summary": "測試事件與候選資料關聯。",
+      "categories": [
+        "國際"
+      ],
+      "fact_status": "confirmed",
+      "event_score": 90,
+      "anchor_event": false,
+      "sources": [
+        {
+          "source_id": "source-13",
+          "publisher": "合成測試資料",
+          "kind": "fixture",
+          "url": "https://example.invalid/fixture/event-14",
+          "published_at": "2026-10-01",
+          "excerpt": "本事件以「殖利率」作為測試詞彙。"
+        }
+      ],
+      "keywords": [
+        {
+          "word": "殖利率",
+          "clue_draft": "投資收益與市場價格相比所得的報酬率指標。",
+          "answer_score": 90,
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "event_id": "event-15",
+      "event_date": "2026-09-25",
+      "title": "合成事件：單槓",
+      "summary": "測試事件與候選資料關聯。",
+      "categories": [
+        "科技"
+      ],
+      "fact_status": "confirmed",
+      "event_score": 90,
+      "anchor_event": false,
+      "sources": [
+        {
+          "source_id": "source-14",
+          "publisher": "合成測試資料",
+          "kind": "fixture",
+          "url": "https://example.invalid/fixture/event-15",
+          "published_at": "2026-10-01",
+          "excerpt": "本事件以「單槓」作為測試詞彙。"
+        }
+      ],
+      "keywords": [
+        {
+          "word": "單槓",
+          "clue_draft": "體操選手在一根水平橫桿上完成動作的器械項目。",
+          "answer_score": 90,
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "event_id": "event-16",
+      "event_date": "2026-09-26",
+      "title": "合成事件：槓桿",
+      "summary": "測試事件與候選資料關聯。",
+      "categories": [
+        "國際"
+      ],
+      "fact_status": "confirmed",
+      "event_score": 90,
+      "anchor_event": false,
+      "sources": [
+        {
+          "source_id": "source-15",
+          "publisher": "合成測試資料",
+          "kind": "fixture",
+          "url": "https://example.invalid/fixture/event-16",
+          "published_at": "2026-10-01",
+          "excerpt": "本事件以「槓桿」作為測試詞彙。"
+        }
+      ],
+      "keywords": [
+        {
+          "word": "槓桿",
+          "clue_draft": "以支點放大作用力，也用來比喻借貸放大投資的機制。",
+          "answer_score": 90,
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "event_id": "event-17",
+      "event_date": "2026-09-27",
+      "title": "合成事件：女籃",
+      "summary": "測試事件與候選資料關聯。",
+      "categories": [
+        "科技"
+      ],
+      "fact_status": "confirmed",
+      "event_score": 90,
+      "anchor_event": false,
+      "sources": [
+        {
+          "source_id": "source-16",
+          "publisher": "合成測試資料",
+          "kind": "fixture",
+          "url": "https://example.invalid/fixture/event-17",
+          "published_at": "2026-10-01",
+          "excerpt": "本事件以「女籃」作為測試詞彙。"
+        }
+      ],
+      "keywords": [
+        {
+          "word": "女籃",
+          "clue_draft": "女子代表隊參加的投籃球類項目常用簡稱。",
+          "answer_score": 90,
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "event_id": "event-18",
+      "event_date": "2026-09-28",
+      "title": "合成事件：籃球",
+      "summary": "測試事件與候選資料關聯。",
+      "categories": [
+        "國際"
+      ],
+      "fact_status": "confirmed",
+      "event_score": 90,
+      "anchor_event": false,
+      "sources": [
+        {
+          "source_id": "source-17",
+          "publisher": "合成測試資料",
+          "kind": "fixture",
+          "url": "https://example.invalid/fixture/event-18",
+          "published_at": "2026-10-01",
+          "excerpt": "本事件以「籃球」作為測試詞彙。"
+        }
+      ],
+      "keywords": [
+        {
+          "word": "籃球",
+          "clue_draft": "兩隊將球投入高處球框、以得分競勝的運動。",
+          "answer_score": 90,
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "event_id": "event-19",
+      "event_date": "2026-09-29",
+      "title": "合成事件：聯合國",
+      "summary": "測試事件與候選資料關聯。",
+      "categories": [
+        "科技"
+      ],
+      "fact_status": "confirmed",
+      "event_score": 90,
+      "anchor_event": false,
+      "sources": [
+        {
+          "source_id": "source-18",
+          "publisher": "合成測試資料",
+          "kind": "fixture",
+          "url": "https://example.invalid/fixture/event-19",
+          "published_at": "2026-10-01",
+          "excerpt": "本事件以「聯合國」作為測試詞彙。"
+        }
+      ],
+      "keywords": [
+        {
+          "word": "聯合國",
+          "clue_draft": "成立於一九四五年的全球性國際組織。",
+          "answer_score": 90,
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "event_id": "event-20",
+      "event_date": "2026-09-30",
+      "title": "合成事件：中國",
+      "summary": "測試事件與候選資料關聯。",
+      "categories": [
+        "國際"
+      ],
+      "fact_status": "confirmed",
+      "event_score": 90,
+      "anchor_event": false,
+      "sources": [
+        {
+          "source_id": "source-19",
+          "publisher": "合成測試資料",
+          "kind": "fixture",
+          "url": "https://example.invalid/fixture/event-20",
+          "published_at": "2026-10-01",
+          "excerpt": "本事件以「中國」作為測試詞彙。"
+        }
+      ],
+      "keywords": [
+        {
+          "word": "中國",
+          "clue_draft": "首都為北京的亞洲國家。",
+          "answer_score": 90,
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "event_id": "event-21",
+      "event_date": "2026-10-01",
+      "title": "合成事件：智慧城市",
+      "summary": "測試事件與候選資料關聯。",
+      "categories": [
+        "科技"
+      ],
+      "fact_status": "confirmed",
+      "event_score": 90,
+      "anchor_event": false,
+      "sources": [
+        {
+          "source_id": "source-20",
+          "publisher": "合成測試資料",
+          "kind": "fixture",
+          "url": "https://example.invalid/fixture/event-21",
+          "published_at": "2026-10-01",
+          "excerpt": "本事件以「智慧城市」作為測試詞彙。"
+        }
+      ],
+      "keywords": [
+        {
+          "word": "智慧城市",
+          "clue_draft": "運用數位技術改善交通、能源等公共服務的都市。",
+          "answer_score": 90,
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "event_id": "event-22",
+      "event_date": "2026-09-25",
+      "title": "合成事件：城市",
+      "summary": "測試事件與候選資料關聯。",
+      "categories": [
+        "國際"
+      ],
+      "fact_status": "confirmed",
+      "event_score": 90,
+      "anchor_event": false,
+      "sources": [
+        {
+          "source_id": "source-21",
+          "publisher": "合成測試資料",
+          "kind": "fixture",
+          "url": "https://example.invalid/fixture/event-22",
+          "published_at": "2026-10-01",
+          "excerpt": "本事件以「城市」作為測試詞彙。"
+        }
+      ],
+      "keywords": [
+        {
+          "word": "城市",
+          "clue_draft": "人口密集、商業與公共服務集中的聚落。",
+          "answer_score": 90,
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "event_id": "event-23",
+      "event_date": "2026-09-26",
+      "title": "合成事件：再生能源",
+      "summary": "測試事件與候選資料關聯。",
+      "categories": [
+        "科技"
+      ],
+      "fact_status": "confirmed",
+      "event_score": 90,
+      "anchor_event": false,
+      "sources": [
+        {
+          "source_id": "source-22",
+          "publisher": "合成測試資料",
+          "kind": "fixture",
+          "url": "https://example.invalid/fixture/event-23",
+          "published_at": "2026-10-01",
+          "excerpt": "本事件以「再生能源」作為測試詞彙。"
+        }
+      ],
+      "keywords": [
+        {
+          "word": "再生能源",
+          "clue_draft": "利用陽光、風力等可持續補充來源取得的能量。",
+          "answer_score": 90,
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "event_id": "event-24",
+      "event_date": "2026-09-27",
+      "title": "合成事件：能源",
+      "summary": "測試事件與候選資料關聯。",
+      "categories": [
+        "國際"
+      ],
+      "fact_status": "confirmed",
+      "event_score": 90,
+      "anchor_event": false,
+      "sources": [
+        {
+          "source_id": "source-23",
+          "publisher": "合成測試資料",
+          "kind": "fixture",
+          "url": "https://example.invalid/fixture/event-24",
+          "published_at": "2026-10-01",
+          "excerpt": "本事件以「能源」作為測試詞彙。"
+        }
+      ],
+      "keywords": [
+        {
+          "word": "能源",
+          "clue_draft": "可用來供熱、發電或提供動力的資源。",
+          "answer_score": 90,
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "event_id": "event-25",
+      "event_date": "2026-09-28",
+      "title": "合成事件：國際合作",
+      "summary": "測試事件與候選資料關聯。",
+      "categories": [
+        "科技"
+      ],
+      "fact_status": "confirmed",
+      "event_score": 90,
+      "anchor_event": false,
+      "sources": [
+        {
+          "source_id": "source-24",
+          "publisher": "合成測試資料",
+          "kind": "fixture",
+          "url": "https://example.invalid/fixture/event-25",
+          "published_at": "2026-10-01",
+          "excerpt": "本事件以「國際合作」作為測試詞彙。"
+        }
+      ],
+      "keywords": [
+        {
+          "word": "國際合作",
+          "clue_draft": "多個國家共同協力處理議題的行動。",
+          "answer_score": 90,
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "event_id": "event-26",
+      "event_date": "2026-09-29",
+      "title": "合成事件：合作社",
+      "summary": "測試事件與候選資料關聯。",
+      "categories": [
+        "國際"
+      ],
+      "fact_status": "confirmed",
+      "event_score": 90,
+      "anchor_event": false,
+      "sources": [
+        {
+          "source_id": "source-25",
+          "publisher": "合成測試資料",
+          "kind": "fixture",
+          "url": "https://example.invalid/fixture/event-26",
+          "published_at": "2026-10-01",
+          "excerpt": "本事件以「合作社」作為測試詞彙。"
+        }
+      ],
+      "keywords": [
+        {
+          "word": "合作社",
+          "clue_draft": "成員共同出資、共同管理的互助組織。",
+          "answer_score": 90,
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "event_id": "event-27",
+      "event_date": "2026-09-30",
+      "title": "合成事件：全民運動",
+      "summary": "測試事件與候選資料關聯。",
+      "categories": [
+        "科技"
+      ],
+      "fact_status": "confirmed",
+      "event_score": 90,
+      "anchor_event": false,
+      "sources": [
+        {
+          "source_id": "source-26",
+          "publisher": "合成測試資料",
+          "kind": "fixture",
+          "url": "https://example.invalid/fixture/event-27",
+          "published_at": "2026-10-01",
+          "excerpt": "本事件以「全民運動」作為測試詞彙。"
+        }
+      ],
+      "keywords": [
+        {
+          "word": "全民運動",
+          "clue_draft": "鼓勵所有民眾持續參與體育活動的理念。",
+          "answer_score": 90,
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "event_id": "event-28",
+      "event_date": "2026-10-01",
+      "title": "合成事件：運動員",
+      "summary": "測試事件與候選資料關聯。",
+      "categories": [
+        "國際"
+      ],
+      "fact_status": "confirmed",
+      "event_score": 90,
+      "anchor_event": false,
+      "sources": [
+        {
+          "source_id": "source-27",
+          "publisher": "合成測試資料",
+          "kind": "fixture",
+          "url": "https://example.invalid/fixture/event-28",
+          "published_at": "2026-10-01",
+          "excerpt": "本事件以「運動員」作為測試詞彙。"
+        }
+      ],
+      "keywords": [
+        {
+          "word": "運動員",
+          "clue_draft": "接受訓練並參加體育競賽的人。",
+          "answer_score": 90,
+          "difficulty": "medium"
+        }
+      ]
+    }
+  ]
+}

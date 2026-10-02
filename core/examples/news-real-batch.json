@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "cases": [
+    {
+      "id": "real-news-balanced",
+      "operation": "pipeline",
+      "input": "news-real-20261001.json",
+      "options": {
+        "attempts": 256,
+        "seed": 2
+      },
+      "expect": {
+        "status": "REVIEW_REQUIRED",
+        "valid": true,
+        "size": 8,
+        "entryCount": 12,
+        "lengthCounts": {
+          "4": 4,
+          "3": 5,
+          "2": 3
+        }
+      }
+    },
+    {
+      "id": "real-news-export",
+      "operation": "validate",
+      "input": "news-real-puzzle.json",
+      "expect": {
+        "status": "VALID",
+        "valid": true,
+        "entryCount": 12
+      }
+    },
+    {
+      "id": "real-news-extra-zhi-che",
+      "operation": "validate",
+      "input": "news-real-invalid-zhi-che.json",
+      "expect": {
+        "status": "INVALID",
+        "valid": false
+      }
+    }
+  ]
+}

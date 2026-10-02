@@ -1,0 +1,305 @@
+{
+  "schema_version": "1.0",
+  "board": [
+    [
+      "■",
+      "中",
+      "■",
+      "聯",
+      "■",
+      "台",
+      "積",
+      "電"
+    ],
+    [
+      "■",
+      "國",
+      "際",
+      "合",
+      "作",
+      "■",
+      "■",
+      "競"
+    ],
+    [
+      "人",
+      "■",
+      "■",
+      "國",
+      "■",
+      "■",
+      "■",
+      "■"
+    ],
+    [
+      "工",
+      "■",
+      "■",
+      "■",
+      "全",
+      "民",
+      "運",
+      "動"
+    ],
+    [
+      "智",
+      "慧",
+      "城",
+      "市",
+      "■",
+      "■",
+      "動",
+      "■"
+    ],
+    [
+      "慧",
+      "■",
+      "市",
+      "■",
+      "■",
+      "■",
+      "員",
+      "■"
+    ],
+    [
+      "■",
+      "■",
+      "■",
+      "殖",
+      "利",
+      "率",
+      "■",
+      "■"
+    ],
+    [
+      "■",
+      "■",
+      "■",
+      "■",
+      "率",
+      "■",
+      "■",
+      "■"
+    ]
+  ],
+  "placements": [
+    {
+      "candidate_id": "c19",
+      "direction": "V",
+      "row": 0,
+      "col": 3
+    },
+    {
+      "candidate_id": "c25",
+      "direction": "H",
+      "row": 1,
+      "col": 1
+    },
+    {
+      "candidate_id": "c20",
+      "direction": "V",
+      "row": 0,
+      "col": 1
+    },
+    {
+      "candidate_id": "c21",
+      "direction": "H",
+      "row": 4,
+      "col": 0
+    },
+    {
+      "candidate_id": "c22",
+      "direction": "V",
+      "row": 4,
+      "col": 2
+    },
+    {
+      "candidate_id": "c27",
+      "direction": "H",
+      "row": 3,
+      "col": 4
+    },
+    {
+      "candidate_id": "c28",
+      "direction": "V",
+      "row": 3,
+      "col": 6
+    },
+    {
+      "candidate_id": "c13",
+      "direction": "V",
+      "row": 6,
+      "col": 4
+    },
+    {
+      "candidate_id": "c14",
+      "direction": "H",
+      "row": 6,
+      "col": 3
+    },
+    {
+      "candidate_id": "c05",
+      "direction": "V",
+      "row": 2,
+      "col": 0
+    },
+    {
+      "candidate_id": "c01",
+      "direction": "H",
+      "row": 0,
+      "col": 5
+    },
+    {
+      "candidate_id": "c02",
+      "direction": "V",
+      "row": 0,
+      "col": 7
+    }
+  ],
+  "expected": [
+    {
+      "id": "c19",
+      "word": "聯合國",
+      "event_id": "fixture-event-18",
+      "clue": "",
+      "difficulty": "fixture",
+      "source_support": [],
+      "event": {
+        "fact_status": "fixture",
+        "title": "邏輯測試事件"
+      }
+    },
+    {
+      "id": "c25",
+      "word": "國際合作",
+      "event_id": "fixture-event-24",
+      "clue": "",
+      "difficulty": "fixture",
+      "source_support": [],
+      "event": {
+        "fact_status": "fixture",
+        "title": "邏輯測試事件"
+      }
+    },
+    {
+      "id": "c20",
+      "word": "中國",
+      "event_id": "fixture-event-19",
+      "clue": "",
+      "difficulty": "fixture",
+      "source_support": [],
+      "event": {
+        "fact_status": "fixture",
+        "title": "邏輯測試事件"
+      }
+    },
+    {
+      "id": "c21",
+      "word": "智慧城市",
+      "event_id": "fixture-event-20",
+      "clue": "",
+      "difficulty": "fixture",
+      "source_support": [],
+      "event": {
+        "fact_status": "fixture",
+        "title": "邏輯測試事件"
+      }
+    },
+    {
+      "id": "c22",
+      "word": "城市",
+      "event_id": "fixture-event-21",
+      "clue": "",
+      "difficulty": "fixture",
+      "source_support": [],
+      "event": {
+        "fact_status": "fixture",
+        "title": "邏輯測試事件"
+      }
+    },
+    {
+      "id": "c27",
+      "word": "全民運動",
+      "event_id": "fixture-event-26",
+      "clue": "",
+      "difficulty": "fixture",
+      "source_support": [],
+      "event": {
+        "fact_status": "fixture",
+        "title": "邏輯測試事件"
+      }
+    },
+    {
+      "id": "c28",
+      "word": "運動員",
+      "event_id": "fixture-event-27",
+      "clue": "",
+      "difficulty": "fixture",
+      "source_support": [],
+      "event": {
+        "fact_status": "fixture",
+        "title": "邏輯測試事件"
+      }
+    },
+    {
+      "id": "c13",
+      "word": "利率",
+      "event_id": "fixture-event-12",
+      "clue": "",
+      "difficulty": "fixture",
+      "source_support": [],
+      "event": {
+        "fact_status": "fixture",
+        "title": "邏輯測試事件"
+      }
+    },
+    {
+      "id": "c14",
+      "word": "殖利率",
+      "event_id": "fixture-event-13",
+      "clue": "",
+      "difficulty": "fixture",
+      "source_support": [],
+      "event": {
+        "fact_status": "fixture",
+        "title": "邏輯測試事件"
+      }
+    },
+    {
+      "id": "c05",
+      "word": "人工智慧",
+      "event_id": "fixture-event-4",
+      "clue": "讓電腦模擬人類智慧的技術領域。（4字）",
+      "difficulty": "fixture",
+      "source_support": [],
+      "event": {
+        "fact_status": "fixture",
+        "title": "邏輯測試事件"
+      }
+    },
+    {
+      "id": "c01",
+      "word": "台積電",
+      "event_id": "fixture-event-0",
+      "clue": "台灣晶圓代工企業的常用簡稱。（3字）",
+      "difficulty": "fixture",
+      "source_support": [],
+      "event": {
+        "fact_status": "fixture",
+        "title": "邏輯測試事件"
+      }
+    },
+    {
+      "id": "c02",
+      "word": "電競",
+      "event_id": "fixture-event-1",
+      "clue": "電子競技的簡稱。（2字）",
+      "difficulty": "fixture",
+      "source_support": [],
+      "event": {
+        "fact_status": "fixture",
+        "title": "邏輯測試事件"
+      }
+    }
+  ]
+}

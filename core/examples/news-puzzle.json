@@ -1,0 +1,773 @@
+{
+  "schema_version": "1.0",
+  "board": [
+    [
+      "智",
+      "慧",
+      "城",
+      "市",
+      "■",
+      "半",
+      "■",
+      "■"
+    ],
+    [
+      "■",
+      "■",
+      "市",
+      "■",
+      "■",
+      "導",
+      "■",
+      "■"
+    ],
+    [
+      "■",
+      "■",
+      "■",
+      "■",
+      "團",
+      "體",
+      "競",
+      "速"
+    ],
+    [
+      "女",
+      "籃",
+      "■",
+      "■",
+      "■",
+      "■",
+      "■",
+      "■"
+    ],
+    [
+      "■",
+      "球",
+      "■",
+      "■",
+      "■",
+      "■",
+      "全",
+      "■"
+    ],
+    [
+      "聯",
+      "■",
+      "台",
+      "積",
+      "電",
+      "■",
+      "民",
+      "■"
+    ],
+    [
+      "合",
+      "■",
+      "■",
+      "■",
+      "競",
+      "■",
+      "運",
+      "■"
+    ],
+    [
+      "國",
+      "際",
+      "合",
+      "作",
+      "■",
+      "運",
+      "動",
+      "員"
+    ]
+  ],
+  "placements": [
+    {
+      "candidate_id": "event-01::台積電",
+      "direction": "H",
+      "row": 5,
+      "col": 2
+    },
+    {
+      "candidate_id": "event-02::電競",
+      "direction": "V",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "candidate_id": "event-27::全民運動",
+      "direction": "V",
+      "row": 4,
+      "col": 6
+    },
+    {
+      "candidate_id": "event-28::運動員",
+      "direction": "H",
+      "row": 7,
+      "col": 5
+    },
+    {
+      "candidate_id": "event-21::智慧城市",
+      "direction": "H",
+      "row": 0,
+      "col": 0
+    },
+    {
+      "candidate_id": "event-22::城市",
+      "direction": "V",
+      "row": 0,
+      "col": 2
+    },
+    {
+      "candidate_id": "event-03::半導體",
+      "direction": "V",
+      "row": 0,
+      "col": 5
+    },
+    {
+      "candidate_id": "event-04::團體競速",
+      "direction": "H",
+      "row": 2,
+      "col": 4
+    },
+    {
+      "candidate_id": "event-17::女籃",
+      "direction": "H",
+      "row": 3,
+      "col": 0
+    },
+    {
+      "candidate_id": "event-18::籃球",
+      "direction": "V",
+      "row": 3,
+      "col": 1
+    },
+    {
+      "candidate_id": "event-19::聯合國",
+      "direction": "V",
+      "row": 5,
+      "col": 0
+    },
+    {
+      "candidate_id": "event-25::國際合作",
+      "direction": "H",
+      "row": 7,
+      "col": 0
+    }
+  ],
+  "expected": [
+    {
+      "word": "台積電",
+      "clue_draft": "台灣晶圓代工企業的常用簡稱。",
+      "answer_score": 90,
+      "difficulty": "medium",
+      "id": "event-01::台積電",
+      "event_id": "event-01",
+      "event_revision": "event-01",
+      "clue": "台灣晶圓代工企業的常用簡稱。（3字）",
+      "source_support": [
+        {
+          "source_id": "source-0",
+          "evidence": "本事件以「台積電」作為測試詞彙。"
+        }
+      ],
+      "event": {
+        "event_id": "event-01",
+        "event_date": "2026-09-25",
+        "title": "合成事件：台積電",
+        "summary": "測試事件與候選資料關聯。",
+        "categories": [
+          "科技"
+        ],
+        "fact_status": "confirmed",
+        "event_score": 90,
+        "anchor_event": true,
+        "sources": [
+          {
+            "source_id": "source-0",
+            "publisher": "合成測試資料",
+            "kind": "fixture",
+            "url": "https://example.invalid/fixture/event-01",
+            "published_at": "2026-10-01",
+            "excerpt": "本事件以「台積電」作為測試詞彙。"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "台積電",
+            "clue_draft": "台灣晶圓代工企業的常用簡稱。",
+            "answer_score": 90,
+            "difficulty": "medium"
+          }
+        ],
+        "dedup_key": "event-01",
+        "aliases": [
+          "event-01"
+        ],
+        "content_revision": "event-01"
+      }
+    },
+    {
+      "word": "電競",
+      "clue_draft": "電子競技的常用簡稱。",
+      "answer_score": 90,
+      "difficulty": "medium",
+      "id": "event-02::電競",
+      "event_id": "event-02",
+      "event_revision": "event-02",
+      "clue": "電子競技的常用簡稱。（2字）",
+      "source_support": [
+        {
+          "source_id": "source-1",
+          "evidence": "本事件以「電競」作為測試詞彙。"
+        }
+      ],
+      "event": {
+        "event_id": "event-02",
+        "event_date": "2026-09-26",
+        "title": "合成事件：電競",
+        "summary": "測試事件與候選資料關聯。",
+        "categories": [
+          "國際"
+        ],
+        "fact_status": "confirmed",
+        "event_score": 90,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "source-1",
+            "publisher": "合成測試資料",
+            "kind": "fixture",
+            "url": "https://example.invalid/fixture/event-02",
+            "published_at": "2026-10-01",
+            "excerpt": "本事件以「電競」作為測試詞彙。"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "電競",
+            "clue_draft": "電子競技的常用簡稱。",
+            "answer_score": 90,
+            "difficulty": "medium"
+          }
+        ],
+        "dedup_key": "event-02",
+        "aliases": [
+          "event-02"
+        ],
+        "content_revision": "event-02"
+      }
+    },
+    {
+      "word": "全民運動",
+      "clue_draft": "鼓勵所有民眾持續參與體育活動的理念。",
+      "answer_score": 90,
+      "difficulty": "medium",
+      "id": "event-27::全民運動",
+      "event_id": "event-27",
+      "event_revision": "event-27",
+      "clue": "鼓勵所有民眾持續參與體育活動的理念。（4字）",
+      "source_support": [
+        {
+          "source_id": "source-26",
+          "evidence": "本事件以「全民運動」作為測試詞彙。"
+        }
+      ],
+      "event": {
+        "event_id": "event-27",
+        "event_date": "2026-09-30",
+        "title": "合成事件：全民運動",
+        "summary": "測試事件與候選資料關聯。",
+        "categories": [
+          "科技"
+        ],
+        "fact_status": "confirmed",
+        "event_score": 90,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "source-26",
+            "publisher": "合成測試資料",
+            "kind": "fixture",
+            "url": "https://example.invalid/fixture/event-27",
+            "published_at": "2026-10-01",
+            "excerpt": "本事件以「全民運動」作為測試詞彙。"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "全民運動",
+            "clue_draft": "鼓勵所有民眾持續參與體育活動的理念。",
+            "answer_score": 90,
+            "difficulty": "medium"
+          }
+        ],
+        "dedup_key": "event-27",
+        "aliases": [
+          "event-27"
+        ],
+        "content_revision": "event-27"
+      }
+    },
+    {
+      "word": "運動員",
+      "clue_draft": "接受訓練並參加體育競賽的人。",
+      "answer_score": 90,
+      "difficulty": "medium",
+      "id": "event-28::運動員",
+      "event_id": "event-28",
+      "event_revision": "event-28",
+      "clue": "接受訓練並參加體育競賽的人。（3字）",
+      "source_support": [
+        {
+          "source_id": "source-27",
+          "evidence": "本事件以「運動員」作為測試詞彙。"
+        }
+      ],
+      "event": {
+        "event_id": "event-28",
+        "event_date": "2026-10-01",
+        "title": "合成事件：運動員",
+        "summary": "測試事件與候選資料關聯。",
+        "categories": [
+          "國際"
+        ],
+        "fact_status": "confirmed",
+        "event_score": 90,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "source-27",
+            "publisher": "合成測試資料",
+            "kind": "fixture",
+            "url": "https://example.invalid/fixture/event-28",
+            "published_at": "2026-10-01",
+            "excerpt": "本事件以「運動員」作為測試詞彙。"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "運動員",
+            "clue_draft": "接受訓練並參加體育競賽的人。",
+            "answer_score": 90,
+            "difficulty": "medium"
+          }
+        ],
+        "dedup_key": "event-28",
+        "aliases": [
+          "event-28"
+        ],
+        "content_revision": "event-28"
+      }
+    },
+    {
+      "word": "智慧城市",
+      "clue_draft": "運用數位技術改善交通、能源等公共服務的都市。",
+      "answer_score": 90,
+      "difficulty": "medium",
+      "id": "event-21::智慧城市",
+      "event_id": "event-21",
+      "event_revision": "event-21",
+      "clue": "運用數位技術改善交通、能源等公共服務的都市。（4字）",
+      "source_support": [
+        {
+          "source_id": "source-20",
+          "evidence": "本事件以「智慧城市」作為測試詞彙。"
+        }
+      ],
+      "event": {
+        "event_id": "event-21",
+        "event_date": "2026-10-01",
+        "title": "合成事件：智慧城市",
+        "summary": "測試事件與候選資料關聯。",
+        "categories": [
+          "科技"
+        ],
+        "fact_status": "confirmed",
+        "event_score": 90,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "source-20",
+            "publisher": "合成測試資料",
+            "kind": "fixture",
+            "url": "https://example.invalid/fixture/event-21",
+            "published_at": "2026-10-01",
+            "excerpt": "本事件以「智慧城市」作為測試詞彙。"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "智慧城市",
+            "clue_draft": "運用數位技術改善交通、能源等公共服務的都市。",
+            "answer_score": 90,
+            "difficulty": "medium"
+          }
+        ],
+        "dedup_key": "event-21",
+        "aliases": [
+          "event-21"
+        ],
+        "content_revision": "event-21"
+      }
+    },
+    {
+      "word": "城市",
+      "clue_draft": "人口密集、商業與公共服務集中的聚落。",
+      "answer_score": 90,
+      "difficulty": "medium",
+      "id": "event-22::城市",
+      "event_id": "event-22",
+      "event_revision": "event-22",
+      "clue": "人口密集、商業與公共服務集中的聚落。（2字）",
+      "source_support": [
+        {
+          "source_id": "source-21",
+          "evidence": "本事件以「城市」作為測試詞彙。"
+        }
+      ],
+      "event": {
+        "event_id": "event-22",
+        "event_date": "2026-09-25",
+        "title": "合成事件：城市",
+        "summary": "測試事件與候選資料關聯。",
+        "categories": [
+          "國際"
+        ],
+        "fact_status": "confirmed",
+        "event_score": 90,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "source-21",
+            "publisher": "合成測試資料",
+            "kind": "fixture",
+            "url": "https://example.invalid/fixture/event-22",
+            "published_at": "2026-10-01",
+            "excerpt": "本事件以「城市」作為測試詞彙。"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "城市",
+            "clue_draft": "人口密集、商業與公共服務集中的聚落。",
+            "answer_score": 90,
+            "difficulty": "medium"
+          }
+        ],
+        "dedup_key": "event-22",
+        "aliases": [
+          "event-22"
+        ],
+        "content_revision": "event-22"
+      }
+    },
+    {
+      "word": "半導體",
+      "clue_draft": "導電性介於導體與絕緣體之間的材料。",
+      "answer_score": 90,
+      "difficulty": "medium",
+      "id": "event-03::半導體",
+      "event_id": "event-03",
+      "event_revision": "event-03",
+      "clue": "導電性介於導體與絕緣體之間的材料。（3字）",
+      "source_support": [
+        {
+          "source_id": "source-2",
+          "evidence": "本事件以「半導體」作為測試詞彙。"
+        }
+      ],
+      "event": {
+        "event_id": "event-03",
+        "event_date": "2026-09-27",
+        "title": "合成事件：半導體",
+        "summary": "測試事件與候選資料關聯。",
+        "categories": [
+          "科技"
+        ],
+        "fact_status": "confirmed",
+        "event_score": 90,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "source-2",
+            "publisher": "合成測試資料",
+            "kind": "fixture",
+            "url": "https://example.invalid/fixture/event-03",
+            "published_at": "2026-10-01",
+            "excerpt": "本事件以「半導體」作為測試詞彙。"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "半導體",
+            "clue_draft": "導電性介於導體與絕緣體之間的材料。",
+            "answer_score": 90,
+            "difficulty": "medium"
+          }
+        ],
+        "dedup_key": "event-03",
+        "aliases": [
+          "event-03"
+        ],
+        "content_revision": "event-03"
+      }
+    },
+    {
+      "word": "團體競速",
+      "clue_draft": "自行車場地賽中由多名選手共同完成的速度項目。",
+      "answer_score": 90,
+      "difficulty": "medium",
+      "id": "event-04::團體競速",
+      "event_id": "event-04",
+      "event_revision": "event-04",
+      "clue": "自行車場地賽中由多名選手共同完成的速度項目。（4字）",
+      "source_support": [
+        {
+          "source_id": "source-3",
+          "evidence": "本事件以「團體競速」作為測試詞彙。"
+        }
+      ],
+      "event": {
+        "event_id": "event-04",
+        "event_date": "2026-09-28",
+        "title": "合成事件：團體競速",
+        "summary": "測試事件與候選資料關聯。",
+        "categories": [
+          "國際"
+        ],
+        "fact_status": "confirmed",
+        "event_score": 90,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "source-3",
+            "publisher": "合成測試資料",
+            "kind": "fixture",
+            "url": "https://example.invalid/fixture/event-04",
+            "published_at": "2026-10-01",
+            "excerpt": "本事件以「團體競速」作為測試詞彙。"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "團體競速",
+            "clue_draft": "自行車場地賽中由多名選手共同完成的速度項目。",
+            "answer_score": 90,
+            "difficulty": "medium"
+          }
+        ],
+        "dedup_key": "event-04",
+        "aliases": [
+          "event-04"
+        ],
+        "content_revision": "event-04"
+      }
+    },
+    {
+      "word": "女籃",
+      "clue_draft": "女子代表隊參加的投籃球類項目常用簡稱。",
+      "answer_score": 90,
+      "difficulty": "medium",
+      "id": "event-17::女籃",
+      "event_id": "event-17",
+      "event_revision": "event-17",
+      "clue": "女子代表隊參加的投籃球類項目常用簡稱。（2字）",
+      "source_support": [
+        {
+          "source_id": "source-16",
+          "evidence": "本事件以「女籃」作為測試詞彙。"
+        }
+      ],
+      "event": {
+        "event_id": "event-17",
+        "event_date": "2026-09-27",
+        "title": "合成事件：女籃",
+        "summary": "測試事件與候選資料關聯。",
+        "categories": [
+          "科技"
+        ],
+        "fact_status": "confirmed",
+        "event_score": 90,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "source-16",
+            "publisher": "合成測試資料",
+            "kind": "fixture",
+            "url": "https://example.invalid/fixture/event-17",
+            "published_at": "2026-10-01",
+            "excerpt": "本事件以「女籃」作為測試詞彙。"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "女籃",
+            "clue_draft": "女子代表隊參加的投籃球類項目常用簡稱。",
+            "answer_score": 90,
+            "difficulty": "medium"
+          }
+        ],
+        "dedup_key": "event-17",
+        "aliases": [
+          "event-17"
+        ],
+        "content_revision": "event-17"
+      }
+    },
+    {
+      "word": "籃球",
+      "clue_draft": "兩隊將球投入高處球框、以得分競勝的運動。",
+      "answer_score": 90,
+      "difficulty": "medium",
+      "id": "event-18::籃球",
+      "event_id": "event-18",
+      "event_revision": "event-18",
+      "clue": "兩隊將球投入高處球框、以得分競勝的運動。（2字）",
+      "source_support": [
+        {
+          "source_id": "source-17",
+          "evidence": "本事件以「籃球」作為測試詞彙。"
+        }
+      ],
+      "event": {
+        "event_id": "event-18",
+        "event_date": "2026-09-28",
+        "title": "合成事件：籃球",
+        "summary": "測試事件與候選資料關聯。",
+        "categories": [
+          "國際"
+        ],
+        "fact_status": "confirmed",
+        "event_score": 90,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "source-17",
+            "publisher": "合成測試資料",
+            "kind": "fixture",
+            "url": "https://example.invalid/fixture/event-18",
+            "published_at": "2026-10-01",
+            "excerpt": "本事件以「籃球」作為測試詞彙。"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "籃球",
+            "clue_draft": "兩隊將球投入高處球框、以得分競勝的運動。",
+            "answer_score": 90,
+            "difficulty": "medium"
+          }
+        ],
+        "dedup_key": "event-18",
+        "aliases": [
+          "event-18"
+        ],
+        "content_revision": "event-18"
+      }
+    },
+    {
+      "word": "聯合國",
+      "clue_draft": "成立於一九四五年的全球性國際組織。",
+      "answer_score": 90,
+      "difficulty": "medium",
+      "id": "event-19::聯合國",
+      "event_id": "event-19",
+      "event_revision": "event-19",
+      "clue": "成立於一九四五年的全球性國際組織。（3字）",
+      "source_support": [
+        {
+          "source_id": "source-18",
+          "evidence": "本事件以「聯合國」作為測試詞彙。"
+        }
+      ],
+      "event": {
+        "event_id": "event-19",
+        "event_date": "2026-09-29",
+        "title": "合成事件：聯合國",
+        "summary": "測試事件與候選資料關聯。",
+        "categories": [
+          "科技"
+        ],
+        "fact_status": "confirmed",
+        "event_score": 90,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "source-18",
+            "publisher": "合成測試資料",
+            "kind": "fixture",
+            "url": "https://example.invalid/fixture/event-19",
+            "published_at": "2026-10-01",
+            "excerpt": "本事件以「聯合國」作為測試詞彙。"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "聯合國",
+            "clue_draft": "成立於一九四五年的全球性國際組織。",
+            "answer_score": 90,
+            "difficulty": "medium"
+          }
+        ],
+        "dedup_key": "event-19",
+        "aliases": [
+          "event-19"
+        ],
+        "content_revision": "event-19"
+      }
+    },
+    {
+      "word": "國際合作",
+      "clue_draft": "多個國家共同協力處理議題的行動。",
+      "answer_score": 90,
+      "difficulty": "medium",
+      "id": "event-25::國際合作",
+      "event_id": "event-25",
+      "event_revision": "event-25",
+      "clue": "多個國家共同協力處理議題的行動。（4字）",
+      "source_support": [
+        {
+          "source_id": "source-24",
+          "evidence": "本事件以「國際合作」作為測試詞彙。"
+        }
+      ],
+      "event": {
+        "event_id": "event-25",
+        "event_date": "2026-09-28",
+        "title": "合成事件：國際合作",
+        "summary": "測試事件與候選資料關聯。",
+        "categories": [
+          "科技"
+        ],
+        "fact_status": "confirmed",
+        "event_score": 90,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "source-24",
+            "publisher": "合成測試資料",
+            "kind": "fixture",
+            "url": "https://example.invalid/fixture/event-25",
+            "published_at": "2026-10-01",
+            "excerpt": "本事件以「國際合作」作為測試詞彙。"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "國際合作",
+            "clue_draft": "多個國家共同協力處理議題的行動。",
+            "answer_score": 90,
+            "difficulty": "medium"
+          }
+        ],
+        "dedup_key": "event-25",
+        "aliases": [
+          "event-25"
+        ],
+        "content_revision": "event-25"
+      }
+    }
+  ]
+}

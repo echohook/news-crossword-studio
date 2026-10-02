@@ -1,0 +1,233 @@
+{
+  "schema_version": "1.0",
+  "board": [
+    [
+      "黃",
+      "金",
+      "■",
+      "債",
+      "市",
+      "■",
+      "殖",
+      "■"
+    ],
+    [
+      "■",
+      "牌",
+      "■",
+      "券",
+      "■",
+      "■",
+      "利",
+      "率"
+    ],
+    [
+      "■",
+      "■",
+      "■",
+      "■",
+      "■",
+      "■",
+      "率",
+      "■"
+    ],
+    [
+      "■",
+      "■",
+      "■",
+      "■",
+      "■",
+      "■",
+      "■",
+      "■"
+    ],
+    [
+      "單",
+      "槓",
+      "■",
+      "女",
+      "籃",
+      "■",
+      "■",
+      "■"
+    ],
+    [
+      "■",
+      "桿",
+      "■",
+      "■",
+      "球",
+      "■",
+      "■",
+      "■"
+    ],
+    [
+      "■",
+      "■",
+      "■",
+      "■",
+      "■",
+      "■",
+      "■",
+      "中"
+    ],
+    [
+      "■",
+      "■",
+      "■",
+      "■",
+      "■",
+      "聯",
+      "合",
+      "國"
+    ]
+  ],
+  "expected": [
+    {
+      "id": "a0",
+      "word": "黃金",
+      "event_id": "e0",
+      "clue": "測試題"
+    },
+    {
+      "id": "a1",
+      "word": "金牌",
+      "event_id": "e1",
+      "clue": "測試題"
+    },
+    {
+      "id": "a2",
+      "word": "債市",
+      "event_id": "e2",
+      "clue": "測試題"
+    },
+    {
+      "id": "a3",
+      "word": "債券",
+      "event_id": "e3",
+      "clue": "測試題"
+    },
+    {
+      "id": "a4",
+      "word": "利率",
+      "event_id": "e4",
+      "clue": "測試題"
+    },
+    {
+      "id": "a5",
+      "word": "殖利率",
+      "event_id": "e5",
+      "clue": "測試題"
+    },
+    {
+      "id": "a6",
+      "word": "單槓",
+      "event_id": "e6",
+      "clue": "測試題"
+    },
+    {
+      "id": "a7",
+      "word": "槓桿",
+      "event_id": "e7",
+      "clue": "測試題"
+    },
+    {
+      "id": "a8",
+      "word": "女籃",
+      "event_id": "e8",
+      "clue": "測試題"
+    },
+    {
+      "id": "a9",
+      "word": "籃球",
+      "event_id": "e9",
+      "clue": "測試題"
+    },
+    {
+      "id": "a10",
+      "word": "聯合國",
+      "event_id": "e10",
+      "clue": "測試題"
+    },
+    {
+      "id": "a11",
+      "word": "中國",
+      "event_id": "e11",
+      "clue": "測試題"
+    }
+  ],
+  "placements": [
+    {
+      "candidate_id": "a0",
+      "direction": "H",
+      "row": 0,
+      "col": 0
+    },
+    {
+      "candidate_id": "a1",
+      "direction": "V",
+      "row": 0,
+      "col": 1
+    },
+    {
+      "candidate_id": "a2",
+      "direction": "H",
+      "row": 0,
+      "col": 3
+    },
+    {
+      "candidate_id": "a3",
+      "direction": "V",
+      "row": 0,
+      "col": 3
+    },
+    {
+      "candidate_id": "a4",
+      "direction": "H",
+      "row": 1,
+      "col": 6
+    },
+    {
+      "candidate_id": "a5",
+      "direction": "V",
+      "row": 0,
+      "col": 6
+    },
+    {
+      "candidate_id": "a6",
+      "direction": "H",
+      "row": 4,
+      "col": 0
+    },
+    {
+      "candidate_id": "a7",
+      "direction": "V",
+      "row": 4,
+      "col": 1
+    },
+    {
+      "candidate_id": "a8",
+      "direction": "H",
+      "row": 4,
+      "col": 3
+    },
+    {
+      "candidate_id": "a9",
+      "direction": "V",
+      "row": 4,
+      "col": 4
+    },
+    {
+      "candidate_id": "a10",
+      "direction": "H",
+      "row": 7,
+      "col": 5
+    },
+    {
+      "candidate_id": "a11",
+      "direction": "V",
+      "row": 6,
+      "col": 7
+    }
+  ]
+}

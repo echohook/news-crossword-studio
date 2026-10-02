@@ -1,0 +1,131 @@
+{
+  "schema_version": "1.0",
+  "status": "REVIEW_REQUIRED",
+  "grid_status": "VALID",
+  "gates": [
+    {
+      "id": "GRID",
+      "status": "PASS"
+    },
+    {
+      "id": "NEWS_FACTS_AND_FRESHNESS",
+      "status": "REVIEW_REQUIRED"
+    },
+    {
+      "id": "CLUE_UNIQUENESS",
+      "status": "REVIEW_REQUIRED"
+    },
+    {
+      "id": "CLUE_MECHANICS",
+      "status": "PASS"
+    },
+    {
+      "id": "NEWS_SCOPE",
+      "status": "PASS"
+    }
+  ],
+  "metrics": [
+    {
+      "id": "length_balance",
+      "weight": 20,
+      "score": 17.5,
+      "status": "ASSESSED",
+      "details": {
+        "counts": {
+          "2": 3,
+          "3": 5,
+          "4": 4
+        },
+        "penalty": 6,
+        "withinHalf": true,
+        "warnings": []
+      }
+    },
+    {
+      "id": "category_diversity",
+      "weight": 20,
+      "score": 18.26,
+      "status": "ASSESSED",
+      "details": {
+        "category_counts": {
+          "台灣": 6,
+          "國際": 3,
+          "科技": 4,
+          "財經": 6,
+          "體育": 3,
+          "生活": 1,
+          "文化": 1
+        },
+        "entries_with_categories": 12,
+        "total_entries": 12,
+        "multiple_tags": true
+      }
+    },
+    {
+      "id": "cross_topic",
+      "weight": 15,
+      "score": 7.5,
+      "status": "ASSESSED",
+      "details": {
+        "unique_crossing_pairs": 6,
+        "classified_pairs": 6,
+        "cross_topic_pairs": 3,
+        "definition": "兩端已知主題類別不重疊；地理標籤不算主題，未推論詞義關係"
+      }
+    },
+    {
+      "id": "difficulty_balance",
+      "weight": 20,
+      "score": 10,
+      "status": "ASSESSED",
+      "details": {
+        "counts": {
+          "easy": 0,
+          "medium": 12,
+          "hard": 0
+        },
+        "known_entries": 12,
+        "total_entries": 12,
+        "target": {
+          "easy": 0.5,
+          "medium": 0.5,
+          "hard": 0
+        },
+        "note": "難度是輸入標籤；參考目標尚未經長輩試玩校準"
+      }
+    },
+    {
+      "id": "compactness",
+      "weight": 15,
+      "score": 7.27,
+      "status": "ASSESSED",
+      "details": {
+        "filled_cells": 31,
+        "bounding_rows": 8,
+        "bounding_cols": 8,
+        "density": 0.48
+      }
+    },
+    {
+      "id": "anchor_coverage",
+      "weight": 10,
+      "score": 10,
+      "status": "ASSESSED",
+      "details": {
+        "required": 2,
+        "covered": 2
+      }
+    }
+  ],
+  "total_score": 70.53,
+  "available_score": 70.53,
+  "available_weight": 100,
+  "approved_for_print": false,
+  "clue_warnings": [],
+  "semantic_relation_review": {
+    "status": "REVIEW_REQUIRED",
+    "reference_max_related_entry_ratio": 0.2,
+    "note": "同義及上下位關係須人工標註，不能用同事件或共同字自動推定"
+  },
+  "note": "權重依凍結規格；各項數值公式為原型參考，不會取代新聞、唯一性及正式出版資格檢查。"
+}

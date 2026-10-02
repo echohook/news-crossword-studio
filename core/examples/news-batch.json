@@ -1,0 +1,139 @@
+{
+  "cases": [
+    {
+      "id": "balanced-8x8",
+      "operation": "solve",
+      "input": "candidates.json",
+      "expect": {
+        "status": "SOLVED",
+        "valid": true,
+        "size": 8,
+        "entryCount": 12,
+        "lengthCounts": {
+          "2": 4,
+          "3": 4,
+          "4": 4
+        }
+      }
+    },
+    {
+      "id": "historic-valid",
+      "operation": "validate",
+      "input": "historic-valid.json",
+      "expect": {
+        "status": "VALID",
+        "valid": true,
+        "entryCount": 12
+      }
+    },
+    {
+      "id": "reject-zhi-che",
+      "operation": "validate",
+      "input": "invalid-zhi-che.json",
+      "expect": {
+        "status": "INVALID",
+        "valid": false
+      }
+    },
+    {
+      "id": "no-shared-character",
+      "operation": "solve",
+      "data": {
+        "candidates": [
+          {
+            "id": "a",
+            "word": "天地",
+            "event_id": "a"
+          },
+          {
+            "id": "b",
+            "word": "玄黃",
+            "event_id": "b"
+          }
+        ]
+      },
+      "options": {
+        "target": 2,
+        "minEntries": 2,
+        "attempts": 1
+      },
+      "expect": {
+        "status": "SEARCH_EXHAUSTED"
+      }
+    },
+    {
+      "id": "two-entry-partial",
+      "operation": "solve",
+      "data": {
+        "candidates": [
+          {
+            "id": "a",
+            "word": "人工智慧",
+            "event_id": "a"
+          },
+          {
+            "id": "b",
+            "word": "無人機",
+            "event_id": "b"
+          },
+          {
+            "id": "c",
+            "word": "天地",
+            "event_id": "c"
+          }
+        ]
+      },
+      "options": {
+        "target": 3,
+        "minEntries": 2,
+        "attempts": 2
+      },
+      "expect": {
+        "status": "PARTIAL",
+        "valid": true,
+        "entryCount": 2
+      }
+    },
+    {
+      "id": "bad-candidate-data",
+      "operation": "solve",
+      "data": {
+        "candidates": [
+          {
+            "id": "bad",
+            "word": "AI",
+            "event_id": "bad"
+          }
+        ]
+      },
+      "expect": {
+        "status": "INPUT_ERROR"
+      }
+    },
+    {
+      "id": "news-pipeline-valid-draft",
+      "operation": "pipeline",
+      "input": "news-input.json",
+      "expect": {
+        "status": "REVIEW_REQUIRED",
+        "valid": true,
+        "size": 8,
+        "entryCount": 12,
+        "lengthCounts": {
+          "2": 4,
+          "3": 4,
+          "4": 4
+        }
+      }
+    },
+    {
+      "id": "news-reject-bad-clues",
+      "operation": "pipeline",
+      "input": "news-rejected.json",
+      "expect": {
+        "status": "NO_ELIGIBLE_CANDIDATES"
+      }
+    }
+  ],
+  "note": "合成資料回歸；待內容複核不等於正式出版核准。"
+}

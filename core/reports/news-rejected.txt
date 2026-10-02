@@ -1,0 +1,16 @@
+PIPELINE NO_ELIGIBLE_CANDIDATES — 2026-09-25 ～ 2026-10-01
+事件：2 筆 → 去重 2 件 → 合格 2 件
+候選：2 題 → 合格 0 題
+合成資料僅供管線測試，未宣稱為真實新聞。
+排除候選 人工智慧: C01 題目未洩漏答案
+排除候選 無人機: C03 正確字數提示
+本期合格重點新聞涵蓋：0/1
+Anchor 未入盤：合成事件：人工智慧
+題目機械檢查：0/0 PASS
+內容複核：REQUIRED / 正式出版核准：否
+待複核 NEWS_FACT_CHECK — 核對真正來源、摘錄上下文與新聞事實
+待複核 FRESHNESS_RECHECK — 輸出前重新查核重大更新、否認或更正
+待複核 CLUE_UNIQUENESS — 確認題目自然且答案唯一
+待複核 TAIWAN_LANGUAGE — 確認台灣慣用詞與譯名
+待複核 POLITICAL_NEUTRALITY — 確認題目沒有主觀政治判斷
+待複核 SENIOR_DIFFICULTY — 確認長輩理解與書寫難度

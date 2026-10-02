@@ -1,0 +1,3 @@
+PASS: repeated rejected before PDF creation; Repeated answer or clue
+PASS: incomplete rejected before PDF creation; Batch is incomplete
+PASS: zhi-che rejected before PDF creation; Independent board scan failed

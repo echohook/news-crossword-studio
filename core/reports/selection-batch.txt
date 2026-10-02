@@ -1,0 +1,15 @@
+BATCH PASS — 3/3 案例符合預期
+
+PASS anchor-before-short-pair / SOLVED / 8×8 / 2 題
+  已達目標題數
+  候選重點事件涵蓋：1/1 / 字數平衡差距：4 / 編輯評分：73.00
+PASS isolated-anchor-warning / SOLVED / 8×8 / 4 題
+  已達目標題數
+  候選重點事件涵蓋：1/2 / 字數平衡差距：4 / 編輯評分：69.75
+  ANCHOR_NO_SHARED_CHARACTER — isolated-event：重點事件的全部候選都沒有共同字，請增加可交叉答案
+  NO_SHARED_CHARACTER: 有 1 個候選沒有共同字，無法滿足至少一個交叉。
+PASS real-default / REVIEW_REQUIRED / 8×8 / 12 題
+  來源與評分為輸入資料；機械檢查不等於已完成事實查核。
+  候選重點事件涵蓋：2/2 / 字數平衡差距：6 / 編輯評分：85.19
+  本期合格重點新聞涵蓋：2/2
+  事件合格 9 / 候選合格 27 / 內容待複核

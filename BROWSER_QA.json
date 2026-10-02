@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "checks": [
+    "1–7 edition selector",
+    "one complete batch, V01–V08 and diversity",
+    "answer visibility and Arabic/Chinese numbering",
+    "actual Chinese PDF download",
+    "incomplete batch cannot download PDF",
+    "seven requested editions stop on insufficient distinct bank",
+    "two users do not overwrite each other",
+    "clue editing, bank export and valid import",
+    "bad import preserves current bank",
+    "saved batch can be reimported and revalidated",
+    "mobile layout without horizontal overflow"
+  ],
+  "browser_errors": [],
+  "webmcp_runtime_supported": false
+}

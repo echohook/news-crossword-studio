@@ -1,0 +1,1128 @@
+{
+  "status": "SOLVED",
+  "puzzle": {
+    "schema_version": "1.0",
+    "board": [
+      [
+        "■",
+        "中",
+        "■",
+        "聯",
+        "■",
+        "台",
+        "積",
+        "電"
+      ],
+      [
+        "■",
+        "國",
+        "際",
+        "合",
+        "作",
+        "■",
+        "■",
+        "競"
+      ],
+      [
+        "人",
+        "■",
+        "■",
+        "國",
+        "■",
+        "■",
+        "■",
+        "■"
+      ],
+      [
+        "工",
+        "■",
+        "■",
+        "■",
+        "全",
+        "民",
+        "運",
+        "動"
+      ],
+      [
+        "智",
+        "慧",
+        "城",
+        "市",
+        "■",
+        "■",
+        "動",
+        "■"
+      ],
+      [
+        "慧",
+        "■",
+        "市",
+        "■",
+        "■",
+        "■",
+        "員",
+        "■"
+      ],
+      [
+        "■",
+        "■",
+        "■",
+        "殖",
+        "利",
+        "率",
+        "■",
+        "■"
+      ],
+      [
+        "■",
+        "■",
+        "■",
+        "■",
+        "率",
+        "■",
+        "■",
+        "■"
+      ]
+    ],
+    "placements": [
+      {
+        "candidate_id": "c19",
+        "direction": "V",
+        "row": 0,
+        "col": 3
+      },
+      {
+        "candidate_id": "c25",
+        "direction": "H",
+        "row": 1,
+        "col": 1
+      },
+      {
+        "candidate_id": "c20",
+        "direction": "V",
+        "row": 0,
+        "col": 1
+      },
+      {
+        "candidate_id": "c21",
+        "direction": "H",
+        "row": 4,
+        "col": 0
+      },
+      {
+        "candidate_id": "c22",
+        "direction": "V",
+        "row": 4,
+        "col": 2
+      },
+      {
+        "candidate_id": "c27",
+        "direction": "H",
+        "row": 3,
+        "col": 4
+      },
+      {
+        "candidate_id": "c28",
+        "direction": "V",
+        "row": 3,
+        "col": 6
+      },
+      {
+        "candidate_id": "c13",
+        "direction": "V",
+        "row": 6,
+        "col": 4
+      },
+      {
+        "candidate_id": "c14",
+        "direction": "H",
+        "row": 6,
+        "col": 3
+      },
+      {
+        "candidate_id": "c05",
+        "direction": "V",
+        "row": 2,
+        "col": 0
+      },
+      {
+        "candidate_id": "c01",
+        "direction": "H",
+        "row": 0,
+        "col": 5
+      },
+      {
+        "candidate_id": "c02",
+        "direction": "V",
+        "row": 0,
+        "col": 7
+      }
+    ],
+    "expected": [
+      {
+        "id": "c19",
+        "word": "聯合國",
+        "event_id": "fixture-event-18",
+        "clue": "",
+        "difficulty": "fixture",
+        "source_support": [],
+        "event": {
+          "fact_status": "fixture",
+          "title": "邏輯測試事件"
+        }
+      },
+      {
+        "id": "c25",
+        "word": "國際合作",
+        "event_id": "fixture-event-24",
+        "clue": "",
+        "difficulty": "fixture",
+        "source_support": [],
+        "event": {
+          "fact_status": "fixture",
+          "title": "邏輯測試事件"
+        }
+      },
+      {
+        "id": "c20",
+        "word": "中國",
+        "event_id": "fixture-event-19",
+        "clue": "",
+        "difficulty": "fixture",
+        "source_support": [],
+        "event": {
+          "fact_status": "fixture",
+          "title": "邏輯測試事件"
+        }
+      },
+      {
+        "id": "c21",
+        "word": "智慧城市",
+        "event_id": "fixture-event-20",
+        "clue": "",
+        "difficulty": "fixture",
+        "source_support": [],
+        "event": {
+          "fact_status": "fixture",
+          "title": "邏輯測試事件"
+        }
+      },
+      {
+        "id": "c22",
+        "word": "城市",
+        "event_id": "fixture-event-21",
+        "clue": "",
+        "difficulty": "fixture",
+        "source_support": [],
+        "event": {
+          "fact_status": "fixture",
+          "title": "邏輯測試事件"
+        }
+      },
+      {
+        "id": "c27",
+        "word": "全民運動",
+        "event_id": "fixture-event-26",
+        "clue": "",
+        "difficulty": "fixture",
+        "source_support": [],
+        "event": {
+          "fact_status": "fixture",
+          "title": "邏輯測試事件"
+        }
+      },
+      {
+        "id": "c28",
+        "word": "運動員",
+        "event_id": "fixture-event-27",
+        "clue": "",
+        "difficulty": "fixture",
+        "source_support": [],
+        "event": {
+          "fact_status": "fixture",
+          "title": "邏輯測試事件"
+        }
+      },
+      {
+        "id": "c13",
+        "word": "利率",
+        "event_id": "fixture-event-12",
+        "clue": "",
+        "difficulty": "fixture",
+        "source_support": [],
+        "event": {
+          "fact_status": "fixture",
+          "title": "邏輯測試事件"
+        }
+      },
+      {
+        "id": "c14",
+        "word": "殖利率",
+        "event_id": "fixture-event-13",
+        "clue": "",
+        "difficulty": "fixture",
+        "source_support": [],
+        "event": {
+          "fact_status": "fixture",
+          "title": "邏輯測試事件"
+        }
+      },
+      {
+        "id": "c05",
+        "word": "人工智慧",
+        "event_id": "fixture-event-4",
+        "clue": "讓電腦模擬人類智慧的技術領域。（4字）",
+        "difficulty": "fixture",
+        "source_support": [],
+        "event": {
+          "fact_status": "fixture",
+          "title": "邏輯測試事件"
+        }
+      },
+      {
+        "id": "c01",
+        "word": "台積電",
+        "event_id": "fixture-event-0",
+        "clue": "台灣晶圓代工企業的常用簡稱。（3字）",
+        "difficulty": "fixture",
+        "source_support": [],
+        "event": {
+          "fact_status": "fixture",
+          "title": "邏輯測試事件"
+        }
+      },
+      {
+        "id": "c02",
+        "word": "電競",
+        "event_id": "fixture-event-1",
+        "clue": "電子競技的簡稱。（2字）",
+        "difficulty": "fixture",
+        "source_support": [],
+        "event": {
+          "fact_status": "fixture",
+          "title": "邏輯測試事件"
+        }
+      }
+    ]
+  },
+  "validation": {
+    "valid": true,
+    "status": "VALID",
+    "checks": [
+      {
+        "id": "V01",
+        "label": "所有已宣告答案完整出現",
+        "pass": true,
+        "errors": []
+      },
+      {
+        "id": "V02",
+        "label": "正式答案無遺漏且恰好配置一次",
+        "pass": true,
+        "errors": []
+      },
+      {
+        "id": "V03",
+        "label": "無額外橫詞",
+        "pass": true,
+        "errors": []
+      },
+      {
+        "id": "V04",
+        "label": "無額外直詞",
+        "pass": true,
+        "errors": []
+      },
+      {
+        "id": "V05",
+        "label": "無字衝突或同方向重疊",
+        "pass": true,
+        "errors": []
+      },
+      {
+        "id": "V06",
+        "label": "答案無中斷或越界",
+        "pass": true,
+        "errors": []
+      },
+      {
+        "id": "V07",
+        "label": "每題至少一個有效交叉",
+        "pass": true,
+        "errors": []
+      },
+      {
+        "id": "V08",
+        "label": "交叉字一致",
+        "pass": true,
+        "errors": []
+      }
+    ],
+    "structural": [],
+    "detected": [
+      {
+        "word": "台積電",
+        "direction": "H",
+        "row": 0,
+        "col": 5
+      },
+      {
+        "word": "國際合作",
+        "direction": "H",
+        "row": 1,
+        "col": 1
+      },
+      {
+        "word": "全民運動",
+        "direction": "H",
+        "row": 3,
+        "col": 4
+      },
+      {
+        "word": "智慧城市",
+        "direction": "H",
+        "row": 4,
+        "col": 0
+      },
+      {
+        "word": "殖利率",
+        "direction": "H",
+        "row": 6,
+        "col": 3
+      },
+      {
+        "word": "中國",
+        "direction": "V",
+        "row": 0,
+        "col": 1
+      },
+      {
+        "word": "聯合國",
+        "direction": "V",
+        "row": 0,
+        "col": 3
+      },
+      {
+        "word": "電競",
+        "direction": "V",
+        "row": 0,
+        "col": 7
+      },
+      {
+        "word": "人工智慧",
+        "direction": "V",
+        "row": 2,
+        "col": 0
+      },
+      {
+        "word": "運動員",
+        "direction": "V",
+        "row": 3,
+        "col": 6
+      },
+      {
+        "word": "城市",
+        "direction": "V",
+        "row": 4,
+        "col": 2
+      },
+      {
+        "word": "利率",
+        "direction": "V",
+        "row": 6,
+        "col": 4
+      }
+    ],
+    "intersections": {
+      "c19": [
+        {
+          "row": 1,
+          "col": 3,
+          "with": "c25"
+        }
+      ],
+      "c25": [
+        {
+          "row": 1,
+          "col": 3,
+          "with": "c19"
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "with": "c20"
+        }
+      ],
+      "c20": [
+        {
+          "row": 1,
+          "col": 1,
+          "with": "c25"
+        }
+      ],
+      "c21": [
+        {
+          "row": 4,
+          "col": 0,
+          "with": "c05"
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "with": "c22"
+        }
+      ],
+      "c22": [
+        {
+          "row": 4,
+          "col": 2,
+          "with": "c21"
+        }
+      ],
+      "c27": [
+        {
+          "row": 3,
+          "col": 6,
+          "with": "c28"
+        }
+      ],
+      "c28": [
+        {
+          "row": 3,
+          "col": 6,
+          "with": "c27"
+        }
+      ],
+      "c13": [
+        {
+          "row": 6,
+          "col": 4,
+          "with": "c14"
+        }
+      ],
+      "c14": [
+        {
+          "row": 6,
+          "col": 4,
+          "with": "c13"
+        }
+      ],
+      "c05": [
+        {
+          "row": 4,
+          "col": 0,
+          "with": "c21"
+        }
+      ],
+      "c01": [
+        {
+          "row": 0,
+          "col": 7,
+          "with": "c02"
+        }
+      ],
+      "c02": [
+        {
+          "row": 0,
+          "col": 7,
+          "with": "c01"
+        }
+      ]
+    },
+    "balance": {
+      "counts": {
+        "2": 4,
+        "3": 4,
+        "4": 4
+      },
+      "penalty": 0,
+      "withinHalf": true,
+      "warnings": []
+    }
+  },
+  "diagnostics": [
+    {
+      "size": 8,
+      "attempts": 26,
+      "bestCount": 12,
+      "meetsMinimum": true,
+      "selection_quality": {
+        "anchor_event_ids": [],
+        "covered_anchor_event_ids": [],
+        "missing_anchor_event_ids": [],
+        "length_balance": {
+          "counts": {
+            "2": 4,
+            "3": 4,
+            "4": 4
+          },
+          "penalty": 0,
+          "withinHalf": true,
+          "warnings": []
+        },
+        "editorial_score": 0
+      }
+    }
+  ],
+  "analysis": {
+    "target": 12,
+    "minEntries": 8,
+    "candidateCount": 28,
+    "crossableCount": 28,
+    "lengthCounts": {
+      "2": 15,
+      "3": 7,
+      "4": 6
+    },
+    "crossableLengthCounts": {
+      "2": 15,
+      "3": 7,
+      "4": 6
+    },
+    "eventCapacity": 28,
+    "entryUpperBound": 28,
+    "isolated": [],
+    "components": [
+      [
+        "c01",
+        "c02",
+        "c04",
+        "c03"
+      ],
+      [
+        "c05",
+        "c06",
+        "c21",
+        "c11",
+        "c22",
+        "c12"
+      ],
+      [
+        "c07",
+        "c08"
+      ],
+      [
+        "c09",
+        "c10"
+      ],
+      [
+        "c13",
+        "c14"
+      ],
+      [
+        "c15",
+        "c16"
+      ],
+      [
+        "c17",
+        "c18"
+      ],
+      [
+        "c19",
+        "c20",
+        "c25",
+        "c26"
+      ],
+      [
+        "c23",
+        "c24"
+      ],
+      [
+        "c27",
+        "c28"
+      ]
+    ],
+    "links": [
+      {
+        "a": "c01",
+        "b": "c02",
+        "characters": [
+          "電"
+        ]
+      },
+      {
+        "a": "c02",
+        "b": "c04",
+        "characters": [
+          "競"
+        ]
+      },
+      {
+        "a": "c03",
+        "b": "c04",
+        "characters": [
+          "體"
+        ]
+      },
+      {
+        "a": "c05",
+        "b": "c06",
+        "characters": [
+          "人"
+        ]
+      },
+      {
+        "a": "c05",
+        "b": "c21",
+        "characters": [
+          "智",
+          "慧"
+        ]
+      },
+      {
+        "a": "c07",
+        "b": "c08",
+        "characters": [
+          "軍"
+        ]
+      },
+      {
+        "a": "c09",
+        "b": "c10",
+        "characters": [
+          "金"
+        ]
+      },
+      {
+        "a": "c11",
+        "b": "c12",
+        "characters": [
+          "債"
+        ]
+      },
+      {
+        "a": "c11",
+        "b": "c21",
+        "characters": [
+          "市"
+        ]
+      },
+      {
+        "a": "c11",
+        "b": "c22",
+        "characters": [
+          "市"
+        ]
+      },
+      {
+        "a": "c13",
+        "b": "c14",
+        "characters": [
+          "利",
+          "率"
+        ]
+      },
+      {
+        "a": "c15",
+        "b": "c16",
+        "characters": [
+          "槓"
+        ]
+      },
+      {
+        "a": "c17",
+        "b": "c18",
+        "characters": [
+          "籃"
+        ]
+      },
+      {
+        "a": "c19",
+        "b": "c20",
+        "characters": [
+          "國"
+        ]
+      },
+      {
+        "a": "c19",
+        "b": "c25",
+        "characters": [
+          "合",
+          "國"
+        ]
+      },
+      {
+        "a": "c19",
+        "b": "c26",
+        "characters": [
+          "合"
+        ]
+      },
+      {
+        "a": "c20",
+        "b": "c25",
+        "characters": [
+          "國"
+        ]
+      },
+      {
+        "a": "c21",
+        "b": "c22",
+        "characters": [
+          "城",
+          "市"
+        ]
+      },
+      {
+        "a": "c23",
+        "b": "c24",
+        "characters": [
+          "能",
+          "源"
+        ]
+      },
+      {
+        "a": "c25",
+        "b": "c26",
+        "characters": [
+          "合",
+          "作"
+        ]
+      },
+      {
+        "a": "c27",
+        "b": "c28",
+        "characters": [
+          "運",
+          "動"
+        ]
+      }
+    ],
+    "warnings": [],
+    "note": "共同字與事件題數只提供必要條件及上限；實際字盤是否可排仍須 Solver 與獨立 Validator。"
+  },
+  "selection_quality": {
+    "anchor_event_ids": [],
+    "covered_anchor_event_ids": [],
+    "missing_anchor_event_ids": [],
+    "length_balance": {
+      "counts": {
+        "2": 4,
+        "3": 4,
+        "4": 4
+      },
+      "penalty": 0,
+      "withinHalf": true,
+      "warnings": []
+    },
+    "editorial_score": 0
+  },
+  "selection_order": [
+    "entry_count_desc",
+    "grid_size_asc",
+    "anchor_event_coverage_desc",
+    "length_within_half_first",
+    "length_penalty_asc",
+    "editorial_score_desc"
+  ],
+  "selection_warnings": [],
+  "exclusions": [
+    {
+      "candidate_id": "c03",
+      "word": "半導體",
+      "event_id": "fixture-event-2",
+      "reason": "NOT_SELECTED_WITHIN_BUDGET",
+      "message": "本次方案未選入；不代表一定排不進"
+    },
+    {
+      "candidate_id": "c04",
+      "word": "團體競速",
+      "event_id": "fixture-event-3",
+      "reason": "NOT_SELECTED_WITHIN_BUDGET",
+      "message": "本次方案未選入；不代表一定排不進"
+    },
+    {
+      "candidate_id": "c06",
+      "word": "無人機",
+      "event_id": "fixture-event-5",
+      "reason": "NOT_SELECTED_WITHIN_BUDGET",
+      "message": "本次方案未選入；不代表一定排不進"
+    },
+    {
+      "candidate_id": "c07",
+      "word": "美軍",
+      "event_id": "fixture-event-6",
+      "reason": "NOT_SELECTED_WITHIN_BUDGET",
+      "message": "本次方案未選入；不代表一定排不進"
+    },
+    {
+      "candidate_id": "c08",
+      "word": "撤軍",
+      "event_id": "fixture-event-7",
+      "reason": "NOT_SELECTED_WITHIN_BUDGET",
+      "message": "本次方案未選入；不代表一定排不進"
+    },
+    {
+      "candidate_id": "c09",
+      "word": "黃金",
+      "event_id": "fixture-event-8",
+      "reason": "NOT_SELECTED_WITHIN_BUDGET",
+      "message": "本次方案未選入；不代表一定排不進"
+    },
+    {
+      "candidate_id": "c10",
+      "word": "金牌",
+      "event_id": "fixture-event-9",
+      "reason": "NOT_SELECTED_WITHIN_BUDGET",
+      "message": "本次方案未選入；不代表一定排不進"
+    },
+    {
+      "candidate_id": "c11",
+      "word": "債市",
+      "event_id": "fixture-event-10",
+      "reason": "NOT_SELECTED_WITHIN_BUDGET",
+      "message": "本次方案未選入；不代表一定排不進"
+    },
+    {
+      "candidate_id": "c12",
+      "word": "債券",
+      "event_id": "fixture-event-11",
+      "reason": "NOT_SELECTED_WITHIN_BUDGET",
+      "message": "本次方案未選入；不代表一定排不進"
+    },
+    {
+      "candidate_id": "c15",
+      "word": "單槓",
+      "event_id": "fixture-event-14",
+      "reason": "NOT_SELECTED_WITHIN_BUDGET",
+      "message": "本次方案未選入；不代表一定排不進"
+    },
+    {
+      "candidate_id": "c16",
+      "word": "槓桿",
+      "event_id": "fixture-event-15",
+      "reason": "NOT_SELECTED_WITHIN_BUDGET",
+      "message": "本次方案未選入；不代表一定排不進"
+    },
+    {
+      "candidate_id": "c17",
+      "word": "女籃",
+      "event_id": "fixture-event-16",
+      "reason": "NOT_SELECTED_WITHIN_BUDGET",
+      "message": "本次方案未選入；不代表一定排不進"
+    },
+    {
+      "candidate_id": "c18",
+      "word": "籃球",
+      "event_id": "fixture-event-17",
+      "reason": "NOT_SELECTED_WITHIN_BUDGET",
+      "message": "本次方案未選入；不代表一定排不進"
+    },
+    {
+      "candidate_id": "c23",
+      "word": "再生能源",
+      "event_id": "fixture-event-22",
+      "reason": "NOT_SELECTED_WITHIN_BUDGET",
+      "message": "本次方案未選入；不代表一定排不進"
+    },
+    {
+      "candidate_id": "c24",
+      "word": "能源",
+      "event_id": "fixture-event-23",
+      "reason": "NOT_SELECTED_WITHIN_BUDGET",
+      "message": "本次方案未選入；不代表一定排不進"
+    },
+    {
+      "candidate_id": "c26",
+      "word": "合作社",
+      "event_id": "fixture-event-25",
+      "reason": "NOT_SELECTED_WITHIN_BUDGET",
+      "message": "本次方案未選入；不代表一定排不進"
+    }
+  ],
+  "unselected": [
+    {
+      "id": "c03",
+      "word": "半導體",
+      "event_id": "fixture-event-2",
+      "clue": "",
+      "difficulty": "fixture",
+      "source_support": [],
+      "event": {
+        "fact_status": "fixture",
+        "title": "邏輯測試事件"
+      }
+    },
+    {
+      "id": "c04",
+      "word": "團體競速",
+      "event_id": "fixture-event-3",
+      "clue": "",
+      "difficulty": "fixture",
+      "source_support": [],
+      "event": {
+        "fact_status": "fixture",
+        "title": "邏輯測試事件"
+      }
+    },
+    {
+      "id": "c06",
+      "word": "無人機",
+      "event_id": "fixture-event-5",
+      "clue": "不需機上駕駛操作的飛行器。（3字）",
+      "difficulty": "fixture",
+      "source_support": [],
+      "event": {
+        "fact_status": "fixture",
+        "title": "邏輯測試事件"
+      }
+    },
+    {
+      "id": "c07",
+      "word": "美軍",
+      "event_id": "fixture-event-6",
+      "clue": "",
+      "difficulty": "fixture",
+      "source_support": [],
+      "event": {
+        "fact_status": "fixture",
+        "title": "邏輯測試事件"
+      }
+    },
+    {
+      "id": "c08",
+      "word": "撤軍",
+      "event_id": "fixture-event-7",
+      "clue": "",
+      "difficulty": "fixture",
+      "source_support": [],
+      "event": {
+        "fact_status": "fixture",
+        "title": "邏輯測試事件"
+      }
+    },
+    {
+      "id": "c09",
+      "word": "黃金",
+      "event_id": "fixture-event-8",
+      "clue": "",
+      "difficulty": "fixture",
+      "source_support": [],
+      "event": {
+        "fact_status": "fixture",
+        "title": "邏輯測試事件"
+      }
+    },
+    {
+      "id": "c10",
+      "word": "金牌",
+      "event_id": "fixture-event-9",
+      "clue": "",
+      "difficulty": "fixture",
+      "source_support": [],
+      "event": {
+        "fact_status": "fixture",
+        "title": "邏輯測試事件"
+      }
+    },
+    {
+      "id": "c11",
+      "word": "債市",
+      "event_id": "fixture-event-10",
+      "clue": "",
+      "difficulty": "fixture",
+      "source_support": [],
+      "event": {
+        "fact_status": "fixture",
+        "title": "邏輯測試事件"
+      }
+    },
+    {
+      "id": "c12",
+      "word": "債券",
+      "event_id": "fixture-event-11",
+      "clue": "",
+      "difficulty": "fixture",
+      "source_support": [],
+      "event": {
+        "fact_status": "fixture",
+        "title": "邏輯測試事件"
+      }
+    },
+    {
+      "id": "c15",
+      "word": "單槓",
+      "event_id": "fixture-event-14",
+      "clue": "",
+      "difficulty": "fixture",
+      "source_support": [],
+      "event": {
+        "fact_status": "fixture",
+        "title": "邏輯測試事件"
+      }
+    },
+    {
+      "id": "c16",
+      "word": "槓桿",
+      "event_id": "fixture-event-15",
+      "clue": "",
+      "difficulty": "fixture",
+      "source_support": [],
+      "event": {
+        "fact_status": "fixture",
+        "title": "邏輯測試事件"
+      }
+    },
+    {
+      "id": "c17",
+      "word": "女籃",
+      "event_id": "fixture-event-16",
+      "clue": "",
+      "difficulty": "fixture",
+      "source_support": [],
+      "event": {
+        "fact_status": "fixture",
+        "title": "邏輯測試事件"
+      }
+    },
+    {
+      "id": "c18",
+      "word": "籃球",
+      "event_id": "fixture-event-17",
+      "clue": "",
+      "difficulty": "fixture",
+      "source_support": [],
+      "event": {
+        "fact_status": "fixture",
+        "title": "邏輯測試事件"
+      }
+    },
+    {
+      "id": "c23",
+      "word": "再生能源",
+      "event_id": "fixture-event-22",
+      "clue": "",
+      "difficulty": "fixture",
+      "source_support": [],
+      "event": {
+        "fact_status": "fixture",
+        "title": "邏輯測試事件"
+      }
+    },
+    {
+      "id": "c24",
+      "word": "能源",
+      "event_id": "fixture-event-23",
+      "clue": "",
+      "difficulty": "fixture",
+      "source_support": [],
+      "event": {
+        "fact_status": "fixture",
+        "title": "邏輯測試事件"
+      }
+    },
+    {
+      "id": "c26",
+      "word": "合作社",
+      "event_id": "fixture-event-25",
+      "clue": "",
+      "difficulty": "fixture",
+      "source_support": [],
+      "event": {
+        "fact_status": "fixture",
+        "title": "邏輯測試事件"
+      }
+    }
+  ],
+  "message": "已達目標題數"
+}

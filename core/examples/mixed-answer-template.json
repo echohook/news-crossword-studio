@@ -1,0 +1,66 @@
+{
+  "schema_version": "1.0",
+  "worksheet_id": "52e124f5d26fea618e10638a316b4c758a56ddb003d19819fd23e88d612e7fac",
+  "answers": [
+    {
+      "number": 1,
+      "direction": "H",
+      "answer": ""
+    },
+    {
+      "number": 1,
+      "direction": "V",
+      "answer": ""
+    },
+    {
+      "number": 2,
+      "direction": "V",
+      "answer": ""
+    },
+    {
+      "number": 3,
+      "direction": "H",
+      "answer": ""
+    },
+    {
+      "number": 4,
+      "direction": "V",
+      "answer": ""
+    },
+    {
+      "number": 5,
+      "direction": "H",
+      "answer": ""
+    },
+    {
+      "number": 6,
+      "direction": "V",
+      "answer": ""
+    },
+    {
+      "number": 7,
+      "direction": "H",
+      "answer": ""
+    },
+    {
+      "number": 8,
+      "direction": "H",
+      "answer": ""
+    },
+    {
+      "number": 8,
+      "direction": "V",
+      "answer": ""
+    },
+    {
+      "number": 9,
+      "direction": "H",
+      "answer": ""
+    },
+    {
+      "number": 10,
+      "direction": "V",
+      "answer": ""
+    }
+  ]
+}

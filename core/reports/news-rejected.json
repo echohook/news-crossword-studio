@@ -1,0 +1,316 @@
+{
+  "schema_version": "1.0",
+  "issue_date": "2026-10-01",
+  "dataset_mode": "fixture",
+  "window": {
+    "from": "2026-09-25",
+    "to": "2026-10-01"
+  },
+  "policy": {
+    "windowDays": 7,
+    "eventScoreMin": 60,
+    "answerScoreMin": 70,
+    "maxClueChars": 60,
+    "eventAnswerLimit": 2,
+    "excludeEntertainment": true,
+    "excludedLabels": [
+      "娛樂",
+      "娛樂新聞",
+      "影劇",
+      "影劇新聞",
+      "影視娛樂",
+      "演藝",
+      "演藝新聞",
+      "明星八卦",
+      "綜藝",
+      "追星",
+      "entertainment",
+      "showbiz",
+      "celebrity",
+      "celebritygossip"
+    ]
+  },
+  "event_summary": {
+    "input": 2,
+    "deduplicated": 2,
+    "admitted": 2
+  },
+  "event_reports": [
+    {
+      "event_id": "event-01",
+      "aliases": [
+        "event-01"
+      ],
+      "dedup_key": "event-01",
+      "selected_revision": "event-01",
+      "passed": true,
+      "checks": [
+        {
+          "id": "E01",
+          "pass": true,
+          "message": "事件與更新日期必須有效、在本期七天內且不在未來"
+        },
+        {
+          "id": "E02",
+          "pass": true,
+          "message": "至少一筆本期、有識別碼、發布者、網址及摘錄的來源；同來源 ID 不可衝突"
+        },
+        {
+          "id": "E03",
+          "pass": true,
+          "message": "排除未證實消息、意見文章與未知 fact_status"
+        },
+        {
+          "id": "E04",
+          "pass": true,
+          "message": "Event Score 至少 60"
+        },
+        {
+          "id": "E05",
+          "pass": true,
+          "message": "需有標題、摘要與分類"
+        },
+        {
+          "id": "E06",
+          "pass": true,
+          "message": "排除娛樂新聞，混合分類及重點事件也不例外",
+          "details": []
+        }
+      ],
+      "news_scope": {
+        "allowed": true,
+        "reason": null,
+        "signals": [],
+        "errors": [],
+        "note": "依明示分類排除娛樂新聞；不因答案含電競、電影等字詞自動判為娛樂新聞。"
+      },
+      "discarded_source_count": 0,
+      "source_conflicts": []
+    },
+    {
+      "event_id": "event-02",
+      "aliases": [
+        "event-02"
+      ],
+      "dedup_key": "event-02",
+      "selected_revision": "event-02",
+      "passed": true,
+      "checks": [
+        {
+          "id": "E01",
+          "pass": true,
+          "message": "事件與更新日期必須有效、在本期七天內且不在未來"
+        },
+        {
+          "id": "E02",
+          "pass": true,
+          "message": "至少一筆本期、有識別碼、發布者、網址及摘錄的來源；同來源 ID 不可衝突"
+        },
+        {
+          "id": "E03",
+          "pass": true,
+          "message": "排除未證實消息、意見文章與未知 fact_status"
+        },
+        {
+          "id": "E04",
+          "pass": true,
+          "message": "Event Score 至少 60"
+        },
+        {
+          "id": "E05",
+          "pass": true,
+          "message": "需有標題、摘要與分類"
+        },
+        {
+          "id": "E06",
+          "pass": true,
+          "message": "排除娛樂新聞，混合分類及重點事件也不例外",
+          "details": []
+        }
+      ],
+      "news_scope": {
+        "allowed": true,
+        "reason": null,
+        "signals": [],
+        "errors": [],
+        "note": "依明示分類排除娛樂新聞；不因答案含電競、電影等字詞自動判為娛樂新聞。"
+      },
+      "discarded_source_count": 0,
+      "source_conflicts": []
+    }
+  ],
+  "candidate_summary": {
+    "input": 2,
+    "admitted": 0,
+    "rejected": 2
+  },
+  "candidate_reports": [
+    {
+      "index": 0,
+      "candidate_id": "event-01::人工智慧",
+      "word": "人工智慧",
+      "event_id": "event-01",
+      "passed": false,
+      "errors": [
+        {
+          "code": "C01",
+          "message": "題目未洩漏答案",
+          "details": []
+        }
+      ],
+      "clue_report": {
+        "candidate_id": "event-01::人工智慧",
+        "passed": false,
+        "checks": [
+          {
+            "id": "C01",
+            "label": "題目未洩漏答案",
+            "pass": false,
+            "details": []
+          },
+          {
+            "id": "C02",
+            "label": "題目完整且長度合適",
+            "pass": true,
+            "details": []
+          },
+          {
+            "id": "C03",
+            "label": "正確字數提示",
+            "pass": true,
+            "details": []
+          },
+          {
+            "id": "C04",
+            "label": "沒有已知同字數替代答案",
+            "pass": true,
+            "details": []
+          },
+          {
+            "id": "C05",
+            "label": "保留事實狀態限定語",
+            "pass": true,
+            "details": []
+          },
+          {
+            "id": "C06",
+            "label": "來源摘錄對應候選",
+            "pass": true,
+            "details": []
+          }
+        ],
+        "semantic_review": "REQUIRED",
+        "note": "機械檢查不證明題目唯一性、新聞真實性、台灣用語或政治中立；仍需複核。"
+      }
+    },
+    {
+      "index": 1,
+      "candidate_id": "event-02::無人機",
+      "word": "無人機",
+      "event_id": "event-02",
+      "passed": false,
+      "errors": [
+        {
+          "code": "C03",
+          "message": "正確字數提示",
+          "details": []
+        }
+      ],
+      "clue_report": {
+        "candidate_id": "event-02::無人機",
+        "passed": false,
+        "checks": [
+          {
+            "id": "C01",
+            "label": "題目未洩漏答案",
+            "pass": true,
+            "details": []
+          },
+          {
+            "id": "C02",
+            "label": "題目完整且長度合適",
+            "pass": true,
+            "details": []
+          },
+          {
+            "id": "C03",
+            "label": "正確字數提示",
+            "pass": false,
+            "details": []
+          },
+          {
+            "id": "C04",
+            "label": "沒有已知同字數替代答案",
+            "pass": true,
+            "details": []
+          },
+          {
+            "id": "C05",
+            "label": "保留事實狀態限定語",
+            "pass": true,
+            "details": []
+          },
+          {
+            "id": "C06",
+            "label": "來源摘錄對應候選",
+            "pass": true,
+            "details": []
+          }
+        ],
+        "semantic_review": "REQUIRED",
+        "note": "機械檢查不證明題目唯一性、新聞真實性、台灣用語或政治中立；仍需複核。"
+      }
+    }
+  ],
+  "eligible_candidates": [],
+  "quality_summary": {
+    "anchor_coverage": {
+      "required": 1,
+      "covered": 0
+    },
+    "missing_anchors": [
+      {
+        "event_id": "event-01",
+        "title": "合成事件：人工智慧"
+      }
+    ],
+    "category_counts": {},
+    "length_balance": null,
+    "selection_quality": null,
+    "selection_warnings": []
+  },
+  "approved_for_print": false,
+  "review_required": [
+    {
+      "id": "NEWS_FACT_CHECK",
+      "message": "核對真正來源、摘錄上下文與新聞事實"
+    },
+    {
+      "id": "FRESHNESS_RECHECK",
+      "message": "輸出前重新查核重大更新、否認或更正"
+    },
+    {
+      "id": "CLUE_UNIQUENESS",
+      "message": "確認題目自然且答案唯一"
+    },
+    {
+      "id": "TAIWAN_LANGUAGE",
+      "message": "確認台灣慣用詞與譯名"
+    },
+    {
+      "id": "POLITICAL_NEUTRALITY",
+      "message": "確認題目沒有主觀政治判斷"
+    },
+    {
+      "id": "SENIOR_DIFFICULTY",
+      "message": "確認長輩理解與書寫難度"
+    }
+  ],
+  "note": "合成資料僅供管線測試，未宣稱為真實新聞。",
+  "status": "NO_ELIGIBLE_CANDIDATES",
+  "grid_status": null,
+  "puzzle": null,
+  "solver_result": null,
+  "grid_validation": null,
+  "clue_validation": []
+}

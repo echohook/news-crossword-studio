@@ -1,0 +1,91 @@
+{
+  "schema_version": "1.0",
+  "status": "GRADED",
+  "worksheet_id": "1ea2967118f0b4337bd6a8465cbad76420d76d1a32f96ced7290ad6d783d659f",
+  "revealed": false,
+  "solved": false,
+  "total": 12,
+  "answered": 7,
+  "correct": 6,
+  "score": 50,
+  "results": [
+    {
+      "number": 1,
+      "direction": "V",
+      "status": "CORRECT",
+      "submitted_answer": "殖利率"
+    },
+    {
+      "number": 2,
+      "direction": "V",
+      "status": "CORRECT",
+      "submitted_answer": "國產化"
+    },
+    {
+      "number": 3,
+      "direction": "H",
+      "status": "CORRECT",
+      "submitted_answer": "利率"
+    },
+    {
+      "number": 4,
+      "direction": "H",
+      "status": "CORRECT",
+      "submitted_answer": "文化資產"
+    },
+    {
+      "number": 5,
+      "direction": "V",
+      "status": "CORRECT",
+      "submitted_answer": "無人機"
+    },
+    {
+      "number": 6,
+      "direction": "H",
+      "status": "CORRECT",
+      "submitted_answer": "人工智慧"
+    },
+    {
+      "number": 7,
+      "direction": "V",
+      "status": "INCORRECT",
+      "submitted_answer": "錯",
+      "reason": "LENGTH_MISMATCH"
+    },
+    {
+      "number": 8,
+      "direction": "H",
+      "status": "UNANSWERED",
+      "submitted_answer": ""
+    },
+    {
+      "number": 9,
+      "direction": "V",
+      "status": "UNANSWERED",
+      "submitted_answer": ""
+    },
+    {
+      "number": 10,
+      "direction": "V",
+      "status": "UNANSWERED",
+      "submitted_answer": ""
+    },
+    {
+      "number": 11,
+      "direction": "H",
+      "status": "UNANSWERED",
+      "submitted_answer": ""
+    },
+    {
+      "number": 12,
+      "direction": "H",
+      "status": "UNANSWERED",
+      "submitted_answer": ""
+    }
+  ],
+  "crossing_conflicts": [],
+  "coordinate_base": 0,
+  "grid_status": "VALID",
+  "review_status": "REQUIRED",
+  "approved_for_print": false
+}

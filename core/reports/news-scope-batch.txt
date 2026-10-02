@@ -1,0 +1,26 @@
+BATCH PASS — 4/4 案例符合預期
+
+PASS direct-excludes-entertainment / SOLVED / 8×8 / 2 題
+  已達目標題數
+  候選重點事件涵蓋：0/0 / 字數平衡差距：4 / 編輯評分：0.00
+  ENTERTAINMENT_EXCLUDED: 黃金：依本期規則排除娛樂新聞候選
+  ENTERTAINMENT_EXCLUDED: 金牌：依本期規則排除娛樂新聞候選
+PASS all-entertainment-exhausted / SEARCH_EXHAUSTED / -×- / 0 題
+  搜尋預算內未找到達最低題數的合法盤；請參考候選分析，不代表數學上無解。
+  候選重點事件涵蓋：0/0 / 字數平衡差距：0 / 編輯評分：0.00
+  ENTERTAINMENT_EXCLUDED: 黃金：依本期規則排除娛樂新聞候選
+  ENTERTAINMENT_EXCLUDED: 金牌：依本期規則排除娛樂新聞候選
+  TARGET_CAPACITY_SHORTAGE: 可交叉候選及每事件最多兩題的題數上限為 0，低於目標 2。
+  MINIMUM_CAPACITY_SHORTAGE: 候選條件下的題數上限低於最低 2 題，請擴充候選池。
+PASS pipeline-entertainment-anchors-excluded / REVIEW_REQUIRED / 8×8 / 2 題
+  合成資料僅供管線測試，未宣稱為真實新聞。
+  候選重點事件涵蓋：1/1 / 字數平衡差距：4 / 編輯評分：90.00
+  本期合格重點新聞涵蓋：1/1
+  事件合格 2 / 候選合格 2 / 內容待複核
+PASS malformed-scope-not-admitted / SEARCH_EXHAUSTED / -×- / 0 題
+  搜尋預算內未找到達最低題數的合法盤；請參考候選分析，不代表數學上無解。
+  候選重點事件涵蓋：0/0 / 字數平衡差距：0 / 編輯評分：0.00
+  NEWS_SCOPE_INVALID: 人工智慧：新聞範圍標記不合法
+  NEWS_SCOPE_INVALID: 無人機：新聞範圍標記不合法
+  TARGET_CAPACITY_SHORTAGE: 可交叉候選及每事件最多兩題的題數上限為 0，低於目標 2。
+  MINIMUM_CAPACITY_SHORTAGE: 候選條件下的題數上限低於最低 2 題，請擴充候選池。

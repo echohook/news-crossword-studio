@@ -1,0 +1,2440 @@
+{
+  "schema_version": "1.0",
+  "passed": true,
+  "summary": {
+    "total": 4,
+    "passed": 4,
+    "failed": 0,
+    "statusCounts": {
+      "SOLVED": 1,
+      "PARTIAL": 0,
+      "SEARCH_EXHAUSTED": 2,
+      "VALID": 0,
+      "INVALID": 0,
+      "INPUT_ERROR": 0,
+      "REVIEW_REQUIRED": 1,
+      "NO_ELIGIBLE_CANDIDATES": 0
+    }
+  },
+  "cases": [
+    {
+      "id": "direct-excludes-entertainment",
+      "operation": "solve",
+      "passed": true,
+      "mismatches": [],
+      "status": "SOLVED",
+      "valid": true,
+      "size": 8,
+      "entryCount": 2,
+      "lengthCounts": {
+        "2": 0,
+        "3": 1,
+        "4": 1
+      },
+      "puzzle": {
+        "schema_version": "1.0",
+        "board": [
+          [
+            "■",
+            "■",
+            "■",
+            "■",
+            "■",
+            "■",
+            "■",
+            "■"
+          ],
+          [
+            "■",
+            "■",
+            "■",
+            "■",
+            "■",
+            "■",
+            "■",
+            "■"
+          ],
+          [
+            "■",
+            "■",
+            "■",
+            "■",
+            "■",
+            "■",
+            "■",
+            "■"
+          ],
+          [
+            "■",
+            "無",
+            "人",
+            "機",
+            "■",
+            "■",
+            "■",
+            "■"
+          ],
+          [
+            "■",
+            "■",
+            "工",
+            "■",
+            "■",
+            "■",
+            "■",
+            "■"
+          ],
+          [
+            "■",
+            "■",
+            "智",
+            "■",
+            "■",
+            "■",
+            "■",
+            "■"
+          ],
+          [
+            "■",
+            "■",
+            "慧",
+            "■",
+            "■",
+            "■",
+            "■",
+            "■"
+          ],
+          [
+            "■",
+            "■",
+            "■",
+            "■",
+            "■",
+            "■",
+            "■",
+            "■"
+          ]
+        ],
+        "placements": [
+          {
+            "candidate_id": "ai",
+            "direction": "V",
+            "row": 3,
+            "col": 2
+          },
+          {
+            "candidate_id": "drone",
+            "direction": "H",
+            "row": 3,
+            "col": 1
+          }
+        ],
+        "expected": [
+          {
+            "id": "ai",
+            "word": "人工智慧",
+            "event_id": "tech"
+          },
+          {
+            "id": "drone",
+            "word": "無人機",
+            "event_id": "life"
+          }
+        ]
+      },
+      "validation": {
+        "valid": true,
+        "status": "VALID",
+        "checks": [
+          {
+            "id": "V01",
+            "label": "所有已宣告答案完整出現",
+            "pass": true,
+            "errors": []
+          },
+          {
+            "id": "V02",
+            "label": "正式答案無遺漏且恰好配置一次",
+            "pass": true,
+            "errors": []
+          },
+          {
+            "id": "V03",
+            "label": "無額外橫詞",
+            "pass": true,
+            "errors": []
+          },
+          {
+            "id": "V04",
+            "label": "無額外直詞",
+            "pass": true,
+            "errors": []
+          },
+          {
+            "id": "V05",
+            "label": "無字衝突或同方向重疊",
+            "pass": true,
+            "errors": []
+          },
+          {
+            "id": "V06",
+            "label": "答案無中斷或越界",
+            "pass": true,
+            "errors": []
+          },
+          {
+            "id": "V07",
+            "label": "每題至少一個有效交叉",
+            "pass": true,
+            "errors": []
+          },
+          {
+            "id": "V08",
+            "label": "交叉字一致",
+            "pass": true,
+            "errors": []
+          }
+        ],
+        "structural": [],
+        "detected": [
+          {
+            "word": "無人機",
+            "direction": "H",
+            "row": 3,
+            "col": 1
+          },
+          {
+            "word": "人工智慧",
+            "direction": "V",
+            "row": 3,
+            "col": 2
+          }
+        ],
+        "intersections": {
+          "ai": [
+            {
+              "row": 3,
+              "col": 2,
+              "with": "drone"
+            }
+          ],
+          "drone": [
+            {
+              "row": 3,
+              "col": 2,
+              "with": "ai"
+            }
+          ]
+        },
+        "balance": {
+          "counts": {
+            "2": 0,
+            "3": 1,
+            "4": 1
+          },
+          "penalty": 4,
+          "withinHalf": true,
+          "warnings": []
+        }
+      },
+      "diagnostics": [
+        {
+          "size": 8,
+          "attempts": 1,
+          "bestCount": 2,
+          "meetsMinimum": true,
+          "selection_quality": {
+            "anchor_event_ids": [],
+            "covered_anchor_event_ids": [],
+            "missing_anchor_event_ids": [],
+            "length_balance": {
+              "counts": {
+                "2": 0,
+                "3": 1,
+                "4": 1
+              },
+              "penalty": 4,
+              "withinHalf": true,
+              "warnings": []
+            },
+            "editorial_score": 0
+          }
+        }
+      ],
+      "analysis": {
+        "target": 2,
+        "minEntries": 2,
+        "candidateCount": 2,
+        "inputCandidateCount": 4,
+        "excluded_candidates": [
+          {
+            "candidate_id": "gold",
+            "word": "黃金",
+            "event_id": "ent",
+            "reason": "ENTERTAINMENT_EXCLUDED",
+            "message": "依本期規則排除娛樂新聞候選",
+            "signals": [
+              "category: 娛樂"
+            ],
+            "errors": []
+          },
+          {
+            "candidate_id": "medal",
+            "word": "金牌",
+            "event_id": "ent",
+            "reason": "ENTERTAINMENT_EXCLUDED",
+            "message": "依本期規則排除娛樂新聞候選",
+            "signals": [
+              "categories: 娛樂"
+            ],
+            "errors": []
+          }
+        ],
+        "crossableCount": 2,
+        "lengthCounts": {
+          "2": 0,
+          "3": 1,
+          "4": 1
+        },
+        "crossableLengthCounts": {
+          "2": 0,
+          "3": 1,
+          "4": 1
+        },
+        "eventCapacity": 2,
+        "entryUpperBound": 2,
+        "isolated": [],
+        "components": [
+          [
+            "ai",
+            "drone"
+          ]
+        ],
+        "links": [
+          {
+            "a": "ai",
+            "b": "drone",
+            "characters": [
+              "人"
+            ]
+          }
+        ],
+        "warnings": [
+          {
+            "code": "ENTERTAINMENT_EXCLUDED",
+            "message": "黃金：依本期規則排除娛樂新聞候選",
+            "ids": [
+              "gold"
+            ]
+          },
+          {
+            "code": "ENTERTAINMENT_EXCLUDED",
+            "message": "金牌：依本期規則排除娛樂新聞候選",
+            "ids": [
+              "medal"
+            ]
+          }
+        ],
+        "note": "共同字與事件題數只提供必要條件及上限；實際字盤是否可排仍須 Solver 與獨立 Validator。"
+      },
+      "exclusions": [
+        {
+          "candidate_id": "gold",
+          "word": "黃金",
+          "event_id": "ent",
+          "reason": "ENTERTAINMENT_EXCLUDED",
+          "message": "依本期規則排除娛樂新聞候選",
+          "signals": [
+            "category: 娛樂"
+          ],
+          "errors": []
+        },
+        {
+          "candidate_id": "medal",
+          "word": "金牌",
+          "event_id": "ent",
+          "reason": "ENTERTAINMENT_EXCLUDED",
+          "message": "依本期規則排除娛樂新聞候選",
+          "signals": [
+            "categories: 娛樂"
+          ],
+          "errors": []
+        }
+      ],
+      "message": "已達目標題數",
+      "selection_quality": {
+        "anchor_event_ids": [],
+        "covered_anchor_event_ids": [],
+        "missing_anchor_event_ids": [],
+        "length_balance": {
+          "counts": {
+            "2": 0,
+            "3": 1,
+            "4": 1
+          },
+          "penalty": 4,
+          "withinHalf": true,
+          "warnings": []
+        },
+        "editorial_score": 0
+      },
+      "selection_warnings": [],
+      "selection_order": [
+        "entry_count_desc",
+        "grid_size_asc",
+        "anchor_event_coverage_desc",
+        "length_within_half_first",
+        "length_penalty_asc",
+        "editorial_score_desc"
+      ]
+    },
+    {
+      "id": "all-entertainment-exhausted",
+      "operation": "solve",
+      "passed": true,
+      "mismatches": [],
+      "status": "SEARCH_EXHAUSTED",
+      "valid": null,
+      "size": null,
+      "entryCount": 0,
+      "lengthCounts": null,
+      "puzzle": null,
+      "validation": null,
+      "diagnostics": [
+        {
+          "size": 8,
+          "attempts": 4,
+          "bestCount": 0,
+          "meetsMinimum": false,
+          "selection_quality": {
+            "anchor_event_ids": [],
+            "covered_anchor_event_ids": [],
+            "missing_anchor_event_ids": [],
+            "length_balance": {
+              "counts": {
+                "2": 0,
+                "3": 0,
+                "4": 0
+              },
+              "penalty": 0,
+              "withinHalf": false,
+              "warnings": []
+            },
+            "editorial_score": 0
+          }
+        },
+        {
+          "size": 9,
+          "attempts": 4,
+          "bestCount": 0,
+          "meetsMinimum": false,
+          "selection_quality": {
+            "anchor_event_ids": [],
+            "covered_anchor_event_ids": [],
+            "missing_anchor_event_ids": [],
+            "length_balance": {
+              "counts": {
+                "2": 0,
+                "3": 0,
+                "4": 0
+              },
+              "penalty": 0,
+              "withinHalf": false,
+              "warnings": []
+            },
+            "editorial_score": 0
+          }
+        },
+        {
+          "size": 10,
+          "attempts": 4,
+          "bestCount": 0,
+          "meetsMinimum": false,
+          "selection_quality": {
+            "anchor_event_ids": [],
+            "covered_anchor_event_ids": [],
+            "missing_anchor_event_ids": [],
+            "length_balance": {
+              "counts": {
+                "2": 0,
+                "3": 0,
+                "4": 0
+              },
+              "penalty": 0,
+              "withinHalf": false,
+              "warnings": []
+            },
+            "editorial_score": 0
+          }
+        }
+      ],
+      "analysis": {
+        "target": 2,
+        "minEntries": 2,
+        "candidateCount": 0,
+        "inputCandidateCount": 2,
+        "excluded_candidates": [
+          {
+            "candidate_id": "gold",
+            "word": "黃金",
+            "event_id": "ent",
+            "reason": "ENTERTAINMENT_EXCLUDED",
+            "message": "依本期規則排除娛樂新聞候選",
+            "signals": [
+              "category: 娛樂"
+            ],
+            "errors": []
+          },
+          {
+            "candidate_id": "medal",
+            "word": "金牌",
+            "event_id": "ent",
+            "reason": "ENTERTAINMENT_EXCLUDED",
+            "message": "依本期規則排除娛樂新聞候選",
+            "signals": [
+              "categories: 娛樂"
+            ],
+            "errors": []
+          }
+        ],
+        "crossableCount": 0,
+        "lengthCounts": {
+          "2": 0,
+          "3": 0,
+          "4": 0
+        },
+        "crossableLengthCounts": {
+          "2": 0,
+          "3": 0,
+          "4": 0
+        },
+        "eventCapacity": 0,
+        "entryUpperBound": 0,
+        "isolated": [],
+        "components": [],
+        "links": [],
+        "warnings": [
+          {
+            "code": "ENTERTAINMENT_EXCLUDED",
+            "message": "黃金：依本期規則排除娛樂新聞候選",
+            "ids": [
+              "gold"
+            ]
+          },
+          {
+            "code": "ENTERTAINMENT_EXCLUDED",
+            "message": "金牌：依本期規則排除娛樂新聞候選",
+            "ids": [
+              "medal"
+            ]
+          },
+          {
+            "code": "TARGET_CAPACITY_SHORTAGE",
+            "message": "可交叉候選及每事件最多兩題的題數上限為 0，低於目標 2。"
+          },
+          {
+            "code": "MINIMUM_CAPACITY_SHORTAGE",
+            "message": "候選條件下的題數上限低於最低 2 題，請擴充候選池。"
+          }
+        ],
+        "note": "共同字與事件題數只提供必要條件及上限；實際字盤是否可排仍須 Solver 與獨立 Validator。"
+      },
+      "exclusions": [
+        {
+          "candidate_id": "gold",
+          "word": "黃金",
+          "event_id": "ent",
+          "reason": "ENTERTAINMENT_EXCLUDED",
+          "message": "依本期規則排除娛樂新聞候選",
+          "signals": [
+            "category: 娛樂"
+          ],
+          "errors": []
+        },
+        {
+          "candidate_id": "medal",
+          "word": "金牌",
+          "event_id": "ent",
+          "reason": "ENTERTAINMENT_EXCLUDED",
+          "message": "依本期規則排除娛樂新聞候選",
+          "signals": [
+            "categories: 娛樂"
+          ],
+          "errors": []
+        }
+      ],
+      "message": "搜尋預算內未找到達最低題數的合法盤；請參考候選分析，不代表數學上無解。",
+      "selection_quality": {
+        "anchor_event_ids": [],
+        "covered_anchor_event_ids": [],
+        "missing_anchor_event_ids": [],
+        "length_balance": {
+          "counts": {
+            "2": 0,
+            "3": 0,
+            "4": 0
+          },
+          "penalty": 0,
+          "withinHalf": false,
+          "warnings": []
+        },
+        "editorial_score": 0
+      },
+      "selection_warnings": [],
+      "selection_order": [
+        "entry_count_desc",
+        "grid_size_asc",
+        "anchor_event_coverage_desc",
+        "length_within_half_first",
+        "length_penalty_asc",
+        "editorial_score_desc"
+      ]
+    },
+    {
+      "id": "pipeline-entertainment-anchors-excluded",
+      "operation": "pipeline",
+      "passed": true,
+      "mismatches": [],
+      "status": "REVIEW_REQUIRED",
+      "valid": true,
+      "size": 8,
+      "entryCount": 2,
+      "lengthCounts": {
+        "2": 0,
+        "3": 1,
+        "4": 1
+      },
+      "puzzle": {
+        "schema_version": "1.0",
+        "board": [
+          [
+            "■",
+            "■",
+            "■",
+            "■",
+            "■",
+            "■",
+            "■",
+            "■"
+          ],
+          [
+            "■",
+            "■",
+            "■",
+            "■",
+            "■",
+            "■",
+            "■",
+            "■"
+          ],
+          [
+            "■",
+            "■",
+            "■",
+            "■",
+            "■",
+            "■",
+            "■",
+            "■"
+          ],
+          [
+            "■",
+            "無",
+            "人",
+            "機",
+            "■",
+            "■",
+            "■",
+            "■"
+          ],
+          [
+            "■",
+            "■",
+            "工",
+            "■",
+            "■",
+            "■",
+            "■",
+            "■"
+          ],
+          [
+            "■",
+            "■",
+            "智",
+            "■",
+            "■",
+            "■",
+            "■",
+            "■"
+          ],
+          [
+            "■",
+            "■",
+            "慧",
+            "■",
+            "■",
+            "■",
+            "■",
+            "■"
+          ],
+          [
+            "■",
+            "■",
+            "■",
+            "■",
+            "■",
+            "■",
+            "■",
+            "■"
+          ]
+        ],
+        "placements": [
+          {
+            "candidate_id": "event-01::人工智慧",
+            "direction": "V",
+            "row": 3,
+            "col": 2
+          },
+          {
+            "candidate_id": "event-02::無人機",
+            "direction": "H",
+            "row": 3,
+            "col": 1
+          }
+        ],
+        "expected": [
+          {
+            "word": "人工智慧",
+            "clue_draft": "讓電腦模擬人類智慧的技術領域。",
+            "answer_score": 90,
+            "difficulty": "medium",
+            "id": "event-01::人工智慧",
+            "event_id": "event-01",
+            "event_revision": "event-01",
+            "clue": "讓電腦模擬人類智慧的技術領域。（4字）",
+            "source_support": [
+              {
+                "source_id": "source-0",
+                "evidence": "本事件以「人工智慧」作為測試詞彙。"
+              }
+            ],
+            "event": {
+              "event_id": "event-01",
+              "event_date": "2026-09-25",
+              "title": "合成事件：人工智慧",
+              "summary": "測試事件與候選資料關聯。",
+              "categories": [
+                "科技"
+              ],
+              "fact_status": "confirmed",
+              "event_score": 90,
+              "anchor_event": true,
+              "sources": [
+                {
+                  "source_id": "source-0",
+                  "publisher": "合成測試資料",
+                  "kind": "fixture",
+                  "url": "https://example.invalid/fixture/event-01",
+                  "published_at": "2026-10-01",
+                  "excerpt": "本事件以「人工智慧」作為測試詞彙。"
+                }
+              ],
+              "keywords": [
+                {
+                  "word": "人工智慧",
+                  "clue_draft": "讓電腦模擬人類智慧的技術領域。",
+                  "answer_score": 90,
+                  "difficulty": "medium"
+                }
+              ],
+              "dedup_key": "event-01",
+              "aliases": [
+                "event-01"
+              ],
+              "content_revision": "event-01"
+            }
+          },
+          {
+            "word": "無人機",
+            "clue_draft": "不需機上駕駛操作的飛行器。",
+            "answer_score": 90,
+            "difficulty": "medium",
+            "id": "event-02::無人機",
+            "event_id": "event-02",
+            "event_revision": "event-02",
+            "clue": "不需機上駕駛操作的飛行器。（3字）",
+            "source_support": [
+              {
+                "source_id": "source-1",
+                "evidence": "本事件以「無人機」作為測試詞彙。"
+              }
+            ],
+            "event": {
+              "event_id": "event-02",
+              "event_date": "2026-09-26",
+              "title": "合成事件：無人機",
+              "summary": "測試事件與候選資料關聯。",
+              "categories": [
+                "國際"
+              ],
+              "fact_status": "confirmed",
+              "event_score": 90,
+              "anchor_event": false,
+              "sources": [
+                {
+                  "source_id": "source-1",
+                  "publisher": "合成測試資料",
+                  "kind": "fixture",
+                  "url": "https://example.invalid/fixture/event-02",
+                  "published_at": "2026-10-01",
+                  "excerpt": "本事件以「無人機」作為測試詞彙。"
+                }
+              ],
+              "keywords": [
+                {
+                  "word": "無人機",
+                  "clue_draft": "不需機上駕駛操作的飛行器。",
+                  "answer_score": 90,
+                  "difficulty": "medium"
+                }
+              ],
+              "dedup_key": "event-02",
+              "aliases": [
+                "event-02"
+              ],
+              "content_revision": "event-02"
+            }
+          }
+        ]
+      },
+      "validation": {
+        "valid": true,
+        "status": "VALID",
+        "checks": [
+          {
+            "id": "V01",
+            "label": "所有已宣告答案完整出現",
+            "pass": true,
+            "errors": []
+          },
+          {
+            "id": "V02",
+            "label": "正式答案無遺漏且恰好配置一次",
+            "pass": true,
+            "errors": []
+          },
+          {
+            "id": "V03",
+            "label": "無額外橫詞",
+            "pass": true,
+            "errors": []
+          },
+          {
+            "id": "V04",
+            "label": "無額外直詞",
+            "pass": true,
+            "errors": []
+          },
+          {
+            "id": "V05",
+            "label": "無字衝突或同方向重疊",
+            "pass": true,
+            "errors": []
+          },
+          {
+            "id": "V06",
+            "label": "答案無中斷或越界",
+            "pass": true,
+            "errors": []
+          },
+          {
+            "id": "V07",
+            "label": "每題至少一個有效交叉",
+            "pass": true,
+            "errors": []
+          },
+          {
+            "id": "V08",
+            "label": "交叉字一致",
+            "pass": true,
+            "errors": []
+          }
+        ],
+        "structural": [],
+        "detected": [
+          {
+            "word": "無人機",
+            "direction": "H",
+            "row": 3,
+            "col": 1
+          },
+          {
+            "word": "人工智慧",
+            "direction": "V",
+            "row": 3,
+            "col": 2
+          }
+        ],
+        "intersections": {
+          "event-01::人工智慧": [
+            {
+              "row": 3,
+              "col": 2,
+              "with": "event-02::無人機"
+            }
+          ],
+          "event-02::無人機": [
+            {
+              "row": 3,
+              "col": 2,
+              "with": "event-01::人工智慧"
+            }
+          ]
+        },
+        "balance": {
+          "counts": {
+            "2": 0,
+            "3": 1,
+            "4": 1
+          },
+          "penalty": 4,
+          "withinHalf": true,
+          "warnings": []
+        }
+      },
+      "pipeline_report": {
+        "schema_version": "1.0",
+        "issue_date": "2026-10-01",
+        "dataset_mode": "fixture",
+        "window": {
+          "from": "2026-09-25",
+          "to": "2026-10-01"
+        },
+        "policy": {
+          "windowDays": 7,
+          "eventScoreMin": 60,
+          "answerScoreMin": 70,
+          "maxClueChars": 60,
+          "eventAnswerLimit": 2,
+          "excludeEntertainment": true,
+          "excludedLabels": [
+            "娛樂",
+            "娛樂新聞",
+            "影劇",
+            "影劇新聞",
+            "影視娛樂",
+            "演藝",
+            "演藝新聞",
+            "明星八卦",
+            "綜藝",
+            "追星",
+            "entertainment",
+            "showbiz",
+            "celebrity",
+            "celebritygossip"
+          ]
+        },
+        "event_summary": {
+          "input": 4,
+          "deduplicated": 4,
+          "admitted": 2
+        },
+        "event_reports": [
+          {
+            "event_id": "event-01",
+            "aliases": [
+              "event-01"
+            ],
+            "dedup_key": "event-01",
+            "selected_revision": "event-01",
+            "passed": true,
+            "checks": [
+              {
+                "id": "E01",
+                "pass": true,
+                "message": "事件與更新日期必須有效、在本期七天內且不在未來"
+              },
+              {
+                "id": "E02",
+                "pass": true,
+                "message": "至少一筆本期、有識別碼、發布者、網址及摘錄的來源；同來源 ID 不可衝突"
+              },
+              {
+                "id": "E03",
+                "pass": true,
+                "message": "排除未證實消息、意見文章與未知 fact_status"
+              },
+              {
+                "id": "E04",
+                "pass": true,
+                "message": "Event Score 至少 60"
+              },
+              {
+                "id": "E05",
+                "pass": true,
+                "message": "需有標題、摘要與分類"
+              },
+              {
+                "id": "E06",
+                "pass": true,
+                "message": "排除娛樂新聞，混合分類及重點事件也不例外",
+                "details": []
+              }
+            ],
+            "news_scope": {
+              "allowed": true,
+              "reason": null,
+              "signals": [],
+              "errors": [],
+              "note": "依明示分類排除娛樂新聞；不因答案含電競、電影等字詞自動判為娛樂新聞。"
+            },
+            "discarded_source_count": 0,
+            "source_conflicts": []
+          },
+          {
+            "event_id": "event-02",
+            "aliases": [
+              "event-02"
+            ],
+            "dedup_key": "event-02",
+            "selected_revision": "event-02",
+            "passed": true,
+            "checks": [
+              {
+                "id": "E01",
+                "pass": true,
+                "message": "事件與更新日期必須有效、在本期七天內且不在未來"
+              },
+              {
+                "id": "E02",
+                "pass": true,
+                "message": "至少一筆本期、有識別碼、發布者、網址及摘錄的來源；同來源 ID 不可衝突"
+              },
+              {
+                "id": "E03",
+                "pass": true,
+                "message": "排除未證實消息、意見文章與未知 fact_status"
+              },
+              {
+                "id": "E04",
+                "pass": true,
+                "message": "Event Score 至少 60"
+              },
+              {
+                "id": "E05",
+                "pass": true,
+                "message": "需有標題、摘要與分類"
+              },
+              {
+                "id": "E06",
+                "pass": true,
+                "message": "排除娛樂新聞，混合分類及重點事件也不例外",
+                "details": []
+              }
+            ],
+            "news_scope": {
+              "allowed": true,
+              "reason": null,
+              "signals": [],
+              "errors": [],
+              "note": "依明示分類排除娛樂新聞；不因答案含電競、電影等字詞自動判為娛樂新聞。"
+            },
+            "discarded_source_count": 0,
+            "source_conflicts": []
+          },
+          {
+            "event_id": "event-03",
+            "aliases": [
+              "event-03"
+            ],
+            "dedup_key": "event-03",
+            "selected_revision": "event-03",
+            "passed": false,
+            "checks": [
+              {
+                "id": "E01",
+                "pass": true,
+                "message": "事件與更新日期必須有效、在本期七天內且不在未來"
+              },
+              {
+                "id": "E02",
+                "pass": true,
+                "message": "至少一筆本期、有識別碼、發布者、網址及摘錄的來源；同來源 ID 不可衝突"
+              },
+              {
+                "id": "E03",
+                "pass": true,
+                "message": "排除未證實消息、意見文章與未知 fact_status"
+              },
+              {
+                "id": "E04",
+                "pass": true,
+                "message": "Event Score 至少 60"
+              },
+              {
+                "id": "E05",
+                "pass": true,
+                "message": "需有標題、摘要與分類"
+              },
+              {
+                "id": "E06",
+                "pass": false,
+                "message": "排除娛樂新聞，混合分類及重點事件也不例外",
+                "details": [
+                  "is_entertainment=true"
+                ]
+              }
+            ],
+            "news_scope": {
+              "allowed": false,
+              "reason": "ENTERTAINMENT_EXCLUDED",
+              "signals": [
+                "is_entertainment=true"
+              ],
+              "errors": [],
+              "note": "依明示分類排除娛樂新聞；不因答案含電競、電影等字詞自動判為娛樂新聞。"
+            },
+            "discarded_source_count": 0,
+            "source_conflicts": []
+          },
+          {
+            "event_id": "event-04",
+            "aliases": [
+              "event-04"
+            ],
+            "dedup_key": "event-04",
+            "selected_revision": "event-04",
+            "passed": false,
+            "checks": [
+              {
+                "id": "E01",
+                "pass": true,
+                "message": "事件與更新日期必須有效、在本期七天內且不在未來"
+              },
+              {
+                "id": "E02",
+                "pass": true,
+                "message": "至少一筆本期、有識別碼、發布者、網址及摘錄的來源；同來源 ID 不可衝突"
+              },
+              {
+                "id": "E03",
+                "pass": true,
+                "message": "排除未證實消息、意見文章與未知 fact_status"
+              },
+              {
+                "id": "E04",
+                "pass": true,
+                "message": "Event Score 至少 60"
+              },
+              {
+                "id": "E05",
+                "pass": true,
+                "message": "需有標題、摘要與分類"
+              },
+              {
+                "id": "E06",
+                "pass": false,
+                "message": "排除娛樂新聞，混合分類及重點事件也不例外",
+                "details": [
+                  "is_entertainment=true"
+                ]
+              }
+            ],
+            "news_scope": {
+              "allowed": false,
+              "reason": "ENTERTAINMENT_EXCLUDED",
+              "signals": [
+                "is_entertainment=true"
+              ],
+              "errors": [],
+              "note": "依明示分類排除娛樂新聞；不因答案含電競、電影等字詞自動判為娛樂新聞。"
+            },
+            "discarded_source_count": 0,
+            "source_conflicts": []
+          }
+        ],
+        "candidate_summary": {
+          "input": 2,
+          "admitted": 2,
+          "rejected": 0
+        },
+        "candidate_reports": [
+          {
+            "index": 0,
+            "candidate_id": "event-01::人工智慧",
+            "word": "人工智慧",
+            "event_id": "event-01",
+            "passed": true,
+            "errors": [],
+            "clue_report": {
+              "candidate_id": "event-01::人工智慧",
+              "passed": true,
+              "checks": [
+                {
+                  "id": "C01",
+                  "label": "題目未洩漏答案",
+                  "pass": true,
+                  "details": []
+                },
+                {
+                  "id": "C02",
+                  "label": "題目完整且長度合適",
+                  "pass": true,
+                  "details": []
+                },
+                {
+                  "id": "C03",
+                  "label": "正確字數提示",
+                  "pass": true,
+                  "details": []
+                },
+                {
+                  "id": "C04",
+                  "label": "沒有已知同字數替代答案",
+                  "pass": true,
+                  "details": []
+                },
+                {
+                  "id": "C05",
+                  "label": "保留事實狀態限定語",
+                  "pass": true,
+                  "details": []
+                },
+                {
+                  "id": "C06",
+                  "label": "來源摘錄對應候選",
+                  "pass": true,
+                  "details": []
+                }
+              ],
+              "semantic_review": "REQUIRED",
+              "note": "機械檢查不證明題目唯一性、新聞真實性、台灣用語或政治中立；仍需複核。"
+            }
+          },
+          {
+            "index": 1,
+            "candidate_id": "event-02::無人機",
+            "word": "無人機",
+            "event_id": "event-02",
+            "passed": true,
+            "errors": [],
+            "clue_report": {
+              "candidate_id": "event-02::無人機",
+              "passed": true,
+              "checks": [
+                {
+                  "id": "C01",
+                  "label": "題目未洩漏答案",
+                  "pass": true,
+                  "details": []
+                },
+                {
+                  "id": "C02",
+                  "label": "題目完整且長度合適",
+                  "pass": true,
+                  "details": []
+                },
+                {
+                  "id": "C03",
+                  "label": "正確字數提示",
+                  "pass": true,
+                  "details": []
+                },
+                {
+                  "id": "C04",
+                  "label": "沒有已知同字數替代答案",
+                  "pass": true,
+                  "details": []
+                },
+                {
+                  "id": "C05",
+                  "label": "保留事實狀態限定語",
+                  "pass": true,
+                  "details": []
+                },
+                {
+                  "id": "C06",
+                  "label": "來源摘錄對應候選",
+                  "pass": true,
+                  "details": []
+                }
+              ],
+              "semantic_review": "REQUIRED",
+              "note": "機械檢查不證明題目唯一性、新聞真實性、台灣用語或政治中立；仍需複核。"
+            }
+          }
+        ],
+        "eligible_candidates": [
+          {
+            "word": "人工智慧",
+            "clue_draft": "讓電腦模擬人類智慧的技術領域。",
+            "answer_score": 90,
+            "difficulty": "medium",
+            "id": "event-01::人工智慧",
+            "event_id": "event-01",
+            "event_revision": "event-01",
+            "clue": "讓電腦模擬人類智慧的技術領域。（4字）",
+            "source_support": [
+              {
+                "source_id": "source-0",
+                "evidence": "本事件以「人工智慧」作為測試詞彙。"
+              }
+            ],
+            "event": {
+              "event_id": "event-01",
+              "event_date": "2026-09-25",
+              "title": "合成事件：人工智慧",
+              "summary": "測試事件與候選資料關聯。",
+              "categories": [
+                "科技"
+              ],
+              "fact_status": "confirmed",
+              "event_score": 90,
+              "anchor_event": true,
+              "sources": [
+                {
+                  "source_id": "source-0",
+                  "publisher": "合成測試資料",
+                  "kind": "fixture",
+                  "url": "https://example.invalid/fixture/event-01",
+                  "published_at": "2026-10-01",
+                  "excerpt": "本事件以「人工智慧」作為測試詞彙。"
+                }
+              ],
+              "keywords": [
+                {
+                  "word": "人工智慧",
+                  "clue_draft": "讓電腦模擬人類智慧的技術領域。",
+                  "answer_score": 90,
+                  "difficulty": "medium"
+                }
+              ],
+              "dedup_key": "event-01",
+              "aliases": [
+                "event-01"
+              ],
+              "content_revision": "event-01"
+            }
+          },
+          {
+            "word": "無人機",
+            "clue_draft": "不需機上駕駛操作的飛行器。",
+            "answer_score": 90,
+            "difficulty": "medium",
+            "id": "event-02::無人機",
+            "event_id": "event-02",
+            "event_revision": "event-02",
+            "clue": "不需機上駕駛操作的飛行器。（3字）",
+            "source_support": [
+              {
+                "source_id": "source-1",
+                "evidence": "本事件以「無人機」作為測試詞彙。"
+              }
+            ],
+            "event": {
+              "event_id": "event-02",
+              "event_date": "2026-09-26",
+              "title": "合成事件：無人機",
+              "summary": "測試事件與候選資料關聯。",
+              "categories": [
+                "國際"
+              ],
+              "fact_status": "confirmed",
+              "event_score": 90,
+              "anchor_event": false,
+              "sources": [
+                {
+                  "source_id": "source-1",
+                  "publisher": "合成測試資料",
+                  "kind": "fixture",
+                  "url": "https://example.invalid/fixture/event-02",
+                  "published_at": "2026-10-01",
+                  "excerpt": "本事件以「無人機」作為測試詞彙。"
+                }
+              ],
+              "keywords": [
+                {
+                  "word": "無人機",
+                  "clue_draft": "不需機上駕駛操作的飛行器。",
+                  "answer_score": 90,
+                  "difficulty": "medium"
+                }
+              ],
+              "dedup_key": "event-02",
+              "aliases": [
+                "event-02"
+              ],
+              "content_revision": "event-02"
+            }
+          }
+        ],
+        "quality_summary": {
+          "anchor_coverage": {
+            "required": 1,
+            "covered": 1
+          },
+          "missing_anchors": [],
+          "category_counts": {
+            "科技": 1,
+            "國際": 1
+          },
+          "length_balance": {
+            "counts": {
+              "2": 0,
+              "3": 1,
+              "4": 1
+            },
+            "penalty": 4,
+            "withinHalf": true,
+            "warnings": []
+          },
+          "selection_quality": {
+            "anchor_event_ids": [
+              "event-01"
+            ],
+            "covered_anchor_event_ids": [
+              "event-01"
+            ],
+            "missing_anchor_event_ids": [],
+            "length_balance": {
+              "counts": {
+                "2": 0,
+                "3": 1,
+                "4": 1
+              },
+              "penalty": 4,
+              "withinHalf": true,
+              "warnings": []
+            },
+            "editorial_score": 90
+          },
+          "selection_warnings": []
+        },
+        "approved_for_print": false,
+        "review_required": [
+          {
+            "id": "NEWS_FACT_CHECK",
+            "message": "核對真正來源、摘錄上下文與新聞事實"
+          },
+          {
+            "id": "FRESHNESS_RECHECK",
+            "message": "輸出前重新查核重大更新、否認或更正"
+          },
+          {
+            "id": "CLUE_UNIQUENESS",
+            "message": "確認題目自然且答案唯一"
+          },
+          {
+            "id": "TAIWAN_LANGUAGE",
+            "message": "確認台灣慣用詞與譯名"
+          },
+          {
+            "id": "POLITICAL_NEUTRALITY",
+            "message": "確認題目沒有主觀政治判斷"
+          },
+          {
+            "id": "SENIOR_DIFFICULTY",
+            "message": "確認長輩理解與書寫難度"
+          }
+        ],
+        "note": "合成資料僅供管線測試，未宣稱為真實新聞。",
+        "status": "REVIEW_REQUIRED",
+        "grid_status": "VALID",
+        "puzzle": {
+          "schema_version": "1.0",
+          "board": [
+            [
+              "■",
+              "■",
+              "■",
+              "■",
+              "■",
+              "■",
+              "■",
+              "■"
+            ],
+            [
+              "■",
+              "■",
+              "■",
+              "■",
+              "■",
+              "■",
+              "■",
+              "■"
+            ],
+            [
+              "■",
+              "■",
+              "■",
+              "■",
+              "■",
+              "■",
+              "■",
+              "■"
+            ],
+            [
+              "■",
+              "無",
+              "人",
+              "機",
+              "■",
+              "■",
+              "■",
+              "■"
+            ],
+            [
+              "■",
+              "■",
+              "工",
+              "■",
+              "■",
+              "■",
+              "■",
+              "■"
+            ],
+            [
+              "■",
+              "■",
+              "智",
+              "■",
+              "■",
+              "■",
+              "■",
+              "■"
+            ],
+            [
+              "■",
+              "■",
+              "慧",
+              "■",
+              "■",
+              "■",
+              "■",
+              "■"
+            ],
+            [
+              "■",
+              "■",
+              "■",
+              "■",
+              "■",
+              "■",
+              "■",
+              "■"
+            ]
+          ],
+          "placements": [
+            {
+              "candidate_id": "event-01::人工智慧",
+              "direction": "V",
+              "row": 3,
+              "col": 2
+            },
+            {
+              "candidate_id": "event-02::無人機",
+              "direction": "H",
+              "row": 3,
+              "col": 1
+            }
+          ],
+          "expected": [
+            {
+              "word": "人工智慧",
+              "clue_draft": "讓電腦模擬人類智慧的技術領域。",
+              "answer_score": 90,
+              "difficulty": "medium",
+              "id": "event-01::人工智慧",
+              "event_id": "event-01",
+              "event_revision": "event-01",
+              "clue": "讓電腦模擬人類智慧的技術領域。（4字）",
+              "source_support": [
+                {
+                  "source_id": "source-0",
+                  "evidence": "本事件以「人工智慧」作為測試詞彙。"
+                }
+              ],
+              "event": {
+                "event_id": "event-01",
+                "event_date": "2026-09-25",
+                "title": "合成事件：人工智慧",
+                "summary": "測試事件與候選資料關聯。",
+                "categories": [
+                  "科技"
+                ],
+                "fact_status": "confirmed",
+                "event_score": 90,
+                "anchor_event": true,
+                "sources": [
+                  {
+                    "source_id": "source-0",
+                    "publisher": "合成測試資料",
+                    "kind": "fixture",
+                    "url": "https://example.invalid/fixture/event-01",
+                    "published_at": "2026-10-01",
+                    "excerpt": "本事件以「人工智慧」作為測試詞彙。"
+                  }
+                ],
+                "keywords": [
+                  {
+                    "word": "人工智慧",
+                    "clue_draft": "讓電腦模擬人類智慧的技術領域。",
+                    "answer_score": 90,
+                    "difficulty": "medium"
+                  }
+                ],
+                "dedup_key": "event-01",
+                "aliases": [
+                  "event-01"
+                ],
+                "content_revision": "event-01"
+              }
+            },
+            {
+              "word": "無人機",
+              "clue_draft": "不需機上駕駛操作的飛行器。",
+              "answer_score": 90,
+              "difficulty": "medium",
+              "id": "event-02::無人機",
+              "event_id": "event-02",
+              "event_revision": "event-02",
+              "clue": "不需機上駕駛操作的飛行器。（3字）",
+              "source_support": [
+                {
+                  "source_id": "source-1",
+                  "evidence": "本事件以「無人機」作為測試詞彙。"
+                }
+              ],
+              "event": {
+                "event_id": "event-02",
+                "event_date": "2026-09-26",
+                "title": "合成事件：無人機",
+                "summary": "測試事件與候選資料關聯。",
+                "categories": [
+                  "國際"
+                ],
+                "fact_status": "confirmed",
+                "event_score": 90,
+                "anchor_event": false,
+                "sources": [
+                  {
+                    "source_id": "source-1",
+                    "publisher": "合成測試資料",
+                    "kind": "fixture",
+                    "url": "https://example.invalid/fixture/event-02",
+                    "published_at": "2026-10-01",
+                    "excerpt": "本事件以「無人機」作為測試詞彙。"
+                  }
+                ],
+                "keywords": [
+                  {
+                    "word": "無人機",
+                    "clue_draft": "不需機上駕駛操作的飛行器。",
+                    "answer_score": 90,
+                    "difficulty": "medium"
+                  }
+                ],
+                "dedup_key": "event-02",
+                "aliases": [
+                  "event-02"
+                ],
+                "content_revision": "event-02"
+              }
+            }
+          ]
+        },
+        "solver_result": {
+          "status": "SOLVED",
+          "puzzle": {
+            "schema_version": "1.0",
+            "board": [
+              [
+                "■",
+                "■",
+                "■",
+                "■",
+                "■",
+                "■",
+                "■",
+                "■"
+              ],
+              [
+                "■",
+                "■",
+                "■",
+                "■",
+                "■",
+                "■",
+                "■",
+                "■"
+              ],
+              [
+                "■",
+                "■",
+                "■",
+                "■",
+                "■",
+                "■",
+                "■",
+                "■"
+              ],
+              [
+                "■",
+                "無",
+                "人",
+                "機",
+                "■",
+                "■",
+                "■",
+                "■"
+              ],
+              [
+                "■",
+                "■",
+                "工",
+                "■",
+                "■",
+                "■",
+                "■",
+                "■"
+              ],
+              [
+                "■",
+                "■",
+                "智",
+                "■",
+                "■",
+                "■",
+                "■",
+                "■"
+              ],
+              [
+                "■",
+                "■",
+                "慧",
+                "■",
+                "■",
+                "■",
+                "■",
+                "■"
+              ],
+              [
+                "■",
+                "■",
+                "■",
+                "■",
+                "■",
+                "■",
+                "■",
+                "■"
+              ]
+            ],
+            "placements": [
+              {
+                "candidate_id": "event-01::人工智慧",
+                "direction": "V",
+                "row": 3,
+                "col": 2
+              },
+              {
+                "candidate_id": "event-02::無人機",
+                "direction": "H",
+                "row": 3,
+                "col": 1
+              }
+            ],
+            "expected": [
+              {
+                "word": "人工智慧",
+                "clue_draft": "讓電腦模擬人類智慧的技術領域。",
+                "answer_score": 90,
+                "difficulty": "medium",
+                "id": "event-01::人工智慧",
+                "event_id": "event-01",
+                "event_revision": "event-01",
+                "clue": "讓電腦模擬人類智慧的技術領域。（4字）",
+                "source_support": [
+                  {
+                    "source_id": "source-0",
+                    "evidence": "本事件以「人工智慧」作為測試詞彙。"
+                  }
+                ],
+                "event": {
+                  "event_id": "event-01",
+                  "event_date": "2026-09-25",
+                  "title": "合成事件：人工智慧",
+                  "summary": "測試事件與候選資料關聯。",
+                  "categories": [
+                    "科技"
+                  ],
+                  "fact_status": "confirmed",
+                  "event_score": 90,
+                  "anchor_event": true,
+                  "sources": [
+                    {
+                      "source_id": "source-0",
+                      "publisher": "合成測試資料",
+                      "kind": "fixture",
+                      "url": "https://example.invalid/fixture/event-01",
+                      "published_at": "2026-10-01",
+                      "excerpt": "本事件以「人工智慧」作為測試詞彙。"
+                    }
+                  ],
+                  "keywords": [
+                    {
+                      "word": "人工智慧",
+                      "clue_draft": "讓電腦模擬人類智慧的技術領域。",
+                      "answer_score": 90,
+                      "difficulty": "medium"
+                    }
+                  ],
+                  "dedup_key": "event-01",
+                  "aliases": [
+                    "event-01"
+                  ],
+                  "content_revision": "event-01"
+                }
+              },
+              {
+                "word": "無人機",
+                "clue_draft": "不需機上駕駛操作的飛行器。",
+                "answer_score": 90,
+                "difficulty": "medium",
+                "id": "event-02::無人機",
+                "event_id": "event-02",
+                "event_revision": "event-02",
+                "clue": "不需機上駕駛操作的飛行器。（3字）",
+                "source_support": [
+                  {
+                    "source_id": "source-1",
+                    "evidence": "本事件以「無人機」作為測試詞彙。"
+                  }
+                ],
+                "event": {
+                  "event_id": "event-02",
+                  "event_date": "2026-09-26",
+                  "title": "合成事件：無人機",
+                  "summary": "測試事件與候選資料關聯。",
+                  "categories": [
+                    "國際"
+                  ],
+                  "fact_status": "confirmed",
+                  "event_score": 90,
+                  "anchor_event": false,
+                  "sources": [
+                    {
+                      "source_id": "source-1",
+                      "publisher": "合成測試資料",
+                      "kind": "fixture",
+                      "url": "https://example.invalid/fixture/event-02",
+                      "published_at": "2026-10-01",
+                      "excerpt": "本事件以「無人機」作為測試詞彙。"
+                    }
+                  ],
+                  "keywords": [
+                    {
+                      "word": "無人機",
+                      "clue_draft": "不需機上駕駛操作的飛行器。",
+                      "answer_score": 90,
+                      "difficulty": "medium"
+                    }
+                  ],
+                  "dedup_key": "event-02",
+                  "aliases": [
+                    "event-02"
+                  ],
+                  "content_revision": "event-02"
+                }
+              }
+            ]
+          },
+          "validation": {
+            "valid": true,
+            "status": "VALID",
+            "checks": [
+              {
+                "id": "V01",
+                "label": "所有已宣告答案完整出現",
+                "pass": true,
+                "errors": []
+              },
+              {
+                "id": "V02",
+                "label": "正式答案無遺漏且恰好配置一次",
+                "pass": true,
+                "errors": []
+              },
+              {
+                "id": "V03",
+                "label": "無額外橫詞",
+                "pass": true,
+                "errors": []
+              },
+              {
+                "id": "V04",
+                "label": "無額外直詞",
+                "pass": true,
+                "errors": []
+              },
+              {
+                "id": "V05",
+                "label": "無字衝突或同方向重疊",
+                "pass": true,
+                "errors": []
+              },
+              {
+                "id": "V06",
+                "label": "答案無中斷或越界",
+                "pass": true,
+                "errors": []
+              },
+              {
+                "id": "V07",
+                "label": "每題至少一個有效交叉",
+                "pass": true,
+                "errors": []
+              },
+              {
+                "id": "V08",
+                "label": "交叉字一致",
+                "pass": true,
+                "errors": []
+              }
+            ],
+            "structural": [],
+            "detected": [
+              {
+                "word": "無人機",
+                "direction": "H",
+                "row": 3,
+                "col": 1
+              },
+              {
+                "word": "人工智慧",
+                "direction": "V",
+                "row": 3,
+                "col": 2
+              }
+            ],
+            "intersections": {
+              "event-01::人工智慧": [
+                {
+                  "row": 3,
+                  "col": 2,
+                  "with": "event-02::無人機"
+                }
+              ],
+              "event-02::無人機": [
+                {
+                  "row": 3,
+                  "col": 2,
+                  "with": "event-01::人工智慧"
+                }
+              ]
+            },
+            "balance": {
+              "counts": {
+                "2": 0,
+                "3": 1,
+                "4": 1
+              },
+              "penalty": 4,
+              "withinHalf": true,
+              "warnings": []
+            }
+          },
+          "diagnostics": [
+            {
+              "size": 8,
+              "attempts": 1,
+              "bestCount": 2,
+              "meetsMinimum": true,
+              "selection_quality": {
+                "anchor_event_ids": [
+                  "event-01"
+                ],
+                "covered_anchor_event_ids": [
+                  "event-01"
+                ],
+                "missing_anchor_event_ids": [],
+                "length_balance": {
+                  "counts": {
+                    "2": 0,
+                    "3": 1,
+                    "4": 1
+                  },
+                  "penalty": 4,
+                  "withinHalf": true,
+                  "warnings": []
+                },
+                "editorial_score": 90
+              }
+            }
+          ],
+          "analysis": {
+            "target": 2,
+            "minEntries": 2,
+            "candidateCount": 2,
+            "inputCandidateCount": 2,
+            "excluded_candidates": [],
+            "crossableCount": 2,
+            "lengthCounts": {
+              "2": 0,
+              "3": 1,
+              "4": 1
+            },
+            "crossableLengthCounts": {
+              "2": 0,
+              "3": 1,
+              "4": 1
+            },
+            "eventCapacity": 2,
+            "entryUpperBound": 2,
+            "isolated": [],
+            "components": [
+              [
+                "event-01::人工智慧",
+                "event-02::無人機"
+              ]
+            ],
+            "links": [
+              {
+                "a": "event-01::人工智慧",
+                "b": "event-02::無人機",
+                "characters": [
+                  "人"
+                ]
+              }
+            ],
+            "warnings": [],
+            "note": "共同字與事件題數只提供必要條件及上限；實際字盤是否可排仍須 Solver 與獨立 Validator。"
+          },
+          "news_scope": {
+            "excludeEntertainment": true,
+            "excluded_candidates": []
+          },
+          "selection_quality": {
+            "anchor_event_ids": [
+              "event-01"
+            ],
+            "covered_anchor_event_ids": [
+              "event-01"
+            ],
+            "missing_anchor_event_ids": [],
+            "length_balance": {
+              "counts": {
+                "2": 0,
+                "3": 1,
+                "4": 1
+              },
+              "penalty": 4,
+              "withinHalf": true,
+              "warnings": []
+            },
+            "editorial_score": 90
+          },
+          "selection_order": [
+            "entry_count_desc",
+            "grid_size_asc",
+            "anchor_event_coverage_desc",
+            "length_within_half_first",
+            "length_penalty_asc",
+            "editorial_score_desc"
+          ],
+          "selection_warnings": [],
+          "exclusions": [],
+          "unselected": [],
+          "message": "已達目標題數"
+        },
+        "grid_validation": {
+          "valid": true,
+          "status": "VALID",
+          "checks": [
+            {
+              "id": "V01",
+              "label": "所有已宣告答案完整出現",
+              "pass": true,
+              "errors": []
+            },
+            {
+              "id": "V02",
+              "label": "正式答案無遺漏且恰好配置一次",
+              "pass": true,
+              "errors": []
+            },
+            {
+              "id": "V03",
+              "label": "無額外橫詞",
+              "pass": true,
+              "errors": []
+            },
+            {
+              "id": "V04",
+              "label": "無額外直詞",
+              "pass": true,
+              "errors": []
+            },
+            {
+              "id": "V05",
+              "label": "無字衝突或同方向重疊",
+              "pass": true,
+              "errors": []
+            },
+            {
+              "id": "V06",
+              "label": "答案無中斷或越界",
+              "pass": true,
+              "errors": []
+            },
+            {
+              "id": "V07",
+              "label": "每題至少一個有效交叉",
+              "pass": true,
+              "errors": []
+            },
+            {
+              "id": "V08",
+              "label": "交叉字一致",
+              "pass": true,
+              "errors": []
+            }
+          ],
+          "structural": [],
+          "detected": [
+            {
+              "word": "無人機",
+              "direction": "H",
+              "row": 3,
+              "col": 1
+            },
+            {
+              "word": "人工智慧",
+              "direction": "V",
+              "row": 3,
+              "col": 2
+            }
+          ],
+          "intersections": {
+            "event-01::人工智慧": [
+              {
+                "row": 3,
+                "col": 2,
+                "with": "event-02::無人機"
+              }
+            ],
+            "event-02::無人機": [
+              {
+                "row": 3,
+                "col": 2,
+                "with": "event-01::人工智慧"
+              }
+            ]
+          },
+          "balance": {
+            "counts": {
+              "2": 0,
+              "3": 1,
+              "4": 1
+            },
+            "penalty": 4,
+            "withinHalf": true,
+            "warnings": []
+          }
+        },
+        "clue_validation": [
+          {
+            "candidate_id": "event-01::人工智慧",
+            "passed": true,
+            "checks": [
+              {
+                "id": "C01",
+                "label": "題目未洩漏答案",
+                "pass": true,
+                "details": []
+              },
+              {
+                "id": "C02",
+                "label": "題目完整且長度合適",
+                "pass": true,
+                "details": []
+              },
+              {
+                "id": "C03",
+                "label": "正確字數提示",
+                "pass": true,
+                "details": []
+              },
+              {
+                "id": "C04",
+                "label": "沒有已知同字數替代答案",
+                "pass": true,
+                "details": []
+              },
+              {
+                "id": "C05",
+                "label": "保留事實狀態限定語",
+                "pass": true,
+                "details": []
+              },
+              {
+                "id": "C06",
+                "label": "來源摘錄對應候選",
+                "pass": true,
+                "details": []
+              }
+            ],
+            "semantic_review": "REQUIRED",
+            "note": "機械檢查不證明題目唯一性、新聞真實性、台灣用語或政治中立；仍需複核。"
+          },
+          {
+            "candidate_id": "event-02::無人機",
+            "passed": true,
+            "checks": [
+              {
+                "id": "C01",
+                "label": "題目未洩漏答案",
+                "pass": true,
+                "details": []
+              },
+              {
+                "id": "C02",
+                "label": "題目完整且長度合適",
+                "pass": true,
+                "details": []
+              },
+              {
+                "id": "C03",
+                "label": "正確字數提示",
+                "pass": true,
+                "details": []
+              },
+              {
+                "id": "C04",
+                "label": "沒有已知同字數替代答案",
+                "pass": true,
+                "details": []
+              },
+              {
+                "id": "C05",
+                "label": "保留事實狀態限定語",
+                "pass": true,
+                "details": []
+              },
+              {
+                "id": "C06",
+                "label": "來源摘錄對應候選",
+                "pass": true,
+                "details": []
+              }
+            ],
+            "semantic_review": "REQUIRED",
+            "note": "機械檢查不證明題目唯一性、新聞真實性、台灣用語或政治中立；仍需複核。"
+          }
+        ]
+      },
+      "message": "合成資料僅供管線測試，未宣稱為真實新聞。"
+    },
+    {
+      "id": "malformed-scope-not-admitted",
+      "operation": "solve",
+      "passed": true,
+      "mismatches": [],
+      "status": "SEARCH_EXHAUSTED",
+      "valid": null,
+      "size": null,
+      "entryCount": 0,
+      "lengthCounts": null,
+      "puzzle": null,
+      "validation": null,
+      "diagnostics": [
+        {
+          "size": 8,
+          "attempts": 4,
+          "bestCount": 0,
+          "meetsMinimum": false,
+          "selection_quality": {
+            "anchor_event_ids": [],
+            "covered_anchor_event_ids": [],
+            "missing_anchor_event_ids": [],
+            "length_balance": {
+              "counts": {
+                "2": 0,
+                "3": 0,
+                "4": 0
+              },
+              "penalty": 0,
+              "withinHalf": false,
+              "warnings": []
+            },
+            "editorial_score": 0
+          }
+        },
+        {
+          "size": 9,
+          "attempts": 4,
+          "bestCount": 0,
+          "meetsMinimum": false,
+          "selection_quality": {
+            "anchor_event_ids": [],
+            "covered_anchor_event_ids": [],
+            "missing_anchor_event_ids": [],
+            "length_balance": {
+              "counts": {
+                "2": 0,
+                "3": 0,
+                "4": 0
+              },
+              "penalty": 0,
+              "withinHalf": false,
+              "warnings": []
+            },
+            "editorial_score": 0
+          }
+        },
+        {
+          "size": 10,
+          "attempts": 4,
+          "bestCount": 0,
+          "meetsMinimum": false,
+          "selection_quality": {
+            "anchor_event_ids": [],
+            "covered_anchor_event_ids": [],
+            "missing_anchor_event_ids": [],
+            "length_balance": {
+              "counts": {
+                "2": 0,
+                "3": 0,
+                "4": 0
+              },
+              "penalty": 0,
+              "withinHalf": false,
+              "warnings": []
+            },
+            "editorial_score": 0
+          }
+        }
+      ],
+      "analysis": {
+        "target": 2,
+        "minEntries": 2,
+        "candidateCount": 0,
+        "inputCandidateCount": 2,
+        "excluded_candidates": [
+          {
+            "candidate_id": "ai",
+            "word": "人工智慧",
+            "event_id": "tech",
+            "reason": "NEWS_SCOPE_INVALID",
+            "message": "新聞範圍標記不合法",
+            "signals": [],
+            "errors": [
+              "is_entertainment 必須是布林值"
+            ]
+          },
+          {
+            "candidate_id": "drone",
+            "word": "無人機",
+            "event_id": "life",
+            "reason": "NEWS_SCOPE_INVALID",
+            "message": "新聞範圍標記不合法",
+            "signals": [],
+            "errors": [
+              "is_entertainment 必須是布林值"
+            ]
+          }
+        ],
+        "crossableCount": 0,
+        "lengthCounts": {
+          "2": 0,
+          "3": 0,
+          "4": 0
+        },
+        "crossableLengthCounts": {
+          "2": 0,
+          "3": 0,
+          "4": 0
+        },
+        "eventCapacity": 0,
+        "entryUpperBound": 0,
+        "isolated": [],
+        "components": [],
+        "links": [],
+        "warnings": [
+          {
+            "code": "NEWS_SCOPE_INVALID",
+            "message": "人工智慧：新聞範圍標記不合法",
+            "ids": [
+              "ai"
+            ]
+          },
+          {
+            "code": "NEWS_SCOPE_INVALID",
+            "message": "無人機：新聞範圍標記不合法",
+            "ids": [
+              "drone"
+            ]
+          },
+          {
+            "code": "TARGET_CAPACITY_SHORTAGE",
+            "message": "可交叉候選及每事件最多兩題的題數上限為 0，低於目標 2。"
+          },
+          {
+            "code": "MINIMUM_CAPACITY_SHORTAGE",
+            "message": "候選條件下的題數上限低於最低 2 題，請擴充候選池。"
+          }
+        ],
+        "note": "共同字與事件題數只提供必要條件及上限；實際字盤是否可排仍須 Solver 與獨立 Validator。"
+      },
+      "exclusions": [
+        {
+          "candidate_id": "ai",
+          "word": "人工智慧",
+          "event_id": "tech",
+          "reason": "NEWS_SCOPE_INVALID",
+          "message": "新聞範圍標記不合法",
+          "signals": [],
+          "errors": [
+            "is_entertainment 必須是布林值"
+          ]
+        },
+        {
+          "candidate_id": "drone",
+          "word": "無人機",
+          "event_id": "life",
+          "reason": "NEWS_SCOPE_INVALID",
+          "message": "新聞範圍標記不合法",
+          "signals": [],
+          "errors": [
+            "is_entertainment 必須是布林值"
+          ]
+        }
+      ],
+      "message": "搜尋預算內未找到達最低題數的合法盤；請參考候選分析，不代表數學上無解。",
+      "selection_quality": {
+        "anchor_event_ids": [],
+        "covered_anchor_event_ids": [],
+        "missing_anchor_event_ids": [],
+        "length_balance": {
+          "counts": {
+            "2": 0,
+            "3": 0,
+            "4": 0
+          },
+          "penalty": 0,
+          "withinHalf": false,
+          "warnings": []
+        },
+        "editorial_score": 0
+      },
+      "selection_warnings": [],
+      "selection_order": [
+        "entry_count_desc",
+        "grid_size_asc",
+        "anchor_event_coverage_desc",
+        "length_within_half_first",
+        "length_penalty_asc",
+        "editorial_score_desc"
+      ]
+    }
+  ]
+}

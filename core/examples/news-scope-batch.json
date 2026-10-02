@@ -1,0 +1,258 @@
+{
+  "schema_version": "1.0",
+  "cases": [
+    {
+      "id": "direct-excludes-entertainment",
+      "operation": "solve",
+      "data": {
+        "candidates": [
+          {
+            "id": "ai",
+            "word": "人工智慧",
+            "event_id": "tech"
+          },
+          {
+            "id": "drone",
+            "word": "無人機",
+            "event_id": "life"
+          },
+          {
+            "id": "gold",
+            "word": "黃金",
+            "event_id": "ent",
+            "category": "娛樂",
+            "anchor_event": true
+          },
+          {
+            "id": "medal",
+            "word": "金牌",
+            "event_id": "ent",
+            "event": {
+              "categories": [
+                "財經",
+                "娛樂"
+              ]
+            }
+          }
+        ]
+      },
+      "options": {
+        "target": 2,
+        "minEntries": 2,
+        "attempts": 4
+      },
+      "expect": {
+        "status": "SOLVED",
+        "valid": true,
+        "entryCount": 2
+      }
+    },
+    {
+      "id": "all-entertainment-exhausted",
+      "operation": "solve",
+      "data": {
+        "candidates": [
+          {
+            "id": "gold",
+            "word": "黃金",
+            "event_id": "ent",
+            "category": "娛樂",
+            "anchor_event": true
+          },
+          {
+            "id": "medal",
+            "word": "金牌",
+            "event_id": "ent",
+            "event": {
+              "categories": [
+                "財經",
+                "娛樂"
+              ]
+            }
+          }
+        ]
+      },
+      "options": {
+        "target": 2,
+        "minEntries": 2,
+        "attempts": 4
+      },
+      "expect": {
+        "status": "SEARCH_EXHAUSTED",
+        "entryCount": 0
+      }
+    },
+    {
+      "id": "pipeline-entertainment-anchors-excluded",
+      "operation": "pipeline",
+      "data": {
+        "issue_date": "2026-10-01",
+        "dataset_mode": "fixture",
+        "note": "合成邏輯測試，不代表真實新聞",
+        "events": [
+          {
+            "event_id": "event-01",
+            "event_date": "2026-09-25",
+            "title": "合成事件：人工智慧",
+            "summary": "測試事件與候選資料關聯。",
+            "categories": [
+              "科技"
+            ],
+            "fact_status": "confirmed",
+            "event_score": 90,
+            "anchor_event": true,
+            "sources": [
+              {
+                "source_id": "source-0",
+                "publisher": "合成測試資料",
+                "kind": "fixture",
+                "url": "https://example.invalid/fixture/event-01",
+                "published_at": "2026-10-01",
+                "excerpt": "本事件以「人工智慧」作為測試詞彙。"
+              }
+            ],
+            "keywords": [
+              {
+                "word": "人工智慧",
+                "clue_draft": "讓電腦模擬人類智慧的技術領域。",
+                "answer_score": 90,
+                "difficulty": "medium"
+              }
+            ]
+          },
+          {
+            "event_id": "event-02",
+            "event_date": "2026-09-26",
+            "title": "合成事件：無人機",
+            "summary": "測試事件與候選資料關聯。",
+            "categories": [
+              "國際"
+            ],
+            "fact_status": "confirmed",
+            "event_score": 90,
+            "anchor_event": false,
+            "sources": [
+              {
+                "source_id": "source-1",
+                "publisher": "合成測試資料",
+                "kind": "fixture",
+                "url": "https://example.invalid/fixture/event-02",
+                "published_at": "2026-10-01",
+                "excerpt": "本事件以「無人機」作為測試詞彙。"
+              }
+            ],
+            "keywords": [
+              {
+                "word": "無人機",
+                "clue_draft": "不需機上駕駛操作的飛行器。",
+                "answer_score": 90,
+                "difficulty": "medium"
+              }
+            ]
+          },
+          {
+            "event_id": "event-03",
+            "event_date": "2026-09-27",
+            "title": "合成事件：黃金",
+            "summary": "測試事件與候選資料關聯。",
+            "categories": [
+              "科技"
+            ],
+            "fact_status": "confirmed",
+            "event_score": 100,
+            "anchor_event": true,
+            "sources": [
+              {
+                "source_id": "source-2",
+                "publisher": "合成測試資料",
+                "kind": "fixture",
+                "url": "https://example.invalid/fixture/event-03",
+                "published_at": "2026-10-01",
+                "excerpt": "本事件以「黃金」作為測試詞彙。"
+              }
+            ],
+            "keywords": [
+              {
+                "word": "黃金",
+                "clue_draft": "常用於首飾、呈黃色的貴金屬。",
+                "answer_score": 90,
+                "difficulty": "medium"
+              }
+            ],
+            "is_entertainment": true
+          },
+          {
+            "event_id": "event-04",
+            "event_date": "2026-09-28",
+            "title": "合成事件：金牌",
+            "summary": "測試事件與候選資料關聯。",
+            "categories": [
+              "國際"
+            ],
+            "fact_status": "confirmed",
+            "event_score": 100,
+            "anchor_event": true,
+            "sources": [
+              {
+                "source_id": "source-3",
+                "publisher": "合成測試資料",
+                "kind": "fixture",
+                "url": "https://example.invalid/fixture/event-04",
+                "published_at": "2026-10-01",
+                "excerpt": "本事件以「金牌」作為測試詞彙。"
+              }
+            ],
+            "keywords": [
+              {
+                "word": "金牌",
+                "clue_draft": "競賽第一名通常獲頒的獎牌。",
+                "answer_score": 90,
+                "difficulty": "medium"
+              }
+            ],
+            "is_entertainment": true
+          }
+        ]
+      },
+      "options": {
+        "target": 2,
+        "minEntries": 2,
+        "attempts": 4
+      },
+      "expect": {
+        "status": "REVIEW_REQUIRED",
+        "valid": true,
+        "entryCount": 2
+      }
+    },
+    {
+      "id": "malformed-scope-not-admitted",
+      "operation": "solve",
+      "data": {
+        "candidates": [
+          {
+            "id": "ai",
+            "word": "人工智慧",
+            "event_id": "tech",
+            "is_entertainment": "false"
+          },
+          {
+            "id": "drone",
+            "word": "無人機",
+            "event_id": "life",
+            "is_entertainment": "false"
+          }
+        ]
+      },
+      "options": {
+        "target": 2,
+        "minEntries": 2,
+        "attempts": 4
+      },
+      "expect": {
+        "status": "SEARCH_EXHAUSTED",
+        "entryCount": 0
+      }
+    }
+  ]
+}

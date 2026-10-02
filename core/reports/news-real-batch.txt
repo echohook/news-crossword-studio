@@ -1,0 +1,12 @@
+BATCH PASS — 3/3 案例符合預期
+
+PASS real-news-balanced / REVIEW_REQUIRED / 8×8 / 12 題
+  來源與評分為輸入資料；機械檢查不等於已完成事實查核。
+  候選重點事件涵蓋：2/2 / 字數平衡差距：6 / 編輯評分：84.96
+  本期合格重點新聞涵蓋：2/2
+  事件合格 9 / 候選合格 27 / 內容待複核
+PASS real-news-export / VALID / 8×8 / 12 題
+PASS real-news-extra-zhi-che / INVALID / 10×10 / 12 題
+  V04 FAIL: UNEXPECTED ENTRY: 智撤 @ 8,9
+  STRUCTURE FAIL: 未歸屬正式答案的字格 @ 8,9
+  STRUCTURE FAIL: 未歸屬正式答案的字格 @ 9,9

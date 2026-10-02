@@ -1,0 +1,66 @@
+{
+  "schema_version": "1.0",
+  "worksheet_id": "1ea2967118f0b4337bd6a8465cbad76420d76d1a32f96ced7290ad6d783d659f",
+  "answers": [
+    {
+      "number": 1,
+      "direction": "V",
+      "answer": "殖利率"
+    },
+    {
+      "number": 2,
+      "direction": "V",
+      "answer": "國產化"
+    },
+    {
+      "number": 3,
+      "direction": "H",
+      "answer": "利率"
+    },
+    {
+      "number": 4,
+      "direction": "H",
+      "answer": "文化資產"
+    },
+    {
+      "number": 5,
+      "direction": "V",
+      "answer": "無人機"
+    },
+    {
+      "number": 6,
+      "direction": "H",
+      "answer": "人工智慧"
+    },
+    {
+      "number": 7,
+      "direction": "V",
+      "answer": "錯"
+    },
+    {
+      "number": 8,
+      "direction": "H",
+      "answer": ""
+    },
+    {
+      "number": 9,
+      "direction": "V",
+      "answer": ""
+    },
+    {
+      "number": 10,
+      "direction": "V",
+      "answer": ""
+    },
+    {
+      "number": 11,
+      "direction": "H",
+      "answer": ""
+    },
+    {
+      "number": 12,
+      "direction": "H",
+      "answer": ""
+    }
+  ]
+}

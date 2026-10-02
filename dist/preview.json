@@ -1,0 +1,494 @@
+{
+  "schema_version": "1.0",
+  "status": "TRIAL_READY",
+  "mode": "player",
+  "worksheet_id": "52e124f5d26fea618e10638a316b4c758a56ddb003d19819fd23e88d612e7fac",
+  "coordinate_base": 0,
+  "size": 9,
+  "entry_count": 12,
+  "board": [
+    [
+      {
+        "block": false,
+        "number": 1
+      },
+      {
+        "block": false,
+        "number": null
+      },
+      {
+        "block": false,
+        "number": null
+      },
+      {
+        "block": true,
+        "number": null
+      },
+      {
+        "block": true,
+        "number": null
+      },
+      {
+        "block": true,
+        "number": null
+      },
+      {
+        "block": true,
+        "number": null
+      },
+      {
+        "block": true,
+        "number": null
+      },
+      {
+        "block": false,
+        "number": 2
+      }
+    ],
+    [
+      {
+        "block": false,
+        "number": null
+      },
+      {
+        "block": true,
+        "number": null
+      },
+      {
+        "block": true,
+        "number": null
+      },
+      {
+        "block": true,
+        "number": null
+      },
+      {
+        "block": true,
+        "number": null
+      },
+      {
+        "block": false,
+        "number": 3
+      },
+      {
+        "block": false,
+        "number": null
+      },
+      {
+        "block": false,
+        "number": null
+      },
+      {
+        "block": false,
+        "number": null
+      }
+    ],
+    [
+      {
+        "block": false,
+        "number": null
+      },
+      {
+        "block": true,
+        "number": null
+      },
+      {
+        "block": true,
+        "number": null
+      },
+      {
+        "block": true,
+        "number": null
+      },
+      {
+        "block": false,
+        "number": 4
+      },
+      {
+        "block": true,
+        "number": null
+      },
+      {
+        "block": true,
+        "number": null
+      },
+      {
+        "block": true,
+        "number": null
+      },
+      {
+        "block": true,
+        "number": null
+      }
+    ],
+    [
+      {
+        "block": false,
+        "number": null
+      },
+      {
+        "block": true,
+        "number": null
+      },
+      {
+        "block": true,
+        "number": null
+      },
+      {
+        "block": true,
+        "number": null
+      },
+      {
+        "block": false,
+        "number": 5
+      },
+      {
+        "block": false,
+        "number": null
+      },
+      {
+        "block": false,
+        "number": null
+      },
+      {
+        "block": false,
+        "number": null
+      },
+      {
+        "block": true,
+        "number": null
+      }
+    ],
+    [
+      {
+        "block": true,
+        "number": null
+      },
+      {
+        "block": false,
+        "number": 6
+      },
+      {
+        "block": true,
+        "number": null
+      },
+      {
+        "block": true,
+        "number": null
+      },
+      {
+        "block": false,
+        "number": null
+      },
+      {
+        "block": true,
+        "number": null
+      },
+      {
+        "block": true,
+        "number": null
+      },
+      {
+        "block": true,
+        "number": null
+      },
+      {
+        "block": true,
+        "number": null
+      }
+    ],
+    [
+      {
+        "block": false,
+        "number": 7
+      },
+      {
+        "block": false,
+        "number": null
+      },
+      {
+        "block": true,
+        "number": null
+      },
+      {
+        "block": true,
+        "number": null
+      },
+      {
+        "block": true,
+        "number": null
+      },
+      {
+        "block": false,
+        "number": 8
+      },
+      {
+        "block": false,
+        "number": null
+      },
+      {
+        "block": false,
+        "number": null
+      },
+      {
+        "block": true,
+        "number": null
+      }
+    ],
+    [
+      {
+        "block": true,
+        "number": null
+      },
+      {
+        "block": true,
+        "number": null
+      },
+      {
+        "block": true,
+        "number": null
+      },
+      {
+        "block": true,
+        "number": null
+      },
+      {
+        "block": true,
+        "number": null
+      },
+      {
+        "block": false,
+        "number": null
+      },
+      {
+        "block": true,
+        "number": null
+      },
+      {
+        "block": true,
+        "number": null
+      },
+      {
+        "block": true,
+        "number": null
+      }
+    ],
+    [
+      {
+        "block": false,
+        "number": 9
+      },
+      {
+        "block": false,
+        "number": null
+      },
+      {
+        "block": false,
+        "number": null
+      },
+      {
+        "block": false,
+        "number": 10
+      },
+      {
+        "block": true,
+        "number": null
+      },
+      {
+        "block": false,
+        "number": null
+      },
+      {
+        "block": true,
+        "number": null
+      },
+      {
+        "block": true,
+        "number": null
+      },
+      {
+        "block": true,
+        "number": null
+      }
+    ],
+    [
+      {
+        "block": true,
+        "number": null
+      },
+      {
+        "block": true,
+        "number": null
+      },
+      {
+        "block": true,
+        "number": null
+      },
+      {
+        "block": false,
+        "number": null
+      },
+      {
+        "block": true,
+        "number": null
+      },
+      {
+        "block": false,
+        "number": null
+      },
+      {
+        "block": true,
+        "number": null
+      },
+      {
+        "block": true,
+        "number": null
+      },
+      {
+        "block": true,
+        "number": null
+      }
+    ]
+  ],
+  "clues": {
+    "H": [
+      {
+        "number": 1,
+        "direction": "H",
+        "row": 0,
+        "col": 0,
+        "length": 3,
+        "clue": "本週發布三大科技園區營業額的國家科學及技術委員會，常用簡稱為何？（3字）"
+      },
+      {
+        "number": 3,
+        "direction": "H",
+        "row": 1,
+        "col": 5,
+        "length": 4,
+        "clue": "【成語】說出的承諾很有價值，形容守信用；第二字是「諾」。（4字）"
+      },
+      {
+        "number": 5,
+        "direction": "H",
+        "row": 3,
+        "col": 4,
+        "length": 4,
+        "clue": "美國業者簽自律承諾，針對讓電腦模擬人類思考的技術，中文全稱為何？（4字）"
+      },
+      {
+        "number": 7,
+        "direction": "H",
+        "row": 5,
+        "col": 0,
+        "length": 2,
+        "clue": "選手晉級爭奪冠軍的決賽，通常頒給第一名的獎章稱為何？（2字）"
+      },
+      {
+        "number": 8,
+        "direction": "H",
+        "row": 5,
+        "col": 5,
+        "length": 3,
+        "clue": "德州投資仍在評估，晶片使用、導電性介於導體與絕緣體之間的材料為何？（3字）"
+      },
+      {
+        "number": 9,
+        "direction": "H",
+        "row": 7,
+        "col": 0,
+        "length": 4,
+        "clue": "【成語】祝福非常吉祥順利，第一與第三字都是「大」。（4字）"
+      }
+    ],
+    "V": [
+      {
+        "number": 1,
+        "direction": "V",
+        "row": 0,
+        "col": 0,
+        "length": 4,
+        "clue": "【成語】祝福國家安定、人民安樂；第二字是「泰」。（4字）"
+      },
+      {
+        "number": 2,
+        "direction": "V",
+        "row": 0,
+        "col": 8,
+        "length": 2,
+        "clue": "報導指出價格下跌逾百分之二，常用於首飾、呈黃色的貴金屬為何？（2字）"
+      },
+      {
+        "number": 4,
+        "direction": "V",
+        "row": 2,
+        "col": 4,
+        "length": 3,
+        "clue": "警方公布追緝成果，曾用哪種不用機上駕駛的飛行器追蹤山區嫌犯？（3字）"
+      },
+      {
+        "number": 6,
+        "direction": "V",
+        "row": 4,
+        "col": 1,
+        "length": 2,
+        "clue": "台灣女子場地車隊擊敗日本後，取得第三名通常頒發的哪一種獎章？（2字）"
+      },
+      {
+        "number": 8,
+        "direction": "V",
+        "row": 5,
+        "col": 5,
+        "length": 4,
+        "clue": "【成語】事情尚未做完便中途放棄；第二字是「途」。（4字）"
+      },
+      {
+        "number": 10,
+        "direction": "V",
+        "row": 7,
+        "col": 3,
+        "length": 2,
+        "clue": "金價分析提到資金成本，借貸成本占本金的百分比，通稱為何？（2字）"
+      }
+    ]
+  },
+  "grid_status": "VALID",
+  "validation_checks": [
+    {
+      "id": "V01",
+      "pass": true
+    },
+    {
+      "id": "V02",
+      "pass": true
+    },
+    {
+      "id": "V03",
+      "pass": true
+    },
+    {
+      "id": "V04",
+      "pass": true
+    },
+    {
+      "id": "V05",
+      "pass": true
+    },
+    {
+      "id": "V06",
+      "pass": true
+    },
+    {
+      "id": "V07",
+      "pass": true
+    },
+    {
+      "id": "V08",
+      "pass": true
+    }
+  ],
+  "review_status": "REQUIRED",
+  "approved_for_print": false,
+  "clue_warnings": [],
+  "note": "文字試玩版；字盤合法，不代表新聞內容及題目唯一性已完成編輯複核。"
+}

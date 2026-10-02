@@ -1,0 +1,23 @@
+BATCH PASS — 6/6 案例符合預期
+
+PASS balanced-8x8 / SOLVED / 8×8 / 12 題
+  已達目標題數
+  候選重點事件涵蓋：0/0 / 字數平衡差距：0 / 編輯評分：0.00
+PASS historic-valid / VALID / 8×8 / 12 題
+PASS reject-zhi-che / INVALID / 8×8 / 2 題
+  V04 FAIL: UNEXPECTED ENTRY: 智撤 @ 1,2
+  STRUCTURE FAIL: 未歸屬正式答案的字格 @ 2,2
+PASS no-shared-character / SEARCH_EXHAUSTED / -×- / 0 題
+  搜尋預算內未找到達最低題數的合法盤；請參考候選分析，不代表數學上無解。
+  候選重點事件涵蓋：0/0 / 字數平衡差距：0 / 編輯評分：0.00
+  NO_SHARED_CHARACTER: 有 2 個候選沒有共同字，無法滿足至少一個交叉。
+  TARGET_CAPACITY_SHORTAGE: 可交叉候選及每事件最多兩題的題數上限為 0，低於目標 2。
+  MINIMUM_CAPACITY_SHORTAGE: 候選條件下的題數上限低於最低 2 題，請擴充候選池。
+PASS two-entry-partial / PARTIAL / 8×8 / 2 題
+  合法但未達目標題數；可增加候選或搜尋次數
+  候選重點事件涵蓋：0/0 / 字數平衡差距：4 / 編輯評分：0.00
+  NO_SHARED_CHARACTER: 有 1 個候選沒有共同字，無法滿足至少一個交叉。
+  TARGET_CAPACITY_SHORTAGE: 可交叉候選及每事件最多兩題的題數上限為 2，低於目標 3。
+  LENGTH_CAPACITY_SHORTAGE: 2 字可交叉候選僅 0 題，無法達到目標題數的平均分布。
+PASS bad-candidate-data / INPUT_ERROR / -×- / 0 題
+  答案必須是 2～4 個中文字

@@ -1,0 +1,229 @@
+{
+  "target": 12,
+  "minEntries": 8,
+  "candidateCount": 28,
+  "inputCandidateCount": 28,
+  "excluded_candidates": [],
+  "crossableCount": 28,
+  "lengthCounts": {
+    "2": 15,
+    "3": 7,
+    "4": 6
+  },
+  "crossableLengthCounts": {
+    "2": 15,
+    "3": 7,
+    "4": 6
+  },
+  "eventCapacity": 28,
+  "entryUpperBound": 28,
+  "isolated": [],
+  "components": [
+    [
+      "c01",
+      "c02",
+      "c04",
+      "c03"
+    ],
+    [
+      "c05",
+      "c06",
+      "c21",
+      "c11",
+      "c22",
+      "c12"
+    ],
+    [
+      "c07",
+      "c08"
+    ],
+    [
+      "c09",
+      "c10"
+    ],
+    [
+      "c13",
+      "c14"
+    ],
+    [
+      "c15",
+      "c16"
+    ],
+    [
+      "c17",
+      "c18"
+    ],
+    [
+      "c19",
+      "c20",
+      "c25",
+      "c26"
+    ],
+    [
+      "c23",
+      "c24"
+    ],
+    [
+      "c27",
+      "c28"
+    ]
+  ],
+  "links": [
+    {
+      "a": "c01",
+      "b": "c02",
+      "characters": [
+        "電"
+      ]
+    },
+    {
+      "a": "c02",
+      "b": "c04",
+      "characters": [
+        "競"
+      ]
+    },
+    {
+      "a": "c03",
+      "b": "c04",
+      "characters": [
+        "體"
+      ]
+    },
+    {
+      "a": "c05",
+      "b": "c06",
+      "characters": [
+        "人"
+      ]
+    },
+    {
+      "a": "c05",
+      "b": "c21",
+      "characters": [
+        "智",
+        "慧"
+      ]
+    },
+    {
+      "a": "c07",
+      "b": "c08",
+      "characters": [
+        "軍"
+      ]
+    },
+    {
+      "a": "c09",
+      "b": "c10",
+      "characters": [
+        "金"
+      ]
+    },
+    {
+      "a": "c11",
+      "b": "c12",
+      "characters": [
+        "債"
+      ]
+    },
+    {
+      "a": "c11",
+      "b": "c21",
+      "characters": [
+        "市"
+      ]
+    },
+    {
+      "a": "c11",
+      "b": "c22",
+      "characters": [
+        "市"
+      ]
+    },
+    {
+      "a": "c13",
+      "b": "c14",
+      "characters": [
+        "利",
+        "率"
+      ]
+    },
+    {
+      "a": "c15",
+      "b": "c16",
+      "characters": [
+        "槓"
+      ]
+    },
+    {
+      "a": "c17",
+      "b": "c18",
+      "characters": [
+        "籃"
+      ]
+    },
+    {
+      "a": "c19",
+      "b": "c20",
+      "characters": [
+        "國"
+      ]
+    },
+    {
+      "a": "c19",
+      "b": "c25",
+      "characters": [
+        "合",
+        "國"
+      ]
+    },
+    {
+      "a": "c19",
+      "b": "c26",
+      "characters": [
+        "合"
+      ]
+    },
+    {
+      "a": "c20",
+      "b": "c25",
+      "characters": [
+        "國"
+      ]
+    },
+    {
+      "a": "c21",
+      "b": "c22",
+      "characters": [
+        "城",
+        "市"
+      ]
+    },
+    {
+      "a": "c23",
+      "b": "c24",
+      "characters": [
+        "能",
+        "源"
+      ]
+    },
+    {
+      "a": "c25",
+      "b": "c26",
+      "characters": [
+        "合",
+        "作"
+      ]
+    },
+    {
+      "a": "c27",
+      "b": "c28",
+      "characters": [
+        "運",
+        "動"
+      ]
+    }
+  ],
+  "warnings": [],
+  "note": "共同字與事件題數只提供必要條件及上限；實際字盤是否可排仍須 Solver 與獨立 Validator。"
+}
