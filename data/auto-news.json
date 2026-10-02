@@ -2198,6 +2198,38 @@
         "content_revision": "cna-7557e8bce488f6ebe1e4"
       },
       {
+        "event_id": "cna-8f93a67bd769525be2f8",
+        "dedup_key": "https://www.cna.com.tw/news/ahel/202610020206.aspx",
+        "event_date": "2026-10-02",
+        "updated_at": "2026-10-02",
+        "published_at": "2026-10-02T08:28:34.000Z",
+        "title": "台美中關係與東亞局勢研討　學者齊聚國家圖書館",
+        "summary": "台美中關係與東亞局勢研討　學者齊聚國家圖書館",
+        "categories": [
+          "台灣"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-5e1ba45f4f11ddbf828d",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/ahel/202610020206.aspx",
+            "published_at": "2026-10-02",
+            "excerpt": "台美中關係與東亞局勢研討　學者齊聚國家圖書館",
+            "section": "台灣"
+          }
+        ],
+        "keywords": [],
+        "aliases": [
+          "cna-8f93a67bd769525be2f8"
+        ],
+        "content_revision": "cna-8f93a67bd769525be2f8"
+      },
+      {
         "event_id": "cna-1a4ca2bbb375d4798801",
         "dedup_key": "https://www.cna.com.tw/news/ahel/202610020210.aspx",
         "event_date": "2026-10-02",
@@ -5831,6 +5863,84 @@
         "content_revision": "cna-13b8fa3b53f4c007fbc9"
       },
       {
+        "event_id": "cna-dff79ddebe6c3a1b6aed",
+        "dedup_key": "https://www.cna.com.tw/news/asoc/202610020212.aspx",
+        "event_date": "2026-10-02",
+        "updated_at": "2026-10-02",
+        "published_at": "2026-10-02T08:37:47.000Z",
+        "title": "乖乖中壢廠工會發動罷工　公司：將持續協商",
+        "summary": "乖乖中壢廠工會發動罷工　公司：將持續協商",
+        "categories": [
+          "台灣"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-629f11d692b77308cab1",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/asoc/202610020212.aspx",
+            "published_at": "2026-10-02",
+            "excerpt": "乖乖中壢廠工會發動罷工　公司：將持續協商",
+            "section": "台灣"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "中壢",
+            "clue": "據報導「乖乖○壢廠工會發動罷工　公司：將持續」，補全地名。（2字）",
+            "answer_score": 86,
+            "difficulty": "easy"
+          }
+        ],
+        "aliases": [
+          "cna-dff79ddebe6c3a1b6aed"
+        ],
+        "content_revision": "cna-dff79ddebe6c3a1b6aed"
+      },
+      {
+        "event_id": "cna-4343db196dc9061b7b56",
+        "dedup_key": "https://www.cna.com.tw/news/asoc/202610020247.aspx",
+        "event_date": "2026-10-02",
+        "updated_at": "2026-10-02",
+        "published_at": "2026-10-02T09:40:04.000Z",
+        "title": "斗六市長遭控涉違選罷法　雲檢分案調查",
+        "summary": "斗六市長遭控涉違選罷法　雲檢分案調查",
+        "categories": [
+          "台灣"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-56ab6c0e66cdd58dba62",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/asoc/202610020247.aspx",
+            "published_at": "2026-10-02",
+            "excerpt": "斗六市長遭控涉違選罷法　雲檢分案調查",
+            "section": "台灣"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "斗六",
+            "clue": "據報導「○六市長遭控涉違選罷法　雲檢分案」，補全地名。（2字）",
+            "answer_score": 86,
+            "difficulty": "easy"
+          }
+        ],
+        "aliases": [
+          "cna-4343db196dc9061b7b56"
+        ],
+        "content_revision": "cna-4343db196dc9061b7b56"
+      },
+      {
         "event_id": "cna-4850aff607ffd72d0c35",
         "dedup_key": "https://www.cna.com.tw/news/aspt/202610010288.aspx",
         "event_date": "2026-10-01",
@@ -6706,6 +6816,21 @@
     ],
     "candidates": [
       {
+        "word": "斗六",
+        "clue": "據報導「○六市長遭控涉違選罷法　雲檢分案」，補全地名。（2字）",
+        "answer_score": 86,
+        "difficulty": "easy",
+        "id": "cna-4343db196dc9061b7b56::斗六",
+        "event_id": "cna-4343db196dc9061b7b56",
+        "event_revision": "cna-4343db196dc9061b7b56",
+        "source_support": [
+          {
+            "source_id": "rss-56ab6c0e66cdd58dba62",
+            "evidence": "斗六市長遭控涉違選罷法　雲檢分案調查"
+          }
+        ]
+      },
+      {
         "word": "韓國",
         "clue": "據報導「東○○釋迦銷韓○　將出貨5萬支鮮果棒」，補全國家或地區。（2字）",
         "answer_score": 86,
@@ -6751,11 +6876,11 @@
         ]
       },
       {
-        "word": "立法院",
-        "clue": "據報導「現金2萬元　立○院會付委審查」，補全機關或組織。（3字）",
+        "word": "國民黨",
+        "clue": "據報導「○民黨團提普發現金2萬元　○○○會」，補全機關或組織。（3字）",
         "answer_score": 89,
         "difficulty": "easy",
-        "id": "cna-011015523961b5db20dc::立法院",
+        "id": "cna-011015523961b5db20dc::國民黨",
         "event_id": "cna-011015523961b5db20dc",
         "event_revision": "cna-011015523961b5db20dc",
         "source_support": [
@@ -6766,11 +6891,11 @@
         ]
       },
       {
-        "word": "國民黨",
-        "clue": "據報導「○民黨團提普發現金2萬元　○○○會」，補全機關或組織。（3字）",
+        "word": "立法院",
+        "clue": "據報導「現金2萬元　立○院會付委審查」，補全機關或組織。（3字）",
         "answer_score": 89,
         "difficulty": "easy",
-        "id": "cna-011015523961b5db20dc::國民黨",
+        "id": "cna-011015523961b5db20dc::立法院",
         "event_id": "cna-011015523961b5db20dc",
         "event_revision": "cna-011015523961b5db20dc",
         "source_support": [
@@ -6867,6 +6992,21 @@
           {
             "source_id": "rss-29063511a056d2fe7134",
             "evidence": "土耳其西部礦坑坍塌　5名礦工罹難"
+          }
+        ]
+      },
+      {
+        "word": "中壢",
+        "clue": "據報導「乖乖○壢廠工會發動罷工　公司：將持續」，補全地名。（2字）",
+        "answer_score": 86,
+        "difficulty": "easy",
+        "id": "cna-dff79ddebe6c3a1b6aed::中壢",
+        "event_id": "cna-dff79ddebe6c3a1b6aed",
+        "event_revision": "cna-dff79ddebe6c3a1b6aed",
+        "source_support": [
+          {
+            "source_id": "rss-629f11d692b77308cab1",
+            "evidence": "乖乖中壢廠工會發動罷工　公司：將持續協商"
           }
         ]
       },
@@ -7306,11 +7446,11 @@
         ]
       },
       {
-        "word": "法國",
-        "clue": "據報導「演變成暴力　法○約400所○○停課」，補全國家或地區。（2字）",
+        "word": "學校",
+        "clue": "據報導「國約400所○校停課」，補全用語。（2字）",
         "answer_score": 86,
         "difficulty": "easy",
-        "id": "cna-adb9917337aa9348b7de::法國",
+        "id": "cna-adb9917337aa9348b7de::學校",
         "event_id": "cna-adb9917337aa9348b7de",
         "event_revision": "cna-adb9917337aa9348b7de",
         "source_support": [
@@ -7336,11 +7476,11 @@
         ]
       },
       {
-        "word": "學校",
-        "clue": "據報導「國約400所○校停課」，補全用語。（2字）",
+        "word": "法國",
+        "clue": "據報導「演變成暴力　法○約400所○○停課」，補全國家或地區。（2字）",
         "answer_score": 86,
         "difficulty": "easy",
-        "id": "cna-adb9917337aa9348b7de::學校",
+        "id": "cna-adb9917337aa9348b7de::法國",
         "event_id": "cna-adb9917337aa9348b7de",
         "event_revision": "cna-adb9917337aa9348b7de",
         "source_support": [
@@ -8236,11 +8376,11 @@
         ]
       },
       {
-        "word": "日產",
-        "clue": "據報導「○○　中台韓○產能居全球前4大」，補全企業。（2字）",
+        "word": "亞洲",
+        "clue": "據報導「應鏈高度集中亞○　中台韓○○能居全球前4大」，補全國家或地區。（2字）",
         "answer_score": 86,
         "difficulty": "easy",
-        "id": "cna-1b8da58b0b987f65d630::日產",
+        "id": "cna-1b8da58b0b987f65d630::亞洲",
         "event_id": "cna-1b8da58b0b987f65d630",
         "event_revision": "cna-1b8da58b0b987f65d630",
         "source_support": [
@@ -8251,11 +8391,11 @@
         ]
       },
       {
-        "word": "亞洲",
-        "clue": "據報導「應鏈高度集中亞○　中台韓○○能居全球前4大」，補全國家或地區。（2字）",
+        "word": "日產",
+        "clue": "據報導「○○　中台韓○產能居全球前4大」，補全企業。（2字）",
         "answer_score": 86,
         "difficulty": "easy",
-        "id": "cna-1b8da58b0b987f65d630::亞洲",
+        "id": "cna-1b8da58b0b987f65d630::日產",
         "event_id": "cna-1b8da58b0b987f65d630",
         "event_revision": "cna-1b8da58b0b987f65d630",
         "source_support": [
@@ -8373,14 +8513,14 @@
   },
   "automation": {
     "enabled": true,
-    "updated_at": "2026-10-02T10:07:32.961Z",
+    "updated_at": "2026-10-02T10:23:23.860Z",
     "window": {
       "from": "2026-09-26",
       "to": "2026-10-02"
     },
     "interval_hours": 6,
     "source_count": 9,
-    "candidate_count": 106,
+    "candidate_count": 108,
     "sources": [
       {
         "id": "cna-politics",
@@ -8435,7 +8575,7 @@
         "publisher": "中央通訊社",
         "category": "台灣",
         "url": "https://feeds.feedburner.com/rsscna/social",
-        "count": 20,
+        "count": 19,
         "error": null
       },
       {
