@@ -4,7 +4,8 @@ import {collectEvents,generateCandidates} from '../core/news.mjs';
 import {checkCandidates} from '../core/model.mjs';
 export function preparePacket(raw) {
  const p=structuredClone(raw);
- if(!p||typeof p!=='object'||!p.news||!Array.isArray(p.news.events)||!Array.isArray(p.idioms))throw Error('請匯入包含新聞與成語的題庫檔案。');
+ if(p?.news&&p.idioms===undefined)p.idioms=[];
+ if(!p||typeof p!=='object'||!p.news||!Array.isArray(p.news.events)||!Array.isArray(p.idioms))throw Error('請匯入包含新聞的題庫檔案；成語可省略。');
  if(p.news.events.length>200||p.idioms.length>300)throw Error('題庫過大，請分成數期匯入。');
  const collected=collectEvents(p.news.events,{issueDate:p.news.issue_date,fixture:p.news.dataset_mode==='fixture'});
  if(p.news.candidates===undefined)p.news.candidates=generateCandidates(collected.accepted);
@@ -12,7 +13,7 @@ export function preparePacket(raw) {
  if(p.idioms.length)checkCandidates(p.idioms);
  if(p.news.candidates.length)checkCandidates(p.news.candidates);
  p.mix??={news:8,idiom:4};
- if(!Number.isInteger(p.mix.news)||!Number.isInteger(p.mix.idiom)||p.mix.news<1||p.mix.idiom<1||p.mix.news+p.mix.idiom>14)throw Error('新聞及成語題數需為正整數，合計不超過 14 題。');
+ if(!Number.isInteger(p.mix.news)||!Number.isInteger(p.mix.idiom)||p.mix.news<1||p.mix.idiom<0||p.mix.news+p.mix.idiom<2||p.mix.news+p.mix.idiom>14)throw Error('新聞題數需為正整數，成語可為 0，合計需為 2～14 題。');
  return {packet:p,window:collected.window,excluded_events:collected.reports.filter(e=>!e.passed).length};
 }
 if(typeof self!=='undefined')self.onmessage=async({data})=>{

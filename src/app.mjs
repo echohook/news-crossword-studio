@@ -26,6 +26,7 @@ function updatePreview(){
  const e=report?.editions[editionIndex];const sheet=e?(mode==='player'?e.player:e.answers):preview;
  if(sheet)drawWorksheet(sheet);
  $('preview-title').textContent=e?'第 '+e.edition_number+' 份':'盤面預覽';
+ if(e?.content_summary){const c=e.content_summary.selected;$('quota-news').textContent=c.news;$('quota-idiom').textContent=c.idiom;}else if(packet){$('quota-news').textContent=packet.mix.news;$('quota-idiom').textContent=packet.mix.idiom;}
  $('edition-buttons').replaceChildren();for(const [i,e]of (report?.editions??[]).entries()){const b=el('button',i===editionIndex?'active':'','第 '+e.edition_number+' 份');b.onclick=()=>selectEdition(i);$('edition-buttons').append(b);}
  $('checks').replaceChildren();if(e){for(const c of e.grid_validation.checks)$('checks').append(el('span','check',c.id+' 通過'));$('checks').append(el('span','check','無重複題目'));}
  const ready=report?.status==='COMPLETE';$('download-pdf').disabled=!ready;$('download-report').disabled=!report;$('mode-answer').disabled=!report?.editions.length;
@@ -33,8 +34,8 @@ function updatePreview(){
 function updatePool(window){
  const m=packet.mix;$('quota-news').textContent=m.news;$('quota-idiom').textContent=m.idiom;
  $('pool-count').textContent=packet.news.candidates.length+' 時事／'+packet.idioms.length+' 成語';
- const cap=Math.min(Math.floor(packet.news.candidates.length/m.news),Math.floor(packet.idioms.length/m.idiom),7);
- $('capacity').textContent='依候選數量，最多可供 '+cap+' 份；仍須通過題目與盤面檢查。';
+ const cap=Math.min(Math.floor((packet.news.candidates.length+Math.min(packet.idioms.length,m.idiom*7))/(m.news+m.idiom)),Math.floor(packet.news.candidates.length/m.news),7);
+ $('capacity').textContent='依候選數量，最多可供 '+cap+' 份；成語不足以時事補足，仍須通過題目與盤面檢查。';
  $('notice').textContent='新聞期間：'+window.from+' ～ '+window.to+'。內附固定快照；更新後請核對來源與提示，再列印。';
 }
 async function generate(count=Number($('count').value)){
@@ -46,7 +47,8 @@ async function generate(count=Number($('count').value)){
   const result=await askWorker({type:'generate',packet,count});report=result.report;packet=result.packet;editionIndex=0;mode='player';
   $('result-status').classList.toggle('error',report.status!=='COMPLETE');
   $('result-status').textContent=report.status==='COMPLETE'?'已完成 '+report.generated_count+' 份；各份驗證通過，題目與答案不重複。':'指定 '+count+' 份，完成 '+report.generated_count+' 份。'+(report.shortage?'剩餘題庫不足，請新增題目後再試。':'搜尋未找到足夠的合法盤面，請調整題庫後再試。');
-  if(report.shortage?.needed_for_next.idiom!==undefined)$('result-status').textContent+=' 下一份需 '+report.shortage.needed_for_next.idiom+' 個成語，剩餘 '+report.shortage.available.idiom+' 個。';
+  if(report.editions.some(e=>e.content_summary?.fallback))$('result-status').textContent+=' 成語不足或無法排入的部分已改用時事題。';
+  if(report.shortage)$('result-status').textContent+=' 下一份需 '+report.shortage.needed_for_next.total+' 題，剩餘 '+report.shortage.available.total+' 題。';
   updatePreview();onGenerated(report);return {requested:count,generated:report.generated_count,status:report.status};
  }finally{active=false;$('generate').disabled=false;$('cancel').hidden=true;$('progress').textContent='';}
 }
@@ -103,7 +105,7 @@ $('export-bank').onclick=async()=>{try{if(bankDirty)await saveBank();downloadBlo
 $('import-bank').onclick=()=>{$('bank-file').value='';$('bank-file').click();};
 $('bank-file').onchange=async()=>{try{const file=$('bank-file').files[0];if(!file)return;if(file.size>2*1024*1024)throw Error('題庫檔上限為 2 MB。');
  const raw=JSON.parse((await file.text()).replace(/^\uFEFF/,''));let p;
- if(raw.news&&Array.isArray(raw.idioms))p=raw;
+ if(raw.news&&(raw.idioms===undefined||Array.isArray(raw.idioms)))p=raw;
  else if(raw.issue_date&&Array.isArray(raw.events)){p=structuredClone(packet);p.news=raw;}
  else if(raw.content_type==='idiom_collection'&&Array.isArray(raw.candidates)){p=structuredClone(packet);p.idioms=raw.candidates;}
  else throw Error('請匯入完整題庫、新聞題庫或成語題庫；題目成果檔請從「本次成果」匯入。');

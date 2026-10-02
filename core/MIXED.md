@@ -1,6 +1,6 @@
-# 時事與成語混合模式 — v1.6.0
+# 時事與成語混合模式 — v1.7.3
 
-本輪預設採時事 8 題、成語 4 題，混排在同一張盤面。每個答案至少一個有效交叉；允許分離的交叉組，仍由獨立 Validator 掃描所有橫直字串。
+預設每份 12 題，優先採時事 8 題、成語 4 題；成語不足或無法排入時以時事補足，允許 12 題時事與零成語。每個答案至少一個有效交叉；允許分離的交叉組，仍由獨立 Validator 掃描所有橫直字串。
 
 ## 重跑
 
@@ -18,13 +18,13 @@ npm test
 
 ## 輸入契約
 
-mixed-input.json 包含 news（完整既有新聞快照）、idioms（四字成語候選陣列）、mix（news／idiom 的正整數題數，總和不超過 14）。預設 mix 為 8／4；CLI 允許 --attempts 與 --seed。
+mixed-input.json 包含 news（完整既有新聞快照）、idioms（可省略或為空的四字成語候選陣列）、mix（news 為正整數、idiom 為非負整數，總和 2～14）。預設 mix 為 8／4；CLI 允許 --attempts 與 --seed。
 
 時事仍先走新聞資格檢查、娛樂排除、來源摘錄及事實狀態檢查，再取 eligible_candidates。成語獨立走四字、來源與釋義、C01～C04 的檢查，不需要新聞日期，也不能附新聞 event 或把自己標成新聞重點。
 
 成語資料保存 knowledge_source.publisher／url／meaning；content_kind 為 idiom。為相容既有核心，event_id 使用個別成語的穩定內容識別碼，並不代表新聞事件。不得以錯誤或缺漏的辭典欄位入盤。
 
-Solver 新增可選 contentTargets: {news:8, idiom:4}。混合模式要求完整目標題數，若不足或配額無法完成則 SEARCH_EXHAUSTED，不回傳少題的混合完成盤。配額同時限制單詞與交叉組的插入；不使用該選項時沿用原有行為。
+Solver 新增可選 contentTargets: {news:8, idiom:4}。混合模式要求完整目標題數。mix 表示優先組合，來源檢查後先使用可用成語，排不入時逐步減少成語並增加時事題；不因成語不足失敗。若所有組合仍無完整合法盤面則 SEARCH_EXHAUSTED，不回傳少題的完成盤。content_summary.requested 保存原目標，effective 與 selected 保存實際配額與選題數量。配額同時限制單詞與交叉組的插入；不使用該選項時沿用原有行為。
 
 ## 成語題設計與來源
 

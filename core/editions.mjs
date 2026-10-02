@@ -1,5 +1,5 @@
 import {createHash} from 'node:crypto';
-import {runMixed} from './mixed.mjs';
+import {runMixed,solveMixedPool} from './mixed.mjs';
 import {runPipeline} from './pipeline.mjs';
 import {solve,solverSettings} from './solver.mjs';
 import {checkCandidates} from './model.mjs';
@@ -27,7 +27,7 @@ export function generateEditions(input,{count=1,solverOptions={},maxVariantAttem
   mix=initial.content_summary.requested;
   const admitted=new Set(initial.idiom_reports.filter(r=>r.passed).map(r=>r.id));
   pool=[...initial.news_report.eligible_candidates.map(c=>({...c,content_kind:'news'})),
-   ...snapshot.idioms.filter(c=>admitted.has(c.id)).map(c=>({...c,content_kind:'idiom',
+   ...(snapshot.idioms??[]).filter(c=>admitted.has(c.id)).map(c=>({...c,content_kind:'idiom',
     knowledge_source:{...c.knowledge_source,url:sourceUrl(c.knowledge_source.url)}}))];
  } else if(mode==='news') {
   initial=runPipeline(snapshot,{solverOptions:{...settings,minEntries:settings.target},maxClueChars});
@@ -40,13 +40,14 @@ export function generateEditions(input,{count=1,solverOptions={},maxVariantAttem
   const remaining=pool.filter(c=>!usedWords.has(answerKey(c.word))&&!usedClues.has(clueKey(c.clue)));
   const available={total:remaining.length};
   if(mix)for(const kind of ['news','idiom'])available[kind]=remaining.filter(c=>c.content_kind===kind).length;
-  if(available.total<target||(mix&&['news','idiom'].some(k=>available[k]<mix[k]))) {
+  if(available.total<target||(mix&&available.news<mix.news)) {
    shortage={code:'REMAINING_POOL_TOO_SMALL',next_edition:editions.length+1,available,
-    needed_for_next:{total:target,...(mix??{})}};
+    needed_for_next:{total:target,...(mix?{news:target-Math.min(mix.idiom,available.idiom),idiom:Math.min(mix.idiom,available.idiom)}:{})}};
    attempts.push({status:shortage.code,...shortage});break;
   }
   const seed=(settings.seed+Math.imul(attempt,2654435761))>>>0;
-  const result=attempt===0&&initial?initial:solve(remaining,{...searchSettings,seed});
+  const searched=attempt===0&&initial?{result:initial,effective:initial.content_summary?.effective}:mix?solveMixedPool(remaining,mix,{...searchSettings,seed}):{result:solve(remaining,{...searchSettings,seed})};
+  const result=searched.result;
   const puzzle=result.puzzle;
   if(!puzzle||puzzle.expected.length!==target){attempts.push({seed,status:'NO_FULL_PUZZLE'});continue;}
   const validation=validatePuzzle(puzzle);
@@ -60,9 +61,9 @@ export function generateEditions(input,{count=1,solverOptions={},maxVariantAttem
   puzzle.expected.forEach(c=>{usedWords.add(answerKey(c.word));usedClues.add(clueKey(c.clue));});
   const edition_number=editions.length+1;
   const selected=mix?Object.fromEntries(['news','idiom'].map(k=>[k,puzzle.expected.filter(c=>c.content_kind===k).length])):null;
-  if(mix&&['news','idiom'].some(k=>selected[k]!==mix[k]))throw Error('混合配額未達標');
+  if(mix&&['news','idiom'].some(k=>selected[k]!==searched.effective[k]))throw Error('混合配額未達標');
   editions.push({edition_number,label:'第 '+edition_number+' 份',seed,puzzle,grid_validation:validation,
-   player,answers,...(mix?{content_summary:{requested:{...mix},selected}}:{}),approved_for_print:false});
+   player,answers,...(mix?{content_summary:{requested:{...mix},effective:searched.effective,selected,idiom_optional:true,fallback:selected.idiom<mix.idiom}}:{}),approved_for_print:false});
   attempts.push({seed,status:'ACCEPTED',edition_number});
  }
  return {schema_version:'1.1',mode,status:editions.length===count?'COMPLETE':'INCOMPLETE',

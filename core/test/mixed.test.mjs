@@ -43,7 +43,7 @@ test('reverse validator still catches 智撤 after introducing idiom entries',()
 test('composition configuration rejects wrong totals, negative values and inherited fields',()=>{
  for(const q of [null,[],{}, {news:8,idiom:3},{news:-1,idiom:13},{news:8,idiom:4,extra:1},Object.assign(Object.create({news:8,idiom:4}),{a:1,b:2})])
   assert.throws(()=>solverSettings({target:12,contentTargets:q}));
- for(const mix of [null,[],{}, {news:8,idiom:0},{news:8,idiom:7},{news:'8',idiom:4}])assert.throws(()=>runMixed({...input(),mix},options));
+ for(const mix of [null,[],{}, {news:8,idiom:-1},{news:8,idiom:7},{news:'8',idiom:4}])assert.throws(()=>runMixed({...input(),mix},options));
  assert.throws(()=>runMixed(input(),{solverOptions:{target:12}}));
 });
 test('content caps apply to crossing pair insertion as well as individual entries',()=>{
@@ -59,7 +59,7 @@ test('unsupported content kinds cannot fill a quota',()=>{
 });
 test('bad idiom clues and missing dictionary sources are rejected before layout',()=>{
  const p=input();p.idioms[0].clue='一諾千金表示什麼意思？（4字）';delete p.idioms[1].knowledge_source;
- const r=runMixed(p,options);assert.equal(r.status,'SEARCH_EXHAUSTED');assert.equal(r.puzzle,null);
+ const r=runMixed(p,options);assert.ok(!r.puzzle||r.puzzle.expected.every(c=>!p.idioms.slice(0,2).some(i=>i.id===c.id)));
  assert.equal(r.idiom_reports.filter(x=>!x.passed).length,2);
 });
 test('mixed CLI exports JSON with exact composition and rejects irrelevant switches',()=>{

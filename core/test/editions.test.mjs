@@ -56,11 +56,11 @@ test('a sufficiently varied pool can satisfy three distinct complete editions',(
  assert.ok(r.editions.every(e=>e.grid_validation.valid));
 });
 
-test('the mixed pool stops when all four idioms have been consumed',()=>{
+test('the mixed pool tries news after all four idioms have been consumed',()=>{
  const input=JSON.parse(readFileSync(new URL('../examples/mixed-input.json',import.meta.url),'utf8'));
  const r=generateEditions(input,{count:2,solverOptions:{attempts:256,seed:2}});
  assert.equal(r.status,'INCOMPLETE');assert.equal(r.generated_count,1);
- assert.equal(r.shortage.available.idiom,0);assert.equal(r.shortage.needed_for_next.idiom,4);
+ assert.equal(r.shortage,null);assert.ok(r.attempts.slice(1).some(a=>a.status==='NO_FULL_PUZZLE'));
  assert.equal(r.diversity_validation.valid,true);
 });
 test('even one shared answer is rejected when its clue and position change',()=>{
