@@ -366,38 +366,6 @@
         "content_revision": "cna-b7df76c036e7214d31b9"
       },
       {
-        "event_id": "cna-764da97687c0dbcc0fe7",
-        "dedup_key": "https://www.cna.com.tw/news/afe/202610020152.aspx",
-        "event_date": "2026-10-02",
-        "updated_at": "2026-10-02",
-        "published_at": "2026-10-02T06:28:39.000Z",
-        "title": "柏瑞投信易主　10月正式更名大都會投信",
-        "summary": "柏瑞投信易主　10月正式更名大都會投信",
-        "categories": [
-          "財經"
-        ],
-        "fact_status": "reported",
-        "content_type": "news",
-        "event_score": 80,
-        "anchor_event": false,
-        "sources": [
-          {
-            "source_id": "rss-61d45d933050946baf29",
-            "publisher": "中央通訊社",
-            "kind": "newswire",
-            "url": "https://www.cna.com.tw/news/afe/202610020152.aspx",
-            "published_at": "2026-10-02",
-            "excerpt": "柏瑞投信易主　10月正式更名大都會投信",
-            "section": "財經"
-          }
-        ],
-        "keywords": [],
-        "aliases": [
-          "cna-764da97687c0dbcc0fe7"
-        ],
-        "content_revision": "cna-764da97687c0dbcc0fe7"
-      },
-      {
         "event_id": "cna-a34d3a0712604f2dbe2e",
         "dedup_key": "https://www.cna.com.tw/news/afe/202610020153.aspx",
         "event_date": "2026-10-02",
@@ -1500,6 +1468,90 @@
         "content_revision": "cna-800a4c0b0810338fb4c6"
       },
       {
+        "event_id": "cna-9c681e60552c54cf02c5",
+        "dedup_key": "https://www.cna.com.tw/news/afe/202610030006.aspx",
+        "event_date": "2026-10-03",
+        "updated_at": "2026-10-03",
+        "published_at": "2026-10-02T21:27:26.000Z",
+        "title": "就業數據欠佳降低聯準會升息機率　美股收紅",
+        "summary": "就業數據欠佳降低聯準會升息機率　美股收紅",
+        "categories": [
+          "財經"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-c8d8b3e358b6cbb245b6",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/afe/202610030006.aspx",
+            "published_at": "2026-10-03",
+            "excerpt": "就業數據欠佳降低聯準會升息機率　美股收紅",
+            "section": "財經"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "升息",
+            "clue": "據報導「佳降低聯準會升○機率　○○收紅」，補全用語。（2字）",
+            "answer_score": 86,
+            "difficulty": "easy"
+          },
+          {
+            "word": "就業",
+            "clue": "據報導「就○數據欠佳降低聯準會○○機率　」，補全用語。（2字）",
+            "answer_score": 86,
+            "difficulty": "easy"
+          }
+        ],
+        "aliases": [
+          "cna-9c681e60552c54cf02c5"
+        ],
+        "content_revision": "cna-9c681e60552c54cf02c5"
+      },
+      {
+        "event_id": "cna-8d289574d1651de4fcc8",
+        "dedup_key": "https://www.cna.com.tw/news/afe/202610030007.aspx",
+        "event_date": "2026-10-03",
+        "updated_at": "2026-10-03",
+        "published_at": "2026-10-02T22:11:29.000Z",
+        "title": "G7計劃釋出戰略儲備  柴油價格大跌",
+        "summary": "G7計劃釋出戰略儲備  柴油價格大跌",
+        "categories": [
+          "財經"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-7b08acba3b8bb8549ce1",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/afe/202610030007.aspx",
+            "published_at": "2026-10-03",
+            "excerpt": "G7計劃釋出戰略儲備  柴油價格大跌",
+            "section": "財經"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "油價",
+            "clue": "據報導「略儲備  柴油○格大跌」，補全用語。（2字）",
+            "answer_score": 86,
+            "difficulty": "easy"
+          }
+        ],
+        "aliases": [
+          "cna-8d289574d1651de4fcc8"
+        ],
+        "content_revision": "cna-8d289574d1651de4fcc8"
+      },
+      {
         "event_id": "cna-6ff485ccf8524e333746",
         "dedup_key": "https://www.cna.com.tw/news/ahel/202610020154.aspx",
         "event_date": "2026-10-02",
@@ -2226,38 +2278,6 @@
           "cna-3a8edb41573fa68a3c84"
         ],
         "content_revision": "cna-3a8edb41573fa68a3c84"
-      },
-      {
-        "event_id": "cna-5862b788ecadd57dbda7",
-        "dedup_key": "https://www.cna.com.tw/news/aipl/202610020148.aspx",
-        "event_date": "2026-10-02",
-        "updated_at": "2026-10-02",
-        "published_at": "2026-10-02T06:21:30.000Z",
-        "title": "F-16V blk70首批2架抵台　軍事迷和民眾：期待這一刻",
-        "summary": "F-16V blk70首批2架抵台　軍事迷和民眾：期待這一刻",
-        "categories": [
-          "台灣"
-        ],
-        "fact_status": "reported",
-        "content_type": "news",
-        "event_score": 80,
-        "anchor_event": false,
-        "sources": [
-          {
-            "source_id": "rss-43d02db42206879fc64b",
-            "publisher": "中央通訊社",
-            "kind": "newswire",
-            "url": "https://www.cna.com.tw/news/aipl/202610020148.aspx",
-            "published_at": "2026-10-02",
-            "excerpt": "F-16V blk70首批2架抵台　軍事迷和民眾：期待這一刻",
-            "section": "台灣"
-          }
-        ],
-        "keywords": [],
-        "aliases": [
-          "cna-5862b788ecadd57dbda7"
-        ],
-        "content_revision": "cna-5862b788ecadd57dbda7"
       },
       {
         "event_id": "cna-b0152a9160ad2f5090a1",
@@ -3166,51 +3186,6 @@
           "cna-ed0da5ad2dfc1dfec525"
         ],
         "content_revision": "cna-ed0da5ad2dfc1dfec525"
-      },
-      {
-        "event_id": "cna-7db260b1adf55b07048d",
-        "dedup_key": "https://www.cna.com.tw/news/aloc/202610020150.aspx",
-        "event_date": "2026-10-02",
-        "updated_at": "2026-10-02",
-        "published_at": "2026-10-02T06:22:34.000Z",
-        "title": "安平馬公觀光輪船試辦　澎湖輪台南載客開航",
-        "summary": "安平馬公觀光輪船試辦　澎湖輪台南載客開航",
-        "categories": [
-          "台灣"
-        ],
-        "fact_status": "reported",
-        "content_type": "news",
-        "event_score": 80,
-        "anchor_event": false,
-        "sources": [
-          {
-            "source_id": "rss-644ae78e9590ddad4762",
-            "publisher": "中央通訊社",
-            "kind": "newswire",
-            "url": "https://www.cna.com.tw/news/aloc/202610020150.aspx",
-            "published_at": "2026-10-02",
-            "excerpt": "安平馬公觀光輪船試辦　澎湖輪台南載客開航",
-            "section": "台灣"
-          }
-        ],
-        "keywords": [
-          {
-            "word": "澎湖",
-            "clue": "據報導「光輪船試辦　澎○輪○○載客開航」，補全地名。（2字）",
-            "answer_score": 86,
-            "difficulty": "easy"
-          },
-          {
-            "word": "觀光",
-            "clue": "據報導「安平馬公○光輪船試辦　○○輪○○載客開航」，補全用語。（2字）",
-            "answer_score": 86,
-            "difficulty": "easy"
-          }
-        ],
-        "aliases": [
-          "cna-7db260b1adf55b07048d"
-        ],
-        "content_revision": "cna-7db260b1adf55b07048d"
       },
       {
         "event_id": "cna-6a8f5184b33d52eaaaa7",
@@ -4220,51 +4195,6 @@
           "cna-077cc178bedc995267c5"
         ],
         "content_revision": "cna-077cc178bedc995267c5"
-      },
-      {
-        "event_id": "cna-730ec5079b673eaf649c",
-        "dedup_key": "https://www.cna.com.tw/news/aopl/202610020151.aspx",
-        "event_date": "2026-10-02",
-        "updated_at": "2026-10-02",
-        "published_at": "2026-10-02T06:26:37.000Z",
-        "title": "康乃爾大學校園性侵疑遭吃案　州長責成特檢介入",
-        "summary": "康乃爾大學校園性侵疑遭吃案　州長責成特檢介入",
-        "categories": [
-          "國際"
-        ],
-        "fact_status": "reported",
-        "content_type": "news",
-        "event_score": 80,
-        "anchor_event": false,
-        "sources": [
-          {
-            "source_id": "rss-3d47512eb970e3627a66",
-            "publisher": "中央通訊社",
-            "kind": "newswire",
-            "url": "https://www.cna.com.tw/news/aopl/202610020151.aspx",
-            "published_at": "2026-10-02",
-            "excerpt": "康乃爾大學校園性侵疑遭吃案　州長責成特檢介入",
-            "section": "國際"
-          }
-        ],
-        "keywords": [
-          {
-            "word": "學校",
-            "clue": "據報導「康乃爾大○校園性侵疑遭吃案　州長責成特檢」，補全用語。（2字）",
-            "answer_score": 86,
-            "difficulty": "easy"
-          },
-          {
-            "word": "大學",
-            "clue": "據報導「康乃爾大○○園性侵疑遭吃案　州長責成特」，補全用語。（2字）",
-            "answer_score": 86,
-            "difficulty": "easy"
-          }
-        ],
-        "aliases": [
-          "cna-730ec5079b673eaf649c"
-        ],
-        "content_revision": "cna-730ec5079b673eaf649c"
       },
       {
         "event_id": "cna-58d82929a69dccf629fc",
@@ -5639,15 +5569,15 @@
         "content_revision": "cna-5c50c59c7157dd8dbfd6"
       },
       {
-        "event_id": "cna-640673d01f6749e9c4d6",
-        "dedup_key": "https://www.cna.com.tw/news/asoc/202610020149.aspx",
-        "event_date": "2026-10-02",
-        "updated_at": "2026-10-02",
-        "published_at": "2026-10-02T06:21:32.000Z",
-        "title": "婦涉每票千元為嘉市議員參選人買票　遭收押禁見",
-        "summary": "婦涉每票千元為嘉市議員參選人買票　遭收押禁見",
+        "event_id": "cna-90129fe17f6ddc43b8b4",
+        "dedup_key": "https://www.cna.com.tw/news/aopl/202610030004.aspx",
+        "event_date": "2026-10-03",
+        "updated_at": "2026-10-03",
+        "published_at": "2026-10-02T18:19:19.000Z",
+        "title": "特斯拉全球電動車銷售量優於預期　股價勁揚",
+        "summary": "特斯拉全球電動車銷售量優於預期　股價勁揚",
         "categories": [
-          "台灣"
+          "財經"
         ],
         "fact_status": "reported",
         "content_type": "news",
@@ -5655,20 +5585,72 @@
         "anchor_event": false,
         "sources": [
           {
-            "source_id": "rss-79f0b21b5c0f807005f3",
+            "source_id": "rss-74956ef29a0046adfede",
             "publisher": "中央通訊社",
             "kind": "newswire",
-            "url": "https://www.cna.com.tw/news/asoc/202610020149.aspx",
-            "published_at": "2026-10-02",
-            "excerpt": "婦涉每票千元為嘉市議員參選人買票　遭收押禁見",
-            "section": "台灣"
+            "url": "https://www.cna.com.tw/news/aopl/202610030004.aspx",
+            "published_at": "2026-10-03",
+            "excerpt": "特斯拉全球電動車銷售量優於預期　股價勁揚",
+            "section": "財經"
           }
         ],
-        "keywords": [],
-        "aliases": [
-          "cna-640673d01f6749e9c4d6"
+        "keywords": [
+          {
+            "word": "特斯拉",
+            "clue": "據報導「○斯拉全球○○○銷售量優於預期　股」，補全企業。（3字）",
+            "answer_score": 89,
+            "difficulty": "easy"
+          },
+          {
+            "word": "電動車",
+            "clue": "據報導「○○○全球○動車銷售量優於預期　○○勁揚」，補全用語。（3字）",
+            "answer_score": 89,
+            "difficulty": "easy"
+          }
         ],
-        "content_revision": "cna-640673d01f6749e9c4d6"
+        "aliases": [
+          "cna-90129fe17f6ddc43b8b4"
+        ],
+        "content_revision": "cna-90129fe17f6ddc43b8b4"
+      },
+      {
+        "event_id": "cna-31fdbba68033423c40c9",
+        "dedup_key": "https://www.cna.com.tw/news/aopl/202610030005.aspx",
+        "event_date": "2026-10-03",
+        "updated_at": "2026-10-03",
+        "published_at": "2026-10-02T19:42:22.000Z",
+        "title": "美媒：川普擬任命國家情報總監克雷頓擔任「AI沙皇」",
+        "summary": "美媒：川普擬任命國家情報總監克雷頓擔任「AI沙皇」",
+        "categories": [
+          "國際"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-e30361f8ffa2e510ed80",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aopl/202610030005.aspx",
+            "published_at": "2026-10-03",
+            "excerpt": "美媒：川普擬任命國家情報總監克雷頓擔任「AI沙皇」",
+            "section": "國際"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "川普",
+            "clue": "據報導「美媒：○普擬任命國家情報總監克雷頓擔任」，補全人物。（2字）",
+            "answer_score": 86,
+            "difficulty": "easy"
+          }
+        ],
+        "aliases": [
+          "cna-31fdbba68033423c40c9"
+        ],
+        "content_revision": "cna-31fdbba68033423c40c9"
       },
       {
         "event_id": "cna-9062e089d8d48ef2e57b",
@@ -6153,6 +6135,45 @@
           "cna-772706fad3f89ce6e899"
         ],
         "content_revision": "cna-772706fad3f89ce6e899"
+      },
+      {
+        "event_id": "cna-bc9e556bed790b7dbe5a",
+        "dedup_key": "https://www.cna.com.tw/news/asoc/202610030002.aspx",
+        "event_date": "2026-10-03",
+        "updated_at": "2026-10-03",
+        "published_at": "2026-10-02T16:43:13.000Z",
+        "title": "屏東里長候選人送肉粽、提杯涉賄選　屏檢聲押",
+        "summary": "屏東里長候選人送肉粽、提杯涉賄選　屏檢聲押",
+        "categories": [
+          "台灣"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-0e312ea2eb1111869168",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/asoc/202610030002.aspx",
+            "published_at": "2026-10-03",
+            "excerpt": "屏東里長候選人送肉粽、提杯涉賄選　屏檢聲押",
+            "section": "台灣"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "屏東",
+            "clue": "據報導「屏○里長候選人送肉粽、提杯涉賄選」，補全地名。（2字）",
+            "answer_score": 86,
+            "difficulty": "easy"
+          }
+        ],
+        "aliases": [
+          "cna-bc9e556bed790b7dbe5a"
+        ],
+        "content_revision": "cna-bc9e556bed790b7dbe5a"
       },
       {
         "event_id": "cna-7eecb6886cf230113779",
@@ -7185,32 +7206,107 @@
     ],
     "candidates": [
       {
-        "word": "升息",
-        "clue": "據報導「○○拉回和升○預期降低　歐股收紅」，補全用語。（2字）",
+        "word": "油價",
+        "clue": "據報導「略儲備  柴油○格大跌」，補全用語。（2字）",
         "answer_score": 86,
         "difficulty": "easy",
-        "id": "cna-800a4c0b0810338fb4c6::升息",
-        "event_id": "cna-800a4c0b0810338fb4c6",
-        "event_revision": "cna-800a4c0b0810338fb4c6",
+        "id": "cna-8d289574d1651de4fcc8::油價",
+        "event_id": "cna-8d289574d1651de4fcc8",
+        "event_revision": "cna-8d289574d1651de4fcc8",
         "source_support": [
           {
-            "source_id": "rss-1fe5e193535861dba022",
-            "evidence": "油價拉回和升息預期降低　歐股收紅"
+            "source_id": "rss-7b08acba3b8bb8549ce1",
+            "evidence": "G7計劃釋出戰略儲備  柴油價格大跌"
           }
         ]
       },
       {
-        "word": "油價",
-        "clue": "據報導「油○拉回和○○預期降低　歐股收紅」，補全用語。（2字）",
+        "word": "升息",
+        "clue": "據報導「佳降低聯準會升○機率　○○收紅」，補全用語。（2字）",
         "answer_score": 86,
         "difficulty": "easy",
-        "id": "cna-800a4c0b0810338fb4c6::油價",
-        "event_id": "cna-800a4c0b0810338fb4c6",
-        "event_revision": "cna-800a4c0b0810338fb4c6",
+        "id": "cna-9c681e60552c54cf02c5::升息",
+        "event_id": "cna-9c681e60552c54cf02c5",
+        "event_revision": "cna-9c681e60552c54cf02c5",
         "source_support": [
           {
-            "source_id": "rss-1fe5e193535861dba022",
-            "evidence": "油價拉回和升息預期降低　歐股收紅"
+            "source_id": "rss-c8d8b3e358b6cbb245b6",
+            "evidence": "就業數據欠佳降低聯準會升息機率　美股收紅"
+          }
+        ]
+      },
+      {
+        "word": "就業",
+        "clue": "據報導「就○數據欠佳降低聯準會○○機率　」，補全用語。（2字）",
+        "answer_score": 86,
+        "difficulty": "easy",
+        "id": "cna-9c681e60552c54cf02c5::就業",
+        "event_id": "cna-9c681e60552c54cf02c5",
+        "event_revision": "cna-9c681e60552c54cf02c5",
+        "source_support": [
+          {
+            "source_id": "rss-c8d8b3e358b6cbb245b6",
+            "evidence": "就業數據欠佳降低聯準會升息機率　美股收紅"
+          }
+        ]
+      },
+      {
+        "word": "川普",
+        "clue": "據報導「美媒：○普擬任命國家情報總監克雷頓擔任」，補全人物。（2字）",
+        "answer_score": 86,
+        "difficulty": "easy",
+        "id": "cna-31fdbba68033423c40c9::川普",
+        "event_id": "cna-31fdbba68033423c40c9",
+        "event_revision": "cna-31fdbba68033423c40c9",
+        "source_support": [
+          {
+            "source_id": "rss-e30361f8ffa2e510ed80",
+            "evidence": "美媒：川普擬任命國家情報總監克雷頓擔任「AI沙皇」"
+          }
+        ]
+      },
+      {
+        "word": "特斯拉",
+        "clue": "據報導「○斯拉全球○○○銷售量優於預期　股」，補全企業。（3字）",
+        "answer_score": 89,
+        "difficulty": "easy",
+        "id": "cna-90129fe17f6ddc43b8b4::特斯拉",
+        "event_id": "cna-90129fe17f6ddc43b8b4",
+        "event_revision": "cna-90129fe17f6ddc43b8b4",
+        "source_support": [
+          {
+            "source_id": "rss-74956ef29a0046adfede",
+            "evidence": "特斯拉全球電動車銷售量優於預期　股價勁揚"
+          }
+        ]
+      },
+      {
+        "word": "電動車",
+        "clue": "據報導「○○○全球○動車銷售量優於預期　○○勁揚」，補全用語。（3字）",
+        "answer_score": 89,
+        "difficulty": "easy",
+        "id": "cna-90129fe17f6ddc43b8b4::電動車",
+        "event_id": "cna-90129fe17f6ddc43b8b4",
+        "event_revision": "cna-90129fe17f6ddc43b8b4",
+        "source_support": [
+          {
+            "source_id": "rss-74956ef29a0046adfede",
+            "evidence": "特斯拉全球電動車銷售量優於預期　股價勁揚"
+          }
+        ]
+      },
+      {
+        "word": "屏東",
+        "clue": "據報導「屏○里長候選人送肉粽、提杯涉賄選」，補全地名。（2字）",
+        "answer_score": 86,
+        "difficulty": "easy",
+        "id": "cna-bc9e556bed790b7dbe5a::屏東",
+        "event_id": "cna-bc9e556bed790b7dbe5a",
+        "event_revision": "cna-bc9e556bed790b7dbe5a",
+        "source_support": [
+          {
+            "source_id": "rss-0e312ea2eb1111869168",
+            "evidence": "屏東里長候選人送肉粽、提杯涉賄選　屏檢聲押"
           }
         ]
       },
@@ -7286,21 +7382,6 @@
           {
             "source_id": "rss-9ba28a9ec6297689fa54",
             "evidence": "藍指沈伯洋教育政策四大皆空　綠：歡迎提出不同方案"
-          }
-        ]
-      },
-      {
-        "word": "川普",
-        "clue": "據報導「○○格飆升　○普：○○同意釋出大量儲備」，補全人物。（2字）",
-        "answer_score": 86,
-        "difficulty": "easy",
-        "id": "cna-cfada431d46d2b065597::川普",
-        "event_id": "cna-cfada431d46d2b065597",
-        "event_revision": "cna-cfada431d46d2b065597",
-        "source_support": [
-          {
-            "source_id": "rss-39206569ee77f9e0b321",
-            "evidence": "柴油價格飆升　川普：歐洲同意釋出大量儲備"
           }
         ]
       },
@@ -7391,21 +7472,6 @@
           {
             "source_id": "rss-a925dfed7f4ba4d7ef9d",
             "evidence": "台灣贈菲律賓「金門艦」正式服役　維護菲南航運安全"
-          }
-        ]
-      },
-      {
-        "word": "就業",
-        "clue": "據報導「美就○數據疲軟壓抑○○預期　華爾街」，補全用語。（2字）",
-        "answer_score": 86,
-        "difficulty": "easy",
-        "id": "cna-9c1fe7e38ec354447366::就業",
-        "event_id": "cna-9c1fe7e38ec354447366",
-        "event_revision": "cna-9c1fe7e38ec354447366",
-        "source_support": [
-          {
-            "source_id": "rss-9887da161c0d462934b7",
-            "evidence": "美就業數據疲軟壓抑升息預期　華爾街股市開高"
           }
         ]
       },
@@ -7931,21 +7997,6 @@
           {
             "source_id": "rss-a042a417513a0347f0d7",
             "evidence": "南韓要求北韓為DMZ地雷炸傷軍人道歉　金與正回嗆"
-          }
-        ]
-      },
-      {
-        "word": "屏東",
-        "clue": "據報導「屏○義大○○拚2027年上半年啟」，補全地名。（2字）",
-        "answer_score": 86,
-        "difficulty": "easy",
-        "id": "cna-8fabeaa5b16e823001a6::屏東",
-        "event_id": "cna-8fabeaa5b16e823001a6",
-        "event_revision": "cna-8fabeaa5b16e823001a6",
-        "source_support": [
-          {
-            "source_id": "rss-8ce7353db6bdda60c9ad",
-            "evidence": "屏東義大醫院拚2027年上半年啟用　同時迎屏基新院區"
           }
         ]
       },
@@ -9047,14 +9098,14 @@
   },
   "automation": {
     "enabled": true,
-    "updated_at": "2026-10-02T17:54:40.824Z",
+    "updated_at": "2026-10-02T22:19:20.751Z",
     "window": {
       "from": "2026-09-27",
       "to": "2026-10-03"
     },
     "interval_hours": 6,
     "source_count": 9,
-    "candidate_count": 119,
+    "candidate_count": 121,
     "sources": [
       {
         "id": "cna-politics",
