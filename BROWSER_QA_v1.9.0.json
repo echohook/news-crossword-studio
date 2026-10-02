@@ -1,0 +1,15 @@
+{
+  "version": "1.9.0",
+  "passed": true,
+  "url": "http://127.0.0.1:8790/",
+  "checks": [
+    "automatic bank loads on open and refresh without manual input",
+    "two automatically sourced editions pass all validators and answer/clue deduplication",
+    "automatic news batch downloads a complete Chinese A4 PDF",
+    "mobile layout stays within viewport",
+    "failed bank connection retains last good news and clearly states fallback"
+  ],
+  "browser_errors": [],
+  "issue_date": "2026-10-02",
+  "candidate_count": 106
+}

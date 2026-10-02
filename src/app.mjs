@@ -1,6 +1,8 @@
+import {loadAutoBank} from './auto-bank.mjs';
 import {assertPrintableReport} from './pdf.mjs';
 const $=id=>document.getElementById(id);
 const el=(tag,cls,text)=>{const n=document.createElement(tag);if(cls)n.className=cls;if(text!==undefined)n.textContent=text;return n;};
+let bankConnection='ONLINE';
 let packet,report=null,preview=null,mode='player',editionIndex=0,worker,active=false;
 let nextId=1;const pending=new Map();
 function startWorker(){worker=new Worker(new URL('./worker.js',import.meta.url),{type:'module'});worker.onmessage=({data})=>{const p=pending.get(data.id);if(!p)return;pending.delete(data.id);data.type==='error'?p.reject(Error(data.message)):p.resolve(data);};worker.onerror=()=>{for(const p of pending.values())p.reject(Error('產題程式未能載入，請重新整理再試。'));pending.clear();};}
@@ -25,7 +27,8 @@ function updatePreview(){
  $('mode-player').classList.toggle('active',mode==='player');$('mode-answer').classList.toggle('active',mode==='answers');
  const e=report?.editions[editionIndex];const sheet=e?(mode==='player'?e.player:e.answers):preview;
  if(sheet)drawWorksheet(sheet);
- $('preview-title').textContent=e?'第 '+e.edition_number+' 份':'盤面預覽';
+ $('preview-title').textContent=e?'第 '+e.edition_number+' 份':'準備產題';
+ if(!sheet){$('board').replaceChildren();$('clues').replaceChildren();}
  if(e?.content_summary){const c=e.content_summary.selected;$('quota-news').textContent=c.news;$('quota-idiom').textContent=c.idiom;}else if(packet){$('quota-news').textContent=packet.mix.news;$('quota-idiom').textContent=packet.mix.idiom;}
  $('edition-buttons').replaceChildren();for(const [i,e]of (report?.editions??[]).entries()){const b=el('button',i===editionIndex?'active':'','第 '+e.edition_number+' 份');b.onclick=()=>selectEdition(i);$('edition-buttons').append(b);}
  $('checks').replaceChildren();if(e){for(const c of e.grid_validation.checks)$('checks').append(el('span','check',c.id+' 通過'));$('checks').append(el('span','check','無重複題目'));}
@@ -36,7 +39,11 @@ function updatePool(window){
  $('pool-count').textContent=packet.news.candidates.length+' 時事／'+packet.idioms.length+' 成語';
  const cap=Math.min(Math.floor((packet.news.candidates.length+Math.min(packet.idioms.length,m.idiom*7))/(m.news+m.idiom)),Math.floor(packet.news.candidates.length/m.news),7);
  $('capacity').textContent='依候選數量，最多可供 '+cap+' 份；成語不足以時事補足，仍須通過題目與盤面檢查。';
- $('notice').textContent='新聞期間：'+window.from+' ～ '+window.to+'。內附固定快照；更新後請核對來源與提示，再列印。';
+ const a=packet.automation;
+ const stamp=a?new Intl.DateTimeFormat('zh-TW',{timeZone:'Asia/Taipei',dateStyle:'short',timeStyle:'short'}).format(new Date(a.updated_at)):'';
+ const status=a?(a.stale?'更新延遲；已排除過期新聞。':bankConnection==='OFFLINE'?'連線未完成，使用最近一次題庫。':a.status==='PARTIAL'?'部分來源暫時無法連線，其餘已更新。':'已載入自動題庫。'):'已載入自訂題庫。';
+ $('notice').textContent='新聞期間：'+window.from+' ～ '+window.to+'。'+status;
+ $('auto-status').textContent=a?'最近更新：'+stamp+'　'+a.source_count+' 個新聞分類來源／'+packet.news.candidates.length+' 個候選。 '+status:'目前使用自訂題庫；可取得最新題庫回到自動模式。';
 }
 async function generate(count=Number($('count').value)){
  if(active)throw Error('正在產題中，請稍候。');
@@ -46,7 +53,7 @@ async function generate(count=Number($('count').value)){
  try {
   const result=await askWorker({type:'generate',packet,count});report=result.report;packet=result.packet;editionIndex=0;mode='player';
   $('result-status').classList.toggle('error',report.status!=='COMPLETE');
-  $('result-status').textContent=report.status==='COMPLETE'?'已完成 '+report.generated_count+' 份；各份驗證通過，題目與答案不重複。':'指定 '+count+' 份，完成 '+report.generated_count+' 份。'+(report.shortage?'剩餘題庫不足，請新增題目後再試。':'搜尋未找到足夠的合法盤面，請調整題庫後再試。');
+  $('result-status').textContent=report.status==='COMPLETE'?'已完成 '+report.generated_count+' 份；各份驗證通過，題目與答案不重複。':'指定 '+count+' 份，完成 '+report.generated_count+' 份。'+(report.shortage?'剩餘題庫不足，可減少份數或取得更新後的題庫。':'搜尋未找到足夠的合法盤面，可減少份數或等待題庫更新。');
   if(report.editions.some(e=>e.content_summary?.fallback))$('result-status').textContent+=' 成語不足或無法排入的部分已改用時事題。';
   if(report.shortage)$('result-status').textContent+=' 下一份需 '+report.shortage.needed_for_next.total+' 題，剩餘 '+report.shortage.available.total+' 題。';
   updatePreview();onGenerated(report);return {requested:count,generated:report.generated_count,status:report.status};
@@ -61,7 +68,7 @@ $('download-report').onclick=()=>downloadBlob(JSON.stringify(report,null,2),'app
 function switchPane(name){for(const n of ['create','bank','records']){$('pane-'+n).hidden=n!==name;$('tab-'+n).classList.toggle('active',n===name);$('tab-'+n).setAttribute('aria-selected',String(n===name));}}
 for(const name of ['create','bank','records'])$('tab-'+name).onclick=()=>switchPane(name);
 startWorker();
-const ready=(async()=>{const [raw,sheet]=await Promise.all([fetch('./packet.json').then(r=>r.json()),fetch('./preview.json').then(r=>r.json())]);const prepared=await askWorker({type:'prepare',packet:raw});packet=prepared.packet;preview=sheet;updatePool(prepared.window);updatePreview();$('generate').disabled=false;})();
+const ready=(async()=>{const raw=await fetch('./packet.json').then(r=>r.json());const automatic=await loadAutoBank({fallback:raw});bankConnection=automatic.connection;const prepared=await askWorker({type:'prepare',packet:automatic.packet});packet=prepared.packet;preview=null;updatePool(prepared.window);updatePreview();$('generate').disabled=false;})();
 ready.catch(e=>{$('notice').textContent='載入失敗：'+e.message;});
 
 let bankDraft=null,bankDirty=false;const records=[];
@@ -69,7 +76,11 @@ function markDirty(){bankDirty=true;$('bank-status').textContent='尚未套用�
 function sourceLink(url,label){try{const u=new URL(url);if(!['http:','https:'].includes(u.protocol))return null;const a=el('a',null,label);a.href=u.href;a.target='_blank';a.rel='noopener noreferrer';return a;}catch{return null;}}
 function withHint(clue,length){return clue.trim().replace(/[（(]\s*[234二三四]\s*字\s*[）)]\s*$/u,'')+'（'+length+'字）';}
 function drawBank(reset=false){
- if(reset||!bankDraft){bankDraft=structuredClone(packet);bankDirty=false;$('bank-status').textContent='已套用；請下載保存';}
+ $('auto-bank-list').replaceChildren();
+ for(const c of packet.news.candidates){const row=el('article','bank-row'),event=packet.news.events.find(e=>e.event_id===c.event_id);
+ row.append(el('strong',null,c.word),el('p',null,c.clue));const source=el('div','source');source.append(el('span',null,event?.title??''));
+ for(const s of event?.sources??[]){const link=sourceLink(s.url,s.publisher);if(link)source.append(link);}row.append(source);$('auto-bank-list').append(row);}
+ if(reset||!bankDraft){bankDraft=structuredClone(packet);bankDirty=false;$('bank-status').textContent=packet.automation?'自動題庫':'自訂題庫';}
  $('issue-date').value=bankDraft.news.issue_date;
  const kind=$('bank-filter').value,items=kind==='news'?bankDraft.news.candidates:bankDraft.idioms;
  $('bank-list').replaceChildren();
@@ -93,6 +104,9 @@ async function applyPacket(raw){
  $('result-status').classList.remove('error');$('result-status').textContent='題庫已更新，請重新產題。';
  return prepared;
 }
+$('auto-refresh').onclick=async()=>{const button=$('auto-refresh');button.disabled=true;button.textContent='正在取得…';
+ try{if(active)throw Error('請完成或取消產題後再更新。');const automatic=await loadAutoBank({fallback:packet});bankConnection=automatic.connection;await applyPacket(automatic.packet);}
+ catch(e){$('auto-status').textContent=e.message;}finally{button.disabled=false;button.textContent='取得最新題庫';}};
 async function saveBank(){
  for(const c of bankDraft.news.candidates){const event=bankDraft.news.events.find(e=>e.event_id===c.event_id);c.clue=withHint(c.clue,Array.from(c.word).length);if(event)c.source_support=(event.sources??[]).filter(s=>s.excerpt?.includes(c.word)).map(s=>({source_id:s.source_id,evidence:s.excerpt}));}
  for(const c of bankDraft.idioms)c.clue=withHint(c.clue,4);

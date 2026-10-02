@@ -1,9 +1,11 @@
-name: Verify and publish GitHub Pages
+name: Automatically refresh news and publish GitHub Pages
 
 on:
   push:
     branches: [main]
   workflow_dispatch:
+  schedule:
+    - cron: '17 */6 * * *'
 
 permissions:
   contents: read
@@ -15,8 +17,12 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@v6
+        with:
+          ref: main
       - uses: actions/setup-node@v7
         with:
           node-version: '24'
@@ -24,8 +30,19 @@ jobs:
       - run: npm ci
       - name: Verify independent crossword core
         run: npm --prefix core test
-      - name: Verify browser export and import guards
+      - name: Verify website and automatic news guards
         run: npm test
+      - name: Automatically search and add recent news
+        run: npm run update-news
+      - name: Persist the validated shared news bank
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/auto-news.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Automatically refresh seven-day news bank"
+            git push origin HEAD:main
+          fi
       - run: npm run build
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v4
