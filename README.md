@@ -29,4 +29,16 @@ npm test
 ```
 build.mjs 打包瀏覽器產題及 PDF 工作執行緒；核心保持在 core/。標準 Node crypto 在瀏覽器以 js-sha256 相容介面替代。
 Sites 靜態資產位於 dist，網站識別保存在 .openai/hosting.json。重新部署須沿用原 project_id。網站不需要 API 金鑰、伺服器端 Python 或 Windows 字型，所有必需資產均由同一網站提供。
-源碼與可用網址的交付文件保存於 outputs。維護時不得重新建立另一個 Site 冒充此網站。
+維護原 Sites 網站時須沿用相同 project_id。
+
+## GitHub 發佈與維護
+- GitHub Pages：[開啟時事填字樂](https://echohook.github.io/news-crossword-studio/)
+- 原正式網站：[時事填字樂](https://news-crossword-studio.echoman.chatgpt.site)
+- GitHub 儲存庫：[echohook/news-crossword-studio](https://github.com/echohook/news-crossword-studio)
+
+這個儲存庫同步原正式網站 v1.8.0 的完整程式與靜態資產，保留原來源提交 063d9a11c7fdf5155f139d1305486870045e4081。
+main 分支每次更新都會先跑核心與網路版測試，再重新建置並發佈 GitHub Pages。
+題庫維護者可修改 core/examples/mixed-input.json，再提交 main；build.mjs 會把該題庫複製到網站的 packet.json。
+此發佈流程更新 GitHub Pages；原 Sites 網址仍依其原本部署流程更新，兩個入口不會自動互相覆寫。
+一般使用者在網頁編輯題庫時仍以檔案保存，不會更改儲存庫或其他使用者資料。
+Noto Sans TC 字型的授權檔保留在 dist/FONT-LICENSE.txt；專案尚未指定整體原始碼授權。
