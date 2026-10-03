@@ -1,6 +1,6 @@
 {
   "news": {
-    "issue_date": "2026-10-03",
+    "issue_date": "2026-10-04",
     "dataset_mode": "news",
     "events": [
       {
@@ -236,6 +236,128 @@
         "content_revision": "cna-ee7760984f31fca8d57b"
       },
       {
+        "event_id": "cna-82f889769e905630dc24",
+        "dedup_key": "https://www.cna.com.tw/news/acn/202610030185.aspx",
+        "event_date": "2026-10-03",
+        "updated_at": "2026-10-03",
+        "published_at": "2026-10-03T12:39:08.000Z",
+        "title": "深圳APEC峰會11月登場  中國外交部：歡迎普丁出席",
+        "summary": "深圳APEC峰會11月登場  中國外交部：歡迎普丁出席",
+        "categories": [
+          "國際"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-ccedb8d25c2430c59070",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/acn/202610030185.aspx",
+            "published_at": "2026-10-03",
+            "excerpt": "深圳APEC峰會11月登場  中國外交部：歡迎普丁出席",
+            "section": "國際"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "深圳",
+            "clue": "據報導「○圳APEC峰會11月登場  中」，補全地名。（2字）",
+            "answer_score": 86,
+            "difficulty": "easy"
+          },
+          {
+            "word": "外交部",
+            "clue": "據報導「登場  ○○○交部：歡迎○○出席」，補全機關或組織。（3字）",
+            "answer_score": 89,
+            "difficulty": "easy"
+          },
+          {
+            "word": "普丁",
+            "clue": "據報導「○○○：歡迎○丁出席」，補全人物。（2字）",
+            "answer_score": 86,
+            "difficulty": "easy"
+          }
+        ],
+        "aliases": [
+          "cna-82f889769e905630dc24"
+        ],
+        "content_revision": "cna-82f889769e905630dc24"
+      },
+      {
+        "event_id": "cna-d75f3352751b28835f5d",
+        "dedup_key": "https://www.cna.com.tw/news/acn/202610030193.aspx",
+        "event_date": "2026-10-03",
+        "updated_at": "2026-10-03",
+        "published_at": "2026-10-03T13:21:25.000Z",
+        "title": "北京在寮國設立首個境外空軍設施  分析：擴大中國海外軍事布局",
+        "summary": "北京在寮國設立首個境外空軍設施  分析：擴大中國海外軍事布局",
+        "categories": [
+          "國際"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-09b05e30ac575a37fd09",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/acn/202610030193.aspx",
+            "published_at": "2026-10-03",
+            "excerpt": "北京在寮國設立首個境外空軍設施  分析：擴大中國海外軍事布局",
+            "section": "國際"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "寮國",
+            "clue": "據報導「○○在寮○設立首個境外空軍設施  分析」，補全國家或地區。（2字）",
+            "answer_score": 86,
+            "difficulty": "easy"
+          }
+        ],
+        "aliases": [
+          "cna-d75f3352751b28835f5d"
+        ],
+        "content_revision": "cna-d75f3352751b28835f5d"
+      },
+      {
+        "event_id": "cna-277ce096c4d256e5b453",
+        "dedup_key": "https://www.cna.com.tw/news/acn/202610030195.aspx",
+        "event_date": "2026-10-03",
+        "updated_at": "2026-10-03",
+        "published_at": "2026-10-03T13:36:32.000Z",
+        "title": "中國民眾長假擠爆海外景點  「有沒有出國」傻傻分不清",
+        "summary": "中國民眾長假擠爆海外景點  「有沒有出國」傻傻分不清",
+        "categories": [
+          "國際"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-b30a9af9cc99944203d4",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/acn/202610030195.aspx",
+            "published_at": "2026-10-03",
+            "excerpt": "中國民眾長假擠爆海外景點  「有沒有出國」傻傻分不清",
+            "section": "國際"
+          }
+        ],
+        "keywords": [],
+        "aliases": [
+          "cna-277ce096c4d256e5b453"
+        ],
+        "content_revision": "cna-277ce096c4d256e5b453"
+      },
+      {
         "event_id": "cna-f7daeda265d57c959e5b",
         "dedup_key": "https://www.cna.com.tw/news/acul/202610030165.aspx",
         "event_date": "2026-10-03",
@@ -266,134 +388,6 @@
           "cna-f7daeda265d57c959e5b"
         ],
         "content_revision": "cna-f7daeda265d57c959e5b"
-      },
-      {
-        "event_id": "cna-2101b77959030459a7a9",
-        "dedup_key": "https://www.cna.com.tw/news/afe/202610020325.aspx",
-        "event_date": "2026-10-02",
-        "updated_at": "2026-10-02",
-        "published_at": "2026-10-02T13:04:51.000Z",
-        "title": "Tesla：已啟動在台FSD版本驗證　提出道路測試計畫",
-        "summary": "Tesla：已啟動在台FSD版本驗證　提出道路測試計畫",
-        "categories": [
-          "生活"
-        ],
-        "fact_status": "reported",
-        "content_type": "news",
-        "event_score": 80,
-        "anchor_event": false,
-        "sources": [
-          {
-            "source_id": "rss-ad911fd77d71ecea22e2",
-            "publisher": "中央通訊社",
-            "kind": "newswire",
-            "url": "https://www.cna.com.tw/news/afe/202610020325.aspx",
-            "published_at": "2026-10-02",
-            "excerpt": "Tesla：已啟動在台FSD版本驗證　提出道路測試計畫",
-            "section": "生活"
-          }
-        ],
-        "keywords": [],
-        "aliases": [
-          "cna-2101b77959030459a7a9"
-        ],
-        "content_revision": "cna-2101b77959030459a7a9"
-      },
-      {
-        "event_id": "cna-7465820cea11f3223784",
-        "dedup_key": "https://www.cna.com.tw/news/afe/202610020335.aspx",
-        "event_date": "2026-10-02",
-        "updated_at": "2026-10-02",
-        "published_at": "2026-10-02T13:33:13.000Z",
-        "title": "東元投資不超過12.71億元　擴新加坡和印尼據點",
-        "summary": "東元投資不超過12.71億元　擴新加坡和印尼據點",
-        "categories": [
-          "財經"
-        ],
-        "fact_status": "reported",
-        "content_type": "news",
-        "event_score": 80,
-        "anchor_event": false,
-        "sources": [
-          {
-            "source_id": "rss-c46c96122a634ccadfed",
-            "publisher": "中央通訊社",
-            "kind": "newswire",
-            "url": "https://www.cna.com.tw/news/afe/202610020335.aspx",
-            "published_at": "2026-10-02",
-            "excerpt": "東元投資不超過12.71億元　擴新加坡和印尼據點",
-            "section": "財經"
-          }
-        ],
-        "keywords": [
-          {
-            "word": "印尼",
-            "clue": "據報導「　擴○○○和○尼據點」，補全國家或地區。（2字）",
-            "answer_score": 86,
-            "difficulty": "easy"
-          },
-          {
-            "word": "新加坡",
-            "clue": "據報導「71億元　擴○加坡和○○據點」，補全國家或地區。（3字）",
-            "answer_score": 89,
-            "difficulty": "easy"
-          },
-          {
-            "word": "投資",
-            "clue": "據報導「東元投○不超過12.71億元　擴新加」，補全用語。（2字）",
-            "answer_score": 86,
-            "difficulty": "easy"
-          }
-        ],
-        "aliases": [
-          "cna-7465820cea11f3223784"
-        ],
-        "content_revision": "cna-7465820cea11f3223784"
-      },
-      {
-        "event_id": "cna-9c1fe7e38ec354447366",
-        "dedup_key": "https://www.cna.com.tw/news/afe/202610020341.aspx",
-        "event_date": "2026-10-02",
-        "updated_at": "2026-10-02",
-        "published_at": "2026-10-02T13:56:30.000Z",
-        "title": "美就業數據疲軟壓抑升息預期　華爾街股市開高",
-        "summary": "美就業數據疲軟壓抑升息預期　華爾街股市開高",
-        "categories": [
-          "財經"
-        ],
-        "fact_status": "reported",
-        "content_type": "news",
-        "event_score": 80,
-        "anchor_event": false,
-        "sources": [
-          {
-            "source_id": "rss-9887da161c0d462934b7",
-            "publisher": "中央通訊社",
-            "kind": "newswire",
-            "url": "https://www.cna.com.tw/news/afe/202610020341.aspx",
-            "published_at": "2026-10-02",
-            "excerpt": "美就業數據疲軟壓抑升息預期　華爾街股市開高",
-            "section": "財經"
-          }
-        ],
-        "keywords": [
-          {
-            "word": "升息",
-            "clue": "據報導「數據疲軟壓抑升○預期　華爾街○○開高」，補全用語。（2字）",
-            "answer_score": 86,
-            "difficulty": "easy"
-          },
-          {
-            "word": "就業",
-            "clue": "據報導「美就○數據疲軟壓抑○○預期　華爾街」，補全用語。（2字）",
-            "answer_score": 86,
-            "difficulty": "easy"
-          }
-        ],
-        "aliases": [
-          "cna-9c1fe7e38ec354447366"
-        ],
-        "content_revision": "cna-9c1fe7e38ec354447366"
       },
       {
         "event_id": "cna-800a4c0b0810338fb4c6",
@@ -841,77 +835,13 @@
         "content_revision": "cna-8ae26a473b7cbb0d97f7"
       },
       {
-        "event_id": "cna-da93a5488102cee7a59c",
-        "dedup_key": "https://www.cna.com.tw/news/ahel/202610020314.aspx",
-        "event_date": "2026-10-02",
-        "updated_at": "2026-10-02",
-        "published_at": "2026-10-02T12:43:28.000Z",
-        "title": "大樂透第115093期開獎",
-        "summary": "大樂透第115093期開獎",
-        "categories": [
-          "生活"
-        ],
-        "fact_status": "reported",
-        "content_type": "news",
-        "event_score": 80,
-        "anchor_event": false,
-        "sources": [
-          {
-            "source_id": "rss-70dcbaec1b51bc01460b",
-            "publisher": "中央通訊社",
-            "kind": "newswire",
-            "url": "https://www.cna.com.tw/news/ahel/202610020314.aspx",
-            "published_at": "2026-10-02",
-            "excerpt": "大樂透第115093期開獎",
-            "section": "生活"
-          }
-        ],
-        "keywords": [],
-        "aliases": [
-          "cna-da93a5488102cee7a59c"
-        ],
-        "content_revision": "cna-da93a5488102cee7a59c"
-      },
-      {
-        "event_id": "cna-46c8c3cab4caa7f6d975",
-        "dedup_key": "https://www.cna.com.tw/news/ahel/202610020317.aspx",
-        "event_date": "2026-10-02",
-        "updated_at": "2026-10-02",
-        "published_at": "2026-10-02T12:51:34.000Z",
-        "title": "今彩539第115239期開獎",
-        "summary": "今彩539第115239期開獎",
-        "categories": [
-          "生活"
-        ],
-        "fact_status": "reported",
-        "content_type": "news",
-        "event_score": 80,
-        "anchor_event": false,
-        "sources": [
-          {
-            "source_id": "rss-6f7d83f7c70230182a9b",
-            "publisher": "中央通訊社",
-            "kind": "newswire",
-            "url": "https://www.cna.com.tw/news/ahel/202610020317.aspx",
-            "published_at": "2026-10-02",
-            "excerpt": "今彩539第115239期開獎",
-            "section": "生活"
-          }
-        ],
-        "keywords": [],
-        "aliases": [
-          "cna-46c8c3cab4caa7f6d975"
-        ],
-        "content_revision": "cna-46c8c3cab4caa7f6d975"
-      },
-      {
-        "event_id": "cna-5b76a0b7c99f8d5ee6f0",
-        "dedup_key": "https://www.cna.com.tw/news/ahel/202610020344.aspx",
-        "event_date": "2026-10-02",
-        "updated_at": "2026-10-02",
-        "published_at": "2026-10-02T14:08:37.000Z",
-        "title": "大樂透頭獎連7槓　下期獎金上看2.7億元",
-        "summary": "大樂透頭獎連7槓　下期獎金上看2.7億元",
+        "event_id": "cna-f5e5a61846131fefeb2b",
+        "dedup_key": "https://www.cna.com.tw/news/afe/202610030157.aspx",
+        "event_date": "2026-10-03",
+        "updated_at": "2026-10-03",
+        "published_at": "2026-10-03T10:05:06.000Z",
+        "title": "和泰車：第4季車市穩健　估今年新車市場維持43萬輛",
+        "summary": "和泰車：第4季車市穩健　估今年新車市場維持43萬輛",
         "categories": [
           "財經"
         ],
@@ -921,29 +851,29 @@
         "anchor_event": false,
         "sources": [
           {
-            "source_id": "rss-9ef65506f741dccc73b2",
+            "source_id": "rss-d41c1f4afe7ff4548d23",
             "publisher": "中央通訊社",
             "kind": "newswire",
-            "url": "https://www.cna.com.tw/news/ahel/202610020344.aspx",
-            "published_at": "2026-10-02",
-            "excerpt": "大樂透頭獎連7槓　下期獎金上看2.7億元",
+            "url": "https://www.cna.com.tw/news/afe/202610030157.aspx",
+            "published_at": "2026-10-03",
+            "excerpt": "和泰車：第4季車市穩健　估今年新車市場維持43萬輛",
             "section": "財經"
           }
         ],
         "keywords": [],
         "aliases": [
-          "cna-5b76a0b7c99f8d5ee6f0"
+          "cna-f5e5a61846131fefeb2b"
         ],
-        "content_revision": "cna-5b76a0b7c99f8d5ee6f0"
+        "content_revision": "cna-f5e5a61846131fefeb2b"
       },
       {
-        "event_id": "cna-ac9c9337b40d1d39308b",
-        "dedup_key": "https://www.cna.com.tw/news/ahel/202610020347.aspx",
-        "event_date": "2026-10-02",
-        "updated_at": "2026-10-02",
-        "published_at": "2026-10-02T14:11:43.000Z",
-        "title": "今彩539第115239期　頭獎1注中獎",
-        "summary": "今彩539第115239期　頭獎1注中獎",
+        "event_id": "cna-49f586257eff7d69d159",
+        "dedup_key": "https://www.cna.com.tw/news/afe/202610030191.aspx",
+        "event_date": "2026-10-03",
+        "updated_at": "2026-10-03",
+        "published_at": "2026-10-03T13:08:21.000Z",
+        "title": "國際能源總署：成員國迄今釋出3.25億桶戰略儲油",
+        "summary": "國際能源總署：成員國迄今釋出3.25億桶戰略儲油",
         "categories": [
           "財經"
         ],
@@ -953,20 +883,20 @@
         "anchor_event": false,
         "sources": [
           {
-            "source_id": "rss-adca8e45a4abfdeb8207",
+            "source_id": "rss-7ab4a4a0cd4f2932f9a7",
             "publisher": "中央通訊社",
             "kind": "newswire",
-            "url": "https://www.cna.com.tw/news/ahel/202610020347.aspx",
-            "published_at": "2026-10-02",
-            "excerpt": "今彩539第115239期　頭獎1注中獎",
+            "url": "https://www.cna.com.tw/news/afe/202610030191.aspx",
+            "published_at": "2026-10-03",
+            "excerpt": "國際能源總署：成員國迄今釋出3.25億桶戰略儲油",
             "section": "財經"
           }
         ],
         "keywords": [],
         "aliases": [
-          "cna-ac9c9337b40d1d39308b"
+          "cna-49f586257eff7d69d159"
         ],
-        "content_revision": "cna-ac9c9337b40d1d39308b"
+        "content_revision": "cna-49f586257eff7d69d159"
       },
       {
         "event_id": "cna-3a8edb41573fa68a3c84",
@@ -1906,15 +1836,15 @@
         "content_revision": "cna-7c560a8c5acffaf350bc"
       },
       {
-        "event_id": "cna-2b31529145f58a25cd73",
-        "dedup_key": "https://www.cna.com.tw/news/aipl/202610020328.aspx",
-        "event_date": "2026-10-02",
-        "updated_at": "2026-10-02",
-        "published_at": "2026-10-02T13:11:58.000Z",
-        "title": "蕭副總統：台灣品牌走向世界　珍奶小吃成美食外交",
-        "summary": "蕭副總統：台灣品牌走向世界　珍奶小吃成美食外交",
+        "event_id": "cna-462337391e7ca2fcd143",
+        "dedup_key": "https://www.cna.com.tw/news/ahel/202610030186.aspx",
+        "event_date": "2026-10-03",
+        "updated_at": "2026-10-03",
+        "published_at": "2026-10-03T12:45:10.000Z",
+        "title": "今彩539第115240期開獎",
+        "summary": "今彩539第115240期開獎",
         "categories": [
-          "台灣"
+          "生活"
         ],
         "fact_status": "reported",
         "content_type": "news",
@@ -1922,38 +1852,31 @@
         "anchor_event": false,
         "sources": [
           {
-            "source_id": "rss-ca0617333db41a522c52",
+            "source_id": "rss-6a0614668117d5b364a8",
             "publisher": "中央通訊社",
             "kind": "newswire",
-            "url": "https://www.cna.com.tw/news/aipl/202610020328.aspx",
-            "published_at": "2026-10-02",
-            "excerpt": "蕭副總統：台灣品牌走向世界　珍奶小吃成美食外交",
-            "section": "台灣"
+            "url": "https://www.cna.com.tw/news/ahel/202610030186.aspx",
+            "published_at": "2026-10-03",
+            "excerpt": "今彩539第115240期開獎",
+            "section": "生活"
           }
         ],
-        "keywords": [
-          {
-            "word": "台灣",
-            "clue": "據報導「蕭副總統：○灣品牌走向世界　珍奶小吃成美食」，補全國家或地區。（2字）",
-            "answer_score": 86,
-            "difficulty": "easy"
-          }
-        ],
+        "keywords": [],
         "aliases": [
-          "cna-2b31529145f58a25cd73"
+          "cna-462337391e7ca2fcd143"
         ],
-        "content_revision": "cna-2b31529145f58a25cd73"
+        "content_revision": "cna-462337391e7ca2fcd143"
       },
       {
-        "event_id": "cna-32f84b81447a0b1f1caf",
-        "dedup_key": "https://www.cna.com.tw/news/aipl/202610020332.aspx",
-        "event_date": "2026-10-02",
-        "updated_at": "2026-10-02",
-        "published_at": "2026-10-02T13:24:07.000Z",
-        "title": "韓國國慶　新任代表盼台韓新型合作成世界經濟創新動力",
-        "summary": "韓國國慶　新任代表盼台韓新型合作成世界經濟創新動力",
+        "event_id": "cna-2188e8f74a0b30a1d9f5",
+        "dedup_key": "https://www.cna.com.tw/news/ahel/202610030200.aspx",
+        "event_date": "2026-10-03",
+        "updated_at": "2026-10-03",
+        "published_at": "2026-10-03T14:03:43.000Z",
+        "title": "今彩539第115240期　頭獎槓龜",
+        "summary": "今彩539第115240期　頭獎槓龜",
         "categories": [
-          "台灣"
+          "生活"
         ],
         "fact_status": "reported",
         "content_type": "news",
@@ -1961,50 +1884,31 @@
         "anchor_event": false,
         "sources": [
           {
-            "source_id": "rss-a9c02d27225a7057868f",
+            "source_id": "rss-1b418f995022d1298c1b",
             "publisher": "中央通訊社",
             "kind": "newswire",
-            "url": "https://www.cna.com.tw/news/aipl/202610020332.aspx",
-            "published_at": "2026-10-02",
-            "excerpt": "韓國國慶　新任代表盼台韓新型合作成世界經濟創新動力",
-            "section": "台灣"
+            "url": "https://www.cna.com.tw/news/ahel/202610030200.aspx",
+            "published_at": "2026-10-03",
+            "excerpt": "今彩539第115240期　頭獎槓龜",
+            "section": "生活"
           }
         ],
-        "keywords": [
-          {
-            "word": "韓國",
-            "clue": "據報導「韓○○○　新任代表盼台韓新型合作」，補全國家或地區。（2字）",
-            "answer_score": 86,
-            "difficulty": "easy"
-          },
-          {
-            "word": "經濟",
-            "clue": "據報導「型合作成世界○濟創新動力」，補全用語。（2字）",
-            "answer_score": 86,
-            "difficulty": "easy"
-          },
-          {
-            "word": "國慶",
-            "clue": "據報導「○○○慶　新任代表盼台韓新型合作成世」，補全用語。（2字）",
-            "answer_score": 86,
-            "difficulty": "easy"
-          }
-        ],
+        "keywords": [],
         "aliases": [
-          "cna-32f84b81447a0b1f1caf"
+          "cna-2188e8f74a0b30a1d9f5"
         ],
-        "content_revision": "cna-32f84b81447a0b1f1caf"
+        "content_revision": "cna-2188e8f74a0b30a1d9f5"
       },
       {
-        "event_id": "cna-e8c2311fe23ca25b7390",
-        "dedup_key": "https://www.cna.com.tw/news/aipl/202610020337.aspx",
-        "event_date": "2026-10-02",
-        "updated_at": "2026-10-02",
-        "published_at": "2026-10-02T13:47:22.000Z",
-        "title": "卓榮泰分享洋流船員證遭質疑　政院：未涉公務也無違法",
-        "summary": "卓榮泰分享洋流船員證遭質疑　政院：未涉公務也無違法",
+        "event_id": "cna-be682c06dfda1d18c7e3",
+        "dedup_key": "https://www.cna.com.tw/news/ahel/202610030204.aspx",
+        "event_date": "2026-10-03",
+        "updated_at": "2026-10-03",
+        "published_at": "2026-10-03T15:18:55.000Z",
+        "title": "宜蘭山區豪雨特報　花蓮、新北及桃園山區防大雨",
+        "summary": "宜蘭山區豪雨特報　花蓮、新北及桃園山區防大雨",
         "categories": [
-          "台灣"
+          "生活"
         ],
         "fact_status": "reported",
         "content_type": "news",
@@ -2012,129 +1916,45 @@
         "anchor_event": false,
         "sources": [
           {
-            "source_id": "rss-c19b6f496f083a9e1b1f",
+            "source_id": "rss-b0d4202c3fb01c4698c2",
             "publisher": "中央通訊社",
             "kind": "newswire",
-            "url": "https://www.cna.com.tw/news/aipl/202610020337.aspx",
-            "published_at": "2026-10-02",
-            "excerpt": "卓榮泰分享洋流船員證遭質疑　政院：未涉公務也無違法",
-            "section": "台灣"
+            "url": "https://www.cna.com.tw/news/ahel/202610030204.aspx",
+            "published_at": "2026-10-03",
+            "excerpt": "宜蘭山區豪雨特報　花蓮、新北及桃園山區防大雨",
+            "section": "生活"
           }
         ],
         "keywords": [
           {
-            "word": "卓榮泰",
-            "clue": "據報導「○榮泰分享洋流船員證遭質疑　政院：」，補全人物。（3字）",
-            "answer_score": 89,
-            "difficulty": "easy"
-          }
-        ],
-        "aliases": [
-          "cna-e8c2311fe23ca25b7390"
-        ],
-        "content_revision": "cna-e8c2311fe23ca25b7390"
-      },
-      {
-        "event_id": "cna-49b7155fa6e86b419e1d",
-        "dedup_key": "https://www.cna.com.tw/news/aipl/202610020345.aspx",
-        "event_date": "2026-10-02",
-        "updated_at": "2026-10-02",
-        "published_at": "2026-10-02T14:08:39.000Z",
-        "title": "台灣贈菲律賓「金門艦」正式服役　維護菲南航運安全",
-        "summary": "台灣贈菲律賓「金門艦」正式服役　維護菲南航運安全",
-        "categories": [
-          "國際"
-        ],
-        "fact_status": "reported",
-        "content_type": "news",
-        "event_score": 80,
-        "anchor_event": false,
-        "sources": [
-          {
-            "source_id": "rss-a925dfed7f4ba4d7ef9d",
-            "publisher": "中央通訊社",
-            "kind": "newswire",
-            "url": "https://www.cna.com.tw/news/aipl/202610020345.aspx",
-            "published_at": "2026-10-02",
-            "excerpt": "台灣贈菲律賓「金門艦」正式服役　維護菲南航運安全",
-            "section": "國際"
-          }
-        ],
-        "keywords": [
-          {
-            "word": "台灣",
-            "clue": "據報導「○灣贈○○○「○○艦」正式服役　」，補全國家或地區。（2字）",
+            "word": "桃園",
+            "clue": "據報導「○○、○○及○園山區防大雨」，補全地名。（2字）",
             "answer_score": 86,
             "difficulty": "easy"
           },
           {
-            "word": "菲律賓",
-            "clue": "據報導「○○贈○律賓「○○艦」正式服役　維護菲南」，補全國家或地區。（3字）",
-            "answer_score": 89,
+            "word": "宜蘭",
+            "clue": "據報導「○蘭山區○○特報　○○、○○及桃」，補全地名。（2字）",
+            "answer_score": 86,
             "difficulty": "easy"
           },
           {
-            "word": "金門",
-            "clue": "據報導「灣贈○○○「○門艦」正式服役　維護菲南航運安」，補全地名。（2字）",
+            "word": "花蓮",
+            "clue": "據報導「區○○特報　○蓮、○○及○○山區防大雨」，補全地名。（2字）",
+            "answer_score": 86,
+            "difficulty": "easy"
+          },
+          {
+            "word": "豪雨",
+            "clue": "據報導「○○山區○雨特報　○○、○○及○○山區防」，補全用語。（2字）",
             "answer_score": 86,
             "difficulty": "easy"
           }
         ],
         "aliases": [
-          "cna-49b7155fa6e86b419e1d"
+          "cna-be682c06dfda1d18c7e3"
         ],
-        "content_revision": "cna-49b7155fa6e86b419e1d"
-      },
-      {
-        "event_id": "cna-ad2c71207b44590cc4b0",
-        "dedup_key": "https://www.cna.com.tw/news/aipl/202610020346.aspx",
-        "event_date": "2026-10-02",
-        "updated_at": "2026-10-02",
-        "published_at": "2026-10-02T14:10:41.000Z",
-        "title": "外交部發布國慶影片「國家的相簿」　呈現台灣民主歷程[影]",
-        "summary": "外交部發布國慶影片「國家的相簿」　呈現台灣民主歷程[影]",
-        "categories": [
-          "台灣"
-        ],
-        "fact_status": "reported",
-        "content_type": "news",
-        "event_score": 80,
-        "anchor_event": false,
-        "sources": [
-          {
-            "source_id": "rss-ba5d5b300cbbadac1d29",
-            "publisher": "中央通訊社",
-            "kind": "newswire",
-            "url": "https://www.cna.com.tw/news/aipl/202610020346.aspx",
-            "published_at": "2026-10-02",
-            "excerpt": "外交部發布國慶影片「國家的相簿」　呈現台灣民主歷程[影]",
-            "section": "台灣"
-          }
-        ],
-        "keywords": [
-          {
-            "word": "台灣",
-            "clue": "據報導「相簿」　呈現○灣民主歷程[影]」，補全國家或地區。（2字）",
-            "answer_score": 86,
-            "difficulty": "easy"
-          },
-          {
-            "word": "外交部",
-            "clue": "據報導「○交部發布○○影片「國家的相簿」　」，補全機關或組織。（3字）",
-            "answer_score": 89,
-            "difficulty": "easy"
-          },
-          {
-            "word": "國慶",
-            "clue": "據報導「○○○發布○慶影片「國家的相簿」　呈現○○」，補全用語。（2字）",
-            "answer_score": 86,
-            "difficulty": "easy"
-          }
-        ],
-        "aliases": [
-          "cna-ad2c71207b44590cc4b0"
-        ],
-        "content_revision": "cna-ad2c71207b44590cc4b0"
+        "content_revision": "cna-be682c06dfda1d18c7e3"
       },
       {
         "event_id": "cna-ed0da5ad2dfc1dfec525",
@@ -2979,6 +2799,335 @@
         "content_revision": "cna-c14f89a75472733d6c4b"
       },
       {
+        "event_id": "cna-e1de05628d7048863d7b",
+        "dedup_key": "https://www.cna.com.tw/news/aipl/202610030162.aspx",
+        "event_date": "2026-10-03",
+        "updated_at": "2026-10-03",
+        "published_at": "2026-10-03T10:26:17.000Z",
+        "title": "韓國瑜雲林陪張嘉郡參拜宮廟　喻立院亂象需孫悟空鎮壓",
+        "summary": "韓國瑜雲林陪張嘉郡參拜宮廟　喻立院亂象需孫悟空鎮壓",
+        "categories": [
+          "台灣"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-d38799f1ac09a24eed5c",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aipl/202610030162.aspx",
+            "published_at": "2026-10-03",
+            "excerpt": "韓國瑜雲林陪張嘉郡參拜宮廟　喻立院亂象需孫悟空鎮壓",
+            "section": "台灣"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "雲林",
+            "clue": "據報導「○○○雲○陪張嘉郡參拜宮廟　喻立院亂象」，補全地名。（2字）",
+            "answer_score": 86,
+            "difficulty": "easy"
+          },
+          {
+            "word": "韓國瑜",
+            "clue": "據報導「○國瑜○○陪張嘉郡參拜宮廟　喻立院」，補全人物。（3字）",
+            "answer_score": 89,
+            "difficulty": "easy"
+          }
+        ],
+        "aliases": [
+          "cna-e1de05628d7048863d7b"
+        ],
+        "content_revision": "cna-e1de05628d7048863d7b"
+      },
+      {
+        "event_id": "cna-c8e7722cb2dcf3e4f18b",
+        "dedup_key": "https://www.cna.com.tw/news/aipl/202610030163.aspx",
+        "event_date": "2026-10-03",
+        "updated_at": "2026-10-03",
+        "published_at": "2026-10-03T10:30:19.000Z",
+        "title": "賴瑞隆成立百工百業後援會　賴清德：穩定領先不能鬆懈",
+        "summary": "賴瑞隆成立百工百業後援會　賴清德：穩定領先不能鬆懈",
+        "categories": [
+          "台灣"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-704502d7aec71e5583f7",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aipl/202610030163.aspx",
+            "published_at": "2026-10-03",
+            "excerpt": "賴瑞隆成立百工百業後援會　賴清德：穩定領先不能鬆懈",
+            "section": "台灣"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "賴清德",
+            "clue": "據報導「百業後援會　○清德：穩定領先不能鬆懈」，補全人物。（3字）",
+            "answer_score": 89,
+            "difficulty": "easy"
+          }
+        ],
+        "aliases": [
+          "cna-c8e7722cb2dcf3e4f18b"
+        ],
+        "content_revision": "cna-c8e7722cb2dcf3e4f18b"
+      },
+      {
+        "event_id": "cna-48fd21c8d70547aa1ab7",
+        "dedup_key": "https://www.cna.com.tw/news/aipl/202610030174.aspx",
+        "event_date": "2026-10-03",
+        "updated_at": "2026-10-03",
+        "published_at": "2026-10-03T11:35:44.000Z",
+        "title": "傳美戰爭部派員長駐　國防部：軍事交流細節無說明",
+        "summary": "傳美戰爭部派員長駐　國防部：軍事交流細節無說明",
+        "categories": [
+          "台灣"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-e0fc3130df73f098fbf9",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aipl/202610030174.aspx",
+            "published_at": "2026-10-03",
+            "excerpt": "傳美戰爭部派員長駐　國防部：軍事交流細節無說明",
+            "section": "台灣"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "國防部",
+            "clue": "據報導「部派員長駐　○防部：軍事交流細節無說明」，補全機關或組織。（3字）",
+            "answer_score": 89,
+            "difficulty": "easy"
+          }
+        ],
+        "aliases": [
+          "cna-48fd21c8d70547aa1ab7"
+        ],
+        "content_revision": "cna-48fd21c8d70547aa1ab7"
+      },
+      {
+        "event_id": "cna-7cfc03c206c7c49c41e1",
+        "dedup_key": "https://www.cna.com.tw/news/aipl/202610030179.aspx",
+        "event_date": "2026-10-03",
+        "updated_at": "2026-10-03",
+        "published_at": "2026-10-03T12:26:55.000Z",
+        "title": "駐歐代表處盧森堡辦國慶酒會　多位政要發言挺台",
+        "summary": "駐歐代表處盧森堡辦國慶酒會　多位政要發言挺台",
+        "categories": [
+          "台灣"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-e9f6ad19866faf1f3cee",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aipl/202610030179.aspx",
+            "published_at": "2026-10-03",
+            "excerpt": "駐歐代表處盧森堡辦國慶酒會　多位政要發言挺台",
+            "section": "台灣"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "國慶",
+            "clue": "據報導「表處盧森堡辦○慶酒會　多位政要發言挺台」，補全用語。（2字）",
+            "answer_score": 86,
+            "difficulty": "easy"
+          }
+        ],
+        "aliases": [
+          "cna-7cfc03c206c7c49c41e1"
+        ],
+        "content_revision": "cna-7cfc03c206c7c49c41e1"
+      },
+      {
+        "event_id": "cna-0de30eb5f096bfe7abe0",
+        "dedup_key": "https://www.cna.com.tw/news/aipl/202610030188.aspx",
+        "event_date": "2026-10-03",
+        "updated_at": "2026-10-03",
+        "published_at": "2026-10-03T12:51:14.000Z",
+        "title": "蕭副總統：蔡易餘是「小叮噹」 聰明能解決問題",
+        "summary": "蕭副總統：蔡易餘是「小叮噹」 聰明能解決問題",
+        "categories": [
+          "台灣"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-21b89b09cdee8b7aa7e2",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aipl/202610030188.aspx",
+            "published_at": "2026-10-03",
+            "excerpt": "蕭副總統：蔡易餘是「小叮噹」 聰明能解決問題",
+            "section": "台灣"
+          }
+        ],
+        "keywords": [],
+        "aliases": [
+          "cna-0de30eb5f096bfe7abe0"
+        ],
+        "content_revision": "cna-0de30eb5f096bfe7abe0"
+      },
+      {
+        "event_id": "cna-1e6fdbc498456816f6bc",
+        "dedup_key": "https://www.cna.com.tw/news/aipl/202610030198.aspx",
+        "event_date": "2026-10-03",
+        "updated_at": "2026-10-03",
+        "published_at": "2026-10-03T13:55:39.000Z",
+        "title": "大馬台商歡慶115年雙十國慶　盼讓世界看到台灣價值",
+        "summary": "大馬台商歡慶115年雙十國慶　盼讓世界看到台灣價值",
+        "categories": [
+          "國際"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-c8a5b9b035095371cf36",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aipl/202610030198.aspx",
+            "published_at": "2026-10-03",
+            "excerpt": "大馬台商歡慶115年雙十國慶　盼讓世界看到台灣價值",
+            "section": "國際"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "台灣",
+            "clue": "據報導「盼讓世界看到○灣價值」，補全國家或地區。（2字）",
+            "answer_score": 86,
+            "difficulty": "easy"
+          },
+          {
+            "word": "國慶",
+            "clue": "據報導「115年雙十○慶　盼讓世界看到○○價值」，補全用語。（2字）",
+            "answer_score": 86,
+            "difficulty": "easy"
+          }
+        ],
+        "aliases": [
+          "cna-1e6fdbc498456816f6bc"
+        ],
+        "content_revision": "cna-1e6fdbc498456816f6bc"
+      },
+      {
+        "event_id": "cna-61693d6c123232d87a2e",
+        "dedup_key": "https://www.cna.com.tw/news/aipl/202610030201.aspx",
+        "event_date": "2026-10-03",
+        "updated_at": "2026-10-03",
+        "published_at": "2026-10-03T14:21:45.000Z",
+        "title": "黃世杰南區競總成立　總統：年輕有活力市長最適合桃園",
+        "summary": "黃世杰南區競總成立　總統：年輕有活力市長最適合桃園",
+        "categories": [
+          "台灣"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-69b8a388944b173c098a",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aipl/202610030201.aspx",
+            "published_at": "2026-10-03",
+            "excerpt": "黃世杰南區競總成立　總統：年輕有活力市長最適合桃園",
+            "section": "台灣"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "桃園",
+            "clue": "據報導「力市長最適合○園」，補全地名。（2字）",
+            "answer_score": 86,
+            "difficulty": "easy"
+          }
+        ],
+        "aliases": [
+          "cna-61693d6c123232d87a2e"
+        ],
+        "content_revision": "cna-61693d6c123232d87a2e"
+      },
+      {
+        "event_id": "cna-0a92c9642c2475912dbb",
+        "dedup_key": "https://www.cna.com.tw/news/aipl/202610030202.aspx",
+        "event_date": "2026-10-03",
+        "updated_at": "2026-10-03",
+        "published_at": "2026-10-03T14:28:48.000Z",
+        "title": "柯文哲屏東輔選　喊民眾黨不能永遠只是網路政黨",
+        "summary": "柯文哲屏東輔選　喊民眾黨不能永遠只是網路政黨",
+        "categories": [
+          "台灣"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-197946679b4e7fb83e75",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aipl/202610030202.aspx",
+            "published_at": "2026-10-03",
+            "excerpt": "柯文哲屏東輔選　喊民眾黨不能永遠只是網路政黨",
+            "section": "台灣"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "屏東",
+            "clue": "據報導「○○○屏○輔選　喊○○○不能永遠只是網」，補全地名。（2字）",
+            "answer_score": 86,
+            "difficulty": "easy"
+          },
+          {
+            "word": "民眾黨",
+            "clue": "據報導「○○輔選　喊○眾黨不能永遠只是網路政黨」，補全機關或組織。（3字）",
+            "answer_score": 89,
+            "difficulty": "easy"
+          },
+          {
+            "word": "柯文哲",
+            "clue": "據報導「○文哲○○輔選　喊○○○不能永遠只」，補全人物。（3字）",
+            "answer_score": 89,
+            "difficulty": "easy"
+          }
+        ],
+        "aliases": [
+          "cna-0a92c9642c2475912dbb"
+        ],
+        "content_revision": "cna-0a92c9642c2475912dbb"
+      },
+      {
         "event_id": "cna-953c8ef1568010d95491",
         "dedup_key": "https://www.cna.com.tw/news/ait/202610030014.aspx",
         "event_date": "2026-10-03",
@@ -3100,186 +3249,6 @@
           "cna-701406ea027df879010a"
         ],
         "content_revision": "cna-701406ea027df879010a"
-      },
-      {
-        "event_id": "cna-af4ee3e11777224c44c4",
-        "dedup_key": "https://www.cna.com.tw/news/aloc/202610020313.aspx",
-        "event_date": "2026-10-02",
-        "updated_at": "2026-10-02",
-        "published_at": "2026-10-02T12:39:26.000Z",
-        "title": "新北南鶯活動中心啟用　蘇巧慧讚中央地方合作成果",
-        "summary": "新北南鶯活動中心啟用　蘇巧慧讚中央地方合作成果",
-        "categories": [
-          "台灣"
-        ],
-        "fact_status": "reported",
-        "content_type": "news",
-        "event_score": 80,
-        "anchor_event": false,
-        "sources": [
-          {
-            "source_id": "rss-f2f6e47001c1d24dd36e",
-            "publisher": "中央通訊社",
-            "kind": "newswire",
-            "url": "https://www.cna.com.tw/news/aloc/202610020313.aspx",
-            "published_at": "2026-10-02",
-            "excerpt": "新北南鶯活動中心啟用　蘇巧慧讚中央地方合作成果",
-            "section": "台灣"
-          }
-        ],
-        "keywords": [],
-        "aliases": [
-          "cna-af4ee3e11777224c44c4"
-        ],
-        "content_revision": "cna-af4ee3e11777224c44c4"
-      },
-      {
-        "event_id": "cna-ea3e6bbe49c415339ea1",
-        "dedup_key": "https://www.cna.com.tw/news/aloc/202610020326.aspx",
-        "event_date": "2026-10-02",
-        "updated_at": "2026-10-02",
-        "published_at": "2026-10-02T13:06:54.000Z",
-        "title": "沈伯洋發表教育政見　北市：多項內容已推動且見成果",
-        "summary": "沈伯洋發表教育政見　北市：多項內容已推動且見成果",
-        "categories": [
-          "台灣"
-        ],
-        "fact_status": "reported",
-        "content_type": "news",
-        "event_score": 80,
-        "anchor_event": false,
-        "sources": [
-          {
-            "source_id": "rss-9a20e48a129aa5866322",
-            "publisher": "中央通訊社",
-            "kind": "newswire",
-            "url": "https://www.cna.com.tw/news/aloc/202610020326.aspx",
-            "published_at": "2026-10-02",
-            "excerpt": "沈伯洋發表教育政見　北市：多項內容已推動且見成果",
-            "section": "台灣"
-          }
-        ],
-        "keywords": [
-          {
-            "word": "教育",
-            "clue": "據報導「沈伯洋發表教○政見　北市：多項內容已推動且」，補全用語。（2字）",
-            "answer_score": 86,
-            "difficulty": "easy"
-          }
-        ],
-        "aliases": [
-          "cna-ea3e6bbe49c415339ea1"
-        ],
-        "content_revision": "cna-ea3e6bbe49c415339ea1"
-      },
-      {
-        "event_id": "cna-7c4bf36168091387eb92",
-        "dedup_key": "https://www.cna.com.tw/news/aloc/202610020327.aspx",
-        "event_date": "2026-10-02",
-        "updated_at": "2026-10-02",
-        "published_at": "2026-10-02T13:09:56.000Z",
-        "title": "空勤總隊夜間緊急醫療後送機制　政院允助澎湖協調",
-        "summary": "空勤總隊夜間緊急醫療後送機制　政院允助澎湖協調",
-        "categories": [
-          "台灣"
-        ],
-        "fact_status": "reported",
-        "content_type": "news",
-        "event_score": 80,
-        "anchor_event": false,
-        "sources": [
-          {
-            "source_id": "rss-4996cefca2face3df6b1",
-            "publisher": "中央通訊社",
-            "kind": "newswire",
-            "url": "https://www.cna.com.tw/news/aloc/202610020327.aspx",
-            "published_at": "2026-10-02",
-            "excerpt": "空勤總隊夜間緊急醫療後送機制　政院允助澎湖協調",
-            "section": "台灣"
-          }
-        ],
-        "keywords": [
-          {
-            "word": "澎湖",
-            "clue": "據報導「制　政院允助澎○協調」，補全地名。（2字）",
-            "answer_score": 86,
-            "difficulty": "easy"
-          },
-          {
-            "word": "醫療",
-            "clue": "據報導「總隊夜間緊急○療後送機制　政院允助○○協調」，補全用語。（2字）",
-            "answer_score": 86,
-            "difficulty": "easy"
-          }
-        ],
-        "aliases": [
-          "cna-7c4bf36168091387eb92"
-        ],
-        "content_revision": "cna-7c4bf36168091387eb92"
-      },
-      {
-        "event_id": "cna-bd31e362825741ecc258",
-        "dedup_key": "https://www.cna.com.tw/news/aloc/202610020329.aspx",
-        "event_date": "2026-10-02",
-        "updated_at": "2026-10-02",
-        "published_at": "2026-10-02T13:12:00.000Z",
-        "title": "新北眷村文化節市集音樂趴接力登場　變身情報員夜遊解謎",
-        "summary": "新北眷村文化節市集音樂趴接力登場　變身情報員夜遊解謎",
-        "categories": [
-          "台灣"
-        ],
-        "fact_status": "reported",
-        "content_type": "news",
-        "event_score": 80,
-        "anchor_event": false,
-        "sources": [
-          {
-            "source_id": "rss-60dab770f4b5f198b0f9",
-            "publisher": "中央通訊社",
-            "kind": "newswire",
-            "url": "https://www.cna.com.tw/news/aloc/202610020329.aspx",
-            "published_at": "2026-10-02",
-            "excerpt": "新北眷村文化節市集音樂趴接力登場　變身情報員夜遊解謎",
-            "section": "台灣"
-          }
-        ],
-        "keywords": [],
-        "aliases": [
-          "cna-bd31e362825741ecc258"
-        ],
-        "content_revision": "cna-bd31e362825741ecc258"
-      },
-      {
-        "event_id": "cna-077cc178bedc995267c5",
-        "dedup_key": "https://www.cna.com.tw/news/aloc/202610020342.aspx",
-        "event_date": "2026-10-02",
-        "updated_at": "2026-10-02",
-        "published_at": "2026-10-02T13:58:32.000Z",
-        "title": "沈伯洋赴師大夜市拜票　盼支持民眾消費挺店家",
-        "summary": "沈伯洋赴師大夜市拜票　盼支持民眾消費挺店家",
-        "categories": [
-          "台灣"
-        ],
-        "fact_status": "reported",
-        "content_type": "news",
-        "event_score": 80,
-        "anchor_event": false,
-        "sources": [
-          {
-            "source_id": "rss-fef223d54a1448f705fd",
-            "publisher": "中央通訊社",
-            "kind": "newswire",
-            "url": "https://www.cna.com.tw/news/aloc/202610020342.aspx",
-            "published_at": "2026-10-02",
-            "excerpt": "沈伯洋赴師大夜市拜票　盼支持民眾消費挺店家",
-            "section": "台灣"
-          }
-        ],
-        "keywords": [],
-        "aliases": [
-          "cna-077cc178bedc995267c5"
-        ],
-        "content_revision": "cna-077cc178bedc995267c5"
       },
       {
         "event_id": "cna-acd33c8007b5cf1290e8",
@@ -3915,15 +3884,15 @@
         "content_revision": "cna-2d506865ffd582962870"
       },
       {
-        "event_id": "cna-bd51353111d01e1098ec",
-        "dedup_key": "https://www.cna.com.tw/news/aopl/202610020315.aspx",
-        "event_date": "2026-10-02",
-        "updated_at": "2026-10-02",
-        "published_at": "2026-10-02T12:44:30.000Z",
-        "title": "馬斯克重返川普政府　共同領導五角大廈未來戰爭研究",
-        "summary": "馬斯克重返川普政府　共同領導五角大廈未來戰爭研究",
+        "event_id": "cna-488697cecdad8ac76e26",
+        "dedup_key": "https://www.cna.com.tw/news/aloc/202610030167.aspx",
+        "event_date": "2026-10-03",
+        "updated_at": "2026-10-03",
+        "published_at": "2026-10-03T10:54:28.000Z",
+        "title": "環境部國土綠蔭氣候調適計畫　防範未來40度高溫廣植樹",
+        "summary": "環境部國土綠蔭氣候調適計畫　防範未來40度高溫廣植樹",
         "categories": [
-          "國際"
+          "台灣"
         ],
         "fact_status": "reported",
         "content_type": "news",
@@ -3931,352 +3900,44 @@
         "anchor_event": false,
         "sources": [
           {
-            "source_id": "rss-edcfef2a7b94aa9e977b",
+            "source_id": "rss-945861b877c599cb4807",
             "publisher": "中央通訊社",
             "kind": "newswire",
-            "url": "https://www.cna.com.tw/news/aopl/202610020315.aspx",
-            "published_at": "2026-10-02",
-            "excerpt": "馬斯克重返川普政府　共同領導五角大廈未來戰爭研究",
-            "section": "國際"
+            "url": "https://www.cna.com.tw/news/aloc/202610030167.aspx",
+            "published_at": "2026-10-03",
+            "excerpt": "環境部國土綠蔭氣候調適計畫　防範未來40度高溫廣植樹",
+            "section": "台灣"
           }
         ],
         "keywords": [
           {
-            "word": "川普",
-            "clue": "據報導「馬斯克重返○普政府　共同領導五角大廈未來戰」，補全人物。（2字）",
-            "answer_score": 86,
-            "difficulty": "easy"
-          }
-        ],
-        "aliases": [
-          "cna-bd51353111d01e1098ec"
-        ],
-        "content_revision": "cna-bd51353111d01e1098ec"
-      },
-      {
-        "event_id": "cna-ffd2ee8de27ad8ad295b",
-        "dedup_key": "https://www.cna.com.tw/news/aopl/202610020322.aspx",
-        "event_date": "2026-10-02",
-        "updated_at": "2026-10-02",
-        "published_at": "2026-10-02T13:01:45.000Z",
-        "title": "AI巨頭警示掀波　科技CEO白宮展團結背後暗交鋒",
-        "summary": "AI巨頭警示掀波　科技CEO白宮展團結背後暗交鋒",
-        "categories": [
-          "國際"
-        ],
-        "fact_status": "reported",
-        "content_type": "news",
-        "event_score": 80,
-        "anchor_event": false,
-        "sources": [
-          {
-            "source_id": "rss-262f75a864d5a975b88c",
-            "publisher": "中央通訊社",
-            "kind": "newswire",
-            "url": "https://www.cna.com.tw/news/aopl/202610020322.aspx",
-            "published_at": "2026-10-02",
-            "excerpt": "AI巨頭警示掀波　科技CEO白宮展團結背後暗交鋒",
-            "section": "國際"
-          }
-        ],
-        "keywords": [],
-        "aliases": [
-          "cna-ffd2ee8de27ad8ad295b"
-        ],
-        "content_revision": "cna-ffd2ee8de27ad8ad295b"
-      },
-      {
-        "event_id": "cna-9a87167132ee4df08324",
-        "dedup_key": "https://www.cna.com.tw/news/aopl/202610020323.aspx",
-        "event_date": "2026-10-02",
-        "updated_at": "2026-10-02",
-        "published_at": "2026-10-02T13:01:47.000Z",
-        "title": "法國高中生不滿教育資源匱乏　示威加劇成安全與政治危機",
-        "summary": "法國高中生不滿教育資源匱乏　示威加劇成安全與政治危機",
-        "categories": [
-          "國際"
-        ],
-        "fact_status": "reported",
-        "content_type": "news",
-        "event_score": 80,
-        "anchor_event": false,
-        "sources": [
-          {
-            "source_id": "rss-82c7a9090d02e3b0f5be",
-            "publisher": "中央通訊社",
-            "kind": "newswire",
-            "url": "https://www.cna.com.tw/news/aopl/202610020323.aspx",
-            "published_at": "2026-10-02",
-            "excerpt": "法國高中生不滿教育資源匱乏　示威加劇成安全與政治危機",
-            "section": "國際"
-          }
-        ],
-        "keywords": [
-          {
-            "word": "法國",
-            "clue": "據報導「法○○○生不滿○○資源匱乏　示威」，補全國家或地區。（2字）",
-            "answer_score": 86,
-            "difficulty": "easy"
-          },
-          {
-            "word": "教育",
-            "clue": "據報導「國○○生不滿教○資源匱乏　示威加劇成安全與政」，補全用語。（2字）",
-            "answer_score": 86,
-            "difficulty": "easy"
-          }
-        ],
-        "aliases": [
-          "cna-9a87167132ee4df08324"
-        ],
-        "content_revision": "cna-9a87167132ee4df08324"
-      },
-      {
-        "event_id": "cna-6bcfc707dc6cf8dd3bef",
-        "dedup_key": "https://www.cna.com.tw/news/aopl/202610020324.aspx",
-        "event_date": "2026-10-02",
-        "updated_at": "2026-10-02",
-        "published_at": "2026-10-02T13:03:49.000Z",
-        "title": "學生抗議持續延燒　法國逾560所高中受影響",
-        "summary": "學生抗議持續延燒　法國逾560所高中受影響",
-        "categories": [
-          "國際"
-        ],
-        "fact_status": "reported",
-        "content_type": "news",
-        "event_score": 80,
-        "anchor_event": false,
-        "sources": [
-          {
-            "source_id": "rss-4e928d040c66cd0d8781",
-            "publisher": "中央通訊社",
-            "kind": "newswire",
-            "url": "https://www.cna.com.tw/news/aopl/202610020324.aspx",
-            "published_at": "2026-10-02",
-            "excerpt": "學生抗議持續延燒　法國逾560所高中受影響",
-            "section": "國際"
-          }
-        ],
-        "keywords": [
-          {
-            "word": "法國",
-            "clue": "據報導「議持續延燒　法○逾560所○○受影響」，補全國家或地區。（2字）",
-            "answer_score": 86,
-            "difficulty": "easy"
-          },
-          {
-            "word": "學生",
-            "clue": "據報導「○生抗議持續延燒　○○逾560所」，補全用語。（2字）",
-            "answer_score": 86,
-            "difficulty": "easy"
-          }
-        ],
-        "aliases": [
-          "cna-6bcfc707dc6cf8dd3bef"
-        ],
-        "content_revision": "cna-6bcfc707dc6cf8dd3bef"
-      },
-      {
-        "event_id": "cna-41a9188c6545f2626155",
-        "dedup_key": "https://www.cna.com.tw/news/aopl/202610020333.aspx",
-        "event_date": "2026-10-02",
-        "updated_at": "2026-10-02",
-        "published_at": "2026-10-02T13:25:09.000Z",
-        "title": "美國9月非農就業新增2.9萬人遠遜預期　失業率微升",
-        "summary": "美國9月非農就業新增2.9萬人遠遜預期　失業率微升",
-        "categories": [
-          "財經"
-        ],
-        "fact_status": "reported",
-        "content_type": "news",
-        "event_score": 80,
-        "anchor_event": false,
-        "sources": [
-          {
-            "source_id": "rss-8a84d7d975a240c5bf05",
-            "publisher": "中央通訊社",
-            "kind": "newswire",
-            "url": "https://www.cna.com.tw/news/aopl/202610020333.aspx",
-            "published_at": "2026-10-02",
-            "excerpt": "美國9月非農就業新增2.9萬人遠遜預期　失業率微升",
-            "section": "財經"
-          }
-        ],
-        "keywords": [
-          {
-            "word": "就業",
-            "clue": "據報導「○○9月非農就○新增2.9萬人遠遜預期　○○」，補全用語。（2字）",
-            "answer_score": 86,
-            "difficulty": "easy"
-          },
-          {
-            "word": "失業",
-            "clue": "據報導「人遠遜預期　失○率微升」，補全用語。（2字）",
-            "answer_score": 86,
-            "difficulty": "easy"
-          }
-        ],
-        "aliases": [
-          "cna-41a9188c6545f2626155"
-        ],
-        "content_revision": "cna-41a9188c6545f2626155"
-      },
-      {
-        "event_id": "cna-340e1afcb0d64785875c",
-        "dedup_key": "https://www.cna.com.tw/news/aopl/202610020336.aspx",
-        "event_date": "2026-10-02",
-        "updated_at": "2026-10-02",
-        "published_at": "2026-10-02T13:36:19.000Z",
-        "title": "韓國多家銀行遭駭客攻擊　金融委要求全面資安檢查",
-        "summary": "韓國多家銀行遭駭客攻擊　金融委要求全面資安檢查",
-        "categories": [
-          "國際"
-        ],
-        "fact_status": "reported",
-        "content_type": "news",
-        "event_score": 80,
-        "anchor_event": false,
-        "sources": [
-          {
-            "source_id": "rss-3a867496635b0a2f5d42",
-            "publisher": "中央通訊社",
-            "kind": "newswire",
-            "url": "https://www.cna.com.tw/news/aopl/202610020336.aspx",
-            "published_at": "2026-10-02",
-            "excerpt": "韓國多家銀行遭駭客攻擊　金融委要求全面資安檢查",
-            "section": "國際"
-          }
-        ],
-        "keywords": [
-          {
-            "word": "韓國",
-            "clue": "據報導「韓○多家○○遭駭客攻擊　○○委要」，補全國家或地區。（2字）",
-            "answer_score": 86,
-            "difficulty": "easy"
-          },
-          {
-            "word": "資安",
-            "clue": "據報導「融委要求全面○安檢查」，補全用語。（2字）",
-            "answer_score": 86,
-            "difficulty": "easy"
-          },
-          {
-            "word": "金融",
-            "clue": "據報導「遭駭客攻擊　○融委要求全面○○檢查」，補全用語。（2字）",
-            "answer_score": 86,
-            "difficulty": "easy"
-          },
-          {
-            "word": "銀行",
-            "clue": "據報導「○○多家○行遭駭客攻擊　○○委要求全面資」，補全用語。（2字）",
-            "answer_score": 86,
-            "difficulty": "easy"
-          }
-        ],
-        "aliases": [
-          "cna-340e1afcb0d64785875c"
-        ],
-        "content_revision": "cna-340e1afcb0d64785875c"
-      },
-      {
-        "event_id": "cna-114a989122b3b09f54d8",
-        "dedup_key": "https://www.cna.com.tw/news/aopl/202610020338.aspx",
-        "event_date": "2026-10-02",
-        "updated_at": "2026-10-02",
-        "published_at": "2026-10-02T13:51:24.000Z",
-        "title": "G7會商壓低燃料價格　美國油價重挫5%",
-        "summary": "G7會商壓低燃料價格　美國油價重挫5%",
-        "categories": [
-          "財經"
-        ],
-        "fact_status": "reported",
-        "content_type": "news",
-        "event_score": 80,
-        "anchor_event": false,
-        "sources": [
-          {
-            "source_id": "rss-15be11fcec59dba2a39c",
-            "publisher": "中央通訊社",
-            "kind": "newswire",
-            "url": "https://www.cna.com.tw/news/aopl/202610020338.aspx",
-            "published_at": "2026-10-02",
-            "excerpt": "G7會商壓低燃料價格　美國油價重挫5%",
-            "section": "財經"
-          }
-        ],
-        "keywords": [
-          {
-            "word": "油價",
-            "clue": "據報導「料價格　○○油○重挫5%」，補全用語。（2字）",
-            "answer_score": 86,
-            "difficulty": "easy"
-          }
-        ],
-        "aliases": [
-          "cna-114a989122b3b09f54d8"
-        ],
-        "content_revision": "cna-114a989122b3b09f54d8"
-      },
-      {
-        "event_id": "cna-daafb72071d40b2bb67c",
-        "dedup_key": "https://www.cna.com.tw/news/aopl/202610020339.aspx",
-        "event_date": "2026-10-02",
-        "updated_at": "2026-10-02",
-        "published_at": "2026-10-02T13:54:26.000Z",
-        "title": "強化邊境管制應對威脅　歐盟加碼46億投資無人機",
-        "summary": "強化邊境管制應對威脅　歐盟加碼46億投資無人機",
-        "categories": [
-          "國際"
-        ],
-        "fact_status": "reported",
-        "content_type": "news",
-        "event_score": 80,
-        "anchor_event": false,
-        "sources": [
-          {
-            "source_id": "rss-14d87ff65ee92c7bbe1b",
-            "publisher": "中央通訊社",
-            "kind": "newswire",
-            "url": "https://www.cna.com.tw/news/aopl/202610020339.aspx",
-            "published_at": "2026-10-02",
-            "excerpt": "強化邊境管制應對威脅　歐盟加碼46億投資無人機",
-            "section": "國際"
-          }
-        ],
-        "keywords": [
-          {
-            "word": "歐盟",
-            "clue": "據報導「制應對威脅　○盟加碼46億○○○○○」，補全國家或地區。（2字）",
-            "answer_score": 86,
-            "difficulty": "easy"
-          },
-          {
-            "word": "無人機",
-            "clue": "據報導「碼46億○○○人機」，補全用語。（3字）",
+            "word": "環境部",
+            "clue": "據報導「○境部國土綠蔭○○調適計畫　防範未」，補全機關或組織。（3字）",
             "answer_score": 89,
             "difficulty": "easy"
           },
           {
-            "word": "投資",
-            "clue": "據報導「盟加碼46億投○○○○」，補全用語。（2字）",
+            "word": "氣候",
+            "clue": "據報導「境部國土綠蔭○候調適計畫　防範未來40度○○」，補全用語。（2字）",
             "answer_score": 86,
             "difficulty": "easy"
           }
         ],
         "aliases": [
-          "cna-daafb72071d40b2bb67c"
+          "cna-488697cecdad8ac76e26"
         ],
-        "content_revision": "cna-daafb72071d40b2bb67c"
+        "content_revision": "cna-488697cecdad8ac76e26"
       },
       {
-        "event_id": "cna-bd8af9deaad58add704a",
-        "dedup_key": "https://www.cna.com.tw/news/aopl/202610020340.aspx",
-        "event_date": "2026-10-02",
-        "updated_at": "2026-10-02",
-        "published_at": "2026-10-02T13:56:28.000Z",
-        "title": "歐盟呼籲G7共同合作  反對美柴油出口禁令威脅",
-        "summary": "歐盟呼籲G7共同合作  反對美柴油出口禁令威脅",
+        "event_id": "cna-0587332d39cb27262b4c",
+        "dedup_key": "https://www.cna.com.tw/news/aloc/202610030176.aspx",
+        "event_date": "2026-10-03",
+        "updated_at": "2026-10-03",
+        "published_at": "2026-10-03T11:57:48.000Z",
+        "title": "蔣萬安走秀台北時裝週　盼展現台灣軟實力融入國際",
+        "summary": "蔣萬安走秀台北時裝週　盼展現台灣軟實力融入國際",
         "categories": [
-          "財經"
+          "台灣"
         ],
         "fact_status": "reported",
         "content_type": "news",
@@ -4284,44 +3945,44 @@
         "anchor_event": false,
         "sources": [
           {
-            "source_id": "rss-0933acb377f9c89ab82b",
+            "source_id": "rss-13be92aa1beec886f13e",
             "publisher": "中央通訊社",
             "kind": "newswire",
-            "url": "https://www.cna.com.tw/news/aopl/202610020340.aspx",
-            "published_at": "2026-10-02",
-            "excerpt": "歐盟呼籲G7共同合作  反對美柴油出口禁令威脅",
-            "section": "財經"
+            "url": "https://www.cna.com.tw/news/aloc/202610030176.aspx",
+            "published_at": "2026-10-03",
+            "excerpt": "蔣萬安走秀台北時裝週　盼展現台灣軟實力融入國際",
+            "section": "台灣"
           }
         ],
         "keywords": [
           {
-            "word": "歐盟",
-            "clue": "據報導「○盟呼籲G7共同合作  反對美柴」，補全國家或地區。（2字）",
+            "word": "台灣",
+            "clue": "據報導「裝週　盼展現○灣軟實力融入國際」，補全國家或地區。（2字）",
             "answer_score": 86,
             "difficulty": "easy"
           },
           {
-            "word": "出口",
-            "clue": "據報導「 反對美柴油出○禁令威脅」，補全用語。（2字）",
-            "answer_score": 86,
+            "word": "蔣萬安",
+            "clue": "據報導「○萬安走秀○○時裝週　盼展現○○軟」，補全人物。（3字）",
+            "answer_score": 89,
             "difficulty": "easy"
           }
         ],
         "aliases": [
-          "cna-bd8af9deaad58add704a"
+          "cna-0587332d39cb27262b4c"
         ],
-        "content_revision": "cna-bd8af9deaad58add704a"
+        "content_revision": "cna-0587332d39cb27262b4c"
       },
       {
-        "event_id": "cna-0d1501fc5847b6c534cc",
-        "dedup_key": "https://www.cna.com.tw/news/aopl/202610020343.aspx",
-        "event_date": "2026-10-02",
-        "updated_at": "2026-10-02",
-        "published_at": "2026-10-02T14:08:34.000Z",
-        "title": "菲憂教育交流恐成北京影響力管道　150名華語老師返中",
-        "summary": "菲憂教育交流恐成北京影響力管道　150名華語老師返中",
+        "event_id": "cna-20cf671b43a532df274f",
+        "dedup_key": "https://www.cna.com.tw/news/aloc/202610030177.aspx",
+        "event_date": "2026-10-03",
+        "updated_at": "2026-10-03",
+        "published_at": "2026-10-03T12:09:51.000Z",
+        "title": "李四川推六大客家政見　允優化師資擴大辦理義民祭",
+        "summary": "李四川推六大客家政見　允優化師資擴大辦理義民祭",
         "categories": [
-          "國際"
+          "台灣"
         ],
         "fact_status": "reported",
         "content_type": "news",
@@ -4329,104 +3990,104 @@
         "anchor_event": false,
         "sources": [
           {
-            "source_id": "rss-177c5d840f92db9063c2",
+            "source_id": "rss-81adcd2c8e6f0062895c",
             "publisher": "中央通訊社",
             "kind": "newswire",
-            "url": "https://www.cna.com.tw/news/aopl/202610020343.aspx",
-            "published_at": "2026-10-02",
-            "excerpt": "菲憂教育交流恐成北京影響力管道　150名華語老師返中",
-            "section": "國際"
-          }
-        ],
-        "keywords": [
-          {
-            "word": "教育",
-            "clue": "據報導「菲憂教○交流恐成○○影響力管道　15」，補全用語。（2字）",
-            "answer_score": 86,
-            "difficulty": "easy"
-          }
-        ],
-        "aliases": [
-          "cna-0d1501fc5847b6c534cc"
-        ],
-        "content_revision": "cna-0d1501fc5847b6c534cc"
-      },
-      {
-        "event_id": "cna-cfada431d46d2b065597",
-        "dedup_key": "https://www.cna.com.tw/news/aopl/202610020350.aspx",
-        "event_date": "2026-10-02",
-        "updated_at": "2026-10-02",
-        "published_at": "2026-10-02T14:31:50.000Z",
-        "title": "柴油價格飆升　川普：歐洲同意釋出大量儲備",
-        "summary": "柴油價格飆升　川普：歐洲同意釋出大量儲備",
-        "categories": [
-          "國際"
-        ],
-        "fact_status": "reported",
-        "content_type": "news",
-        "event_score": 80,
-        "anchor_event": false,
-        "sources": [
-          {
-            "source_id": "rss-39206569ee77f9e0b321",
-            "publisher": "中央通訊社",
-            "kind": "newswire",
-            "url": "https://www.cna.com.tw/news/aopl/202610020350.aspx",
-            "published_at": "2026-10-02",
-            "excerpt": "柴油價格飆升　川普：歐洲同意釋出大量儲備",
-            "section": "國際"
-          }
-        ],
-        "keywords": [
-          {
-            "word": "川普",
-            "clue": "據報導「○○格飆升　○普：○○同意釋出大量儲備」，補全人物。（2字）",
-            "answer_score": 86,
-            "difficulty": "easy"
-          },
-          {
-            "word": "油價",
-            "clue": "據報導「柴油○格飆升　○○：○○同意釋出大」，補全用語。（2字）",
-            "answer_score": 86,
-            "difficulty": "easy"
-          }
-        ],
-        "aliases": [
-          "cna-cfada431d46d2b065597"
-        ],
-        "content_revision": "cna-cfada431d46d2b065597"
-      },
-      {
-        "event_id": "cna-0fe81c3d78eb4d1a783d",
-        "dedup_key": "https://www.cna.com.tw/news/aopl/202610020351.aspx",
-        "event_date": "2026-10-02",
-        "updated_at": "2026-10-02",
-        "published_at": "2026-10-02T14:35:52.000Z",
-        "title": "世衛：2023年全球平均餘命73.3歲　近COVID疫情前",
-        "summary": "世衛：2023年全球平均餘命73.3歲　近COVID疫情前",
-        "categories": [
-          "生活"
-        ],
-        "fact_status": "reported",
-        "content_type": "news",
-        "event_score": 80,
-        "anchor_event": false,
-        "sources": [
-          {
-            "source_id": "rss-037503b3d633377f532c",
-            "publisher": "中央通訊社",
-            "kind": "newswire",
-            "url": "https://www.cna.com.tw/news/aopl/202610020351.aspx",
-            "published_at": "2026-10-02",
-            "excerpt": "世衛：2023年全球平均餘命73.3歲　近COVID疫情前",
-            "section": "生活"
+            "url": "https://www.cna.com.tw/news/aloc/202610030177.aspx",
+            "published_at": "2026-10-03",
+            "excerpt": "李四川推六大客家政見　允優化師資擴大辦理義民祭",
+            "section": "台灣"
           }
         ],
         "keywords": [],
         "aliases": [
-          "cna-0fe81c3d78eb4d1a783d"
+          "cna-20cf671b43a532df274f"
         ],
-        "content_revision": "cna-0fe81c3d78eb4d1a783d"
+        "content_revision": "cna-20cf671b43a532df274f"
+      },
+      {
+        "event_id": "cna-bbc5011b4f3eda8eab8b",
+        "dedup_key": "https://www.cna.com.tw/news/aloc/202610030178.aspx",
+        "event_date": "2026-10-03",
+        "updated_at": "2026-10-03",
+        "published_at": "2026-10-03T12:17:53.000Z",
+        "title": "蘇巧慧沈伯洋三峽合體　喊雙北競合拚觀光",
+        "summary": "蘇巧慧沈伯洋三峽合體　喊雙北競合拚觀光",
+        "categories": [
+          "台灣"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-27e6f81a6a24629a5c2c",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aloc/202610030178.aspx",
+            "published_at": "2026-10-03",
+            "excerpt": "蘇巧慧沈伯洋三峽合體　喊雙北競合拚觀光",
+            "section": "台灣"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "三峽",
+            "clue": "據報導「蘇巧慧沈伯洋○峽合體　喊雙北競合拚○○」，補全地名。（2字）",
+            "answer_score": 86,
+            "difficulty": "easy"
+          },
+          {
+            "word": "觀光",
+            "clue": "據報導「喊雙北競合拚○光」，補全用語。（2字）",
+            "answer_score": 86,
+            "difficulty": "easy"
+          }
+        ],
+        "aliases": [
+          "cna-bbc5011b4f3eda8eab8b"
+        ],
+        "content_revision": "cna-bbc5011b4f3eda8eab8b"
+      },
+      {
+        "event_id": "cna-f35ddea1a7ef29c61016",
+        "dedup_key": "https://www.cna.com.tw/news/aloc/202610030183.aspx",
+        "event_date": "2026-10-03",
+        "updated_at": "2026-10-03",
+        "published_at": "2026-10-03T12:38:04.000Z",
+        "title": "北捷頭前庄站男子把玩瑞士刀　警掌握身分偵辦",
+        "summary": "北捷頭前庄站男子把玩瑞士刀　警掌握身分偵辦",
+        "categories": [
+          "台灣"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-b55db00dd8af69a33ae0",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aloc/202610030183.aspx",
+            "published_at": "2026-10-03",
+            "excerpt": "北捷頭前庄站男子把玩瑞士刀　警掌握身分偵辦",
+            "section": "台灣"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "瑞士",
+            "clue": "據報導「庄站男子把玩○士刀　警掌握身分偵辦」，補全國家或地區。（2字）",
+            "answer_score": 86,
+            "difficulty": "easy"
+          }
+        ],
+        "aliases": [
+          "cna-f35ddea1a7ef29c61016"
+        ],
+        "content_revision": "cna-f35ddea1a7ef29c61016"
       },
       {
         "event_id": "cna-9ab5677db4edd1f16351",
@@ -5674,15 +5335,15 @@
         "content_revision": "cna-a4334129418dfa8adafb"
       },
       {
-        "event_id": "cna-064034cd9896e2f6716b",
-        "dedup_key": "https://www.cna.com.tw/news/asoc/202610020321.aspx",
-        "event_date": "2026-10-02",
-        "updated_at": "2026-10-02",
-        "published_at": "2026-10-02T12:58:43.000Z",
-        "title": "新竹棒球場高檢署駁回再議　林智堅不起訴確定",
-        "summary": "新竹棒球場高檢署駁回再議　林智堅不起訴確定",
+        "event_id": "cna-227defd2d65cccef6734",
+        "dedup_key": "https://www.cna.com.tw/news/aopl/202610030168.aspx",
+        "event_date": "2026-10-03",
+        "updated_at": "2026-10-03",
+        "published_at": "2026-10-03T10:56:30.000Z",
+        "title": "俄軍空襲基輔北方大橋　烏克蘭首都交通大亂",
+        "summary": "俄軍空襲基輔北方大橋　烏克蘭首都交通大亂",
         "categories": [
-          "台灣"
+          "國際"
         ],
         "fact_status": "reported",
         "content_type": "news",
@@ -5690,44 +5351,89 @@
         "anchor_event": false,
         "sources": [
           {
-            "source_id": "rss-0d34e26ba566ddb7904a",
+            "source_id": "rss-38d6b59dfcf27ec38541",
             "publisher": "中央通訊社",
             "kind": "newswire",
-            "url": "https://www.cna.com.tw/news/asoc/202610020321.aspx",
-            "published_at": "2026-10-02",
-            "excerpt": "新竹棒球場高檢署駁回再議　林智堅不起訴確定",
-            "section": "台灣"
+            "url": "https://www.cna.com.tw/news/aopl/202610030168.aspx",
+            "published_at": "2026-10-03",
+            "excerpt": "俄軍空襲基輔北方大橋　烏克蘭首都交通大亂",
+            "section": "國際"
           }
         ],
         "keywords": [
           {
-            "word": "新竹",
-            "clue": "據報導「○竹○○場高檢署駁回再議　林智堅」，補全地名。（2字）",
+            "word": "烏克蘭",
+            "clue": "據報導「輔北方大橋　○克蘭首都○○大亂」，補全國家或地區。（3字）",
+            "answer_score": 89,
+            "difficulty": "easy"
+          },
+          {
+            "word": "交通",
+            "clue": "據報導「　○○○首都○通大亂」，補全用語。（2字）",
+            "answer_score": 86,
+            "difficulty": "easy"
+          }
+        ],
+        "aliases": [
+          "cna-227defd2d65cccef6734"
+        ],
+        "content_revision": "cna-227defd2d65cccef6734"
+      },
+      {
+        "event_id": "cna-ce8738693df994026d59",
+        "dedup_key": "https://www.cna.com.tw/news/aopl/202610030170.aspx",
+        "event_date": "2026-10-03",
+        "updated_at": "2026-10-03",
+        "published_at": "2026-10-03T11:09:35.000Z",
+        "title": "日本富山市涉人口普查灌水遭搜索　恐多領6000萬日圓交付稅",
+        "summary": "日本富山市涉人口普查灌水遭搜索　恐多領6000萬日圓交付稅",
+        "categories": [
+          "國際"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-247634f618f8798577c2",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aopl/202610030170.aspx",
+            "published_at": "2026-10-03",
+            "excerpt": "日本富山市涉人口普查灌水遭搜索　恐多領6000萬日圓交付稅",
+            "section": "國際"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "日本",
+            "clue": "據報導「○本富山市涉人口普查灌水遭搜索　」，補全國家或地區。（2字）",
             "answer_score": 86,
             "difficulty": "easy"
           },
           {
-            "word": "棒球",
-            "clue": "據報導「○○棒○場高檢署駁回再議　林智堅不起」，補全體育項目。（2字）",
+            "word": "日圓",
+            "clue": "據報導「領6000萬○圓交付稅」，補全用語。（2字）",
             "answer_score": 86,
             "difficulty": "easy"
           }
         ],
         "aliases": [
-          "cna-064034cd9896e2f6716b"
+          "cna-ce8738693df994026d59"
         ],
-        "content_revision": "cna-064034cd9896e2f6716b"
+        "content_revision": "cna-ce8738693df994026d59"
       },
       {
-        "event_id": "cna-ceada02e91dd0b297f9c",
-        "dedup_key": "https://www.cna.com.tw/news/asoc/202610020330.aspx",
-        "event_date": "2026-10-02",
-        "updated_at": "2026-10-02",
-        "published_at": "2026-10-02T13:14:02.000Z",
-        "title": "雲林議員參選人遭指涉賄遭羈押　家屬擬提抗告",
-        "summary": "雲林議員參選人遭指涉賄遭羈押　家屬擬提抗告",
+        "event_id": "cna-6f7a7cd24e08b6c41d98",
+        "dedup_key": "https://www.cna.com.tw/news/aopl/202610030173.aspx",
+        "event_date": "2026-10-03",
+        "updated_at": "2026-10-03",
+        "published_at": "2026-10-03T11:30:42.000Z",
+        "title": "傳台積電評估與Terafab合作　馬斯克證實討論中",
+        "summary": "傳台積電評估與Terafab合作　馬斯克證實討論中",
         "categories": [
-          "台灣"
+          "財經"
         ],
         "fact_status": "reported",
         "content_type": "news",
@@ -5735,38 +5441,38 @@
         "anchor_event": false,
         "sources": [
           {
-            "source_id": "rss-308002e537acc9e2e738",
+            "source_id": "rss-c46b75e471c9a002c14e",
             "publisher": "中央通訊社",
             "kind": "newswire",
-            "url": "https://www.cna.com.tw/news/asoc/202610020330.aspx",
-            "published_at": "2026-10-02",
-            "excerpt": "雲林議員參選人遭指涉賄遭羈押　家屬擬提抗告",
-            "section": "台灣"
+            "url": "https://www.cna.com.tw/news/aopl/202610030173.aspx",
+            "published_at": "2026-10-03",
+            "excerpt": "傳台積電評估與Terafab合作　馬斯克證實討論中",
+            "section": "財經"
           }
         ],
         "keywords": [
           {
-            "word": "雲林",
-            "clue": "據報導「雲○議員參選人遭指涉賄遭羈押　家」，補全地名。（2字）",
-            "answer_score": 86,
+            "word": "台積電",
+            "clue": "據報導「傳台○電評估與Terafab合作　馬」，補全企業。（3字）",
+            "answer_score": 89,
             "difficulty": "easy"
           }
         ],
         "aliases": [
-          "cna-ceada02e91dd0b297f9c"
+          "cna-6f7a7cd24e08b6c41d98"
         ],
-        "content_revision": "cna-ceada02e91dd0b297f9c"
+        "content_revision": "cna-6f7a7cd24e08b6c41d98"
       },
       {
-        "event_id": "cna-bbad0f09e6c87f221abf",
-        "dedup_key": "https://www.cna.com.tw/news/asoc/202610020331.aspx",
-        "event_date": "2026-10-02",
-        "updated_at": "2026-10-02",
-        "published_at": "2026-10-02T13:16:04.000Z",
-        "title": "北市信義區民宅火警撲滅　無人受傷起火原因待查",
-        "summary": "北市信義區民宅火警撲滅　無人受傷起火原因待查",
+        "event_id": "cna-9249a91e82c216aac5a2",
+        "dedup_key": "https://www.cna.com.tw/news/aopl/202610030175.aspx",
+        "event_date": "2026-10-03",
+        "updated_at": "2026-10-03",
+        "published_at": "2026-10-03T11:55:46.000Z",
+        "title": "西班牙北部酒吧坍塌11人受傷送醫　警方展開調查",
+        "summary": "西班牙北部酒吧坍塌11人受傷送醫　警方展開調查",
         "categories": [
-          "台灣"
+          "國際"
         ],
         "fact_status": "reported",
         "content_type": "news",
@@ -5774,59 +5480,272 @@
         "anchor_event": false,
         "sources": [
           {
-            "source_id": "rss-17aefad4811d28ea7f21",
+            "source_id": "rss-59af3f85aa48ee61cfe9",
             "publisher": "中央通訊社",
             "kind": "newswire",
-            "url": "https://www.cna.com.tw/news/asoc/202610020331.aspx",
-            "published_at": "2026-10-02",
-            "excerpt": "北市信義區民宅火警撲滅　無人受傷起火原因待查",
-            "section": "台灣"
+            "url": "https://www.cna.com.tw/news/aopl/202610030175.aspx",
+            "published_at": "2026-10-03",
+            "excerpt": "西班牙北部酒吧坍塌11人受傷送醫　警方展開調查",
+            "section": "國際"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "西班牙",
+            "clue": "據報導「○班牙北部酒吧坍塌11人受傷送醫　」，補全國家或地區。（3字）",
+            "answer_score": 89,
+            "difficulty": "easy"
+          }
+        ],
+        "aliases": [
+          "cna-9249a91e82c216aac5a2"
+        ],
+        "content_revision": "cna-9249a91e82c216aac5a2"
+      },
+      {
+        "event_id": "cna-cf5d38cf84dddeb497ac",
+        "dedup_key": "https://www.cna.com.tw/news/aopl/202610030180.aspx",
+        "event_date": "2026-10-03",
+        "updated_at": "2026-10-03",
+        "published_at": "2026-10-03T12:28:57.000Z",
+        "title": "埃及生育率4年降18%  專家：生活成本上升改變家庭選擇",
+        "summary": "埃及生育率4年降18%  專家：生活成本上升改變家庭選擇",
+        "categories": [
+          "國際"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-51f13b49d21cc9c745c1",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aopl/202610030180.aspx",
+            "published_at": "2026-10-03",
+            "excerpt": "埃及生育率4年降18%  專家：生活成本上升改變家庭選擇",
+            "section": "國際"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "埃及",
+            "clue": "據報導「○及生育率4年降18%  專家：」，補全國家或地區。（2字）",
+            "answer_score": 86,
+            "difficulty": "easy"
+          }
+        ],
+        "aliases": [
+          "cna-cf5d38cf84dddeb497ac"
+        ],
+        "content_revision": "cna-cf5d38cf84dddeb497ac"
+      },
+      {
+        "event_id": "cna-b379b50c0a319c3c86f2",
+        "dedup_key": "https://www.cna.com.tw/news/aopl/202610030182.aspx",
+        "event_date": "2026-10-03",
+        "updated_at": "2026-10-03",
+        "published_at": "2026-10-03T12:38:02.000Z",
+        "title": "颱風彩雲恐接近小笠原群島　日本氣象廳示警有大浪",
+        "summary": "颱風彩雲恐接近小笠原群島　日本氣象廳示警有大浪",
+        "categories": [
+          "國際"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-cf9ed0f54c34f0a9a12b",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aopl/202610030182.aspx",
+            "published_at": "2026-10-03",
+            "excerpt": "颱風彩雲恐接近小笠原群島　日本氣象廳示警有大浪",
+            "section": "國際"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "日本",
+            "clue": "據報導「小笠原群島　○本○○廳示警有大浪」，補全國家或地區。（2字）",
+            "answer_score": 86,
+            "difficulty": "easy"
+          },
+          {
+            "word": "颱風",
+            "clue": "據報導「○風彩雲恐接近小笠原群島　○○氣」，補全用語。（2字）",
+            "answer_score": 86,
+            "difficulty": "easy"
+          },
+          {
+            "word": "氣象",
+            "clue": "據報導「原群島　○○○象廳示警有大浪」，補全用語。（2字）",
+            "answer_score": 86,
+            "difficulty": "easy"
+          }
+        ],
+        "aliases": [
+          "cna-b379b50c0a319c3c86f2"
+        ],
+        "content_revision": "cna-b379b50c0a319c3c86f2"
+      },
+      {
+        "event_id": "cna-b381a33e819050d14c11",
+        "dedup_key": "https://www.cna.com.tw/news/aopl/202610030187.aspx",
+        "event_date": "2026-10-03",
+        "updated_at": "2026-10-03",
+        "published_at": "2026-10-03T12:50:12.000Z",
+        "title": "北韓宣布試射中程飛彈　宣稱導入AI技術無法規避攻擊",
+        "summary": "北韓宣布試射中程飛彈　宣稱導入AI技術無法規避攻擊",
+        "categories": [
+          "國際"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-9ccd644f692f0c004a82",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aopl/202610030187.aspx",
+            "published_at": "2026-10-03",
+            "excerpt": "北韓宣布試射中程飛彈　宣稱導入AI技術無法規避攻擊",
+            "section": "國際"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "北韓",
+            "clue": "據報導「北○宣布試射中程飛彈　宣稱導入A」，補全國家或地區。（2字）",
+            "answer_score": 86,
+            "difficulty": "easy"
+          }
+        ],
+        "aliases": [
+          "cna-b381a33e819050d14c11"
+        ],
+        "content_revision": "cna-b381a33e819050d14c11"
+      },
+      {
+        "event_id": "cna-12171928ba8b468b6139",
+        "dedup_key": "https://www.cna.com.tw/news/aopl/202610030194.aspx",
+        "event_date": "2026-10-03",
+        "updated_at": "2026-10-03",
+        "published_at": "2026-10-03T13:30:28.000Z",
+        "title": "越南第3季經濟成長飆9.95%　4年最快增速",
+        "summary": "越南第3季經濟成長飆9.95%　4年最快增速",
+        "categories": [
+          "財經"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-bd93d318d3ad3cd0fb58",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aopl/202610030194.aspx",
+            "published_at": "2026-10-03",
+            "excerpt": "越南第3季經濟成長飆9.95%　4年最快增速",
+            "section": "財經"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "越南",
+            "clue": "據報導「○南第3季○○成長飆9.95%　」，補全國家或地區。（2字）",
+            "answer_score": 86,
+            "difficulty": "easy"
+          },
+          {
+            "word": "經濟",
+            "clue": "據報導「○○第3季○濟成長飆9.95%　4年最快增」，補全用語。（2字）",
+            "answer_score": 86,
+            "difficulty": "easy"
+          }
+        ],
+        "aliases": [
+          "cna-12171928ba8b468b6139"
+        ],
+        "content_revision": "cna-12171928ba8b468b6139"
+      },
+      {
+        "event_id": "cna-63cc52ba8421b63b6ca2",
+        "dedup_key": "https://www.cna.com.tw/news/aopl/202610030197.aspx",
+        "event_date": "2026-10-03",
+        "updated_at": "2026-10-03",
+        "published_at": "2026-10-03T13:48:36.000Z",
+        "title": "俄羅斯揚言對基輔發動新一輪攻勢　促外國人撤離",
+        "summary": "俄羅斯揚言對基輔發動新一輪攻勢　促外國人撤離",
+        "categories": [
+          "國際"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-74575f0d04a4a0f313ff",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aopl/202610030197.aspx",
+            "published_at": "2026-10-03",
+            "excerpt": "俄羅斯揚言對基輔發動新一輪攻勢　促外國人撤離",
+            "section": "國際"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "俄羅斯",
+            "clue": "據報導「○羅斯揚言對基輔發動新一輪攻勢　促」，補全國家或地區。（3字）",
+            "answer_score": 89,
+            "difficulty": "easy"
+          }
+        ],
+        "aliases": [
+          "cna-63cc52ba8421b63b6ca2"
+        ],
+        "content_revision": "cna-63cc52ba8421b63b6ca2"
+      },
+      {
+        "event_id": "cna-7b0e7f5c6706735086c4",
+        "dedup_key": "https://www.cna.com.tw/news/aopl/202610030203.aspx",
+        "event_date": "2026-10-03",
+        "updated_at": "2026-10-03",
+        "published_at": "2026-10-03T14:39:50.000Z",
+        "title": "奈及利亞中部發生重大車禍　造成20人喪命",
+        "summary": "奈及利亞中部發生重大車禍　造成20人喪命",
+        "categories": [
+          "國際"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-40e40b0154c1738efb85",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aopl/202610030203.aspx",
+            "published_at": "2026-10-03",
+            "excerpt": "奈及利亞中部發生重大車禍　造成20人喪命",
+            "section": "國際"
           }
         ],
         "keywords": [],
         "aliases": [
-          "cna-bbad0f09e6c87f221abf"
+          "cna-7b0e7f5c6706735086c4"
         ],
-        "content_revision": "cna-bbad0f09e6c87f221abf"
-      },
-      {
-        "event_id": "cna-772706fad3f89ce6e899",
-        "dedup_key": "https://www.cna.com.tw/news/asoc/202610020349.aspx",
-        "event_date": "2026-10-02",
-        "updated_at": "2026-10-02",
-        "published_at": "2026-10-02T14:20:47.000Z",
-        "title": "北市富邦人壽喋血案　犯嫌遭聲押禁見",
-        "summary": "北市富邦人壽喋血案　犯嫌遭聲押禁見",
-        "categories": [
-          "台灣"
-        ],
-        "fact_status": "reported",
-        "content_type": "news",
-        "event_score": 80,
-        "anchor_event": false,
-        "sources": [
-          {
-            "source_id": "rss-048d5f163f674bfb2c84",
-            "publisher": "中央通訊社",
-            "kind": "newswire",
-            "url": "https://www.cna.com.tw/news/asoc/202610020349.aspx",
-            "published_at": "2026-10-02",
-            "excerpt": "北市富邦人壽喋血案　犯嫌遭聲押禁見",
-            "section": "台灣"
-          }
-        ],
-        "keywords": [
-          {
-            "word": "富邦",
-            "clue": "據報導「北市○邦人壽喋血案　犯嫌遭聲押禁見」，補全企業。（2字）",
-            "answer_score": 86,
-            "difficulty": "easy"
-          }
-        ],
-        "aliases": [
-          "cna-772706fad3f89ce6e899"
-        ],
-        "content_revision": "cna-772706fad3f89ce6e899"
+        "content_revision": "cna-7b0e7f5c6706735086c4"
       },
       {
         "event_id": "cna-bc9e556bed790b7dbe5a",
@@ -6208,15 +6127,15 @@
         "content_revision": "cna-108235959b13dc77dd72"
       },
       {
-        "event_id": "cna-cc286859d610611c92ca",
-        "dedup_key": "https://www.cna.com.tw/news/aspt/202610020318.aspx",
-        "event_date": "2026-10-02",
-        "updated_at": "2026-10-02",
-        "published_at": "2026-10-02T12:53:37.000Z",
-        "title": "名古屋亞運台灣隊賽程最終日　網球女雙金包銀、高爾夫爭金",
-        "summary": "名古屋亞運台灣隊賽程最終日　網球女雙金包銀、高爾夫爭金",
+        "event_id": "cna-4ad6c97f8aec634d93fe",
+        "dedup_key": "https://www.cna.com.tw/news/asoc/202610030184.aspx",
+        "event_date": "2026-10-03",
+        "updated_at": "2026-10-03",
+        "published_at": "2026-10-03T12:39:06.000Z",
+        "title": "新北瑞芳6警餐聚涉違紀　分局長記過建請調非主管職",
+        "summary": "新北瑞芳6警餐聚涉違紀　分局長記過建請調非主管職",
         "categories": [
-          "體育"
+          "台灣"
         ],
         "fact_status": "reported",
         "content_type": "news",
@@ -6224,212 +6143,71 @@
         "anchor_event": false,
         "sources": [
           {
-            "source_id": "rss-b62bdcce50e4f4e8a5f5",
+            "source_id": "rss-ddbba88ed045f6ec6e52",
             "publisher": "中央通訊社",
             "kind": "newswire",
-            "url": "https://www.cna.com.tw/news/aspt/202610020318.aspx",
-            "published_at": "2026-10-02",
-            "excerpt": "名古屋亞運台灣隊賽程最終日　網球女雙金包銀、高爾夫爭金",
-            "section": "體育"
-          }
-        ],
-        "keywords": [
-          {
-            "word": "網球",
-            "clue": "據報導「賽程最終日　網○女雙金包銀、○○○爭金」，補全體育項目。（2字）",
-            "answer_score": 86,
-            "difficulty": "easy"
-          },
-          {
-            "word": "高爾夫",
-            "clue": "據報導「女雙金包銀、○爾夫爭金」，補全體育項目。（3字）",
-            "answer_score": 89,
-            "difficulty": "easy"
-          },
-          {
-            "word": "亞運",
-            "clue": "據報導「名古屋亞○○○○賽程最終日　○○女雙金」，補全體育項目。（2字）",
-            "answer_score": 86,
-            "difficulty": "easy"
-          },
-          {
-            "word": "台灣隊",
-            "clue": "據報導「名古屋○○○灣隊賽程最終日　○○女雙金包銀、」，補全體育項目。（3字）",
-            "answer_score": 89,
-            "difficulty": "easy"
-          }
-        ],
-        "aliases": [
-          "cna-cc286859d610611c92ca"
-        ],
-        "content_revision": "cna-cc286859d610611c92ca"
-      },
-      {
-        "event_id": "cna-8d070c424c70b47d328f",
-        "dedup_key": "https://www.cna.com.tw/news/aspt/202610020319.aspx",
-        "event_date": "2026-10-02",
-        "updated_at": "2026-10-02",
-        "published_at": "2026-10-02T12:54:39.000Z",
-        "title": "F1熱潮席捲馬來西亞　為賽車迷帶來難忘體驗",
-        "summary": "F1熱潮席捲馬來西亞　為賽車迷帶來難忘體驗",
-        "categories": [
-          "體育"
-        ],
-        "fact_status": "reported",
-        "content_type": "news",
-        "event_score": 80,
-        "anchor_event": false,
-        "sources": [
-          {
-            "source_id": "rss-80282fbfe4bf3477e79b",
-            "publisher": "中央通訊社",
-            "kind": "newswire",
-            "url": "https://www.cna.com.tw/news/aspt/202610020319.aspx",
-            "published_at": "2026-10-02",
-            "excerpt": "F1熱潮席捲馬來西亞　為賽車迷帶來難忘體驗",
-            "section": "體育"
-          }
-        ],
-        "keywords": [
-          {
-            "word": "馬來西亞",
-            "clue": "據報導「F1熱潮席捲○來西亞　為賽車迷帶來難忘體驗」，補全國家或地區。（4字）",
-            "answer_score": 92,
-            "difficulty": "easy"
-          }
-        ],
-        "aliases": [
-          "cna-8d070c424c70b47d328f"
-        ],
-        "content_revision": "cna-8d070c424c70b47d328f"
-      },
-      {
-        "event_id": "cna-bcee158e04df6945d2fa",
-        "dedup_key": "https://www.cna.com.tw/news/aspt/202610020320.aspx",
-        "event_date": "2026-10-02",
-        "updated_at": "2026-10-02",
-        "published_at": "2026-10-02T12:58:41.000Z",
-        "title": "亞運跆拳道洪俊義離金牌僅差3秒　有遺憾但已盡力",
-        "summary": "亞運跆拳道洪俊義離金牌僅差3秒　有遺憾但已盡力",
-        "categories": [
-          "體育"
-        ],
-        "fact_status": "reported",
-        "content_type": "news",
-        "event_score": 80,
-        "anchor_event": false,
-        "sources": [
-          {
-            "source_id": "rss-557fadb3008309f3ace0",
-            "publisher": "中央通訊社",
-            "kind": "newswire",
-            "url": "https://www.cna.com.tw/news/aspt/202610020320.aspx",
-            "published_at": "2026-10-02",
-            "excerpt": "亞運跆拳道洪俊義離金牌僅差3秒　有遺憾但已盡力",
-            "section": "體育"
-          }
-        ],
-        "keywords": [
-          {
-            "word": "跆拳道",
-            "clue": "據報導「○○○拳道洪俊義離金牌僅差3秒　有遺憾」，補全體育項目。（3字）",
-            "answer_score": 89,
-            "difficulty": "easy"
-          },
-          {
-            "word": "亞運",
-            "clue": "據報導「亞○○○○洪俊義離金牌僅差3秒　」，補全體育項目。（2字）",
-            "answer_score": 86,
-            "difficulty": "easy"
-          }
-        ],
-        "aliases": [
-          "cna-bcee158e04df6945d2fa"
-        ],
-        "content_revision": "cna-bcee158e04df6945d2fa"
-      },
-      {
-        "event_id": "cna-aa8f6bd9f71bfa91aa1e",
-        "dedup_key": "https://www.cna.com.tw/news/aspt/202610020334.aspx",
-        "event_date": "2026-10-02",
-        "updated_at": "2026-10-02",
-        "published_at": "2026-10-02T13:25:11.000Z",
-        "title": "亞運拳擊林郁婷摘金　跆拳道洪俊義奪銀寫男子隊史紀錄",
-        "summary": "亞運拳擊林郁婷摘金　跆拳道洪俊義奪銀寫男子隊史紀錄",
-        "categories": [
-          "體育"
-        ],
-        "fact_status": "reported",
-        "content_type": "news",
-        "event_score": 80,
-        "anchor_event": false,
-        "sources": [
-          {
-            "source_id": "rss-9dfb9d4e1d8d5b9cc7c2",
-            "publisher": "中央通訊社",
-            "kind": "newswire",
-            "url": "https://www.cna.com.tw/news/aspt/202610020334.aspx",
-            "published_at": "2026-10-02",
-            "excerpt": "亞運拳擊林郁婷摘金　跆拳道洪俊義奪銀寫男子隊史紀錄",
-            "section": "體育"
-          }
-        ],
-        "keywords": [
-          {
-            "word": "跆拳道",
-            "clue": "據報導「○○○摘金　○拳道洪俊義奪銀寫男子隊史紀錄」，補全體育項目。（3字）",
-            "answer_score": 89,
-            "difficulty": "easy"
-          },
-          {
-            "word": "亞運",
-            "clue": "據報導「亞○拳擊○○○摘金　○○○洪俊義」，補全體育項目。（2字）",
-            "answer_score": 86,
-            "difficulty": "easy"
-          },
-          {
-            "word": "林郁婷",
-            "clue": "據報導「○○拳擊○郁婷摘金　○○○洪俊義奪銀寫男子」，補全體育項目。（3字）",
-            "answer_score": 89,
-            "difficulty": "easy"
-          }
-        ],
-        "aliases": [
-          "cna-aa8f6bd9f71bfa91aa1e"
-        ],
-        "content_revision": "cna-aa8f6bd9f71bfa91aa1e"
-      },
-      {
-        "event_id": "cna-99b5b6d04f1a02952e6c",
-        "dedup_key": "https://www.cna.com.tw/news/aspt/202610020348.aspx",
-        "event_date": "2026-10-02",
-        "updated_at": "2026-10-02",
-        "published_at": "2026-10-02T14:17:45.000Z",
-        "title": "雄鷹擊退桃猿　幫兄弟點亮下半季封王魔術數字M2",
-        "summary": "雄鷹擊退桃猿　幫兄弟點亮下半季封王魔術數字M2",
-        "categories": [
-          "體育"
-        ],
-        "fact_status": "reported",
-        "content_type": "news",
-        "event_score": 80,
-        "anchor_event": false,
-        "sources": [
-          {
-            "source_id": "rss-8edbb4124ff8a7da41d8",
-            "publisher": "中央通訊社",
-            "kind": "newswire",
-            "url": "https://www.cna.com.tw/news/aspt/202610020348.aspx",
-            "published_at": "2026-10-02",
-            "excerpt": "雄鷹擊退桃猿　幫兄弟點亮下半季封王魔術數字M2",
-            "section": "體育"
+            "url": "https://www.cna.com.tw/news/asoc/202610030184.aspx",
+            "published_at": "2026-10-03",
+            "excerpt": "新北瑞芳6警餐聚涉違紀　分局長記過建請調非主管職",
+            "section": "台灣"
           }
         ],
         "keywords": [],
         "aliases": [
-          "cna-99b5b6d04f1a02952e6c"
+          "cna-4ad6c97f8aec634d93fe"
         ],
-        "content_revision": "cna-99b5b6d04f1a02952e6c"
+        "content_revision": "cna-4ad6c97f8aec634d93fe"
+      },
+      {
+        "event_id": "cna-1e8dcb0110467fa8eb82",
+        "dedup_key": "https://www.cna.com.tw/news/asoc/202610030205.aspx",
+        "event_date": "2026-10-03",
+        "updated_at": "2026-10-03",
+        "published_at": "2026-10-03T15:40:57.000Z",
+        "title": "台中男子毒駕撞天橋波及3名大學生　檢方聲請羈押",
+        "summary": "台中男子毒駕撞天橋波及3名大學生　檢方聲請羈押",
+        "categories": [
+          "台灣"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-09dedcbc4acfc582f3c2",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/asoc/202610030205.aspx",
+            "published_at": "2026-10-03",
+            "excerpt": "台中男子毒駕撞天橋波及3名大學生　檢方聲請羈押",
+            "section": "台灣"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "台中",
+            "clue": "據報導「○中男子毒駕撞天橋波及3名○○生」，補全地名。（2字）",
+            "answer_score": 86,
+            "difficulty": "easy"
+          },
+          {
+            "word": "大學",
+            "clue": "據報導「天橋波及3名○○○　檢方聲請羈押」，補全用語。（2字）",
+            "answer_score": 86,
+            "difficulty": "easy"
+          },
+          {
+            "word": "學生",
+            "clue": "據報導「橋波及3名○○生　檢方聲請羈押」，補全用語。（2字）",
+            "answer_score": 86,
+            "difficulty": "easy"
+          }
+        ],
+        "aliases": [
+          "cna-1e8dcb0110467fa8eb82"
+        ],
+        "content_revision": "cna-1e8dcb0110467fa8eb82"
       },
       {
         "event_id": "cna-aacf7816da067b71ba94",
@@ -7238,9 +7016,690 @@
           "cna-19b18990ecd8c2da0120"
         ],
         "content_revision": "cna-19b18990ecd8c2da0120"
+      },
+      {
+        "event_id": "cna-b4b1f063550484926a96",
+        "dedup_key": "https://www.cna.com.tw/news/aspt/202610030181.aspx",
+        "event_date": "2026-10-03",
+        "updated_at": "2026-10-03",
+        "published_at": "2026-10-03T12:32:59.000Z",
+        "title": "桃猿單局攻6分翻轉戰局　保續拚季後賽門票機會",
+        "summary": "桃猿單局攻6分翻轉戰局　保續拚季後賽門票機會",
+        "categories": [
+          "體育"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-c461627cb7acf624e1da",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aspt/202610030181.aspx",
+            "published_at": "2026-10-03",
+            "excerpt": "桃猿單局攻6分翻轉戰局　保續拚季後賽門票機會",
+            "section": "體育"
+          }
+        ],
+        "keywords": [],
+        "aliases": [
+          "cna-b4b1f063550484926a96"
+        ],
+        "content_revision": "cna-b4b1f063550484926a96"
+      },
+      {
+        "event_id": "cna-6b340a59f966ad7844df",
+        "dedup_key": "https://www.cna.com.tw/news/aspt/202610030189.aspx",
+        "event_date": "2026-10-03",
+        "updated_at": "2026-10-03",
+        "published_at": "2026-10-03T12:59:17.000Z",
+        "title": "兄弟擊敗悍將魔術數字M1　黃色彩帶轉運洲際再拚封王",
+        "summary": "兄弟擊敗悍將魔術數字M1　黃色彩帶轉運洲際再拚封王",
+        "categories": [
+          "體育"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-f267427976608e38b125",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aspt/202610030189.aspx",
+            "published_at": "2026-10-03",
+            "excerpt": "兄弟擊敗悍將魔術數字M1　黃色彩帶轉運洲際再拚封王",
+            "section": "體育"
+          }
+        ],
+        "keywords": [],
+        "aliases": [
+          "cna-6b340a59f966ad7844df"
+        ],
+        "content_revision": "cna-6b340a59f966ad7844df"
+      },
+      {
+        "event_id": "cna-73eb30c5eb70670512f0",
+        "dedup_key": "https://www.cna.com.tw/news/aspt/202610030190.aspx",
+        "event_date": "2026-10-03",
+        "updated_at": "2026-10-03",
+        "published_at": "2026-10-03T13:06:19.000Z",
+        "title": "獅擊敗龍近期4連勝　王鏡銘睽違8年再奪救援成功",
+        "summary": "獅擊敗龍近期4連勝　王鏡銘睽違8年再奪救援成功",
+        "categories": [
+          "體育"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-5fb30c16ae144221d5e2",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aspt/202610030190.aspx",
+            "published_at": "2026-10-03",
+            "excerpt": "獅擊敗龍近期4連勝　王鏡銘睽違8年再奪救援成功",
+            "section": "體育"
+          }
+        ],
+        "keywords": [],
+        "aliases": [
+          "cna-73eb30c5eb70670512f0"
+        ],
+        "content_revision": "cna-73eb30c5eb70670512f0"
+      },
+      {
+        "event_id": "cna-c0be13f93cab13b7c4a3",
+        "dedup_key": "https://www.cna.com.tw/news/aspt/202610030192.aspx",
+        "event_date": "2026-10-03",
+        "updated_at": "2026-10-03",
+        "published_at": "2026-10-03T13:13:23.000Z",
+        "title": "亞運網球女雙台灣金包銀　曾雅妮領軍高球女團奪銅",
+        "summary": "亞運網球女雙台灣金包銀　曾雅妮領軍高球女團奪銅",
+        "categories": [
+          "體育"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-0bd3ede4efd2e935513d",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aspt/202610030192.aspx",
+            "published_at": "2026-10-03",
+            "excerpt": "亞運網球女雙台灣金包銀　曾雅妮領軍高球女團奪銅",
+            "section": "體育"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "台灣",
+            "clue": "據報導「○○○○女雙○灣金包銀　曾雅妮領軍高球女團奪」，補全國家或地區。（2字）",
+            "answer_score": 86,
+            "difficulty": "easy"
+          },
+          {
+            "word": "網球",
+            "clue": "據報導「○○網○女雙○○金包銀　曾雅妮領軍高」，補全體育項目。（2字）",
+            "answer_score": 86,
+            "difficulty": "easy"
+          },
+          {
+            "word": "亞運",
+            "clue": "據報導「亞○○○女雙○○金包銀　曾雅妮領」，補全體育項目。（2字）",
+            "answer_score": 86,
+            "difficulty": "easy"
+          }
+        ],
+        "aliases": [
+          "cna-c0be13f93cab13b7c4a3"
+        ],
+        "content_revision": "cna-c0be13f93cab13b7c4a3"
+      },
+      {
+        "event_id": "cna-23d53c825c182ec1f9c9",
+        "dedup_key": "https://www.cna.com.tw/news/aspt/202610030196.aspx",
+        "event_date": "2026-10-03",
+        "updated_at": "2026-10-03",
+        "published_at": "2026-10-03T13:42:34.000Z",
+        "title": "亞運歸隊手感燙　黃韋盛未見彩帶才知戰線延長",
+        "summary": "亞運歸隊手感燙　黃韋盛未見彩帶才知戰線延長",
+        "categories": [
+          "體育"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-adb14448807d4f7e1a20",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aspt/202610030196.aspx",
+            "published_at": "2026-10-03",
+            "excerpt": "亞運歸隊手感燙　黃韋盛未見彩帶才知戰線延長",
+            "section": "體育"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "亞運",
+            "clue": "據報導「亞○歸隊手感燙　黃韋盛未見彩帶才」，補全體育項目。（2字）",
+            "answer_score": 86,
+            "difficulty": "easy"
+          }
+        ],
+        "aliases": [
+          "cna-23d53c825c182ec1f9c9"
+        ],
+        "content_revision": "cna-23d53c825c182ec1f9c9"
       }
     ],
     "candidates": [
+      {
+        "word": "台中",
+        "clue": "據報導「○中男子毒駕撞天橋波及3名○○生」，補全地名。（2字）",
+        "answer_score": 86,
+        "difficulty": "easy",
+        "id": "cna-1e8dcb0110467fa8eb82::台中",
+        "event_id": "cna-1e8dcb0110467fa8eb82",
+        "event_revision": "cna-1e8dcb0110467fa8eb82",
+        "source_support": [
+          {
+            "source_id": "rss-09dedcbc4acfc582f3c2",
+            "evidence": "台中男子毒駕撞天橋波及3名大學生　檢方聲請羈押"
+          }
+        ]
+      },
+      {
+        "word": "大學",
+        "clue": "據報導「天橋波及3名○○○　檢方聲請羈押」，補全用語。（2字）",
+        "answer_score": 86,
+        "difficulty": "easy",
+        "id": "cna-1e8dcb0110467fa8eb82::大學",
+        "event_id": "cna-1e8dcb0110467fa8eb82",
+        "event_revision": "cna-1e8dcb0110467fa8eb82",
+        "source_support": [
+          {
+            "source_id": "rss-09dedcbc4acfc582f3c2",
+            "evidence": "台中男子毒駕撞天橋波及3名大學生　檢方聲請羈押"
+          }
+        ]
+      },
+      {
+        "word": "學生",
+        "clue": "據報導「橋波及3名○○生　檢方聲請羈押」，補全用語。（2字）",
+        "answer_score": 86,
+        "difficulty": "easy",
+        "id": "cna-1e8dcb0110467fa8eb82::學生",
+        "event_id": "cna-1e8dcb0110467fa8eb82",
+        "event_revision": "cna-1e8dcb0110467fa8eb82",
+        "source_support": [
+          {
+            "source_id": "rss-09dedcbc4acfc582f3c2",
+            "evidence": "台中男子毒駕撞天橋波及3名大學生　檢方聲請羈押"
+          }
+        ]
+      },
+      {
+        "word": "宜蘭",
+        "clue": "據報導「○蘭山區○○特報　○○、○○及桃」，補全地名。（2字）",
+        "answer_score": 86,
+        "difficulty": "easy",
+        "id": "cna-be682c06dfda1d18c7e3::宜蘭",
+        "event_id": "cna-be682c06dfda1d18c7e3",
+        "event_revision": "cna-be682c06dfda1d18c7e3",
+        "source_support": [
+          {
+            "source_id": "rss-b0d4202c3fb01c4698c2",
+            "evidence": "宜蘭山區豪雨特報　花蓮、新北及桃園山區防大雨"
+          }
+        ]
+      },
+      {
+        "word": "桃園",
+        "clue": "據報導「○○、○○及○園山區防大雨」，補全地名。（2字）",
+        "answer_score": 86,
+        "difficulty": "easy",
+        "id": "cna-be682c06dfda1d18c7e3::桃園",
+        "event_id": "cna-be682c06dfda1d18c7e3",
+        "event_revision": "cna-be682c06dfda1d18c7e3",
+        "source_support": [
+          {
+            "source_id": "rss-b0d4202c3fb01c4698c2",
+            "evidence": "宜蘭山區豪雨特報　花蓮、新北及桃園山區防大雨"
+          }
+        ]
+      },
+      {
+        "word": "花蓮",
+        "clue": "據報導「區○○特報　○蓮、○○及○○山區防大雨」，補全地名。（2字）",
+        "answer_score": 86,
+        "difficulty": "easy",
+        "id": "cna-be682c06dfda1d18c7e3::花蓮",
+        "event_id": "cna-be682c06dfda1d18c7e3",
+        "event_revision": "cna-be682c06dfda1d18c7e3",
+        "source_support": [
+          {
+            "source_id": "rss-b0d4202c3fb01c4698c2",
+            "evidence": "宜蘭山區豪雨特報　花蓮、新北及桃園山區防大雨"
+          }
+        ]
+      },
+      {
+        "word": "豪雨",
+        "clue": "據報導「○○山區○雨特報　○○、○○及○○山區防」，補全用語。（2字）",
+        "answer_score": 86,
+        "difficulty": "easy",
+        "id": "cna-be682c06dfda1d18c7e3::豪雨",
+        "event_id": "cna-be682c06dfda1d18c7e3",
+        "event_revision": "cna-be682c06dfda1d18c7e3",
+        "source_support": [
+          {
+            "source_id": "rss-b0d4202c3fb01c4698c2",
+            "evidence": "宜蘭山區豪雨特報　花蓮、新北及桃園山區防大雨"
+          }
+        ]
+      },
+      {
+        "word": "柯文哲",
+        "clue": "據報導「○文哲○○輔選　喊○○○不能永遠只」，補全人物。（3字）",
+        "answer_score": 89,
+        "difficulty": "easy",
+        "id": "cna-0a92c9642c2475912dbb::柯文哲",
+        "event_id": "cna-0a92c9642c2475912dbb",
+        "event_revision": "cna-0a92c9642c2475912dbb",
+        "source_support": [
+          {
+            "source_id": "rss-197946679b4e7fb83e75",
+            "evidence": "柯文哲屏東輔選　喊民眾黨不能永遠只是網路政黨"
+          }
+        ]
+      },
+      {
+        "word": "民眾黨",
+        "clue": "據報導「○○輔選　喊○眾黨不能永遠只是網路政黨」，補全機關或組織。（3字）",
+        "answer_score": 89,
+        "difficulty": "easy",
+        "id": "cna-0a92c9642c2475912dbb::民眾黨",
+        "event_id": "cna-0a92c9642c2475912dbb",
+        "event_revision": "cna-0a92c9642c2475912dbb",
+        "source_support": [
+          {
+            "source_id": "rss-197946679b4e7fb83e75",
+            "evidence": "柯文哲屏東輔選　喊民眾黨不能永遠只是網路政黨"
+          }
+        ]
+      },
+      {
+        "word": "屏東",
+        "clue": "據報導「○○○屏○輔選　喊○○○不能永遠只是網」，補全地名。（2字）",
+        "answer_score": 86,
+        "difficulty": "easy",
+        "id": "cna-0a92c9642c2475912dbb::屏東",
+        "event_id": "cna-0a92c9642c2475912dbb",
+        "event_revision": "cna-0a92c9642c2475912dbb",
+        "source_support": [
+          {
+            "source_id": "rss-197946679b4e7fb83e75",
+            "evidence": "柯文哲屏東輔選　喊民眾黨不能永遠只是網路政黨"
+          }
+        ]
+      },
+      {
+        "word": "台灣",
+        "clue": "據報導「盼讓世界看到○灣價值」，補全國家或地區。（2字）",
+        "answer_score": 86,
+        "difficulty": "easy",
+        "id": "cna-1e6fdbc498456816f6bc::台灣",
+        "event_id": "cna-1e6fdbc498456816f6bc",
+        "event_revision": "cna-1e6fdbc498456816f6bc",
+        "source_support": [
+          {
+            "source_id": "rss-c8a5b9b035095371cf36",
+            "evidence": "大馬台商歡慶115年雙十國慶　盼讓世界看到台灣價值"
+          }
+        ]
+      },
+      {
+        "word": "國慶",
+        "clue": "據報導「115年雙十○慶　盼讓世界看到○○價值」，補全用語。（2字）",
+        "answer_score": 86,
+        "difficulty": "easy",
+        "id": "cna-1e6fdbc498456816f6bc::國慶",
+        "event_id": "cna-1e6fdbc498456816f6bc",
+        "event_revision": "cna-1e6fdbc498456816f6bc",
+        "source_support": [
+          {
+            "source_id": "rss-c8a5b9b035095371cf36",
+            "evidence": "大馬台商歡慶115年雙十國慶　盼讓世界看到台灣價值"
+          }
+        ]
+      },
+      {
+        "word": "俄羅斯",
+        "clue": "據報導「○羅斯揚言對基輔發動新一輪攻勢　促」，補全國家或地區。（3字）",
+        "answer_score": 89,
+        "difficulty": "easy",
+        "id": "cna-63cc52ba8421b63b6ca2::俄羅斯",
+        "event_id": "cna-63cc52ba8421b63b6ca2",
+        "event_revision": "cna-63cc52ba8421b63b6ca2",
+        "source_support": [
+          {
+            "source_id": "rss-74575f0d04a4a0f313ff",
+            "evidence": "俄羅斯揚言對基輔發動新一輪攻勢　促外國人撤離"
+          }
+        ]
+      },
+      {
+        "word": "亞運",
+        "clue": "據報導「亞○歸隊手感燙　黃韋盛未見彩帶才」，補全體育項目。（2字）",
+        "answer_score": 86,
+        "difficulty": "easy",
+        "id": "cna-23d53c825c182ec1f9c9::亞運",
+        "event_id": "cna-23d53c825c182ec1f9c9",
+        "event_revision": "cna-23d53c825c182ec1f9c9",
+        "source_support": [
+          {
+            "source_id": "rss-adb14448807d4f7e1a20",
+            "evidence": "亞運歸隊手感燙　黃韋盛未見彩帶才知戰線延長"
+          }
+        ]
+      },
+      {
+        "word": "經濟",
+        "clue": "據報導「○○第3季○濟成長飆9.95%　4年最快增」，補全用語。（2字）",
+        "answer_score": 86,
+        "difficulty": "easy",
+        "id": "cna-12171928ba8b468b6139::經濟",
+        "event_id": "cna-12171928ba8b468b6139",
+        "event_revision": "cna-12171928ba8b468b6139",
+        "source_support": [
+          {
+            "source_id": "rss-bd93d318d3ad3cd0fb58",
+            "evidence": "越南第3季經濟成長飆9.95%　4年最快增速"
+          }
+        ]
+      },
+      {
+        "word": "越南",
+        "clue": "據報導「○南第3季○○成長飆9.95%　」，補全國家或地區。（2字）",
+        "answer_score": 86,
+        "difficulty": "easy",
+        "id": "cna-12171928ba8b468b6139::越南",
+        "event_id": "cna-12171928ba8b468b6139",
+        "event_revision": "cna-12171928ba8b468b6139",
+        "source_support": [
+          {
+            "source_id": "rss-bd93d318d3ad3cd0fb58",
+            "evidence": "越南第3季經濟成長飆9.95%　4年最快增速"
+          }
+        ]
+      },
+      {
+        "word": "寮國",
+        "clue": "據報導「○○在寮○設立首個境外空軍設施  分析」，補全國家或地區。（2字）",
+        "answer_score": 86,
+        "difficulty": "easy",
+        "id": "cna-d75f3352751b28835f5d::寮國",
+        "event_id": "cna-d75f3352751b28835f5d",
+        "event_revision": "cna-d75f3352751b28835f5d",
+        "source_support": [
+          {
+            "source_id": "rss-09b05e30ac575a37fd09",
+            "evidence": "北京在寮國設立首個境外空軍設施  分析：擴大中國海外軍事布局"
+          }
+        ]
+      },
+      {
+        "word": "網球",
+        "clue": "據報導「○○網○女雙○○金包銀　曾雅妮領軍高」，補全體育項目。（2字）",
+        "answer_score": 86,
+        "difficulty": "easy",
+        "id": "cna-c0be13f93cab13b7c4a3::網球",
+        "event_id": "cna-c0be13f93cab13b7c4a3",
+        "event_revision": "cna-c0be13f93cab13b7c4a3",
+        "source_support": [
+          {
+            "source_id": "rss-0bd3ede4efd2e935513d",
+            "evidence": "亞運網球女雙台灣金包銀　曾雅妮領軍高球女團奪銅"
+          }
+        ]
+      },
+      {
+        "word": "北韓",
+        "clue": "據報導「北○宣布試射中程飛彈　宣稱導入A」，補全國家或地區。（2字）",
+        "answer_score": 86,
+        "difficulty": "easy",
+        "id": "cna-b381a33e819050d14c11::北韓",
+        "event_id": "cna-b381a33e819050d14c11",
+        "event_revision": "cna-b381a33e819050d14c11",
+        "source_support": [
+          {
+            "source_id": "rss-9ccd644f692f0c004a82",
+            "evidence": "北韓宣布試射中程飛彈　宣稱導入AI技術無法規避攻擊"
+          }
+        ]
+      },
+      {
+        "word": "外交部",
+        "clue": "據報導「登場  ○○○交部：歡迎○○出席」，補全機關或組織。（3字）",
+        "answer_score": 89,
+        "difficulty": "easy",
+        "id": "cna-82f889769e905630dc24::外交部",
+        "event_id": "cna-82f889769e905630dc24",
+        "event_revision": "cna-82f889769e905630dc24",
+        "source_support": [
+          {
+            "source_id": "rss-ccedb8d25c2430c59070",
+            "evidence": "深圳APEC峰會11月登場  中國外交部：歡迎普丁出席"
+          }
+        ]
+      },
+      {
+        "word": "普丁",
+        "clue": "據報導「○○○：歡迎○丁出席」，補全人物。（2字）",
+        "answer_score": 86,
+        "difficulty": "easy",
+        "id": "cna-82f889769e905630dc24::普丁",
+        "event_id": "cna-82f889769e905630dc24",
+        "event_revision": "cna-82f889769e905630dc24",
+        "source_support": [
+          {
+            "source_id": "rss-ccedb8d25c2430c59070",
+            "evidence": "深圳APEC峰會11月登場  中國外交部：歡迎普丁出席"
+          }
+        ]
+      },
+      {
+        "word": "深圳",
+        "clue": "據報導「○圳APEC峰會11月登場  中」，補全地名。（2字）",
+        "answer_score": 86,
+        "difficulty": "easy",
+        "id": "cna-82f889769e905630dc24::深圳",
+        "event_id": "cna-82f889769e905630dc24",
+        "event_revision": "cna-82f889769e905630dc24",
+        "source_support": [
+          {
+            "source_id": "rss-ccedb8d25c2430c59070",
+            "evidence": "深圳APEC峰會11月登場  中國外交部：歡迎普丁出席"
+          }
+        ]
+      },
+      {
+        "word": "瑞士",
+        "clue": "據報導「庄站男子把玩○士刀　警掌握身分偵辦」，補全國家或地區。（2字）",
+        "answer_score": 86,
+        "difficulty": "easy",
+        "id": "cna-f35ddea1a7ef29c61016::瑞士",
+        "event_id": "cna-f35ddea1a7ef29c61016",
+        "event_revision": "cna-f35ddea1a7ef29c61016",
+        "source_support": [
+          {
+            "source_id": "rss-b55db00dd8af69a33ae0",
+            "evidence": "北捷頭前庄站男子把玩瑞士刀　警掌握身分偵辦"
+          }
+        ]
+      },
+      {
+        "word": "日本",
+        "clue": "據報導「小笠原群島　○本○○廳示警有大浪」，補全國家或地區。（2字）",
+        "answer_score": 86,
+        "difficulty": "easy",
+        "id": "cna-b379b50c0a319c3c86f2::日本",
+        "event_id": "cna-b379b50c0a319c3c86f2",
+        "event_revision": "cna-b379b50c0a319c3c86f2",
+        "source_support": [
+          {
+            "source_id": "rss-cf9ed0f54c34f0a9a12b",
+            "evidence": "颱風彩雲恐接近小笠原群島　日本氣象廳示警有大浪"
+          }
+        ]
+      },
+      {
+        "word": "氣象",
+        "clue": "據報導「原群島　○○○象廳示警有大浪」，補全用語。（2字）",
+        "answer_score": 86,
+        "difficulty": "easy",
+        "id": "cna-b379b50c0a319c3c86f2::氣象",
+        "event_id": "cna-b379b50c0a319c3c86f2",
+        "event_revision": "cna-b379b50c0a319c3c86f2",
+        "source_support": [
+          {
+            "source_id": "rss-cf9ed0f54c34f0a9a12b",
+            "evidence": "颱風彩雲恐接近小笠原群島　日本氣象廳示警有大浪"
+          }
+        ]
+      },
+      {
+        "word": "颱風",
+        "clue": "據報導「○風彩雲恐接近小笠原群島　○○氣」，補全用語。（2字）",
+        "answer_score": 86,
+        "difficulty": "easy",
+        "id": "cna-b379b50c0a319c3c86f2::颱風",
+        "event_id": "cna-b379b50c0a319c3c86f2",
+        "event_revision": "cna-b379b50c0a319c3c86f2",
+        "source_support": [
+          {
+            "source_id": "rss-cf9ed0f54c34f0a9a12b",
+            "evidence": "颱風彩雲恐接近小笠原群島　日本氣象廳示警有大浪"
+          }
+        ]
+      },
+      {
+        "word": "埃及",
+        "clue": "據報導「○及生育率4年降18%  專家：」，補全國家或地區。（2字）",
+        "answer_score": 86,
+        "difficulty": "easy",
+        "id": "cna-cf5d38cf84dddeb497ac::埃及",
+        "event_id": "cna-cf5d38cf84dddeb497ac",
+        "event_revision": "cna-cf5d38cf84dddeb497ac",
+        "source_support": [
+          {
+            "source_id": "rss-51f13b49d21cc9c745c1",
+            "evidence": "埃及生育率4年降18%  專家：生活成本上升改變家庭選擇"
+          }
+        ]
+      },
+      {
+        "word": "三峽",
+        "clue": "據報導「蘇巧慧沈伯洋○峽合體　喊雙北競合拚○○」，補全地名。（2字）",
+        "answer_score": 86,
+        "difficulty": "easy",
+        "id": "cna-bbc5011b4f3eda8eab8b::三峽",
+        "event_id": "cna-bbc5011b4f3eda8eab8b",
+        "event_revision": "cna-bbc5011b4f3eda8eab8b",
+        "source_support": [
+          {
+            "source_id": "rss-27e6f81a6a24629a5c2c",
+            "evidence": "蘇巧慧沈伯洋三峽合體　喊雙北競合拚觀光"
+          }
+        ]
+      },
+      {
+        "word": "觀光",
+        "clue": "據報導「喊雙北競合拚○光」，補全用語。（2字）",
+        "answer_score": 86,
+        "difficulty": "easy",
+        "id": "cna-bbc5011b4f3eda8eab8b::觀光",
+        "event_id": "cna-bbc5011b4f3eda8eab8b",
+        "event_revision": "cna-bbc5011b4f3eda8eab8b",
+        "source_support": [
+          {
+            "source_id": "rss-27e6f81a6a24629a5c2c",
+            "evidence": "蘇巧慧沈伯洋三峽合體　喊雙北競合拚觀光"
+          }
+        ]
+      },
+      {
+        "word": "蔣萬安",
+        "clue": "據報導「○萬安走秀○○時裝週　盼展現○○軟」，補全人物。（3字）",
+        "answer_score": 89,
+        "difficulty": "easy",
+        "id": "cna-0587332d39cb27262b4c::蔣萬安",
+        "event_id": "cna-0587332d39cb27262b4c",
+        "event_revision": "cna-0587332d39cb27262b4c",
+        "source_support": [
+          {
+            "source_id": "rss-13be92aa1beec886f13e",
+            "evidence": "蔣萬安走秀台北時裝週　盼展現台灣軟實力融入國際"
+          }
+        ]
+      },
+      {
+        "word": "西班牙",
+        "clue": "據報導「○班牙北部酒吧坍塌11人受傷送醫　」，補全國家或地區。（3字）",
+        "answer_score": 89,
+        "difficulty": "easy",
+        "id": "cna-9249a91e82c216aac5a2::西班牙",
+        "event_id": "cna-9249a91e82c216aac5a2",
+        "event_revision": "cna-9249a91e82c216aac5a2",
+        "source_support": [
+          {
+            "source_id": "rss-59af3f85aa48ee61cfe9",
+            "evidence": "西班牙北部酒吧坍塌11人受傷送醫　警方展開調查"
+          }
+        ]
+      },
+      {
+        "word": "國防部",
+        "clue": "據報導「部派員長駐　○防部：軍事交流細節無說明」，補全機關或組織。（3字）",
+        "answer_score": 89,
+        "difficulty": "easy",
+        "id": "cna-48fd21c8d70547aa1ab7::國防部",
+        "event_id": "cna-48fd21c8d70547aa1ab7",
+        "event_revision": "cna-48fd21c8d70547aa1ab7",
+        "source_support": [
+          {
+            "source_id": "rss-e0fc3130df73f098fbf9",
+            "evidence": "傳美戰爭部派員長駐　國防部：軍事交流細節無說明"
+          }
+        ]
+      },
+      {
+        "word": "台積電",
+        "clue": "據報導「傳台○電評估與Terafab合作　馬」，補全企業。（3字）",
+        "answer_score": 89,
+        "difficulty": "easy",
+        "id": "cna-6f7a7cd24e08b6c41d98::台積電",
+        "event_id": "cna-6f7a7cd24e08b6c41d98",
+        "event_revision": "cna-6f7a7cd24e08b6c41d98",
+        "source_support": [
+          {
+            "source_id": "rss-c46b75e471c9a002c14e",
+            "evidence": "傳台積電評估與Terafab合作　馬斯克證實討論中"
+          }
+        ]
+      },
       {
         "word": "中研院",
         "clue": "據報導「中研○兒童科普日  AI辨識病媒蚊」，補全機關或組織。（3字）",
@@ -7257,6 +7716,21 @@
         ]
       },
       {
+        "word": "日圓",
+        "clue": "據報導「領6000萬○圓交付稅」，補全用語。（2字）",
+        "answer_score": 86,
+        "difficulty": "easy",
+        "id": "cna-ce8738693df994026d59::日圓",
+        "event_id": "cna-ce8738693df994026d59",
+        "event_revision": "cna-ce8738693df994026d59",
+        "source_support": [
+          {
+            "source_id": "rss-247634f618f8798577c2",
+            "evidence": "日本富山市涉人口普查灌水遭搜索　恐多領6000萬日圓交付稅"
+          }
+        ]
+      },
+      {
         "word": "陽明交大",
         "clue": "據報導「○明交大教師涉性平　校方：已暫停職務」，補全機關或組織。（4字）",
         "answer_score": 92,
@@ -7268,6 +7742,66 @@
           {
             "source_id": "rss-9c9fc0c44586136a5d5a",
             "evidence": "陽明交大教師涉性平　校方：已暫停職務並校安通報"
+          }
+        ]
+      },
+      {
+        "word": "烏克蘭",
+        "clue": "據報導「輔北方大橋　○克蘭首都○○大亂」，補全國家或地區。（3字）",
+        "answer_score": 89,
+        "difficulty": "easy",
+        "id": "cna-227defd2d65cccef6734::烏克蘭",
+        "event_id": "cna-227defd2d65cccef6734",
+        "event_revision": "cna-227defd2d65cccef6734",
+        "source_support": [
+          {
+            "source_id": "rss-38d6b59dfcf27ec38541",
+            "evidence": "俄軍空襲基輔北方大橋　烏克蘭首都交通大亂"
+          }
+        ]
+      },
+      {
+        "word": "交通",
+        "clue": "據報導「　○○○首都○通大亂」，補全用語。（2字）",
+        "answer_score": 86,
+        "difficulty": "easy",
+        "id": "cna-227defd2d65cccef6734::交通",
+        "event_id": "cna-227defd2d65cccef6734",
+        "event_revision": "cna-227defd2d65cccef6734",
+        "source_support": [
+          {
+            "source_id": "rss-38d6b59dfcf27ec38541",
+            "evidence": "俄軍空襲基輔北方大橋　烏克蘭首都交通大亂"
+          }
+        ]
+      },
+      {
+        "word": "環境部",
+        "clue": "據報導「○境部國土綠蔭○○調適計畫　防範未」，補全機關或組織。（3字）",
+        "answer_score": 89,
+        "difficulty": "easy",
+        "id": "cna-488697cecdad8ac76e26::環境部",
+        "event_id": "cna-488697cecdad8ac76e26",
+        "event_revision": "cna-488697cecdad8ac76e26",
+        "source_support": [
+          {
+            "source_id": "rss-945861b877c599cb4807",
+            "evidence": "環境部國土綠蔭氣候調適計畫　防範未來40度高溫廣植樹"
+          }
+        ]
+      },
+      {
+        "word": "氣候",
+        "clue": "據報導「境部國土綠蔭○候調適計畫　防範未來40度○○」，補全用語。（2字）",
+        "answer_score": 86,
+        "difficulty": "easy",
+        "id": "cna-488697cecdad8ac76e26::氣候",
+        "event_id": "cna-488697cecdad8ac76e26",
+        "event_revision": "cna-488697cecdad8ac76e26",
+        "source_support": [
+          {
+            "source_id": "rss-945861b877c599cb4807",
+            "evidence": "環境部國土綠蔭氣候調適計畫　防範未來40度高溫廣植樹"
           }
         ]
       },
@@ -7302,6 +7836,51 @@
         ]
       },
       {
+        "word": "賴清德",
+        "clue": "據報導「百業後援會　○清德：穩定領先不能鬆懈」，補全人物。（3字）",
+        "answer_score": 89,
+        "difficulty": "easy",
+        "id": "cna-c8e7722cb2dcf3e4f18b::賴清德",
+        "event_id": "cna-c8e7722cb2dcf3e4f18b",
+        "event_revision": "cna-c8e7722cb2dcf3e4f18b",
+        "source_support": [
+          {
+            "source_id": "rss-704502d7aec71e5583f7",
+            "evidence": "賴瑞隆成立百工百業後援會　賴清德：穩定領先不能鬆懈"
+          }
+        ]
+      },
+      {
+        "word": "韓國瑜",
+        "clue": "據報導「○國瑜○○陪張嘉郡參拜宮廟　喻立院」，補全人物。（3字）",
+        "answer_score": 89,
+        "difficulty": "easy",
+        "id": "cna-e1de05628d7048863d7b::韓國瑜",
+        "event_id": "cna-e1de05628d7048863d7b",
+        "event_revision": "cna-e1de05628d7048863d7b",
+        "source_support": [
+          {
+            "source_id": "rss-d38799f1ac09a24eed5c",
+            "evidence": "韓國瑜雲林陪張嘉郡參拜宮廟　喻立院亂象需孫悟空鎮壓"
+          }
+        ]
+      },
+      {
+        "word": "雲林",
+        "clue": "據報導「○○○雲○陪張嘉郡參拜宮廟　喻立院亂象」，補全地名。（2字）",
+        "answer_score": 86,
+        "difficulty": "easy",
+        "id": "cna-e1de05628d7048863d7b::雲林",
+        "event_id": "cna-e1de05628d7048863d7b",
+        "event_revision": "cna-e1de05628d7048863d7b",
+        "source_support": [
+          {
+            "source_id": "rss-d38799f1ac09a24eed5c",
+            "evidence": "韓國瑜雲林陪張嘉郡參拜宮廟　喻立院亂象需孫悟空鎮壓"
+          }
+        ]
+      },
+      {
         "word": "東京",
         "clue": "據報導「東○池袋街頭棄置行李箱頻傳　豐島」，補全地名。（2字）",
         "answer_score": 86,
@@ -7313,51 +7892,6 @@
           {
             "source_id": "rss-5cc30409b773b8435416",
             "evidence": "東京池袋街頭棄置行李箱頻傳　豐島區與業者合作因應"
-          }
-        ]
-      },
-      {
-        "word": "宜蘭",
-        "clue": "據報導「○○及○蘭山區防○○  宜花投南屏有局」，補全地名。（2字）",
-        "answer_score": 86,
-        "difficulty": "easy",
-        "id": "cna-b992a1b8d65b33d27a19::宜蘭",
-        "event_id": "cna-b992a1b8d65b33d27a19",
-        "event_revision": "cna-b992a1b8d65b33d27a19",
-        "source_support": [
-          {
-            "source_id": "rss-e8e29376b91e2cc622d0",
-            "evidence": "屏東及宜蘭山區防豪雨  宜花投南屏有局部大雨"
-          }
-        ]
-      },
-      {
-        "word": "屏東",
-        "clue": "據報導「屏○及○○山區防○○  宜花投南」，補全地名。（2字）",
-        "answer_score": 86,
-        "difficulty": "easy",
-        "id": "cna-b992a1b8d65b33d27a19::屏東",
-        "event_id": "cna-b992a1b8d65b33d27a19",
-        "event_revision": "cna-b992a1b8d65b33d27a19",
-        "source_support": [
-          {
-            "source_id": "rss-e8e29376b91e2cc622d0",
-            "evidence": "屏東及宜蘭山區防豪雨  宜花投南屏有局部大雨"
-          }
-        ]
-      },
-      {
-        "word": "豪雨",
-        "clue": "據報導「及○○山區防○雨  宜花投南屏有局部大雨」，補全用語。（2字）",
-        "answer_score": 86,
-        "difficulty": "easy",
-        "id": "cna-b992a1b8d65b33d27a19::豪雨",
-        "event_id": "cna-b992a1b8d65b33d27a19",
-        "event_revision": "cna-b992a1b8d65b33d27a19",
-        "source_support": [
-          {
-            "source_id": "rss-e8e29376b91e2cc622d0",
-            "evidence": "屏東及宜蘭山區防豪雨  宜花投南屏有局部大雨"
           }
         ]
       },
@@ -7452,21 +7986,6 @@
         ]
       },
       {
-        "word": "民眾黨",
-        "clue": "據報導「○○○輔選○眾黨○○隊　籲年輕人投下關鍵一票」，補全機關或組織。（3字）",
-        "answer_score": 89,
-        "difficulty": "easy",
-        "id": "cna-c14f89a75472733d6c4b::民眾黨",
-        "event_id": "cna-c14f89a75472733d6c4b",
-        "event_revision": "cna-c14f89a75472733d6c4b",
-        "source_support": [
-          {
-            "source_id": "rss-588d8f49ae0461922a47",
-            "evidence": "黃國昌輔選民眾黨金門隊　籲年輕人投下關鍵一票"
-          }
-        ]
-      },
-      {
         "word": "黃國昌",
         "clue": "據報導「○國昌輔選○○○○○隊　籲年輕人投」，補全人物。（3字）",
         "answer_score": 89,
@@ -7523,21 +8042,6 @@
           {
             "source_id": "rss-2d597be3e08cb7c04f5f",
             "evidence": "4日基隆北海岸、東半部有雨　下週東北季風增強低溫探19度"
-          }
-        ]
-      },
-      {
-        "word": "亞運",
-        "clue": "據報導「謝淑薇首奪亞○女雙金牌　對搭檔梁恩碩讚不絕」，補全體育項目。（2字）",
-        "answer_score": 86,
-        "difficulty": "easy",
-        "id": "cna-19b18990ecd8c2da0120::亞運",
-        "event_id": "cna-19b18990ecd8c2da0120",
-        "event_revision": "cna-19b18990ecd8c2da0120",
-        "source_support": [
-          {
-            "source_id": "rss-2451f95a0e7187faab02",
-            "evidence": "謝淑薇首奪亞運女雙金牌　對搭檔梁恩碩讚不絕口"
           }
         ]
       },
@@ -7617,36 +8121,6 @@
         ]
       },
       {
-        "word": "北韓",
-        "clue": "據報導「北○發射彈道飛彈　○○提出抗議並」，補全國家或地區。（2字）",
-        "answer_score": 86,
-        "difficulty": "easy",
-        "id": "cna-3f16b8d88ef181f131bc::北韓",
-        "event_id": "cna-3f16b8d88ef181f131bc",
-        "event_revision": "cna-3f16b8d88ef181f131bc",
-        "source_support": [
-          {
-            "source_id": "rss-74058cede38434bd52a6",
-            "evidence": "北韓發射彈道飛彈　日本提出抗議並強烈譴責"
-          }
-        ]
-      },
-      {
-        "word": "日本",
-        "clue": "據報導「射彈道飛彈　○本提出抗議並強烈譴責」，補全國家或地區。（2字）",
-        "answer_score": 86,
-        "difficulty": "easy",
-        "id": "cna-3f16b8d88ef181f131bc::日本",
-        "event_id": "cna-3f16b8d88ef181f131bc",
-        "event_revision": "cna-3f16b8d88ef181f131bc",
-        "source_support": [
-          {
-            "source_id": "rss-74058cede38434bd52a6",
-            "evidence": "北韓發射彈道飛彈　日本提出抗議並強烈譴責"
-          }
-        ]
-      },
-      {
         "word": "進口",
         "clue": "據報導「○○強化進○邊境管控　將要求SHEIN等」，補全用語。（2字）",
         "answer_score": 86,
@@ -7703,36 +8177,6 @@
           {
             "source_id": "rss-fb0cf127a630099461bf",
             "evidence": "營養師分享外食飲控順序　先蛋白質蔬菜後碳水"
-          }
-        ]
-      },
-      {
-        "word": "國防部",
-        "clue": "據報導「○防部修正國防○○規程　政戰等3學」，補全機關或組織。（3字）",
-        "answer_score": 89,
-        "difficulty": "easy",
-        "id": "cna-0e42b5ff3e523cc87112::國防部",
-        "event_id": "cna-0e42b5ff3e523cc87112",
-        "event_revision": "cna-0e42b5ff3e523cc87112",
-        "source_support": [
-          {
-            "source_id": "rss-cf6044146d70b4d324b3",
-            "evidence": "國防部修正國防大學規程　政戰等3學院副院長由文職兼任"
-          }
-        ]
-      },
-      {
-        "word": "大學",
-        "clue": "據報導「防部修正國防○學規程　政戰等3學院副院長由文」，補全用語。（2字）",
-        "answer_score": 86,
-        "difficulty": "easy",
-        "id": "cna-0e42b5ff3e523cc87112::大學",
-        "event_id": "cna-0e42b5ff3e523cc87112",
-        "event_revision": "cna-0e42b5ff3e523cc87112",
-        "source_support": [
-          {
-            "source_id": "rss-cf6044146d70b4d324b3",
-            "evidence": "國防部修正國防大學規程　政戰等3學院副院長由文職兼任"
           }
         ]
       },
@@ -7823,21 +8267,6 @@
           {
             "source_id": "rss-8d703a4343e4e3894120",
             "evidence": "學校傷病掛號暫停服務惹議　教育部：北市自建系統"
-          }
-        ]
-      },
-      {
-        "word": "網球",
-        "clue": "據報導「名古屋○○網○摘金未與詹皓晴握手　謝淑薇：」，補全體育項目。（2字）",
-        "answer_score": 86,
-        "difficulty": "easy",
-        "id": "cna-e61ad0b4329fe01fc5dc::網球",
-        "event_id": "cna-e61ad0b4329fe01fc5dc",
-        "event_revision": "cna-e61ad0b4329fe01fc5dc",
-        "source_support": [
-          {
-            "source_id": "rss-d9529da647bb1520421f",
-            "evidence": "名古屋亞運網球摘金未與詹皓晴握手　謝淑薇：這不重要"
           }
         ]
       },
@@ -8007,21 +8436,6 @@
         ]
       },
       {
-        "word": "學生",
-        "clue": "據報導「○○○生點火朝警投擲物品　抗議波及7」，補全用語。（2字）",
-        "answer_score": 86,
-        "difficulty": "easy",
-        "id": "cna-bb05ed7c810c980ec106::學生",
-        "event_id": "cna-bb05ed7c810c980ec106",
-        "event_revision": "cna-bb05ed7c810c980ec106",
-        "source_support": [
-          {
-            "source_id": "rss-6cdcd14605e90b0f556d",
-            "evidence": "法國學生點火朝警投擲物品　抗議波及735所學校"
-          }
-        ]
-      },
-      {
         "word": "法國",
         "clue": "據報導「法○○○點火朝警投擲物品　抗議波」，補全國家或地區。（2字）",
         "answer_score": 86,
@@ -8037,21 +8451,6 @@
         ]
       },
       {
-        "word": "台中",
-        "clue": "據報導「○中議員選將競總成立　江啟臣、何」，補全地名。（2字）",
-        "answer_score": 86,
-        "difficulty": "easy",
-        "id": "cna-9155898d0d3e43b22a68::台中",
-        "event_id": "cna-9155898d0d3e43b22a68",
-        "event_revision": "cna-9155898d0d3e43b22a68",
-        "source_support": [
-          {
-            "source_id": "rss-9df031858d51c6e3aba8",
-            "evidence": "台中議員選將競總成立　江啟臣、何欣純趕場站台"
-          }
-        ]
-      },
-      {
         "word": "南投",
         "clue": "據報導「○投世界茶業博覽會9天　許淑華邀」，補全地名。（2字）",
         "answer_score": 86,
@@ -8063,21 +8462,6 @@
           {
             "source_id": "rss-d03fbd339df6e211930c",
             "evidence": "南投世界茶業博覽會9天　許淑華邀感受茶香魅力"
-          }
-        ]
-      },
-      {
-        "word": "台灣",
-        "clue": "據報導「茶及喝茶認識○灣風土」，補全國家或地區。（2字）",
-        "answer_score": 86,
-        "difficulty": "easy",
-        "id": "cna-e0bd6210f72487c7dc24::台灣",
-        "event_id": "cna-e0bd6210f72487c7dc24",
-        "event_revision": "cna-e0bd6210f72487c7dc24",
-        "source_support": [
-          {
-            "source_id": "rss-686ebe56e3ff82bc4081",
-            "evidence": "茶博會登場　農糧署推廣有機茶及喝茶認識台灣風土"
           }
         ]
       },
@@ -8172,21 +8556,6 @@
         ]
       },
       {
-        "word": "韓國瑜",
-        "clue": "據報導「場改建啟用　○國瑜見證力挺謝國樑」，補全人物。（3字）",
-        "answer_score": 89,
-        "difficulty": "easy",
-        "id": "cna-cfa9a37fb872fb49f508::韓國瑜",
-        "event_id": "cna-cfa9a37fb872fb49f508",
-        "event_revision": "cna-cfa9a37fb872fb49f508",
-        "source_support": [
-          {
-            "source_id": "rss-879fd3920f6befd8a8a6",
-            "evidence": "基隆市立田徑場改建啟用　韓國瑜見證力挺謝國樑"
-          }
-        ]
-      },
-      {
         "word": "田徑",
         "clue": "據報導「○○市立○徑場改建啟用　○○○見證力挺謝」，補全體育項目。（2字）",
         "answer_score": 86,
@@ -8198,21 +8567,6 @@
           {
             "source_id": "rss-879fd3920f6befd8a8a6",
             "evidence": "基隆市立田徑場改建啟用　韓國瑜見證力挺謝國樑"
-          }
-        ]
-      },
-      {
-        "word": "台積電",
-        "clue": "據報導「處揭牌與參訪台○電美廠」，補全企業。（3字）",
-        "answer_score": 89,
-        "difficulty": "easy",
-        "id": "cna-3c5a847a4bdcbaf3dcc6::台積電",
-        "event_id": "cna-3c5a847a4bdcbaf3dcc6",
-        "event_revision": "cna-3c5a847a4bdcbaf3dcc6",
-        "source_support": [
-          {
-            "source_id": "rss-5453402d39637410966a",
-            "evidence": "林佳龍將抵鳳凰城　出席辦事處揭牌與參訪台積電美廠"
           }
         ]
       },
@@ -8262,21 +8616,6 @@
         ]
       },
       {
-        "word": "桃園",
-        "clue": "據報導「造謠假民調　○園男子10萬元交保」，補全地名。（2字）",
-        "answer_score": 86,
-        "difficulty": "easy",
-        "id": "cna-9612db346aeac132c4f9::桃園",
-        "event_id": "cna-9612db346aeac132c4f9",
-        "event_revision": "cna-9612db346aeac132c4f9",
-        "source_support": [
-          {
-            "source_id": "rss-efab2418b60a86d3efcb",
-            "evidence": "Threads貼文涉造謠假民調　桃園男子10萬元交保"
-          }
-        ]
-      },
-      {
         "word": "蘋果",
         "clue": "據報導「取全機資料　○果Mac系統將強化警示護隱私」，補全企業。（2字）",
         "answer_score": 86,
@@ -8288,21 +8627,6 @@
           {
             "source_id": "rss-500f9234978ab531e085",
             "evidence": "AI索取全機資料　蘋果Mac系統將強化警示護隱私"
-          }
-        ]
-      },
-      {
-        "word": "蔣萬安",
-        "clue": "據報導「○萬安批不要模糊毒品界線　沈伯洋：」，補全人物。（3字）",
-        "answer_score": 89,
-        "difficulty": "easy",
-        "id": "cna-82171446ad1ee5b58714::蔣萬安",
-        "event_id": "cna-82171446ad1ee5b58714",
-        "event_revision": "cna-82171446ad1ee5b58714",
-        "source_support": [
-          {
-            "source_id": "rss-ee5c58230c3100efc911",
-            "evidence": "蔣萬安批不要模糊毒品界線　沈伯洋：重要的是毒品風險管控"
           }
         ]
       },
@@ -8412,36 +8736,6 @@
         ]
       },
       {
-        "word": "國慶",
-        "clue": "據報導「首改款升級　○慶大會○○士遊行亮相」，補全用語。（2字）",
-        "answer_score": 86,
-        "difficulty": "easy",
-        "id": "cna-f7daf1ff478d6e1fcc07::國慶",
-        "event_id": "cna-f7daf1ff478d6e1fcc07",
-        "event_revision": "cna-f7daf1ff478d6e1fcc07",
-        "source_support": [
-          {
-            "source_id": "rss-c3b31d694bd1569e35c5",
-            "evidence": "替代役制服25年首改款升級　國慶大會防災士遊行亮相"
-          }
-        ]
-      },
-      {
-        "word": "柯文哲",
-        "clue": "據報導「○文哲：若○○○攻破○○　鄭麗文就」，補全人物。（3字）",
-        "answer_score": 89,
-        "difficulty": "easy",
-        "id": "cna-2856f85e2678e3ecced2::柯文哲",
-        "event_id": "cna-2856f85e2678e3ecced2",
-        "event_revision": "cna-2856f85e2678e3ecced2",
-        "source_support": [
-          {
-            "source_id": "rss-c9c6a7ffa45739732b25",
-            "evidence": "柯文哲：若民進黨攻破新北　鄭麗文就要下台"
-          }
-        ]
-      },
-      {
         "word": "民進黨",
         "clue": "據報導「○○○：若○進黨攻破○○　鄭麗文就要下台」，補全機關或組織。（3字）",
         "answer_score": 89,
@@ -8528,21 +8822,6 @@
           {
             "source_id": "rss-da4475abe81998df865e",
             "evidence": "U15世界盃棒球賽2度因雨暫停　台灣1分差不敵日本"
-          }
-        ]
-      },
-      {
-        "word": "越南",
-        "clue": "據報導「○○○洋論壇登場  盼藉國際合作」，補全國家或地區。（2字）",
-        "answer_score": 86,
-        "difficulty": "easy",
-        "id": "cna-559956cfbff977a4622a::越南",
-        "event_id": "cna-559956cfbff977a4622a",
-        "event_revision": "cna-559956cfbff977a4622a",
-        "source_support": [
-          {
-            "source_id": "rss-2aca34c474b2a0c37a6d",
-            "evidence": "越南海洋論壇登場  盼藉國際合作打造獨立自主海洋強國"
           }
         ]
       },
@@ -8712,21 +8991,6 @@
         ]
       },
       {
-        "word": "花蓮",
-        "clue": "據報導「蘭山區大○○○蓮防大雨」，補全地名。（2字）",
-        "answer_score": 86,
-        "difficulty": "easy",
-        "id": "cna-3a8edb41573fa68a3c84::花蓮",
-        "event_id": "cna-3a8edb41573fa68a3c84",
-        "event_revision": "cna-3a8edb41573fa68a3c84",
-        "source_support": [
-          {
-            "source_id": "rss-9ee12afab3627946ea12",
-            "evidence": "東北季風報到　宜蘭山區大台北花蓮防大雨"
-          }
-        ]
-      },
-      {
         "word": "印度",
         "clue": "據報導「不易　佛光山○度沙彌學園新學期展開」，補全國家或地區。（2字）",
         "answer_score": 86,
@@ -8738,216 +9002,6 @@
           {
             "source_id": "rss-bbd9738ea38a871d4e44",
             "evidence": "佛陀故鄉弘法不易　佛光山印度沙彌學園新學期展開"
-          }
-        ]
-      },
-      {
-        "word": "富邦",
-        "clue": "據報導「北市○邦人壽喋血案　犯嫌遭聲押禁見」，補全企業。（2字）",
-        "answer_score": 86,
-        "difficulty": "easy",
-        "id": "cna-772706fad3f89ce6e899::富邦",
-        "event_id": "cna-772706fad3f89ce6e899",
-        "event_revision": "cna-772706fad3f89ce6e899",
-        "source_support": [
-          {
-            "source_id": "rss-048d5f163f674bfb2c84",
-            "evidence": "北市富邦人壽喋血案　犯嫌遭聲押禁見"
-          }
-        ]
-      },
-      {
-        "word": "外交部",
-        "clue": "據報導「○交部發布○○影片「國家的相簿」　」，補全機關或組織。（3字）",
-        "answer_score": 89,
-        "difficulty": "easy",
-        "id": "cna-ad2c71207b44590cc4b0::外交部",
-        "event_id": "cna-ad2c71207b44590cc4b0",
-        "event_revision": "cna-ad2c71207b44590cc4b0",
-        "source_support": [
-          {
-            "source_id": "rss-ba5d5b300cbbadac1d29",
-            "evidence": "外交部發布國慶影片「國家的相簿」　呈現台灣民主歷程[影]"
-          }
-        ]
-      },
-      {
-        "word": "金融",
-        "clue": "據報導「遭駭客攻擊　○融委要求全面○○檢查」，補全用語。（2字）",
-        "answer_score": 86,
-        "difficulty": "easy",
-        "id": "cna-340e1afcb0d64785875c::金融",
-        "event_id": "cna-340e1afcb0d64785875c",
-        "event_revision": "cna-340e1afcb0d64785875c",
-        "source_support": [
-          {
-            "source_id": "rss-3a867496635b0a2f5d42",
-            "evidence": "韓國多家銀行遭駭客攻擊　金融委要求全面資安檢查"
-          }
-        ]
-      },
-      {
-        "word": "銀行",
-        "clue": "據報導「○○多家○行遭駭客攻擊　○○委要求全面資」，補全用語。（2字）",
-        "answer_score": 86,
-        "difficulty": "easy",
-        "id": "cna-340e1afcb0d64785875c::銀行",
-        "event_id": "cna-340e1afcb0d64785875c",
-        "event_revision": "cna-340e1afcb0d64785875c",
-        "source_support": [
-          {
-            "source_id": "rss-3a867496635b0a2f5d42",
-            "evidence": "韓國多家銀行遭駭客攻擊　金融委要求全面資安檢查"
-          }
-        ]
-      },
-      {
-        "word": "韓國",
-        "clue": "據報導「韓○多家○○遭駭客攻擊　○○委要」，補全國家或地區。（2字）",
-        "answer_score": 86,
-        "difficulty": "easy",
-        "id": "cna-340e1afcb0d64785875c::韓國",
-        "event_id": "cna-340e1afcb0d64785875c",
-        "event_revision": "cna-340e1afcb0d64785875c",
-        "source_support": [
-          {
-            "source_id": "rss-3a867496635b0a2f5d42",
-            "evidence": "韓國多家銀行遭駭客攻擊　金融委要求全面資安檢查"
-          }
-        ]
-      },
-      {
-        "word": "新加坡",
-        "clue": "據報導「71億元　擴○加坡和○○據點」，補全國家或地區。（3字）",
-        "answer_score": 89,
-        "difficulty": "easy",
-        "id": "cna-7465820cea11f3223784::新加坡",
-        "event_id": "cna-7465820cea11f3223784",
-        "event_revision": "cna-7465820cea11f3223784",
-        "source_support": [
-          {
-            "source_id": "rss-c46c96122a634ccadfed",
-            "evidence": "東元投資不超過12.71億元　擴新加坡和印尼據點"
-          }
-        ]
-      },
-      {
-        "word": "印尼",
-        "clue": "據報導「　擴○○○和○尼據點」，補全國家或地區。（2字）",
-        "answer_score": 86,
-        "difficulty": "easy",
-        "id": "cna-7465820cea11f3223784::印尼",
-        "event_id": "cna-7465820cea11f3223784",
-        "event_revision": "cna-7465820cea11f3223784",
-        "source_support": [
-          {
-            "source_id": "rss-c46c96122a634ccadfed",
-            "evidence": "東元投資不超過12.71億元　擴新加坡和印尼據點"
-          }
-        ]
-      },
-      {
-        "word": "林郁婷",
-        "clue": "據報導「○○拳擊○郁婷摘金　○○○洪俊義奪銀寫男子」，補全體育項目。（3字）",
-        "answer_score": 89,
-        "difficulty": "easy",
-        "id": "cna-aa8f6bd9f71bfa91aa1e::林郁婷",
-        "event_id": "cna-aa8f6bd9f71bfa91aa1e",
-        "event_revision": "cna-aa8f6bd9f71bfa91aa1e",
-        "source_support": [
-          {
-            "source_id": "rss-9dfb9d4e1d8d5b9cc7c2",
-            "evidence": "亞運拳擊林郁婷摘金　跆拳道洪俊義奪銀寫男子隊史紀錄"
-          }
-        ]
-      },
-      {
-        "word": "失業",
-        "clue": "據報導「人遠遜預期　失○率微升」，補全用語。（2字）",
-        "answer_score": 86,
-        "difficulty": "easy",
-        "id": "cna-41a9188c6545f2626155::失業",
-        "event_id": "cna-41a9188c6545f2626155",
-        "event_revision": "cna-41a9188c6545f2626155",
-        "source_support": [
-          {
-            "source_id": "rss-8a84d7d975a240c5bf05",
-            "evidence": "美國9月非農就業新增2.9萬人遠遜預期　失業率微升"
-          }
-        ]
-      },
-      {
-        "word": "經濟",
-        "clue": "據報導「型合作成世界○濟創新動力」，補全用語。（2字）",
-        "answer_score": 86,
-        "difficulty": "easy",
-        "id": "cna-32f84b81447a0b1f1caf::經濟",
-        "event_id": "cna-32f84b81447a0b1f1caf",
-        "event_revision": "cna-32f84b81447a0b1f1caf",
-        "source_support": [
-          {
-            "source_id": "rss-a9c02d27225a7057868f",
-            "evidence": "韓國國慶　新任代表盼台韓新型合作成世界經濟創新動力"
-          }
-        ]
-      },
-      {
-        "word": "雲林",
-        "clue": "據報導「雲○議員參選人遭指涉賄遭羈押　家」，補全地名。（2字）",
-        "answer_score": 86,
-        "difficulty": "easy",
-        "id": "cna-ceada02e91dd0b297f9c::雲林",
-        "event_id": "cna-ceada02e91dd0b297f9c",
-        "event_revision": "cna-ceada02e91dd0b297f9c",
-        "source_support": [
-          {
-            "source_id": "rss-308002e537acc9e2e738",
-            "evidence": "雲林議員參選人遭指涉賄遭羈押　家屬擬提抗告"
-          }
-        ]
-      },
-      {
-        "word": "澎湖",
-        "clue": "據報導「制　政院允助澎○協調」，補全地名。（2字）",
-        "answer_score": 86,
-        "difficulty": "easy",
-        "id": "cna-7c4bf36168091387eb92::澎湖",
-        "event_id": "cna-7c4bf36168091387eb92",
-        "event_revision": "cna-7c4bf36168091387eb92",
-        "source_support": [
-          {
-            "source_id": "rss-4996cefca2face3df6b1",
-            "evidence": "空勤總隊夜間緊急醫療後送機制　政院允助澎湖協調"
-          }
-        ]
-      },
-      {
-        "word": "馬來西亞",
-        "clue": "據報導「F1熱潮席捲○來西亞　為賽車迷帶來難忘體驗」，補全國家或地區。（4字）",
-        "answer_score": 92,
-        "difficulty": "easy",
-        "id": "cna-8d070c424c70b47d328f::馬來西亞",
-        "event_id": "cna-8d070c424c70b47d328f",
-        "event_revision": "cna-8d070c424c70b47d328f",
-        "source_support": [
-          {
-            "source_id": "rss-80282fbfe4bf3477e79b",
-            "evidence": "F1熱潮席捲馬來西亞　為賽車迷帶來難忘體驗"
-          }
-        ]
-      },
-      {
-        "word": "台灣隊",
-        "clue": "據報導「名古屋○○○灣隊賽程最終日　○○女雙金包銀、」，補全體育項目。（3字）",
-        "answer_score": 89,
-        "difficulty": "easy",
-        "id": "cna-cc286859d610611c92ca::台灣隊",
-        "event_id": "cna-cc286859d610611c92ca",
-        "event_revision": "cna-cc286859d610611c92ca",
-        "source_support": [
-          {
-            "source_id": "rss-b62bdcce50e4f4e8a5f5",
-            "evidence": "名古屋亞運台灣隊賽程最終日　網球女雙金包銀、高爾夫爭金"
           }
         ]
       }
@@ -9029,14 +9083,14 @@
   },
   "automation": {
     "enabled": true,
-    "updated_at": "2026-10-03T11:45:46.249Z",
+    "updated_at": "2026-10-03T16:27:41.295Z",
     "window": {
-      "from": "2026-09-27",
-      "to": "2026-10-03"
+      "from": "2026-09-28",
+      "to": "2026-10-04"
     },
     "interval_hours": 6,
     "source_count": 9,
-    "candidate_count": 114,
+    "candidate_count": 120,
     "sources": [
       {
         "id": "cna-politics",
@@ -9091,7 +9145,7 @@
         "publisher": "中央通訊社",
         "category": "台灣",
         "url": "https://feeds.feedburner.com/rsscna/social",
-        "count": 19,
+        "count": 20,
         "error": null
       },
       {
@@ -9099,7 +9153,7 @@
         "publisher": "中央通訊社",
         "category": "台灣",
         "url": "https://feeds.feedburner.com/rsscna/local",
-        "count": 20,
+        "count": 19,
         "error": null
       },
       {
