@@ -899,51 +899,6 @@
         "content_revision": "cna-49f586257eff7d69d159"
       },
       {
-        "event_id": "cna-3a8edb41573fa68a3c84",
-        "dedup_key": "https://www.cna.com.tw/news/ahel/202610020355.aspx",
-        "event_date": "2026-10-02",
-        "updated_at": "2026-10-02",
-        "published_at": "2026-10-02T15:15:03.000Z",
-        "title": "東北季風報到　宜蘭山區大台北花蓮防大雨",
-        "summary": "東北季風報到　宜蘭山區大台北花蓮防大雨",
-        "categories": [
-          "生活"
-        ],
-        "fact_status": "reported",
-        "content_type": "news",
-        "event_score": 80,
-        "anchor_event": false,
-        "sources": [
-          {
-            "source_id": "rss-9ee12afab3627946ea12",
-            "publisher": "中央通訊社",
-            "kind": "newswire",
-            "url": "https://www.cna.com.tw/news/ahel/202610020355.aspx",
-            "published_at": "2026-10-02",
-            "excerpt": "東北季風報到　宜蘭山區大台北花蓮防大雨",
-            "section": "生活"
-          }
-        ],
-        "keywords": [
-          {
-            "word": "宜蘭",
-            "clue": "據報導「北季風報到　○蘭山區大○○○○防大雨」，補全地名。（2字）",
-            "answer_score": 86,
-            "difficulty": "easy"
-          },
-          {
-            "word": "花蓮",
-            "clue": "據報導「蘭山區大○○○蓮防大雨」，補全地名。（2字）",
-            "answer_score": 86,
-            "difficulty": "easy"
-          }
-        ],
-        "aliases": [
-          "cna-3a8edb41573fa68a3c84"
-        ],
-        "content_revision": "cna-3a8edb41573fa68a3c84"
-      },
-      {
         "event_id": "cna-c22e5827d26e099d71c5",
         "dedup_key": "https://www.cna.com.tw/news/ahel/202610030011.aspx",
         "event_date": "2026-10-03",
@@ -1955,45 +1910,6 @@
           "cna-be682c06dfda1d18c7e3"
         ],
         "content_revision": "cna-be682c06dfda1d18c7e3"
-      },
-      {
-        "event_id": "cna-ed0da5ad2dfc1dfec525",
-        "dedup_key": "https://www.cna.com.tw/news/aipl/202610020352.aspx",
-        "event_date": "2026-10-02",
-        "updated_at": "2026-10-02",
-        "published_at": "2026-10-02T14:47:54.000Z",
-        "title": "藍指沈伯洋教育政策四大皆空　綠：歡迎提出不同方案",
-        "summary": "藍指沈伯洋教育政策四大皆空　綠：歡迎提出不同方案",
-        "categories": [
-          "台灣"
-        ],
-        "fact_status": "reported",
-        "content_type": "news",
-        "event_score": 80,
-        "anchor_event": false,
-        "sources": [
-          {
-            "source_id": "rss-9ba28a9ec6297689fa54",
-            "publisher": "中央通訊社",
-            "kind": "newswire",
-            "url": "https://www.cna.com.tw/news/aipl/202610020352.aspx",
-            "published_at": "2026-10-02",
-            "excerpt": "藍指沈伯洋教育政策四大皆空　綠：歡迎提出不同方案",
-            "section": "台灣"
-          }
-        ],
-        "keywords": [
-          {
-            "word": "教育",
-            "clue": "據報導「藍指沈伯洋教○政策四大皆空　綠：歡迎提出不」，補全用語。（2字）",
-            "answer_score": 86,
-            "difficulty": "easy"
-          }
-        ],
-        "aliases": [
-          "cna-ed0da5ad2dfc1dfec525"
-        ],
-        "content_revision": "cna-ed0da5ad2dfc1dfec525"
       },
       {
         "event_id": "cna-b5cb6abad61911b0320a",
@@ -4090,15 +4006,15 @@
         "content_revision": "cna-f35ddea1a7ef29c61016"
       },
       {
-        "event_id": "cna-9ab5677db4edd1f16351",
-        "dedup_key": "https://www.cna.com.tw/news/aopl/202610020354.aspx",
-        "event_date": "2026-10-02",
-        "updated_at": "2026-10-02",
-        "published_at": "2026-10-02T15:13:01.000Z",
-        "title": "佛陀故鄉弘法不易　佛光山印度沙彌學園新學期展開",
-        "summary": "佛陀故鄉弘法不易　佛光山印度沙彌學園新學期展開",
+        "event_id": "cna-5a60a20c1b84b4b7e81b",
+        "dedup_key": "https://www.cna.com.tw/news/aloc/202610030206.aspx",
+        "event_date": "2026-10-03",
+        "updated_at": "2026-10-03",
+        "published_at": "2026-10-03T15:54:00.000Z",
+        "title": "沈伯洋提反毒政見　蔣萬安稱勿拿美沙冬遮掩引網路熱議",
+        "summary": "沈伯洋提反毒政見　蔣萬安稱勿拿美沙冬遮掩引網路熱議",
         "categories": [
-          "國際"
+          "台灣"
         ],
         "fact_status": "reported",
         "content_type": "news",
@@ -4106,27 +4022,27 @@
         "anchor_event": false,
         "sources": [
           {
-            "source_id": "rss-bbd9738ea38a871d4e44",
+            "source_id": "rss-621639003c51c66c14c8",
             "publisher": "中央通訊社",
             "kind": "newswire",
-            "url": "https://www.cna.com.tw/news/aopl/202610020354.aspx",
-            "published_at": "2026-10-02",
-            "excerpt": "佛陀故鄉弘法不易　佛光山印度沙彌學園新學期展開",
-            "section": "國際"
+            "url": "https://www.cna.com.tw/news/aloc/202610030206.aspx",
+            "published_at": "2026-10-03",
+            "excerpt": "沈伯洋提反毒政見　蔣萬安稱勿拿美沙冬遮掩引網路熱議",
+            "section": "台灣"
           }
         ],
         "keywords": [
           {
-            "word": "印度",
-            "clue": "據報導「不易　佛光山○度沙彌學園新學期展開」，補全國家或地區。（2字）",
-            "answer_score": 86,
+            "word": "蔣萬安",
+            "clue": "據報導「提反毒政見　○萬安稱勿拿美沙冬遮掩引網路熱議」，補全人物。（3字）",
+            "answer_score": 89,
             "difficulty": "easy"
           }
         ],
         "aliases": [
-          "cna-9ab5677db4edd1f16351"
+          "cna-5a60a20c1b84b4b7e81b"
         ],
-        "content_revision": "cna-9ab5677db4edd1f16351"
+        "content_revision": "cna-5a60a20c1b84b4b7e81b"
       },
       {
         "event_id": "cna-5c50c59c7157dd8dbfd6",
@@ -5748,6 +5664,77 @@
         "content_revision": "cna-7b0e7f5c6706735086c4"
       },
       {
+        "event_id": "cna-1a0955a332edd4dcddf6",
+        "dedup_key": "https://www.cna.com.tw/news/aopl/202610040002.aspx",
+        "event_date": "2026-10-04",
+        "updated_at": "2026-10-04",
+        "published_at": "2026-10-03T17:44:08.000Z",
+        "title": "女囚死刑執行失敗　田納西州獄政首長請辭",
+        "summary": "女囚死刑執行失敗　田納西州獄政首長請辭",
+        "categories": [
+          "國際"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-a11f8345815e9ba3dc84",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aopl/202610040002.aspx",
+            "published_at": "2026-10-04",
+            "excerpt": "女囚死刑執行失敗　田納西州獄政首長請辭",
+            "section": "國際"
+          }
+        ],
+        "keywords": [],
+        "aliases": [
+          "cna-1a0955a332edd4dcddf6"
+        ],
+        "content_revision": "cna-1a0955a332edd4dcddf6"
+      },
+      {
+        "event_id": "cna-a362b23b43a47ee4c034",
+        "dedup_key": "https://www.cna.com.tw/news/aopl/202610040004.aspx",
+        "event_date": "2026-10-04",
+        "updated_at": "2026-10-04",
+        "published_at": "2026-10-03T19:06:14.000Z",
+        "title": "西班牙租屋援助措施遭國會否決　數萬人上街抗議",
+        "summary": "西班牙租屋援助措施遭國會否決　數萬人上街抗議",
+        "categories": [
+          "國際"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-4c133a1267d8d5b6610c",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aopl/202610040004.aspx",
+            "published_at": "2026-10-04",
+            "excerpt": "西班牙租屋援助措施遭國會否決　數萬人上街抗議",
+            "section": "國際"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "西班牙",
+            "clue": "據報導「○班牙租屋援助措施遭國會否決　數萬」，補全國家或地區。（3字）",
+            "answer_score": 89,
+            "difficulty": "easy"
+          }
+        ],
+        "aliases": [
+          "cna-a362b23b43a47ee4c034"
+        ],
+        "content_revision": "cna-a362b23b43a47ee4c034"
+      },
+      {
         "event_id": "cna-bc9e556bed790b7dbe5a",
         "dedup_key": "https://www.cna.com.tw/news/asoc/202610030002.aspx",
         "event_date": "2026-10-03",
@@ -6210,15 +6197,15 @@
         "content_revision": "cna-1e8dcb0110467fa8eb82"
       },
       {
-        "event_id": "cna-aacf7816da067b71ba94",
-        "dedup_key": "https://www.cna.com.tw/news/aspt/202610020353.aspx",
-        "event_date": "2026-10-02",
-        "updated_at": "2026-10-02",
-        "published_at": "2026-10-02T14:58:58.000Z",
-        "title": "龍隊高張力戰局擊倒悍將　助獅隊取得季後賽門票",
-        "summary": "龍隊高張力戰局擊倒悍將　助獅隊取得季後賽門票",
+        "event_id": "cna-202db299988673b0831c",
+        "dedup_key": "https://www.cna.com.tw/news/asoc/202610040003.aspx",
+        "event_date": "2026-10-04",
+        "updated_at": "2026-10-04",
+        "published_at": "2026-10-03T18:20:11.000Z",
+        "title": "宜蘭員山建材行大火　疑4人受困消防搶救",
+        "summary": "宜蘭員山建材行大火　疑4人受困消防搶救",
         "categories": [
-          "體育"
+          "台灣"
         ],
         "fact_status": "reported",
         "content_type": "news",
@@ -6226,20 +6213,33 @@
         "anchor_event": false,
         "sources": [
           {
-            "source_id": "rss-1cf10894df7d44ab675a",
+            "source_id": "rss-ecf165cd63a7d63b1c98",
             "publisher": "中央通訊社",
             "kind": "newswire",
-            "url": "https://www.cna.com.tw/news/aspt/202610020353.aspx",
-            "published_at": "2026-10-02",
-            "excerpt": "龍隊高張力戰局擊倒悍將　助獅隊取得季後賽門票",
-            "section": "體育"
+            "url": "https://www.cna.com.tw/news/asoc/202610040003.aspx",
+            "published_at": "2026-10-04",
+            "excerpt": "宜蘭員山建材行大火　疑4人受困消防搶救",
+            "section": "台灣"
           }
         ],
-        "keywords": [],
-        "aliases": [
-          "cna-aacf7816da067b71ba94"
+        "keywords": [
+          {
+            "word": "宜蘭",
+            "clue": "據報導「○蘭員山建材行大火　疑4人受困消」，補全地名。（2字）",
+            "answer_score": 86,
+            "difficulty": "easy"
+          },
+          {
+            "word": "消防",
+            "clue": "據報導「　疑4人受困○防搶救」，補全用語。（2字）",
+            "answer_score": 86,
+            "difficulty": "easy"
+          }
         ],
-        "content_revision": "cna-aacf7816da067b71ba94"
+        "aliases": [
+          "cna-202db299988673b0831c"
+        ],
+        "content_revision": "cna-202db299988673b0831c"
       },
       {
         "event_id": "cna-72ee222808f5dc6f16ec",
@@ -7206,6 +7206,66 @@
     ],
     "candidates": [
       {
+        "word": "西班牙",
+        "clue": "據報導「○班牙租屋援助措施遭國會否決　數萬」，補全國家或地區。（3字）",
+        "answer_score": 89,
+        "difficulty": "easy",
+        "id": "cna-a362b23b43a47ee4c034::西班牙",
+        "event_id": "cna-a362b23b43a47ee4c034",
+        "event_revision": "cna-a362b23b43a47ee4c034",
+        "source_support": [
+          {
+            "source_id": "rss-4c133a1267d8d5b6610c",
+            "evidence": "西班牙租屋援助措施遭國會否決　數萬人上街抗議"
+          }
+        ]
+      },
+      {
+        "word": "宜蘭",
+        "clue": "據報導「○蘭員山建材行大火　疑4人受困消」，補全地名。（2字）",
+        "answer_score": 86,
+        "difficulty": "easy",
+        "id": "cna-202db299988673b0831c::宜蘭",
+        "event_id": "cna-202db299988673b0831c",
+        "event_revision": "cna-202db299988673b0831c",
+        "source_support": [
+          {
+            "source_id": "rss-ecf165cd63a7d63b1c98",
+            "evidence": "宜蘭員山建材行大火　疑4人受困消防搶救"
+          }
+        ]
+      },
+      {
+        "word": "消防",
+        "clue": "據報導「　疑4人受困○防搶救」，補全用語。（2字）",
+        "answer_score": 86,
+        "difficulty": "easy",
+        "id": "cna-202db299988673b0831c::消防",
+        "event_id": "cna-202db299988673b0831c",
+        "event_revision": "cna-202db299988673b0831c",
+        "source_support": [
+          {
+            "source_id": "rss-ecf165cd63a7d63b1c98",
+            "evidence": "宜蘭員山建材行大火　疑4人受困消防搶救"
+          }
+        ]
+      },
+      {
+        "word": "蔣萬安",
+        "clue": "據報導「提反毒政見　○萬安稱勿拿美沙冬遮掩引網路熱議」，補全人物。（3字）",
+        "answer_score": 89,
+        "difficulty": "easy",
+        "id": "cna-5a60a20c1b84b4b7e81b::蔣萬安",
+        "event_id": "cna-5a60a20c1b84b4b7e81b",
+        "event_revision": "cna-5a60a20c1b84b4b7e81b",
+        "source_support": [
+          {
+            "source_id": "rss-621639003c51c66c14c8",
+            "evidence": "沈伯洋提反毒政見　蔣萬安稱勿拿美沙冬遮掩引網路熱議"
+          }
+        ]
+      },
+      {
         "word": "台中",
         "clue": "據報導「○中男子毒駕撞天橋波及3名○○生」，補全地名。（2字）",
         "answer_score": 86,
@@ -7247,21 +7307,6 @@
           {
             "source_id": "rss-09dedcbc4acfc582f3c2",
             "evidence": "台中男子毒駕撞天橋波及3名大學生　檢方聲請羈押"
-          }
-        ]
-      },
-      {
-        "word": "宜蘭",
-        "clue": "據報導「○蘭山區○○特報　○○、○○及桃」，補全地名。（2字）",
-        "answer_score": 86,
-        "difficulty": "easy",
-        "id": "cna-be682c06dfda1d18c7e3::宜蘭",
-        "event_id": "cna-be682c06dfda1d18c7e3",
-        "event_revision": "cna-be682c06dfda1d18c7e3",
-        "source_support": [
-          {
-            "source_id": "rss-b0d4202c3fb01c4698c2",
-            "evidence": "宜蘭山區豪雨特報　花蓮、新北及桃園山區防大雨"
           }
         ]
       },
@@ -7637,36 +7682,6 @@
           {
             "source_id": "rss-27e6f81a6a24629a5c2c",
             "evidence": "蘇巧慧沈伯洋三峽合體　喊雙北競合拚觀光"
-          }
-        ]
-      },
-      {
-        "word": "蔣萬安",
-        "clue": "據報導「○萬安走秀○○時裝週　盼展現○○軟」，補全人物。（3字）",
-        "answer_score": 89,
-        "difficulty": "easy",
-        "id": "cna-0587332d39cb27262b4c::蔣萬安",
-        "event_id": "cna-0587332d39cb27262b4c",
-        "event_revision": "cna-0587332d39cb27262b4c",
-        "source_support": [
-          {
-            "source_id": "rss-13be92aa1beec886f13e",
-            "evidence": "蔣萬安走秀台北時裝週　盼展現台灣軟實力融入國際"
-          }
-        ]
-      },
-      {
-        "word": "西班牙",
-        "clue": "據報導「○班牙北部酒吧坍塌11人受傷送醫　」，補全國家或地區。（3字）",
-        "answer_score": 89,
-        "difficulty": "easy",
-        "id": "cna-9249a91e82c216aac5a2::西班牙",
-        "event_id": "cna-9249a91e82c216aac5a2",
-        "event_revision": "cna-9249a91e82c216aac5a2",
-        "source_support": [
-          {
-            "source_id": "rss-59af3f85aa48ee61cfe9",
-            "evidence": "西班牙北部酒吧坍塌11人受傷送醫　警方展開調查"
           }
         ]
       },
@@ -8721,21 +8736,6 @@
         ]
       },
       {
-        "word": "消防",
-        "clue": "據報導「○○墜樓案　○防員架氣墊閃避不及遭壓傷」，補全用語。（2字）",
-        "answer_score": 86,
-        "difficulty": "easy",
-        "id": "cna-119300f14cff68856b38::消防",
-        "event_id": "cna-119300f14cff68856b38",
-        "event_revision": "cna-119300f14cff68856b38",
-        "source_support": [
-          {
-            "source_id": "rss-124923a05121c5b456dc",
-            "evidence": "高雄墜樓案　消防員架氣墊閃避不及遭壓傷"
-          }
-        ]
-      },
-      {
         "word": "民進黨",
         "clue": "據報導「○○○：若○進黨攻破○○　鄭麗文就要下台」，補全機關或組織。（3字）",
         "answer_score": 89,
@@ -8989,21 +8989,6 @@
             "evidence": "美國施壓遏制燃料價格　G7同意釋出1億桶柴油及原油儲備"
           }
         ]
-      },
-      {
-        "word": "印度",
-        "clue": "據報導「不易　佛光山○度沙彌學園新學期展開」，補全國家或地區。（2字）",
-        "answer_score": 86,
-        "difficulty": "easy",
-        "id": "cna-9ab5677db4edd1f16351::印度",
-        "event_id": "cna-9ab5677db4edd1f16351",
-        "event_revision": "cna-9ab5677db4edd1f16351",
-        "source_support": [
-          {
-            "source_id": "rss-bbd9738ea38a871d4e44",
-            "evidence": "佛陀故鄉弘法不易　佛光山印度沙彌學園新學期展開"
-          }
-        ]
       }
     ]
   },
@@ -9083,14 +9068,14 @@
   },
   "automation": {
     "enabled": true,
-    "updated_at": "2026-10-03T16:27:41.295Z",
+    "updated_at": "2026-10-03T21:23:36.310Z",
     "window": {
       "from": "2026-09-28",
       "to": "2026-10-04"
     },
     "interval_hours": 6,
     "source_count": 9,
-    "candidate_count": 120,
+    "candidate_count": 119,
     "sources": [
       {
         "id": "cna-politics",
