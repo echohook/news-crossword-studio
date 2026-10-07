@@ -39,8 +39,8 @@ test('automatic candidates are unique, literal, non-leaking and accepted by all 
  assert.equal(new Set(p.news.candidates.map(c=>c.word)).size,p.news.candidates.length);
  for(const c of p.news.candidates){
   const e=p.news.events.find(e=>e.event_id===c.event_id);assert(e.title.includes(c.word));
-  assert(validateClue(c,e).passed);assert(c.clue.includes('○'));
-  assert(!LEXICON.some(a=>c.clue.normalize('NFKC').replace(/[\p{P}\p{Z}\s]/gu,'').includes(a.word)));
+  assert(validateClue(c,e).passed);assert(!/[○◯□]|補全|缺字/u.test(c.clue));assert.equal(c.clue_style,'natural-v1');
+  assert(!p.news.candidates.some(a=>a.id!==c.id&&c.clue.normalize('NFKC').replace(/[\p{P}\p{Z}\s]/gu,'').includes(a.word)));
  }
 });
 test('longer phrases prevent short-word miscuts and social movement is not sports',()=>{
@@ -157,4 +157,42 @@ test('entertainment cues in golf RSS summaries are rejected too',()=>{
  const golf=item('高球名人活動').replace('</item>','<description><![CDATA[藝人參加演唱會後在果嶺與桿弟交流。]]></description></item>');
  const events=parseFeed(rss(golf+item('美國日本政策消息','202610020009')),sports,{now});
  assert.equal(events.length,1);assert(!events.some(e=>e.title.includes('高球')));
+});
+
+test('natural meanings produce complete country and golf questions without placeholder characters',async()=>{
+ const {naturalClueOptions}=await import('../news/clues.mjs');
+ const japan=naturalClueOptions({title:'日本相關報導'},{word:'日本',kind:'國家或地區'});
+ assert(japan.some(o=>o.clue==='本週報導用語：以東京為首都、使用日圓的是哪個島國？（2字）'));
+ const caddie=naturalClueOptions({title:'高球桿弟報導'},{word:'桿弟',kind:'高爾夫用語'});
+ assert(caddie.some(o=>o.clue.includes('替選手攜帶裝備、協助判讀路線的人')));
+ assert([...japan,...caddie].every(o=>!/○|◯|□|補全|缺字/u.test(o.clue)&&o.clue_style==='natural-v1'));
+});
+test('event clues preserve the actual reported action and its uncertainty',async()=>{
+ const {naturalClueOptions}=await import('../news/clues.mjs');
+ const options=naturalClueOptions({title:'台積電評估新廠計畫'},{word:'台積電',kind:'企業'});
+ const e=options.find(o=>o.clue_kind==='event');assert(e);assert.equal(e.clue,'據報導，哪家公司評估新廠計畫？（3字）');assert(!e.clue.includes('已完成'));
+});
+test('unknown and incomplete headline fragments are skipped rather than masked or fabricated',async()=>{
+ const {naturalClueOptions}=await import('../news/clues.mjs');
+ assert.deepEqual(naturalClueOptions({title:'測試地名之旅'} ,{word:'測試地名',kind:'地名'}),[]);
+ assert.deepEqual(naturalClueOptions({title:'甲乙丙重大新聞'} ,{word:'甲乙丙',kind:'人物'}),[]);
+});
+test('literal answer repeats and input masking never enter event questions',async()=>{
+ const {naturalClueOptions}=await import('../news/clues.mjs');
+ assert.deepEqual(naturalClueOptions({title:'甲乙將與甲乙會談'},{word:'甲乙',kind:'人物'}),[]);
+ assert.deepEqual(naturalClueOptions({title:'甲乙宣布○○政策'},{word:'甲乙',kind:'人物'}),[]);
+});
+test('natural candidate pool has no clues mentioning another admitted answer',()=>{
+ const p=buildBank([{source,events:parseFeed(rss(item('美國日本關稅報導')+item('東京天氣消息','202610020007')+item('行政院公布最低工資政策','202610020009')),source,{now})}],{now});
+ for(const c of p.news.candidates)for(const other of p.news.candidates)if(c.id!==other.id)assert(!c.clue.normalize('NFKC').replace(/[\p{P}\p{Z}\s]/gu,'').includes(other.word),c.word+' reveals '+other.word);
+});
+test('browser refuses old automatic masking clues but keeps readable legacy ones',()=>{
+ const p=bank();p.news.candidates.push({...p.news.candidates[0],id:'legacy-masked',word:'美國',clue:'據報導，美○宣布政策。（2字）'});
+ const result=currentBank(p,{now});assert(!result.news.candidates.some(c=>c.id==='legacy-masked'));
+ assert(result.news.candidates.length>=3);
+});
+test('weekly RSS update regenerates natural clues from previously masked keyword drafts',()=>{
+ const previous=bank();for(const e of previous.news.events)for(const k of e.keywords)k.clue='據報導○○○（2字）';
+ const updated=buildBank([result()],{now,previous});
+ assert.equal(updated.automation.clue_style,'natural-v1');assert(updated.news.candidates.every(c=>!/[○◯□]/u.test(c.clue)));
 });

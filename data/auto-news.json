@@ -33,15 +33,29 @@
         "keywords": [
           {
             "word": "香港",
-            "clue": "據報導「○港續獲評為全球最自由○○體  」，補全國家或地區。（2字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：以維多利亞港及太平山夜景聞名的是哪個地區？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 86,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：以維多利亞港及太平山夜景聞名的是哪個地區？（2字）"
           },
           {
             "word": "經濟",
-            "clue": "據報導「為全球最自由○濟體  但得分下降」，補全用語。（2字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：生產、分配與消費等活動形成的整體，統稱為什麼？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 86,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：生產、分配與消費等活動形成的整體，統稱為什麼？（2字）"
           }
         ],
         "aliases": [
@@ -78,16 +92,43 @@
         ],
         "keywords": [
           {
-            "word": "央行",
-            "clue": "據報導「○○○行連續第23個月增持○○」，補全機關或組織。（2字）",
+            "word": "中國",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：以北京為首都、境內有萬里長城的是哪個國家？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 86,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：以北京為首都、境內有萬里長城的是哪個國家？（2字）"
+          },
+          {
+            "word": "央行",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：負責貨幣政策與穩定幣值的機構，常用兩字簡稱是什麼？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "easy",
+            "clue": "本週報導用語：負責貨幣政策與穩定幣值的機構，常用兩字簡稱是什麼？（2字）"
           },
           {
             "word": "黃金",
-            "clue": "據報導「23個月增持黃○」，補全用語。（2字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：化學符號為Au、呈黃色光澤的貴金屬，稱為什麼？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 86,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：化學符號為Au、呈黃色光澤的貴金屬，稱為什麼？（2字）"
           }
         ],
         "aliases": [
@@ -124,16 +165,43 @@
         ],
         "keywords": [
           {
-            "word": "非洲",
-            "clue": "據報導「○○「非○手機之王」○○傳音在港IPO」，補全國家或地區。（2字）",
+            "word": "中國",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：以北京為首都、境內有萬里長城的是哪個國家？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 86,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：以北京為首都、境內有萬里長城的是哪個國家？（2字）"
+          },
+          {
+            "word": "非洲",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：撒哈拉沙漠及尼羅河所在的是哪一洲？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "easy",
+            "clue": "本週報導用語：撒哈拉沙漠及尼羅河所在的是哪一洲？（2字）"
           },
           {
             "word": "深圳",
-            "clue": "據報導「洲手機之王」○圳傳音在港IPO」，補全地名。（2字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：位於珠江三角洲、緊鄰香港的城市是哪裡？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 86,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：位於珠江三角洲、緊鄰香港的城市是哪裡？（2字）"
           }
         ],
         "aliases": [
@@ -168,7 +236,21 @@
             "section": "國際"
           }
         ],
-        "keywords": [],
+        "keywords": [
+          {
+            "word": "中國",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：以北京為首都、境內有萬里長城的是哪個國家？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "easy",
+            "clue": "本週報導用語：以北京為首都、境內有萬里長城的是哪個國家？（2字）"
+          }
+        ],
         "aliases": [
           "cna-6d81727014bbdcc3c9e1"
         ],
@@ -201,7 +283,21 @@
             "section": "國際"
           }
         ],
-        "keywords": [],
+        "keywords": [
+          {
+            "word": "中國",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：以北京為首都、境內有萬里長城的是哪個國家？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "easy",
+            "clue": "本週報導用語：以北京為首都、境內有萬里長城的是哪個國家？（2字）"
+          }
+        ],
         "aliases": [
           "cna-75c5365d0f5b59653d37"
         ],
@@ -237,15 +333,29 @@
         "keywords": [
           {
             "word": "資料中心",
-            "clue": "據報導「原新建上百座○料中心  帶來多少○○引質疑」，補全用語。（4字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：集中設置大量伺服主機、提供運算與儲存服務的設施，稱為什麼？（4字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 92,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：集中設置大量伺服主機、提供運算與儲存服務的設施，稱為什麼？（4字）"
           },
           {
             "word": "就業",
-            "clue": "據報導「  帶來多少就○引質疑」，補全用語。（2字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：取得工作並從事有報酬的勞務活動，稱為什麼？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 86,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：取得工作並從事有報酬的勞務活動，稱為什麼？（2字）"
           }
         ],
         "aliases": [
@@ -280,7 +390,21 @@
             "section": "國際"
           }
         ],
-        "keywords": [],
+        "keywords": [
+          {
+            "word": "中國",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：以北京為首都、境內有萬里長城的是哪個國家？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "easy",
+            "clue": "本週報導用語：以北京為首都、境內有萬里長城的是哪個國家？（2字）"
+          }
+        ],
         "aliases": [
           "cna-fc347ed3a6035caaafcb"
         ],
@@ -313,7 +437,21 @@
             "section": "國際"
           }
         ],
-        "keywords": [],
+        "keywords": [
+          {
+            "word": "中國",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：以北京為首都、境內有萬里長城的是哪個國家？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "easy",
+            "clue": "本週報導用語：以北京為首都、境內有萬里長城的是哪個國家？（2字）"
+          }
+        ],
         "aliases": [
           "cna-cf1bd0ac0b3c16804523"
         ],
@@ -349,15 +487,29 @@
         "keywords": [
           {
             "word": "俄羅斯",
-            "clue": "據報導「○○峰會  ○羅斯對美俄中三方會晤感興趣」，補全國家或地區。（3字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：以莫斯科為首都、國土橫跨歐亞的是哪個國家？（3字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 89,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：以莫斯科為首都、國土橫跨歐亞的是哪個國家？（3字）"
           },
           {
             "word": "深圳",
-            "clue": "據報導「媒：APEC○圳峰會  ○○○對美俄中三方會」，補全地名。（2字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：位於珠江三角洲、緊鄰香港的城市是哪裡？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 86,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：位於珠江三角洲、緊鄰香港的城市是哪裡？（2字）"
           }
         ],
         "aliases": [
@@ -395,9 +547,29 @@
         "keywords": [
           {
             "word": "俄羅斯",
-            "clue": "據報導「○羅斯傳鼠疫案例  ○○：中俄就傳」，補全國家或地區。（3字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：以莫斯科為首都、國土橫跨歐亞的是哪個國家？（3字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 89,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：以莫斯科為首都、國土橫跨歐亞的是哪個國家？（3字）"
+          },
+          {
+            "word": "北京",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：故宮與天安門所在、作為中國首都的城市是哪裡？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "easy",
+            "clue": "本週報導用語：故宮與天安門所在、作為中國首都的城市是哪裡？（2字）"
           }
         ],
         "aliases": [
@@ -467,10 +639,30 @@
         ],
         "keywords": [
           {
-            "word": "就業",
-            "clue": "據報導「○○博士就○分化  名校生搭AI浪潮年薪」，補全用語。（2字）",
+            "word": "中國",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：以北京為首都、境內有萬里長城的是哪個國家？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 86,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：以北京為首都、境內有萬里長城的是哪個國家？（2字）"
+          },
+          {
+            "word": "就業",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：取得工作並從事有報酬的勞務活動，稱為什麼？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "easy",
+            "clue": "本週報導用語：取得工作並從事有報酬的勞務活動，稱為什麼？（2字）"
           }
         ],
         "aliases": [
@@ -507,9 +699,16 @@
         "keywords": [
           {
             "word": "台灣",
-            "clue": "據報導「郎朗○灣行  協奏曲加獨奏會將生命體」，補全國家或地區。（2字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：以玉山為最高峰、位於東亞海域的是哪座島嶼？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 86,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：以玉山為最高峰、位於東亞海域的是哪座島嶼？（2字）"
           }
         ],
         "aliases": [
@@ -546,9 +745,29 @@
         "keywords": [
           {
             "word": "台灣",
-            "clue": "據報導「○○出版社、○灣版代提告」，補全國家或地區。（2字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：以玉山為最高峰、位於東亞海域的是哪座島嶼？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 86,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：以玉山為最高峰、位於東亞海域的是哪座島嶼？（2字）"
+          },
+          {
+            "word": "歐洲",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：阿爾卑斯山及多瑙河所在的是哪一洲？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "easy",
+            "clue": "本週報導用語：阿爾卑斯山及多瑙河所在的是哪一洲？（2字）"
           }
         ],
         "aliases": [
@@ -585,9 +804,29 @@
         "keywords": [
           {
             "word": "利率",
-            "clue": "據報導「續漲與美債殖利○回落　○○收高」，補全用語。（2字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：借款或存款的利息相對於本金的比率，稱為什麼？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 86,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：借款或存款的利息相對於本金的比率，稱為什麼？（2字）"
+          },
+          {
+            "word": "美股",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：在美國交易的股票市場，常用兩字簡稱是什麼？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "easy",
+            "clue": "本週報導用語：在美國交易的股票市場，常用兩字簡稱是什麼？（2字）"
           }
         ],
         "aliases": [
@@ -624,15 +863,42 @@
         "keywords": [
           {
             "word": "台積電",
-            "clue": "據報導「○○收紅台○電ADR跌　投顧：○○延續高檔」，補全企業。（3字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：1987年創立、專門替客戶製造積體電路的企業，簡稱是哪三字？（3字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 89,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：1987年創立、專門替客戶製造積體電路的企業，簡稱是哪三字？（3字）"
           },
           {
             "word": "台股",
-            "clue": "據報導「R跌　投顧：台○延續高檔震盪」，補全用語。（2字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：我國股票交易市場的常用兩字簡稱是什麼？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 86,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：我國股票交易市場的常用兩字簡稱是什麼？（2字）"
+          },
+          {
+            "word": "美股",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：在美國交易的股票市場，常用兩字簡稱是什麼？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "easy",
+            "clue": "本週報導用語：在美國交易的股票市場，常用兩字簡稱是什麼？（2字）"
           }
         ],
         "aliases": [
@@ -669,9 +935,16 @@
         "keywords": [
           {
             "word": "台股",
-            "clue": "據報導「台○開盤漲34.77點」，補全用語。（2字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：我國股票交易市場的常用兩字簡稱是什麼？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 86,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：我國股票交易市場的常用兩字簡稱是什麼？（2字）"
           }
         ],
         "aliases": [
@@ -708,9 +981,16 @@
         "keywords": [
           {
             "word": "新台幣",
-            "clue": "據報導「○台幣開盤貶1.9分　為31.8元」，補全用語。（3字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：我國日常交易使用的法定貨幣，名稱是哪三字？（3字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 89,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：我國日常交易使用的法定貨幣，名稱是哪三字？（3字）"
           }
         ],
         "aliases": [
@@ -747,9 +1027,16 @@
         "keywords": [
           {
             "word": "營收",
-            "clue": "據報導「奇鋐9月營○首破200億大關　連3月創新」，補全用語。（2字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：企業銷售商品或提供服務所取得的收入，常用哪兩字簡稱？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 86,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：企業銷售商品或提供服務所取得的收入，常用哪兩字簡稱？（2字）"
           }
         ],
         "aliases": [
@@ -786,21 +1073,42 @@
         "keywords": [
           {
             "word": "記憶體",
-            "clue": "據報導「勢衝5萬點　○憶體光○○表現強」，補全用語。（3字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：電腦用來暫存或保存資料的元件，稱為什麼？（3字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 89,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：電腦用來暫存或保存資料的元件，稱為什麼？（3字）"
           },
           {
             "word": "通訊",
-            "clue": "據報導「點　○○○光○訊表現強」，補全用語。（2字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：利用訊號或設備傳遞訊息的活動，稱為什麼？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 86,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：利用訊號或設備傳遞訊息的活動，稱為什麼？（2字）"
           },
           {
             "word": "台股",
-            "clue": "據報導「台○早盤最高49966點蓄勢衝5」，補全用語。（2字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：我國股票交易市場的常用兩字簡稱是什麼？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 86,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：我國股票交易市場的常用兩字簡稱是什麼？（2字）"
           }
         ],
         "aliases": [
@@ -836,10 +1144,30 @@
         ],
         "keywords": [
           {
+            "word": "美國",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：首都為華盛頓、國旗有星條圖案的是哪個國家？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "easy",
+            "clue": "本週報導用語：首都為華盛頓、國旗有星條圖案的是哪個國家？（2字）"
+          },
+          {
             "word": "半導體",
-            "clue": "據報導「成啟用　搶攻○導體與航太商機」，補全用語。（3字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：導電能力介於良導體與絕緣體之間的材料，稱為什麼？（3字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 89,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：導電能力介於良導體與絕緣體之間的材料，稱為什麼？（3字）"
           }
         ],
         "aliases": [
@@ -908,9 +1236,16 @@
         "keywords": [
           {
             "word": "台股",
-            "clue": "據報導「台○5萬點咫尺之遙　權值股疲軟、」，補全用語。（2字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：我國股票交易市場的常用兩字簡稱是什麼？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 86,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：我國股票交易市場的常用兩字簡稱是什麼？（2字）"
           }
         ],
         "aliases": [
@@ -947,9 +1282,16 @@
         "keywords": [
           {
             "word": "南亞",
-            "clue": "據報導「○亞○○創高　吳嘉昭：明年營運會」，補全企業。（2字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：英文名稱為Nan Ya、以塑膠加工及纖維起家的企業是哪一家？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 86,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：英文名稱為Nan Ya、以塑膠加工及纖維起家的企業是哪一家？（2字）"
           }
         ],
         "aliases": [
@@ -986,9 +1328,16 @@
         "keywords": [
           {
             "word": "台塑",
-            "clue": "據報導「○塑新智能揮軍CSP市場　攜創曦」，補全企業。（2字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：1954年創立、以塑膠原料起家的大型企業，簡稱是哪兩字？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 86,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：1954年創立、以塑膠原料起家的大型企業，簡稱是哪兩字？（2字）"
           }
         ],
         "aliases": [
@@ -1025,9 +1374,16 @@
         "keywords": [
           {
             "word": "新台幣",
-            "clue": "據報導「○台幣午盤貶0.7分　暫收31.7」，補全用語。（3字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：我國日常交易使用的法定貨幣，名稱是哪三字？（3字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 89,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：我國日常交易使用的法定貨幣，名稱是哪三字？（3字）"
           }
         ],
         "aliases": [
@@ -1063,16 +1419,43 @@
         ],
         "keywords": [
           {
-            "word": "經濟",
-            "clue": "據報導「泰○濟學家：○○○重整　台商從○○」，補全用語。（2字）",
+            "word": "中國",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：以北京為首都、境內有萬里長城的是哪個國家？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 86,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：以北京為首都、境內有萬里長城的是哪個國家？（2字）"
+          },
+          {
+            "word": "經濟",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：生產、分配與消費等活動形成的整體，統稱為什麼？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "easy",
+            "clue": "本週報導用語：生產、分配與消費等活動形成的整體，統稱為什麼？（2字）"
           },
           {
             "word": "供應鏈",
-            "clue": "據報導「泰○○學家：○應鏈重整　台商從○○移往東協國家」，補全用語。（3字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：原料取得、製造與配送等環節串接成的體系，稱為什麼？（3字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 89,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：原料取得、製造與配送等環節串接成的體系，稱為什麼？（3字）"
           }
         ],
         "aliases": [
@@ -1143,9 +1526,16 @@
         "keywords": [
           {
             "word": "台股",
-            "clue": "據報導「台○收跌16點」，補全用語。（2字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：我國股票交易市場的常用兩字簡稱是什麼？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 86,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：我國股票交易市場的常用兩字簡稱是什麼？（2字）"
           }
         ],
         "aliases": [
@@ -1216,15 +1606,29 @@
         "keywords": [
           {
             "word": "電子",
-            "clue": "據報導「10月○子期跌　○○期漲」，補全用語。（2字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：帶有負電荷、構成原子的一種微小粒子，稱為什麼？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 86,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：帶有負電荷、構成原子的一種微小粒子，稱為什麼？（2字）"
           },
           {
             "word": "金融",
-            "clue": "據報導「月○○期跌　○融期漲」，補全用語。（2字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：與貨幣、信用及資金流通相關的活動，統稱為什麼？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 86,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：與貨幣、信用及資金流通相關的活動，統稱為什麼？（2字）"
           }
         ],
         "aliases": [
@@ -1262,9 +1666,16 @@
         "keywords": [
           {
             "word": "台股",
-            "clue": "據報導「權值股熄火　台○小跌收黑坐望5萬點」，補全用語。（2字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：我國股票交易市場的常用兩字簡稱是什麼？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 86,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：我國股票交易市場的常用兩字簡稱是什麼？（2字）"
           }
         ],
         "aliases": [
@@ -1302,9 +1713,16 @@
         "keywords": [
           {
             "word": "台電",
-            "clue": "據報導「動拆除工程　○電拚2029年初完成」，補全機關或組織。（2字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：我國主要供電公司的常用兩字簡稱是什麼？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 86,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：我國主要供電公司的常用兩字簡稱是什麼？（2字）"
           }
         ],
         "aliases": [
@@ -1342,15 +1760,29 @@
         "keywords": [
           {
             "word": "金融",
-            "clue": "據報導「通貨公會加入○融總會　共37會員增進○○交流」，補全用語。（2字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：與貨幣、信用及資金流通相關的活動，統稱為什麼？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 86,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：與貨幣、信用及資金流通相關的活動，統稱為什麼？（2字）"
           },
           {
             "word": "產業",
-            "clue": "據報導「37會員增進產○交流」，補全用語。（2字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：生產同類商品或提供同類服務的事業群體，統稱為什麼？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 86,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：生產同類商品或提供同類服務的事業群體，統稱為什麼？（2字）"
           }
         ],
         "aliases": [
@@ -1388,15 +1820,29 @@
         "keywords": [
           {
             "word": "半導體",
-            "clue": "據報導「AI和○導體股○○賣壓拖累　日股收跌」，補全用語。（3字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：導電能力介於良導體與絕緣體之間的材料，稱為什麼？（3字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 89,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：導電能力介於良導體與絕緣體之間的材料，稱為什麼？（3字）"
           },
           {
             "word": "獲利",
-            "clue": "據報導「I和○○○股○利賣壓拖累　日股收跌」，補全用語。（2字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：收入扣除成本與費用後的正向成果，稱為什麼？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 86,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：收入扣除成本與費用後的正向成果，稱為什麼？（2字）"
           }
         ],
         "aliases": [
@@ -1434,15 +1880,29 @@
         "keywords": [
           {
             "word": "桃園",
-            "clue": "據報導「○○○園廠工會取得罷工權　擬鼓勵員工」，補全地名。（2字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：我國主要國際機場所在、以航空城發展聞名的是哪個城市？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 86,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：我國主要國際機場所在、以航空城發展聞名的是哪個城市？（2字）"
           },
           {
             "word": "美光",
-            "clue": "據報導「美○○○廠工會取得罷工權　擬鼓勵」，補全企業。（2字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：以儲存及運算用積體電路聞名、英文名稱為Micron的企業是哪一家？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 86,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：以儲存及運算用積體電路聞名、英文名稱為Micron的企業是哪一家？（2字）"
           }
         ],
         "aliases": [
@@ -1480,9 +1940,16 @@
         "keywords": [
           {
             "word": "台股",
-            "clue": "據報導「三大法人賣超台○212.57億元」，補全用語。（2字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：我國股票交易市場的常用兩字簡稱是什麼？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 86,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：我國股票交易市場的常用兩字簡稱是什麼？（2字）"
           }
         ],
         "aliases": [
@@ -1520,9 +1987,16 @@
         "keywords": [
           {
             "word": "貿易",
-            "clue": "據報導「台日簽署雙邊○易協定努力」，補全用語。（2字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：買賣商品與服務，尤其涉及跨國交換的活動，稱為什麼？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 86,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：買賣商品與服務，尤其涉及跨國交換的活動，稱為什麼？（2字）"
           }
         ],
         "aliases": [
@@ -1560,9 +2034,16 @@
         "keywords": [
           {
             "word": "南亞",
-            "clue": "據報導「○亞與LS ELECTRIC合資」，補全企業。（2字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：英文名稱為Nan Ya、以塑膠加工及纖維起家的企業是哪一家？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 86,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：英文名稱為Nan Ya、以塑膠加工及纖維起家的企業是哪一家？（2字）"
           }
         ],
         "aliases": [
@@ -1600,9 +2081,16 @@
         "keywords": [
           {
             "word": "營收",
-            "clue": "據報導「9月、第3季營○創新高　AI需求強勁助攻」，補全用語。（2字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：企業銷售商品或提供服務所取得的收入，常用哪兩字簡稱？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 86,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：企業銷售商品或提供服務所取得的收入，常用哪兩字簡稱？（2字）"
           }
         ],
         "aliases": [
@@ -1640,9 +2128,16 @@
         "keywords": [
           {
             "word": "新台幣",
-            "clue": "據報導「○台幣貶1.4分　收31.795元」，補全用語。（3字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：我國日常交易使用的法定貨幣，名稱是哪三字？（3字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 89,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：我國日常交易使用的法定貨幣，名稱是哪三字？（3字）"
           }
         ],
         "aliases": [
@@ -1680,9 +2175,21 @@
         "keywords": [
           {
             "word": "數發部",
-            "clue": "據報導「○發部推AI算力中心BOO案　第2」，補全機關或組織。（3字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：掌理數位發展政策的中央部會，常用三字簡稱是什麼？（3字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              },
+              {
+                "clue": "據報導，哪個機關或組織推AI算力中心BOO案　第2波吸引2業者申請？（3字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "event"
+              }
+            ],
             "answer_score": 89,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：掌理數位發展政策的中央部會，常用三字簡稱是什麼？（3字）"
           }
         ],
         "aliases": [
@@ -1720,27 +2227,55 @@
         "keywords": [
           {
             "word": "台灣",
-            "clue": "據報導「渣打銀看○灣「○○最具○○吸引力」　估台」，補全國家或地區。（2字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：以玉山為最高峰、位於東亞海域的是哪座島嶼？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 86,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：以玉山為最高峰、位於東亞海域的是哪座島嶼？（2字）"
           },
           {
             "word": "亞洲",
-            "clue": "據報導「打銀看○○「亞○最具○○吸引力」　估○○高點」，補全國家或地區。（2字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：世界七大洲中，面積最大的是哪一洲？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 86,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：世界七大洲中，面積最大的是哪一洲？（2字）"
           },
           {
             "word": "台股",
-            "clue": "據報導「吸引力」　估台○高點可期」，補全用語。（2字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：我國股票交易市場的常用兩字簡稱是什麼？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 86,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：我國股票交易市場的常用兩字簡稱是什麼？（2字）"
           },
           {
             "word": "投資",
-            "clue": "據報導「灣「○○最具投○吸引力」　估○○高點可期」，補全用語。（2字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：投入資金或資源，期望日後取得回報的活動，稱為什麼？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 86,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：投入資金或資源，期望日後取得回報的活動，稱為什麼？（2字）"
           }
         ],
         "aliases": [
@@ -1778,9 +2313,16 @@
         "keywords": [
           {
             "word": "營收",
-            "clue": "據報導「力成第3季營○創新高　估第4季續成長」，補全用語。（2字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：企業銷售商品或提供服務所取得的收入，常用哪兩字簡稱？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 86,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：企業銷售商品或提供服務所取得的收入，常用哪兩字簡稱？（2字）"
           }
         ],
         "aliases": [
@@ -1818,9 +2360,16 @@
         "keywords": [
           {
             "word": "通膨",
-            "clue": "據報導「3%連5月破○膨警戒線　逾2年半最大漲幅」，補全用語。（2字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：整體物價持續普遍上升的現象，常用哪兩字簡稱？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 86,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：整體物價持續普遍上升的現象，常用哪兩字簡稱？（2字）"
           }
         ],
         "aliases": [
@@ -1829,15 +2378,16 @@
         "content_revision": "cna-dc0125fa06821ec17cac"
       },
       {
-        "event_id": "cna-57476d0257a5201e2c1f",
-        "dedup_key": "https://www.cna.com.tw/news/ahel/202610070008.aspx",
+        "event_id": "cna-ab677772fd70f6ca2cf4",
+        "dedup_key": "https://www.cna.com.tw/news/afe/202610070243.aspx",
         "event_date": "2026-10-07",
         "updated_at": "2026-10-07",
-        "published_at": "2026-10-06T22:12:34.000Z",
-        "title": "台鐵金崙至瀧溪電車線故障　清晨6時搶通恢復正常行駛",
-        "summary": "台鐵金崙至瀧溪電車線故障　清晨6時搶通恢復正常行駛",
+        "published_at": "2026-10-07T09:07:04.000Z",
+        "title": "雙鴻第3季營收97.9億元年增逾6成　連7季創高",
+        "rss_lead": "",
+        "summary": "雙鴻第3季營收97.9億元年增逾6成　連7季創高",
         "categories": [
-          "生活"
+          "財經"
         ],
         "fact_status": "reported",
         "content_type": "news",
@@ -1845,20 +2395,94 @@
         "anchor_event": false,
         "sources": [
           {
-            "source_id": "rss-aa72bac1e78679b944eb",
+            "source_id": "rss-b53380b82f8bc6ab4346",
             "publisher": "中央通訊社",
             "kind": "newswire",
-            "url": "https://www.cna.com.tw/news/ahel/202610070008.aspx",
+            "url": "https://www.cna.com.tw/news/afe/202610070243.aspx",
             "published_at": "2026-10-07",
-            "excerpt": "台鐵金崙至瀧溪電車線故障　清晨6時搶通恢復正常行駛",
-            "section": "生活"
+            "excerpt": "雙鴻第3季營收97.9億元年增逾6成　連7季創高",
+            "section": "財經"
           }
         ],
-        "keywords": [],
-        "aliases": [
-          "cna-57476d0257a5201e2c1f"
+        "keywords": [
+          {
+            "word": "營收",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：企業銷售商品或提供服務所取得的收入，常用哪兩字簡稱？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "easy",
+            "clue": "本週報導用語：企業銷售商品或提供服務所取得的收入，常用哪兩字簡稱？（2字）"
+          }
         ],
-        "content_revision": "cna-57476d0257a5201e2c1f"
+        "aliases": [
+          "cna-ab677772fd70f6ca2cf4"
+        ],
+        "content_revision": "cna-ab677772fd70f6ca2cf4"
+      },
+      {
+        "event_id": "cna-eaef40b0d40a5fa48ebe",
+        "dedup_key": "https://www.cna.com.tw/news/afe/202610070247.aspx",
+        "event_date": "2026-10-07",
+        "updated_at": "2026-10-07",
+        "published_at": "2026-10-07T09:18:14.000Z",
+        "title": "桃園廠工會取得罷工權　美光：尊重員工權利持續溝通",
+        "rss_lead": "",
+        "summary": "桃園廠工會取得罷工權　美光：尊重員工權利持續溝通",
+        "categories": [
+          "財經"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-1b70086d6ba73fe6ed10",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/afe/202610070247.aspx",
+            "published_at": "2026-10-07",
+            "excerpt": "桃園廠工會取得罷工權　美光：尊重員工權利持續溝通",
+            "section": "財經"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "桃園",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：我國主要國際機場所在、以航空城發展聞名的是哪個城市？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "easy",
+            "clue": "本週報導用語：我國主要國際機場所在、以航空城發展聞名的是哪個城市？（2字）"
+          },
+          {
+            "word": "美光",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：以儲存及運算用積體電路聞名、英文名稱為Micron的企業是哪一家？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "easy",
+            "clue": "本週報導用語：以儲存及運算用積體電路聞名、英文名稱為Micron的企業是哪一家？（2字）"
+          }
+        ],
+        "aliases": [
+          "cna-eaef40b0d40a5fa48ebe"
+        ],
+        "content_revision": "cna-eaef40b0d40a5fa48ebe"
       },
       {
         "event_id": "cna-092181f4513bd259da78",
@@ -1888,10 +2512,30 @@
         ],
         "keywords": [
           {
-            "word": "低溫",
-            "clue": "據報導「日前防16度低○」，補全用語。（2字）",
+            "word": "新北",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：環繞首都周邊、境內有九份及野柳的是哪個城市？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 86,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：環繞首都周邊、境內有九份及野柳的是哪個城市？（2字）"
+          },
+          {
+            "word": "低溫",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：氣溫或物體溫度較低的狀態，稱為什麼？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "easy",
+            "clue": "本週報導用語：氣溫或物體溫度較低的狀態，稱為什麼？（2字）"
           }
         ],
         "aliases": [
@@ -1960,9 +2604,16 @@
         "keywords": [
           {
             "word": "大學",
-            "clue": "據報導「○學排碳不輸工廠　擬以校園為核心」，補全用語。（2字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：提供高等學習、授予學士等學位的機構，稱為什麼？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 86,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：提供高等學習、授予學士等學位的機構，稱為什麼？（2字）"
           }
         ],
         "aliases": [
@@ -1999,9 +2650,16 @@
         "keywords": [
           {
             "word": "學生",
-            "clue": "據報導「學團盼增加○生生理假天數　教部允邀專家學者」，補全用語。（2字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：在校接受課程與學習的人，稱為什麼？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 86,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：在校接受課程與學習的人，稱為什麼？（2字）"
           }
         ],
         "aliases": [
@@ -2072,9 +2730,16 @@
         "keywords": [
           {
             "word": "學生",
-            "clue": "據報導「○生團體籲放寬生理假限制、每月至」，補全用語。（2字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：在校接受課程與學習的人，稱為什麼？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 86,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：在校接受課程與學習的人，稱為什麼？（2字）"
           }
         ],
         "aliases": [
@@ -2145,9 +2810,16 @@
         "keywords": [
           {
             "word": "台灣",
-            "clue": "據報導「調查：○灣民眾遊日韓　去年體驗類消費成」，補全國家或地區。（2字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：以玉山為最高峰、位於東亞海域的是哪座島嶼？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 86,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：以玉山為最高峰、位於東亞海域的是哪座島嶼？（2字）"
           }
         ],
         "aliases": [
@@ -2185,9 +2857,16 @@
         "keywords": [
           {
             "word": "國慶",
-            "clue": "據報導「○慶連假鼓勵民眾國旅 全台樂園祭」，補全用語。（2字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：紀念一個國家成立等重要歷史事件的慶祝活動，稱為什麼？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 86,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：紀念一個國家成立等重要歷史事件的慶祝活動，稱為什麼？（2字）"
           }
         ],
         "aliases": [
@@ -2225,15 +2904,29 @@
         "keywords": [
           {
             "word": "高鐵",
-            "clue": "據報導「○○連假高○訂位率8成　10/8開放8班」，補全機關或組織。（2字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：列車時速可達三百公里的西部快速軌道運輸系統，簡稱是哪兩字？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 86,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：列車時速可達三百公里的西部快速軌道運輸系統，簡稱是哪兩字？（2字）"
           },
           {
             "word": "國慶",
-            "clue": "據報導「○慶連假○○訂位率8成　10/8」，補全用語。（2字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：紀念一個國家成立等重要歷史事件的慶祝活動，稱為什麼？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 86,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：紀念一個國家成立等重要歷史事件的慶祝活動，稱為什麼？（2字）"
           }
         ],
         "aliases": [
@@ -2271,9 +2964,16 @@
         "keywords": [
           {
             "word": "高鐵",
-            "clue": "據報導「運需求旺盛　高○11/6至12/20週末短期」，補全機關或組織。（2字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：列車時速可達三百公里的西部快速軌道運輸系統，簡稱是哪兩字？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 86,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：列車時速可達三百公里的西部快速軌道運輸系統，簡稱是哪兩字？（2字）"
           }
         ],
         "aliases": [
@@ -2310,10 +3010,30 @@
         ],
         "keywords": [
           {
-            "word": "國慶",
-            "clue": "據報導「○慶晚會10/9登場　○○：部署」，補全用語。（2字）",
+            "word": "新北",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：環繞首都周邊、境內有九份及野柳的是哪個城市？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 86,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：環繞首都周邊、境內有九份及野柳的是哪個城市？（2字）"
+          },
+          {
+            "word": "國慶",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：紀念一個國家成立等重要歷史事件的慶祝活動，稱為什麼？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "easy",
+            "clue": "本週報導用語：紀念一個國家成立等重要歷史事件的慶祝活動，稱為什麼？（2字）"
           }
         ],
         "aliases": [
@@ -2351,9 +3071,16 @@
         "keywords": [
           {
             "word": "紅十字會",
-            "clue": "據報導「傳溺水意外　○十字會籲善用救生器材」，補全機關或組織。（4字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：以紅色十字標誌從事人道救援的組織，名稱是哪四字？（4字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 92,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：以紅色十字標誌從事人道救援的組織，名稱是哪四字？（4字）"
           }
         ],
         "aliases": [
@@ -2391,9 +3118,16 @@
         "keywords": [
           {
             "word": "國慶",
-            "clue": "據報導「○慶連假前2日北市訂房率居冠　部」，補全用語。（2字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：紀念一個國家成立等重要歷史事件的慶祝活動，稱為什麼？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 86,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：紀念一個國家成立等重要歷史事件的慶祝活動，稱為什麼？（2字）"
           }
         ],
         "aliases": [
@@ -2431,9 +3165,16 @@
         "keywords": [
           {
             "word": "疫苗",
-            "clue": "據報導「ovavax○苗擬10月下旬開打」，補全用語。（2字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：用來讓身體對特定病原產生保護性反應的製劑，稱為什麼？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 86,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：用來讓身體對特定病原產生保護性反應的製劑，稱為什麼？（2字）"
           }
         ],
         "aliases": [
@@ -2503,16 +3244,56 @@
         ],
         "keywords": [
           {
-            "word": "台中",
-            "clue": "據報導「　區間快○○○中2小時10分」，補全地名。（2字）",
+            "word": "台北",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：以101大樓、故宮及龍山寺聞名的北部城市是哪裡？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 86,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：以101大樓、故宮及龍山寺聞名的北部城市是哪裡？（2字）"
+          },
+          {
+            "word": "台中",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：以逢甲夜市及歌劇院聞名的中部城市是哪裡？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "easy",
+            "clue": "本週報導用語：以逢甲夜市及歌劇院聞名的中部城市是哪裡？（2字）"
+          },
+          {
+            "word": "台鐵",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：以傳統軌道列車提供全島幹線服務的公營公司，簡稱是哪兩字？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "easy",
+            "clue": "本週報導用語：以傳統軌道列車提供全島幹線服務的公營公司，簡稱是哪兩字？（2字）"
           },
           {
             "word": "國慶",
-            "clue": "據報導「○慶連假○○再加開3列次　區間快」，補全用語。（2字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：紀念一個國家成立等重要歷史事件的慶祝活動，稱為什麼？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 86,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：紀念一個國家成立等重要歷史事件的慶祝活動，稱為什麼？（2字）"
           }
         ],
         "aliases": [
@@ -2550,9 +3331,16 @@
         "keywords": [
           {
             "word": "最低工資",
-            "clue": "據報導「擬調升  以○低○○1.75倍訂定」，補全用語。（4字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：依法規定雇主給付工作報酬不得低於的下限，稱為什麼？（4字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 92,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：依法規定雇主給付工作報酬不得低於的下限，稱為什麼？（4字）"
           }
         ],
         "aliases": [
@@ -2590,9 +3378,16 @@
         "keywords": [
           {
             "word": "高雄",
-            "clue": "據報導「空污抵換源以○雄為先」，補全地名。（2字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：以大型港口、駁二藝術區及愛河聞名的南部城市是哪裡？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 86,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：以大型港口、駁二藝術區及愛河聞名的南部城市是哪裡？（2字）"
           }
         ],
         "aliases": [
@@ -2630,9 +3425,16 @@
         "keywords": [
           {
             "word": "學校",
-            "clue": "據報導「修法防濫訴　○校認定合理管教可結案」，補全用語。（2字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：提供有組織課程、讓人接受學習的場所，稱為什麼？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 86,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：提供有組織課程、讓人接受學習的場所，稱為什麼？（2字）"
           }
         ],
         "aliases": [
@@ -2670,21 +3472,42 @@
         "keywords": [
           {
             "word": "工資",
-            "clue": "據報導「日　○○出勤工○須加倍給付」，補全用語。（2字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：雇主支付給受雇者的工作報酬，稱為什麼？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 86,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：雇主支付給受雇者的工作報酬，稱為什麼？（2字）"
           },
           {
             "word": "勞工",
-            "clue": "據報導「為國定假日　○工出勤○○須加倍給付」，補全用語。（2字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：受雇提供勞務、換取工作報酬的人，稱為什麼？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 86,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：受雇提供勞務、換取工作報酬的人，稱為什麼？（2字）"
           },
           {
             "word": "國慶日",
-            "clue": "據報導「○慶日為國定假日　○○出勤○○須加」，補全用語。（3字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：紀念國家成立等重要歷史事件的特定日子，稱為什麼？（3字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 89,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：紀念國家成立等重要歷史事件的特定日子，稱為什麼？（3字）"
           }
         ],
         "aliases": [
@@ -2722,9 +3545,16 @@
         "keywords": [
           {
             "word": "健康",
-            "clue": "據報導「青少年心理○康照護　專家籲建「親子共治」雙」，補全用語。（2字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：身心狀態良好、能適應日常生活的狀態，稱為什麼？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 86,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：身心狀態良好、能適應日常生活的狀態，稱為什麼？（2字）"
           }
         ],
         "aliases": [
@@ -2762,9 +3592,16 @@
         "keywords": [
           {
             "word": "食藥署",
-            "clue": "據報導「○藥署稽查素食餐飲業  逾期○○等」，補全機關或組織。（3字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：掌理飲食與藥物安全的中央機關，常用三字簡稱是什麼？（3字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 89,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：掌理飲食與藥物安全的中央機關，常用三字簡稱是什麼？（3字）"
           }
         ],
         "aliases": [
@@ -2806,38 +3643,6 @@
         "content_revision": "cna-c07bdd5e3afee23eb6b8"
       },
       {
-        "event_id": "cna-26c0807b05b1eee22250",
-        "dedup_key": "https://www.cna.com.tw/news/aipl/202610070007.aspx",
-        "event_date": "2026-10-07",
-        "updated_at": "2026-10-07",
-        "published_at": "2026-10-06T22:11:32.000Z",
-        "title": "中國涉在美監控賴總統之子　彭斯：北京是美最大威脅",
-        "summary": "中國涉在美監控賴總統之子　彭斯：北京是美最大威脅",
-        "categories": [
-          "台灣"
-        ],
-        "fact_status": "reported",
-        "content_type": "news",
-        "event_score": 80,
-        "anchor_event": false,
-        "sources": [
-          {
-            "source_id": "rss-ed4fd308ce3147b80abe",
-            "publisher": "中央通訊社",
-            "kind": "newswire",
-            "url": "https://www.cna.com.tw/news/aipl/202610070007.aspx",
-            "published_at": "2026-10-07",
-            "excerpt": "中國涉在美監控賴總統之子　彭斯：北京是美最大威脅",
-            "section": "台灣"
-          }
-        ],
-        "keywords": [],
-        "aliases": [
-          "cna-26c0807b05b1eee22250"
-        ],
-        "content_revision": "cna-26c0807b05b1eee22250"
-      },
-      {
         "event_id": "cna-80ec59eb9014e5837d8a",
         "dedup_key": "https://www.cna.com.tw/news/aipl/202610070012.aspx",
         "event_date": "2026-10-07",
@@ -2867,15 +3672,29 @@
         "keywords": [
           {
             "word": "台灣",
-            "clue": "據報導「：○○國會對○灣人民及自由承諾堅定不移」，補全國家或地區。（2字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：以玉山為最高峰、位於東亞海域的是哪座島嶼？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 86,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：以玉山為最高峰、位於東亞海域的是哪座島嶼？（2字）"
           },
           {
-            "word": "蔡英文",
-            "clue": "據報導「裴洛西晤○英文：○○國會對○○人民及自由承」，補全人物。（3字）",
-            "answer_score": 89,
-            "difficulty": "easy"
+            "word": "美國",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：首都為華盛頓、國旗有星條圖案的是哪個國家？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "easy",
+            "clue": "本週報導用語：首都為華盛頓、國旗有星條圖案的是哪個國家？（2字）"
           }
         ],
         "aliases": [
@@ -2913,9 +3732,16 @@
         "keywords": [
           {
             "word": "台灣",
-            "clue": "據報導「子　疑受命查○灣反共民選官員資訊」，補全國家或地區。（2字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：以玉山為最高峰、位於東亞海域的是哪座島嶼？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 86,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：以玉山為最高峰、位於東亞海域的是哪座島嶼？（2字）"
           }
         ],
         "aliases": [
@@ -2953,15 +3779,29 @@
         "keywords": [
           {
             "word": "北韓",
-            "clue": "據報導「北○批美對台軍售加劇台海緊張　促」，補全國家或地區。（2字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：以平壤為首都、位於朝鮮半島北部的是哪個國家？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 86,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：以平壤為首都、位於朝鮮半島北部的是哪個國家？（2字）"
           },
           {
             "word": "華府",
-            "clue": "據報導「台海緊張　促○府三思後果」，補全地名。（2字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：華盛頓特區的常用兩字中文簡稱是什麼？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 86,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：華盛頓特區的常用兩字中文簡稱是什麼？（2字）"
           }
         ],
         "aliases": [
@@ -2999,9 +3839,16 @@
         "keywords": [
           {
             "word": "僑委會",
-            "clue": "據報導「　即日起請辭僑○會委員長」，補全機關或組織。（3字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：掌理海外僑民事務的中央委員會，常用三字簡稱是什麼？（3字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 89,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：掌理海外僑民事務的中央委員會，常用三字簡稱是什麼？（3字）"
           }
         ],
         "aliases": [
@@ -3069,14 +3916,7 @@
             "section": "台灣"
           }
         ],
-        "keywords": [
-          {
-            "word": "卓榮泰",
-            "clue": "據報導「護清譽意願　○榮泰已准辭」，補全人物。（3字）",
-            "answer_score": 89,
-            "difficulty": "easy"
-          }
-        ],
+        "keywords": [],
         "aliases": [
           "cna-deed2e7776463e56a1ed"
         ],
@@ -3145,21 +3985,29 @@
         "keywords": [
           {
             "word": "台灣",
-            "clue": "據報導「英文送裴洛西○灣味　○○絲巾、巧克力藏巧思」，補全國家或地區。（2字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：以玉山為最高峰、位於東亞海域的是哪座島嶼？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 86,
-            "difficulty": "easy"
-          },
-          {
-            "word": "蔡英文",
-            "clue": "據報導「○英文送裴洛西○○味　○○絲巾、巧」，補全人物。（3字）",
-            "answer_score": 89,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：以玉山為最高峰、位於東亞海域的是哪座島嶼？（2字）"
           },
           {
             "word": "珊瑚",
-            "clue": "據報導「洛西○○味　○瑚絲巾、巧克力藏巧思」，補全用語。（2字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：能形成礁體、由許多小型海生動物群聚構成的生物，稱為什麼？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 86,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：能形成礁體、由許多小型海生動物群聚構成的生物，稱為什麼？（2字）"
           }
         ],
         "aliases": [
@@ -3263,9 +4111,16 @@
         "keywords": [
           {
             "word": "國慶",
-            "clue": "據報導「請辭前已交接○慶任務」，補全用語。（2字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：紀念一個國家成立等重要歷史事件的慶祝活動，稱為什麼？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 86,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：紀念一個國家成立等重要歷史事件的慶祝活動，稱為什麼？（2字）"
           }
         ],
         "aliases": [
@@ -3336,9 +4191,16 @@
         "keywords": [
           {
             "word": "外交部",
-            "clue": "據報導「白要求檢調、○交部持續調查」，補全機關或組織。（3字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：掌理對外關係、駐外代表及領事事務的中央部會是哪一部？（3字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 89,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：掌理對外關係、駐外代表及領事事務的中央部會是哪一部？（3字）"
           }
         ],
         "aliases": [
@@ -3373,7 +4235,21 @@
             "section": "台灣"
           }
         ],
-        "keywords": [],
+        "keywords": [
+          {
+            "word": "中國",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：以北京為首都、境內有萬里長城的是哪個國家？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "easy",
+            "clue": "本週報導用語：以北京為首都、境內有萬里長城的是哪個國家？（2字）"
+          }
+        ],
         "aliases": [
           "cna-ba9dd4bffc0a13dbaa23"
         ],
@@ -3409,9 +4285,16 @@
         "keywords": [
           {
             "word": "澎湖",
-            "clue": "據報導「澎○海事人才漸減　陳振中允爭取人」，補全地名。（2字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：位於本島西側海域、以玄武岩及雙心石滬聞名的群島是哪裡？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 86,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：位於本島西側海域、以玄武岩及雙心石滬聞名的群島是哪裡？（2字）"
           }
         ],
         "aliases": [
@@ -3446,14 +4329,7 @@
             "section": "台灣"
           }
         ],
-        "keywords": [
-          {
-            "word": "蔡英文",
-            "clue": "據報導「○英文史丹佛研討會晚宴致詞　盼台美」，補全人物。（3字）",
-            "answer_score": 89,
-            "difficulty": "easy"
-          }
-        ],
+        "keywords": [],
         "aliases": [
           "cna-f46b933f4b9ce041cef3"
         ],
@@ -3489,9 +4365,16 @@
         "keywords": [
           {
             "word": "台中",
-            "clue": "據報導「吳沛憶○中掃街  帶領綠女將水湳市場拜」，補全地名。（2字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：以逢甲夜市及歌劇院聞名的中部城市是哪裡？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 86,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：以逢甲夜市及歌劇院聞名的中部城市是哪裡？（2字）"
           }
         ],
         "aliases": [
@@ -3529,21 +4412,42 @@
         "keywords": [
           {
             "word": "台灣",
-            "clue": "據報導「會　英議員：○灣參與國際至關重要」，補全國家或地區。（2字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：以玉山為最高峰、位於東亞海域的是哪座島嶼？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 86,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：以玉山為最高峰、位於東亞海域的是哪座島嶼？（2字）"
           },
           {
             "word": "英國",
-            "clue": "據報導「駐英○代表處○○酒會　英議員：○○」，補全國家或地區。（2字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：以倫敦為首都、使用英鎊的是哪個國家？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 86,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：以倫敦為首都、使用英鎊的是哪個國家？（2字）"
           },
           {
             "word": "國慶",
-            "clue": "據報導「駐○○代表處○慶酒會　英議員：○○參與國際至」，補全用語。（2字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：紀念一個國家成立等重要歷史事件的慶祝活動，稱為什麼？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 86,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：紀念一個國家成立等重要歷史事件的慶祝活動，稱為什麼？（2字）"
           }
         ],
         "aliases": [
@@ -3611,7 +4515,34 @@
             "section": "科技"
           }
         ],
-        "keywords": [],
+        "keywords": [
+          {
+            "word": "中國",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：以北京為首都、境內有萬里長城的是哪個國家？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "easy",
+            "clue": "本週報導用語：以北京為首都、境內有萬里長城的是哪個國家？（2字）"
+          },
+          {
+            "word": "澳洲",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：以坎培拉為首都、境內有袋鼠的是哪個國家？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "easy",
+            "clue": "本週報導用語：以坎培拉為首都、境內有袋鼠的是哪個國家？（2字）"
+          }
+        ],
         "aliases": [
           "cna-226e45e621b6897f3884"
         ],
@@ -3680,15 +4611,29 @@
         "keywords": [
           {
             "word": "晶片",
-            "clue": "據報導「AI○片需求強勁　Marvell上修」，補全用語。（2字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：把許多微小電路整合在薄片上的電子元件，稱為什麼？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 86,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：把許多微小電路整合在薄片上的電子元件，稱為什麼？（2字）"
           },
           {
             "word": "營收",
-            "clue": "據報導「28會計年度營○預測」，補全用語。（2字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：企業銷售商品或提供服務所取得的收入，常用哪兩字簡稱？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 86,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：企業銷售商品或提供服務所取得的收入，常用哪兩字簡稱？（2字）"
           }
         ],
         "aliases": [
@@ -3726,21 +4671,42 @@
         "keywords": [
           {
             "word": "韓國",
-            "clue": "據報導「號升空成功　韓○宇航廳：展現自主○○能力」，補全國家或地區。（2字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：以首爾為首都、正式名稱為大韓民國的是哪個國家？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 86,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：以首爾為首都、正式名稱為大韓民國的是哪個國家？（2字）"
           },
           {
             "word": "太空",
-            "clue": "據報導「廳：展現自主○空能力」，補全用語。（2字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：地球大氣層之外、星體分布的廣大空間，稱為什麼？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 86,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：地球大氣層之外、星體分布的廣大空間，稱為什麼？（2字）"
           },
           {
             "word": "火箭",
-            "clue": "據報導「韓製○箭NURI號升空成功　○○宇航」，補全用語。（2字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：藉高速噴出氣體的反作用力推進的飛行器，稱為什麼？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 86,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：藉高速噴出氣體的反作用力推進的飛行器，稱為什麼？（2字）"
           }
         ],
         "aliases": [
@@ -3810,9 +4776,16 @@
         "keywords": [
           {
             "word": "高雄",
-            "clue": "據報導「○雄籍漁船詐領優惠用油  船長與」，補全地名。（2字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：以大型港口、駁二藝術區及愛河聞名的南部城市是哪裡？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 86,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：以大型港口、駁二藝術區及愛河聞名的南部城市是哪裡？（2字）"
           }
         ],
         "aliases": [
@@ -3849,21 +4822,42 @@
         "keywords": [
           {
             "word": "台灣",
-            "clue": "據報導「2027○灣燈會在○○　○○○提案首座企」，補全國家或地區。（2字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：以玉山為最高峰、位於東亞海域的是哪座島嶼？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 86,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：以玉山為最高峰、位於東亞海域的是哪座島嶼？（2字）"
           },
           {
             "word": "苗栗",
-            "clue": "據報導「7○○燈會在○栗　○○○提案首座企業燈區揭亮」，補全地名。（2字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：以客家文化及三義木雕聞名的縣分是哪裡？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 86,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：以客家文化及三義木雕聞名的縣分是哪裡？（2字）"
           },
           {
             "word": "京元電",
-            "clue": "據報導「燈會在○○　○元電提案首座企業燈區揭亮點」，補全企業。（3字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：以積體電路測試服務聞名、英文縮寫為KYEC的企業是哪一家？（3字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 89,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：以積體電路測試服務聞名、英文縮寫為KYEC的企業是哪一家？（3字）"
           }
         ],
         "aliases": [
@@ -3899,16 +4893,17 @@
         ],
         "keywords": [
           {
-            "word": "蔣萬安",
-            "clue": "據報導「生上吐下瀉　○萬安：還無法斷定是食物中毒或諾羅」，補全人物。（3字）",
-            "answer_score": 89,
-            "difficulty": "easy"
-          },
-          {
             "word": "學生",
-            "clue": "據報導「延平中○生上吐下瀉　○○○：還無法斷定」，補全用語。（2字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：在校接受課程與學習的人，稱為什麼？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 86,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：在校接受課程與學習的人，稱為什麼？（2字）"
           }
         ],
         "aliases": [
@@ -4008,10 +5003,17 @@
         ],
         "keywords": [
           {
-            "word": "侯友宜",
-            "clue": "據報導「.4%提案　○友宜：續交棒」，補全人物。（3字）",
-            "answer_score": 89,
-            "difficulty": "easy"
+            "word": "新北",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：環繞首都周邊、境內有九份及野柳的是哪個城市？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "easy",
+            "clue": "本週報導用語：環繞首都周邊、境內有九份及野柳的是哪個城市？（2字）"
           }
         ],
         "aliases": [
@@ -4049,15 +5051,16 @@
         "keywords": [
           {
             "word": "高雄",
-            "clue": "據報導「藍委批○雄發最多針頭　○○○：預防愛滋」，補全地名。（2字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：以大型港口、駁二藝術區及愛河聞名的南部城市是哪裡？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 86,
-            "difficulty": "easy"
-          },
-          {
-            "word": "陳其邁",
-            "clue": "據報導「發最多針頭　○其邁：預防愛滋病」，補全人物。（3字）",
-            "answer_score": 89,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：以大型港口、駁二藝術區及愛河聞名的南部城市是哪裡？（2字）"
           }
         ],
         "aliases": [
@@ -4095,9 +5098,16 @@
         "keywords": [
           {
             "word": "新冠",
-            "clue": "據報導「84歲　重返○冠疫情嚴重前水平」，補全用語。（2字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：COVID-19這種感染疾病的常用兩字簡稱是什麼？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 86,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：COVID-19這種感染疾病的常用兩字簡稱是什麼？（2字）"
           }
         ],
         "aliases": [
@@ -4134,10 +5144,30 @@
         ],
         "keywords": [
           {
-            "word": "產業",
-            "clue": "據報導「/17登場　產○歷程化為青春慶典」，補全用語。（2字）",
+            "word": "台南",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：以古蹟、小吃與安平古堡聞名的南部古都是哪裡？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 86,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：以古蹟、小吃與安平古堡聞名的南部古都是哪裡？（2字）"
+          },
+          {
+            "word": "產業",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：生產同類商品或提供同類服務的事業群體，統稱為什麼？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "easy",
+            "clue": "本週報導用語：生產同類商品或提供同類服務的事業群體，統稱為什麼？（2字）"
           }
         ],
         "aliases": [
@@ -4175,9 +5205,16 @@
         "keywords": [
           {
             "word": "交通部",
-            "clue": "據報導「橋鋼梁合龍　○通部：將提前於116年中通車[影」，補全機關或組織。（3字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：主管全國運輸、道路與觀光政策的中央部會是哪一部？（3字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 89,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：主管全國運輸、道路與觀光政策的中央部會是哪一部？（3字）"
           }
         ],
         "aliases": [
@@ -4215,9 +5252,16 @@
         "keywords": [
           {
             "word": "澎湖縣",
-            "clue": "據報導「○湖縣長選戰  黃捷跨海助選吳淑瑾」，補全地名。（3字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：位於本島西側海域、以玄武岩及雙心石滬聞名的群島是哪裡？（3字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 89,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：位於本島西側海域、以玄武岩及雙心石滬聞名的群島是哪裡？（3字）"
           }
         ],
         "aliases": [
@@ -4255,15 +5299,29 @@
         "keywords": [
           {
             "word": "交通",
-            "clue": "據報導「彰警空陸聯合○通疏導」，補全用語。（2字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：人員與貨物在不同地點間移動的活動，統稱為什麼？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 86,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：人員與貨物在不同地點間移動的活動，統稱為什麼？（2字）"
           },
           {
             "word": "國慶",
-            "clue": "據報導「因應○慶連假車潮　彰警空陸聯合○○疏」，補全用語。（2字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：紀念一個國家成立等重要歷史事件的慶祝活動，稱為什麼？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 86,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：紀念一個國家成立等重要歷史事件的慶祝活動，稱為什麼？（2字）"
           }
         ],
         "aliases": [
@@ -4300,16 +5358,17 @@
         ],
         "keywords": [
           {
-            "word": "蔣萬安",
-            "clue": "據報導「○萬安視察美沙冬門診　強調○○人員」，補全人物。（3字）",
-            "answer_score": 89,
-            "difficulty": "easy"
-          },
-          {
             "word": "醫療",
-            "clue": "據報導「冬門診　強調○療人員監督執行有相當成果」，補全用語。（2字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：以診斷、處置等方式照護病人的活動，稱為什麼？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 86,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：以診斷、處置等方式照護病人的活動，稱為什麼？（2字）"
           }
         ],
         "aliases": [
@@ -4380,15 +5439,29 @@
         "keywords": [
           {
             "word": "南投",
-            "clue": "據報導「○投○○路面重鋪　民眾廟口私劃紅」，補全地名。（2字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：我國唯一不臨海、有日月潭的縣分是哪裡？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 86,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：我國唯一不臨海、有日月潭的縣分是哪裡？（2字）"
           },
           {
             "word": "埔里",
-            "clue": "據報導「○○○里路面重鋪　民眾廟口私劃紅線可」，補全地名。（2字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：以紹興酒及造紙工藝聞名的內陸盆地城鎮是哪裡？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 86,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：以紹興酒及造紙工藝聞名的內陸盆地城鎮是哪裡？（2字）"
           }
         ],
         "aliases": [
@@ -4426,15 +5499,29 @@
         "keywords": [
           {
             "word": "彰化",
-            "clue": "據報導「○化大村綜合行政大樓動土　整合消」，補全地名。（2字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：有八卦山大佛及鹿港古街的中部縣分是哪裡？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 86,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：有八卦山大佛及鹿港古街的中部縣分是哪裡？（2字）"
           },
           {
             "word": "消防",
-            "clue": "據報導「樓動土　整合○防打造全齡服務據點」，補全用語。（2字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：預防火災及執行滅火救援的工作，稱為什麼？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 86,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：預防火災及執行滅火救援的工作，稱為什麼？（2字）"
           }
         ],
         "aliases": [
@@ -4472,15 +5559,29 @@
         "keywords": [
           {
             "word": "竹北",
-            "clue": "據報導「李貞秀參選竹○市長資格不符　○○○選委會不」，補全地名。（2字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：新竹縣政府所在地，市名是哪兩字？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 86,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：新竹縣政府所在地，市名是哪兩字？（2字）"
           },
           {
             "word": "新竹縣",
-            "clue": "據報導「長資格不符　○竹縣選委會不予登記」，補全地名。（3字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：以竹塹古城及科學園區聞名的地區是哪裡？（3字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 89,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：以竹塹古城及科學園區聞名的地區是哪裡？（3字）"
           }
         ],
         "aliases": [
@@ -4518,9 +5619,16 @@
         "keywords": [
           {
             "word": "路跑",
-            "clue": "據報導「站長耶誕公益○跑　12/26棧貳庫廣場登場」，補全體育項目。（2字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：在道路上以跑步方式進行的運動，稱為什麼？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 86,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：在道路上以跑步方式進行的運動，稱為什麼？（2字）"
           }
         ],
         "aliases": [
@@ -4558,9 +5666,16 @@
         "keywords": [
           {
             "word": "國小",
-            "clue": "據報導「　民族與景興○小案排除校餐所致」，補全用語。（2字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：六年制初等學校的常用兩字簡稱是什麼？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 86,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：六年制初等學校的常用兩字簡稱是什麼？（2字）"
           }
         ],
         "aliases": [
@@ -4598,15 +5713,29 @@
         "keywords": [
           {
             "word": "交通",
-            "clue": "據報導「動空拍機監控○通即時狀況」，補全用語。（2字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：人員與貨物在不同地點間移動的活動，統稱為什麼？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 86,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：人員與貨物在不同地點間移動的活動，統稱為什麼？（2字）"
           },
           {
             "word": "國慶",
-            "clue": "據報導「○慶連假  中市警將出動空拍機監」，補全用語。（2字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：紀念一個國家成立等重要歷史事件的慶祝活動，稱為什麼？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 86,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：紀念一個國家成立等重要歷史事件的慶祝活動，稱為什麼？（2字）"
           }
         ],
         "aliases": [
@@ -4644,15 +5773,29 @@
         "keywords": [
           {
             "word": "屏東",
-            "clue": "據報導「「世界在屏○」○○連假登場　市集展演感受」，補全地名。（2字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：我國本島最南端、境內有墾丁的縣分是哪裡？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 86,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：我國本島最南端、境內有墾丁的縣分是哪裡？（2字）"
           },
           {
             "word": "國慶",
-            "clue": "據報導「世界在○○」○慶連假登場　市集展演感受異國文」，補全用語。（2字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：紀念一個國家成立等重要歷史事件的慶祝活動，稱為什麼？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 86,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：紀念一個國家成立等重要歷史事件的慶祝活動，稱為什麼？（2字）"
           }
         ],
         "aliases": [
@@ -4690,9 +5833,16 @@
         "keywords": [
           {
             "word": "高雄",
-            "clue": "據報導「2026○雄鹹酥雞嘉年華24日登場　88」，補全地名。（2字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：以大型港口、駁二藝術區及愛河聞名的南部城市是哪裡？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 86,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：以大型港口、駁二藝術區及愛河聞名的南部城市是哪裡？（2字）"
           }
         ],
         "aliases": [
@@ -4730,9 +5880,16 @@
         "keywords": [
           {
             "word": "新竹市",
-            "clue": "據報導「○竹市竹塹媽祖文化祭登場　串聯6宮」，補全地名。（3字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：以竹塹古城及科學園區聞名的地區是哪裡？（3字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 89,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：以竹塹古城及科學園區聞名的地區是哪裡？（3字）"
           }
         ],
         "aliases": [
@@ -4770,21 +5927,42 @@
         "keywords": [
           {
             "word": "新竹",
-            "clue": "據報導「氣球閥遭竊　○竹瓦斯報警追查」，補全地名。（2字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：以竹塹古城及科學園區聞名的地區是哪裡？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 86,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：以竹塹古城及科學園區聞名的地區是哪裡？（2字）"
           },
           {
             "word": "竹北",
-            "clue": "據報導「竹○多處社區○○○球閥遭竊　○○」，補全地名。（2字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：新竹縣政府所在地，市名是哪兩字？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 86,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：新竹縣政府所在地，市名是哪兩字？（2字）"
           },
           {
             "word": "天然氣",
-            "clue": "據報導「○○多處社區○然氣球閥遭竊　○○瓦斯報警追查」，補全用語。（3字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：主要成分為甲烷、常用於烹飪與發電的氣態燃料，稱為什麼？（3字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 89,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：主要成分為甲烷、常用於烹飪與發電的氣態燃料，稱為什麼？（3字）"
           }
         ],
         "aliases": [
@@ -4818,7 +5996,34 @@
             "section": "國際"
           }
         ],
-        "keywords": [],
+        "keywords": [
+          {
+            "word": "美國",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：首都為華盛頓、國旗有星條圖案的是哪個國家？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "easy",
+            "clue": "本週報導用語：首都為華盛頓、國旗有星條圖案的是哪個國家？（2字）"
+          },
+          {
+            "word": "中國",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：以北京為首都、境內有萬里長城的是哪個國家？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "easy",
+            "clue": "本週報導用語：以北京為首都、境內有萬里長城的是哪個國家？（2字）"
+          }
+        ],
         "aliases": [
           "cna-b3b32aa23c3aa6ebdca1"
         ],
@@ -4853,15 +6058,29 @@
         "keywords": [
           {
             "word": "醫院",
-            "clue": "據報導「居民生活如常○院加強○○」，補全用語。（2字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：設有病房、提供診斷與照護服務的機構，稱為什麼？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 86,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：設有病房、提供診斷與照護服務的機構，稱為什麼？（2字）"
           },
           {
             "word": "防疫",
-            "clue": "據報導「如常○○加強○疫」，補全用語。（2字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：預防及控制傳染病擴散的工作，稱為什麼？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 86,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：預防及控制傳染病擴散的工作，稱為什麼？（2字）"
           }
         ],
         "aliases": [
@@ -4898,21 +6117,16 @@
         "keywords": [
           {
             "word": "俄羅斯",
-            "clue": "據報導「○羅斯實驗室人員疑染鼠疫亡 ○○將」，補全國家或地區。（3字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：以莫斯科為首都、國土橫跨歐亞的是哪個國家？（3字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 89,
-            "difficulty": "easy"
-          },
-          {
-            "word": "川普",
-            "clue": "據報導「疑染鼠疫亡 ○普將與○○通話」，補全人物。（2字）",
-            "answer_score": 86,
-            "difficulty": "easy"
-          },
-          {
-            "word": "普丁",
-            "clue": "據報導「亡 ○○將與○丁通話」，補全人物。（2字）",
-            "answer_score": 86,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：以莫斯科為首都、國土橫跨歐亞的是哪個國家？（3字）"
           }
         ],
         "aliases": [
@@ -4946,7 +6160,26 @@
             "section": "國際"
           }
         ],
-        "keywords": [],
+        "keywords": [
+          {
+            "word": "中國",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：以北京為首都、境內有萬里長城的是哪個國家？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              },
+              {
+                "clue": "據報導，哪個國家或地區擬縮減APEC議程　部長級會議傳線上舉行引發疑慮？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "event"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "easy",
+            "clue": "本週報導用語：以北京為首都、境內有萬里長城的是哪個國家？（2字）"
+          }
+        ],
         "aliases": [
           "cna-9f46a60ce121a67dcf4d"
         ],
@@ -4982,15 +6215,42 @@
         "keywords": [
           {
             "word": "輝達",
-            "clue": "據報導「00億○○買輝○○○　加大押注AI布局」，補全企業。（2字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：以GPU及加速運算產品聞名、英文名稱為NVIDIA的企業是哪一家？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 86,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：以GPU及加速運算產品聞名、英文名稱為NVIDIA的企業是哪一家？（2字）"
           },
           {
             "word": "晶片",
-            "clue": "據報導「億○○買○○○片　加大押注AI布局」，補全用語。（2字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：把許多微小電路整合在薄片上的電子元件，稱為什麼？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 86,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：把許多微小電路整合在薄片上的電子元件，稱為什麼？（2字）"
+          },
+          {
+            "word": "美元",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：美國使用的主要貨幣單位，名稱是哪兩字？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "easy",
+            "clue": "本週報導用語：美國使用的主要貨幣單位，名稱是哪兩字？（2字）"
           }
         ],
         "aliases": [
@@ -5094,9 +6354,16 @@
         "keywords": [
           {
             "word": "伊朗",
-            "clue": "據報導「出停戰條件　○朗須實質削減濃縮鈾產能」，補全國家或地區。（2字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：以德黑蘭為首都、主要使用波斯語的是哪個國家？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 86,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：以德黑蘭為首都、主要使用波斯語的是哪個國家？（2字）"
           }
         ],
         "aliases": [
@@ -5134,9 +6401,16 @@
         "keywords": [
           {
             "word": "沖繩",
-            "clue": "據報導「員被捕後　駐○繩美軍實施宵禁與禁酒令」，補全地名。（2字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：位於琉球群島、以首里城聞名的縣分是哪裡？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 86,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：位於琉球群島、以首里城聞名的縣分是哪裡？（2字）"
           }
         ],
         "aliases": [
@@ -5174,27 +6448,42 @@
         "keywords": [
           {
             "word": "伊朗",
-            "clue": "據報導「○○稱○朗可能摧毀○○○或聖地牙哥　加」，補全國家或地區。（2字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：以德黑蘭為首都、主要使用波斯語的是哪個國家？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 86,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：以德黑蘭為首都、主要使用波斯語的是哪個國家？（2字）"
           },
           {
             "word": "加州",
-            "clue": "據報導「或聖地牙哥　加○政界反彈」，補全地名。（2字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：以矽谷及好萊塢聞名、州旗有熊圖案的一州是哪裡？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 86,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：以矽谷及好萊塢聞名、州旗有熊圖案的一州是哪裡？（2字）"
           },
           {
             "word": "洛杉磯",
-            "clue": "據報導「○○可能摧毀○杉磯或聖地牙哥　○○政界反彈」，補全地名。（3字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：好萊塢與大型電影製片業所在的大城市是哪裡？（3字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 89,
-            "difficulty": "easy"
-          },
-          {
-            "word": "川普",
-            "clue": "據報導「○普稱○○可能摧毀○○○或聖地牙」，補全人物。（2字）",
-            "answer_score": 86,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：好萊塢與大型電影製片業所在的大城市是哪裡？（3字）"
           }
         ],
         "aliases": [
@@ -5229,14 +6518,7 @@
             "section": "國際"
           }
         ],
-        "keywords": [
-          {
-            "word": "普丁",
-            "clue": "據報導「金正恩向○丁致生日賀電　承諾提供堅定不移」，補全人物。（2字）",
-            "answer_score": 86,
-            "difficulty": "easy"
-          }
-        ],
+        "keywords": [],
         "aliases": [
           "cna-0259158f09229dd1a3d4"
         ],
@@ -5269,14 +6551,7 @@
             "section": "國際"
           }
         ],
-        "keywords": [
-          {
-            "word": "川普",
-            "clue": "據報導「建新造船廠　○普站台力挺」，補全人物。（2字）",
-            "answer_score": 86,
-            "difficulty": "easy"
-          }
-        ],
+        "keywords": [],
         "aliases": [
           "cna-e6e036c2b744d4a76a69"
         ],
@@ -5312,15 +6587,34 @@
         "keywords": [
           {
             "word": "菲律賓",
-            "clue": "據報導「○律賓與○○深化防務合作  維護國」，補全國家或地區。（3字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：以馬尼拉為首都、由多座島嶼組成的是哪個國家？（3字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              },
+              {
+                "clue": "據報導，哪個國家或地區與波蘭深化防務合作  維護國際秩序？（3字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "event"
+              }
+            ],
             "answer_score": 89,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：以馬尼拉為首都、由多座島嶼組成的是哪個國家？（3字）"
           },
           {
             "word": "波蘭",
-            "clue": "據報導「○○○與波○深化防務合作  維護國際秩序」，補全國家或地區。（2字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：以華沙為首都、國旗由白紅兩色組成的是哪個國家？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 86,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：以華沙為首都、國旗由白紅兩色組成的是哪個國家？（2字）"
           }
         ],
         "aliases": [
@@ -5391,9 +6685,16 @@
         "keywords": [
           {
             "word": "日本",
-            "clue": "據報導「合哄抬價格　○本調查4間啤酒大廠」，補全國家或地區。（2字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：以東京為首都、使用日圓的是哪個島國？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 86,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：以東京為首都、使用日圓的是哪個島國？（2字）"
           }
         ],
         "aliases": [
@@ -5431,9 +6732,16 @@
         "keywords": [
           {
             "word": "韓國",
-            "clue": "據報導「成網攻工具　韓○兩大教會數十萬教友個資恐外洩」，補全國家或地區。（2字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：以首爾為首都、正式名稱為大韓民國的是哪個國家？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 86,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：以首爾為首都、正式名稱為大韓民國的是哪個國家？（2字）"
           }
         ],
         "aliases": [
@@ -5471,15 +6779,29 @@
         "keywords": [
           {
             "word": "韓國",
-            "clue": "據報導「韓○○○業接連遭AI網攻  警方」，補全國家或地區。（2字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：以首爾為首都、正式名稱為大韓民國的是哪個國家？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 86,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：以首爾為首都、正式名稱為大韓民國的是哪個國家？（2字）"
           },
           {
             "word": "金融",
-            "clue": "據報導「○○○融業接連遭AI網攻  警方研議」，補全用語。（2字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：與貨幣、信用及資金流通相關的活動，統稱為什麼？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 86,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：與貨幣、信用及資金流通相關的活動，統稱為什麼？（2字）"
           }
         ],
         "aliases": [
@@ -5517,9 +6839,16 @@
         "keywords": [
           {
             "word": "沖繩",
-            "clue": "據報導「人案掀爭議　○繩知事要求檢討「日美地位協定」」，補全地名。（2字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：位於琉球群島、以首里城聞名的縣分是哪裡？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 86,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：位於琉球群島、以首里城聞名的縣分是哪裡？（2字）"
           }
         ],
         "aliases": [
@@ -5557,9 +6886,29 @@
         "keywords": [
           {
             "word": "伊朗",
-            "clue": "據報導「○朗戰爭美軍折損81架航空器　總」，補全國家或地區。（2字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：以德黑蘭為首都、主要使用波斯語的是哪個國家？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 86,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：以德黑蘭為首都、主要使用波斯語的是哪個國家？（2字）"
+          },
+          {
+            "word": "美元",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：美國使用的主要貨幣單位，名稱是哪兩字？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "easy",
+            "clue": "本週報導用語：美國使用的主要貨幣單位，名稱是哪兩字？（2字）"
           }
         ],
         "aliases": [
@@ -5597,9 +6946,16 @@
         "keywords": [
           {
             "word": "馬來西亞",
-            "clue": "據報導「○來西亞霾害影響日常生活  出門行程」，補全國家或地區。（4字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：以吉隆坡為首都、領土分布於馬來半島與婆羅洲的是哪個國家？（4字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 92,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：以吉隆坡為首都、領土分布於馬來半島與婆羅洲的是哪個國家？（4字）"
           }
         ],
         "aliases": [
@@ -5637,15 +6993,29 @@
         "keywords": [
           {
             "word": "法國",
-            "clue": "據報導「法○○○生抗議爆衝突　近500人」，補全國家或地區。（2字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：以巴黎為首都、國旗由藍白紅三色組成的是哪個國家？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 86,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：以巴黎為首都、國旗由藍白紅三色組成的是哪個國家？（2字）"
           },
           {
-            "word": "馬克宏",
-            "clue": "據報導「00人被捕、○克宏急開會」，補全人物。（3字）",
-            "answer_score": 89,
-            "difficulty": "easy"
+            "word": "高中",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：銜接初級中等課程、為進階升學做準備的學校，簡稱是哪兩字？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "easy",
+            "clue": "本週報導用語：銜接初級中等課程、為進階升學做準備的學校，簡稱是哪兩字？（2字）"
           }
         ],
         "aliases": [
@@ -5782,15 +7152,29 @@
         "keywords": [
           {
             "word": "半導體",
-            "clue": "據報導「大馬拚○導體○○升級　累計培訓逾2萬名高」，補全用語。（3字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：導電能力介於良導體與絕緣體之間的材料，稱為什麼？（3字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 89,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：導電能力介於良導體與絕緣體之間的材料，稱為什麼？（3字）"
           },
           {
             "word": "產業",
-            "clue": "據報導「大馬拚○○○產○升級　累計培訓逾2萬名高○○」，補全用語。（2字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：生產同類商品或提供同類服務的事業群體，統稱為什麼？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 86,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：生產同類商品或提供同類服務的事業群體，統稱為什麼？（2字）"
           }
         ],
         "aliases": [
@@ -5827,9 +7211,16 @@
         "keywords": [
           {
             "word": "台中",
-            "clue": "據報導「○中外埔鐵皮加蓋住宅大火  2人」，補全地名。（2字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：以逢甲夜市及歌劇院聞名的中部城市是哪裡？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 86,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：以逢甲夜市及歌劇院聞名的中部城市是哪裡？（2字）"
           }
         ],
         "aliases": [
@@ -5863,7 +7254,21 @@
             "section": "台灣"
           }
         ],
-        "keywords": [],
+        "keywords": [
+          {
+            "word": "台東",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：境內有池上稻田與知本溫泉的東部縣分是哪裡？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "easy",
+            "clue": "本週報導用語：境內有池上稻田與知本溫泉的東部縣分是哪裡？（2字）"
+          }
+        ],
         "aliases": [
           "cna-76d7b3c84030b4b7c60e"
         ],
@@ -5930,9 +7335,16 @@
         "keywords": [
           {
             "word": "台灣",
-            "clue": "據報導「吧搜索爭議　○灣前進陣線告發員警違法」，補全國家或地區。（2字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：以玉山為最高峰、位於東亞海域的是哪座島嶼？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 86,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：以玉山為最高峰、位於東亞海域的是哪座島嶼？（2字）"
           }
         ],
         "aliases": [
@@ -5969,9 +7381,16 @@
         "keywords": [
           {
             "word": "香港",
-            "clue": "據報導「○港人委託全天監控沈伯洋　徵信業」，補全國家或地區。（2字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：以維多利亞港及太平山夜景聞名的是哪個地區？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 86,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：以維多利亞港及太平山夜景聞名的是哪個地區？（2字）"
           }
         ],
         "aliases": [
@@ -6039,10 +7458,30 @@
         ],
         "keywords": [
           {
-            "word": "獲利",
-            "clue": "據報導「○○人士  ○利79萬元遭起訴」，補全用語。（2字）",
+            "word": "中國",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：以北京為首都、境內有萬里長城的是哪個國家？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 86,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：以北京為首都、境內有萬里長城的是哪個國家？（2字）"
+          },
+          {
+            "word": "獲利",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：收入扣除成本與費用後的正向成果，稱為什麼？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "easy",
+            "clue": "本週報導用語：收入扣除成本與費用後的正向成果，稱為什麼？（2字）"
           }
         ],
         "aliases": [
@@ -6080,9 +7519,16 @@
         "keywords": [
           {
             "word": "宜蘭",
-            "clue": "據報導「○蘭頭城里長參選人涉招待餐會賄選」，補全地名。（2字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：以蘭陽平原及礁溪溫泉聞名的東北部縣分是哪裡？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 86,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：以蘭陽平原及礁溪溫泉聞名的東北部縣分是哪裡？（2字）"
           }
         ],
         "aliases": [
@@ -6119,10 +7565,30 @@
         ],
         "keywords": [
           {
-            "word": "投資",
-            "clue": "據報導「　○○男子遭投○詐騙險失金」，補全用語。（2字）",
+            "word": "台南",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：以古蹟、小吃與安平古堡聞名的南部古都是哪裡？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 86,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：以古蹟、小吃與安平古堡聞名的南部古都是哪裡？（2字）"
+          },
+          {
+            "word": "投資",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：投入資金或資源，期望日後取得回報的活動，稱為什麼？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "easy",
+            "clue": "本週報導用語：投入資金或資源，期望日後取得回報的活動，稱為什麼？（2字）"
           }
         ],
         "aliases": [
@@ -6160,9 +7626,16 @@
         "keywords": [
           {
             "word": "香港",
-            "clue": "據報導「徵信業者收○港人36萬跟監沈伯洋　北檢起訴」，補全國家或地區。（2字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：以維多利亞港及太平山夜景聞名的是哪個地區？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 86,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：以維多利亞港及太平山夜景聞名的是哪個地區？（2字）"
           }
         ],
         "aliases": [
@@ -6200,9 +7673,16 @@
         "keywords": [
           {
             "word": "彰化",
-            "clue": "據報導「○化北斗出租房大火釀3死　屋主一」，補全地名。（2字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：有八卦山大佛及鹿港古街的中部縣分是哪裡？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 86,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：有八卦山大佛及鹿港古街的中部縣分是哪裡？（2字）"
           }
         ],
         "aliases": [
@@ -6240,15 +7720,29 @@
         "keywords": [
           {
             "word": "泰國",
-            "clue": "據報導「9月火警　3泰○籍○○未依規施作10萬交保」，補全國家或地區。（2字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：以曼谷為首都、使用泰銖的是哪個國家？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 86,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：以曼谷為首都、使用泰銖的是哪個國家？（2字）"
           },
           {
             "word": "勞工",
-            "clue": "據報導「警　3○○籍○工未依規施作10萬交保」，補全用語。（2字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：受雇提供勞務、換取工作報酬的人，稱為什麼？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 86,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：受雇提供勞務、換取工作報酬的人，稱為什麼？（2字）"
           }
         ],
         "aliases": [
@@ -6283,7 +7777,21 @@
             "section": "台灣"
           }
         ],
-        "keywords": [],
+        "keywords": [
+          {
+            "word": "新北",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：環繞首都周邊、境內有九份及野柳的是哪個城市？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "easy",
+            "clue": "本週報導用語：環繞首都周邊、境內有九份及野柳的是哪個城市？（2字）"
+          }
+        ],
         "aliases": [
           "cna-ed69591ab8d16e90f5ff"
         ],
@@ -6318,10 +7826,17 @@
         ],
         "keywords": [
           {
-            "word": "民進黨",
-            "clue": "據報導「監控沈伯洋　○進黨：譴責○○跨國鎮壓」，補全機關或組織。（3字）",
-            "answer_score": 89,
-            "difficulty": "easy"
+            "word": "中國",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：以北京為首都、境內有萬里長城的是哪個國家？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "easy",
+            "clue": "本週報導用語：以北京為首都、境內有萬里長城的是哪個國家？（2字）"
           }
         ],
         "aliases": [
@@ -6359,9 +7874,16 @@
         "keywords": [
           {
             "word": "萬華",
-            "clue": "據報導「被控涉白嫖　○華分局澄清傳言」，補全地名。（2字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：龍山寺與西門町所在、歷史悠久的市區是哪裡？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 86,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：龍山寺與西門町所在、歷史悠久的市區是哪裡？（2字）"
           }
         ],
         "aliases": [
@@ -6399,9 +7921,16 @@
         "keywords": [
           {
             "word": "高雄",
-            "clue": "據報導「○雄女子虐死11歲童　二審維持1」，補全地名。（2字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：以大型港口、駁二藝術區及愛河聞名的南部城市是哪裡？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 86,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：以大型港口、駁二藝術區及愛河聞名的南部城市是哪裡？（2字）"
           }
         ],
         "aliases": [
@@ -6436,7 +7965,21 @@
             "section": "台灣"
           }
         ],
-        "keywords": [],
+        "keywords": [
+          {
+            "word": "台南",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：以古蹟、小吃與安平古堡聞名的南部古都是哪裡？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "easy",
+            "clue": "本週報導用語：以古蹟、小吃與安平古堡聞名的南部古都是哪裡？（2字）"
+          }
+        ],
         "aliases": [
           "cna-3c8abf8b12ec39881c08"
         ],
@@ -6538,15 +8081,29 @@
         "keywords": [
           {
             "word": "高鐵",
-            "clue": "據報導「高○○○系統遭入侵釀列車急煞　檢」，補全機關或組織。（2字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：列車時速可達三百公里的西部快速軌道運輸系統，簡稱是哪兩字？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 86,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：列車時速可達三百公里的西部快速軌道運輸系統，簡稱是哪兩字？（2字）"
           },
           {
             "word": "通訊",
-            "clue": "據報導「○○○訊系統遭入侵釀列車急煞　檢方起」，補全用語。（2字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：利用訊號或設備傳遞訊息的活動，稱為什麼？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 86,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：利用訊號或設備傳遞訊息的活動，稱為什麼？（2字）"
           }
         ],
         "aliases": [
@@ -6584,9 +8141,16 @@
         "keywords": [
           {
             "word": "台中",
-            "clue": "據報導「○中男租屋糾紛縱火洩憤 連燒3處」，補全地名。（2字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：以逢甲夜市及歌劇院聞名的中部城市是哪裡？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 86,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：以逢甲夜市及歌劇院聞名的中部城市是哪裡？（2字）"
           }
         ],
         "aliases": [
@@ -6786,7 +8350,21 @@
             "section": "台灣"
           }
         ],
-        "keywords": [],
+        "keywords": [
+          {
+            "word": "新北",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：環繞首都周邊、境內有九份及野柳的是哪個城市？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "easy",
+            "clue": "本週報導用語：環繞首都周邊、境內有九份及野柳的是哪個城市？（2字）"
+          }
+        ],
         "aliases": [
           "cna-353caa4d848c2fc3ad92"
         ],
@@ -6822,15 +8400,29 @@
         "keywords": [
           {
             "word": "葡萄牙",
-            "clue": "據報導「　表明願回歸○萄牙○○○」，補全國家或地區。（3字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：以里斯本為首都、以波特酒聞名的是哪個國家？（3字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 89,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：以里斯本為首都、以波特酒聞名的是哪個國家？（3字）"
           },
           {
             "word": "國家隊",
-            "clue": "據報導「願回歸○○○○家隊」，補全體育項目。（3字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：代表一個國家參加跨國賽事的選手隊伍，稱為什麼？（3字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 89,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：代表一個國家參加跨國賽事的選手隊伍，稱為什麼？（3字）"
           }
         ],
         "aliases": [
@@ -6865,14 +8457,7 @@
             "section": "體育"
           }
         ],
-        "keywords": [
-          {
-            "word": "李灝宇",
-            "clue": "據報導「○灝宇進美媒MLB新秀榜第49名　」，補全體育項目。（3字）",
-            "answer_score": 89,
-            "difficulty": "easy"
-          }
-        ],
+        "keywords": [],
         "aliases": [
           "cna-48521adf0bf6713d29f0"
         ],
@@ -6908,15 +8493,29 @@
         "keywords": [
           {
             "word": "亞運",
-            "clue": "據報導「林逸凡亞○滑板摘銀續拚○○○　總排第8」，補全體育項目。（2字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：亞洲運動會的兩字簡稱是什麼？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 86,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：亞洲運動會的兩字簡稱是什麼？（2字）"
           },
           {
             "word": "世錦賽",
-            "clue": "據報導「滑板摘銀續拚○錦賽　總排第8闖複賽」，補全體育項目。（3字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：世界錦標賽的三字簡稱是什麼？（3字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 89,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：世界錦標賽的三字簡稱是什麼？（3字）"
           }
         ],
         "aliases": [
@@ -6987,9 +8586,16 @@
         "keywords": [
           {
             "word": "中職",
-            "clue": "據報導「%守備率　成○職最年輕東山再起獎得主」，補全體育項目。（2字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：1990年開打、我國最高層級職業球賽聯盟的兩字簡稱是什麼？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 86,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：1990年開打、我國最高層級職業球賽聯盟的兩字簡稱是什麼？（2字）"
           }
         ],
         "aliases": [
@@ -7026,10 +8632,30 @@
         ],
         "keywords": [
           {
-            "word": "法國",
-            "clue": "據報導「儒鄭怡靜擊敗法○組合　闖WTT○○大滿貫4強」，補全國家或地區。（2字）",
+            "word": "中國",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：以北京為首都、境內有萬里長城的是哪個國家？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 86,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：以北京為首都、境內有萬里長城的是哪個國家？（2字）"
+          },
+          {
+            "word": "法國",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：以巴黎為首都、國旗由藍白紅三色組成的是哪個國家？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "easy",
+            "clue": "本週報導用語：以巴黎為首都、國旗由藍白紅三色組成的是哪個國家？（2字）"
           }
         ],
         "aliases": [
@@ -7067,9 +8693,16 @@
         "keywords": [
           {
             "word": "阿根廷",
-            "clue": "據報導「幕　含淚告別○根廷戰袍」，補全國家或地區。（3字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：以布宜諾斯艾利斯為首都、以探戈聞名的是哪個國家？（3字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 89,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：以布宜諾斯艾利斯為首都、以探戈聞名的是哪個國家？（3字）"
           }
         ],
         "aliases": [
@@ -7140,15 +8773,29 @@
         "keywords": [
           {
             "word": "世界盃",
-            "clue": "據報導「U23○界盃棒協與○○攜手　納入10位中」，補全體育項目。（3字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：各國隊伍爭奪冠軍盃、以全球競逐為意義的國際賽事，稱為什麼？（3字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 89,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：各國隊伍爭奪冠軍盃、以全球競逐為意義的國際賽事，稱為什麼？（3字）"
           },
           {
             "word": "中職",
-            "clue": "據報導「○○○棒協與○職攜手　納入10位○職戰將」，補全體育項目。（2字）",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：1990年開打、我國最高層級職業球賽聯盟的兩字簡稱是什麼？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
             "answer_score": 86,
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "clue": "本週報導用語：1990年開打、我國最高層級職業球賽聯盟的兩字簡稱是什麼？（2字）"
           }
         ],
         "aliases": [
@@ -7159,10 +8806,61 @@
     ],
     "candidates": [
       {
+        "word": "美光",
+        "answer_score": 86,
+        "difficulty": "easy",
+        "clue": "本週報導用語：以儲存及運算用積體電路聞名、英文名稱為Micron的企業是哪一家？（2字）",
+        "id": "cna-eaef40b0d40a5fa48ebe::美光",
+        "event_id": "cna-eaef40b0d40a5fa48ebe",
+        "event_revision": "cna-eaef40b0d40a5fa48ebe",
+        "source_support": [
+          {
+            "source_id": "rss-1b70086d6ba73fe6ed10",
+            "evidence": "桃園廠工會取得罷工權　美光：尊重員工權利持續溝通"
+          }
+        ],
+        "clue_style": "natural-v1",
+        "clue_kind": "meaning"
+      },
+      {
+        "word": "桃園",
+        "answer_score": 86,
+        "difficulty": "easy",
+        "clue": "本週報導用語：我國主要國際機場所在、以航空城發展聞名的是哪個城市？（2字）",
+        "id": "cna-eaef40b0d40a5fa48ebe::桃園",
+        "event_id": "cna-eaef40b0d40a5fa48ebe",
+        "event_revision": "cna-eaef40b0d40a5fa48ebe",
+        "source_support": [
+          {
+            "source_id": "rss-1b70086d6ba73fe6ed10",
+            "evidence": "桃園廠工會取得罷工權　美光：尊重員工權利持續溝通"
+          }
+        ],
+        "clue_style": "natural-v1",
+        "clue_kind": "meaning"
+      },
+      {
+        "word": "營收",
+        "answer_score": 86,
+        "difficulty": "easy",
+        "clue": "本週報導用語：企業銷售商品或提供服務所取得的收入，常用哪兩字簡稱？（2字）",
+        "id": "cna-ab677772fd70f6ca2cf4::營收",
+        "event_id": "cna-ab677772fd70f6ca2cf4",
+        "event_revision": "cna-ab677772fd70f6ca2cf4",
+        "source_support": [
+          {
+            "source_id": "rss-b53380b82f8bc6ab4346",
+            "evidence": "雙鴻第3季營收97.9億元年增逾6成　連7季創高"
+          }
+        ],
+        "clue_style": "natural-v1",
+        "clue_kind": "meaning"
+      },
+      {
         "word": "半導體",
-        "clue": "據報導「大馬拚○導體○○升級　累計培訓逾2萬名高」，補全用語。（3字）",
         "answer_score": 89,
         "difficulty": "easy",
+        "clue": "本週報導用語：導電能力介於良導體與絕緣體之間的材料，稱為什麼？（3字）",
         "id": "cna-d28531a342f319c5621b::半導體",
         "event_id": "cna-d28531a342f319c5621b",
         "event_revision": "cna-d28531a342f319c5621b",
@@ -7171,13 +8869,15 @@
             "source_id": "rss-fcb3a2ed48e7ee42cc3f",
             "evidence": "大馬拚半導體產業升級　累計培訓逾2萬名高科技人才"
           }
-        ]
+        ],
+        "clue_style": "natural-v1",
+        "clue_kind": "meaning"
       },
       {
         "word": "產業",
-        "clue": "據報導「大馬拚○○○產○升級　累計培訓逾2萬名高○○」，補全用語。（2字）",
         "answer_score": 86,
         "difficulty": "easy",
+        "clue": "本週報導用語：生產同類商品或提供同類服務的事業群體，統稱為什麼？（2字）",
         "id": "cna-d28531a342f319c5621b::產業",
         "event_id": "cna-d28531a342f319c5621b",
         "event_revision": "cna-d28531a342f319c5621b",
@@ -7186,13 +8886,15 @@
             "source_id": "rss-fcb3a2ed48e7ee42cc3f",
             "evidence": "大馬拚半導體產業升級　累計培訓逾2萬名高科技人才"
           }
-        ]
+        ],
+        "clue_style": "natural-v1",
+        "clue_kind": "meaning"
       },
       {
         "word": "通膨",
-        "clue": "據報導「3%連5月破○膨警戒線　逾2年半最大漲幅」，補全用語。（2字）",
         "answer_score": 86,
         "difficulty": "easy",
+        "clue": "本週報導用語：整體物價持續普遍上升的現象，常用哪兩字簡稱？（2字）",
         "id": "cna-dc0125fa06821ec17cac::通膨",
         "event_id": "cna-dc0125fa06821ec17cac",
         "event_revision": "cna-dc0125fa06821ec17cac",
@@ -7201,13 +8903,15 @@
             "source_id": "rss-9b71e5bc8f73f7f0db33",
             "evidence": "9月CPI年增2.73%連5月破通膨警戒線　逾2年半最大漲幅"
           }
-        ]
+        ],
+        "clue_style": "natural-v1",
+        "clue_kind": "meaning"
       },
       {
         "word": "食藥署",
-        "clue": "據報導「○藥署稽查素食餐飲業  逾期○○等」，補全機關或組織。（3字）",
         "answer_score": 89,
         "difficulty": "easy",
+        "clue": "本週報導用語：掌理飲食與藥物安全的中央機關，常用三字簡稱是什麼？（3字）",
         "id": "cna-6735062512e9d7e5bd1e::食藥署",
         "event_id": "cna-6735062512e9d7e5bd1e",
         "event_revision": "cna-6735062512e9d7e5bd1e",
@@ -7216,58 +8920,15 @@
             "source_id": "rss-894a58c7f5d864f5f8c5",
             "evidence": "食藥署稽查素食餐飲業  逾期食品等違規共罰21萬元"
           }
-        ]
-      },
-      {
-        "word": "營收",
-        "clue": "據報導「力成第3季營○創新高　估第4季續成長」，補全用語。（2字）",
-        "answer_score": 86,
-        "difficulty": "easy",
-        "id": "cna-e2743b36365db4854eee::營收",
-        "event_id": "cna-e2743b36365db4854eee",
-        "event_revision": "cna-e2743b36365db4854eee",
-        "source_support": [
-          {
-            "source_id": "rss-8c0797a8a29b8ad75842",
-            "evidence": "力成第3季營收創新高　估第4季續成長"
-          }
-        ]
-      },
-      {
-        "word": "亞洲",
-        "clue": "據報導「打銀看○○「亞○最具○○吸引力」　估○○高點」，補全國家或地區。（2字）",
-        "answer_score": 86,
-        "difficulty": "easy",
-        "id": "cna-38c9884704c10230e87f::亞洲",
-        "event_id": "cna-38c9884704c10230e87f",
-        "event_revision": "cna-38c9884704c10230e87f",
-        "source_support": [
-          {
-            "source_id": "rss-7d7f2ef97637fe673be6",
-            "evidence": "渣打銀看台灣「亞洲最具投資吸引力」　估台股高點可期"
-          }
-        ]
-      },
-      {
-        "word": "台灣",
-        "clue": "據報導「渣打銀看○灣「○○最具○○吸引力」　估台」，補全國家或地區。（2字）",
-        "answer_score": 86,
-        "difficulty": "easy",
-        "id": "cna-38c9884704c10230e87f::台灣",
-        "event_id": "cna-38c9884704c10230e87f",
-        "event_revision": "cna-38c9884704c10230e87f",
-        "source_support": [
-          {
-            "source_id": "rss-7d7f2ef97637fe673be6",
-            "evidence": "渣打銀看台灣「亞洲最具投資吸引力」　估台股高點可期"
-          }
-        ]
+        ],
+        "clue_style": "natural-v1",
+        "clue_kind": "meaning"
       },
       {
         "word": "台股",
-        "clue": "據報導「吸引力」　估台○高點可期」，補全用語。（2字）",
         "answer_score": 86,
         "difficulty": "easy",
+        "clue": "本週報導用語：我國股票交易市場的常用兩字簡稱是什麼？（2字）",
         "id": "cna-38c9884704c10230e87f::台股",
         "event_id": "cna-38c9884704c10230e87f",
         "event_revision": "cna-38c9884704c10230e87f",
@@ -7276,13 +8937,32 @@
             "source_id": "rss-7d7f2ef97637fe673be6",
             "evidence": "渣打銀看台灣「亞洲最具投資吸引力」　估台股高點可期"
           }
-        ]
+        ],
+        "clue_style": "natural-v1",
+        "clue_kind": "meaning"
+      },
+      {
+        "word": "台灣",
+        "answer_score": 86,
+        "difficulty": "easy",
+        "clue": "本週報導用語：以玉山為最高峰、位於東亞海域的是哪座島嶼？（2字）",
+        "id": "cna-38c9884704c10230e87f::台灣",
+        "event_id": "cna-38c9884704c10230e87f",
+        "event_revision": "cna-38c9884704c10230e87f",
+        "source_support": [
+          {
+            "source_id": "rss-7d7f2ef97637fe673be6",
+            "evidence": "渣打銀看台灣「亞洲最具投資吸引力」　估台股高點可期"
+          }
+        ],
+        "clue_style": "natural-v1",
+        "clue_kind": "meaning"
       },
       {
         "word": "投資",
-        "clue": "據報導「灣「○○最具投○吸引力」　估○○高點可期」，補全用語。（2字）",
         "answer_score": 86,
         "difficulty": "easy",
+        "clue": "本週報導用語：投入資金或資源，期望日後取得回報的活動，稱為什麼？（2字）",
         "id": "cna-38c9884704c10230e87f::投資",
         "event_id": "cna-38c9884704c10230e87f",
         "event_revision": "cna-38c9884704c10230e87f",
@@ -7291,13 +8971,32 @@
             "source_id": "rss-7d7f2ef97637fe673be6",
             "evidence": "渣打銀看台灣「亞洲最具投資吸引力」　估台股高點可期"
           }
-        ]
+        ],
+        "clue_style": "natural-v1",
+        "clue_kind": "meaning"
+      },
+      {
+        "word": "亞洲",
+        "answer_score": 86,
+        "difficulty": "easy",
+        "clue": "本週報導用語：世界七大洲中，面積最大的是哪一洲？（2字）",
+        "id": "cna-38c9884704c10230e87f::亞洲",
+        "event_id": "cna-38c9884704c10230e87f",
+        "event_revision": "cna-38c9884704c10230e87f",
+        "source_support": [
+          {
+            "source_id": "rss-7d7f2ef97637fe673be6",
+            "evidence": "渣打銀看台灣「亞洲最具投資吸引力」　估台股高點可期"
+          }
+        ],
+        "clue_style": "natural-v1",
+        "clue_kind": "meaning"
       },
       {
         "word": "數發部",
-        "clue": "據報導「○發部推AI算力中心BOO案　第2」，補全機關或組織。（3字）",
         "answer_score": 89,
         "difficulty": "easy",
+        "clue": "本週報導用語：掌理數位發展政策的中央部會，常用三字簡稱是什麼？（3字）",
         "id": "cna-aa990d2712ca1fd4c158::數發部",
         "event_id": "cna-aa990d2712ca1fd4c158",
         "event_revision": "cna-aa990d2712ca1fd4c158",
@@ -7306,13 +9005,15 @@
             "source_id": "rss-9075a0eb30f6b118c702",
             "evidence": "數發部推AI算力中心BOO案　第2波吸引2業者申請"
           }
-        ]
+        ],
+        "clue_style": "natural-v1",
+        "clue_kind": "meaning"
       },
       {
         "word": "新台幣",
-        "clue": "據報導「○台幣貶1.4分　收31.795元」，補全用語。（3字）",
         "answer_score": 89,
         "difficulty": "easy",
+        "clue": "本週報導用語：我國日常交易使用的法定貨幣，名稱是哪三字？（3字）",
         "id": "cna-ef02f7bfa4c464bce840::新台幣",
         "event_id": "cna-ef02f7bfa4c464bce840",
         "event_revision": "cna-ef02f7bfa4c464bce840",
@@ -7321,13 +9022,15 @@
             "source_id": "rss-ba791716c134fee56e7d",
             "evidence": "新台幣貶1.4分　收31.795元"
           }
-        ]
+        ],
+        "clue_style": "natural-v1",
+        "clue_kind": "meaning"
       },
       {
         "word": "世界盃",
-        "clue": "據報導「U23○界盃棒協與○○攜手　納入10位中」，補全體育項目。（3字）",
         "answer_score": 89,
         "difficulty": "easy",
+        "clue": "本週報導用語：各國隊伍爭奪冠軍盃、以全球競逐為意義的國際賽事，稱為什麼？（3字）",
         "id": "cna-75cc2f2295475f4d51e9::世界盃",
         "event_id": "cna-75cc2f2295475f4d51e9",
         "event_revision": "cna-75cc2f2295475f4d51e9",
@@ -7336,13 +9039,15 @@
             "source_id": "rss-9d068a4039877ffc08ef",
             "evidence": "U23世界盃棒協與中職攜手　納入10位中職戰將"
           }
-        ]
+        ],
+        "clue_style": "natural-v1",
+        "clue_kind": "meaning"
       },
       {
         "word": "中職",
-        "clue": "據報導「○○○棒協與○職攜手　納入10位○職戰將」，補全體育項目。（2字）",
         "answer_score": 86,
         "difficulty": "easy",
+        "clue": "本週報導用語：1990年開打、我國最高層級職業球賽聯盟的兩字簡稱是什麼？（2字）",
         "id": "cna-75cc2f2295475f4d51e9::中職",
         "event_id": "cna-75cc2f2295475f4d51e9",
         "event_revision": "cna-75cc2f2295475f4d51e9",
@@ -7351,13 +9056,32 @@
             "source_id": "rss-9d068a4039877ffc08ef",
             "evidence": "U23世界盃棒協與中職攜手　納入10位中職戰將"
           }
-        ]
+        ],
+        "clue_style": "natural-v1",
+        "clue_kind": "meaning"
+      },
+      {
+        "word": "中國",
+        "answer_score": 86,
+        "difficulty": "easy",
+        "clue": "本週報導用語：以北京為首都、境內有萬里長城的是哪個國家？（2字）",
+        "id": "cna-2e2ccfa3e81e08b89f5b::中國",
+        "event_id": "cna-2e2ccfa3e81e08b89f5b",
+        "event_revision": "cna-2e2ccfa3e81e08b89f5b",
+        "source_support": [
+          {
+            "source_id": "rss-800c1930064f477333d0",
+            "evidence": "中國博士就業分化  名校生搭AI浪潮年薪千萬上下"
+          }
+        ],
+        "clue_style": "natural-v1",
+        "clue_kind": "meaning"
       },
       {
         "word": "就業",
-        "clue": "據報導「○○博士就○分化  名校生搭AI浪潮年薪」，補全用語。（2字）",
         "answer_score": 86,
         "difficulty": "easy",
+        "clue": "本週報導用語：取得工作並從事有報酬的勞務活動，稱為什麼？（2字）",
         "id": "cna-2e2ccfa3e81e08b89f5b::就業",
         "event_id": "cna-2e2ccfa3e81e08b89f5b",
         "event_revision": "cna-2e2ccfa3e81e08b89f5b",
@@ -7366,13 +9090,15 @@
             "source_id": "rss-800c1930064f477333d0",
             "evidence": "中國博士就業分化  名校生搭AI浪潮年薪千萬上下"
           }
-        ]
+        ],
+        "clue_style": "natural-v1",
+        "clue_kind": "meaning"
       },
       {
         "word": "健康",
-        "clue": "據報導「青少年心理○康照護　專家籲建「親子共治」雙」，補全用語。（2字）",
         "answer_score": 86,
         "difficulty": "easy",
+        "clue": "本週報導用語：身心狀態良好、能適應日常生活的狀態，稱為什麼？（2字）",
         "id": "cna-d21a0ab04994f328f0b0::健康",
         "event_id": "cna-d21a0ab04994f328f0b0",
         "event_revision": "cna-d21a0ab04994f328f0b0",
@@ -7381,13 +9107,15 @@
             "source_id": "rss-770cc916c9d3903e053a",
             "evidence": "青少年心理健康照護　專家籲建「親子共治」雙向安全網"
           }
-        ]
+        ],
+        "clue_style": "natural-v1",
+        "clue_kind": "meaning"
       },
       {
         "word": "南亞",
-        "clue": "據報導「○亞與LS ELECTRIC合資」，補全企業。（2字）",
         "answer_score": 86,
         "difficulty": "easy",
+        "clue": "本週報導用語：英文名稱為Nan Ya、以塑膠加工及纖維起家的企業是哪一家？（2字）",
         "id": "cna-eeaa75bbe9e9b87cd00f::南亞",
         "event_id": "cna-eeaa75bbe9e9b87cd00f",
         "event_revision": "cna-eeaa75bbe9e9b87cd00f",
@@ -7396,28 +9124,32 @@
             "source_id": "rss-2f93f94909ec8b5616bf",
             "evidence": "南亞與LS ELECTRIC合資成立南亞樂星　加速重電布局"
           }
-        ]
+        ],
+        "clue_style": "natural-v1",
+        "clue_kind": "meaning"
       },
       {
-        "word": "國慶",
-        "clue": "據報導「駐○○代表處○慶酒會　英議員：○○參與國際至」，補全用語。（2字）",
+        "word": "新北",
         "answer_score": 86,
         "difficulty": "easy",
-        "id": "cna-57bf99bae5858f30e308::國慶",
-        "event_id": "cna-57bf99bae5858f30e308",
-        "event_revision": "cna-57bf99bae5858f30e308",
+        "clue": "本週報導用語：環繞首都周邊、境內有九份及野柳的是哪個城市？（2字）",
+        "id": "cna-353caa4d848c2fc3ad92::新北",
+        "event_id": "cna-353caa4d848c2fc3ad92",
+        "event_revision": "cna-353caa4d848c2fc3ad92",
         "source_support": [
           {
-            "source_id": "rss-de3138a1b195a99eaee6",
-            "evidence": "駐英國代表處國慶酒會　英議員：台灣參與國際至關重要"
+            "source_id": "rss-6aa2fe56802f2bb916c4",
+            "evidence": "新北坪林吊車翻落邊坡　駕駛無生命跡象送醫搶救"
           }
-        ]
+        ],
+        "clue_style": "natural-v1",
+        "clue_kind": "meaning"
       },
       {
         "word": "英國",
-        "clue": "據報導「駐英○代表處○○酒會　英議員：○○」，補全國家或地區。（2字）",
         "answer_score": 86,
         "difficulty": "easy",
+        "clue": "本週報導用語：以倫敦為首都、使用英鎊的是哪個國家？（2字）",
         "id": "cna-57bf99bae5858f30e308::英國",
         "event_id": "cna-57bf99bae5858f30e308",
         "event_revision": "cna-57bf99bae5858f30e308",
@@ -7426,13 +9158,32 @@
             "source_id": "rss-de3138a1b195a99eaee6",
             "evidence": "駐英國代表處國慶酒會　英議員：台灣參與國際至關重要"
           }
-        ]
+        ],
+        "clue_style": "natural-v1",
+        "clue_kind": "meaning"
+      },
+      {
+        "word": "國慶",
+        "answer_score": 86,
+        "difficulty": "easy",
+        "clue": "本週報導用語：紀念一個國家成立等重要歷史事件的慶祝活動，稱為什麼？（2字）",
+        "id": "cna-57bf99bae5858f30e308::國慶",
+        "event_id": "cna-57bf99bae5858f30e308",
+        "event_revision": "cna-57bf99bae5858f30e308",
+        "source_support": [
+          {
+            "source_id": "rss-de3138a1b195a99eaee6",
+            "evidence": "駐英國代表處國慶酒會　英議員：台灣參與國際至關重要"
+          }
+        ],
+        "clue_style": "natural-v1",
+        "clue_kind": "meaning"
       },
       {
         "word": "國慶日",
-        "clue": "據報導「○慶日為國定假日　○○出勤○○須加」，補全用語。（3字）",
         "answer_score": 89,
         "difficulty": "easy",
+        "clue": "本週報導用語：紀念國家成立等重要歷史事件的特定日子，稱為什麼？（3字）",
         "id": "cna-52736eb2f9ee69f2054b::國慶日",
         "event_id": "cna-52736eb2f9ee69f2054b",
         "event_revision": "cna-52736eb2f9ee69f2054b",
@@ -7441,28 +9192,15 @@
             "source_id": "rss-8d0d96766e5e2b8ce69a",
             "evidence": "國慶日為國定假日　勞工出勤工資須加倍給付"
           }
-        ]
-      },
-      {
-        "word": "勞工",
-        "clue": "據報導「為國定假日　○工出勤○○須加倍給付」，補全用語。（2字）",
-        "answer_score": 86,
-        "difficulty": "easy",
-        "id": "cna-52736eb2f9ee69f2054b::勞工",
-        "event_id": "cna-52736eb2f9ee69f2054b",
-        "event_revision": "cna-52736eb2f9ee69f2054b",
-        "source_support": [
-          {
-            "source_id": "rss-8d0d96766e5e2b8ce69a",
-            "evidence": "國慶日為國定假日　勞工出勤工資須加倍給付"
-          }
-        ]
+        ],
+        "clue_style": "natural-v1",
+        "clue_kind": "meaning"
       },
       {
         "word": "工資",
-        "clue": "據報導「日　○○出勤工○須加倍給付」，補全用語。（2字）",
         "answer_score": 86,
         "difficulty": "easy",
+        "clue": "本週報導用語：雇主支付給受雇者的工作報酬，稱為什麼？（2字）",
         "id": "cna-52736eb2f9ee69f2054b::工資",
         "event_id": "cna-52736eb2f9ee69f2054b",
         "event_revision": "cna-52736eb2f9ee69f2054b",
@@ -7471,13 +9209,32 @@
             "source_id": "rss-8d0d96766e5e2b8ce69a",
             "evidence": "國慶日為國定假日　勞工出勤工資須加倍給付"
           }
-        ]
+        ],
+        "clue_style": "natural-v1",
+        "clue_kind": "meaning"
+      },
+      {
+        "word": "勞工",
+        "answer_score": 86,
+        "difficulty": "easy",
+        "clue": "本週報導用語：受雇提供勞務、換取工作報酬的人，稱為什麼？（2字）",
+        "id": "cna-52736eb2f9ee69f2054b::勞工",
+        "event_id": "cna-52736eb2f9ee69f2054b",
+        "event_revision": "cna-52736eb2f9ee69f2054b",
+        "source_support": [
+          {
+            "source_id": "rss-8d0d96766e5e2b8ce69a",
+            "evidence": "國慶日為國定假日　勞工出勤工資須加倍給付"
+          }
+        ],
+        "clue_style": "natural-v1",
+        "clue_kind": "meaning"
       },
       {
         "word": "學校",
-        "clue": "據報導「修法防濫訴　○校認定合理管教可結案」，補全用語。（2字）",
         "answer_score": 86,
         "difficulty": "easy",
+        "clue": "本週報導用語：提供有組織課程、讓人接受學習的場所，稱為什麼？（2字）",
         "id": "cna-ccf859df3a779d22e781::學校",
         "event_id": "cna-ccf859df3a779d22e781",
         "event_revision": "cna-ccf859df3a779d22e781",
@@ -7486,13 +9243,15 @@
             "source_id": "rss-2974defd0115aca81f24",
             "evidence": "校事會議修法防濫訴　學校認定合理管教可結案"
           }
-        ]
+        ],
+        "clue_style": "natural-v1",
+        "clue_kind": "meaning"
       },
       {
         "word": "貿易",
-        "clue": "據報導「台日簽署雙邊○易協定努力」，補全用語。（2字）",
         "answer_score": 86,
         "difficulty": "easy",
+        "clue": "本週報導用語：買賣商品與服務，尤其涉及跨國交換的活動，稱為什麼？（2字）",
         "id": "cna-b67253439fcb656bc6b9::貿易",
         "event_id": "cna-b67253439fcb656bc6b9",
         "event_revision": "cna-b67253439fcb656bc6b9",
@@ -7501,13 +9260,15 @@
             "source_id": "rss-0c9f5193ba1ba4a2f4e8",
             "evidence": "日工商會遞交白皮書　國發會：朝台日簽署雙邊貿易協定努力"
           }
-        ]
+        ],
+        "clue_style": "natural-v1",
+        "clue_kind": "meaning"
       },
       {
         "word": "俄羅斯",
-        "clue": "據報導「○羅斯傳鼠疫案例  ○○：中俄就傳」，補全國家或地區。（3字）",
         "answer_score": 89,
         "difficulty": "easy",
+        "clue": "本週報導用語：以莫斯科為首都、國土橫跨歐亞的是哪個國家？（3字）",
         "id": "cna-a1096ca588baffede561::俄羅斯",
         "event_id": "cna-a1096ca588baffede561",
         "event_revision": "cna-a1096ca588baffede561",
@@ -7516,43 +9277,15 @@
             "source_id": "rss-4a6208ae9fd19acba4a2",
             "evidence": "俄羅斯傳鼠疫案例  北京：中俄就傳染病防控保持密切合作"
           }
-        ]
-      },
-      {
-        "word": "桃園",
-        "clue": "據報導「○○○園廠工會取得罷工權　擬鼓勵員工」，補全地名。（2字）",
-        "answer_score": 86,
-        "difficulty": "easy",
-        "id": "cna-b4b7abf1cccf954863a1::桃園",
-        "event_id": "cna-b4b7abf1cccf954863a1",
-        "event_revision": "cna-b4b7abf1cccf954863a1",
-        "source_support": [
-          {
-            "source_id": "rss-ba36d3723cbc4239b8f4",
-            "evidence": "美光桃園廠工會取得罷工權　擬鼓勵員工19日休假上凱道"
-          }
-        ]
-      },
-      {
-        "word": "美光",
-        "clue": "據報導「美○○○廠工會取得罷工權　擬鼓勵」，補全企業。（2字）",
-        "answer_score": 86,
-        "difficulty": "easy",
-        "id": "cna-b4b7abf1cccf954863a1::美光",
-        "event_id": "cna-b4b7abf1cccf954863a1",
-        "event_revision": "cna-b4b7abf1cccf954863a1",
-        "source_support": [
-          {
-            "source_id": "rss-ba36d3723cbc4239b8f4",
-            "evidence": "美光桃園廠工會取得罷工權　擬鼓勵員工19日休假上凱道"
-          }
-        ]
+        ],
+        "clue_style": "natural-v1",
+        "clue_kind": "meaning"
       },
       {
         "word": "天然氣",
-        "clue": "據報導「○○多處社區○然氣球閥遭竊　○○瓦斯報警追查」，補全用語。（3字）",
         "answer_score": 89,
         "difficulty": "easy",
+        "clue": "本週報導用語：主要成分為甲烷、常用於烹飪與發電的氣態燃料，稱為什麼？（3字）",
         "id": "cna-8ed6df9cba1b23b99326::天然氣",
         "event_id": "cna-8ed6df9cba1b23b99326",
         "event_revision": "cna-8ed6df9cba1b23b99326",
@@ -7561,28 +9294,15 @@
             "source_id": "rss-5bc23305396e6e173450",
             "evidence": "竹北多處社區天然氣球閥遭竊　新竹瓦斯報警追查"
           }
-        ]
-      },
-      {
-        "word": "新竹",
-        "clue": "據報導「氣球閥遭竊　○竹瓦斯報警追查」，補全地名。（2字）",
-        "answer_score": 86,
-        "difficulty": "easy",
-        "id": "cna-8ed6df9cba1b23b99326::新竹",
-        "event_id": "cna-8ed6df9cba1b23b99326",
-        "event_revision": "cna-8ed6df9cba1b23b99326",
-        "source_support": [
-          {
-            "source_id": "rss-5bc23305396e6e173450",
-            "evidence": "竹北多處社區天然氣球閥遭竊　新竹瓦斯報警追查"
-          }
-        ]
+        ],
+        "clue_style": "natural-v1",
+        "clue_kind": "meaning"
       },
       {
         "word": "竹北",
-        "clue": "據報導「竹○多處社區○○○球閥遭竊　○○」，補全地名。（2字）",
         "answer_score": 86,
         "difficulty": "easy",
+        "clue": "本週報導用語：新竹縣政府所在地，市名是哪兩字？（2字）",
         "id": "cna-8ed6df9cba1b23b99326::竹北",
         "event_id": "cna-8ed6df9cba1b23b99326",
         "event_revision": "cna-8ed6df9cba1b23b99326",
@@ -7591,13 +9311,15 @@
             "source_id": "rss-5bc23305396e6e173450",
             "evidence": "竹北多處社區天然氣球閥遭竊　新竹瓦斯報警追查"
           }
-        ]
+        ],
+        "clue_style": "natural-v1",
+        "clue_kind": "meaning"
       },
       {
         "word": "太空",
-        "clue": "據報導「廳：展現自主○空能力」，補全用語。（2字）",
         "answer_score": 86,
         "difficulty": "easy",
+        "clue": "本週報導用語：地球大氣層之外、星體分布的廣大空間，稱為什麼？（2字）",
         "id": "cna-54ab9b27eda4d6299522::太空",
         "event_id": "cna-54ab9b27eda4d6299522",
         "event_revision": "cna-54ab9b27eda4d6299522",
@@ -7606,13 +9328,15 @@
             "source_id": "rss-9cfa8ceef900c317c0b9",
             "evidence": "韓製火箭NURI號升空成功　韓國宇航廳：展現自主太空能力"
           }
-        ]
+        ],
+        "clue_style": "natural-v1",
+        "clue_kind": "meaning"
       },
       {
         "word": "火箭",
-        "clue": "據報導「韓製○箭NURI號升空成功　○○宇航」，補全用語。（2字）",
         "answer_score": 86,
         "difficulty": "easy",
+        "clue": "本週報導用語：藉高速噴出氣體的反作用力推進的飛行器，稱為什麼？（2字）",
         "id": "cna-54ab9b27eda4d6299522::火箭",
         "event_id": "cna-54ab9b27eda4d6299522",
         "event_revision": "cna-54ab9b27eda4d6299522",
@@ -7621,13 +9345,15 @@
             "source_id": "rss-9cfa8ceef900c317c0b9",
             "evidence": "韓製火箭NURI號升空成功　韓國宇航廳：展現自主太空能力"
           }
-        ]
+        ],
+        "clue_style": "natural-v1",
+        "clue_kind": "meaning"
       },
       {
         "word": "韓國",
-        "clue": "據報導「號升空成功　韓○宇航廳：展現自主○○能力」，補全國家或地區。（2字）",
         "answer_score": 86,
         "difficulty": "easy",
+        "clue": "本週報導用語：以首爾為首都、正式名稱為大韓民國的是哪個國家？（2字）",
         "id": "cna-54ab9b27eda4d6299522::韓國",
         "event_id": "cna-54ab9b27eda4d6299522",
         "event_revision": "cna-54ab9b27eda4d6299522",
@@ -7636,13 +9362,15 @@
             "source_id": "rss-9cfa8ceef900c317c0b9",
             "evidence": "韓製火箭NURI號升空成功　韓國宇航廳：展現自主太空能力"
           }
-        ]
+        ],
+        "clue_style": "natural-v1",
+        "clue_kind": "meaning"
       },
       {
         "word": "獲利",
-        "clue": "據報導「I和○○○股○利賣壓拖累　日股收跌」，補全用語。（2字）",
         "answer_score": 86,
         "difficulty": "easy",
+        "clue": "本週報導用語：收入扣除成本與費用後的正向成果，稱為什麼？（2字）",
         "id": "cna-f69729725c438748ad86::獲利",
         "event_id": "cna-f69729725c438748ad86",
         "event_revision": "cna-f69729725c438748ad86",
@@ -7651,13 +9379,15 @@
             "source_id": "rss-9e2d3da49eab2dfc630b",
             "evidence": "AI和半導體股獲利賣壓拖累　日股收跌"
           }
-        ]
+        ],
+        "clue_style": "natural-v1",
+        "clue_kind": "meaning"
       },
       {
         "word": "金融",
-        "clue": "據報導「通貨公會加入○融總會　共37會員增進○○交流」，補全用語。（2字）",
         "answer_score": 86,
         "difficulty": "easy",
+        "clue": "本週報導用語：與貨幣、信用及資金流通相關的活動，統稱為什麼？（2字）",
         "id": "cna-14060a9d08c4aef7b42b::金融",
         "event_id": "cna-14060a9d08c4aef7b42b",
         "event_revision": "cna-14060a9d08c4aef7b42b",
@@ -7666,13 +9396,15 @@
             "source_id": "rss-b789d91e4f3b93e04441",
             "evidence": "虛擬通貨公會加入金融總會　共37會員增進產業交流"
           }
-        ]
+        ],
+        "clue_style": "natural-v1",
+        "clue_kind": "meaning"
       },
       {
         "word": "新竹市",
-        "clue": "據報導「○竹市竹塹媽祖文化祭登場　串聯6宮」，補全地名。（3字）",
         "answer_score": 89,
         "difficulty": "easy",
+        "clue": "本週報導用語：以竹塹古城及科學園區聞名的地區是哪裡？（3字）",
         "id": "cna-b1f4747668e392b0a3af::新竹市",
         "event_id": "cna-b1f4747668e392b0a3af",
         "event_revision": "cna-b1f4747668e392b0a3af",
@@ -7681,13 +9413,15 @@
             "source_id": "rss-f43918ea88a99d0269ae",
             "evidence": "新竹市竹塹媽祖文化祭登場　串聯6宮廟採集風城色彩"
           }
-        ]
+        ],
+        "clue_style": "natural-v1",
+        "clue_kind": "meaning"
       },
       {
         "word": "高雄",
-        "clue": "據報導「2026○雄鹹酥雞嘉年華24日登場　88」，補全地名。（2字）",
         "answer_score": 86,
         "difficulty": "easy",
+        "clue": "本週報導用語：以大型港口、駁二藝術區及愛河聞名的南部城市是哪裡？（2字）",
         "id": "cna-fd83200d2b54b3e2fffc::高雄",
         "event_id": "cna-fd83200d2b54b3e2fffc",
         "event_revision": "cna-fd83200d2b54b3e2fffc",
@@ -7696,13 +9430,15 @@
             "source_id": "rss-05e5d628cea46af75ebe",
             "evidence": "2026高雄鹹酥雞嘉年華24日登場　88家業者推限定炸物"
           }
-        ]
+        ],
+        "clue_style": "natural-v1",
+        "clue_kind": "meaning"
       },
       {
         "word": "屏東",
-        "clue": "據報導「「世界在屏○」○○連假登場　市集展演感受」，補全地名。（2字）",
         "answer_score": 86,
         "difficulty": "easy",
+        "clue": "本週報導用語：我國本島最南端、境內有墾丁的縣分是哪裡？（2字）",
         "id": "cna-6efde33dee347601d613::屏東",
         "event_id": "cna-6efde33dee347601d613",
         "event_revision": "cna-6efde33dee347601d613",
@@ -7711,13 +9447,15 @@
             "source_id": "rss-12d7008467d6257be647",
             "evidence": "「世界在屏東」國慶連假登場　市集展演感受異國文化"
           }
-        ]
+        ],
+        "clue_style": "natural-v1",
+        "clue_kind": "meaning"
       },
       {
         "word": "交通",
-        "clue": "據報導「動空拍機監控○通即時狀況」，補全用語。（2字）",
         "answer_score": 86,
         "difficulty": "easy",
+        "clue": "本週報導用語：人員與貨物在不同地點間移動的活動，統稱為什麼？（2字）",
         "id": "cna-15f4d07243bd50673aa9::交通",
         "event_id": "cna-15f4d07243bd50673aa9",
         "event_revision": "cna-15f4d07243bd50673aa9",
@@ -7726,13 +9464,15 @@
             "source_id": "rss-0d66bcae15a158d0a54b",
             "evidence": "國慶連假  中市警將出動空拍機監控交通即時狀況"
           }
-        ]
+        ],
+        "clue_style": "natural-v1",
+        "clue_kind": "meaning"
       },
       {
         "word": "最低工資",
-        "clue": "據報導「擬調升  以○低○○1.75倍訂定」，補全用語。（4字）",
         "answer_score": 92,
         "difficulty": "easy",
+        "clue": "本週報導用語：依法規定雇主給付工作報酬不得低於的下限，稱為什麼？（4字）",
         "id": "cna-7611e1bf463a2d6035fc::最低工資",
         "event_id": "cna-7611e1bf463a2d6035fc",
         "event_revision": "cna-7611e1bf463a2d6035fc",
@@ -7741,28 +9481,15 @@
             "source_id": "rss-3f68a53d4bcc33a91365",
             "evidence": "職缺薪資揭露門檻擬調升  以最低工資1.75倍訂定"
           }
-        ]
-      },
-      {
-        "word": "國小",
-        "clue": "據報導「　民族與景興○小案排除校餐所致」，補全用語。（2字）",
-        "answer_score": 86,
-        "difficulty": "easy",
-        "id": "cna-70eef78fac8ca63b21b8::國小",
-        "event_id": "cna-70eef78fac8ca63b21b8",
-        "event_revision": "cna-70eef78fac8ca63b21b8",
-        "source_support": [
-          {
-            "source_id": "rss-ffec6c52c3fdd06407ee",
-            "evidence": "北市延平中學餐食採樣送驗　民族與景興國小案排除校餐所致"
-          }
-        ]
+        ],
+        "clue_style": "natural-v1",
+        "clue_kind": "meaning"
       },
       {
         "word": "台中",
-        "clue": "據報導「吳沛憶○中掃街  帶領綠女將水湳市場拜」，補全地名。（2字）",
         "answer_score": 86,
         "difficulty": "easy",
+        "clue": "本週報導用語：以逢甲夜市及歌劇院聞名的中部城市是哪裡？（2字）",
         "id": "cna-71f81fee3cbf2ef8fc8f::台中",
         "event_id": "cna-71f81fee3cbf2ef8fc8f",
         "event_revision": "cna-71f81fee3cbf2ef8fc8f",
@@ -7771,13 +9498,15 @@
             "source_id": "rss-23e429cf1959ee7f4ef9",
             "evidence": "吳沛憶台中掃街  帶領綠女將水湳市場拜票"
           }
-        ]
+        ],
+        "clue_style": "natural-v1",
+        "clue_kind": "meaning"
       },
       {
         "word": "路跑",
-        "clue": "據報導「站長耶誕公益○跑　12/26棧貳庫廣場登場」，補全體育項目。（2字）",
         "answer_score": 86,
         "difficulty": "easy",
+        "clue": "本週報導用語：在道路上以跑步方式進行的運動，稱為什麼？（2字）",
         "id": "cna-2da0cf067123b65c0508::路跑",
         "event_id": "cna-2da0cf067123b65c0508",
         "event_revision": "cna-2da0cf067123b65c0508",
@@ -7786,43 +9515,15 @@
             "source_id": "rss-828a395fdacbbefa331a",
             "evidence": "2026蜜柑站長耶誕公益路跑　12/26棧貳庫廣場登場"
           }
-        ]
-      },
-      {
-        "word": "新竹縣",
-        "clue": "據報導「長資格不符　○竹縣選委會不予登記」，補全地名。（3字）",
-        "answer_score": 89,
-        "difficulty": "easy",
-        "id": "cna-eeb88c76c2a636508a75::新竹縣",
-        "event_id": "cna-eeb88c76c2a636508a75",
-        "event_revision": "cna-eeb88c76c2a636508a75",
-        "source_support": [
-          {
-            "source_id": "rss-28abe876c09ff7512d53",
-            "evidence": "李貞秀參選竹北市長資格不符　新竹縣選委會不予登記"
-          }
-        ]
-      },
-      {
-        "word": "彰化",
-        "clue": "據報導「○化大村綜合行政大樓動土　整合消」，補全地名。（2字）",
-        "answer_score": 86,
-        "difficulty": "easy",
-        "id": "cna-1cce42431e84b667afd1::彰化",
-        "event_id": "cna-1cce42431e84b667afd1",
-        "event_revision": "cna-1cce42431e84b667afd1",
-        "source_support": [
-          {
-            "source_id": "rss-fcd320449371ea08cad0",
-            "evidence": "彰化大村綜合行政大樓動土　整合消防打造全齡服務據點"
-          }
-        ]
+        ],
+        "clue_style": "natural-v1",
+        "clue_kind": "meaning"
       },
       {
         "word": "消防",
-        "clue": "據報導「樓動土　整合○防打造全齡服務據點」，補全用語。（2字）",
         "answer_score": 86,
         "difficulty": "easy",
+        "clue": "本週報導用語：預防火災及執行滅火救援的工作，稱為什麼？（2字）",
         "id": "cna-1cce42431e84b667afd1::消防",
         "event_id": "cna-1cce42431e84b667afd1",
         "event_revision": "cna-1cce42431e84b667afd1",
@@ -7831,28 +9532,32 @@
             "source_id": "rss-fcd320449371ea08cad0",
             "evidence": "彰化大村綜合行政大樓動土　整合消防打造全齡服務據點"
           }
-        ]
+        ],
+        "clue_style": "natural-v1",
+        "clue_kind": "meaning"
       },
       {
-        "word": "馬克宏",
-        "clue": "據報導「00人被捕、○克宏急開會」，補全人物。（3字）",
-        "answer_score": 89,
+        "word": "彰化",
+        "answer_score": 86,
         "difficulty": "easy",
-        "id": "cna-9b76f4bd8cfe64787e36::馬克宏",
-        "event_id": "cna-9b76f4bd8cfe64787e36",
-        "event_revision": "cna-9b76f4bd8cfe64787e36",
+        "clue": "本週報導用語：有八卦山大佛及鹿港古街的中部縣分是哪裡？（2字）",
+        "id": "cna-1cce42431e84b667afd1::彰化",
+        "event_id": "cna-1cce42431e84b667afd1",
+        "event_revision": "cna-1cce42431e84b667afd1",
         "source_support": [
           {
-            "source_id": "rss-d51f1c99507898e6b286",
-            "evidence": "法國高中生抗議爆衝突　近500人被捕、馬克宏急開會"
+            "source_id": "rss-fcd320449371ea08cad0",
+            "evidence": "彰化大村綜合行政大樓動土　整合消防打造全齡服務據點"
           }
-        ]
+        ],
+        "clue_style": "natural-v1",
+        "clue_kind": "meaning"
       },
       {
         "word": "法國",
-        "clue": "據報導「法○○○生抗議爆衝突　近500人」，補全國家或地區。（2字）",
         "answer_score": 86,
         "difficulty": "easy",
+        "clue": "本週報導用語：以巴黎為首都、國旗由藍白紅三色組成的是哪個國家？（2字）",
         "id": "cna-9b76f4bd8cfe64787e36::法國",
         "event_id": "cna-9b76f4bd8cfe64787e36",
         "event_revision": "cna-9b76f4bd8cfe64787e36",
@@ -7861,28 +9566,15 @@
             "source_id": "rss-d51f1c99507898e6b286",
             "evidence": "法國高中生抗議爆衝突　近500人被捕、馬克宏急開會"
           }
-        ]
-      },
-      {
-        "word": "蔡英文",
-        "clue": "據報導「○英文史丹佛研討會晚宴致詞　盼台美」，補全人物。（3字）",
-        "answer_score": 89,
-        "difficulty": "easy",
-        "id": "cna-f46b933f4b9ce041cef3::蔡英文",
-        "event_id": "cna-f46b933f4b9ce041cef3",
-        "event_revision": "cna-f46b933f4b9ce041cef3",
-        "source_support": [
-          {
-            "source_id": "rss-c4f4964259ba370a0204",
-            "evidence": "蔡英文史丹佛研討會晚宴致詞　盼台美共創印太安全繁榮"
-          }
-        ]
+        ],
+        "clue_style": "natural-v1",
+        "clue_kind": "meaning"
       },
       {
         "word": "台電",
-        "clue": "據報導「動拆除工程　○電拚2029年初完成」，補全機關或組織。（2字）",
         "answer_score": 86,
         "difficulty": "easy",
+        "clue": "本週報導用語：我國主要供電公司的常用兩字簡稱是什麼？（2字）",
         "id": "cna-88c55b468244ec7739e7::台電",
         "event_id": "cna-88c55b468244ec7739e7",
         "event_revision": "cna-88c55b468244ec7739e7",
@@ -7891,13 +9583,15 @@
             "source_id": "rss-908e2a4ca782640d5d10",
             "evidence": "中火燃煤2機組1日啟動拆除工程　台電拚2029年初完成"
           }
-        ]
+        ],
+        "clue_style": "natural-v1",
+        "clue_kind": "meaning"
       },
       {
         "word": "澎湖",
-        "clue": "據報導「澎○海事人才漸減　陳振中允爭取人」，補全地名。（2字）",
         "answer_score": 86,
         "difficulty": "easy",
+        "clue": "本週報導用語：位於本島西側海域、以玄武岩及雙心石滬聞名的群島是哪裡？（2字）",
         "id": "cna-bcfecb5bcac45ed50c95::澎湖",
         "event_id": "cna-bcfecb5bcac45ed50c95",
         "event_revision": "cna-bcfecb5bcac45ed50c95",
@@ -7906,13 +9600,49 @@
             "source_id": "rss-20cc935d1a504f0b2215",
             "evidence": "澎湖海事人才漸減　陳振中允爭取人才培育基地"
           }
-        ]
+        ],
+        "clue_style": "natural-v1",
+        "clue_kind": "meaning"
+      },
+      {
+        "word": "台北",
+        "answer_score": 86,
+        "difficulty": "easy",
+        "clue": "本週報導用語：以101大樓、故宮及龍山寺聞名的北部城市是哪裡？（2字）",
+        "id": "cna-12ca362d4b845de61486::台北",
+        "event_id": "cna-12ca362d4b845de61486",
+        "event_revision": "cna-12ca362d4b845de61486",
+        "source_support": [
+          {
+            "source_id": "rss-ec0d10ec1ed64f52948e",
+            "evidence": "國慶連假台鐵再加開3列次　區間快台北台中2小時10分"
+          }
+        ],
+        "clue_style": "natural-v1",
+        "clue_kind": "meaning"
+      },
+      {
+        "word": "台鐵",
+        "answer_score": 86,
+        "difficulty": "easy",
+        "clue": "本週報導用語：以傳統軌道列車提供全島幹線服務的公營公司，簡稱是哪兩字？（2字）",
+        "id": "cna-12ca362d4b845de61486::台鐵",
+        "event_id": "cna-12ca362d4b845de61486",
+        "event_revision": "cna-12ca362d4b845de61486",
+        "source_support": [
+          {
+            "source_id": "rss-ec0d10ec1ed64f52948e",
+            "evidence": "國慶連假台鐵再加開3列次　區間快台北台中2小時10分"
+          }
+        ],
+        "clue_style": "natural-v1",
+        "clue_kind": "meaning"
       },
       {
         "word": "南投",
-        "clue": "據報導「○投○○路面重鋪　民眾廟口私劃紅」，補全地名。（2字）",
         "answer_score": 86,
         "difficulty": "easy",
+        "clue": "本週報導用語：我國唯一不臨海、有日月潭的縣分是哪裡？（2字）",
         "id": "cna-385ba5737f75392fcb3e::南投",
         "event_id": "cna-385ba5737f75392fcb3e",
         "event_revision": "cna-385ba5737f75392fcb3e",
@@ -7921,13 +9651,15 @@
             "source_id": "rss-2ab829517f7135ff3582",
             "evidence": "南投埔里路面重鋪　民眾廟口私劃紅線可罰2400元"
           }
-        ]
+        ],
+        "clue_style": "natural-v1",
+        "clue_kind": "meaning"
       },
       {
         "word": "埔里",
-        "clue": "據報導「○○○里路面重鋪　民眾廟口私劃紅線可」，補全地名。（2字）",
         "answer_score": 86,
         "difficulty": "easy",
+        "clue": "本週報導用語：以紹興酒及造紙工藝聞名的內陸盆地城鎮是哪裡？（2字）",
         "id": "cna-385ba5737f75392fcb3e::埔里",
         "event_id": "cna-385ba5737f75392fcb3e",
         "event_revision": "cna-385ba5737f75392fcb3e",
@@ -7936,13 +9668,15 @@
             "source_id": "rss-2ab829517f7135ff3582",
             "evidence": "南投埔里路面重鋪　民眾廟口私劃紅線可罰2400元"
           }
-        ]
+        ],
+        "clue_style": "natural-v1",
+        "clue_kind": "meaning"
       },
       {
         "word": "晶片",
-        "clue": "據報導「AI○片需求強勁　Marvell上修」，補全用語。（2字）",
         "answer_score": 86,
         "difficulty": "easy",
+        "clue": "本週報導用語：把許多微小電路整合在薄片上的電子元件，稱為什麼？（2字）",
         "id": "cna-bd3dee0ce2c76fc449ae::晶片",
         "event_id": "cna-bd3dee0ce2c76fc449ae",
         "event_revision": "cna-bd3dee0ce2c76fc449ae",
@@ -7951,13 +9685,15 @@
             "source_id": "rss-c0f96e757c09e59d35e0",
             "evidence": "AI晶片需求強勁　Marvell上修2028會計年度營收預測"
           }
-        ]
+        ],
+        "clue_style": "natural-v1",
+        "clue_kind": "meaning"
       },
       {
         "word": "深圳",
-        "clue": "據報導「媒：APEC○圳峰會  ○○○對美俄中三方會」，補全地名。（2字）",
         "answer_score": 86,
         "difficulty": "easy",
+        "clue": "本週報導用語：位於珠江三角洲、緊鄰香港的城市是哪裡？（2字）",
         "id": "cna-c9222bb8982ec9a186f3::深圳",
         "event_id": "cna-c9222bb8982ec9a186f3",
         "event_revision": "cna-c9222bb8982ec9a186f3",
@@ -7966,28 +9702,15 @@
             "source_id": "rss-0f0b3aebdbf893ec0e24",
             "evidence": "俄媒：APEC深圳峰會  俄羅斯對美俄中三方會晤感興趣"
           }
-        ]
-      },
-      {
-        "word": "電子",
-        "clue": "據報導「10月○子期跌　○○期漲」，補全用語。（2字）",
-        "answer_score": 86,
-        "difficulty": "easy",
-        "id": "cna-17237a64867f83713682::電子",
-        "event_id": "cna-17237a64867f83713682",
-        "event_revision": "cna-17237a64867f83713682",
-        "source_support": [
-          {
-            "source_id": "rss-b42a3dd2b2a719d7a55c",
-            "evidence": "10月電子期跌　金融期漲"
-          }
-        ]
+        ],
+        "clue_style": "natural-v1",
+        "clue_kind": "meaning"
       },
       {
         "word": "疫苗",
-        "clue": "據報導「ovavax○苗擬10月下旬開打」，補全用語。（2字）",
         "answer_score": 86,
         "difficulty": "easy",
+        "clue": "本週報導用語：用來讓身體對特定病原產生保護性反應的製劑，稱為什麼？（2字）",
         "id": "cna-176d15ce8c1d89d587b4::疫苗",
         "event_id": "cna-176d15ce8c1d89d587b4",
         "event_revision": "cna-176d15ce8c1d89d587b4",
@@ -7996,28 +9719,15 @@
             "source_id": "rss-ea057fa8deac4b22c5fb",
             "evidence": "左流右新打氣旺　15萬劑Novavax疫苗擬10月下旬開打"
           }
-        ]
-      },
-      {
-        "word": "通訊",
-        "clue": "據報導「○○○訊系統遭入侵釀列車急煞　檢方起」，補全用語。（2字）",
-        "answer_score": 86,
-        "difficulty": "easy",
-        "id": "cna-b4b960a1ef301e9619bc::通訊",
-        "event_id": "cna-b4b960a1ef301e9619bc",
-        "event_revision": "cna-b4b960a1ef301e9619bc",
-        "source_support": [
-          {
-            "source_id": "rss-4e1d7c584c40c5575f09",
-            "evidence": "高鐵通訊系統遭入侵釀列車急煞　檢方起訴男大生求刑2年"
-          }
-        ]
+        ],
+        "clue_style": "natural-v1",
+        "clue_kind": "meaning"
       },
       {
         "word": "高鐵",
-        "clue": "據報導「高○○○系統遭入侵釀列車急煞　檢」，補全機關或組織。（2字）",
         "answer_score": 86,
         "difficulty": "easy",
+        "clue": "本週報導用語：列車時速可達三百公里的西部快速軌道運輸系統，簡稱是哪兩字？（2字）",
         "id": "cna-b4b960a1ef301e9619bc::高鐵",
         "event_id": "cna-b4b960a1ef301e9619bc",
         "event_revision": "cna-b4b960a1ef301e9619bc",
@@ -8026,13 +9736,32 @@
             "source_id": "rss-4e1d7c584c40c5575f09",
             "evidence": "高鐵通訊系統遭入侵釀列車急煞　檢方起訴男大生求刑2年"
           }
-        ]
+        ],
+        "clue_style": "natural-v1",
+        "clue_kind": "meaning"
+      },
+      {
+        "word": "通訊",
+        "answer_score": 86,
+        "difficulty": "easy",
+        "clue": "本週報導用語：利用訊號或設備傳遞訊息的活動，稱為什麼？（2字）",
+        "id": "cna-b4b960a1ef301e9619bc::通訊",
+        "event_id": "cna-b4b960a1ef301e9619bc",
+        "event_revision": "cna-b4b960a1ef301e9619bc",
+        "source_support": [
+          {
+            "source_id": "rss-4e1d7c584c40c5575f09",
+            "evidence": "高鐵通訊系統遭入侵釀列車急煞　檢方起訴男大生求刑2年"
+          }
+        ],
+        "clue_style": "natural-v1",
+        "clue_kind": "meaning"
       },
       {
         "word": "馬來西亞",
-        "clue": "據報導「○來西亞霾害影響日常生活  出門行程」，補全國家或地區。（4字）",
         "answer_score": 92,
         "difficulty": "easy",
+        "clue": "本週報導用語：以吉隆坡為首都、領土分布於馬來半島與婆羅洲的是哪個國家？（4字）",
         "id": "cna-a324a9e5d44d00dc0e09::馬來西亞",
         "event_id": "cna-a324a9e5d44d00dc0e09",
         "event_revision": "cna-a324a9e5d44d00dc0e09",
@@ -8041,13 +9770,15 @@
             "source_id": "rss-967d126af0966370a6d3",
             "evidence": "馬來西亞霾害影響日常生活  出門行程要看空污指數"
           }
-        ]
+        ],
+        "clue_style": "natural-v1",
+        "clue_kind": "meaning"
       },
       {
         "word": "外交部",
-        "clue": "據報導「白要求檢調、○交部持續調查」，補全機關或組織。（3字）",
         "answer_score": 89,
         "difficulty": "easy",
+        "clue": "本週報導用語：掌理對外關係、駐外代表及領事事務的中央部會是哪一部？（3字）",
         "id": "cna-9523bf470dfe741bd3f6::外交部",
         "event_id": "cna-9523bf470dfe741bd3f6",
         "event_revision": "cna-9523bf470dfe741bd3f6",
@@ -8056,13 +9787,15 @@
             "source_id": "rss-4c4b87e4240c079313f4",
             "evidence": "徐佳青請辭　藍白要求檢調、外交部持續調查"
           }
-        ]
+        ],
+        "clue_style": "natural-v1",
+        "clue_kind": "meaning"
       },
       {
         "word": "阿根廷",
-        "clue": "據報導「幕　含淚告別○根廷戰袍」，補全國家或地區。（3字）",
         "answer_score": 89,
         "difficulty": "easy",
+        "clue": "本週報導用語：以布宜諾斯艾利斯為首都、以探戈聞名的是哪個國家？（3字）",
         "id": "cna-765de9efbd4db1713763::阿根廷",
         "event_id": "cna-765de9efbd4db1713763",
         "event_revision": "cna-765de9efbd4db1713763",
@@ -8071,28 +9804,15 @@
             "source_id": "rss-9c201ba7ec5fce3ccb82",
             "evidence": "梅西最後一舞傳奇謝幕　含淚告別阿根廷戰袍"
           }
-        ]
-      },
-      {
-        "word": "蔣萬安",
-        "clue": "據報導「○萬安視察美沙冬門診　強調○○人員」，補全人物。（3字）",
-        "answer_score": 89,
-        "difficulty": "easy",
-        "id": "cna-3fe04ffbd37974e12a04::蔣萬安",
-        "event_id": "cna-3fe04ffbd37974e12a04",
-        "event_revision": "cna-3fe04ffbd37974e12a04",
-        "source_support": [
-          {
-            "source_id": "rss-35867506a06431ff6ad7",
-            "evidence": "蔣萬安視察美沙冬門診　強調醫療人員監督執行有相當成果"
-          }
-        ]
+        ],
+        "clue_style": "natural-v1",
+        "clue_kind": "meaning"
       },
       {
         "word": "醫療",
-        "clue": "據報導「冬門診　強調○療人員監督執行有相當成果」，補全用語。（2字）",
         "answer_score": 86,
         "difficulty": "easy",
+        "clue": "本週報導用語：以診斷、處置等方式照護病人的活動，稱為什麼？（2字）",
         "id": "cna-3fe04ffbd37974e12a04::醫療",
         "event_id": "cna-3fe04ffbd37974e12a04",
         "event_revision": "cna-3fe04ffbd37974e12a04",
@@ -8101,13 +9821,15 @@
             "source_id": "rss-35867506a06431ff6ad7",
             "evidence": "蔣萬安視察美沙冬門診　強調醫療人員監督執行有相當成果"
           }
-        ]
+        ],
+        "clue_style": "natural-v1",
+        "clue_kind": "meaning"
       },
       {
         "word": "伊朗",
-        "clue": "據報導「○朗戰爭美軍折損81架航空器　總」，補全國家或地區。（2字）",
         "answer_score": 86,
         "difficulty": "easy",
+        "clue": "本週報導用語：以德黑蘭為首都、主要使用波斯語的是哪個國家？（2字）",
         "id": "cna-50e42dfe8524979fe403::伊朗",
         "event_id": "cna-50e42dfe8524979fe403",
         "event_revision": "cna-50e42dfe8524979fe403",
@@ -8116,13 +9838,32 @@
             "source_id": "rss-914542c721687b081056",
             "evidence": "伊朗戰爭美軍折損81架航空器　總支出達436億美元"
           }
-        ]
+        ],
+        "clue_style": "natural-v1",
+        "clue_kind": "meaning"
+      },
+      {
+        "word": "美元",
+        "answer_score": 86,
+        "difficulty": "easy",
+        "clue": "本週報導用語：美國使用的主要貨幣單位，名稱是哪兩字？（2字）",
+        "id": "cna-50e42dfe8524979fe403::美元",
+        "event_id": "cna-50e42dfe8524979fe403",
+        "event_revision": "cna-50e42dfe8524979fe403",
+        "source_support": [
+          {
+            "source_id": "rss-914542c721687b081056",
+            "evidence": "伊朗戰爭美軍折損81架航空器　總支出達436億美元"
+          }
+        ],
+        "clue_style": "natural-v1",
+        "clue_kind": "meaning"
       },
       {
         "word": "沖繩",
-        "clue": "據報導「人案掀爭議　○繩知事要求檢討「日美地位協定」」，補全地名。（2字）",
         "answer_score": 86,
         "difficulty": "easy",
+        "clue": "本週報導用語：位於琉球群島、以首里城聞名的縣分是哪裡？（2字）",
         "id": "cna-1e78b247155ff8b3563b::沖繩",
         "event_id": "cna-1e78b247155ff8b3563b",
         "event_revision": "cna-1e78b247155ff8b3563b",
@@ -8131,28 +9872,32 @@
             "source_id": "rss-65330986c9da86ac18bb",
             "evidence": "美軍涉強盜殺人案掀爭議　沖繩知事要求檢討「日美地位協定」"
           }
-        ]
+        ],
+        "clue_style": "natural-v1",
+        "clue_kind": "meaning"
       },
       {
-        "word": "澎湖縣",
-        "clue": "據報導「○湖縣長選戰  黃捷跨海助選吳淑瑾」，補全地名。（3字）",
-        "answer_score": 89,
+        "word": "台南",
+        "answer_score": 86,
         "difficulty": "easy",
-        "id": "cna-a1d69b1735edf132327b::澎湖縣",
-        "event_id": "cna-a1d69b1735edf132327b",
-        "event_revision": "cna-a1d69b1735edf132327b",
+        "clue": "本週報導用語：以古蹟、小吃與安平古堡聞名的南部古都是哪裡？（2字）",
+        "id": "cna-3c8abf8b12ec39881c08::台南",
+        "event_id": "cna-3c8abf8b12ec39881c08",
+        "event_revision": "cna-3c8abf8b12ec39881c08",
         "source_support": [
           {
-            "source_id": "rss-76b0f9b91d9f3b23241e",
-            "evidence": "澎湖縣長選戰  黃捷跨海助選吳淑瑾盼延續幸福好政"
+            "source_id": "rss-d617889ebf49e687f0d1",
+            "evidence": "國3台南關廟段大貨車衝落邊坡　駕駛命危"
           }
-        ]
+        ],
+        "clue_style": "natural-v1",
+        "clue_kind": "meaning"
       },
       {
         "word": "萬華",
-        "clue": "據報導「被控涉白嫖　○華分局澄清傳言」，補全地名。（2字）",
         "answer_score": 86,
         "difficulty": "easy",
+        "clue": "本週報導用語：龍山寺與西門町所在、歷史悠久的市區是哪裡？（2字）",
         "id": "cna-af94d4e32b8a0b2b48f8::萬華",
         "event_id": "cna-af94d4e32b8a0b2b48f8",
         "event_revision": "cna-af94d4e32b8a0b2b48f8",
@@ -8161,13 +9906,15 @@
             "source_id": "rss-49b2d42bb34b153bb98c",
             "evidence": "警搜同志酒吧惹議又被控涉白嫖　萬華分局澄清傳言"
           }
-        ]
+        ],
+        "clue_style": "natural-v1",
+        "clue_kind": "meaning"
       },
       {
         "word": "交通部",
-        "clue": "據報導「橋鋼梁合龍　○通部：將提前於116年中通車[影」，補全機關或組織。（3字）",
         "answer_score": 89,
         "difficulty": "easy",
+        "clue": "本週報導用語：主管全國運輸、道路與觀光政策的中央部會是哪一部？（3字）",
         "id": "cna-e7ae5bf07477ab906160::交通部",
         "event_id": "cna-e7ae5bf07477ab906160",
         "event_revision": "cna-e7ae5bf07477ab906160",
@@ -8176,13 +9923,15 @@
             "source_id": "rss-2d22fa64194e2bb46ad2",
             "evidence": "馬太鞍溪永久橋鋼梁合龍　交通部：將提前於116年中通車[影]"
           }
-        ]
+        ],
+        "clue_style": "natural-v1",
+        "clue_kind": "meaning"
       },
       {
         "word": "新冠",
-        "clue": "據報導「84歲　重返○冠疫情嚴重前水平」，補全用語。（2字）",
         "answer_score": 86,
         "difficulty": "easy",
+        "clue": "本週報導用語：COVID-19這種感染疾病的常用兩字簡稱是什麼？（2字）",
         "id": "cna-0bc25111b317dd82d0b5::新冠",
         "event_id": "cna-0bc25111b317dd82d0b5",
         "event_revision": "cna-0bc25111b317dd82d0b5",
@@ -8191,13 +9940,15 @@
             "source_id": "rss-556a48a9336e464d9dc1",
             "evidence": "北市114年平均壽命近84歲　重返新冠疫情嚴重前水平"
           }
-        ]
+        ],
+        "clue_style": "natural-v1",
+        "clue_kind": "meaning"
       },
       {
         "word": "資料中心",
-        "clue": "據報導「原新建上百座○料中心  帶來多少○○引質疑」，補全用語。（4字）",
         "answer_score": 92,
         "difficulty": "easy",
+        "clue": "本週報導用語：集中設置大量伺服主機、提供運算與儲存服務的設施，稱為什麼？（4字）",
         "id": "cna-238808cc0f71cca09a5b::資料中心",
         "event_id": "cna-238808cc0f71cca09a5b",
         "event_revision": "cna-238808cc0f71cca09a5b",
@@ -8206,28 +9957,15 @@
             "source_id": "rss-9e3b42e28e08d9bc2ef9",
             "evidence": "內蒙草原新建上百座資料中心  帶來多少就業引質疑"
           }
-        ]
-      },
-      {
-        "word": "民進黨",
-        "clue": "據報導「監控沈伯洋　○進黨：譴責○○跨國鎮壓」，補全機關或組織。（3字）",
-        "answer_score": 89,
-        "difficulty": "easy",
-        "id": "cna-9d56a6071d7f713a3326::民進黨",
-        "event_id": "cna-9d56a6071d7f713a3326",
-        "event_revision": "cna-9d56a6071d7f713a3326",
-        "source_support": [
-          {
-            "source_id": "rss-38f4f172e477a5db4e7e",
-            "evidence": "港人委徵信業者監控沈伯洋　民進黨：譴責中國跨國鎮壓"
-          }
-        ]
+        ],
+        "clue_style": "natural-v1",
+        "clue_kind": "meaning"
       },
       {
         "word": "日本",
-        "clue": "據報導「合哄抬價格　○本調查4間啤酒大廠」，補全國家或地區。（2字）",
         "answer_score": 86,
         "difficulty": "easy",
+        "clue": "本週報導用語：以東京為首都、使用日圓的是哪個島國？（2字）",
         "id": "cna-aa0988c2f1b56c7b88e7::日本",
         "event_id": "cna-aa0988c2f1b56c7b88e7",
         "event_revision": "cna-aa0988c2f1b56c7b88e7",
@@ -8236,28 +9974,15 @@
             "source_id": "rss-06498285009566ac0321",
             "evidence": "涉嫌聯合哄抬價格　日本調查4間啤酒大廠"
           }
-        ]
-      },
-      {
-        "word": "陳其邁",
-        "clue": "據報導「發最多針頭　○其邁：預防愛滋病」，補全人物。（3字）",
-        "answer_score": 89,
-        "difficulty": "easy",
-        "id": "cna-90a34053fb8b3c39377e::陳其邁",
-        "event_id": "cna-90a34053fb8b3c39377e",
-        "event_revision": "cna-90a34053fb8b3c39377e",
-        "source_support": [
-          {
-            "source_id": "rss-c4f7ff214ded9091ffe7",
-            "evidence": "藍委批高雄發最多針頭　陳其邁：預防愛滋病"
-          }
-        ]
+        ],
+        "clue_style": "natural-v1",
+        "clue_kind": "meaning"
       },
       {
         "word": "紅十字會",
-        "clue": "據報導「傳溺水意外　○十字會籲善用救生器材」，補全機關或組織。（4字）",
         "answer_score": 92,
         "difficulty": "easy",
+        "clue": "本週報導用語：以紅色十字標誌從事人道救援的組織，名稱是哪四字？（4字）",
         "id": "cna-e0a9d75e9f065f48c70a::紅十字會",
         "event_id": "cna-e0a9d75e9f065f48c70a",
         "event_revision": "cna-e0a9d75e9f065f48c70a",
@@ -8266,13 +9991,15 @@
             "source_id": "rss-7585877a50c51a59dc6b",
             "evidence": "接連傳溺水意外　紅十字會籲善用救生器材"
           }
-        ]
+        ],
+        "clue_style": "natural-v1",
+        "clue_kind": "meaning"
       },
       {
         "word": "泰國",
-        "clue": "據報導「9月火警　3泰○籍○○未依規施作10萬交保」，補全國家或地區。（2字）",
         "answer_score": 86,
         "difficulty": "easy",
+        "clue": "本週報導用語：以曼谷為首都、使用泰銖的是哪個國家？（2字）",
         "id": "cna-7fdeef923438c8e2de65::泰國",
         "event_id": "cna-7fdeef923438c8e2de65",
         "event_revision": "cna-7fdeef923438c8e2de65",
@@ -8281,13 +10008,15 @@
             "source_id": "rss-ebb72c63dc475080e748",
             "evidence": "興達電廠114年9月火警　3泰國籍勞工未依規施作10萬交保"
           }
-        ]
+        ],
+        "clue_style": "natural-v1",
+        "clue_kind": "meaning"
       },
       {
         "word": "供應鏈",
-        "clue": "據報導「泰○○學家：○應鏈重整　台商從○○移往東協國家」，補全用語。（3字）",
         "answer_score": 89,
         "difficulty": "easy",
+        "clue": "本週報導用語：原料取得、製造與配送等環節串接成的體系，稱為什麼？（3字）",
         "id": "cna-be70a9bd2870ffdc8110::供應鏈",
         "event_id": "cna-be70a9bd2870ffdc8110",
         "event_revision": "cna-be70a9bd2870ffdc8110",
@@ -8296,13 +10025,15 @@
             "source_id": "rss-2c4f3e8db5e6a6c5528a",
             "evidence": "泰經濟學家：供應鏈重整　台商從中國移往東協國家"
           }
-        ]
+        ],
+        "clue_style": "natural-v1",
+        "clue_kind": "meaning"
       },
       {
         "word": "經濟",
-        "clue": "據報導「泰○濟學家：○○○重整　台商從○○」，補全用語。（2字）",
         "answer_score": 86,
         "difficulty": "easy",
+        "clue": "本週報導用語：生產、分配與消費等活動形成的整體，統稱為什麼？（2字）",
         "id": "cna-be70a9bd2870ffdc8110::經濟",
         "event_id": "cna-be70a9bd2870ffdc8110",
         "event_revision": "cna-be70a9bd2870ffdc8110",
@@ -8311,13 +10042,15 @@
             "source_id": "rss-2c4f3e8db5e6a6c5528a",
             "evidence": "泰經濟學家：供應鏈重整　台商從中國移往東協國家"
           }
-        ]
+        ],
+        "clue_style": "natural-v1",
+        "clue_kind": "meaning"
       },
       {
         "word": "菲律賓",
-        "clue": "據報導「○律賓與○○深化防務合作  維護國」，補全國家或地區。（3字）",
         "answer_score": 89,
         "difficulty": "easy",
+        "clue": "本週報導用語：以馬尼拉為首都、由多座島嶼組成的是哪個國家？（3字）",
         "id": "cna-a39b26dff08feb4a61ef::菲律賓",
         "event_id": "cna-a39b26dff08feb4a61ef",
         "event_revision": "cna-a39b26dff08feb4a61ef",
@@ -8326,13 +10059,15 @@
             "source_id": "rss-e51925c30834661f04ef",
             "evidence": "菲律賓與波蘭深化防務合作  維護國際秩序"
           }
-        ]
+        ],
+        "clue_style": "natural-v1",
+        "clue_kind": "meaning"
       },
       {
         "word": "波蘭",
-        "clue": "據報導「○○○與波○深化防務合作  維護國際秩序」，補全國家或地區。（2字）",
         "answer_score": 86,
         "difficulty": "easy",
+        "clue": "本週報導用語：以華沙為首都、國旗由白紅兩色組成的是哪個國家？（2字）",
         "id": "cna-a39b26dff08feb4a61ef::波蘭",
         "event_id": "cna-a39b26dff08feb4a61ef",
         "event_revision": "cna-a39b26dff08feb4a61ef",
@@ -8341,13 +10076,15 @@
             "source_id": "rss-e51925c30834661f04ef",
             "evidence": "菲律賓與波蘭深化防務合作  維護國際秩序"
           }
-        ]
+        ],
+        "clue_style": "natural-v1",
+        "clue_kind": "meaning"
       },
       {
         "word": "台塑",
-        "clue": "據報導「○塑新智能揮軍CSP市場　攜創曦」，補全企業。（2字）",
         "answer_score": 86,
         "difficulty": "easy",
+        "clue": "本週報導用語：1954年創立、以塑膠原料起家的大型企業，簡稱是哪兩字？（2字）",
         "id": "cna-fed4a1e1192efbaeb84c::台塑",
         "event_id": "cna-fed4a1e1192efbaeb84c",
         "event_revision": "cna-fed4a1e1192efbaeb84c",
@@ -8356,43 +10093,15 @@
             "source_id": "rss-84c23cf019a00c4af32f",
             "evidence": "台塑新智能揮軍CSP市場　攜創曦資訊在麥寮共建AIDC"
           }
-        ]
-      },
-      {
-        "word": "侯友宜",
-        "clue": "據報導「.4%提案　○友宜：續交棒」，補全人物。（3字）",
-        "answer_score": 89,
-        "difficulty": "easy",
-        "id": "cna-305f26730f188921791b::侯友宜",
-        "event_id": "cna-305f26730f188921791b",
-        "event_revision": "cna-305f26730f188921791b",
-        "source_support": [
-          {
-            "source_id": "rss-300073df244884f42cf8",
-            "evidence": "新北行動治理8年解決92.4%提案　侯友宜：續交棒"
-          }
-        ]
-      },
-      {
-        "word": "川普",
-        "clue": "據報導「建新造船廠　○普站台力挺」，補全人物。（2字）",
-        "answer_score": 86,
-        "difficulty": "easy",
-        "id": "cna-e6e036c2b744d4a76a69::川普",
-        "event_id": "cna-e6e036c2b744d4a76a69",
-        "event_revision": "cna-e6e036c2b744d4a76a69",
-        "source_support": [
-          {
-            "source_id": "rss-640a7d0fbe7e6a3de972",
-            "evidence": "安杜里爾砸1184億元建新造船廠　川普站台力挺"
-          }
-        ]
+        ],
+        "clue_style": "natural-v1",
+        "clue_kind": "meaning"
       },
       {
         "word": "非洲",
-        "clue": "據報導「○○「非○手機之王」○○傳音在港IPO」，補全國家或地區。（2字）",
         "answer_score": 86,
         "difficulty": "easy",
+        "clue": "本週報導用語：撒哈拉沙漠及尼羅河所在的是哪一洲？（2字）",
         "id": "cna-02831da3c984f29ea965::非洲",
         "event_id": "cna-02831da3c984f29ea965",
         "event_revision": "cna-02831da3c984f29ea965",
@@ -8401,13 +10110,15 @@
             "source_id": "rss-fca0d2f2f89c84de8dfa",
             "evidence": "中國「非洲手機之王」深圳傳音在港IPO"
           }
-        ]
+        ],
+        "clue_style": "natural-v1",
+        "clue_kind": "meaning"
       },
       {
         "word": "央行",
-        "clue": "據報導「○○○行連續第23個月增持○○」，補全機關或組織。（2字）",
         "answer_score": 86,
         "difficulty": "easy",
+        "clue": "本週報導用語：負責貨幣政策與穩定幣值的機構，常用兩字簡稱是什麼？（2字）",
         "id": "cna-ae7ef34c13fb92238ae9::央行",
         "event_id": "cna-ae7ef34c13fb92238ae9",
         "event_revision": "cna-ae7ef34c13fb92238ae9",
@@ -8416,13 +10127,15 @@
             "source_id": "rss-323a4c2b21e53343f888",
             "evidence": "中國央行連續第23個月增持黃金"
           }
-        ]
+        ],
+        "clue_style": "natural-v1",
+        "clue_kind": "meaning"
       },
       {
         "word": "黃金",
-        "clue": "據報導「23個月增持黃○」，補全用語。（2字）",
         "answer_score": 86,
         "difficulty": "easy",
+        "clue": "本週報導用語：化學符號為Au、呈黃色光澤的貴金屬，稱為什麼？（2字）",
         "id": "cna-ae7ef34c13fb92238ae9::黃金",
         "event_id": "cna-ae7ef34c13fb92238ae9",
         "event_revision": "cna-ae7ef34c13fb92238ae9",
@@ -8431,28 +10144,15 @@
             "source_id": "rss-323a4c2b21e53343f888",
             "evidence": "中國央行連續第23個月增持黃金"
           }
-        ]
-      },
-      {
-        "word": "香港",
-        "clue": "據報導「徵信業者收○港人36萬跟監沈伯洋　北檢起訴」，補全國家或地區。（2字）",
-        "answer_score": 86,
-        "difficulty": "easy",
-        "id": "cna-2e397209b6f23d5e5b94::香港",
-        "event_id": "cna-2e397209b6f23d5e5b94",
-        "event_revision": "cna-2e397209b6f23d5e5b94",
-        "source_support": [
-          {
-            "source_id": "rss-aa65cbb0f6c05a2652e7",
-            "evidence": "徵信業者收香港人36萬跟監沈伯洋　北檢起訴求刑1年半"
-          }
-        ]
+        ],
+        "clue_style": "natural-v1",
+        "clue_kind": "meaning"
       },
       {
         "word": "珊瑚",
-        "clue": "據報導「洛西○○味　○瑚絲巾、巧克力藏巧思」，補全用語。（2字）",
         "answer_score": 86,
         "difficulty": "easy",
+        "clue": "本週報導用語：能形成礁體、由許多小型海生動物群聚構成的生物，稱為什麼？（2字）",
         "id": "cna-1e8e9d5179e1b972fb17::珊瑚",
         "event_id": "cna-1e8e9d5179e1b972fb17",
         "event_revision": "cna-1e8e9d5179e1b972fb17",
@@ -8461,28 +10161,15 @@
             "source_id": "rss-63eaa73f995278a5b11a",
             "evidence": "蔡英文送裴洛西台灣味　珊瑚絲巾、巧克力藏巧思"
           }
-        ]
-      },
-      {
-        "word": "普丁",
-        "clue": "據報導「金正恩向○丁致生日賀電　承諾提供堅定不移」，補全人物。（2字）",
-        "answer_score": 86,
-        "difficulty": "easy",
-        "id": "cna-0259158f09229dd1a3d4::普丁",
-        "event_id": "cna-0259158f09229dd1a3d4",
-        "event_revision": "cna-0259158f09229dd1a3d4",
-        "source_support": [
-          {
-            "source_id": "rss-40f75ffc4baa5894301a",
-            "evidence": "金正恩向普丁致生日賀電　承諾提供堅定不移支持"
-          }
-        ]
+        ],
+        "clue_style": "natural-v1",
+        "clue_kind": "meaning"
       },
       {
         "word": "洛杉磯",
-        "clue": "據報導「○○可能摧毀○杉磯或聖地牙哥　○○政界反彈」，補全地名。（3字）",
         "answer_score": 89,
         "difficulty": "easy",
+        "clue": "本週報導用語：好萊塢與大型電影製片業所在的大城市是哪裡？（3字）",
         "id": "cna-657a8534b3e180da1be7::洛杉磯",
         "event_id": "cna-657a8534b3e180da1be7",
         "event_revision": "cna-657a8534b3e180da1be7",
@@ -8491,13 +10178,15 @@
             "source_id": "rss-c048ed299bb25e456fb0",
             "evidence": "川普稱伊朗可能摧毀洛杉磯或聖地牙哥　加州政界反彈"
           }
-        ]
+        ],
+        "clue_style": "natural-v1",
+        "clue_kind": "meaning"
       },
       {
         "word": "加州",
-        "clue": "據報導「或聖地牙哥　加○政界反彈」，補全地名。（2字）",
         "answer_score": 86,
         "difficulty": "easy",
+        "clue": "本週報導用語：以矽谷及好萊塢聞名、州旗有熊圖案的一州是哪裡？（2字）",
         "id": "cna-657a8534b3e180da1be7::加州",
         "event_id": "cna-657a8534b3e180da1be7",
         "event_revision": "cna-657a8534b3e180da1be7",
@@ -8506,13 +10195,15 @@
             "source_id": "rss-c048ed299bb25e456fb0",
             "evidence": "川普稱伊朗可能摧毀洛杉磯或聖地牙哥　加州政界反彈"
           }
-        ]
+        ],
+        "clue_style": "natural-v1",
+        "clue_kind": "meaning"
       },
       {
         "word": "學生",
-        "clue": "據報導「○生團體籲放寬生理假限制、每月至」，補全用語。（2字）",
         "answer_score": 86,
         "difficulty": "easy",
+        "clue": "本週報導用語：在校接受課程與學習的人，稱為什麼？（2字）",
         "id": "cna-968e73f57b4562387489::學生",
         "event_id": "cna-968e73f57b4562387489",
         "event_revision": "cna-968e73f57b4562387489",
@@ -8521,13 +10212,15 @@
             "source_id": "rss-ef87c9776f90ae92ca91",
             "evidence": "學生團體籲放寬生理假限制、每月至少2天"
           }
-        ]
+        ],
+        "clue_style": "natural-v1",
+        "clue_kind": "meaning"
       },
       {
         "word": "宜蘭",
-        "clue": "據報導「○蘭頭城里長參選人涉招待餐會賄選」，補全地名。（2字）",
         "answer_score": 86,
         "difficulty": "easy",
+        "clue": "本週報導用語：以蘭陽平原及礁溪溫泉聞名的東北部縣分是哪裡？（2字）",
         "id": "cna-9db8767f0084b2ca9f5d::宜蘭",
         "event_id": "cna-9db8767f0084b2ca9f5d",
         "event_revision": "cna-9db8767f0084b2ca9f5d",
@@ -8536,13 +10229,15 @@
             "source_id": "rss-a176414c239c2914e4a1",
             "evidence": "宜蘭頭城里長參選人涉招待餐會賄選　5萬元交保"
           }
-        ]
+        ],
+        "clue_style": "natural-v1",
+        "clue_kind": "meaning"
       },
       {
         "word": "大學",
-        "clue": "據報導「○學排碳不輸工廠　擬以校園為核心」，補全用語。（2字）",
         "answer_score": 86,
         "difficulty": "easy",
+        "clue": "本週報導用語：提供高等學習、授予學士等學位的機構，稱為什麼？（2字）",
         "id": "cna-55820ef0c2a7d092f88e::大學",
         "event_id": "cna-55820ef0c2a7d092f88e",
         "event_revision": "cna-55820ef0c2a7d092f88e",
@@ -8551,28 +10246,15 @@
             "source_id": "rss-aad79d6d5e6ffaf88901",
             "evidence": "大學排碳不輸工廠　擬以校園為核心推都市林"
           }
-        ]
-      },
-      {
-        "word": "卓榮泰",
-        "clue": "據報導「護清譽意願　○榮泰已准辭」，補全人物。（3字）",
-        "answer_score": 89,
-        "difficulty": "easy",
-        "id": "cna-deed2e7776463e56a1ed::卓榮泰",
-        "event_id": "cna-deed2e7776463e56a1ed",
-        "event_revision": "cna-deed2e7776463e56a1ed",
-        "source_support": [
-          {
-            "source_id": "rss-aaceaedb3f86fb30ff6f",
-            "evidence": "政院：尊重徐佳青維護清譽意願　卓榮泰已准辭"
-          }
-        ]
+        ],
+        "clue_style": "natural-v1",
+        "clue_kind": "meaning"
       },
       {
         "word": "世錦賽",
-        "clue": "據報導「滑板摘銀續拚○錦賽　總排第8闖複賽」，補全體育項目。（3字）",
         "answer_score": 89,
         "difficulty": "easy",
+        "clue": "本週報導用語：世界錦標賽的三字簡稱是什麼？（3字）",
         "id": "cna-2a675401bb6bd0ccbc64::世錦賽",
         "event_id": "cna-2a675401bb6bd0ccbc64",
         "event_revision": "cna-2a675401bb6bd0ccbc64",
@@ -8581,43 +10263,49 @@
             "source_id": "rss-5efb74de04b6bf03c40d",
             "evidence": "林逸凡亞運滑板摘銀續拚世錦賽　總排第8闖複賽"
           }
-        ]
+        ],
+        "clue_style": "natural-v1",
+        "clue_kind": "meaning"
       },
       {
-        "word": "亞運",
-        "clue": "據報導「林逸凡亞○滑板摘銀續拚○○○　總排第8」，補全體育項目。（2字）",
+        "word": "歐洲",
         "answer_score": 86,
         "difficulty": "easy",
-        "id": "cna-2a675401bb6bd0ccbc64::亞運",
-        "event_id": "cna-2a675401bb6bd0ccbc64",
-        "event_revision": "cna-2a675401bb6bd0ccbc64",
+        "clue": "本週報導用語：阿爾卑斯山及多瑙河所在的是哪一洲？（2字）",
+        "id": "cna-782ed3e5bebd94e1ff3a::歐洲",
+        "event_id": "cna-782ed3e5bebd94e1ff3a",
+        "event_revision": "cna-782ed3e5bebd94e1ff3a",
         "source_support": [
           {
-            "source_id": "rss-5efb74de04b6bf03c40d",
-            "evidence": "林逸凡亞運滑板摘銀續拚世錦賽　總排第8闖複賽"
+            "source_id": "rss-f2aa0a1ad0faa2b70f1e",
+            "evidence": "臺灣漫遊錄英譯本遭侵權　金翎向歐洲出版社、台灣版代提告"
           }
-        ]
+        ],
+        "clue_style": "natural-v1",
+        "clue_kind": "meaning"
       },
       {
-        "word": "李灝宇",
-        "clue": "據報導「○灝宇進美媒MLB新秀榜第49名　」，補全體育項目。（3字）",
-        "answer_score": 89,
+        "word": "澳洲",
+        "answer_score": 86,
         "difficulty": "easy",
-        "id": "cna-48521adf0bf6713d29f0::李灝宇",
-        "event_id": "cna-48521adf0bf6713d29f0",
-        "event_revision": "cna-48521adf0bf6713d29f0",
+        "clue": "本週報導用語：以坎培拉為首都、境內有袋鼠的是哪個國家？（2字）",
+        "id": "cna-226e45e621b6897f3884::澳洲",
+        "event_id": "cna-226e45e621b6897f3884",
+        "event_revision": "cna-226e45e621b6897f3884",
         "source_support": [
           {
-            "source_id": "rss-51d912a7ca14d25c60a9",
-            "evidence": "李灝宇進美媒MLB新秀榜第49名　定位打擊型工具人"
+            "source_id": "rss-521f872724646b449a37",
+            "evidence": "涉隱私疑慮　澳洲調查平價智慧眼鏡App中國開發商"
           }
-        ]
+        ],
+        "clue_style": "natural-v1",
+        "clue_kind": "meaning"
       },
       {
         "word": "京元電",
-        "clue": "據報導「燈會在○○　○元電提案首座企業燈區揭亮點」，補全企業。（3字）",
         "answer_score": 89,
         "difficulty": "easy",
+        "clue": "本週報導用語：以積體電路測試服務聞名、英文縮寫為KYEC的企業是哪一家？（3字）",
         "id": "cna-cc6163db3a4810a746e6::京元電",
         "event_id": "cna-cc6163db3a4810a746e6",
         "event_revision": "cna-cc6163db3a4810a746e6",
@@ -8626,13 +10314,15 @@
             "source_id": "rss-3f1de1f62e1163b98288",
             "evidence": "2027台灣燈會在苗栗　京元電提案首座企業燈區揭亮點"
           }
-        ]
+        ],
+        "clue_style": "natural-v1",
+        "clue_kind": "meaning"
       },
       {
         "word": "苗栗",
-        "clue": "據報導「7○○燈會在○栗　○○○提案首座企業燈區揭亮」，補全地名。（2字）",
         "answer_score": 86,
         "difficulty": "easy",
+        "clue": "本週報導用語：以客家文化及三義木雕聞名的縣分是哪裡？（2字）",
         "id": "cna-cc6163db3a4810a746e6::苗栗",
         "event_id": "cna-cc6163db3a4810a746e6",
         "event_revision": "cna-cc6163db3a4810a746e6",
@@ -8641,13 +10331,15 @@
             "source_id": "rss-3f1de1f62e1163b98288",
             "evidence": "2027台灣燈會在苗栗　京元電提案首座企業燈區揭亮點"
           }
-        ]
+        ],
+        "clue_style": "natural-v1",
+        "clue_kind": "meaning"
       },
       {
         "word": "輝達",
-        "clue": "據報導「00億○○買輝○○○　加大押注AI布局」，補全企業。（2字）",
         "answer_score": 86,
         "difficulty": "easy",
+        "clue": "本週報導用語：以GPU及加速運算產品聞名、英文名稱為NVIDIA的企業是哪一家？（2字）",
         "id": "cna-666e799bcf736066818f::輝達",
         "event_id": "cna-666e799bcf736066818f",
         "event_revision": "cna-666e799bcf736066818f",
@@ -8656,13 +10348,15 @@
             "source_id": "rss-57f24d36a09970515176",
             "evidence": "SpaceX擬籌400億美元買輝達晶片　加大押注AI布局"
           }
-        ]
+        ],
+        "clue_style": "natural-v1",
+        "clue_kind": "meaning"
       },
       {
         "word": "僑委會",
-        "clue": "據報導「　即日起請辭僑○會委員長」，補全機關或組織。（3字）",
         "answer_score": 89,
         "difficulty": "easy",
+        "clue": "本週報導用語：掌理海外僑民事務的中央委員會，常用三字簡稱是什麼？（3字）",
         "id": "cna-231f79e4e118f9019a8b::僑委會",
         "event_id": "cna-231f79e4e118f9019a8b",
         "event_revision": "cna-231f79e4e118f9019a8b",
@@ -8671,13 +10365,15 @@
             "source_id": "rss-6b3e24c3b06cbe81e672",
             "evidence": "徐佳青：自請行政司法調查　即日起請辭僑委會委員長"
           }
-        ]
+        ],
+        "clue_style": "natural-v1",
+        "clue_kind": "meaning"
       },
       {
         "word": "記憶體",
-        "clue": "據報導「勢衝5萬點　○憶體光○○表現強」，補全用語。（3字）",
         "answer_score": 89,
         "difficulty": "easy",
+        "clue": "本週報導用語：電腦用來暫存或保存資料的元件，稱為什麼？（3字）",
         "id": "cna-1ba6d98e5e2cd7db7e5b::記憶體",
         "event_id": "cna-1ba6d98e5e2cd7db7e5b",
         "event_revision": "cna-1ba6d98e5e2cd7db7e5b",
@@ -8686,13 +10382,15 @@
             "source_id": "rss-fd78de7e443b66ba03b9",
             "evidence": "台股早盤最高49966點蓄勢衝5萬點　記憶體光通訊表現強"
           }
-        ]
+        ],
+        "clue_style": "natural-v1",
+        "clue_kind": "meaning"
       },
       {
         "word": "北韓",
-        "clue": "據報導「北○批美對台軍售加劇台海緊張　促」，補全國家或地區。（2字）",
         "answer_score": 86,
         "difficulty": "easy",
+        "clue": "本週報導用語：以平壤為首都、位於朝鮮半島北部的是哪個國家？（2字）",
         "id": "cna-1c8cfab18d1afaa1950a::北韓",
         "event_id": "cna-1c8cfab18d1afaa1950a",
         "event_revision": "cna-1c8cfab18d1afaa1950a",
@@ -8701,13 +10399,15 @@
             "source_id": "rss-b7bf6c1461e21b1742c0",
             "evidence": "北韓批美對台軍售加劇台海緊張　促華府三思後果"
           }
-        ]
+        ],
+        "clue_style": "natural-v1",
+        "clue_kind": "meaning"
       },
       {
         "word": "華府",
-        "clue": "據報導「台海緊張　促○府三思後果」，補全地名。（2字）",
         "answer_score": 86,
         "difficulty": "easy",
+        "clue": "本週報導用語：華盛頓特區的常用兩字中文簡稱是什麼？（2字）",
         "id": "cna-1c8cfab18d1afaa1950a::華府",
         "event_id": "cna-1c8cfab18d1afaa1950a",
         "event_revision": "cna-1c8cfab18d1afaa1950a",
@@ -8716,28 +10416,32 @@
             "source_id": "rss-b7bf6c1461e21b1742c0",
             "evidence": "北韓批美對台軍售加劇台海緊張　促華府三思後果"
           }
-        ]
+        ],
+        "clue_style": "natural-v1",
+        "clue_kind": "meaning"
       },
       {
-        "word": "醫院",
-        "clue": "據報導「居民生活如常○院加強○○」，補全用語。（2字）",
+        "word": "台東",
         "answer_score": 86,
         "difficulty": "easy",
-        "id": "cna-151be962fe7eea1ef928::醫院",
-        "event_id": "cna-151be962fe7eea1ef928",
-        "event_revision": "cna-151be962fe7eea1ef928",
+        "clue": "本週報導用語：境內有池上稻田與知本溫泉的東部縣分是哪裡？（2字）",
+        "id": "cna-76d7b3c84030b4b7c60e::台東",
+        "event_id": "cna-76d7b3c84030b4b7c60e",
+        "event_revision": "cna-76d7b3c84030b4b7c60e",
         "source_support": [
           {
-            "source_id": "rss-3dd56be8159fde99ca63",
-            "evidence": "俄國官方稱未驗出鼠疫　居民生活如常醫院加強防疫"
+            "source_id": "rss-eecc3af79ea1c414a2aa",
+            "evidence": "涉圖利案收押理由未消失  台東農業處長遭延押"
           }
-        ]
+        ],
+        "clue_style": "natural-v1",
+        "clue_kind": "meaning"
       },
       {
         "word": "防疫",
-        "clue": "據報導「如常○○加強○疫」，補全用語。（2字）",
         "answer_score": 86,
         "difficulty": "easy",
+        "clue": "本週報導用語：預防及控制傳染病擴散的工作，稱為什麼？（2字）",
         "id": "cna-151be962fe7eea1ef928::防疫",
         "event_id": "cna-151be962fe7eea1ef928",
         "event_revision": "cna-151be962fe7eea1ef928",
@@ -8746,13 +10450,32 @@
             "source_id": "rss-3dd56be8159fde99ca63",
             "evidence": "俄國官方稱未驗出鼠疫　居民生活如常醫院加強防疫"
           }
-        ]
+        ],
+        "clue_style": "natural-v1",
+        "clue_kind": "meaning"
+      },
+      {
+        "word": "醫院",
+        "answer_score": 86,
+        "difficulty": "easy",
+        "clue": "本週報導用語：設有病房、提供診斷與照護服務的機構，稱為什麼？（2字）",
+        "id": "cna-151be962fe7eea1ef928::醫院",
+        "event_id": "cna-151be962fe7eea1ef928",
+        "event_revision": "cna-151be962fe7eea1ef928",
+        "source_support": [
+          {
+            "source_id": "rss-3dd56be8159fde99ca63",
+            "evidence": "俄國官方稱未驗出鼠疫　居民生活如常醫院加強防疫"
+          }
+        ],
+        "clue_style": "natural-v1",
+        "clue_kind": "meaning"
       },
       {
         "word": "台積電",
-        "clue": "據報導「○○收紅台○電ADR跌　投顧：○○延續高檔」，補全企業。（3字）",
         "answer_score": 89,
         "difficulty": "easy",
+        "clue": "本週報導用語：1987年創立、專門替客戶製造積體電路的企業，簡稱是哪三字？（3字）",
         "id": "cna-097fd93069f6deae2f4e::台積電",
         "event_id": "cna-097fd93069f6deae2f4e",
         "event_revision": "cna-097fd93069f6deae2f4e",
@@ -8761,13 +10484,32 @@
             "source_id": "rss-adc579cded78e33d5009",
             "evidence": "美股收紅台積電ADR跌　投顧：台股延續高檔震盪"
           }
-        ]
+        ],
+        "clue_style": "natural-v1",
+        "clue_kind": "meaning"
+      },
+      {
+        "word": "美股",
+        "answer_score": 86,
+        "difficulty": "easy",
+        "clue": "本週報導用語：在美國交易的股票市場，常用兩字簡稱是什麼？（2字）",
+        "id": "cna-097fd93069f6deae2f4e::美股",
+        "event_id": "cna-097fd93069f6deae2f4e",
+        "event_revision": "cna-097fd93069f6deae2f4e",
+        "source_support": [
+          {
+            "source_id": "rss-adc579cded78e33d5009",
+            "evidence": "美股收紅台積電ADR跌　投顧：台股延續高檔震盪"
+          }
+        ],
+        "clue_style": "natural-v1",
+        "clue_kind": "meaning"
       },
       {
         "word": "低溫",
-        "clue": "據報導「日前防16度低○」，補全用語。（2字）",
         "answer_score": 86,
         "difficulty": "easy",
+        "clue": "本週報導用語：氣溫或物體溫度較低的狀態，稱為什麼？（2字）",
         "id": "cna-092181f4513bd259da78::低溫",
         "event_id": "cna-092181f4513bd259da78",
         "event_revision": "cna-092181f4513bd259da78",
@@ -8776,13 +10518,15 @@
             "source_id": "rss-d2855f56248b0b0e7461",
             "evidence": "新北石碇清晨18.8度　吳德榮：9日前防16度低溫"
           }
-        ]
+        ],
+        "clue_style": "natural-v1",
+        "clue_kind": "meaning"
       },
       {
         "word": "國家隊",
-        "clue": "據報導「願回歸○○○○家隊」，補全體育項目。（3字）",
         "answer_score": 89,
         "difficulty": "easy",
+        "clue": "本週報導用語：代表一個國家參加跨國賽事的選手隊伍，稱為什麼？（3字）",
         "id": "cna-d132145b57b3d5b23198::國家隊",
         "event_id": "cna-d132145b57b3d5b23198",
         "event_revision": "cna-d132145b57b3d5b23198",
@@ -8791,13 +10535,15 @@
             "source_id": "rss-2345efe7ef17cf7e1bbd",
             "evidence": "C羅為擅自離隊致歉　表明願回歸葡萄牙國家隊"
           }
-        ]
+        ],
+        "clue_style": "natural-v1",
+        "clue_kind": "meaning"
       },
       {
         "word": "葡萄牙",
-        "clue": "據報導「　表明願回歸○萄牙○○○」，補全國家或地區。（3字）",
         "answer_score": 89,
         "difficulty": "easy",
+        "clue": "本週報導用語：以里斯本為首都、以波特酒聞名的是哪個國家？（3字）",
         "id": "cna-d132145b57b3d5b23198::葡萄牙",
         "event_id": "cna-d132145b57b3d5b23198",
         "event_revision": "cna-d132145b57b3d5b23198",
@@ -8806,13 +10552,15 @@
             "source_id": "rss-2345efe7ef17cf7e1bbd",
             "evidence": "C羅為擅自離隊致歉　表明願回歸葡萄牙國家隊"
           }
-        ]
+        ],
+        "clue_style": "natural-v1",
+        "clue_kind": "meaning"
       },
       {
         "word": "利率",
-        "clue": "據報導「續漲與美債殖利○回落　○○收高」，補全用語。（2字）",
         "answer_score": 86,
         "difficulty": "easy",
+        "clue": "本週報導用語：借款或存款的利息相對於本金的比率，稱為什麼？（2字）",
         "id": "cna-b0f03e569d06f4c0578e::利率",
         "event_id": "cna-b0f03e569d06f4c0578e",
         "event_revision": "cna-b0f03e569d06f4c0578e",
@@ -8821,7 +10569,9 @@
             "source_id": "rss-2931ad07a060cb73bd18",
             "evidence": "受惠科技股續漲與美債殖利率回落　美股收高"
           }
-        ]
+        ],
+        "clue_style": "natural-v1",
+        "clue_kind": "meaning"
       }
     ]
   },
@@ -8901,14 +10651,14 @@
   },
   "automation": {
     "enabled": true,
-    "updated_at": "2026-10-07T09:10:42.002Z",
+    "updated_at": "2026-10-07T09:39:18.157Z",
     "window": {
       "from": "2026-10-01",
       "to": "2026-10-07"
     },
     "interval_hours": 6,
     "source_count": 9,
-    "candidate_count": 111,
+    "candidate_count": 104,
     "sources": [
       {
         "id": "cna-politics",
@@ -8983,7 +10733,8 @@
         "error": null
       }
     ],
+    "clue_style": "natural-v1",
     "status": "UPDATED",
-    "method": "RSS 標題及高爾夫新聞 RSS 摘要用字擷取與缺字提示；不擷取全文或圖片"
+    "method": "RSS 新聞來源核對；完整事件描述或詞義提示；不擷取全文或圖片"
   }
 }

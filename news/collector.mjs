@@ -1,3 +1,5 @@
+import {naturalClueOptions,CLUE_STYLE,normalized} from './clues.mjs';
+import {clueKey} from '../core/edition-policy.mjs';
 import {hasGolfContext,golfTermAllowed,golfNewsText} from './golf.mjs';
 import {XMLParser} from 'fast-xml-parser';
 import {createHash} from 'node:crypto';
@@ -32,29 +34,6 @@ export function parseFeed(xml,source,{now=new Date()}={}){
  }
  return events;
 }
-function clueFor(title,{word,kind,term_reference},lexicon){
- const chars=Array.from(word);
- if(term_reference){const clue='據報導，文中提及的「'+term_reference.meaning+'」稱為什麼？（'+chars.length+'字）';
-  if(Array.from(clue).length>60||lexicon.some(a=>clue.normalize('NFKC').replace(/[\\p{P}\\p{Z}\\p{Cf}\\s]/gu,'').includes(a.word)))return null;
-  return clue;
- }
- // A missing letter hint must distinguish this word from every known word of the same type.
- const options=chars.map((_,i)=>({i,pattern:chars.map((c,j)=>i===j?'○':c).join('')}));
- const choice=options.find(({i})=>!lexicon.some(a=>a.word!==word&&a.kind===kind&&Array.from(a.word).length===chars.length&&Array.from(a.word).every((c,j)=>j===i||c===chars[j])));
- if(!choice)return null;
- const start=title.indexOf(word),prefix=Array.from(title.slice(0,start)).slice(-6).join(''),suffix=Array.from(title.slice(start+word.length)).slice(0,14).join('');
- let context=prefix+word+suffix;
- // Keep the original title as evidence; mask answer words only in the player-facing hint.
- for(const a of [...lexicon].sort((a,b)=>b.word.length-a.word.length)){
-  const replacement=a.word===word?choice.pattern:'○'.repeat(Array.from(a.word).length);
-  context=context.split(a.word).join(replacement);
- }
- const label=kind.endsWith('用語')?'用語':kind;
- const clue='據報導「'+context+'」，補全'+label+'。（'+chars.length+'字）';
- const normalized=s=>s.normalize('NFKC').replace(/[\p{P}\p{Z}\p{Cf}\s]/gu,'');
- if(Array.from(clue).length>60||lexicon.some(a=>normalized(clue).includes(normalized(a.word))))return null;
- return clue;
-}
 export function buildBank(feedResults,{now=new Date(),previous,idioms=[],lexicon=LEXICON}={}){
  const issue=taipeiDate(now),window=newsWindow(issue),map=new Map();
  const successful=feedResults.filter(r=>!r.error),fresh=successful.flatMap(r=>r.events??[]);
@@ -72,18 +51,25 @@ export function buildBank(feedResults,{now=new Date(),previous,idioms=[],lexicon
   !lexicon.some(b=>b.word.length>a.word.length&&b.word.includes(a.word)&&content.includes(b.word)&&golfTermAllowed(b,e))&&
   !(a.word==='鳳梨'&&e.title.includes('鳳梨釋迦'))&&
   !(a.word==='運動'&&/青年運動|學生運動|社會運動|革命運動|工人運動|政治運動/u.test(e.title))).map(a=>({
-  word:a.word,...(a.topic?{topic:a.topic}:{}),...(a.term_reference?{term_reference:a.term_reference}:{}),clue:clueFor(content,a,lexicon),answer_score:80+Array.from(a.word).length*3,difficulty:'easy'
- })).filter(a=>a.clue);}
- const collected=collectEvents(events,{issueDate:issue}),eventMap=new Map(collected.accepted.map(e=>[e.event_id,e])),seen=new Set();
- const candidates=generateCandidates(collected.accepted).sort((a,b)=>eventMap.get(b.event_id).published_at.localeCompare(eventMap.get(a.event_id).published_at)||b.answer_score-a.answer_score||a.id.localeCompare(b.id)).filter(c=>{
-  if(seen.has(c.word)||!validateClue(c,eventMap.get(c.event_id)).passed)return false;
-  seen.add(c.word);return true;
- }).slice(0,500);
- if(candidates.length<2||!candidates.some(c=>fresh.some(e=>e.event_id===c.event_id)))throw Error('本次沒有取得足夠合格的新題目；保留上一批題庫。');
+  word:a.word,...(a.topic?{topic:a.topic}:{}),...(a.term_reference?{term_reference:a.term_reference}:{}),clue_options:naturalClueOptions(e,a),answer_score:80+Array.from(a.word).length*3,difficulty:'easy'
+ })).filter(a=>a.clue_options.length).map(a=>({...a,clue:a.clue_options[0].clue}));}
+ const collected=collectEvents(events,{issueDate:issue}),eventMap=new Map(collected.accepted.map(e=>[e.event_id,e])),seen=new Set(),usedClues=new Set(),candidates=[];
+ const proposed=generateCandidates(collected.accepted).sort((a,b)=>eventMap.get(b.event_id).published_at.localeCompare(eventMap.get(a.event_id).published_at)||b.answer_score-a.answer_score||a.id.localeCompare(b.id));
+ for(const c of proposed){
+  if(seen.has(c.word)||candidates.length>=500)continue;
+  for(const option of c.clue_options??[]){
+   const candidate={...c,...option};delete candidate.clue_options;
+   const clueText=normalized(candidate.clue);
+   if(usedClues.has(clueKey(candidate.clue))||candidates.some(old=>clueText.includes(normalized(old.word))||normalized(old.clue).includes(normalized(c.word))))continue;
+   if(!validateClue(candidate,eventMap.get(c.event_id)).passed)continue;
+   candidates.push(candidate);seen.add(c.word);usedClues.add(clueKey(candidate.clue));break;
+  }
+ }
+if(candidates.length<2||!candidates.some(c=>fresh.some(e=>e.event_id===c.event_id)))throw Error('本次沒有取得足夠合格的新題目；保留上一批題庫。');
  return {news:{issue_date:issue,dataset_mode:'news',events:collected.accepted,candidates},idioms:structuredClone(idioms),mix:{news:8,idiom:4},
   automation:{enabled:true,updated_at:now.toISOString(),window,interval_hours:6,source_count:successful.length,candidate_count:candidates.length,
    sources:feedResults.map(r=>({id:r.source.id,publisher:r.source.publisher,category:r.source.category,url:r.source.url,count:r.events?.length??0,error:r.error??null})),
-   status:successful.length===feedResults.length?'UPDATED':'PARTIAL',method:'RSS 標題及高爾夫新聞 RSS 摘要用字擷取與缺字提示；不擷取全文或圖片'}};
+   clue_style:CLUE_STYLE,status:successful.length===feedResults.length?'UPDATED':'PARTIAL',method:'RSS 新聞來源核對；完整事件描述或詞義提示；不擷取全文或圖片'}};
 }
 export async function fetchFeeds({sources=SOURCES,fetchImpl=fetch,now=new Date()}={}){
  return Promise.all(sources.map(async source=>{

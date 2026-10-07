@@ -7,7 +7,7 @@ export function currentBank(raw,{now=new Date()}={}){
  const p=structuredClone(raw),from=new Date(Date.parse(day+'T00:00:00Z')-6*86400000).toISOString().slice(0,10);
  p.news.issue_date=day;
  p.news.events=p.news.events.filter(e=>e.event_date>=from&&e.event_date<=day&&(e.sources??[]).some(s=>s.published_at>=from&&s.published_at<=day));
- const ids=new Set(p.news.events.map(e=>e.event_id));p.news.candidates=p.news.candidates.filter(c=>ids.has(c.event_id));
+ const ids=new Set(p.news.events.map(e=>e.event_id));p.news.candidates=p.news.candidates.filter(c=>ids.has(c.event_id)&&typeof c.clue==='string'&&!/[○◯□]|＿{2,}|_{2,}|補全|缺字/u.test(c.clue));
  p.automation.window={from,to:day};p.automation.stale=now-updated>18*3600000;p.automation.candidate_count=p.news.candidates.length;
  return p;
 }
