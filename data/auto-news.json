@@ -671,6 +671,86 @@
         "content_revision": "cna-2e2ccfa3e81e08b89f5b"
       },
       {
+        "event_id": "cna-b1b64e0d3561651e6151",
+        "dedup_key": "https://www.cna.com.tw/news/acn/202610070223.aspx",
+        "event_date": "2026-10-07",
+        "updated_at": "2026-10-07",
+        "published_at": "2026-10-07T08:32:21.000Z",
+        "title": "港府考慮採取更多措施預防電話網路詐騙",
+        "rss_lead": "",
+        "summary": "港府考慮採取更多措施預防電話網路詐騙",
+        "categories": [
+          "國際"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-47357bd46d09afc568ae",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/acn/202610070223.aspx",
+            "published_at": "2026-10-07",
+            "excerpt": "港府考慮採取更多措施預防電話網路詐騙",
+            "section": "國際"
+          }
+        ],
+        "keywords": [],
+        "aliases": [
+          "cna-b1b64e0d3561651e6151"
+        ],
+        "content_revision": "cna-b1b64e0d3561651e6151"
+      },
+      {
+        "event_id": "cna-fa60ec5411fc2fc33fea",
+        "dedup_key": "https://www.cna.com.tw/news/acn/202610070237.aspx",
+        "event_date": "2026-10-07",
+        "updated_at": "2026-10-07",
+        "published_at": "2026-10-07T08:57:51.000Z",
+        "title": "中國十一長假  買車消費者普遍理性比價",
+        "rss_lead": "",
+        "summary": "中國十一長假  買車消費者普遍理性比價",
+        "categories": [
+          "國際"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-7adc54da29f1f3a77310",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/acn/202610070237.aspx",
+            "published_at": "2026-10-07",
+            "excerpt": "中國十一長假  買車消費者普遍理性比價",
+            "section": "國際"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "中國",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：以北京為首都、境內有萬里長城的是哪個國家？（2字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "easy",
+            "clue": "本週報導用語：以北京為首都、境內有萬里長城的是哪個國家？（2字）"
+          }
+        ],
+        "aliases": [
+          "cna-fa60ec5411fc2fc33fea"
+        ],
+        "content_revision": "cna-fa60ec5411fc2fc33fea"
+      },
+      {
         "event_id": "cna-17a279745168dfbb9c12",
         "dedup_key": "https://www.cna.com.tw/news/acul/202610070037.aspx",
         "event_date": "2026-10-07",
@@ -774,65 +854,6 @@
           "cna-782ed3e5bebd94e1ff3a"
         ],
         "content_revision": "cna-782ed3e5bebd94e1ff3a"
-      },
-      {
-        "event_id": "cna-b0f03e569d06f4c0578e",
-        "dedup_key": "https://www.cna.com.tw/news/afe/202610070009.aspx",
-        "event_date": "2026-10-07",
-        "updated_at": "2026-10-07",
-        "published_at": "2026-10-06T22:16:36.000Z",
-        "title": "受惠科技股續漲與美債殖利率回落　美股收高",
-        "summary": "受惠科技股續漲與美債殖利率回落　美股收高",
-        "categories": [
-          "財經"
-        ],
-        "fact_status": "reported",
-        "content_type": "news",
-        "event_score": 80,
-        "anchor_event": false,
-        "sources": [
-          {
-            "source_id": "rss-2931ad07a060cb73bd18",
-            "publisher": "中央通訊社",
-            "kind": "newswire",
-            "url": "https://www.cna.com.tw/news/afe/202610070009.aspx",
-            "published_at": "2026-10-07",
-            "excerpt": "受惠科技股續漲與美債殖利率回落　美股收高",
-            "section": "財經"
-          }
-        ],
-        "keywords": [
-          {
-            "word": "利率",
-            "clue_options": [
-              {
-                "clue": "本週報導用語：借款或存款的利息相對於本金的比率，稱為什麼？（2字）",
-                "clue_style": "natural-v1",
-                "clue_kind": "meaning"
-              }
-            ],
-            "answer_score": 86,
-            "difficulty": "easy",
-            "clue": "本週報導用語：借款或存款的利息相對於本金的比率，稱為什麼？（2字）"
-          },
-          {
-            "word": "美股",
-            "clue_options": [
-              {
-                "clue": "本週報導用語：在美國交易的股票市場，常用兩字簡稱是什麼？（2字）",
-                "clue_style": "natural-v1",
-                "clue_kind": "meaning"
-              }
-            ],
-            "answer_score": 86,
-            "difficulty": "easy",
-            "clue": "本週報導用語：在美國交易的股票市場，常用兩字簡稱是什麼？（2字）"
-          }
-        ],
-        "aliases": [
-          "cna-b0f03e569d06f4c0578e"
-        ],
-        "content_revision": "cna-b0f03e569d06f4c0578e"
       },
       {
         "event_id": "cna-097fd93069f6deae2f4e",
@@ -3641,66 +3662,6 @@
           "cna-c07bdd5e3afee23eb6b8"
         ],
         "content_revision": "cna-c07bdd5e3afee23eb6b8"
-      },
-      {
-        "event_id": "cna-80ec59eb9014e5837d8a",
-        "dedup_key": "https://www.cna.com.tw/news/aipl/202610070012.aspx",
-        "event_date": "2026-10-07",
-        "updated_at": "2026-10-07",
-        "published_at": "2026-10-06T23:39:46.000Z",
-        "title": "裴洛西晤蔡英文：美國國會對台灣人民及自由承諾堅定不移",
-        "rss_lead": "",
-        "summary": "裴洛西晤蔡英文：美國國會對台灣人民及自由承諾堅定不移",
-        "categories": [
-          "台灣"
-        ],
-        "fact_status": "reported",
-        "content_type": "news",
-        "event_score": 80,
-        "anchor_event": false,
-        "sources": [
-          {
-            "source_id": "rss-4972574487711ddf77b0",
-            "publisher": "中央通訊社",
-            "kind": "newswire",
-            "url": "https://www.cna.com.tw/news/aipl/202610070012.aspx",
-            "published_at": "2026-10-07",
-            "excerpt": "裴洛西晤蔡英文：美國國會對台灣人民及自由承諾堅定不移",
-            "section": "台灣"
-          }
-        ],
-        "keywords": [
-          {
-            "word": "台灣",
-            "clue_options": [
-              {
-                "clue": "本週報導用語：以玉山為最高峰、位於東亞海域的是哪座島嶼？（2字）",
-                "clue_style": "natural-v1",
-                "clue_kind": "meaning"
-              }
-            ],
-            "answer_score": 86,
-            "difficulty": "easy",
-            "clue": "本週報導用語：以玉山為最高峰、位於東亞海域的是哪座島嶼？（2字）"
-          },
-          {
-            "word": "美國",
-            "clue_options": [
-              {
-                "clue": "本週報導用語：首都為華盛頓、國旗有星條圖案的是哪個國家？（2字）",
-                "clue_style": "natural-v1",
-                "clue_kind": "meaning"
-              }
-            ],
-            "answer_score": 86,
-            "difficulty": "easy",
-            "clue": "本週報導用語：首都為華盛頓、國旗有星條圖案的是哪個國家？（2字）"
-          }
-        ],
-        "aliases": [
-          "cna-80ec59eb9014e5837d8a"
-        ],
-        "content_revision": "cna-80ec59eb9014e5837d8a"
       },
       {
         "event_id": "cna-49f6e1028864f88df40e",
@@ -7183,6 +7144,53 @@
         "content_revision": "cna-d28531a342f319c5621b"
       },
       {
+        "event_id": "cna-4d3f001cfcd20b58402b",
+        "dedup_key": "https://www.cna.com.tw/news/aopl/202610070235.aspx",
+        "event_date": "2026-10-07",
+        "updated_at": "2026-10-07",
+        "published_at": "2026-10-07T08:56:47.000Z",
+        "title": "馬斯克否認台積電將參與Terafab　稱將自建自營",
+        "rss_lead": "",
+        "summary": "馬斯克否認台積電將參與Terafab　稱將自建自營",
+        "categories": [
+          "科技"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-157a7abeba6efe67d811",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aopl/202610070235.aspx",
+            "published_at": "2026-10-07",
+            "excerpt": "馬斯克否認台積電將參與Terafab　稱將自建自營",
+            "section": "科技"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "台積電",
+            "clue_options": [
+              {
+                "clue": "本週報導用語：1987年創立、專門替客戶製造積體電路的企業，簡稱是哪三字？（3字）",
+                "clue_style": "natural-v1",
+                "clue_kind": "meaning"
+              }
+            ],
+            "answer_score": 89,
+            "difficulty": "easy",
+            "clue": "本週報導用語：1987年創立、專門替客戶製造積體電路的企業，簡稱是哪三字？（3字）"
+          }
+        ],
+        "aliases": [
+          "cna-4d3f001cfcd20b58402b"
+        ],
+        "content_revision": "cna-4d3f001cfcd20b58402b"
+      },
+      {
         "event_id": "cna-5edbb346a48fe3ec2fd1",
         "dedup_key": "https://www.cna.com.tw/news/asoc/202610070023.aspx",
         "event_date": "2026-10-07",
@@ -8371,66 +8379,6 @@
         "content_revision": "cna-353caa4d848c2fc3ad92"
       },
       {
-        "event_id": "cna-d132145b57b3d5b23198",
-        "dedup_key": "https://www.cna.com.tw/news/aspt/202610070010.aspx",
-        "event_date": "2026-10-07",
-        "updated_at": "2026-10-07",
-        "published_at": "2026-10-06T22:31:39.000Z",
-        "title": "C羅為擅自離隊致歉　表明願回歸葡萄牙國家隊",
-        "rss_lead": "",
-        "summary": "C羅為擅自離隊致歉　表明願回歸葡萄牙國家隊",
-        "categories": [
-          "體育"
-        ],
-        "fact_status": "reported",
-        "content_type": "news",
-        "event_score": 80,
-        "anchor_event": false,
-        "sources": [
-          {
-            "source_id": "rss-2345efe7ef17cf7e1bbd",
-            "publisher": "中央通訊社",
-            "kind": "newswire",
-            "url": "https://www.cna.com.tw/news/aspt/202610070010.aspx",
-            "published_at": "2026-10-07",
-            "excerpt": "C羅為擅自離隊致歉　表明願回歸葡萄牙國家隊",
-            "section": "體育"
-          }
-        ],
-        "keywords": [
-          {
-            "word": "葡萄牙",
-            "clue_options": [
-              {
-                "clue": "本週報導用語：以里斯本為首都、以波特酒聞名的是哪個國家？（3字）",
-                "clue_style": "natural-v1",
-                "clue_kind": "meaning"
-              }
-            ],
-            "answer_score": 89,
-            "difficulty": "easy",
-            "clue": "本週報導用語：以里斯本為首都、以波特酒聞名的是哪個國家？（3字）"
-          },
-          {
-            "word": "國家隊",
-            "clue_options": [
-              {
-                "clue": "本週報導用語：代表一個國家參加跨國賽事的選手隊伍，稱為什麼？（3字）",
-                "clue_style": "natural-v1",
-                "clue_kind": "meaning"
-              }
-            ],
-            "answer_score": 89,
-            "difficulty": "easy",
-            "clue": "本週報導用語：代表一個國家參加跨國賽事的選手隊伍，稱為什麼？（3字）"
-          }
-        ],
-        "aliases": [
-          "cna-d132145b57b3d5b23198"
-        ],
-        "content_revision": "cna-d132145b57b3d5b23198"
-      },
-      {
         "event_id": "cna-48521adf0bf6713d29f0",
         "dedup_key": "https://www.cna.com.tw/news/aspt/202610070044.aspx",
         "event_date": "2026-10-07",
@@ -8806,11 +8754,11 @@
     ],
     "candidates": [
       {
-        "word": "美光",
+        "word": "桃園",
         "answer_score": 86,
         "difficulty": "easy",
-        "clue": "本週報導用語：以儲存及運算用積體電路聞名、英文名稱為Micron的企業是哪一家？（2字）",
-        "id": "cna-eaef40b0d40a5fa48ebe::美光",
+        "clue": "本週報導用語：我國主要國際機場所在、以航空城發展聞名的是哪個城市？（2字）",
+        "id": "cna-eaef40b0d40a5fa48ebe::桃園",
         "event_id": "cna-eaef40b0d40a5fa48ebe",
         "event_revision": "cna-eaef40b0d40a5fa48ebe",
         "source_support": [
@@ -8823,11 +8771,11 @@
         "clue_kind": "meaning"
       },
       {
-        "word": "桃園",
+        "word": "美光",
         "answer_score": 86,
         "difficulty": "easy",
-        "clue": "本週報導用語：我國主要國際機場所在、以航空城發展聞名的是哪個城市？（2字）",
-        "id": "cna-eaef40b0d40a5fa48ebe::桃園",
+        "clue": "本週報導用語：以儲存及運算用積體電路聞名、英文名稱為Micron的企業是哪一家？（2字）",
+        "id": "cna-eaef40b0d40a5fa48ebe::美光",
         "event_id": "cna-eaef40b0d40a5fa48ebe",
         "event_revision": "cna-eaef40b0d40a5fa48ebe",
         "source_support": [
@@ -8851,6 +8799,40 @@
           {
             "source_id": "rss-b53380b82f8bc6ab4346",
             "evidence": "雙鴻第3季營收97.9億元年增逾6成　連7季創高"
+          }
+        ],
+        "clue_style": "natural-v1",
+        "clue_kind": "meaning"
+      },
+      {
+        "word": "中國",
+        "answer_score": 86,
+        "difficulty": "easy",
+        "clue": "本週報導用語：以北京為首都、境內有萬里長城的是哪個國家？（2字）",
+        "id": "cna-fa60ec5411fc2fc33fea::中國",
+        "event_id": "cna-fa60ec5411fc2fc33fea",
+        "event_revision": "cna-fa60ec5411fc2fc33fea",
+        "source_support": [
+          {
+            "source_id": "rss-7adc54da29f1f3a77310",
+            "evidence": "中國十一長假  買車消費者普遍理性比價"
+          }
+        ],
+        "clue_style": "natural-v1",
+        "clue_kind": "meaning"
+      },
+      {
+        "word": "台積電",
+        "answer_score": 89,
+        "difficulty": "easy",
+        "clue": "本週報導用語：1987年創立、專門替客戶製造積體電路的企業，簡稱是哪三字？（3字）",
+        "id": "cna-4d3f001cfcd20b58402b::台積電",
+        "event_id": "cna-4d3f001cfcd20b58402b",
+        "event_revision": "cna-4d3f001cfcd20b58402b",
+        "source_support": [
+          {
+            "source_id": "rss-157a7abeba6efe67d811",
+            "evidence": "馬斯克否認台積電將參與Terafab　稱將自建自營"
           }
         ],
         "clue_style": "natural-v1",
@@ -8925,11 +8907,11 @@
         "clue_kind": "meaning"
       },
       {
-        "word": "台股",
+        "word": "亞洲",
         "answer_score": 86,
         "difficulty": "easy",
-        "clue": "本週報導用語：我國股票交易市場的常用兩字簡稱是什麼？（2字）",
-        "id": "cna-38c9884704c10230e87f::台股",
+        "clue": "本週報導用語：世界七大洲中，面積最大的是哪一洲？（2字）",
+        "id": "cna-38c9884704c10230e87f::亞洲",
         "event_id": "cna-38c9884704c10230e87f",
         "event_revision": "cna-38c9884704c10230e87f",
         "source_support": [
@@ -8959,11 +8941,11 @@
         "clue_kind": "meaning"
       },
       {
-        "word": "投資",
+        "word": "台股",
         "answer_score": 86,
         "difficulty": "easy",
-        "clue": "本週報導用語：投入資金或資源，期望日後取得回報的活動，稱為什麼？（2字）",
-        "id": "cna-38c9884704c10230e87f::投資",
+        "clue": "本週報導用語：我國股票交易市場的常用兩字簡稱是什麼？（2字）",
+        "id": "cna-38c9884704c10230e87f::台股",
         "event_id": "cna-38c9884704c10230e87f",
         "event_revision": "cna-38c9884704c10230e87f",
         "source_support": [
@@ -8976,11 +8958,11 @@
         "clue_kind": "meaning"
       },
       {
-        "word": "亞洲",
+        "word": "投資",
         "answer_score": 86,
         "difficulty": "easy",
-        "clue": "本週報導用語：世界七大洲中，面積最大的是哪一洲？（2字）",
-        "id": "cna-38c9884704c10230e87f::亞洲",
+        "clue": "本週報導用語：投入資金或資源，期望日後取得回報的活動，稱為什麼？（2字）",
+        "id": "cna-38c9884704c10230e87f::投資",
         "event_id": "cna-38c9884704c10230e87f",
         "event_revision": "cna-38c9884704c10230e87f",
         "source_support": [
@@ -9061,23 +9043,6 @@
         "clue_kind": "meaning"
       },
       {
-        "word": "中國",
-        "answer_score": 86,
-        "difficulty": "easy",
-        "clue": "本週報導用語：以北京為首都、境內有萬里長城的是哪個國家？（2字）",
-        "id": "cna-2e2ccfa3e81e08b89f5b::中國",
-        "event_id": "cna-2e2ccfa3e81e08b89f5b",
-        "event_revision": "cna-2e2ccfa3e81e08b89f5b",
-        "source_support": [
-          {
-            "source_id": "rss-800c1930064f477333d0",
-            "evidence": "中國博士就業分化  名校生搭AI浪潮年薪千萬上下"
-          }
-        ],
-        "clue_style": "natural-v1",
-        "clue_kind": "meaning"
-      },
-      {
         "word": "就業",
         "answer_score": 86,
         "difficulty": "easy",
@@ -9146,11 +9111,11 @@
         "clue_kind": "meaning"
       },
       {
-        "word": "英國",
+        "word": "國慶",
         "answer_score": 86,
         "difficulty": "easy",
-        "clue": "本週報導用語：以倫敦為首都、使用英鎊的是哪個國家？（2字）",
-        "id": "cna-57bf99bae5858f30e308::英國",
+        "clue": "本週報導用語：紀念一個國家成立等重要歷史事件的慶祝活動，稱為什麼？（2字）",
+        "id": "cna-57bf99bae5858f30e308::國慶",
         "event_id": "cna-57bf99bae5858f30e308",
         "event_revision": "cna-57bf99bae5858f30e308",
         "source_support": [
@@ -9163,11 +9128,11 @@
         "clue_kind": "meaning"
       },
       {
-        "word": "國慶",
+        "word": "英國",
         "answer_score": 86,
         "difficulty": "easy",
-        "clue": "本週報導用語：紀念一個國家成立等重要歷史事件的慶祝活動，稱為什麼？（2字）",
-        "id": "cna-57bf99bae5858f30e308::國慶",
+        "clue": "本週報導用語：以倫敦為首都、使用英鎊的是哪個國家？（2字）",
+        "id": "cna-57bf99bae5858f30e308::英國",
         "event_id": "cna-57bf99bae5858f30e308",
         "event_revision": "cna-57bf99bae5858f30e308",
         "source_support": [
@@ -9197,11 +9162,11 @@
         "clue_kind": "meaning"
       },
       {
-        "word": "工資",
+        "word": "勞工",
         "answer_score": 86,
         "difficulty": "easy",
-        "clue": "本週報導用語：雇主支付給受雇者的工作報酬，稱為什麼？（2字）",
-        "id": "cna-52736eb2f9ee69f2054b::工資",
+        "clue": "本週報導用語：受雇提供勞務、換取工作報酬的人，稱為什麼？（2字）",
+        "id": "cna-52736eb2f9ee69f2054b::勞工",
         "event_id": "cna-52736eb2f9ee69f2054b",
         "event_revision": "cna-52736eb2f9ee69f2054b",
         "source_support": [
@@ -9214,11 +9179,11 @@
         "clue_kind": "meaning"
       },
       {
-        "word": "勞工",
+        "word": "工資",
         "answer_score": 86,
         "difficulty": "easy",
-        "clue": "本週報導用語：受雇提供勞務、換取工作報酬的人，稱為什麼？（2字）",
-        "id": "cna-52736eb2f9ee69f2054b::勞工",
+        "clue": "本週報導用語：雇主支付給受雇者的工作報酬，稱為什麼？（2字）",
+        "id": "cna-52736eb2f9ee69f2054b::工資",
         "event_id": "cna-52736eb2f9ee69f2054b",
         "event_revision": "cna-52736eb2f9ee69f2054b",
         "source_support": [
@@ -9299,11 +9264,11 @@
         "clue_kind": "meaning"
       },
       {
-        "word": "竹北",
+        "word": "新竹",
         "answer_score": 86,
         "difficulty": "easy",
-        "clue": "本週報導用語：新竹縣政府所在地，市名是哪兩字？（2字）",
-        "id": "cna-8ed6df9cba1b23b99326::竹北",
+        "clue": "本週報導用語：以竹塹古城及科學園區聞名的地區是哪裡？（2字）",
+        "id": "cna-8ed6df9cba1b23b99326::新竹",
         "event_id": "cna-8ed6df9cba1b23b99326",
         "event_revision": "cna-8ed6df9cba1b23b99326",
         "source_support": [
@@ -9395,23 +9360,6 @@
           {
             "source_id": "rss-b789d91e4f3b93e04441",
             "evidence": "虛擬通貨公會加入金融總會　共37會員增進產業交流"
-          }
-        ],
-        "clue_style": "natural-v1",
-        "clue_kind": "meaning"
-      },
-      {
-        "word": "新竹市",
-        "answer_score": 89,
-        "difficulty": "easy",
-        "clue": "本週報導用語：以竹塹古城及科學園區聞名的地區是哪裡？（3字）",
-        "id": "cna-b1f4747668e392b0a3af::新竹市",
-        "event_id": "cna-b1f4747668e392b0a3af",
-        "event_revision": "cna-b1f4747668e392b0a3af",
-        "source_support": [
-          {
-            "source_id": "rss-f43918ea88a99d0269ae",
-            "evidence": "新竹市竹塹媽祖文化祭登場　串聯6宮廟採集風城色彩"
           }
         ],
         "clue_style": "natural-v1",
@@ -9520,11 +9468,11 @@
         "clue_kind": "meaning"
       },
       {
-        "word": "消防",
+        "word": "彰化",
         "answer_score": 86,
         "difficulty": "easy",
-        "clue": "本週報導用語：預防火災及執行滅火救援的工作，稱為什麼？（2字）",
-        "id": "cna-1cce42431e84b667afd1::消防",
+        "clue": "本週報導用語：有八卦山大佛及鹿港古街的中部縣分是哪裡？（2字）",
+        "id": "cna-1cce42431e84b667afd1::彰化",
         "event_id": "cna-1cce42431e84b667afd1",
         "event_revision": "cna-1cce42431e84b667afd1",
         "source_support": [
@@ -9537,11 +9485,11 @@
         "clue_kind": "meaning"
       },
       {
-        "word": "彰化",
+        "word": "消防",
         "answer_score": 86,
         "difficulty": "easy",
-        "clue": "本週報導用語：有八卦山大佛及鹿港古街的中部縣分是哪裡？（2字）",
-        "id": "cna-1cce42431e84b667afd1::彰化",
+        "clue": "本週報導用語：預防火災及執行滅火救援的工作，稱為什麼？（2字）",
+        "id": "cna-1cce42431e84b667afd1::消防",
         "event_id": "cna-1cce42431e84b667afd1",
         "event_revision": "cna-1cce42431e84b667afd1",
         "source_support": [
@@ -9724,11 +9672,11 @@
         "clue_kind": "meaning"
       },
       {
-        "word": "高鐵",
+        "word": "通訊",
         "answer_score": 86,
         "difficulty": "easy",
-        "clue": "本週報導用語：列車時速可達三百公里的西部快速軌道運輸系統，簡稱是哪兩字？（2字）",
-        "id": "cna-b4b960a1ef301e9619bc::高鐵",
+        "clue": "本週報導用語：利用訊號或設備傳遞訊息的活動，稱為什麼？（2字）",
+        "id": "cna-b4b960a1ef301e9619bc::通訊",
         "event_id": "cna-b4b960a1ef301e9619bc",
         "event_revision": "cna-b4b960a1ef301e9619bc",
         "source_support": [
@@ -9741,11 +9689,11 @@
         "clue_kind": "meaning"
       },
       {
-        "word": "通訊",
+        "word": "高鐵",
         "answer_score": 86,
         "difficulty": "easy",
-        "clue": "本週報導用語：利用訊號或設備傳遞訊息的活動，稱為什麼？（2字）",
-        "id": "cna-b4b960a1ef301e9619bc::通訊",
+        "clue": "本週報導用語：列車時速可達三百公里的西部快速軌道運輸系統，簡稱是哪兩字？（2字）",
+        "id": "cna-b4b960a1ef301e9619bc::高鐵",
         "event_id": "cna-b4b960a1ef301e9619bc",
         "event_revision": "cna-b4b960a1ef301e9619bc",
         "source_support": [
@@ -10438,23 +10386,6 @@
         "clue_kind": "meaning"
       },
       {
-        "word": "防疫",
-        "answer_score": 86,
-        "difficulty": "easy",
-        "clue": "本週報導用語：預防及控制傳染病擴散的工作，稱為什麼？（2字）",
-        "id": "cna-151be962fe7eea1ef928::防疫",
-        "event_id": "cna-151be962fe7eea1ef928",
-        "event_revision": "cna-151be962fe7eea1ef928",
-        "source_support": [
-          {
-            "source_id": "rss-3dd56be8159fde99ca63",
-            "evidence": "俄國官方稱未驗出鼠疫　居民生活如常醫院加強防疫"
-          }
-        ],
-        "clue_style": "natural-v1",
-        "clue_kind": "meaning"
-      },
-      {
         "word": "醫院",
         "answer_score": 86,
         "difficulty": "easy",
@@ -10472,17 +10403,17 @@
         "clue_kind": "meaning"
       },
       {
-        "word": "台積電",
-        "answer_score": 89,
+        "word": "防疫",
+        "answer_score": 86,
         "difficulty": "easy",
-        "clue": "本週報導用語：1987年創立、專門替客戶製造積體電路的企業，簡稱是哪三字？（3字）",
-        "id": "cna-097fd93069f6deae2f4e::台積電",
-        "event_id": "cna-097fd93069f6deae2f4e",
-        "event_revision": "cna-097fd93069f6deae2f4e",
+        "clue": "本週報導用語：預防及控制傳染病擴散的工作，稱為什麼？（2字）",
+        "id": "cna-151be962fe7eea1ef928::防疫",
+        "event_id": "cna-151be962fe7eea1ef928",
+        "event_revision": "cna-151be962fe7eea1ef928",
         "source_support": [
           {
-            "source_id": "rss-adc579cded78e33d5009",
-            "evidence": "美股收紅台積電ADR跌　投顧：台股延續高檔震盪"
+            "source_id": "rss-3dd56be8159fde99ca63",
+            "evidence": "俄國官方稱未驗出鼠疫　居民生活如常醫院加強防疫"
           }
         ],
         "clue_style": "natural-v1",
@@ -10517,57 +10448,6 @@
           {
             "source_id": "rss-d2855f56248b0b0e7461",
             "evidence": "新北石碇清晨18.8度　吳德榮：9日前防16度低溫"
-          }
-        ],
-        "clue_style": "natural-v1",
-        "clue_kind": "meaning"
-      },
-      {
-        "word": "國家隊",
-        "answer_score": 89,
-        "difficulty": "easy",
-        "clue": "本週報導用語：代表一個國家參加跨國賽事的選手隊伍，稱為什麼？（3字）",
-        "id": "cna-d132145b57b3d5b23198::國家隊",
-        "event_id": "cna-d132145b57b3d5b23198",
-        "event_revision": "cna-d132145b57b3d5b23198",
-        "source_support": [
-          {
-            "source_id": "rss-2345efe7ef17cf7e1bbd",
-            "evidence": "C羅為擅自離隊致歉　表明願回歸葡萄牙國家隊"
-          }
-        ],
-        "clue_style": "natural-v1",
-        "clue_kind": "meaning"
-      },
-      {
-        "word": "葡萄牙",
-        "answer_score": 89,
-        "difficulty": "easy",
-        "clue": "本週報導用語：以里斯本為首都、以波特酒聞名的是哪個國家？（3字）",
-        "id": "cna-d132145b57b3d5b23198::葡萄牙",
-        "event_id": "cna-d132145b57b3d5b23198",
-        "event_revision": "cna-d132145b57b3d5b23198",
-        "source_support": [
-          {
-            "source_id": "rss-2345efe7ef17cf7e1bbd",
-            "evidence": "C羅為擅自離隊致歉　表明願回歸葡萄牙國家隊"
-          }
-        ],
-        "clue_style": "natural-v1",
-        "clue_kind": "meaning"
-      },
-      {
-        "word": "利率",
-        "answer_score": 86,
-        "difficulty": "easy",
-        "clue": "本週報導用語：借款或存款的利息相對於本金的比率，稱為什麼？（2字）",
-        "id": "cna-b0f03e569d06f4c0578e::利率",
-        "event_id": "cna-b0f03e569d06f4c0578e",
-        "event_revision": "cna-b0f03e569d06f4c0578e",
-        "source_support": [
-          {
-            "source_id": "rss-2931ad07a060cb73bd18",
-            "evidence": "受惠科技股續漲與美債殖利率回落　美股收高"
           }
         ],
         "clue_style": "natural-v1",
@@ -10651,14 +10531,14 @@
   },
   "automation": {
     "enabled": true,
-    "updated_at": "2026-10-07T09:39:18.157Z",
+    "updated_at": "2026-10-07T09:42:21.458Z",
     "window": {
       "from": "2026-10-01",
       "to": "2026-10-07"
     },
     "interval_hours": 6,
     "source_count": 9,
-    "candidate_count": 104,
+    "candidate_count": 100,
     "sources": [
       {
         "id": "cna-politics",
