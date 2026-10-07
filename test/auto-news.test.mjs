@@ -90,3 +90,17 @@ test('offline browser advances the window and removes expired answers without ch
  assert.equal(r.news.issue_date,'2026-10-10');assert.equal(r.news.candidates.length,0);assert.equal(r.automation.updated_at,p.automation.updated_at);assert(r.automation.stale);
  assert.throws(()=>currentBank(p,{now:new Date('2026-09-30T10:00:00Z')}),/日期/);
 });
+
+test('golf headlines admit both natural names without truncation or answer leakage',()=>{
+ const sports=SOURCES.find(s=>s.category==='體育');
+ for(const word of ['高爾夫','高爾夫球']){
+  const events=parseFeed(rss(item('台灣'+word+'賽事落幕　選手爭冠')+item('日本公布關稅政策','202610020009')),sports,{now});
+  const p=buildBank([{source:sports,events}],{now});
+  const c=p.news.candidates.find(c=>c.word===word);assert(c,'missing '+word);
+  const e=p.news.events.find(e=>e.event_id===c.event_id);
+  assert(e.categories.includes('體育'));assert(validateClue(c,e).passed);
+  assert(c.clue.endsWith('（'+Array.from(word).length+'字）'));
+  assert(!c.clue.includes(word));
+  if(word==='高爾夫球')assert(!p.news.candidates.some(c=>c.word==='高爾夫'));
+ }
+});
