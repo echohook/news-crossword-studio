@@ -1,3 +1,4 @@
+import {hasGolfContext,golfTermAllowed,golfNewsText} from './golf.mjs';
 import {XMLParser} from 'fast-xml-parser';
 import {createHash} from 'node:crypto';
 import {SOURCES} from './sources.mjs';
@@ -21,15 +22,22 @@ export function parseFeed(xml,source,{now=new Date()}={}){
   const title=plain(item?.title),url=articleUrl(item?.link),pub=new Date(item?.pubDate);
   if(!url||!title||Array.from(title).length>160||entertainment.test(title)||!Number.isFinite(pub.getTime())||pub>now)continue;
   const date=taipeiDate(pub);if(date<window.from||date>window.to)continue;
-  const id='cna-'+hash(url),sid='rss-'+hash(url+title);
+  const rawLead=plain(item?.description),lead=rawLead.length<=1200&&hasGolfContext({title,rss_lead:rawLead})?rawLead:'';
+  if(lead&&entertainment.test(lead))continue;
+  const excerpt=lead?title+'\n'+lead:title;
+  const id='cna-'+hash(url),sid='rss-'+hash(url+excerpt);
   events.push({event_id:id,dedup_key:url,event_date:date,updated_at:date,published_at:pub.toISOString(),title,
-   summary:title,categories:[source.category],fact_status:'reported',content_type:'news',event_score:80,anchor_event:false,
-   sources:[{source_id:sid,publisher:source.publisher,kind:'newswire',url,published_at:date,excerpt:title,section:source.category}]});
+   rss_lead:lead,summary:title,categories:[source.category],fact_status:'reported',content_type:'news',event_score:80,anchor_event:false,
+   sources:[{source_id:sid,publisher:source.publisher,kind:'newswire',url,published_at:date,excerpt,section:source.category}]});
  }
  return events;
 }
-function clueFor(title,{word,kind},lexicon){
+function clueFor(title,{word,kind,term_reference},lexicon){
  const chars=Array.from(word);
+ if(term_reference){const clue='據報導，文中提及的「'+term_reference.meaning+'」稱為什麼？（'+chars.length+'字）';
+  if(Array.from(clue).length>60||lexicon.some(a=>clue.normalize('NFKC').replace(/[\\p{P}\\p{Z}\\p{Cf}\\s]/gu,'').includes(a.word)))return null;
+  return clue;
+ }
  // A missing letter hint must distinguish this word from every known word of the same type.
  const options=chars.map((_,i)=>({i,pattern:chars.map((c,j)=>i===j?'○':c).join('')}));
  const choice=options.find(({i})=>!lexicon.some(a=>a.word!==word&&a.kind===kind&&Array.from(a.word).length===chars.length&&Array.from(a.word).every((c,j)=>j===i||c===chars[j])));
@@ -55,13 +63,17 @@ export function buildBank(feedResults,{now=new Date(),previous,idioms=[],lexicon
   if(e.event_date>=window.from&&e.event_date<=window.to&&e.published_at&&new Date(e.published_at)<=now&&articleUrl(e.sources?.[0]?.url)&&!entertainment.test(e.title))map.set(e.dedup_key??e.sources[0].url,structuredClone(e));
  }
  for(const e of fresh)map.set(e.dedup_key,e);
- const events=[...map.values()].sort((a,b)=>b.published_at.localeCompare(a.published_at)||a.event_id.localeCompare(b.event_id)).slice(0,180);
- for(const e of events)e.keywords=lexicon.filter(a=>e.title.includes(a.word)&&
-  !lexicon.some(b=>b.word.length>a.word.length&&b.word.includes(a.word)&&e.title.includes(b.word))&&
+ const ordered=[...map.values()].sort((a,b)=>b.published_at.localeCompare(a.published_at)||a.event_id.localeCompare(b.event_id));
+ // Keep up to 24 recent golf stories before filling the shared limit with other topics.
+ const retainedGolf=ordered.filter(hasGolfContext).slice(0,24),selected=new Map(retainedGolf.map(e=>[e.event_id,e]));
+ for(const e of ordered){if(selected.size>=180)break;selected.set(e.event_id,e);}
+ const events=[...selected.values()].sort((a,b)=>b.published_at.localeCompare(a.published_at)||a.event_id.localeCompare(b.event_id));
+ for(const e of events){const content=golfNewsText(e);e.keywords=lexicon.filter(a=>content.includes(a.word)&&golfTermAllowed(a,e)&&
+  !lexicon.some(b=>b.word.length>a.word.length&&b.word.includes(a.word)&&content.includes(b.word)&&golfTermAllowed(b,e))&&
   !(a.word==='鳳梨'&&e.title.includes('鳳梨釋迦'))&&
   !(a.word==='運動'&&/青年運動|學生運動|社會運動|革命運動|工人運動|政治運動/u.test(e.title))).map(a=>({
-  word:a.word,clue:clueFor(e.title,a,lexicon),answer_score:80+Array.from(a.word).length*3,difficulty:'easy'
- })).filter(a=>a.clue);
+  word:a.word,...(a.topic?{topic:a.topic}:{}),...(a.term_reference?{term_reference:a.term_reference}:{}),clue:clueFor(content,a,lexicon),answer_score:80+Array.from(a.word).length*3,difficulty:'easy'
+ })).filter(a=>a.clue);}
  const collected=collectEvents(events,{issueDate:issue}),eventMap=new Map(collected.accepted.map(e=>[e.event_id,e])),seen=new Set();
  const candidates=generateCandidates(collected.accepted).sort((a,b)=>eventMap.get(b.event_id).published_at.localeCompare(eventMap.get(a.event_id).published_at)||b.answer_score-a.answer_score||a.id.localeCompare(b.id)).filter(c=>{
   if(seen.has(c.word)||!validateClue(c,eventMap.get(c.event_id)).passed)return false;
@@ -71,7 +83,7 @@ export function buildBank(feedResults,{now=new Date(),previous,idioms=[],lexicon
  return {news:{issue_date:issue,dataset_mode:'news',events:collected.accepted,candidates},idioms:structuredClone(idioms),mix:{news:8,idiom:4},
   automation:{enabled:true,updated_at:now.toISOString(),window,interval_hours:6,source_count:successful.length,candidate_count:candidates.length,
    sources:feedResults.map(r=>({id:r.source.id,publisher:r.source.publisher,category:r.source.category,url:r.source.url,count:r.events?.length??0,error:r.error??null})),
-   status:successful.length===feedResults.length?'UPDATED':'PARTIAL',method:'RSS 標題用字擷取與缺字提示；不擷取全文或圖片'}};
+   status:successful.length===feedResults.length?'UPDATED':'PARTIAL',method:'RSS 標題及高爾夫新聞 RSS 摘要用字擷取與缺字提示；不擷取全文或圖片'}};
 }
 export async function fetchFeeds({sources=SOURCES,fetchImpl=fetch,now=new Date()}={}){
  return Promise.all(sources.map(async source=>{

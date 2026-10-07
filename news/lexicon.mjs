@@ -1,3 +1,4 @@
+import {GOLF_LEXICON} from './golf.mjs';
 const groups={
  '國家或地區':'台灣 美國 日本 韓國 中國 英國 法國 德國 印度 越南 泰國 印尼 馬來西亞 新加坡 菲律賓 澳洲 紐西蘭 加拿大 墨西哥 巴西 智利 阿根廷 烏克蘭 俄羅斯 波蘭 捷克 荷蘭 比利時 丹麥 瑞典 芬蘭 挪威 瑞士 西班牙 葡萄牙 義大利 土耳其 以色列 伊朗 伊拉克 沙烏地 南非 埃及 立陶宛 愛沙尼亞 歐盟 歐洲 亞洲 美洲 非洲 中東 南韓 北韓 香港 澳門 西藏 新疆 格陵蘭 巴勒斯坦 黎巴嫩 緬甸 柬埔寨 寮國 蒙古 尼泊爾 不丹 瑞士 奧地利 匈牙利 羅馬尼亞',
  '地名':'台北 新北 桃園 台中 台南 高雄 基隆 新竹 苗栗 彰化 南投 雲林 嘉義 屏東 宜蘭 花蓮 台東 澎湖 金門 連江 台北市 新北市 桃園市 台中市 台南市 高雄市 新竹市 嘉義市 台北縣 苗栗縣 南投縣 彰化縣 雲林縣 宜蘭縣 屏東縣 花蓮縣 台東縣 澎湖縣 北京 上海 深圳 廣州 東京 大阪 京都 首爾 釜山 倫敦 巴黎 柏林 紐約 華府 加州 德州 關島 沖繩 北海道 布魯塞爾 莫斯科 新德里 孟買 雪梨 曼谷 河內 雅加達 吉隆坡 馬尼拉 華盛頓 洛杉磯 舊金山 高雄港 台北港 台中港 基隆港 桃園機場 阿里山 玉山 陽明山 太魯閣 日月潭 琉球 恆春 淡水 綠島 蘭嶼 南海 台灣海峽 太平洋 大西洋 印度洋 北極 南極 中山 大安 萬華 內湖 士林 三峽 竹北 斗六 鹿港 埔里 小港 楠梓 七股 大甲 豐原 板橋 永和 中壢 松山 嘉南 嘉義縣 新竹縣',
@@ -10,4 +11,6 @@ const groups={
  '體育項目':'棒球 籃球 足球 羽球 網球 桌球 排球 游泳 田徑 路跑 馬拉松 體操 舉重 射箭 擊劍 跆拳道 柔道 空手道 高爾夫 高爾夫球 自行車 手球 壘球 橄欖球 奧運 亞運 世界盃 世錦賽 大聯盟 職棒 中職 台灣隊 國家隊 經典賽 郭婞淳 戴資穎 林郁婷 李洋 王齊麟 林洋配 張育成 陳傑憲 徐若熙 古林睿煬 鄭宗哲 李灝宇 陳冠宇 曾峻岳'
 };
 const seen=new Set();
-export const LEXICON=Object.entries(groups).flatMap(([kind,words])=>words.split(' ').filter(word=>/^\p{Script=Han}{2,4}$/u.test(word)&&!seen.has(word)&&seen.add(word)).map(word=>({word,kind})));
+const basic=Object.entries(groups).flatMap(([kind,words])=>words.split(' ').filter(word=>/^\p{Script=Han}{2,4}$/u.test(word)&&!seen.has(word)&&seen.add(word)).map(word=>({word,kind})));
+
+export const LEXICON=[...basic,...GOLF_LEXICON.filter(c=>!seen.has(c.word)&&seen.add(c.word))];
