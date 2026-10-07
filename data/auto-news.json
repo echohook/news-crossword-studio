@@ -7234,11 +7234,11 @@
         ]
       },
       {
-        "word": "台股",
-        "clue": "據報導「吸引力」　估台○高點可期」，補全用語。（2字）",
+        "word": "亞洲",
+        "clue": "據報導「打銀看○○「亞○最具○○吸引力」　估○○高點」，補全國家或地區。（2字）",
         "answer_score": 86,
         "difficulty": "easy",
-        "id": "cna-38c9884704c10230e87f::台股",
+        "id": "cna-38c9884704c10230e87f::亞洲",
         "event_id": "cna-38c9884704c10230e87f",
         "event_revision": "cna-38c9884704c10230e87f",
         "source_support": [
@@ -7264,11 +7264,11 @@
         ]
       },
       {
-        "word": "投資",
-        "clue": "據報導「灣「○○最具投○吸引力」　估○○高點可期」，補全用語。（2字）",
+        "word": "台股",
+        "clue": "據報導「吸引力」　估台○高點可期」，補全用語。（2字）",
         "answer_score": 86,
         "difficulty": "easy",
-        "id": "cna-38c9884704c10230e87f::投資",
+        "id": "cna-38c9884704c10230e87f::台股",
         "event_id": "cna-38c9884704c10230e87f",
         "event_revision": "cna-38c9884704c10230e87f",
         "source_support": [
@@ -7279,11 +7279,11 @@
         ]
       },
       {
-        "word": "亞洲",
-        "clue": "據報導「打銀看○○「亞○最具○○吸引力」　估○○高點」，補全國家或地區。（2字）",
+        "word": "投資",
+        "clue": "據報導「灣「○○最具投○吸引力」　估○○高點可期」，補全用語。（2字）",
         "answer_score": 86,
         "difficulty": "easy",
-        "id": "cna-38c9884704c10230e87f::亞洲",
+        "id": "cna-38c9884704c10230e87f::投資",
         "event_id": "cna-38c9884704c10230e87f",
         "event_revision": "cna-38c9884704c10230e87f",
         "source_support": [
@@ -7399,11 +7399,11 @@
         ]
       },
       {
-        "word": "英國",
-        "clue": "據報導「駐英○代表處○○酒會　英議員：○○」，補全國家或地區。（2字）",
+        "word": "國慶",
+        "clue": "據報導「駐○○代表處○慶酒會　英議員：○○參與國際至」，補全用語。（2字）",
         "answer_score": 86,
         "difficulty": "easy",
-        "id": "cna-57bf99bae5858f30e308::英國",
+        "id": "cna-57bf99bae5858f30e308::國慶",
         "event_id": "cna-57bf99bae5858f30e308",
         "event_revision": "cna-57bf99bae5858f30e308",
         "source_support": [
@@ -7414,11 +7414,11 @@
         ]
       },
       {
-        "word": "國慶",
-        "clue": "據報導「駐○○代表處○慶酒會　英議員：○○參與國際至」，補全用語。（2字）",
+        "word": "英國",
+        "clue": "據報導「駐英○代表處○○酒會　英議員：○○」，補全國家或地區。（2字）",
         "answer_score": 86,
         "difficulty": "easy",
-        "id": "cna-57bf99bae5858f30e308::國慶",
+        "id": "cna-57bf99bae5858f30e308::英國",
         "event_id": "cna-57bf99bae5858f30e308",
         "event_revision": "cna-57bf99bae5858f30e308",
         "source_support": [
@@ -7444,11 +7444,11 @@
         ]
       },
       {
-        "word": "工資",
-        "clue": "據報導「日　○○出勤工○須加倍給付」，補全用語。（2字）",
+        "word": "勞工",
+        "clue": "據報導「為國定假日　○工出勤○○須加倍給付」，補全用語。（2字）",
         "answer_score": 86,
         "difficulty": "easy",
-        "id": "cna-52736eb2f9ee69f2054b::工資",
+        "id": "cna-52736eb2f9ee69f2054b::勞工",
         "event_id": "cna-52736eb2f9ee69f2054b",
         "event_revision": "cna-52736eb2f9ee69f2054b",
         "source_support": [
@@ -7459,11 +7459,11 @@
         ]
       },
       {
-        "word": "勞工",
-        "clue": "據報導「為國定假日　○工出勤○○須加倍給付」，補全用語。（2字）",
+        "word": "工資",
+        "clue": "據報導「日　○○出勤工○須加倍給付」，補全用語。（2字）",
         "answer_score": 86,
         "difficulty": "easy",
-        "id": "cna-52736eb2f9ee69f2054b::勞工",
+        "id": "cna-52736eb2f9ee69f2054b::工資",
         "event_id": "cna-52736eb2f9ee69f2054b",
         "event_revision": "cna-52736eb2f9ee69f2054b",
         "source_support": [
@@ -7519,11 +7519,11 @@
         ]
       },
       {
-        "word": "美光",
-        "clue": "據報導「美○○○廠工會取得罷工權　擬鼓勵」，補全企業。（2字）",
+        "word": "桃園",
+        "clue": "據報導「○○○園廠工會取得罷工權　擬鼓勵員工」，補全地名。（2字）",
         "answer_score": 86,
         "difficulty": "easy",
-        "id": "cna-b4b7abf1cccf954863a1::美光",
+        "id": "cna-b4b7abf1cccf954863a1::桃園",
         "event_id": "cna-b4b7abf1cccf954863a1",
         "event_revision": "cna-b4b7abf1cccf954863a1",
         "source_support": [
@@ -7534,11 +7534,11 @@
         ]
       },
       {
-        "word": "桃園",
-        "clue": "據報導「○○○園廠工會取得罷工權　擬鼓勵員工」，補全地名。（2字）",
+        "word": "美光",
+        "clue": "據報導「美○○○廠工會取得罷工權　擬鼓勵」，補全企業。（2字）",
         "answer_score": 86,
         "difficulty": "easy",
-        "id": "cna-b4b7abf1cccf954863a1::桃園",
+        "id": "cna-b4b7abf1cccf954863a1::美光",
         "event_id": "cna-b4b7abf1cccf954863a1",
         "event_revision": "cna-b4b7abf1cccf954863a1",
         "source_support": [
@@ -7564,11 +7564,11 @@
         ]
       },
       {
-        "word": "竹北",
-        "clue": "據報導「竹○多處社區○○○球閥遭竊　○○」，補全地名。（2字）",
+        "word": "新竹",
+        "clue": "據報導「氣球閥遭竊　○竹瓦斯報警追查」，補全地名。（2字）",
         "answer_score": 86,
         "difficulty": "easy",
-        "id": "cna-8ed6df9cba1b23b99326::竹北",
+        "id": "cna-8ed6df9cba1b23b99326::新竹",
         "event_id": "cna-8ed6df9cba1b23b99326",
         "event_revision": "cna-8ed6df9cba1b23b99326",
         "source_support": [
@@ -7579,11 +7579,11 @@
         ]
       },
       {
-        "word": "新竹",
-        "clue": "據報導「氣球閥遭竊　○竹瓦斯報警追查」，補全地名。（2字）",
+        "word": "竹北",
+        "clue": "據報導「竹○多處社區○○○球閥遭竊　○○」，補全地名。（2字）",
         "answer_score": 86,
         "difficulty": "easy",
-        "id": "cna-8ed6df9cba1b23b99326::新竹",
+        "id": "cna-8ed6df9cba1b23b99326::竹北",
         "event_id": "cna-8ed6df9cba1b23b99326",
         "event_revision": "cna-8ed6df9cba1b23b99326",
         "source_support": [
@@ -7804,11 +7804,11 @@
         ]
       },
       {
-        "word": "消防",
-        "clue": "據報導「樓動土　整合○防打造全齡服務據點」，補全用語。（2字）",
+        "word": "彰化",
+        "clue": "據報導「○化大村綜合行政大樓動土　整合消」，補全地名。（2字）",
         "answer_score": 86,
         "difficulty": "easy",
-        "id": "cna-1cce42431e84b667afd1::消防",
+        "id": "cna-1cce42431e84b667afd1::彰化",
         "event_id": "cna-1cce42431e84b667afd1",
         "event_revision": "cna-1cce42431e84b667afd1",
         "source_support": [
@@ -7819,11 +7819,11 @@
         ]
       },
       {
-        "word": "彰化",
-        "clue": "據報導「○化大村綜合行政大樓動土　整合消」，補全地名。（2字）",
+        "word": "消防",
+        "clue": "據報導「樓動土　整合○防打造全齡服務據點」，補全用語。（2字）",
         "answer_score": 86,
         "difficulty": "easy",
-        "id": "cna-1cce42431e84b667afd1::彰化",
+        "id": "cna-1cce42431e84b667afd1::消防",
         "event_id": "cna-1cce42431e84b667afd1",
         "event_revision": "cna-1cce42431e84b667afd1",
         "source_support": [
@@ -7999,11 +7999,11 @@
         ]
       },
       {
-        "word": "高鐵",
-        "clue": "據報導「高○○○系統遭入侵釀列車急煞　檢」，補全機關或組織。（2字）",
+        "word": "通訊",
+        "clue": "據報導「○○○訊系統遭入侵釀列車急煞　檢方起」，補全用語。（2字）",
         "answer_score": 86,
         "difficulty": "easy",
-        "id": "cna-b4b960a1ef301e9619bc::高鐵",
+        "id": "cna-b4b960a1ef301e9619bc::通訊",
         "event_id": "cna-b4b960a1ef301e9619bc",
         "event_revision": "cna-b4b960a1ef301e9619bc",
         "source_support": [
@@ -8014,11 +8014,11 @@
         ]
       },
       {
-        "word": "通訊",
-        "clue": "據報導「○○○訊系統遭入侵釀列車急煞　檢方起」，補全用語。（2字）",
+        "word": "高鐵",
+        "clue": "據報導「高○○○系統遭入侵釀列車急煞　檢」，補全機關或組織。（2字）",
         "answer_score": 86,
         "difficulty": "easy",
-        "id": "cna-b4b960a1ef301e9619bc::通訊",
+        "id": "cna-b4b960a1ef301e9619bc::高鐵",
         "event_id": "cna-b4b960a1ef301e9619bc",
         "event_revision": "cna-b4b960a1ef301e9619bc",
         "source_support": [
@@ -8719,11 +8719,11 @@
         ]
       },
       {
-        "word": "防疫",
-        "clue": "據報導「如常○○加強○疫」，補全用語。（2字）",
+        "word": "醫院",
+        "clue": "據報導「居民生活如常○院加強○○」，補全用語。（2字）",
         "answer_score": 86,
         "difficulty": "easy",
-        "id": "cna-151be962fe7eea1ef928::防疫",
+        "id": "cna-151be962fe7eea1ef928::醫院",
         "event_id": "cna-151be962fe7eea1ef928",
         "event_revision": "cna-151be962fe7eea1ef928",
         "source_support": [
@@ -8734,11 +8734,11 @@
         ]
       },
       {
-        "word": "醫院",
-        "clue": "據報導「居民生活如常○院加強○○」，補全用語。（2字）",
+        "word": "防疫",
+        "clue": "據報導「如常○○加強○疫」，補全用語。（2字）",
         "answer_score": 86,
         "difficulty": "easy",
-        "id": "cna-151be962fe7eea1ef928::醫院",
+        "id": "cna-151be962fe7eea1ef928::防疫",
         "event_id": "cna-151be962fe7eea1ef928",
         "event_revision": "cna-151be962fe7eea1ef928",
         "source_support": [
@@ -8901,7 +8901,7 @@
   },
   "automation": {
     "enabled": true,
-    "updated_at": "2026-10-07T09:08:35.332Z",
+    "updated_at": "2026-10-07T09:10:42.002Z",
     "window": {
       "from": "2026-10-01",
       "to": "2026-10-07"
