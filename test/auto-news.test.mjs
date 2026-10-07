@@ -39,7 +39,7 @@ test('automatic candidates are unique, literal, non-leaking and accepted by all 
  assert.equal(new Set(p.news.candidates.map(c=>c.word)).size,p.news.candidates.length);
  for(const c of p.news.candidates){
   const e=p.news.events.find(e=>e.event_id===c.event_id);assert(e.title.includes(c.word));
-  assert(validateClue(c,e).passed);assert(!/[○◯□]|補全|缺字/u.test(c.clue));assert.equal(c.clue_style,'natural-v1');
+  assert(validateClue(c,e).passed);assert(!/[○◯□]|補全|缺字/u.test(c.clue));assert.equal(c.clue_style,'magazine-v1');
   assert(!p.news.candidates.some(a=>a.id!==c.id&&c.clue.normalize('NFKC').replace(/[\p{P}\p{Z}\s]/gu,'').includes(a.word)));
  }
 });
@@ -162,15 +162,15 @@ test('entertainment cues in golf RSS summaries are rejected too',()=>{
 test('natural meanings produce complete country and golf questions without placeholder characters',async()=>{
  const {naturalClueOptions}=await import('../news/clues.mjs');
  const japan=naturalClueOptions({title:'日本相關報導'},{word:'日本',kind:'國家或地區'});
- assert(japan.some(o=>o.clue==='本週報導用語：以東京為首都、使用日圓的是哪個島國？（2字）'));
+ assert(japan.some(o=>o.clue==='國名，首都為東京，使用日圓。（2字）'));
  const caddie=naturalClueOptions({title:'高球桿弟報導'},{word:'桿弟',kind:'高爾夫用語'});
  assert(caddie.some(o=>o.clue.includes('替選手攜帶裝備、協助判讀路線的人')));
- assert([...japan,...caddie].every(o=>!/○|◯|□|補全|缺字/u.test(o.clue)&&o.clue_style==='natural-v1'));
+ assert([...japan,...caddie].every(o=>!/○|◯|□|補全|缺字/u.test(o.clue)&&o.clue_style==='magazine-v1'));
 });
 test('event clues preserve the actual reported action and its uncertainty',async()=>{
  const {naturalClueOptions}=await import('../news/clues.mjs');
  const options=naturalClueOptions({title:'台積電評估新廠計畫'},{word:'台積電',kind:'企業'});
- const e=options.find(o=>o.clue_kind==='event');assert(e);assert.equal(e.clue,'據報導，哪家公司評估新廠計畫？（3字）');assert(!e.clue.includes('已完成'));
+ const e=options.find(o=>o.clue_kind==='event');assert(e);assert.equal(e.clue,'據報導，某家公司評估新廠計畫。（3字）');assert(!e.clue.includes('已完成'));
 });
 test('unknown and incomplete headline fragments are skipped rather than masked or fabricated',async()=>{
  const {naturalClueOptions}=await import('../news/clues.mjs');
@@ -194,5 +194,23 @@ test('browser refuses old automatic masking clues but keeps readable legacy ones
 test('weekly RSS update regenerates natural clues from previously masked keyword drafts',()=>{
  const previous=bank();for(const e of previous.news.events)for(const k of e.keywords)k.clue='據報導○○○（2字）';
  const updated=buildBank([result()],{now,previous});
- assert.equal(updated.automation.clue_style,'natural-v1');assert(updated.news.candidates.every(c=>!/[○◯□]/u.test(c.clue)));
+ assert.equal(updated.automation.clue_style,'magazine-v1');assert(updated.news.candidates.every(c=>!/[○◯□]/u.test(c.clue)));
+});
+
+test('concise clues follow magazine statements instead of repeated introductions or questions',()=>{
+ const p=bank();
+ assert.equal(p.automation.clue_style,'magazine-v1');
+ for(const c of p.news.candidates){
+  assert(!/本週報導用語|哪個|哪位|是什麼|稱為什麼|[？?○◯□]/u.test(c.clue),c.clue);
+  assert(/。（[234]字）$/u.test(c.clue),c.clue);
+ }
+});
+test('idioms use complete figurative meanings with dictionary provenance and no letter giveaways',async()=>{
+ const {definitionBody}=await import('../core/definitions.mjs');
+ const template=JSON.parse(await readFile(new URL('../core/examples/mixed-input.json',import.meta.url),'utf8'));
+ const original=structuredClone(template.idioms);
+ const p=buildBank([result()],{now,idioms:template.idioms});
+ assert.deepEqual(template.idioms,original);
+ for(const c of p.idioms){assert.equal(c.clue,definitionBody(c.word)+'（4字）');assert(!/第[一二三四1234]字|【成語】|[？?○◯□]/u.test(c.clue));assert(c.knowledge_source.publisher);assert(c.knowledge_source.url.startsWith('https://'));}
+ assert(p.idioms.find(c=>c.word==='半途而廢').knowledge_source.url.includes('ID=152'));
 });

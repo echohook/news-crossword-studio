@@ -1,10 +1,10 @@
 {
   "name": "news-crossword-core",
-  "version": "1.7.3",
+  "version": "1.7.4",
   "private": true,
   "type": "module",
   "scripts": {
-    "test": "node --test test/core.test.mjs test/continuation.test.mjs test/pipeline.test.mjs test/real-news.test.mjs test/selection.test.mjs test/worksheet.test.mjs test/quality.test.mjs test/news-policy.test.mjs test/mixed.test.mjs test/editions.test.mjs",
+    "test": "node --test test/core.test.mjs test/continuation.test.mjs test/pipeline.test.mjs test/real-news.test.mjs test/selection.test.mjs test/worksheet.test.mjs test/quality.test.mjs test/news-policy.test.mjs test/mixed.test.mjs test/editions.test.mjs test/meaning-clues.test.mjs",
     "demo": "node cli.mjs solve examples/candidates.json"
   },
   "engines": {

@@ -1,0 +1,17 @@
+{
+  "version": "1.11.0",
+  "passed": true,
+  "url": "http://127.0.0.1:8790/",
+  "checks": [
+    "automatic bank loads on open and refresh without manual input",
+    "all clues follow concise magazine statements without question tails or letter hints",
+    "all generated clues use complete sentences with zero masking circles",
+    "two automatically sourced editions pass all validators and answer/clue deduplication",
+    "automatic news batch downloads a complete Chinese A4 PDF",
+    "mobile layout stays within viewport",
+    "failed bank connection retains last good news and clearly states fallback"
+  ],
+  "browser_errors": [],
+  "issue_date": "2026-10-07",
+  "candidate_count": 98
+}

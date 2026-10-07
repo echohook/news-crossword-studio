@@ -1,3 +1,4 @@
+import {definitionBody} from '../core/definitions.mjs';
 import {naturalClueOptions,CLUE_STYLE,normalized} from './clues.mjs';
 import {clueKey} from '../core/edition-policy.mjs';
 import {hasGolfContext,golfTermAllowed,golfNewsText} from './golf.mjs';
@@ -66,10 +67,12 @@ export function buildBank(feedResults,{now=new Date(),previous,idioms=[],lexicon
   }
  }
 if(candidates.length<2||!candidates.some(c=>fresh.some(e=>e.event_id===c.event_id)))throw Error('本次沒有取得足夠合格的新題目；保留上一批題庫。');
- return {news:{issue_date:issue,dataset_mode:'news',events:collected.accepted,candidates},idioms:structuredClone(idioms),mix:{news:8,idiom:4},
+ const styledIdioms=structuredClone(idioms).map(c=>{const body=definitionBody(c.word);return body?{...c,clue:body+'（4字）',clue_style:CLUE_STYLE,clue_kind:'meaning',
+  ...(c.word==='半途而廢'?{knowledge_source:{...c.knowledge_source,publisher:'教育部《成語典》',url:'https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=152&webMd=1'}}:{})}:c;});
+ return {news:{issue_date:issue,dataset_mode:'news',events:collected.accepted,candidates},idioms:styledIdioms,mix:{news:8,idiom:4},
   automation:{enabled:true,updated_at:now.toISOString(),window,interval_hours:6,source_count:successful.length,candidate_count:candidates.length,
    sources:feedResults.map(r=>({id:r.source.id,publisher:r.source.publisher,category:r.source.category,url:r.source.url,count:r.events?.length??0,error:r.error??null})),
-   clue_style:CLUE_STYLE,status:successful.length===feedResults.length?'UPDATED':'PARTIAL',method:'RSS 新聞來源核對；完整事件描述或詞義提示；不擷取全文或圖片'}};
+   clue_style:CLUE_STYLE,status:successful.length===feedResults.length?'UPDATED':'PARTIAL',method:'RSS 新聞來源核對；精簡敘述、詞義與比喻線索；不擷取全文或圖片'}};
 }
 export async function fetchFeeds({sources=SOURCES,fetchImpl=fetch,now=new Date()}={}){
  return Promise.all(sources.map(async source=>{

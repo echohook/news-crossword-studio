@@ -1,3 +1,4 @@
+import {knownDefinitionClue} from './definitions.mjs';
 const normalized=s=>s.normalize('NFKC').replace(/[\p{P}\p{Z}\p{Cf}\s]/gu,'');
 const label={C01:'題目未洩漏答案',C02:'題目完整且長度合適',C03:'正確字數提示',
   C04:'沒有已知同字數替代答案',C05:'保留事實狀態限定語',C06:'來源摘錄對應候選'};
@@ -14,6 +15,7 @@ export function validateClue(candidate,event,{maxChars=60}={}) {
   const status=event?.fact_status;
   const qualifiers={considering:/評估|考慮|研議|傳出/,planned:/計畫|規劃|預計|擬|將/,reported:/據|報導|傳出|消息/};
   const qualifier=Object.hasOwn(qualifiers,status)?qualifiers[status]:null;
+  const knownMeaning=knownDefinitionClue(candidate,meaningful);
   const overclaim=(status==='considering'||status==='planned')&&/已(?:決定|定案|設廠|完成|實施|確定)|確定(?:設廠|完成|實施)/.test(normalized(clue));
   const support=candidate?.source_support, sources=new Map((Array.isArray(event?.sources)?event.sources:[]).filter(s=>s&&typeof s.source_id==='string').map(s=>[s.source_id,s]));
   const invalidSupport=[];
@@ -29,7 +31,7 @@ export function validateClue(candidate,event,{maxChars=60}={}) {
     C02:Array.from(meaningful).length>=4&&Array.from(clue).length<=maxChars,
     C03:hintLength===length,
     C04:Array.isArray(alternatives)&&alternatives.every(a=>typeof a==='string')&&competing.length===0,
-    C05:['confirmed','announced','considering','planned','reported'].includes(status)&&(!qualifier||qualifier.test(normalized(clue)))&&!overclaim,
+    C05:['confirmed','announced','considering','planned','reported'].includes(status)&&(knownMeaning||!qualifier||qualifier.test(normalized(clue)))&&!overclaim,
     C06:invalidSupport.length===0
   };
   const checks=Object.entries(conditions).map(([id,pass])=>({id,label:label[id],pass,
