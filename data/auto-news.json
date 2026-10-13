@@ -1,102 +1,8 @@
 {
   "news": {
-    "issue_date": "2026-10-13",
+    "issue_date": "2026-10-14",
     "dataset_mode": "news",
     "events": [
-      {
-        "event_id": "cna-2e5fe002fc5735562e5a",
-        "dedup_key": "https://www.cna.com.tw/news/acn/202610120298.aspx",
-        "event_date": "2026-10-12",
-        "updated_at": "2026-10-12",
-        "published_at": "2026-10-12T14:10:54.000Z",
-        "title": "李強通話紐西蘭總理  稱希望加快自貿協定談判",
-        "rss_lead": "",
-        "summary": "李強通話紐西蘭總理  稱希望加快自貿協定談判",
-        "categories": [
-          "國際"
-        ],
-        "fact_status": "reported",
-        "content_type": "news",
-        "event_score": 80,
-        "anchor_event": false,
-        "sources": [
-          {
-            "source_id": "rss-a2bab2e6b5cc235a1ccd",
-            "publisher": "中央通訊社",
-            "kind": "newswire",
-            "url": "https://www.cna.com.tw/news/acn/202610120298.aspx",
-            "published_at": "2026-10-12",
-            "excerpt": "李強通話紐西蘭總理  稱希望加快自貿協定談判",
-            "section": "國際"
-          }
-        ],
-        "keywords": [
-          {
-            "word": "紐西蘭",
-            "clue_options": [
-              {
-                "clue": "國名，以威靈頓為首都、由南北兩個主要島嶼組成。（3字）",
-                "clue_style": "magazine-v1",
-                "clue_kind": "meaning"
-              }
-            ],
-            "answer_score": 89,
-            "difficulty": "easy",
-            "clue": "國名，以威靈頓為首都、由南北兩個主要島嶼組成。（3字）"
-          }
-        ],
-        "aliases": [
-          "cna-2e5fe002fc5735562e5a"
-        ],
-        "content_revision": "cna-2e5fe002fc5735562e5a"
-      },
-      {
-        "event_id": "cna-f6b0b571967e6560bca3",
-        "dedup_key": "https://www.cna.com.tw/news/acn/202610130039.aspx",
-        "event_date": "2026-10-13",
-        "updated_at": "2026-10-13",
-        "published_at": "2026-10-13T02:07:04.000Z",
-        "title": "柬國電詐疑犯鄧丕兵曾捐湖南科大300萬美元",
-        "rss_lead": "",
-        "summary": "柬國電詐疑犯鄧丕兵曾捐湖南科大300萬美元",
-        "categories": [
-          "國際"
-        ],
-        "fact_status": "reported",
-        "content_type": "news",
-        "event_score": 80,
-        "anchor_event": false,
-        "sources": [
-          {
-            "source_id": "rss-710fe6b151175b4b0c27",
-            "publisher": "中央通訊社",
-            "kind": "newswire",
-            "url": "https://www.cna.com.tw/news/acn/202610130039.aspx",
-            "published_at": "2026-10-13",
-            "excerpt": "柬國電詐疑犯鄧丕兵曾捐湖南科大300萬美元",
-            "section": "國際"
-          }
-        ],
-        "keywords": [
-          {
-            "word": "美元",
-            "clue_options": [
-              {
-                "clue": "美國使用的主要貨幣單位。（2字）",
-                "clue_style": "magazine-v1",
-                "clue_kind": "meaning"
-              }
-            ],
-            "answer_score": 86,
-            "difficulty": "easy",
-            "clue": "美國使用的主要貨幣單位。（2字）"
-          }
-        ],
-        "aliases": [
-          "cna-f6b0b571967e6560bca3"
-        ],
-        "content_revision": "cna-f6b0b571967e6560bca3"
-      },
       {
         "event_id": "cna-33776adbf2953e425f82",
         "dedup_key": "https://www.cna.com.tw/news/acn/202610130046.aspx",
@@ -998,6 +904,100 @@
         "content_revision": "cna-f82f24d73cc9660e853a"
       },
       {
+        "event_id": "cna-f111a9dcf3ce15c63df3",
+        "dedup_key": "https://www.cna.com.tw/news/acn/202610130316.aspx",
+        "event_date": "2026-10-13",
+        "updated_at": "2026-10-13",
+        "published_at": "2026-10-13T13:08:06.000Z",
+        "title": "深圳APEC峰會  港媒：部分美企執行長已決定不出席",
+        "rss_lead": "",
+        "summary": "深圳APEC峰會  港媒：部分美企執行長已決定不出席",
+        "categories": [
+          "國際"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-3170cd791d62b7f2ed59",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/acn/202610130316.aspx",
+            "published_at": "2026-10-13",
+            "excerpt": "深圳APEC峰會  港媒：部分美企執行長已決定不出席",
+            "section": "國際"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "深圳",
+            "clue_options": [
+              {
+                "clue": "地名，位於珠江三角洲、緊鄰香港的城市。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "easy",
+            "clue": "地名，位於珠江三角洲、緊鄰香港的城市。（2字）"
+          }
+        ],
+        "aliases": [
+          "cna-f111a9dcf3ce15c63df3"
+        ],
+        "content_revision": "cna-f111a9dcf3ce15c63df3"
+      },
+      {
+        "event_id": "cna-48cdd590f666f5bc7f6b",
+        "dedup_key": "https://www.cna.com.tw/news/acn/202610130330.aspx",
+        "event_date": "2026-10-13",
+        "updated_at": "2026-10-13",
+        "published_at": "2026-10-13T14:26:41.000Z",
+        "title": "超強聖嬰現象  中國專家：廣東易出現暖冬可能下冰霰",
+        "rss_lead": "",
+        "summary": "超強聖嬰現象  中國專家：廣東易出現暖冬可能下冰霰",
+        "categories": [
+          "國際"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-5a8584c5a1c6e2b37f88",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/acn/202610130330.aspx",
+            "published_at": "2026-10-13",
+            "excerpt": "超強聖嬰現象  中國專家：廣東易出現暖冬可能下冰霰",
+            "section": "國際"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "中國",
+            "clue_options": [
+              {
+                "clue": "國名，以北京為首都、境內有萬里長城。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "easy",
+            "clue": "國名，以北京為首都、境內有萬里長城。（2字）"
+          }
+        ],
+        "aliases": [
+          "cna-48cdd590f666f5bc7f6b"
+        ],
+        "content_revision": "cna-48cdd590f666f5bc7f6b"
+      },
+      {
         "event_id": "cna-92c08081cf5fa54f2716",
         "dedup_key": "https://www.cna.com.tw/news/acul/202610130197.aspx",
         "event_date": "2026-10-13",
@@ -1095,346 +1095,6 @@
           "cna-9b8d90e06f80a7567854"
         ],
         "content_revision": "cna-9b8d90e06f80a7567854"
-      },
-      {
-        "event_id": "cna-eac89ec1c33ba3d10746",
-        "dedup_key": "https://www.cna.com.tw/news/afe/202610120289.aspx",
-        "event_date": "2026-10-12",
-        "updated_at": "2026-10-12",
-        "published_at": "2026-10-12T13:25:32.000Z",
-        "title": "泰國補半導體人才缺口　官員：安排工程學生赴台培訓",
-        "rss_lead": "",
-        "summary": "泰國補半導體人才缺口　官員：安排工程學生赴台培訓",
-        "categories": [
-          "財經"
-        ],
-        "fact_status": "reported",
-        "content_type": "news",
-        "event_score": 80,
-        "anchor_event": false,
-        "sources": [
-          {
-            "source_id": "rss-0cdc4b0b1e6f9ca258b5",
-            "publisher": "中央通訊社",
-            "kind": "newswire",
-            "url": "https://www.cna.com.tw/news/afe/202610120289.aspx",
-            "published_at": "2026-10-12",
-            "excerpt": "泰國補半導體人才缺口　官員：安排工程學生赴台培訓",
-            "section": "財經"
-          }
-        ],
-        "keywords": [
-          {
-            "word": "泰國",
-            "clue_options": [
-              {
-                "clue": "國名，以曼谷為首都、使用泰銖。（2字）",
-                "clue_style": "magazine-v1",
-                "clue_kind": "meaning"
-              }
-            ],
-            "answer_score": 86,
-            "difficulty": "easy",
-            "clue": "國名，以曼谷為首都、使用泰銖。（2字）"
-          },
-          {
-            "word": "半導體",
-            "clue_options": [
-              {
-                "clue": "導電能力介於良導體與絕緣體之間的材料。（3字）",
-                "clue_style": "magazine-v1",
-                "clue_kind": "meaning"
-              }
-            ],
-            "answer_score": 89,
-            "difficulty": "easy",
-            "clue": "導電能力介於良導體與絕緣體之間的材料。（3字）"
-          },
-          {
-            "word": "學生",
-            "clue_options": [
-              {
-                "clue": "在校接受課程與學習的人。（2字）",
-                "clue_style": "magazine-v1",
-                "clue_kind": "meaning"
-              }
-            ],
-            "answer_score": 86,
-            "difficulty": "easy",
-            "clue": "在校接受課程與學習的人。（2字）"
-          }
-        ],
-        "aliases": [
-          "cna-eac89ec1c33ba3d10746"
-        ],
-        "content_revision": "cna-eac89ec1c33ba3d10746"
-      },
-      {
-        "event_id": "cna-3cda63d3635705175487",
-        "dedup_key": "https://www.cna.com.tw/news/afe/202610120293.aspx",
-        "event_date": "2026-10-12",
-        "updated_at": "2026-10-12",
-        "published_at": "2026-10-12T14:01:43.000Z",
-        "title": "美股開盤幾乎持平　市場靜待通膨數據與銀行財報",
-        "rss_lead": "",
-        "summary": "美股開盤幾乎持平　市場靜待通膨數據與銀行財報",
-        "categories": [
-          "財經"
-        ],
-        "fact_status": "reported",
-        "content_type": "news",
-        "event_score": 80,
-        "anchor_event": false,
-        "sources": [
-          {
-            "source_id": "rss-cb0c7a8705fc82c2c27c",
-            "publisher": "中央通訊社",
-            "kind": "newswire",
-            "url": "https://www.cna.com.tw/news/afe/202610120293.aspx",
-            "published_at": "2026-10-12",
-            "excerpt": "美股開盤幾乎持平　市場靜待通膨數據與銀行財報",
-            "section": "財經"
-          }
-        ],
-        "keywords": [
-          {
-            "word": "美股",
-            "clue_options": [
-              {
-                "clue": "在美國交易的股票市場。（2字）",
-                "clue_style": "magazine-v1",
-                "clue_kind": "meaning"
-              }
-            ],
-            "answer_score": 86,
-            "difficulty": "easy",
-            "clue": "在美國交易的股票市場。（2字）"
-          }
-        ],
-        "aliases": [
-          "cna-3cda63d3635705175487"
-        ],
-        "content_revision": "cna-3cda63d3635705175487"
-      },
-      {
-        "event_id": "cna-e1b10ec9faf3e4cd295d",
-        "dedup_key": "https://www.cna.com.tw/news/afe/202610120294.aspx",
-        "event_date": "2026-10-12",
-        "updated_at": "2026-10-12",
-        "published_at": "2026-10-12T14:02:45.000Z",
-        "title": "致茂爆5859萬元鉅額違約交割　今年上市公司第13起",
-        "rss_lead": "",
-        "summary": "致茂爆5859萬元鉅額違約交割　今年上市公司第13起",
-        "categories": [
-          "財經"
-        ],
-        "fact_status": "reported",
-        "content_type": "news",
-        "event_score": 80,
-        "anchor_event": false,
-        "sources": [
-          {
-            "source_id": "rss-305dd72a0a28a476b335",
-            "publisher": "中央通訊社",
-            "kind": "newswire",
-            "url": "https://www.cna.com.tw/news/afe/202610120294.aspx",
-            "published_at": "2026-10-12",
-            "excerpt": "致茂爆5859萬元鉅額違約交割　今年上市公司第13起",
-            "section": "財經"
-          }
-        ],
-        "keywords": [],
-        "aliases": [
-          "cna-e1b10ec9faf3e4cd295d"
-        ],
-        "content_revision": "cna-e1b10ec9faf3e4cd295d"
-      },
-      {
-        "event_id": "cna-02bd4fed03212734962f",
-        "dedup_key": "https://www.cna.com.tw/news/afe/202610130002.aspx",
-        "event_date": "2026-10-13",
-        "updated_at": "2026-10-13",
-        "published_at": "2026-10-12T17:04:33.000Z",
-        "title": "投資人樂觀看待企業財報季　歐洲股市收盤揚升",
-        "rss_lead": "",
-        "summary": "投資人樂觀看待企業財報季　歐洲股市收盤揚升",
-        "categories": [
-          "財經"
-        ],
-        "fact_status": "reported",
-        "content_type": "news",
-        "event_score": 80,
-        "anchor_event": false,
-        "sources": [
-          {
-            "source_id": "rss-5b703299ce8b32dfde19",
-            "publisher": "中央通訊社",
-            "kind": "newswire",
-            "url": "https://www.cna.com.tw/news/afe/202610130002.aspx",
-            "published_at": "2026-10-13",
-            "excerpt": "投資人樂觀看待企業財報季　歐洲股市收盤揚升",
-            "section": "財經"
-          }
-        ],
-        "keywords": [
-          {
-            "word": "歐洲",
-            "clue_options": [
-              {
-                "clue": "洲名，阿爾卑斯山及多瑙河所在的一洲。（2字）",
-                "clue_style": "magazine-v1",
-                "clue_kind": "meaning"
-              }
-            ],
-            "answer_score": 86,
-            "difficulty": "easy",
-            "clue": "洲名，阿爾卑斯山及多瑙河所在的一洲。（2字）"
-          },
-          {
-            "word": "投資",
-            "clue_options": [
-              {
-                "clue": "投入資金或資源，期望日後取得回報的活動。（2字）",
-                "clue_style": "magazine-v1",
-                "clue_kind": "meaning"
-              }
-            ],
-            "answer_score": 86,
-            "difficulty": "easy",
-            "clue": "投入資金或資源，期望日後取得回報的活動。（2字）"
-          }
-        ],
-        "aliases": [
-          "cna-02bd4fed03212734962f"
-        ],
-        "content_revision": "cna-02bd4fed03212734962f"
-      },
-      {
-        "event_id": "cna-d4072fd3e2431c239c57",
-        "dedup_key": "https://www.cna.com.tw/news/afe/202610130005.aspx",
-        "event_date": "2026-10-13",
-        "updated_at": "2026-10-13",
-        "published_at": "2026-10-12T19:23:42.000Z",
-        "title": "馬斯克砸3.66億美元挺共和黨　料成期中選舉最大金主",
-        "rss_lead": "",
-        "summary": "馬斯克砸3.66億美元挺共和黨　料成期中選舉最大金主",
-        "categories": [
-          "財經"
-        ],
-        "fact_status": "reported",
-        "content_type": "news",
-        "event_score": 80,
-        "anchor_event": false,
-        "sources": [
-          {
-            "source_id": "rss-2ecc9eff3f097fd3cd75",
-            "publisher": "中央通訊社",
-            "kind": "newswire",
-            "url": "https://www.cna.com.tw/news/afe/202610130005.aspx",
-            "published_at": "2026-10-13",
-            "excerpt": "馬斯克砸3.66億美元挺共和黨　料成期中選舉最大金主",
-            "section": "財經"
-          }
-        ],
-        "keywords": [
-          {
-            "word": "美元",
-            "clue_options": [
-              {
-                "clue": "美國使用的主要貨幣單位。（2字）",
-                "clue_style": "magazine-v1",
-                "clue_kind": "meaning"
-              }
-            ],
-            "answer_score": 86,
-            "difficulty": "easy",
-            "clue": "美國使用的主要貨幣單位。（2字）"
-          }
-        ],
-        "aliases": [
-          "cna-d4072fd3e2431c239c57"
-        ],
-        "content_revision": "cna-d4072fd3e2431c239c57"
-      },
-      {
-        "event_id": "cna-aae775270439d7991f47",
-        "dedup_key": "https://www.cna.com.tw/news/afe/202610130008.aspx",
-        "event_date": "2026-10-13",
-        "updated_at": "2026-10-13",
-        "published_at": "2026-10-12T20:46:50.000Z",
-        "title": "俄烏和中東皆傳供應利空消息　國際油價走揚",
-        "rss_lead": "",
-        "summary": "俄烏和中東皆傳供應利空消息　國際油價走揚",
-        "categories": [
-          "財經"
-        ],
-        "fact_status": "reported",
-        "content_type": "news",
-        "event_score": 80,
-        "anchor_event": false,
-        "sources": [
-          {
-            "source_id": "rss-c0531e6a18f4ebac59e8",
-            "publisher": "中央通訊社",
-            "kind": "newswire",
-            "url": "https://www.cna.com.tw/news/afe/202610130008.aspx",
-            "published_at": "2026-10-13",
-            "excerpt": "俄烏和中東皆傳供應利空消息　國際油價走揚",
-            "section": "財經"
-          }
-        ],
-        "keywords": [
-          {
-            "word": "中東",
-            "clue_options": [
-              {
-                "clue": "地區名，西亞與北非交會一帶的概稱。（2字）",
-                "clue_style": "magazine-v1",
-                "clue_kind": "meaning"
-              }
-            ],
-            "answer_score": 86,
-            "difficulty": "easy",
-            "clue": "地區名，西亞與北非交會一帶的概稱。（2字）"
-          }
-        ],
-        "aliases": [
-          "cna-aae775270439d7991f47"
-        ],
-        "content_revision": "cna-aae775270439d7991f47"
-      },
-      {
-        "event_id": "cna-f61ba9d2668b5960d082",
-        "dedup_key": "https://www.cna.com.tw/news/afe/202610130009.aspx",
-        "event_date": "2026-10-13",
-        "updated_at": "2026-10-13",
-        "published_at": "2026-10-12T21:54:53.000Z",
-        "title": "沙烏地機場遇襲推升國際油價　華爾街股市多收跌",
-        "rss_lead": "",
-        "summary": "沙烏地機場遇襲推升國際油價　華爾街股市多收跌",
-        "categories": [
-          "財經"
-        ],
-        "fact_status": "reported",
-        "content_type": "news",
-        "event_score": 80,
-        "anchor_event": false,
-        "sources": [
-          {
-            "source_id": "rss-e048ede1a93b82ea643a",
-            "publisher": "中央通訊社",
-            "kind": "newswire",
-            "url": "https://www.cna.com.tw/news/afe/202610130009.aspx",
-            "published_at": "2026-10-13",
-            "excerpt": "沙烏地機場遇襲推升國際油價　華爾街股市多收跌",
-            "section": "財經"
-          }
-        ],
-        "keywords": [],
-        "aliases": [
-          "cna-f61ba9d2668b5960d082"
-        ],
-        "content_revision": "cna-f61ba9d2668b5960d082"
       },
       {
         "event_id": "cna-ab3fc0fd59459464265d",
@@ -2023,82 +1683,16 @@
         "content_revision": "cna-46c031c404ef0321880f"
       },
       {
-        "event_id": "cna-45911ca8436a8909799e",
-        "dedup_key": "https://www.cna.com.tw/news/ahel/202610120295.aspx",
-        "event_date": "2026-10-12",
-        "updated_at": "2026-10-12",
-        "published_at": "2026-10-12T14:03:48.000Z",
-        "title": "威力彩第115082期　頭獎槓龜",
-        "rss_lead": "",
-        "summary": "威力彩第115082期　頭獎槓龜",
-        "categories": [
-          "生活"
-        ],
-        "fact_status": "reported",
-        "content_type": "news",
-        "event_score": 80,
-        "anchor_event": false,
-        "sources": [
-          {
-            "source_id": "rss-9ce45861afdb2fef1a5e",
-            "publisher": "中央通訊社",
-            "kind": "newswire",
-            "url": "https://www.cna.com.tw/news/ahel/202610120295.aspx",
-            "published_at": "2026-10-12",
-            "excerpt": "威力彩第115082期　頭獎槓龜",
-            "section": "生活"
-          }
-        ],
-        "keywords": [],
-        "aliases": [
-          "cna-45911ca8436a8909799e"
-        ],
-        "content_revision": "cna-45911ca8436a8909799e"
-      },
-      {
-        "event_id": "cna-8ad4ead59a3f5542ea9d",
-        "dedup_key": "https://www.cna.com.tw/news/ahel/202610120296.aspx",
-        "event_date": "2026-10-12",
-        "updated_at": "2026-10-12",
-        "published_at": "2026-10-12T14:05:50.000Z",
-        "title": "今彩539第115247期　頭獎3注中獎",
-        "rss_lead": "",
-        "summary": "今彩539第115247期　頭獎3注中獎",
-        "categories": [
-          "生活"
-        ],
-        "fact_status": "reported",
-        "content_type": "news",
-        "event_score": 80,
-        "anchor_event": false,
-        "sources": [
-          {
-            "source_id": "rss-4a28bd5ed839d74386a8",
-            "publisher": "中央通訊社",
-            "kind": "newswire",
-            "url": "https://www.cna.com.tw/news/ahel/202610120296.aspx",
-            "published_at": "2026-10-12",
-            "excerpt": "今彩539第115247期　頭獎3注中獎",
-            "section": "生活"
-          }
-        ],
-        "keywords": [],
-        "aliases": [
-          "cna-8ad4ead59a3f5542ea9d"
-        ],
-        "content_revision": "cna-8ad4ead59a3f5542ea9d"
-      },
-      {
-        "event_id": "cna-f762f8d15a3a36c2e078",
-        "dedup_key": "https://www.cna.com.tw/news/ahel/202610130016.aspx",
+        "event_id": "cna-12ece23415a0d6ba9a26",
+        "dedup_key": "https://www.cna.com.tw/news/afe/202610130315.aspx",
         "event_date": "2026-10-13",
         "updated_at": "2026-10-13",
-        "published_at": "2026-10-13T00:28:12.000Z",
-        "title": "北投清晨16.7度　吳德榮：10/16起轉秋老虎天氣型態",
+        "published_at": "2026-10-13T13:08:03.000Z",
+        "title": "矽格集團砸21.88億元　購建漢竹科廠房擴AI測試",
         "rss_lead": "",
-        "summary": "北投清晨16.7度　吳德榮：10/16起轉秋老虎天氣型態",
+        "summary": "矽格集團砸21.88億元　購建漢竹科廠房擴AI測試",
         "categories": [
-          "生活"
+          "財經"
         ],
         "fact_status": "reported",
         "content_type": "news",
@@ -2106,20 +1700,327 @@
         "anchor_event": false,
         "sources": [
           {
-            "source_id": "rss-c06fcda1696846a2a350",
+            "source_id": "rss-41c88a3c0b7fefed3dab",
             "publisher": "中央通訊社",
             "kind": "newswire",
-            "url": "https://www.cna.com.tw/news/ahel/202610130016.aspx",
+            "url": "https://www.cna.com.tw/news/afe/202610130315.aspx",
             "published_at": "2026-10-13",
-            "excerpt": "北投清晨16.7度　吳德榮：10/16起轉秋老虎天氣型態",
-            "section": "生活"
+            "excerpt": "矽格集團砸21.88億元　購建漢竹科廠房擴AI測試",
+            "section": "財經"
           }
         ],
         "keywords": [],
         "aliases": [
-          "cna-f762f8d15a3a36c2e078"
+          "cna-12ece23415a0d6ba9a26"
         ],
-        "content_revision": "cna-f762f8d15a3a36c2e078"
+        "content_revision": "cna-12ece23415a0d6ba9a26"
+      },
+      {
+        "event_id": "cna-a01b1e6875020a2c8e19",
+        "dedup_key": "https://www.cna.com.tw/news/afe/202610130317.aspx",
+        "event_date": "2026-10-13",
+        "updated_at": "2026-10-13",
+        "published_at": "2026-10-13T13:14:08.000Z",
+        "title": "FinTechSpace攜5新創攻日本　深化台日金融科技合作",
+        "rss_lead": "",
+        "summary": "FinTechSpace攜5新創攻日本　深化台日金融科技合作",
+        "categories": [
+          "財經"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-50bd06704fff71a62d50",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/afe/202610130317.aspx",
+            "published_at": "2026-10-13",
+            "excerpt": "FinTechSpace攜5新創攻日本　深化台日金融科技合作",
+            "section": "財經"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "日本",
+            "clue_options": [
+              {
+                "clue": "國名，首都為東京，使用日圓。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "easy",
+            "clue": "國名，首都為東京，使用日圓。（2字）"
+          },
+          {
+            "word": "金融",
+            "clue_options": [
+              {
+                "clue": "與貨幣、信用及資金流通相關的活動。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "easy",
+            "clue": "與貨幣、信用及資金流通相關的活動。（2字）"
+          }
+        ],
+        "aliases": [
+          "cna-a01b1e6875020a2c8e19"
+        ],
+        "content_revision": "cna-a01b1e6875020a2c8e19"
+      },
+      {
+        "event_id": "cna-6e6817b2aeb18745aa0b",
+        "dedup_key": "https://www.cna.com.tw/news/afe/202610130324.aspx",
+        "event_date": "2026-10-13",
+        "updated_at": "2026-10-13",
+        "published_at": "2026-10-13T13:45:27.000Z",
+        "title": "雷虎與密西根州簽合作備忘錄　瞄準台美國防市場",
+        "rss_lead": "",
+        "summary": "雷虎與密西根州簽合作備忘錄　瞄準台美國防市場",
+        "categories": [
+          "財經"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-b61b3a6566d8ecb11a1d",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/afe/202610130324.aspx",
+            "published_at": "2026-10-13",
+            "excerpt": "雷虎與密西根州簽合作備忘錄　瞄準台美國防市場",
+            "section": "財經"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "美國",
+            "clue_options": [
+              {
+                "clue": "國名，首都為華盛頓，國旗有星條圖案。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "easy",
+            "clue": "國名，首都為華盛頓，國旗有星條圖案。（2字）"
+          }
+        ],
+        "aliases": [
+          "cna-6e6817b2aeb18745aa0b"
+        ],
+        "content_revision": "cna-6e6817b2aeb18745aa0b"
+      },
+      {
+        "event_id": "cna-d4d46d11974fb2c7f1a9",
+        "dedup_key": "https://www.cna.com.tw/news/afe/202610130325.aspx",
+        "event_date": "2026-10-13",
+        "updated_at": "2026-10-13",
+        "published_at": "2026-10-13T13:48:29.000Z",
+        "title": "晶片股再度面臨賣壓　標普與那指雙雙開低",
+        "rss_lead": "",
+        "summary": "晶片股再度面臨賣壓　標普與那指雙雙開低",
+        "categories": [
+          "財經"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-cf7a069dac7419773c12",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/afe/202610130325.aspx",
+            "published_at": "2026-10-13",
+            "excerpt": "晶片股再度面臨賣壓　標普與那指雙雙開低",
+            "section": "財經"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "晶片",
+            "clue_options": [
+              {
+                "clue": "把許多微小電路整合在薄片上的電子元件。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "easy",
+            "clue": "把許多微小電路整合在薄片上的電子元件。（2字）"
+          }
+        ],
+        "aliases": [
+          "cna-d4d46d11974fb2c7f1a9"
+        ],
+        "content_revision": "cna-d4d46d11974fb2c7f1a9"
+      },
+      {
+        "event_id": "cna-812fda919f4b4d72cde6",
+        "dedup_key": "https://www.cna.com.tw/news/afe/202610140002.aspx",
+        "event_date": "2026-10-14",
+        "updated_at": "2026-10-14",
+        "published_at": "2026-10-13T16:37:02.000Z",
+        "title": "投資人消化通膨報告　歐洲股市收跌",
+        "rss_lead": "",
+        "summary": "投資人消化通膨報告　歐洲股市收跌",
+        "categories": [
+          "財經"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-6fc7c1b7278df5bb1c0c",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/afe/202610140002.aspx",
+            "published_at": "2026-10-14",
+            "excerpt": "投資人消化通膨報告　歐洲股市收跌",
+            "section": "財經"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "歐洲",
+            "clue_options": [
+              {
+                "clue": "洲名，阿爾卑斯山及多瑙河所在的一洲。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "easy",
+            "clue": "洲名，阿爾卑斯山及多瑙河所在的一洲。（2字）"
+          },
+          {
+            "word": "投資",
+            "clue_options": [
+              {
+                "clue": "投入資金或資源，期望日後取得回報的活動。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "easy",
+            "clue": "投入資金或資源，期望日後取得回報的活動。（2字）"
+          }
+        ],
+        "aliases": [
+          "cna-812fda919f4b4d72cde6"
+        ],
+        "content_revision": "cna-812fda919f4b4d72cde6"
+      },
+      {
+        "event_id": "cna-23d9ffd0457ceaa40669",
+        "dedup_key": "https://www.cna.com.tw/news/afe/202610140008.aspx",
+        "event_date": "2026-10-14",
+        "updated_at": "2026-10-14",
+        "published_at": "2026-10-13T20:46:19.000Z",
+        "title": "美伊戰爭不確定性籠罩　國際油價漲跌不一",
+        "rss_lead": "",
+        "summary": "美伊戰爭不確定性籠罩　國際油價漲跌不一",
+        "categories": [
+          "財經"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-2c48b1e500cbc817819b",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/afe/202610140008.aspx",
+            "published_at": "2026-10-14",
+            "excerpt": "美伊戰爭不確定性籠罩　國際油價漲跌不一",
+            "section": "財經"
+          }
+        ],
+        "keywords": [],
+        "aliases": [
+          "cna-23d9ffd0457ceaa40669"
+        ],
+        "content_revision": "cna-23d9ffd0457ceaa40669"
+      },
+      {
+        "event_id": "cna-3e32a3272c6749a09e94",
+        "dedup_key": "https://www.cna.com.tw/news/afe/202610140011.aspx",
+        "event_date": "2026-10-14",
+        "updated_at": "2026-10-14",
+        "published_at": "2026-10-13T21:06:26.000Z",
+        "title": "銀行財報亮眼難抵AI投資熱潮疑慮　美股收低",
+        "rss_lead": "",
+        "summary": "銀行財報亮眼難抵AI投資熱潮疑慮　美股收低",
+        "categories": [
+          "財經"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-093f6aa6c0e2d56ec52e",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/afe/202610140011.aspx",
+            "published_at": "2026-10-14",
+            "excerpt": "銀行財報亮眼難抵AI投資熱潮疑慮　美股收低",
+            "section": "財經"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "美股",
+            "clue_options": [
+              {
+                "clue": "在美國交易的股票市場。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "easy",
+            "clue": "在美國交易的股票市場。（2字）"
+          },
+          {
+            "word": "投資",
+            "clue_options": [
+              {
+                "clue": "投入資金或資源，期望日後取得回報的活動。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "easy",
+            "clue": "投入資金或資源，期望日後取得回報的活動。（2字）"
+          }
+        ],
+        "aliases": [
+          "cna-3e32a3272c6749a09e94"
+        ],
+        "content_revision": "cna-3e32a3272c6749a09e94"
       },
       {
         "event_id": "cna-52f45fec923fb8b2eff6",
@@ -2912,11 +2813,11 @@
         "event_date": "2026-10-13",
         "updated_at": "2026-10-13",
         "published_at": "2026-10-13T12:29:48.000Z",
-        "title": "台灣與印度12月恢復直航　可望帶動觀光與轉機商機",
+        "title": "台灣與印度12月恢復直航　可望帶動觀光與轉機商機【專訪】",
         "rss_lead": "",
-        "summary": "台灣與印度12月恢復直航　可望帶動觀光與轉機商機",
+        "summary": "台灣與印度12月恢復直航　可望帶動觀光與轉機商機【專訪】",
         "categories": [
-          "財經"
+          "生活"
         ],
         "fact_status": "reported",
         "content_type": "news",
@@ -2924,13 +2825,13 @@
         "anchor_event": false,
         "sources": [
           {
-            "source_id": "rss-5a742b1fef6894b32c55",
+            "source_id": "rss-0b485e9309ddec2e6d4f",
             "publisher": "中央通訊社",
             "kind": "newswire",
             "url": "https://www.cna.com.tw/news/ahel/202610130308.aspx",
             "published_at": "2026-10-13",
-            "excerpt": "台灣與印度12月恢復直航　可望帶動觀光與轉機商機",
-            "section": "財經"
+            "excerpt": "台灣與印度12月恢復直航　可望帶動觀光與轉機商機【專訪】",
+            "section": "生活"
           }
         ],
         "keywords": [
@@ -2943,7 +2844,7 @@
                 "clue_kind": "meaning"
               },
               {
-                "clue": "據報導，某國家或地區與印度12月恢復直航　可望帶動觀光與轉機商機。（2字）",
+                "clue": "據報導，某國家或地區與印度12月恢復直航　可望帶動觀光與轉機商機【專訪】。（2字）",
                 "clue_style": "magazine-v1",
                 "clue_kind": "event"
               }
@@ -2994,7 +2895,7 @@
         "rss_lead": "",
         "summary": "大樂透第115096期開獎",
         "categories": [
-          "財經"
+          "生活"
         ],
         "fact_status": "reported",
         "content_type": "news",
@@ -3008,7 +2909,7 @@
             "url": "https://www.cna.com.tw/news/ahel/202610130311.aspx",
             "published_at": "2026-10-13",
             "excerpt": "大樂透第115096期開獎",
-            "section": "財經"
+            "section": "生活"
           }
         ],
         "keywords": [],
@@ -3027,7 +2928,7 @@
         "rss_lead": "",
         "summary": "今彩539第115248期開獎",
         "categories": [
-          "財經"
+          "生活"
         ],
         "fact_status": "reported",
         "content_type": "news",
@@ -3041,7 +2942,7 @@
             "url": "https://www.cna.com.tw/news/ahel/202610130312.aspx",
             "published_at": "2026-10-13",
             "excerpt": "今彩539第115248期開獎",
-            "section": "財經"
+            "section": "生活"
           }
         ],
         "keywords": [],
@@ -3051,16 +2952,16 @@
         "content_revision": "cna-2bec743fa0cb34f83ced"
       },
       {
-        "event_id": "cna-e0d096348ef15d1f061d",
-        "dedup_key": "https://www.cna.com.tw/news/aipl/202610120290.aspx",
-        "event_date": "2026-10-12",
-        "updated_at": "2026-10-12",
-        "published_at": "2026-10-12T13:44:37.000Z",
-        "title": "首場電視辯論協商　沈伯洋、蔣萬安陣營同意交叉詰問但日期未定",
+        "event_id": "cna-7b2becb1979473dc6f26",
+        "dedup_key": "https://www.cna.com.tw/news/ahel/202610130328.aspx",
+        "event_date": "2026-10-13",
+        "updated_at": "2026-10-13",
+        "published_at": "2026-10-13T14:05:36.000Z",
+        "title": "大樂透頭獎3.5億元1注獨得　高雄鳳山開出",
         "rss_lead": "",
-        "summary": "首場電視辯論協商　沈伯洋、蔣萬安陣營同意交叉詰問但日期未定",
+        "summary": "大樂透頭獎3.5億元1注獨得　高雄鳳山開出",
         "categories": [
-          "台灣"
+          "生活"
         ],
         "fact_status": "reported",
         "content_type": "news",
@@ -3068,67 +2969,67 @@
         "anchor_event": false,
         "sources": [
           {
-            "source_id": "rss-049a735c81b57d016821",
+            "source_id": "rss-3c8d15b30350ea8d42c1",
             "publisher": "中央通訊社",
             "kind": "newswire",
-            "url": "https://www.cna.com.tw/news/aipl/202610120290.aspx",
-            "published_at": "2026-10-12",
-            "excerpt": "首場電視辯論協商　沈伯洋、蔣萬安陣營同意交叉詰問但日期未定",
-            "section": "台灣"
-          }
-        ],
-        "keywords": [],
-        "aliases": [
-          "cna-e0d096348ef15d1f061d"
-        ],
-        "content_revision": "cna-e0d096348ef15d1f061d"
-      },
-      {
-        "event_id": "cna-a3d3627746f8ac57515a",
-        "dedup_key": "https://www.cna.com.tw/news/aipl/202610120291.aspx",
-        "event_date": "2026-10-12",
-        "updated_at": "2026-10-12",
-        "published_at": "2026-10-12T13:46:39.000Z",
-        "title": "林佳龍考察波蘭科技園區預定地　促雙方簽合作備忘錄",
-        "rss_lead": "",
-        "summary": "林佳龍考察波蘭科技園區預定地　促雙方簽合作備忘錄",
-        "categories": [
-          "台灣"
-        ],
-        "fact_status": "reported",
-        "content_type": "news",
-        "event_score": 80,
-        "anchor_event": false,
-        "sources": [
-          {
-            "source_id": "rss-4223536fc3be02795bd8",
-            "publisher": "中央通訊社",
-            "kind": "newswire",
-            "url": "https://www.cna.com.tw/news/aipl/202610120291.aspx",
-            "published_at": "2026-10-12",
-            "excerpt": "林佳龍考察波蘭科技園區預定地　促雙方簽合作備忘錄",
-            "section": "台灣"
+            "url": "https://www.cna.com.tw/news/ahel/202610130328.aspx",
+            "published_at": "2026-10-13",
+            "excerpt": "大樂透頭獎3.5億元1注獨得　高雄鳳山開出",
+            "section": "生活"
           }
         ],
         "keywords": [
           {
-            "word": "波蘭",
+            "word": "高雄",
             "clue_options": [
               {
-                "clue": "國名，以華沙為首都、國旗由白紅兩色組成。（2字）",
+                "clue": "地名，以大型港口、駁二藝術區及愛河聞名的南部城市。（2字）",
                 "clue_style": "magazine-v1",
                 "clue_kind": "meaning"
               }
             ],
             "answer_score": 86,
             "difficulty": "easy",
-            "clue": "國名，以華沙為首都、國旗由白紅兩色組成。（2字）"
+            "clue": "地名，以大型港口、駁二藝術區及愛河聞名的南部城市。（2字）"
           }
         ],
         "aliases": [
-          "cna-a3d3627746f8ac57515a"
+          "cna-7b2becb1979473dc6f26"
         ],
-        "content_revision": "cna-a3d3627746f8ac57515a"
+        "content_revision": "cna-7b2becb1979473dc6f26"
+      },
+      {
+        "event_id": "cna-29dbe116ae5e09697f17",
+        "dedup_key": "https://www.cna.com.tw/news/ahel/202610130329.aspx",
+        "event_date": "2026-10-13",
+        "updated_at": "2026-10-13",
+        "published_at": "2026-10-13T14:08:38.000Z",
+        "title": "今彩539第115248期　頭獎1注中獎",
+        "rss_lead": "",
+        "summary": "今彩539第115248期　頭獎1注中獎",
+        "categories": [
+          "生活"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-c1b370db3a14693b5fc4",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/ahel/202610130329.aspx",
+            "published_at": "2026-10-13",
+            "excerpt": "今彩539第115248期　頭獎1注中獎",
+            "section": "生活"
+          }
+        ],
+        "keywords": [],
+        "aliases": [
+          "cna-29dbe116ae5e09697f17"
+        ],
+        "content_revision": "cna-29dbe116ae5e09697f17"
       },
       {
         "event_id": "cna-7cb362ade31e48983699",
@@ -3974,16 +3875,16 @@
         "content_revision": "cna-1aacfa2e080b6112360d"
       },
       {
-        "event_id": "cna-24c365d01e61865823ec",
-        "dedup_key": "https://www.cna.com.tw/news/ait/202610120307.aspx",
-        "event_date": "2026-10-12",
-        "updated_at": "2026-10-12",
-        "published_at": "2026-10-12T15:01:18.000Z",
-        "title": "微軟推新一代AI晶片Maia 300　部分採台積電2奈米製程",
+        "event_id": "cna-bcf59eec116cefec5ed5",
+        "dedup_key": "https://www.cna.com.tw/news/aipl/202610130326.aspx",
+        "event_date": "2026-10-13",
+        "updated_at": "2026-10-13",
+        "published_at": "2026-10-13T13:48:32.000Z",
+        "title": "華沙安全論壇　林佳龍：「台灣模式」助歐洲戰略自主",
         "rss_lead": "",
-        "summary": "微軟推新一代AI晶片Maia 300　部分採台積電2奈米製程",
+        "summary": "華沙安全論壇　林佳龍：「台灣模式」助歐洲戰略自主",
         "categories": [
-          "科技"
+          "台灣"
         ],
         "fact_status": "reported",
         "content_type": "news",
@@ -3991,93 +3892,47 @@
         "anchor_event": false,
         "sources": [
           {
-            "source_id": "rss-dd947d2934d4315668a4",
+            "source_id": "rss-940dd61fb5a50ab1eb3e",
             "publisher": "中央通訊社",
             "kind": "newswire",
-            "url": "https://www.cna.com.tw/news/ait/202610120307.aspx",
-            "published_at": "2026-10-12",
-            "excerpt": "微軟推新一代AI晶片Maia 300　部分採台積電2奈米製程",
-            "section": "科技"
+            "url": "https://www.cna.com.tw/news/aipl/202610130326.aspx",
+            "published_at": "2026-10-13",
+            "excerpt": "華沙安全論壇　林佳龍：「台灣模式」助歐洲戰略自主",
+            "section": "台灣"
           }
         ],
         "keywords": [
           {
-            "word": "台積電",
+            "word": "台灣",
             "clue_options": [
               {
-                "clue": "1987年創立、專門替客戶製造積體電路的企業。（3字）",
-                "clue_style": "magazine-v1",
-                "clue_kind": "meaning"
-              }
-            ],
-            "answer_score": 89,
-            "difficulty": "easy",
-            "clue": "1987年創立、專門替客戶製造積體電路的企業。（3字）"
-          },
-          {
-            "word": "微軟",
-            "clue_options": [
-              {
-                "clue": "據報導，某家公司推新一代AI晶片Maia 300　部分採台積電2奈米製程。（2字）",
-                "clue_style": "magazine-v1",
-                "clue_kind": "event"
-              }
-            ],
-            "answer_score": 86,
-            "difficulty": "easy",
-            "clue": "據報導，某家公司推新一代AI晶片Maia 300　部分採台積電2奈米製程。（2字）"
-          },
-          {
-            "word": "晶片",
-            "clue_options": [
-              {
-                "clue": "把許多微小電路整合在薄片上的電子元件。（2字）",
+                "clue": "島嶼名，以玉山為最高峰，位於東亞海域。（2字）",
                 "clue_style": "magazine-v1",
                 "clue_kind": "meaning"
               }
             ],
             "answer_score": 86,
             "difficulty": "easy",
-            "clue": "把許多微小電路整合在薄片上的電子元件。（2字）"
-          }
-        ],
-        "aliases": [
-          "cna-24c365d01e61865823ec"
-        ],
-        "content_revision": "cna-24c365d01e61865823ec"
-      },
-      {
-        "event_id": "cna-19bb57b2cd23f9802b67",
-        "dedup_key": "https://www.cna.com.tw/news/ait/202610130006.aspx",
-        "event_date": "2026-10-13",
-        "updated_at": "2026-10-13",
-        "published_at": "2026-10-12T20:15:45.000Z",
-        "title": "Meta推AI模型Muse Wonder　稱能力媲美業界頂尖",
-        "rss_lead": "",
-        "summary": "Meta推AI模型Muse Wonder　稱能力媲美業界頂尖",
-        "categories": [
-          "科技"
-        ],
-        "fact_status": "reported",
-        "content_type": "news",
-        "event_score": 80,
-        "anchor_event": false,
-        "sources": [
+            "clue": "島嶼名，以玉山為最高峰，位於東亞海域。（2字）"
+          },
           {
-            "source_id": "rss-f0cc1c4d26a8b6289f89",
-            "publisher": "中央通訊社",
-            "kind": "newswire",
-            "url": "https://www.cna.com.tw/news/ait/202610130006.aspx",
-            "published_at": "2026-10-13",
-            "excerpt": "Meta推AI模型Muse Wonder　稱能力媲美業界頂尖",
-            "section": "科技"
+            "word": "歐洲",
+            "clue_options": [
+              {
+                "clue": "洲名，阿爾卑斯山及多瑙河所在的一洲。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "easy",
+            "clue": "洲名，阿爾卑斯山及多瑙河所在的一洲。（2字）"
           }
         ],
-        "keywords": [],
         "aliases": [
-          "cna-19bb57b2cd23f9802b67"
+          "cna-bcf59eec116cefec5ed5"
         ],
-        "content_revision": "cna-19bb57b2cd23f9802b67"
+        "content_revision": "cna-bcf59eec116cefec5ed5"
       },
       {
         "event_id": "cna-b9a3dd87de5c8121c90c",
@@ -4286,16 +4141,16 @@
         "content_revision": "cna-c86ba393ba2e81e7444e"
       },
       {
-        "event_id": "cna-9dca23b9bda45325dc44",
-        "dedup_key": "https://www.cna.com.tw/news/aloc/202610120288.aspx",
-        "event_date": "2026-10-12",
-        "updated_at": "2026-10-12",
-        "published_at": "2026-10-12T13:25:30.000Z",
-        "title": "樹獺慢活不是懶　北市動物園10/17快閃活動推廣保育",
+        "event_id": "cna-0085cb5a666882353d7a",
+        "dedup_key": "https://www.cna.com.tw/news/ait/202610130331.aspx",
+        "event_date": "2026-10-13",
+        "updated_at": "2026-10-13",
+        "published_at": "2026-10-13T14:26:43.000Z",
+        "title": "蘋果推HomeView攻智慧家庭　搭7吋螢幕可辨人臉",
         "rss_lead": "",
-        "summary": "樹獺慢活不是懶　北市動物園10/17快閃活動推廣保育",
+        "summary": "蘋果推HomeView攻智慧家庭　搭7吋螢幕可辨人臉",
         "categories": [
-          "台灣"
+          "科技"
         ],
         "fact_status": "reported",
         "content_type": "news",
@@ -4303,20 +4158,34 @@
         "anchor_event": false,
         "sources": [
           {
-            "source_id": "rss-3671a0001674ad2d0c3f",
+            "source_id": "rss-3b3d87509f24d996538b",
             "publisher": "中央通訊社",
             "kind": "newswire",
-            "url": "https://www.cna.com.tw/news/aloc/202610120288.aspx",
-            "published_at": "2026-10-12",
-            "excerpt": "樹獺慢活不是懶　北市動物園10/17快閃活動推廣保育",
-            "section": "台灣"
+            "url": "https://www.cna.com.tw/news/ait/202610130331.aspx",
+            "published_at": "2026-10-13",
+            "excerpt": "蘋果推HomeView攻智慧家庭　搭7吋螢幕可辨人臉",
+            "section": "科技"
           }
         ],
-        "keywords": [],
-        "aliases": [
-          "cna-9dca23b9bda45325dc44"
+        "keywords": [
+          {
+            "word": "蘋果",
+            "clue_options": [
+              {
+                "clue": "據報導，某家公司推HomeView攻智慧家庭　搭7吋螢幕可辨人臉。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "event"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "easy",
+            "clue": "據報導，某家公司推HomeView攻智慧家庭　搭7吋螢幕可辨人臉。（2字）"
+          }
         ],
-        "content_revision": "cna-9dca23b9bda45325dc44"
+        "aliases": [
+          "cna-0085cb5a666882353d7a"
+        ],
+        "content_revision": "cna-0085cb5a666882353d7a"
       },
       {
         "event_id": "cna-78602df93b243708229b",
@@ -4944,573 +4813,6 @@
           "cna-56140f8a34516e243498"
         ],
         "content_revision": "cna-56140f8a34516e243498"
-      },
-      {
-        "event_id": "cna-cf63330044850b4dd677",
-        "dedup_key": "https://www.cna.com.tw/news/aopl/202610120287.aspx",
-        "event_date": "2026-10-12",
-        "updated_at": "2026-10-12",
-        "published_at": "2026-10-12T13:04:27.000Z",
-        "title": "印尼野火燒毀305棟民宅　新加坡推霧霾醫療補助",
-        "rss_lead": "",
-        "summary": "印尼野火燒毀305棟民宅　新加坡推霧霾醫療補助",
-        "categories": [
-          "國際"
-        ],
-        "fact_status": "reported",
-        "content_type": "news",
-        "event_score": 80,
-        "anchor_event": false,
-        "sources": [
-          {
-            "source_id": "rss-aa8c8593551c838adb61",
-            "publisher": "中央通訊社",
-            "kind": "newswire",
-            "url": "https://www.cna.com.tw/news/aopl/202610120287.aspx",
-            "published_at": "2026-10-12",
-            "excerpt": "印尼野火燒毀305棟民宅　新加坡推霧霾醫療補助",
-            "section": "國際"
-          }
-        ],
-        "keywords": [
-          {
-            "word": "印尼",
-            "clue_options": [
-              {
-                "clue": "國名，由上萬座島嶼組成、境內有爪哇島。（2字）",
-                "clue_style": "magazine-v1",
-                "clue_kind": "meaning"
-              }
-            ],
-            "answer_score": 86,
-            "difficulty": "easy",
-            "clue": "國名，由上萬座島嶼組成、境內有爪哇島。（2字）"
-          },
-          {
-            "word": "新加坡",
-            "clue_options": [
-              {
-                "clue": "國名，位於馬來半島南端、以獅城聞名。（3字）",
-                "clue_style": "magazine-v1",
-                "clue_kind": "meaning"
-              }
-            ],
-            "answer_score": 89,
-            "difficulty": "easy",
-            "clue": "國名，位於馬來半島南端、以獅城聞名。（3字）"
-          },
-          {
-            "word": "醫療",
-            "clue_options": [
-              {
-                "clue": "以診斷、處置等方式照護病人的活動。（2字）",
-                "clue_style": "magazine-v1",
-                "clue_kind": "meaning"
-              }
-            ],
-            "answer_score": 86,
-            "difficulty": "easy",
-            "clue": "以診斷、處置等方式照護病人的活動。（2字）"
-          }
-        ],
-        "aliases": [
-          "cna-cf63330044850b4dd677"
-        ],
-        "content_revision": "cna-cf63330044850b4dd677"
-      },
-      {
-        "event_id": "cna-63c4fcbf3c98ab925e65",
-        "dedup_key": "https://www.cna.com.tw/news/aopl/202610120292.aspx",
-        "event_date": "2026-10-12",
-        "updated_at": "2026-10-12",
-        "published_at": "2026-10-12T13:53:41.000Z",
-        "title": "法國高中生示威關閉學校降至130所　總統馬克宏籲尊重以對",
-        "rss_lead": "",
-        "summary": "法國高中生示威關閉學校降至130所　總統馬克宏籲尊重以對",
-        "categories": [
-          "國際"
-        ],
-        "fact_status": "reported",
-        "content_type": "news",
-        "event_score": 80,
-        "anchor_event": false,
-        "sources": [
-          {
-            "source_id": "rss-887cef79903a76d7ec1d",
-            "publisher": "中央通訊社",
-            "kind": "newswire",
-            "url": "https://www.cna.com.tw/news/aopl/202610120292.aspx",
-            "published_at": "2026-10-12",
-            "excerpt": "法國高中生示威關閉學校降至130所　總統馬克宏籲尊重以對",
-            "section": "國際"
-          }
-        ],
-        "keywords": [
-          {
-            "word": "法國",
-            "clue_options": [
-              {
-                "clue": "國名，以巴黎為首都、國旗由藍白紅三色組成。（2字）",
-                "clue_style": "magazine-v1",
-                "clue_kind": "meaning"
-              }
-            ],
-            "answer_score": 86,
-            "difficulty": "easy",
-            "clue": "國名，以巴黎為首都、國旗由藍白紅三色組成。（2字）"
-          },
-          {
-            "word": "學校",
-            "clue_options": [
-              {
-                "clue": "提供有組織課程、讓人接受學習的場所。（2字）",
-                "clue_style": "magazine-v1",
-                "clue_kind": "meaning"
-              }
-            ],
-            "answer_score": 86,
-            "difficulty": "easy",
-            "clue": "提供有組織課程、讓人接受學習的場所。（2字）"
-          },
-          {
-            "word": "高中",
-            "clue_options": [
-              {
-                "clue": "銜接初級中等課程、為進階升學做準備的學校。（2字）",
-                "clue_style": "magazine-v1",
-                "clue_kind": "meaning"
-              }
-            ],
-            "answer_score": 86,
-            "difficulty": "easy",
-            "clue": "銜接初級中等課程、為進階升學做準備的學校。（2字）"
-          }
-        ],
-        "aliases": [
-          "cna-63c4fcbf3c98ab925e65"
-        ],
-        "content_revision": "cna-63c4fcbf3c98ab925e65"
-      },
-      {
-        "event_id": "cna-3d030405e92774dd6655",
-        "dedup_key": "https://www.cna.com.tw/news/aopl/202610120297.aspx",
-        "event_date": "2026-10-12",
-        "updated_at": "2026-10-12",
-        "published_at": "2026-10-12T14:09:52.000Z",
-        "title": "諾貝爾經濟學獎得主研究催生央行前瞻指引　Fed主席華許未沿用",
-        "rss_lead": "",
-        "summary": "諾貝爾經濟學獎得主研究催生央行前瞻指引　Fed主席華許未沿用",
-        "categories": [
-          "財經"
-        ],
-        "fact_status": "reported",
-        "content_type": "news",
-        "event_score": 80,
-        "anchor_event": false,
-        "sources": [
-          {
-            "source_id": "rss-0a7263a6621da2ccba29",
-            "publisher": "中央通訊社",
-            "kind": "newswire",
-            "url": "https://www.cna.com.tw/news/aopl/202610120297.aspx",
-            "published_at": "2026-10-12",
-            "excerpt": "諾貝爾經濟學獎得主研究催生央行前瞻指引　Fed主席華許未沿用",
-            "section": "財經"
-          }
-        ],
-        "keywords": [
-          {
-            "word": "央行",
-            "clue_options": [
-              {
-                "clue": "負責貨幣政策與穩定幣值的機構。（2字）",
-                "clue_style": "magazine-v1",
-                "clue_kind": "meaning"
-              }
-            ],
-            "answer_score": 86,
-            "difficulty": "easy",
-            "clue": "負責貨幣政策與穩定幣值的機構。（2字）"
-          },
-          {
-            "word": "經濟",
-            "clue_options": [
-              {
-                "clue": "生產、分配與消費等活動形成的整體。（2字）",
-                "clue_style": "magazine-v1",
-                "clue_kind": "meaning"
-              }
-            ],
-            "answer_score": 86,
-            "difficulty": "easy",
-            "clue": "生產、分配與消費等活動形成的整體。（2字）"
-          }
-        ],
-        "aliases": [
-          "cna-3d030405e92774dd6655"
-        ],
-        "content_revision": "cna-3d030405e92774dd6655"
-      },
-      {
-        "event_id": "cna-b04aa5c0faeea96bd30c",
-        "dedup_key": "https://www.cna.com.tw/news/aopl/202610120303.aspx",
-        "event_date": "2026-10-12",
-        "updated_at": "2026-10-12",
-        "published_at": "2026-10-12T14:35:07.000Z",
-        "title": "德國後備軍人國際研討會　邀台灣分享混合戰防衛經驗",
-        "rss_lead": "",
-        "summary": "德國後備軍人國際研討會　邀台灣分享混合戰防衛經驗",
-        "categories": [
-          "國際"
-        ],
-        "fact_status": "reported",
-        "content_type": "news",
-        "event_score": 80,
-        "anchor_event": false,
-        "sources": [
-          {
-            "source_id": "rss-18ddd02c574a79ec603c",
-            "publisher": "中央通訊社",
-            "kind": "newswire",
-            "url": "https://www.cna.com.tw/news/aopl/202610120303.aspx",
-            "published_at": "2026-10-12",
-            "excerpt": "德國後備軍人國際研討會　邀台灣分享混合戰防衛經驗",
-            "section": "國際"
-          }
-        ],
-        "keywords": [
-          {
-            "word": "台灣",
-            "clue_options": [
-              {
-                "clue": "島嶼名，以玉山為最高峰，位於東亞海域。（2字）",
-                "clue_style": "magazine-v1",
-                "clue_kind": "meaning"
-              }
-            ],
-            "answer_score": 86,
-            "difficulty": "easy",
-            "clue": "島嶼名，以玉山為最高峰，位於東亞海域。（2字）"
-          },
-          {
-            "word": "德國",
-            "clue_options": [
-              {
-                "clue": "國名，以柏林為首都、境內有萊茵河。（2字）",
-                "clue_style": "magazine-v1",
-                "clue_kind": "meaning"
-              }
-            ],
-            "answer_score": 86,
-            "difficulty": "easy",
-            "clue": "國名，以柏林為首都、境內有萊茵河。（2字）"
-          }
-        ],
-        "aliases": [
-          "cna-b04aa5c0faeea96bd30c"
-        ],
-        "content_revision": "cna-b04aa5c0faeea96bd30c"
-      },
-      {
-        "event_id": "cna-9a74d7e277d920b35cf4",
-        "dedup_key": "https://www.cna.com.tw/news/aopl/202610120308.aspx",
-        "event_date": "2026-10-12",
-        "updated_at": "2026-10-12",
-        "published_at": "2026-10-12T15:35:21.000Z",
-        "title": "全球第3季智慧手機出貨量跌至14年來同季新低　中企減最多",
-        "rss_lead": "",
-        "summary": "全球第3季智慧手機出貨量跌至14年來同季新低　中企減最多",
-        "categories": [
-          "財經"
-        ],
-        "fact_status": "reported",
-        "content_type": "news",
-        "event_score": 80,
-        "anchor_event": false,
-        "sources": [
-          {
-            "source_id": "rss-a797603b5f279bb1e21e",
-            "publisher": "中央通訊社",
-            "kind": "newswire",
-            "url": "https://www.cna.com.tw/news/aopl/202610120308.aspx",
-            "published_at": "2026-10-12",
-            "excerpt": "全球第3季智慧手機出貨量跌至14年來同季新低　中企減最多",
-            "section": "財經"
-          }
-        ],
-        "keywords": [],
-        "aliases": [
-          "cna-9a74d7e277d920b35cf4"
-        ],
-        "content_revision": "cna-9a74d7e277d920b35cf4"
-      },
-      {
-        "event_id": "cna-24ec730b9136eb466676",
-        "dedup_key": "https://www.cna.com.tw/news/aopl/202610120309.aspx",
-        "event_date": "2026-10-12",
-        "updated_at": "2026-10-12",
-        "published_at": "2026-10-12T15:46:23.000Z",
-        "title": "英軍基地疑淪恐攻目標　英相：極可能伊朗謀劃",
-        "rss_lead": "",
-        "summary": "英軍基地疑淪恐攻目標　英相：極可能伊朗謀劃",
-        "categories": [
-          "國際"
-        ],
-        "fact_status": "reported",
-        "content_type": "news",
-        "event_score": 80,
-        "anchor_event": false,
-        "sources": [
-          {
-            "source_id": "rss-dfa365461e65fb6ed77e",
-            "publisher": "中央通訊社",
-            "kind": "newswire",
-            "url": "https://www.cna.com.tw/news/aopl/202610120309.aspx",
-            "published_at": "2026-10-12",
-            "excerpt": "英軍基地疑淪恐攻目標　英相：極可能伊朗謀劃",
-            "section": "國際"
-          }
-        ],
-        "keywords": [
-          {
-            "word": "伊朗",
-            "clue_options": [
-              {
-                "clue": "國名，以德黑蘭為首都、主要使用波斯語。（2字）",
-                "clue_style": "magazine-v1",
-                "clue_kind": "meaning"
-              }
-            ],
-            "answer_score": 86,
-            "difficulty": "easy",
-            "clue": "國名，以德黑蘭為首都、主要使用波斯語。（2字）"
-          }
-        ],
-        "aliases": [
-          "cna-24ec730b9136eb466676"
-        ],
-        "content_revision": "cna-24ec730b9136eb466676"
-      },
-      {
-        "event_id": "cna-36adda502b8db5534cea",
-        "dedup_key": "https://www.cna.com.tw/news/aopl/202610130003.aspx",
-        "event_date": "2026-10-13",
-        "updated_at": "2026-10-13",
-        "published_at": "2026-10-12T18:00:36.000Z",
-        "title": "美國民主黨眾議員歐瑪住家遭搜索　批川普政治恫嚇升級",
-        "rss_lead": "",
-        "summary": "美國民主黨眾議員歐瑪住家遭搜索　批川普政治恫嚇升級",
-        "categories": [
-          "國際"
-        ],
-        "fact_status": "reported",
-        "content_type": "news",
-        "event_score": 80,
-        "anchor_event": false,
-        "sources": [
-          {
-            "source_id": "rss-536bca4d1ac21bbb9f27",
-            "publisher": "中央通訊社",
-            "kind": "newswire",
-            "url": "https://www.cna.com.tw/news/aopl/202610130003.aspx",
-            "published_at": "2026-10-13",
-            "excerpt": "美國民主黨眾議員歐瑪住家遭搜索　批川普政治恫嚇升級",
-            "section": "國際"
-          }
-        ],
-        "keywords": [
-          {
-            "word": "美國",
-            "clue_options": [
-              {
-                "clue": "國名，首都為華盛頓，國旗有星條圖案。（2字）",
-                "clue_style": "magazine-v1",
-                "clue_kind": "meaning"
-              }
-            ],
-            "answer_score": 86,
-            "difficulty": "easy",
-            "clue": "國名，首都為華盛頓，國旗有星條圖案。（2字）"
-          }
-        ],
-        "aliases": [
-          "cna-36adda502b8db5534cea"
-        ],
-        "content_revision": "cna-36adda502b8db5534cea"
-      },
-      {
-        "event_id": "cna-b6b7c6eb7a4e1565164c",
-        "dedup_key": "https://www.cna.com.tw/news/aopl/202610130004.aspx",
-        "event_date": "2026-10-13",
-        "updated_at": "2026-10-13",
-        "published_at": "2026-10-12T18:30:39.000Z",
-        "title": "英相控革命衛隊策劃襲擊費爾福基地　伊朗官員否認",
-        "rss_lead": "",
-        "summary": "英相控革命衛隊策劃襲擊費爾福基地　伊朗官員否認",
-        "categories": [
-          "國際"
-        ],
-        "fact_status": "reported",
-        "content_type": "news",
-        "event_score": 80,
-        "anchor_event": false,
-        "sources": [
-          {
-            "source_id": "rss-c2a1d0b9544fe755072e",
-            "publisher": "中央通訊社",
-            "kind": "newswire",
-            "url": "https://www.cna.com.tw/news/aopl/202610130004.aspx",
-            "published_at": "2026-10-13",
-            "excerpt": "英相控革命衛隊策劃襲擊費爾福基地　伊朗官員否認",
-            "section": "國際"
-          }
-        ],
-        "keywords": [
-          {
-            "word": "伊朗",
-            "clue_options": [
-              {
-                "clue": "國名，以德黑蘭為首都、主要使用波斯語。（2字）",
-                "clue_style": "magazine-v1",
-                "clue_kind": "meaning"
-              }
-            ],
-            "answer_score": 86,
-            "difficulty": "easy",
-            "clue": "國名，以德黑蘭為首都、主要使用波斯語。（2字）"
-          }
-        ],
-        "aliases": [
-          "cna-b6b7c6eb7a4e1565164c"
-        ],
-        "content_revision": "cna-b6b7c6eb7a4e1565164c"
-      },
-      {
-        "event_id": "cna-e330131a57ef364cc473",
-        "dedup_key": "https://www.cna.com.tw/news/aopl/202610130007.aspx",
-        "event_date": "2026-10-13",
-        "updated_at": "2026-10-13",
-        "published_at": "2026-10-12T20:41:47.000Z",
-        "title": "沙烏地首都機場延長關閉期限　航空業面臨嚴重衝擊",
-        "rss_lead": "",
-        "summary": "沙烏地首都機場延長關閉期限　航空業面臨嚴重衝擊",
-        "categories": [
-          "國際"
-        ],
-        "fact_status": "reported",
-        "content_type": "news",
-        "event_score": 80,
-        "anchor_event": false,
-        "sources": [
-          {
-            "source_id": "rss-5ffb0bfd9d149aa32c35",
-            "publisher": "中央通訊社",
-            "kind": "newswire",
-            "url": "https://www.cna.com.tw/news/aopl/202610130007.aspx",
-            "published_at": "2026-10-13",
-            "excerpt": "沙烏地首都機場延長關閉期限　航空業面臨嚴重衝擊",
-            "section": "國際"
-          }
-        ],
-        "keywords": [],
-        "aliases": [
-          "cna-e330131a57ef364cc473"
-        ],
-        "content_revision": "cna-e330131a57ef364cc473"
-      },
-      {
-        "event_id": "cna-cd839bc10daf375ec201",
-        "dedup_key": "https://www.cna.com.tw/news/aopl/202610130010.aspx",
-        "event_date": "2026-10-13",
-        "updated_at": "2026-10-13",
-        "published_at": "2026-10-12T22:15:55.000Z",
-        "title": "川普稱亞洲行可能見金正恩　兩國峰會外交再現契機",
-        "rss_lead": "",
-        "summary": "川普稱亞洲行可能見金正恩　兩國峰會外交再現契機",
-        "categories": [
-          "國際"
-        ],
-        "fact_status": "reported",
-        "content_type": "news",
-        "event_score": 80,
-        "anchor_event": false,
-        "sources": [
-          {
-            "source_id": "rss-e2fe5525bd6b9a4b30fa",
-            "publisher": "中央通訊社",
-            "kind": "newswire",
-            "url": "https://www.cna.com.tw/news/aopl/202610130010.aspx",
-            "published_at": "2026-10-13",
-            "excerpt": "川普稱亞洲行可能見金正恩　兩國峰會外交再現契機",
-            "section": "國際"
-          }
-        ],
-        "keywords": [
-          {
-            "word": "亞洲",
-            "clue_options": [
-              {
-                "clue": "洲名，世界七大洲中面積最大的一洲。（2字）",
-                "clue_style": "magazine-v1",
-                "clue_kind": "meaning"
-              }
-            ],
-            "answer_score": 86,
-            "difficulty": "easy",
-            "clue": "洲名，世界七大洲中面積最大的一洲。（2字）"
-          }
-        ],
-        "aliases": [
-          "cna-cd839bc10daf375ec201"
-        ],
-        "content_revision": "cna-cd839bc10daf375ec201"
-      },
-      {
-        "event_id": "cna-2b5b27ee59c711dcdb4c",
-        "dedup_key": "https://www.cna.com.tw/news/aopl/202610130011.aspx",
-        "event_date": "2026-10-13",
-        "updated_at": "2026-10-13",
-        "published_at": "2026-10-12T23:48:01.000Z",
-        "title": "英相柏南：11/20英歐峰會後討論與歐盟長期關係選項",
-        "rss_lead": "",
-        "summary": "英相柏南：11/20英歐峰會後討論與歐盟長期關係選項",
-        "categories": [
-          "國際"
-        ],
-        "fact_status": "reported",
-        "content_type": "news",
-        "event_score": 80,
-        "anchor_event": false,
-        "sources": [
-          {
-            "source_id": "rss-575a82173287908dce38",
-            "publisher": "中央通訊社",
-            "kind": "newswire",
-            "url": "https://www.cna.com.tw/news/aopl/202610130011.aspx",
-            "published_at": "2026-10-13",
-            "excerpt": "英相柏南：11/20英歐峰會後討論與歐盟長期關係選項",
-            "section": "國際"
-          }
-        ],
-        "keywords": [
-          {
-            "word": "歐盟",
-            "clue_options": [
-              {
-                "clue": "多個歐洲國家組成的政治與經貿聯合體的簡稱。（2字）",
-                "clue_style": "magazine-v1",
-                "clue_kind": "meaning"
-              }
-            ],
-            "answer_score": 86,
-            "difficulty": "easy",
-            "clue": "多個歐洲國家組成的政治與經貿聯合體的簡稱。（2字）"
-          }
-        ],
-        "aliases": [
-          "cna-2b5b27ee59c711dcdb4c"
-        ],
-        "content_revision": "cna-2b5b27ee59c711dcdb4c"
       },
       {
         "event_id": "cna-f6f2ac04ef4eac47a5c3",
@@ -6362,7 +5664,7 @@
         "rss_lead": "",
         "summary": "李在明歡迎北極航線貨櫃輪返國　拚2030年前開通定期服務",
         "categories": [
-          "財經"
+          "國際"
         ],
         "fact_status": "reported",
         "content_type": "news",
@@ -6376,7 +5678,7 @@
             "url": "https://www.cna.com.tw/news/aopl/202610130286.aspx",
             "published_at": "2026-10-13",
             "excerpt": "李在明歡迎北極航線貨櫃輪返國　拚2030年前開通定期服務",
-            "section": "財經"
+            "section": "國際"
           }
         ],
         "keywords": [],
@@ -6511,6 +5813,770 @@
           "cna-5175bbe7d8c3e83c32f0"
         ],
         "content_revision": "cna-5175bbe7d8c3e83c32f0"
+      },
+      {
+        "event_id": "cna-f1cf1ee1c0c846b43f34",
+        "dedup_key": "https://www.cna.com.tw/news/aopl/202610130319.aspx",
+        "event_date": "2026-10-13",
+        "updated_at": "2026-10-13",
+        "published_at": "2026-10-13T13:24:12.000Z",
+        "title": "匈牙利新政府修法刪反LGBTQ條文　歐盟表樂見",
+        "rss_lead": "",
+        "summary": "匈牙利新政府修法刪反LGBTQ條文　歐盟表樂見",
+        "categories": [
+          "國際"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-523b4f6fbab5f1155b23",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aopl/202610130319.aspx",
+            "published_at": "2026-10-13",
+            "excerpt": "匈牙利新政府修法刪反LGBTQ條文　歐盟表樂見",
+            "section": "國際"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "歐盟",
+            "clue_options": [
+              {
+                "clue": "多個歐洲國家組成的政治與經貿聯合體的簡稱。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "easy",
+            "clue": "多個歐洲國家組成的政治與經貿聯合體的簡稱。（2字）"
+          }
+        ],
+        "aliases": [
+          "cna-f1cf1ee1c0c846b43f34"
+        ],
+        "content_revision": "cna-f1cf1ee1c0c846b43f34"
+      },
+      {
+        "event_id": "cna-3da2e86da710c6bcf488",
+        "dedup_key": "https://www.cna.com.tw/news/aopl/202610130320.aspx",
+        "event_date": "2026-10-13",
+        "updated_at": "2026-10-13",
+        "published_at": "2026-10-13T13:24:14.000Z",
+        "title": "諾貝爾獎得主等專家籲採取行動　防失控AI威脅基礎設施",
+        "rss_lead": "",
+        "summary": "諾貝爾獎得主等專家籲採取行動　防失控AI威脅基礎設施",
+        "categories": [
+          "國際"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-503903a9103c8607c041",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aopl/202610130320.aspx",
+            "published_at": "2026-10-13",
+            "excerpt": "諾貝爾獎得主等專家籲採取行動　防失控AI威脅基礎設施",
+            "section": "國際"
+          }
+        ],
+        "keywords": [],
+        "aliases": [
+          "cna-3da2e86da710c6bcf488"
+        ],
+        "content_revision": "cna-3da2e86da710c6bcf488"
+      },
+      {
+        "event_id": "cna-9babe0c2a253cdc17d7a",
+        "dedup_key": "https://www.cna.com.tw/news/aopl/202610130322.aspx",
+        "event_date": "2026-10-13",
+        "updated_at": "2026-10-13",
+        "published_at": "2026-10-13T13:38:21.000Z",
+        "title": "財神眷顧　加拿大夫妻時隔8年再度刮中大獎",
+        "rss_lead": "",
+        "summary": "財神眷顧　加拿大夫妻時隔8年再度刮中大獎",
+        "categories": [
+          "國際"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-bf31953f304ad43290c4",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aopl/202610130322.aspx",
+            "published_at": "2026-10-13",
+            "excerpt": "財神眷顧　加拿大夫妻時隔8年再度刮中大獎",
+            "section": "國際"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "加拿大",
+            "clue_options": [
+              {
+                "clue": "國名，以渥太華為首都、國旗有楓葉圖案。（3字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning"
+              }
+            ],
+            "answer_score": 89,
+            "difficulty": "easy",
+            "clue": "國名，以渥太華為首都、國旗有楓葉圖案。（3字）"
+          }
+        ],
+        "aliases": [
+          "cna-9babe0c2a253cdc17d7a"
+        ],
+        "content_revision": "cna-9babe0c2a253cdc17d7a"
+      },
+      {
+        "event_id": "cna-c085d86ed55182621fa1",
+        "dedup_key": "https://www.cna.com.tw/news/aopl/202610130327.aspx",
+        "event_date": "2026-10-13",
+        "updated_at": "2026-10-13",
+        "published_at": "2026-10-13T13:51:34.000Z",
+        "title": "川普宣布能源停火後　俄軍首度未襲烏克蘭這類設施",
+        "rss_lead": "",
+        "summary": "川普宣布能源停火後　俄軍首度未襲烏克蘭這類設施",
+        "categories": [
+          "國際"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-ab180b3598d57e0758ef",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aopl/202610130327.aspx",
+            "published_at": "2026-10-13",
+            "excerpt": "川普宣布能源停火後　俄軍首度未襲烏克蘭這類設施",
+            "section": "國際"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "烏克蘭",
+            "clue_options": [
+              {
+                "clue": "國名，以基輔為首都、國旗由藍黃兩色組成。（3字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning"
+              }
+            ],
+            "answer_score": 89,
+            "difficulty": "easy",
+            "clue": "國名，以基輔為首都、國旗由藍黃兩色組成。（3字）"
+          },
+          {
+            "word": "川普",
+            "clue_options": [
+              {
+                "clue": "據報導，某人物宣布能源停火後　俄軍首度未襲烏克蘭這類設施。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "event"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "easy",
+            "clue": "據報導，某人物宣布能源停火後　俄軍首度未襲烏克蘭這類設施。（2字）"
+          }
+        ],
+        "aliases": [
+          "cna-c085d86ed55182621fa1"
+        ],
+        "content_revision": "cna-c085d86ed55182621fa1"
+      },
+      {
+        "event_id": "cna-245011b8c61cd151cb62",
+        "dedup_key": "https://www.cna.com.tw/news/aopl/202610130332.aspx",
+        "event_date": "2026-10-13",
+        "updated_at": "2026-10-13",
+        "published_at": "2026-10-13T14:47:47.000Z",
+        "title": "烏克蘭前總司令：俄軍進攻能力受挫　戰歿人數多達烏軍11倍",
+        "rss_lead": "",
+        "summary": "烏克蘭前總司令：俄軍進攻能力受挫　戰歿人數多達烏軍11倍",
+        "categories": [
+          "國際"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-e65f0db61c1cad9bfbb7",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aopl/202610130332.aspx",
+            "published_at": "2026-10-13",
+            "excerpt": "烏克蘭前總司令：俄軍進攻能力受挫　戰歿人數多達烏軍11倍",
+            "section": "國際"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "烏克蘭",
+            "clue_options": [
+              {
+                "clue": "國名，以基輔為首都、國旗由藍黃兩色組成。（3字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning"
+              }
+            ],
+            "answer_score": 89,
+            "difficulty": "easy",
+            "clue": "國名，以基輔為首都、國旗由藍黃兩色組成。（3字）"
+          }
+        ],
+        "aliases": [
+          "cna-245011b8c61cd151cb62"
+        ],
+        "content_revision": "cna-245011b8c61cd151cb62"
+      },
+      {
+        "event_id": "cna-c5d58a13286d358ac074",
+        "dedup_key": "https://www.cna.com.tw/news/aopl/202610130333.aspx",
+        "event_date": "2026-10-13",
+        "updated_at": "2026-10-13",
+        "published_at": "2026-10-13T14:50:50.000Z",
+        "title": "保加利亞黑海岸外船舶遭無人機擊沉　11人下落不明",
+        "rss_lead": "",
+        "summary": "保加利亞黑海岸外船舶遭無人機擊沉　11人下落不明",
+        "categories": [
+          "國際"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-9bec95ec8f6b9f2d629d",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aopl/202610130333.aspx",
+            "published_at": "2026-10-13",
+            "excerpt": "保加利亞黑海岸外船舶遭無人機擊沉　11人下落不明",
+            "section": "國際"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "無人機",
+            "clue_options": [
+              {
+                "clue": "不需要機上駕駛員、可由遠端操控的航空器。（3字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning"
+              }
+            ],
+            "answer_score": 89,
+            "difficulty": "easy",
+            "clue": "不需要機上駕駛員、可由遠端操控的航空器。（3字）"
+          }
+        ],
+        "aliases": [
+          "cna-c5d58a13286d358ac074"
+        ],
+        "content_revision": "cna-c5d58a13286d358ac074"
+      },
+      {
+        "event_id": "cna-123bdaad0cb9ebda6fcb",
+        "dedup_key": "https://www.cna.com.tw/news/aopl/202610130335.aspx",
+        "event_date": "2026-10-13",
+        "updated_at": "2026-10-13",
+        "published_at": "2026-10-13T15:53:55.000Z",
+        "title": "美駐希臘大使季伏爾捲賄賂醜聞　白宮：已要求她辭職",
+        "rss_lead": "",
+        "summary": "美駐希臘大使季伏爾捲賄賂醜聞　白宮：已要求她辭職",
+        "categories": [
+          "國際"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-c2672204dcf0b1d68d44",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aopl/202610130335.aspx",
+            "published_at": "2026-10-13",
+            "excerpt": "美駐希臘大使季伏爾捲賄賂醜聞　白宮：已要求她辭職",
+            "section": "國際"
+          }
+        ],
+        "keywords": [],
+        "aliases": [
+          "cna-123bdaad0cb9ebda6fcb"
+        ],
+        "content_revision": "cna-123bdaad0cb9ebda6fcb"
+      },
+      {
+        "event_id": "cna-7d8b4d4caaa96115bcfd",
+        "dedup_key": "https://www.cna.com.tw/news/aopl/202610140003.aspx",
+        "event_date": "2026-10-14",
+        "updated_at": "2026-10-14",
+        "published_at": "2026-10-13T17:42:05.000Z",
+        "title": "涉蒐集國防能力情報　俄羅斯拘捕日本記者",
+        "rss_lead": "",
+        "summary": "涉蒐集國防能力情報　俄羅斯拘捕日本記者",
+        "categories": [
+          "國際"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-a4ecbf98225c89515fc6",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aopl/202610140003.aspx",
+            "published_at": "2026-10-14",
+            "excerpt": "涉蒐集國防能力情報　俄羅斯拘捕日本記者",
+            "section": "國際"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "日本",
+            "clue_options": [
+              {
+                "clue": "國名，首都為東京，使用日圓。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "easy",
+            "clue": "國名，首都為東京，使用日圓。（2字）"
+          },
+          {
+            "word": "俄羅斯",
+            "clue_options": [
+              {
+                "clue": "國名，以莫斯科為首都、國土橫跨歐亞。（3字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning"
+              }
+            ],
+            "answer_score": 89,
+            "difficulty": "easy",
+            "clue": "國名，以莫斯科為首都、國土橫跨歐亞。（3字）"
+          }
+        ],
+        "aliases": [
+          "cna-7d8b4d4caaa96115bcfd"
+        ],
+        "content_revision": "cna-7d8b4d4caaa96115bcfd"
+      },
+      {
+        "event_id": "cna-d75665d604011ee0b6d1",
+        "dedup_key": "https://www.cna.com.tw/news/aopl/202610140004.aspx",
+        "event_date": "2026-10-14",
+        "updated_at": "2026-10-14",
+        "published_at": "2026-10-13T18:18:08.000Z",
+        "title": "川普稱青年運動企圖在美期中選舉前推升油價　批行徑惡劣",
+        "rss_lead": "",
+        "summary": "川普稱青年運動企圖在美期中選舉前推升油價　批行徑惡劣",
+        "categories": [
+          "國際"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-c60288a3a6234e7ecdbd",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aopl/202610140004.aspx",
+            "published_at": "2026-10-14",
+            "excerpt": "川普稱青年運動企圖在美期中選舉前推升油價　批行徑惡劣",
+            "section": "國際"
+          }
+        ],
+        "keywords": [],
+        "aliases": [
+          "cna-d75665d604011ee0b6d1"
+        ],
+        "content_revision": "cna-d75665d604011ee0b6d1"
+      },
+      {
+        "event_id": "cna-efa2b4dc1f61c6d0a2a1",
+        "dedup_key": "https://www.cna.com.tw/news/aopl/202610140005.aspx",
+        "event_date": "2026-10-14",
+        "updated_at": "2026-10-14",
+        "published_at": "2026-10-13T18:42:11.000Z",
+        "title": "涉賄賂醜聞遭白宮要求辭職　美駐希臘大使否認指控",
+        "rss_lead": "",
+        "summary": "涉賄賂醜聞遭白宮要求辭職　美駐希臘大使否認指控",
+        "categories": [
+          "國際"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-0a63bb8948c79da5a4f8",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aopl/202610140005.aspx",
+            "published_at": "2026-10-14",
+            "excerpt": "涉賄賂醜聞遭白宮要求辭職　美駐希臘大使否認指控",
+            "section": "國際"
+          }
+        ],
+        "keywords": [],
+        "aliases": [
+          "cna-efa2b4dc1f61c6d0a2a1"
+        ],
+        "content_revision": "cna-efa2b4dc1f61c6d0a2a1"
+      },
+      {
+        "event_id": "cna-e201abcef1e17936e33e",
+        "dedup_key": "https://www.cna.com.tw/news/aopl/202610140006.aspx",
+        "event_date": "2026-10-14",
+        "updated_at": "2026-10-14",
+        "published_at": "2026-10-13T19:26:13.000Z",
+        "title": "聲援抗議學生集會遍地開花　法國逾16萬人上街示威",
+        "rss_lead": "",
+        "summary": "聲援抗議學生集會遍地開花　法國逾16萬人上街示威",
+        "categories": [
+          "國際"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-caa822e881aeca251187",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aopl/202610140006.aspx",
+            "published_at": "2026-10-14",
+            "excerpt": "聲援抗議學生集會遍地開花　法國逾16萬人上街示威",
+            "section": "國際"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "法國",
+            "clue_options": [
+              {
+                "clue": "國名，以巴黎為首都、國旗由藍白紅三色組成。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "easy",
+            "clue": "國名，以巴黎為首都、國旗由藍白紅三色組成。（2字）"
+          },
+          {
+            "word": "學生",
+            "clue_options": [
+              {
+                "clue": "在校接受課程與學習的人。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "easy",
+            "clue": "在校接受課程與學習的人。（2字）"
+          }
+        ],
+        "aliases": [
+          "cna-e201abcef1e17936e33e"
+        ],
+        "content_revision": "cna-e201abcef1e17936e33e"
+      },
+      {
+        "event_id": "cna-f1a0d6cdeed23561eb12",
+        "dedup_key": "https://www.cna.com.tw/news/aopl/202610140007.aspx",
+        "event_date": "2026-10-14",
+        "updated_at": "2026-10-14",
+        "published_at": "2026-10-13T20:08:16.000Z",
+        "title": "梵蒂岡：教宗良十四世肺部手術順利完成",
+        "rss_lead": "",
+        "summary": "梵蒂岡：教宗良十四世肺部手術順利完成",
+        "categories": [
+          "國際"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-c333db7937fb4d11d420",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aopl/202610140007.aspx",
+            "published_at": "2026-10-14",
+            "excerpt": "梵蒂岡：教宗良十四世肺部手術順利完成",
+            "section": "國際"
+          }
+        ],
+        "keywords": [],
+        "aliases": [
+          "cna-f1a0d6cdeed23561eb12"
+        ],
+        "content_revision": "cna-f1a0d6cdeed23561eb12"
+      },
+      {
+        "event_id": "cna-11d407e1dd5a3d77ab12",
+        "dedup_key": "https://www.cna.com.tw/news/aopl/202610140009.aspx",
+        "event_date": "2026-10-14",
+        "updated_at": "2026-10-14",
+        "published_at": "2026-10-13T20:48:21.000Z",
+        "title": "梵蒂岡：教宗良十四世切除右肺下葉　診斷為肺腺癌",
+        "rss_lead": "",
+        "summary": "梵蒂岡：教宗良十四世切除右肺下葉　診斷為肺腺癌",
+        "categories": [
+          "國際"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-77b8093b67558928eb71",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aopl/202610140009.aspx",
+            "published_at": "2026-10-14",
+            "excerpt": "梵蒂岡：教宗良十四世切除右肺下葉　診斷為肺腺癌",
+            "section": "國際"
+          }
+        ],
+        "keywords": [],
+        "aliases": [
+          "cna-11d407e1dd5a3d77ab12"
+        ],
+        "content_revision": "cna-11d407e1dd5a3d77ab12"
+      },
+      {
+        "event_id": "cna-1d7a64c53496411b8c0d",
+        "dedup_key": "https://www.cna.com.tw/news/aopl/202610140010.aspx",
+        "event_date": "2026-10-14",
+        "updated_at": "2026-10-14",
+        "published_at": "2026-10-13T20:55:24.000Z",
+        "title": "輝達宣布投資法國醫療網站Doctolib　擬用AI改善服務",
+        "rss_lead": "",
+        "summary": "輝達宣布投資法國醫療網站Doctolib　擬用AI改善服務",
+        "categories": [
+          "財經"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-3ef8968f4304c075c858",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aopl/202610140010.aspx",
+            "published_at": "2026-10-14",
+            "excerpt": "輝達宣布投資法國醫療網站Doctolib　擬用AI改善服務",
+            "section": "財經"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "法國",
+            "clue_options": [
+              {
+                "clue": "國名，以巴黎為首都、國旗由藍白紅三色組成。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "easy",
+            "clue": "國名，以巴黎為首都、國旗由藍白紅三色組成。（2字）"
+          },
+          {
+            "word": "輝達",
+            "clue_options": [
+              {
+                "clue": "以GPU及加速運算產品聞名、英文名稱為NVIDIA的企業。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning"
+              },
+              {
+                "clue": "據報導，某家公司宣布投資法國醫療網站Doctolib　擬用AI改善服務。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "event"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "easy",
+            "clue": "以GPU及加速運算產品聞名、英文名稱為NVIDIA的企業。（2字）"
+          },
+          {
+            "word": "投資",
+            "clue_options": [
+              {
+                "clue": "投入資金或資源，期望日後取得回報的活動。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "easy",
+            "clue": "投入資金或資源，期望日後取得回報的活動。（2字）"
+          },
+          {
+            "word": "醫療",
+            "clue_options": [
+              {
+                "clue": "以診斷、處置等方式照護病人的活動。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "easy",
+            "clue": "以診斷、處置等方式照護病人的活動。（2字）"
+          }
+        ],
+        "aliases": [
+          "cna-1d7a64c53496411b8c0d"
+        ],
+        "content_revision": "cna-1d7a64c53496411b8c0d"
+      },
+      {
+        "event_id": "cna-b2f37dbdf0d88c5c80ce",
+        "dedup_key": "https://www.cna.com.tw/news/aopl/202610140012.aspx",
+        "event_date": "2026-10-14",
+        "updated_at": "2026-10-14",
+        "published_at": "2026-10-13T21:16:28.000Z",
+        "title": "川普稱美持續和烏克蘭分享情報　為俄羅斯柴油協議辯護",
+        "rss_lead": "",
+        "summary": "川普稱美持續和烏克蘭分享情報　為俄羅斯柴油協議辯護",
+        "categories": [
+          "國際"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-3c125a590fba8c9e6f4c",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aopl/202610140012.aspx",
+            "published_at": "2026-10-14",
+            "excerpt": "川普稱美持續和烏克蘭分享情報　為俄羅斯柴油協議辯護",
+            "section": "國際"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "烏克蘭",
+            "clue_options": [
+              {
+                "clue": "國名，以基輔為首都、國旗由藍黃兩色組成。（3字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning"
+              }
+            ],
+            "answer_score": 89,
+            "difficulty": "easy",
+            "clue": "國名，以基輔為首都、國旗由藍黃兩色組成。（3字）"
+          },
+          {
+            "word": "俄羅斯",
+            "clue_options": [
+              {
+                "clue": "國名，以莫斯科為首都、國土橫跨歐亞。（3字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning"
+              }
+            ],
+            "answer_score": 89,
+            "difficulty": "easy",
+            "clue": "國名，以莫斯科為首都、國土橫跨歐亞。（3字）"
+          }
+        ],
+        "aliases": [
+          "cna-b2f37dbdf0d88c5c80ce"
+        ],
+        "content_revision": "cna-b2f37dbdf0d88c5c80ce"
+      },
+      {
+        "event_id": "cna-9bd3e8adfc955582b005",
+        "dedup_key": "https://www.cna.com.tw/news/aopl/202610140013.aspx",
+        "event_date": "2026-10-14",
+        "updated_at": "2026-10-14",
+        "published_at": "2026-10-13T21:56:31.000Z",
+        "title": "涉策畫暗殺波蘭總理與防長　犯嫌公寓搜出土製爆裂物",
+        "rss_lead": "",
+        "summary": "涉策畫暗殺波蘭總理與防長　犯嫌公寓搜出土製爆裂物",
+        "categories": [
+          "國際"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-5d7d643b30782283add1",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aopl/202610140013.aspx",
+            "published_at": "2026-10-14",
+            "excerpt": "涉策畫暗殺波蘭總理與防長　犯嫌公寓搜出土製爆裂物",
+            "section": "國際"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "波蘭",
+            "clue_options": [
+              {
+                "clue": "國名，以華沙為首都、國旗由白紅兩色組成。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "easy",
+            "clue": "國名，以華沙為首都、國旗由白紅兩色組成。（2字）"
+          }
+        ],
+        "aliases": [
+          "cna-9bd3e8adfc955582b005"
+        ],
+        "content_revision": "cna-9bd3e8adfc955582b005"
       },
       {
         "event_id": "cna-13169829a12e5eb11b7c",
@@ -7368,16 +7434,16 @@
         "content_revision": "cna-5708075e0773dd05ea6c"
       },
       {
-        "event_id": "cna-1d89507ddce40085dc64",
-        "dedup_key": "https://www.cna.com.tw/news/aspt/202610120299.aspx",
-        "event_date": "2026-10-12",
-        "updated_at": "2026-10-12",
-        "published_at": "2026-10-12T14:19:58.000Z",
-        "title": "中信兄弟連3年闖台灣大賽　17日起與味全龍爭冠[影]",
+        "event_id": "cna-9c1ce98a4b84188e43e0",
+        "dedup_key": "https://www.cna.com.tw/news/asoc/202610130318.aspx",
+        "event_date": "2026-10-13",
+        "updated_at": "2026-10-13",
+        "published_at": "2026-10-13T13:21:10.000Z",
+        "title": "海巡署清廉領航講座　實例提醒紀律紅線",
         "rss_lead": "",
-        "summary": "中信兄弟連3年闖台灣大賽　17日起與味全龍爭冠[影]",
+        "summary": "海巡署清廉領航講座　實例提醒紀律紅線",
         "categories": [
-          "體育"
+          "台灣"
         ],
         "fact_status": "reported",
         "content_type": "news",
@@ -7385,32 +7451,32 @@
         "anchor_event": false,
         "sources": [
           {
-            "source_id": "rss-679fc89324fba69ddc47",
+            "source_id": "rss-bc8118dd49d45fb72ac0",
             "publisher": "中央通訊社",
             "kind": "newswire",
-            "url": "https://www.cna.com.tw/news/aspt/202610120299.aspx",
-            "published_at": "2026-10-12",
-            "excerpt": "中信兄弟連3年闖台灣大賽　17日起與味全龍爭冠[影]",
-            "section": "體育"
+            "url": "https://www.cna.com.tw/news/asoc/202610130318.aspx",
+            "published_at": "2026-10-13",
+            "excerpt": "海巡署清廉領航講座　實例提醒紀律紅線",
+            "section": "台灣"
           }
         ],
         "keywords": [],
         "aliases": [
-          "cna-1d89507ddce40085dc64"
+          "cna-9c1ce98a4b84188e43e0"
         ],
-        "content_revision": "cna-1d89507ddce40085dc64"
+        "content_revision": "cna-9c1ce98a4b84188e43e0"
       },
       {
-        "event_id": "cna-e1ec34053d9e922b6df8",
-        "dedup_key": "https://www.cna.com.tw/news/aspt/202610120301.aspx",
-        "event_date": "2026-10-12",
-        "updated_at": "2026-10-12",
-        "published_at": "2026-10-12T14:32:03.000Z",
-        "title": "喬丹1998年NBA冠軍賽球衣逾4億賣出　創籃球紀念品最高價",
+        "event_id": "cna-a9b39182a7e1d69e5f95",
+        "dedup_key": "https://www.cna.com.tw/news/asoc/202610130321.aspx",
+        "event_date": "2026-10-13",
+        "updated_at": "2026-10-13",
+        "published_at": "2026-10-13T13:27:17.000Z",
+        "title": "高雄議員參選人張騏晟涉賄　限期晚間11時前200萬元交保",
         "rss_lead": "",
-        "summary": "喬丹1998年NBA冠軍賽球衣逾4億賣出　創籃球紀念品最高價",
+        "summary": "高雄議員參選人張騏晟涉賄　限期晚間11時前200萬元交保",
         "categories": [
-          "體育"
+          "台灣"
         ],
         "fact_status": "reported",
         "content_type": "news",
@@ -7418,145 +7484,46 @@
         "anchor_event": false,
         "sources": [
           {
-            "source_id": "rss-0d3243015bb863dbb80b",
+            "source_id": "rss-15f8aa8cfc60c93d4ac5",
             "publisher": "中央通訊社",
             "kind": "newswire",
-            "url": "https://www.cna.com.tw/news/aspt/202610120301.aspx",
-            "published_at": "2026-10-12",
-            "excerpt": "喬丹1998年NBA冠軍賽球衣逾4億賣出　創籃球紀念品最高價",
-            "section": "體育"
+            "url": "https://www.cna.com.tw/news/asoc/202610130321.aspx",
+            "published_at": "2026-10-13",
+            "excerpt": "高雄議員參選人張騏晟涉賄　限期晚間11時前200萬元交保",
+            "section": "台灣"
           }
         ],
         "keywords": [
           {
-            "word": "籃球",
+            "word": "高雄",
             "clue_options": [
               {
-                "clue": "把球投入高掛籃框、每隊五人上場的運動。（2字）",
+                "clue": "地名，以大型港口、駁二藝術區及愛河聞名的南部城市。（2字）",
                 "clue_style": "magazine-v1",
                 "clue_kind": "meaning"
               }
             ],
             "answer_score": 86,
             "difficulty": "easy",
-            "clue": "把球投入高掛籃框、每隊五人上場的運動。（2字）"
+            "clue": "地名，以大型港口、駁二藝術區及愛河聞名的南部城市。（2字）"
           }
         ],
         "aliases": [
-          "cna-e1ec34053d9e922b6df8"
+          "cna-a9b39182a7e1d69e5f95"
         ],
-        "content_revision": "cna-e1ec34053d9e922b6df8"
+        "content_revision": "cna-a9b39182a7e1d69e5f95"
       },
       {
-        "event_id": "cna-44d9a518ba28da872a03",
-        "dedup_key": "https://www.cna.com.tw/news/aspt/202610120302.aspx",
-        "event_date": "2026-10-12",
-        "updated_at": "2026-10-12",
-        "published_at": "2026-10-12T14:34:05.000Z",
-        "title": "陳鏞基球員生涯最後打席敲安　全場球迷歡呼聲中告別[影]",
-        "rss_lead": "",
-        "summary": "陳鏞基球員生涯最後打席敲安　全場球迷歡呼聲中告別[影]",
-        "categories": [
-          "體育"
-        ],
-        "fact_status": "reported",
-        "content_type": "news",
-        "event_score": 80,
-        "anchor_event": false,
-        "sources": [
-          {
-            "source_id": "rss-945eac3227301dd2e5f2",
-            "publisher": "中央通訊社",
-            "kind": "newswire",
-            "url": "https://www.cna.com.tw/news/aspt/202610120302.aspx",
-            "published_at": "2026-10-12",
-            "excerpt": "陳鏞基球員生涯最後打席敲安　全場球迷歡呼聲中告別[影]",
-            "section": "體育"
-          }
-        ],
-        "keywords": [],
-        "aliases": [
-          "cna-44d9a518ba28da872a03"
-        ],
-        "content_revision": "cna-44d9a518ba28da872a03"
-      },
-      {
-        "event_id": "cna-e5c739a1cbd8a8417a50",
-        "dedup_key": "https://www.cna.com.tw/news/aspt/202610120304.aspx",
-        "event_date": "2026-10-12",
-        "updated_at": "2026-10-12",
-        "published_at": "2026-10-12T14:46:10.000Z",
-        "title": "鄭浩均展現比對手更想贏的企圖　先發勝助兄弟闖台灣大賽",
-        "rss_lead": "",
-        "summary": "鄭浩均展現比對手更想贏的企圖　先發勝助兄弟闖台灣大賽",
-        "categories": [
-          "體育"
-        ],
-        "fact_status": "reported",
-        "content_type": "news",
-        "event_score": 80,
-        "anchor_event": false,
-        "sources": [
-          {
-            "source_id": "rss-fbd338db199f91211919",
-            "publisher": "中央通訊社",
-            "kind": "newswire",
-            "url": "https://www.cna.com.tw/news/aspt/202610120304.aspx",
-            "published_at": "2026-10-12",
-            "excerpt": "鄭浩均展現比對手更想贏的企圖　先發勝助兄弟闖台灣大賽",
-            "section": "體育"
-          }
-        ],
-        "keywords": [],
-        "aliases": [
-          "cna-e5c739a1cbd8a8417a50"
-        ],
-        "content_revision": "cna-e5c739a1cbd8a8417a50"
-      },
-      {
-        "event_id": "cna-83bf55b8bc6d50737807",
-        "dedup_key": "https://www.cna.com.tw/news/aspt/202610120306.aspx",
-        "event_date": "2026-10-12",
-        "updated_at": "2026-10-12",
-        "published_at": "2026-10-12T15:00:16.000Z",
-        "title": "總統恭喜中信兄弟挺進台灣大賽　謝謝統一獅奮戰到最後",
-        "rss_lead": "",
-        "summary": "總統恭喜中信兄弟挺進台灣大賽　謝謝統一獅奮戰到最後",
-        "categories": [
-          "體育"
-        ],
-        "fact_status": "reported",
-        "content_type": "news",
-        "event_score": 80,
-        "anchor_event": false,
-        "sources": [
-          {
-            "source_id": "rss-df2dce93b4de5f91a93d",
-            "publisher": "中央通訊社",
-            "kind": "newswire",
-            "url": "https://www.cna.com.tw/news/aspt/202610120306.aspx",
-            "published_at": "2026-10-12",
-            "excerpt": "總統恭喜中信兄弟挺進台灣大賽　謝謝統一獅奮戰到最後",
-            "section": "體育"
-          }
-        ],
-        "keywords": [],
-        "aliases": [
-          "cna-83bf55b8bc6d50737807"
-        ],
-        "content_revision": "cna-83bf55b8bc6d50737807"
-      },
-      {
-        "event_id": "cna-80f325a2273aaf065498",
-        "dedup_key": "https://www.cna.com.tw/news/aspt/202610130036.aspx",
+        "event_id": "cna-fde4e74f1dc06c968f6c",
+        "dedup_key": "https://www.cna.com.tw/news/asoc/202610130323.aspx",
         "event_date": "2026-10-13",
         "updated_at": "2026-10-13",
-        "published_at": "2026-10-13T02:02:58.000Z",
-        "title": "釀酒人牛棚封鎖道奇打線　國聯冠軍賽2連勝[影]",
+        "published_at": "2026-10-13T13:43:25.000Z",
+        "title": "新莊外甥涉砍死阿姨　新北檢訊後聲押",
         "rss_lead": "",
-        "summary": "釀酒人牛棚封鎖道奇打線　國聯冠軍賽2連勝[影]",
+        "summary": "新莊外甥涉砍死阿姨　新北檢訊後聲押",
         "categories": [
-          "體育"
+          "台灣"
         ],
         "fact_status": "reported",
         "content_type": "news",
@@ -7564,20 +7531,81 @@
         "anchor_event": false,
         "sources": [
           {
-            "source_id": "rss-17f043a211a894301761",
+            "source_id": "rss-b6fd47e06554c31f87e4",
             "publisher": "中央通訊社",
             "kind": "newswire",
-            "url": "https://www.cna.com.tw/news/aspt/202610130036.aspx",
+            "url": "https://www.cna.com.tw/news/asoc/202610130323.aspx",
             "published_at": "2026-10-13",
-            "excerpt": "釀酒人牛棚封鎖道奇打線　國聯冠軍賽2連勝[影]",
-            "section": "體育"
+            "excerpt": "新莊外甥涉砍死阿姨　新北檢訊後聲押",
+            "section": "台灣"
           }
         ],
-        "keywords": [],
-        "aliases": [
-          "cna-80f325a2273aaf065498"
+        "keywords": [
+          {
+            "word": "新北",
+            "clue_options": [
+              {
+                "clue": "地名，環繞首都周邊、境內有九份及野柳。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "easy",
+            "clue": "地名，環繞首都周邊、境內有九份及野柳。（2字）"
+          }
         ],
-        "content_revision": "cna-80f325a2273aaf065498"
+        "aliases": [
+          "cna-fde4e74f1dc06c968f6c"
+        ],
+        "content_revision": "cna-fde4e74f1dc06c968f6c"
+      },
+      {
+        "event_id": "cna-a43fc710564743f3c198",
+        "dedup_key": "https://www.cna.com.tw/news/asoc/202610130334.aspx",
+        "event_date": "2026-10-13",
+        "updated_at": "2026-10-13",
+        "published_at": "2026-10-13T15:47:53.000Z",
+        "title": "新莊外甥涉持刀砍死阿姨　新北地院裁定羈押",
+        "rss_lead": "",
+        "summary": "新莊外甥涉持刀砍死阿姨　新北地院裁定羈押",
+        "categories": [
+          "台灣"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-885e476e18ad443505c4",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/asoc/202610130334.aspx",
+            "published_at": "2026-10-13",
+            "excerpt": "新莊外甥涉持刀砍死阿姨　新北地院裁定羈押",
+            "section": "台灣"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "新北",
+            "clue_options": [
+              {
+                "clue": "地名，環繞首都周邊、境內有九份及野柳。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "easy",
+            "clue": "地名，環繞首都周邊、境內有九份及野柳。（2字）"
+          }
+        ],
+        "aliases": [
+          "cna-a43fc710564743f3c198"
+        ],
+        "content_revision": "cna-a43fc710564743f3c198"
       },
       {
         "event_id": "cna-2c2a42bf5a51ee802386",
@@ -8031,9 +8059,399 @@
           "cna-c909627e07c24ce187b7"
         ],
         "content_revision": "cna-c909627e07c24ce187b7"
+      },
+      {
+        "event_id": "cna-052e8ff6579c31dea539",
+        "dedup_key": "https://www.cna.com.tw/news/aspt/202610130309.aspx",
+        "event_date": "2026-10-13",
+        "updated_at": "2026-10-13",
+        "published_at": "2026-10-13T12:30:50.000Z",
+        "title": "兄弟台灣大賽主場票10/15起陸續開賣　最貴票價2000元",
+        "rss_lead": "",
+        "summary": "兄弟台灣大賽主場票10/15起陸續開賣　最貴票價2000元",
+        "categories": [
+          "體育"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-98a94c74736f32bf61ed",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aspt/202610130309.aspx",
+            "published_at": "2026-10-13",
+            "excerpt": "兄弟台灣大賽主場票10/15起陸續開賣　最貴票價2000元",
+            "section": "體育"
+          }
+        ],
+        "keywords": [],
+        "aliases": [
+          "cna-052e8ff6579c31dea539"
+        ],
+        "content_revision": "cna-052e8ff6579c31dea539"
       }
     ],
     "candidates": [
+      {
+        "word": "波蘭",
+        "answer_score": 86,
+        "difficulty": "easy",
+        "clue": "國名，以華沙為首都、國旗由白紅兩色組成。（2字）",
+        "id": "cna-9bd3e8adfc955582b005::波蘭",
+        "event_id": "cna-9bd3e8adfc955582b005",
+        "event_revision": "cna-9bd3e8adfc955582b005",
+        "source_support": [
+          {
+            "source_id": "rss-5d7d643b30782283add1",
+            "evidence": "涉策畫暗殺波蘭總理與防長　犯嫌公寓搜出土製爆裂物"
+          }
+        ],
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning"
+      },
+      {
+        "word": "俄羅斯",
+        "answer_score": 89,
+        "difficulty": "easy",
+        "clue": "國名，以莫斯科為首都、國土橫跨歐亞。（3字）",
+        "id": "cna-b2f37dbdf0d88c5c80ce::俄羅斯",
+        "event_id": "cna-b2f37dbdf0d88c5c80ce",
+        "event_revision": "cna-b2f37dbdf0d88c5c80ce",
+        "source_support": [
+          {
+            "source_id": "rss-3c125a590fba8c9e6f4c",
+            "evidence": "川普稱美持續和烏克蘭分享情報　為俄羅斯柴油協議辯護"
+          }
+        ],
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning"
+      },
+      {
+        "word": "烏克蘭",
+        "answer_score": 89,
+        "difficulty": "easy",
+        "clue": "國名，以基輔為首都、國旗由藍黃兩色組成。（3字）",
+        "id": "cna-b2f37dbdf0d88c5c80ce::烏克蘭",
+        "event_id": "cna-b2f37dbdf0d88c5c80ce",
+        "event_revision": "cna-b2f37dbdf0d88c5c80ce",
+        "source_support": [
+          {
+            "source_id": "rss-3c125a590fba8c9e6f4c",
+            "evidence": "川普稱美持續和烏克蘭分享情報　為俄羅斯柴油協議辯護"
+          }
+        ],
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning"
+      },
+      {
+        "word": "投資",
+        "answer_score": 86,
+        "difficulty": "easy",
+        "clue": "投入資金或資源，期望日後取得回報的活動。（2字）",
+        "id": "cna-3e32a3272c6749a09e94::投資",
+        "event_id": "cna-3e32a3272c6749a09e94",
+        "event_revision": "cna-3e32a3272c6749a09e94",
+        "source_support": [
+          {
+            "source_id": "rss-093f6aa6c0e2d56ec52e",
+            "evidence": "銀行財報亮眼難抵AI投資熱潮疑慮　美股收低"
+          }
+        ],
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning"
+      },
+      {
+        "word": "美股",
+        "answer_score": 86,
+        "difficulty": "easy",
+        "clue": "在美國交易的股票市場。（2字）",
+        "id": "cna-3e32a3272c6749a09e94::美股",
+        "event_id": "cna-3e32a3272c6749a09e94",
+        "event_revision": "cna-3e32a3272c6749a09e94",
+        "source_support": [
+          {
+            "source_id": "rss-093f6aa6c0e2d56ec52e",
+            "evidence": "銀行財報亮眼難抵AI投資熱潮疑慮　美股收低"
+          }
+        ],
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning"
+      },
+      {
+        "word": "法國",
+        "answer_score": 86,
+        "difficulty": "easy",
+        "clue": "國名，以巴黎為首都、國旗由藍白紅三色組成。（2字）",
+        "id": "cna-1d7a64c53496411b8c0d::法國",
+        "event_id": "cna-1d7a64c53496411b8c0d",
+        "event_revision": "cna-1d7a64c53496411b8c0d",
+        "source_support": [
+          {
+            "source_id": "rss-3ef8968f4304c075c858",
+            "evidence": "輝達宣布投資法國醫療網站Doctolib　擬用AI改善服務"
+          }
+        ],
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning"
+      },
+      {
+        "word": "輝達",
+        "answer_score": 86,
+        "difficulty": "easy",
+        "clue": "以GPU及加速運算產品聞名、英文名稱為NVIDIA的企業。（2字）",
+        "id": "cna-1d7a64c53496411b8c0d::輝達",
+        "event_id": "cna-1d7a64c53496411b8c0d",
+        "event_revision": "cna-1d7a64c53496411b8c0d",
+        "source_support": [
+          {
+            "source_id": "rss-3ef8968f4304c075c858",
+            "evidence": "輝達宣布投資法國醫療網站Doctolib　擬用AI改善服務"
+          }
+        ],
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning"
+      },
+      {
+        "word": "醫療",
+        "answer_score": 86,
+        "difficulty": "easy",
+        "clue": "以診斷、處置等方式照護病人的活動。（2字）",
+        "id": "cna-1d7a64c53496411b8c0d::醫療",
+        "event_id": "cna-1d7a64c53496411b8c0d",
+        "event_revision": "cna-1d7a64c53496411b8c0d",
+        "source_support": [
+          {
+            "source_id": "rss-3ef8968f4304c075c858",
+            "evidence": "輝達宣布投資法國醫療網站Doctolib　擬用AI改善服務"
+          }
+        ],
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning"
+      },
+      {
+        "word": "學生",
+        "answer_score": 86,
+        "difficulty": "easy",
+        "clue": "在校接受課程與學習的人。（2字）",
+        "id": "cna-e201abcef1e17936e33e::學生",
+        "event_id": "cna-e201abcef1e17936e33e",
+        "event_revision": "cna-e201abcef1e17936e33e",
+        "source_support": [
+          {
+            "source_id": "rss-caa822e881aeca251187",
+            "evidence": "聲援抗議學生集會遍地開花　法國逾16萬人上街示威"
+          }
+        ],
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning"
+      },
+      {
+        "word": "日本",
+        "answer_score": 86,
+        "difficulty": "easy",
+        "clue": "國名，首都為東京，使用日圓。（2字）",
+        "id": "cna-7d8b4d4caaa96115bcfd::日本",
+        "event_id": "cna-7d8b4d4caaa96115bcfd",
+        "event_revision": "cna-7d8b4d4caaa96115bcfd",
+        "source_support": [
+          {
+            "source_id": "rss-a4ecbf98225c89515fc6",
+            "evidence": "涉蒐集國防能力情報　俄羅斯拘捕日本記者"
+          }
+        ],
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning"
+      },
+      {
+        "word": "歐洲",
+        "answer_score": 86,
+        "difficulty": "easy",
+        "clue": "洲名，阿爾卑斯山及多瑙河所在的一洲。（2字）",
+        "id": "cna-812fda919f4b4d72cde6::歐洲",
+        "event_id": "cna-812fda919f4b4d72cde6",
+        "event_revision": "cna-812fda919f4b4d72cde6",
+        "source_support": [
+          {
+            "source_id": "rss-6fc7c1b7278df5bb1c0c",
+            "evidence": "投資人消化通膨報告　歐洲股市收跌"
+          }
+        ],
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning"
+      },
+      {
+        "word": "新北",
+        "answer_score": 86,
+        "difficulty": "easy",
+        "clue": "地名，環繞首都周邊、境內有九份及野柳。（2字）",
+        "id": "cna-a43fc710564743f3c198::新北",
+        "event_id": "cna-a43fc710564743f3c198",
+        "event_revision": "cna-a43fc710564743f3c198",
+        "source_support": [
+          {
+            "source_id": "rss-885e476e18ad443505c4",
+            "evidence": "新莊外甥涉持刀砍死阿姨　新北地院裁定羈押"
+          }
+        ],
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning"
+      },
+      {
+        "word": "無人機",
+        "answer_score": 89,
+        "difficulty": "easy",
+        "clue": "不需要機上駕駛員、可由遠端操控的航空器。（3字）",
+        "id": "cna-c5d58a13286d358ac074::無人機",
+        "event_id": "cna-c5d58a13286d358ac074",
+        "event_revision": "cna-c5d58a13286d358ac074",
+        "source_support": [
+          {
+            "source_id": "rss-9bec95ec8f6b9f2d629d",
+            "evidence": "保加利亞黑海岸外船舶遭無人機擊沉　11人下落不明"
+          }
+        ],
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning"
+      },
+      {
+        "word": "蘋果",
+        "answer_score": 86,
+        "difficulty": "easy",
+        "clue": "據報導，某家公司推HomeView攻智慧家庭　搭7吋螢幕可辨人臉。（2字）",
+        "id": "cna-0085cb5a666882353d7a::蘋果",
+        "event_id": "cna-0085cb5a666882353d7a",
+        "event_revision": "cna-0085cb5a666882353d7a",
+        "source_support": [
+          {
+            "source_id": "rss-3b3d87509f24d996538b",
+            "evidence": "蘋果推HomeView攻智慧家庭　搭7吋螢幕可辨人臉"
+          }
+        ],
+        "clue_style": "magazine-v1",
+        "clue_kind": "event"
+      },
+      {
+        "word": "中國",
+        "answer_score": 86,
+        "difficulty": "easy",
+        "clue": "國名，以北京為首都、境內有萬里長城。（2字）",
+        "id": "cna-48cdd590f666f5bc7f6b::中國",
+        "event_id": "cna-48cdd590f666f5bc7f6b",
+        "event_revision": "cna-48cdd590f666f5bc7f6b",
+        "source_support": [
+          {
+            "source_id": "rss-5a8584c5a1c6e2b37f88",
+            "evidence": "超強聖嬰現象  中國專家：廣東易出現暖冬可能下冰霰"
+          }
+        ],
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning"
+      },
+      {
+        "word": "高雄",
+        "answer_score": 86,
+        "difficulty": "easy",
+        "clue": "地名，以大型港口、駁二藝術區及愛河聞名的南部城市。（2字）",
+        "id": "cna-7b2becb1979473dc6f26::高雄",
+        "event_id": "cna-7b2becb1979473dc6f26",
+        "event_revision": "cna-7b2becb1979473dc6f26",
+        "source_support": [
+          {
+            "source_id": "rss-3c8d15b30350ea8d42c1",
+            "evidence": "大樂透頭獎3.5億元1注獨得　高雄鳳山開出"
+          }
+        ],
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning"
+      },
+      {
+        "word": "台灣",
+        "answer_score": 86,
+        "difficulty": "easy",
+        "clue": "島嶼名，以玉山為最高峰，位於東亞海域。（2字）",
+        "id": "cna-bcf59eec116cefec5ed5::台灣",
+        "event_id": "cna-bcf59eec116cefec5ed5",
+        "event_revision": "cna-bcf59eec116cefec5ed5",
+        "source_support": [
+          {
+            "source_id": "rss-940dd61fb5a50ab1eb3e",
+            "evidence": "華沙安全論壇　林佳龍：「台灣模式」助歐洲戰略自主"
+          }
+        ],
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning"
+      },
+      {
+        "word": "晶片",
+        "answer_score": 86,
+        "difficulty": "easy",
+        "clue": "把許多微小電路整合在薄片上的電子元件。（2字）",
+        "id": "cna-d4d46d11974fb2c7f1a9::晶片",
+        "event_id": "cna-d4d46d11974fb2c7f1a9",
+        "event_revision": "cna-d4d46d11974fb2c7f1a9",
+        "source_support": [
+          {
+            "source_id": "rss-cf7a069dac7419773c12",
+            "evidence": "晶片股再度面臨賣壓　標普與那指雙雙開低"
+          }
+        ],
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning"
+      },
+      {
+        "word": "加拿大",
+        "answer_score": 89,
+        "difficulty": "easy",
+        "clue": "國名，以渥太華為首都、國旗有楓葉圖案。（3字）",
+        "id": "cna-9babe0c2a253cdc17d7a::加拿大",
+        "event_id": "cna-9babe0c2a253cdc17d7a",
+        "event_revision": "cna-9babe0c2a253cdc17d7a",
+        "source_support": [
+          {
+            "source_id": "rss-bf31953f304ad43290c4",
+            "evidence": "財神眷顧　加拿大夫妻時隔8年再度刮中大獎"
+          }
+        ],
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning"
+      },
+      {
+        "word": "金融",
+        "answer_score": 86,
+        "difficulty": "easy",
+        "clue": "與貨幣、信用及資金流通相關的活動。（2字）",
+        "id": "cna-a01b1e6875020a2c8e19::金融",
+        "event_id": "cna-a01b1e6875020a2c8e19",
+        "event_revision": "cna-a01b1e6875020a2c8e19",
+        "source_support": [
+          {
+            "source_id": "rss-50bd06704fff71a62d50",
+            "evidence": "FinTechSpace攜5新創攻日本　深化台日金融科技合作"
+          }
+        ],
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning"
+      },
+      {
+        "word": "深圳",
+        "answer_score": 86,
+        "difficulty": "easy",
+        "clue": "地名，位於珠江三角洲、緊鄰香港的城市。（2字）",
+        "id": "cna-f111a9dcf3ce15c63df3::深圳",
+        "event_id": "cna-f111a9dcf3ce15c63df3",
+        "event_revision": "cna-f111a9dcf3ce15c63df3",
+        "source_support": [
+          {
+            "source_id": "rss-3170cd791d62b7f2ed59",
+            "evidence": "深圳APEC峰會  港媒：部分美企執行長已決定不出席"
+          }
+        ],
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning"
+      },
       {
         "word": "台積電",
         "answer_score": 89,
@@ -8052,40 +8470,6 @@
         "clue_kind": "meaning"
       },
       {
-        "word": "台灣",
-        "answer_score": 86,
-        "difficulty": "easy",
-        "clue": "島嶼名，以玉山為最高峰，位於東亞海域。（2字）",
-        "id": "cna-46c031c404ef0321880f::台灣",
-        "event_id": "cna-46c031c404ef0321880f",
-        "event_revision": "cna-46c031c404ef0321880f",
-        "source_support": [
-          {
-            "source_id": "rss-ff31ad93b0499374aeb1",
-            "evidence": "全聯今年台灣鯛銷售拚6億元　台積電效應將是展店考量因素"
-          }
-        ],
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning"
-      },
-      {
-        "word": "日本",
-        "answer_score": 86,
-        "difficulty": "easy",
-        "clue": "國名，首都為東京，使用日圓。（2字）",
-        "id": "cna-c86ba393ba2e81e7444e::日本",
-        "event_id": "cna-c86ba393ba2e81e7444e",
-        "event_revision": "cna-c86ba393ba2e81e7444e",
-        "source_support": [
-          {
-            "source_id": "rss-c4eb26f3c7fe496c2da3",
-            "evidence": "台灣精品首度進軍日本CEATEC科技展　13企業秀AI實力搶商機"
-          }
-        ],
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning"
-      },
-      {
         "word": "印度",
         "answer_score": 86,
         "difficulty": "easy",
@@ -8095,8 +8479,8 @@
         "event_revision": "cna-bfba091158fb8e86c36c",
         "source_support": [
           {
-            "source_id": "rss-5a742b1fef6894b32c55",
-            "evidence": "台灣與印度12月恢復直航　可望帶動觀光與轉機商機"
+            "source_id": "rss-0b485e9309ddec2e6d4f",
+            "evidence": "台灣與印度12月恢復直航　可望帶動觀光與轉機商機【專訪】"
           }
         ],
         "clue_style": "magazine-v1",
@@ -8112,8 +8496,8 @@
         "event_revision": "cna-bfba091158fb8e86c36c",
         "source_support": [
           {
-            "source_id": "rss-5a742b1fef6894b32c55",
-            "evidence": "台灣與印度12月恢復直航　可望帶動觀光與轉機商機"
+            "source_id": "rss-0b485e9309ddec2e6d4f",
+            "evidence": "台灣與印度12月恢復直航　可望帶動觀光與轉機商機【專訪】"
           }
         ],
         "clue_style": "magazine-v1",
@@ -8131,40 +8515,6 @@
           {
             "source_id": "rss-104fad72464adfb38393",
             "evidence": "盯新興風險　金管會發布金融業運用代理AI諮詢文件"
-          }
-        ],
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning"
-      },
-      {
-        "word": "金融",
-        "answer_score": 86,
-        "difficulty": "easy",
-        "clue": "與貨幣、信用及資金流通相關的活動。（2字）",
-        "id": "cna-a13633064031128b6712::金融",
-        "event_id": "cna-a13633064031128b6712",
-        "event_revision": "cna-a13633064031128b6712",
-        "source_support": [
-          {
-            "source_id": "rss-104fad72464adfb38393",
-            "evidence": "盯新興風險　金管會發布金融業運用代理AI諮詢文件"
-          }
-        ],
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning"
-      },
-      {
-        "word": "高雄",
-        "answer_score": 86,
-        "difficulty": "easy",
-        "clue": "地名，以大型港口、駁二藝術區及愛河聞名的南部城市。（2字）",
-        "id": "cna-5708075e0773dd05ea6c::高雄",
-        "event_id": "cna-5708075e0773dd05ea6c",
-        "event_revision": "cna-5708075e0773dd05ea6c",
-        "source_support": [
-          {
-            "source_id": "rss-17df4942a5c8c9e85585",
-            "evidence": "高雄岡山廠房失火延燒  火勢控制中無人傷亡"
           }
         ],
         "clue_style": "magazine-v1",
@@ -8216,40 +8566,6 @@
           {
             "source_id": "rss-9cc40138f7855f386eed",
             "evidence": "歐中貿易談判後  王文濤稱磋商成果穩定業界預期"
-          }
-        ],
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning"
-      },
-      {
-        "word": "中國",
-        "answer_score": 86,
-        "difficulty": "easy",
-        "clue": "國名，以北京為首都、境內有萬里長城。（2字）",
-        "id": "cna-c353d2922000d62244c1::中國",
-        "event_id": "cna-c353d2922000d62244c1",
-        "event_revision": "cna-c353d2922000d62244c1",
-        "source_support": [
-          {
-            "source_id": "rss-3135ea4a541661ce6062",
-            "evidence": "香港APEC財長會  港媒：中國財長藍佛安將出席"
-          }
-        ],
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning"
-      },
-      {
-        "word": "香港",
-        "answer_score": 86,
-        "difficulty": "easy",
-        "clue": "地名，以維多利亞港及太平山夜景聞名。（2字）",
-        "id": "cna-c353d2922000d62244c1::香港",
-        "event_id": "cna-c353d2922000d62244c1",
-        "event_revision": "cna-c353d2922000d62244c1",
-        "source_support": [
-          {
-            "source_id": "rss-3135ea4a541661ce6062",
-            "evidence": "香港APEC財長會  港媒：中國財長藍佛安將出席"
           }
         ],
         "clue_style": "magazine-v1",
@@ -8352,57 +8668,6 @@
           {
             "source_id": "rss-1cfcf187725debb51648",
             "evidence": "川普稱俄將對外供應柴油　俄估年底前月出口量上看350萬公噸"
-          }
-        ],
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning"
-      },
-      {
-        "word": "晶片",
-        "answer_score": 86,
-        "difficulty": "easy",
-        "clue": "把許多微小電路整合在薄片上的電子元件。（2字）",
-        "id": "cna-f93617bbdf1126672817::晶片",
-        "event_id": "cna-f93617bbdf1126672817",
-        "event_revision": "cna-f93617bbdf1126672817",
-        "source_support": [
-          {
-            "source_id": "rss-f58094eeb2c2a8582952",
-            "evidence": "輝達中國AI晶片市占下滑　華為加速追趕"
-          }
-        ],
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning"
-      },
-      {
-        "word": "輝達",
-        "answer_score": 86,
-        "difficulty": "easy",
-        "clue": "以GPU及加速運算產品聞名、英文名稱為NVIDIA的企業。（2字）",
-        "id": "cna-f93617bbdf1126672817::輝達",
-        "event_id": "cna-f93617bbdf1126672817",
-        "event_revision": "cna-f93617bbdf1126672817",
-        "source_support": [
-          {
-            "source_id": "rss-f58094eeb2c2a8582952",
-            "evidence": "輝達中國AI晶片市占下滑　華為加速追趕"
-          }
-        ],
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning"
-      },
-      {
-        "word": "投資",
-        "answer_score": 86,
-        "difficulty": "easy",
-        "clue": "投入資金或資源，期望日後取得回報的活動。（2字）",
-        "id": "cna-ea51007e09a9473ab96e::投資",
-        "event_id": "cna-ea51007e09a9473ab96e",
-        "event_revision": "cna-ea51007e09a9473ab96e",
-        "source_support": [
-          {
-            "source_id": "rss-a5753230ac4b08fd5fd2",
-            "evidence": "AI投資前景疑慮引發科技股賣壓　韓日台領跌亞股"
           }
         ],
         "clue_style": "magazine-v1",
@@ -8647,23 +8912,6 @@
         "clue_kind": "meaning"
       },
       {
-        "word": "新北",
-        "answer_score": 86,
-        "difficulty": "easy",
-        "clue": "地名，環繞首都周邊、境內有九份及野柳。（2字）",
-        "id": "cna-a25b9067f2e2102b019c::新北",
-        "event_id": "cna-a25b9067f2e2102b019c",
-        "event_revision": "cna-a25b9067f2e2102b019c",
-        "source_support": [
-          {
-            "source_id": "rss-ae991b94e831b8aa48e6",
-            "evidence": "國民黨新北議員連斐璠遭搜索　疑涉詐助理費"
-          }
-        ],
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning"
-      },
-      {
         "word": "流感",
         "answer_score": 86,
         "difficulty": "easy",
@@ -8885,23 +9133,6 @@
         "clue_kind": "meaning"
       },
       {
-        "word": "無人機",
-        "answer_score": 89,
-        "difficulty": "easy",
-        "clue": "不需要機上駕駛員、可由遠端操控的航空器。（3字）",
-        "id": "cna-f6f2ac04ef4eac47a5c3::無人機",
-        "event_id": "cna-f6f2ac04ef4eac47a5c3",
-        "event_revision": "cna-f6f2ac04ef4eac47a5c3",
-        "source_support": [
-          {
-            "source_id": "rss-140619c76bfb9c60c592",
-            "evidence": "保加利亞黑海岸外最新襲擊　無人機擊沉船隻"
-          }
-        ],
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning"
-      },
-      {
         "word": "世錦賽",
         "answer_score": 89,
         "difficulty": "easy",
@@ -8913,23 +9144,6 @@
           {
             "source_id": "rss-724daf294a0718d15b9a",
             "evidence": "劉懿萱競速溜冰世錦賽奪銀　莊惟甯稱霸青年男子組"
-          }
-        ],
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning"
-      },
-      {
-        "word": "醫療",
-        "answer_score": 86,
-        "difficulty": "easy",
-        "clue": "以診斷、處置等方式照護病人的活動。（2字）",
-        "id": "cna-13c929ce39cf8193bb35::醫療",
-        "event_id": "cna-13c929ce39cf8193bb35",
-        "event_revision": "cna-13c929ce39cf8193bb35",
-        "source_support": [
-          {
-            "source_id": "rss-96694b9b3d1ec2e7197b",
-            "evidence": "奇美醫院推長者居家醫療　周全性老年評估助擬個人化計畫"
           }
         ],
         "clue_style": "magazine-v1",
@@ -8970,23 +9184,6 @@
         "clue_kind": "meaning"
       },
       {
-        "word": "學生",
-        "answer_score": 86,
-        "difficulty": "easy",
-        "clue": "在校接受課程與學習的人。（2字）",
-        "id": "cna-3bf6a6a2f19860ef0109::學生",
-        "event_id": "cna-3bf6a6a2f19860ef0109",
-        "event_revision": "cna-3bf6a6a2f19860ef0109",
-        "source_support": [
-          {
-            "source_id": "rss-2d0c221b31f92dd2f673",
-            "evidence": "花蓮女大生圖書館如廁遭偷拍　警移送男學生法辦"
-          }
-        ],
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning"
-      },
-      {
         "word": "台北",
         "answer_score": 86,
         "difficulty": "easy",
@@ -8998,23 +9195,6 @@
           {
             "source_id": "rss-8f2f904d1398efeef229",
             "evidence": "台灣大賽首次龍象爭霸　系列賽7戰全在台北大巨蛋"
-          }
-        ],
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning"
-      },
-      {
-        "word": "歐盟",
-        "answer_score": 86,
-        "difficulty": "easy",
-        "clue": "多個歐洲國家組成的政治與經貿聯合體的簡稱。（2字）",
-        "id": "cna-b9a3dd87de5c8121c90c::歐盟",
-        "event_id": "cna-b9a3dd87de5c8121c90c",
-        "event_revision": "cna-b9a3dd87de5c8121c90c",
-        "source_support": [
-          {
-            "source_id": "rss-18fc4e76e9b2a5b25b48",
-            "evidence": "歐盟碳管理資金新方向　從研究走向商轉前測試"
           }
         ],
         "clue_style": "magazine-v1",
@@ -9083,193 +9263,6 @@
           {
             "source_id": "rss-695ef0de05dc004f9628",
             "evidence": "華宗盃排球賽335隊報名　因應少子化增國小混合組"
-          }
-        ],
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning"
-      },
-      {
-        "word": "中東",
-        "answer_score": 86,
-        "difficulty": "easy",
-        "clue": "地區名，西亞與北非交會一帶的概稱。（2字）",
-        "id": "cna-aae775270439d7991f47::中東",
-        "event_id": "cna-aae775270439d7991f47",
-        "event_revision": "cna-aae775270439d7991f47",
-        "source_support": [
-          {
-            "source_id": "rss-c0531e6a18f4ebac59e8",
-            "evidence": "俄烏和中東皆傳供應利空消息　國際油價走揚"
-          }
-        ],
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning"
-      },
-      {
-        "word": "籃球",
-        "answer_score": 86,
-        "difficulty": "easy",
-        "clue": "把球投入高掛籃框、每隊五人上場的運動。（2字）",
-        "id": "cna-e1ec34053d9e922b6df8::籃球",
-        "event_id": "cna-e1ec34053d9e922b6df8",
-        "event_revision": "cna-e1ec34053d9e922b6df8",
-        "source_support": [
-          {
-            "source_id": "rss-0d3243015bb863dbb80b",
-            "evidence": "喬丹1998年NBA冠軍賽球衣逾4億賣出　創籃球紀念品最高價"
-          }
-        ],
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning"
-      },
-      {
-        "word": "紐西蘭",
-        "answer_score": 89,
-        "difficulty": "easy",
-        "clue": "國名，以威靈頓為首都、由南北兩個主要島嶼組成。（3字）",
-        "id": "cna-2e5fe002fc5735562e5a::紐西蘭",
-        "event_id": "cna-2e5fe002fc5735562e5a",
-        "event_revision": "cna-2e5fe002fc5735562e5a",
-        "source_support": [
-          {
-            "source_id": "rss-a2bab2e6b5cc235a1ccd",
-            "evidence": "李強通話紐西蘭總理  稱希望加快自貿協定談判"
-          }
-        ],
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning"
-      },
-      {
-        "word": "美股",
-        "answer_score": 86,
-        "difficulty": "easy",
-        "clue": "在美國交易的股票市場。（2字）",
-        "id": "cna-3cda63d3635705175487::美股",
-        "event_id": "cna-3cda63d3635705175487",
-        "event_revision": "cna-3cda63d3635705175487",
-        "source_support": [
-          {
-            "source_id": "rss-cb0c7a8705fc82c2c27c",
-            "evidence": "美股開盤幾乎持平　市場靜待通膨數據與銀行財報"
-          }
-        ],
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning"
-      },
-      {
-        "word": "法國",
-        "answer_score": 86,
-        "difficulty": "easy",
-        "clue": "國名，以巴黎為首都、國旗由藍白紅三色組成。（2字）",
-        "id": "cna-63c4fcbf3c98ab925e65::法國",
-        "event_id": "cna-63c4fcbf3c98ab925e65",
-        "event_revision": "cna-63c4fcbf3c98ab925e65",
-        "source_support": [
-          {
-            "source_id": "rss-887cef79903a76d7ec1d",
-            "evidence": "法國高中生示威關閉學校降至130所　總統馬克宏籲尊重以對"
-          }
-        ],
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning"
-      },
-      {
-        "word": "高中",
-        "answer_score": 86,
-        "difficulty": "easy",
-        "clue": "銜接初級中等課程、為進階升學做準備的學校。（2字）",
-        "id": "cna-63c4fcbf3c98ab925e65::高中",
-        "event_id": "cna-63c4fcbf3c98ab925e65",
-        "event_revision": "cna-63c4fcbf3c98ab925e65",
-        "source_support": [
-          {
-            "source_id": "rss-887cef79903a76d7ec1d",
-            "evidence": "法國高中生示威關閉學校降至130所　總統馬克宏籲尊重以對"
-          }
-        ],
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning"
-      },
-      {
-        "word": "波蘭",
-        "answer_score": 86,
-        "difficulty": "easy",
-        "clue": "國名，以華沙為首都、國旗由白紅兩色組成。（2字）",
-        "id": "cna-a3d3627746f8ac57515a::波蘭",
-        "event_id": "cna-a3d3627746f8ac57515a",
-        "event_revision": "cna-a3d3627746f8ac57515a",
-        "source_support": [
-          {
-            "source_id": "rss-4223536fc3be02795bd8",
-            "evidence": "林佳龍考察波蘭科技園區預定地　促雙方簽合作備忘錄"
-          }
-        ],
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning"
-      },
-      {
-        "word": "半導體",
-        "answer_score": 89,
-        "difficulty": "easy",
-        "clue": "導電能力介於良導體與絕緣體之間的材料。（3字）",
-        "id": "cna-eac89ec1c33ba3d10746::半導體",
-        "event_id": "cna-eac89ec1c33ba3d10746",
-        "event_revision": "cna-eac89ec1c33ba3d10746",
-        "source_support": [
-          {
-            "source_id": "rss-0cdc4b0b1e6f9ca258b5",
-            "evidence": "泰國補半導體人才缺口　官員：安排工程學生赴台培訓"
-          }
-        ],
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning"
-      },
-      {
-        "word": "泰國",
-        "answer_score": 86,
-        "difficulty": "easy",
-        "clue": "國名，以曼谷為首都、使用泰銖。（2字）",
-        "id": "cna-eac89ec1c33ba3d10746::泰國",
-        "event_id": "cna-eac89ec1c33ba3d10746",
-        "event_revision": "cna-eac89ec1c33ba3d10746",
-        "source_support": [
-          {
-            "source_id": "rss-0cdc4b0b1e6f9ca258b5",
-            "evidence": "泰國補半導體人才缺口　官員：安排工程學生赴台培訓"
-          }
-        ],
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning"
-      },
-      {
-        "word": "新加坡",
-        "answer_score": 89,
-        "difficulty": "easy",
-        "clue": "國名，位於馬來半島南端、以獅城聞名。（3字）",
-        "id": "cna-cf63330044850b4dd677::新加坡",
-        "event_id": "cna-cf63330044850b4dd677",
-        "event_revision": "cna-cf63330044850b4dd677",
-        "source_support": [
-          {
-            "source_id": "rss-aa8c8593551c838adb61",
-            "evidence": "印尼野火燒毀305棟民宅　新加坡推霧霾醫療補助"
-          }
-        ],
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning"
-      },
-      {
-        "word": "印尼",
-        "answer_score": 86,
-        "difficulty": "easy",
-        "clue": "國名，由上萬座島嶼組成、境內有爪哇島。（2字）",
-        "id": "cna-cf63330044850b4dd677::印尼",
-        "event_id": "cna-cf63330044850b4dd677",
-        "event_revision": "cna-cf63330044850b4dd677",
-        "source_support": [
-          {
-            "source_id": "rss-aa8c8593551c838adb61",
-            "evidence": "印尼野火燒毀305棟民宅　新加坡推霧霾醫療補助"
           }
         ],
         "clue_style": "magazine-v1",
@@ -9395,14 +9388,14 @@
   },
   "automation": {
     "enabled": true,
-    "updated_at": "2026-10-13T14:19:51.298Z",
+    "updated_at": "2026-10-13T22:51:39.145Z",
     "window": {
-      "from": "2026-10-07",
-      "to": "2026-10-13"
+      "from": "2026-10-08",
+      "to": "2026-10-14"
     },
     "interval_hours": 6,
     "source_count": 9,
-    "candidate_count": 75,
+    "candidate_count": 71,
     "sources": [
       {
         "id": "cna-politics",
