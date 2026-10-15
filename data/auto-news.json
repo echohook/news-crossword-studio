@@ -2318,53 +2318,6 @@
         "content_revision": "cna-875f2f48c9b79f2dd29e"
       },
       {
-        "event_id": "cna-6a191218fa32067f2f72",
-        "dedup_key": "https://www.cna.com.tw/news/ahel/202610150153.aspx",
-        "event_date": "2026-10-15",
-        "updated_at": "2026-10-15",
-        "published_at": "2026-10-15T06:35:38.000Z",
-        "title": "校事會議改革防濫訴　教育部補助教師法律諮詢",
-        "rss_lead": "",
-        "summary": "校事會議改革防濫訴　教育部補助教師法律諮詢",
-        "categories": [
-          "生活"
-        ],
-        "fact_status": "reported",
-        "content_type": "news",
-        "event_score": 80,
-        "anchor_event": false,
-        "sources": [
-          {
-            "source_id": "rss-908deeb62b3455ec1ef3",
-            "publisher": "中央通訊社",
-            "kind": "newswire",
-            "url": "https://www.cna.com.tw/news/ahel/202610150153.aspx",
-            "published_at": "2026-10-15",
-            "excerpt": "校事會議改革防濫訴　教育部補助教師法律諮詢",
-            "section": "生活"
-          }
-        ],
-        "keywords": [
-          {
-            "word": "教育部",
-            "clue_options": [
-              {
-                "clue": "主管全國學制、課程及校務政策的中央部會。（3字）",
-                "clue_style": "magazine-v1",
-                "clue_kind": "meaning"
-              }
-            ],
-            "answer_score": 89,
-            "difficulty": "easy",
-            "clue": "主管全國學制、課程及校務政策的中央部會。（3字）"
-          }
-        ],
-        "aliases": [
-          "cna-6a191218fa32067f2f72"
-        ],
-        "content_revision": "cna-6a191218fa32067f2f72"
-      },
-      {
         "event_id": "cna-6eb19743598ef45c5132",
         "dedup_key": "https://www.cna.com.tw/news/ahel/202610150154.aspx",
         "event_date": "2026-10-15",
@@ -4518,6 +4471,84 @@
           "cna-e37264a673d9dbfa939f"
         ],
         "content_revision": "cna-e37264a673d9dbfa939f"
+      },
+      {
+        "event_id": "cna-c4b8faa3e88ad6e80288",
+        "dedup_key": "https://www.cna.com.tw/news/ait/202610160005.aspx",
+        "event_date": "2026-10-16",
+        "updated_at": "2026-10-16",
+        "published_at": "2026-10-15T19:30:36.000Z",
+        "title": "德國擬與輝達簽合作協議　砸數億歐元加速AI導入工業領域",
+        "rss_lead": "",
+        "summary": "德國擬與輝達簽合作協議　砸數億歐元加速AI導入工業領域",
+        "categories": [
+          "科技"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-2237aeb470c32b02a81e",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/ait/202610160005.aspx",
+            "published_at": "2026-10-16",
+            "excerpt": "德國擬與輝達簽合作協議　砸數億歐元加速AI導入工業領域",
+            "section": "科技"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "德國",
+            "clue_options": [
+              {
+                "clue": "國名，以柏林為首都、境內有萊茵河。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning"
+              },
+              {
+                "clue": "據報導，某國家或地區擬與輝達簽合作協議　砸數億歐元加速AI導入工業領域。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "event"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "easy",
+            "clue": "國名，以柏林為首都、境內有萊茵河。（2字）"
+          },
+          {
+            "word": "輝達",
+            "clue_options": [
+              {
+                "clue": "以GPU及加速運算產品聞名、英文名稱為NVIDIA的企業。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "easy",
+            "clue": "以GPU及加速運算產品聞名、英文名稱為NVIDIA的企業。（2字）"
+          },
+          {
+            "word": "歐元",
+            "clue_options": [
+              {
+                "clue": "多個歐洲國家共同採用的貨幣單位。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "easy",
+            "clue": "多個歐洲國家共同採用的貨幣單位。（2字）"
+          }
+        ],
+        "aliases": [
+          "cna-c4b8faa3e88ad6e80288"
+        ],
+        "content_revision": "cna-c4b8faa3e88ad6e80288"
       },
       {
         "event_id": "cna-0d0e50b98e8fe7de5365",
@@ -6909,16 +6940,16 @@
         "content_revision": "cna-a6a2bbcea4b6d11bc6f1"
       },
       {
-        "event_id": "cna-b0e237ab0e2e6b954eb7",
-        "dedup_key": "https://www.cna.com.tw/news/asoc/202610150142.aspx",
+        "event_id": "cna-8b17d38f9ac4c1bce5fc",
+        "dedup_key": "https://www.cna.com.tw/news/aopl/202610150363.aspx",
         "event_date": "2026-10-15",
         "updated_at": "2026-10-15",
-        "published_at": "2026-10-15T06:17:14.000Z",
-        "title": "鄭銘謙：新北檢表現已讓各界感受到查賄決心",
+        "published_at": "2026-10-15T15:55:19.000Z",
+        "title": "美國擬直播槍決死刑犯掀反彈聲浪　川普決定喊停",
         "rss_lead": "",
-        "summary": "鄭銘謙：新北檢表現已讓各界感受到查賄決心",
+        "summary": "美國擬直播槍決死刑犯掀反彈聲浪　川普決定喊停",
         "categories": [
-          "台灣"
+          "國際"
         ],
         "fact_status": "reported",
         "content_type": "news",
@@ -6926,100 +6957,180 @@
         "anchor_event": false,
         "sources": [
           {
-            "source_id": "rss-0808f8cb1538fbf70f9f",
+            "source_id": "rss-729c9fdc6db8db77bc7b",
             "publisher": "中央通訊社",
             "kind": "newswire",
-            "url": "https://www.cna.com.tw/news/asoc/202610150142.aspx",
+            "url": "https://www.cna.com.tw/news/aopl/202610150363.aspx",
             "published_at": "2026-10-15",
-            "excerpt": "鄭銘謙：新北檢表現已讓各界感受到查賄決心",
-            "section": "台灣"
+            "excerpt": "美國擬直播槍決死刑犯掀反彈聲浪　川普決定喊停",
+            "section": "國際"
           }
         ],
         "keywords": [
           {
-            "word": "新北",
+            "word": "美國",
             "clue_options": [
               {
-                "clue": "地名，環繞首都周邊、境內有九份及野柳。（2字）",
+                "clue": "國名，首都為華盛頓，國旗有星條圖案。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning"
+              },
+              {
+                "clue": "據報導，某國家或地區擬直播槍決死刑犯掀反彈聲浪　川普決定喊停。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "event"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "easy",
+            "clue": "國名，首都為華盛頓，國旗有星條圖案。（2字）"
+          }
+        ],
+        "aliases": [
+          "cna-8b17d38f9ac4c1bce5fc"
+        ],
+        "content_revision": "cna-8b17d38f9ac4c1bce5fc"
+      },
+      {
+        "event_id": "cna-9b6caff5277afeff6d85",
+        "dedup_key": "https://www.cna.com.tw/news/aopl/202610160003.aspx",
+        "event_date": "2026-10-16",
+        "updated_at": "2026-10-16",
+        "published_at": "2026-10-15T18:21:30.000Z",
+        "title": "CNN：烏克蘭愛國者飛彈耗盡　澤倫斯基籲美增援與川普分歧加深",
+        "rss_lead": "",
+        "summary": "CNN：烏克蘭愛國者飛彈耗盡　澤倫斯基籲美增援與川普分歧加深",
+        "categories": [
+          "國際"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-8213d20bb6d1cffcfdb9",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aopl/202610160003.aspx",
+            "published_at": "2026-10-16",
+            "excerpt": "CNN：烏克蘭愛國者飛彈耗盡　澤倫斯基籲美增援與川普分歧加深",
+            "section": "國際"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "烏克蘭",
+            "clue_options": [
+              {
+                "clue": "國名，以基輔為首都、國旗由藍黃兩色組成。（3字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning"
+              }
+            ],
+            "answer_score": 89,
+            "difficulty": "easy",
+            "clue": "國名，以基輔為首都、國旗由藍黃兩色組成。（3字）"
+          }
+        ],
+        "aliases": [
+          "cna-9b6caff5277afeff6d85"
+        ],
+        "content_revision": "cna-9b6caff5277afeff6d85"
+      },
+      {
+        "event_id": "cna-c6403b4a0b3010af37f6",
+        "dedup_key": "https://www.cna.com.tw/news/aopl/202610160004.aspx",
+        "event_date": "2026-10-16",
+        "updated_at": "2026-10-16",
+        "published_at": "2026-10-15T19:22:33.000Z",
+        "title": "葉門叛軍襲政府臨時首都總統府　傳釀至少4死10傷",
+        "rss_lead": "",
+        "summary": "葉門叛軍襲政府臨時首都總統府　傳釀至少4死10傷",
+        "categories": [
+          "國際"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-ebced5bdb12e07c7c4a2",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aopl/202610160004.aspx",
+            "published_at": "2026-10-16",
+            "excerpt": "葉門叛軍襲政府臨時首都總統府　傳釀至少4死10傷",
+            "section": "國際"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "總統府",
+            "clue_options": [
+              {
+                "clue": "國家元首辦公及處理公務的機關。（3字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning"
+              }
+            ],
+            "answer_score": 89,
+            "difficulty": "easy",
+            "clue": "國家元首辦公及處理公務的機關。（3字）"
+          }
+        ],
+        "aliases": [
+          "cna-c6403b4a0b3010af37f6"
+        ],
+        "content_revision": "cna-c6403b4a0b3010af37f6"
+      },
+      {
+        "event_id": "cna-4ee197e560405e3d6372",
+        "dedup_key": "https://www.cna.com.tw/news/aopl/202610160006.aspx",
+        "event_date": "2026-10-16",
+        "updated_at": "2026-10-16",
+        "published_at": "2026-10-15T20:21:39.000Z",
+        "title": "巴基斯坦學校屋頂坍塌釀35死逾50傷　倖存者稱彷彿天塌下來了",
+        "rss_lead": "",
+        "summary": "巴基斯坦學校屋頂坍塌釀35死逾50傷　倖存者稱彷彿天塌下來了",
+        "categories": [
+          "國際"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-b6ee44de311a8cafe084",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aopl/202610160006.aspx",
+            "published_at": "2026-10-16",
+            "excerpt": "巴基斯坦學校屋頂坍塌釀35死逾50傷　倖存者稱彷彿天塌下來了",
+            "section": "國際"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "學校",
+            "clue_options": [
+              {
+                "clue": "提供有組織課程、讓人接受學習的場所。（2字）",
                 "clue_style": "magazine-v1",
                 "clue_kind": "meaning"
               }
             ],
             "answer_score": 86,
             "difficulty": "easy",
-            "clue": "地名，環繞首都周邊、境內有九份及野柳。（2字）"
+            "clue": "提供有組織課程、讓人接受學習的場所。（2字）"
           }
         ],
         "aliases": [
-          "cna-b0e237ab0e2e6b954eb7"
+          "cna-4ee197e560405e3d6372"
         ],
-        "content_revision": "cna-b0e237ab0e2e6b954eb7"
-      },
-      {
-        "event_id": "cna-d5641a7da4e69d38b544",
-        "dedup_key": "https://www.cna.com.tw/news/asoc/202610150147.aspx",
-        "event_date": "2026-10-15",
-        "updated_at": "2026-10-15",
-        "published_at": "2026-10-15T06:28:25.000Z",
-        "title": "男子發文預測下個張文及攻擊地點　二審無罪確定",
-        "rss_lead": "",
-        "summary": "男子發文預測下個張文及攻擊地點　二審無罪確定",
-        "categories": [
-          "台灣"
-        ],
-        "fact_status": "reported",
-        "content_type": "news",
-        "event_score": 80,
-        "anchor_event": false,
-        "sources": [
-          {
-            "source_id": "rss-fa89aa72c8accfbff47e",
-            "publisher": "中央通訊社",
-            "kind": "newswire",
-            "url": "https://www.cna.com.tw/news/asoc/202610150147.aspx",
-            "published_at": "2026-10-15",
-            "excerpt": "男子發文預測下個張文及攻擊地點　二審無罪確定",
-            "section": "台灣"
-          }
-        ],
-        "keywords": [],
-        "aliases": [
-          "cna-d5641a7da4e69d38b544"
-        ],
-        "content_revision": "cna-d5641a7da4e69d38b544"
-      },
-      {
-        "event_id": "cna-6593c951bb847cd75e52",
-        "dedup_key": "https://www.cna.com.tw/news/asoc/202610150150.aspx",
-        "event_date": "2026-10-15",
-        "updated_at": "2026-10-15",
-        "published_at": "2026-10-15T06:31:32.000Z",
-        "title": "男假換匯真搶劫2看護逾20萬元　嘉檢依強盜起訴",
-        "rss_lead": "",
-        "summary": "男假換匯真搶劫2看護逾20萬元　嘉檢依強盜起訴",
-        "categories": [
-          "台灣"
-        ],
-        "fact_status": "reported",
-        "content_type": "news",
-        "event_score": 80,
-        "anchor_event": false,
-        "sources": [
-          {
-            "source_id": "rss-c255f3440e6e16aa30f2",
-            "publisher": "中央通訊社",
-            "kind": "newswire",
-            "url": "https://www.cna.com.tw/news/asoc/202610150150.aspx",
-            "published_at": "2026-10-15",
-            "excerpt": "男假換匯真搶劫2看護逾20萬元　嘉檢依強盜起訴",
-            "section": "台灣"
-          }
-        ],
-        "keywords": [],
-        "aliases": [
-          "cna-6593c951bb847cd75e52"
-        ],
-        "content_revision": "cna-6593c951bb847cd75e52"
+        "content_revision": "cna-4ee197e560405e3d6372"
       },
       {
         "event_id": "cna-49f8589ce375d8bd9002",
@@ -7722,39 +7833,6 @@
         "content_revision": "cna-e3f588979654148915b1"
       },
       {
-        "event_id": "cna-8777405b41b266d06ae3",
-        "dedup_key": "https://www.cna.com.tw/news/aspt/202610150144.aspx",
-        "event_date": "2026-10-15",
-        "updated_at": "2026-10-15",
-        "published_at": "2026-10-15T06:22:19.000Z",
-        "title": "西武獅2027年2月來台交流賽　約戰統一獅、中信兄弟",
-        "rss_lead": "",
-        "summary": "西武獅2027年2月來台交流賽　約戰統一獅、中信兄弟",
-        "categories": [
-          "體育"
-        ],
-        "fact_status": "reported",
-        "content_type": "news",
-        "event_score": 80,
-        "anchor_event": false,
-        "sources": [
-          {
-            "source_id": "rss-8301bf2434d10b817d74",
-            "publisher": "中央通訊社",
-            "kind": "newswire",
-            "url": "https://www.cna.com.tw/news/aspt/202610150144.aspx",
-            "published_at": "2026-10-15",
-            "excerpt": "西武獅2027年2月來台交流賽　約戰統一獅、中信兄弟",
-            "section": "體育"
-          }
-        ],
-        "keywords": [],
-        "aliases": [
-          "cna-8777405b41b266d06ae3"
-        ],
-        "content_revision": "cna-8777405b41b266d06ae3"
-      },
-      {
         "event_id": "cna-bc2a112d7073a15f06ba",
         "dedup_key": "https://www.cna.com.tw/news/aspt/202610150194.aspx",
         "event_date": "2026-10-15",
@@ -7957,6 +8035,125 @@
     ],
     "candidates": [
       {
+        "word": "學校",
+        "answer_score": 86,
+        "difficulty": "easy",
+        "clue": "提供有組織課程、讓人接受學習的場所。（2字）",
+        "id": "cna-4ee197e560405e3d6372::學校",
+        "event_id": "cna-4ee197e560405e3d6372",
+        "event_revision": "cna-4ee197e560405e3d6372",
+        "source_support": [
+          {
+            "source_id": "rss-b6ee44de311a8cafe084",
+            "evidence": "巴基斯坦學校屋頂坍塌釀35死逾50傷　倖存者稱彷彿天塌下來了"
+          }
+        ],
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning"
+      },
+      {
+        "word": "德國",
+        "answer_score": 86,
+        "difficulty": "easy",
+        "clue": "國名，以柏林為首都、境內有萊茵河。（2字）",
+        "id": "cna-c4b8faa3e88ad6e80288::德國",
+        "event_id": "cna-c4b8faa3e88ad6e80288",
+        "event_revision": "cna-c4b8faa3e88ad6e80288",
+        "source_support": [
+          {
+            "source_id": "rss-2237aeb470c32b02a81e",
+            "evidence": "德國擬與輝達簽合作協議　砸數億歐元加速AI導入工業領域"
+          }
+        ],
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning"
+      },
+      {
+        "word": "歐元",
+        "answer_score": 86,
+        "difficulty": "easy",
+        "clue": "多個歐洲國家共同採用的貨幣單位。（2字）",
+        "id": "cna-c4b8faa3e88ad6e80288::歐元",
+        "event_id": "cna-c4b8faa3e88ad6e80288",
+        "event_revision": "cna-c4b8faa3e88ad6e80288",
+        "source_support": [
+          {
+            "source_id": "rss-2237aeb470c32b02a81e",
+            "evidence": "德國擬與輝達簽合作協議　砸數億歐元加速AI導入工業領域"
+          }
+        ],
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning"
+      },
+      {
+        "word": "輝達",
+        "answer_score": 86,
+        "difficulty": "easy",
+        "clue": "以GPU及加速運算產品聞名、英文名稱為NVIDIA的企業。（2字）",
+        "id": "cna-c4b8faa3e88ad6e80288::輝達",
+        "event_id": "cna-c4b8faa3e88ad6e80288",
+        "event_revision": "cna-c4b8faa3e88ad6e80288",
+        "source_support": [
+          {
+            "source_id": "rss-2237aeb470c32b02a81e",
+            "evidence": "德國擬與輝達簽合作協議　砸數億歐元加速AI導入工業領域"
+          }
+        ],
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning"
+      },
+      {
+        "word": "總統府",
+        "answer_score": 89,
+        "difficulty": "easy",
+        "clue": "國家元首辦公及處理公務的機關。（3字）",
+        "id": "cna-c6403b4a0b3010af37f6::總統府",
+        "event_id": "cna-c6403b4a0b3010af37f6",
+        "event_revision": "cna-c6403b4a0b3010af37f6",
+        "source_support": [
+          {
+            "source_id": "rss-ebced5bdb12e07c7c4a2",
+            "evidence": "葉門叛軍襲政府臨時首都總統府　傳釀至少4死10傷"
+          }
+        ],
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning"
+      },
+      {
+        "word": "烏克蘭",
+        "answer_score": 89,
+        "difficulty": "easy",
+        "clue": "國名，以基輔為首都、國旗由藍黃兩色組成。（3字）",
+        "id": "cna-9b6caff5277afeff6d85::烏克蘭",
+        "event_id": "cna-9b6caff5277afeff6d85",
+        "event_revision": "cna-9b6caff5277afeff6d85",
+        "source_support": [
+          {
+            "source_id": "rss-8213d20bb6d1cffcfdb9",
+            "evidence": "CNN：烏克蘭愛國者飛彈耗盡　澤倫斯基籲美增援與川普分歧加深"
+          }
+        ],
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning"
+      },
+      {
+        "word": "美國",
+        "answer_score": 86,
+        "difficulty": "easy",
+        "clue": "國名，首都為華盛頓，國旗有星條圖案。（2字）",
+        "id": "cna-8b17d38f9ac4c1bce5fc::美國",
+        "event_id": "cna-8b17d38f9ac4c1bce5fc",
+        "event_revision": "cna-8b17d38f9ac4c1bce5fc",
+        "source_support": [
+          {
+            "source_id": "rss-729c9fdc6db8db77bc7b",
+            "evidence": "美國擬直播槍決死刑犯掀反彈聲浪　川普決定喊停"
+          }
+        ],
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning"
+      },
+      {
         "word": "台股",
         "answer_score": 86,
         "difficulty": "easy",
@@ -8059,23 +8256,6 @@
         "clue_kind": "meaning"
       },
       {
-        "word": "美國",
-        "answer_score": 86,
-        "difficulty": "easy",
-        "clue": "國名，首都為華盛頓，國旗有星條圖案。（2字）",
-        "id": "cna-e866b7ffe50e7d5ddebe::美國",
-        "event_id": "cna-e866b7ffe50e7d5ddebe",
-        "event_revision": "cna-e866b7ffe50e7d5ddebe",
-        "source_support": [
-          {
-            "source_id": "rss-02e3fbf24870725dcd30",
-            "evidence": "美國通膨壓力未減　華爾街股市開盤多下跌"
-          }
-        ],
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning"
-      },
-      {
         "word": "新北",
         "answer_score": 86,
         "difficulty": "easy",
@@ -8172,23 +8352,6 @@
           {
             "source_id": "rss-c2b33340515dd3069a2e",
             "evidence": "鴻海砸逾173億元增資　擴大美國AI製造"
-          }
-        ],
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning"
-      },
-      {
-        "word": "烏克蘭",
-        "answer_score": 89,
-        "difficulty": "easy",
-        "clue": "國名，以基輔為首都、國旗由藍黃兩色組成。（3字）",
-        "id": "cna-0f7a4aba90a0a66cc1ed::烏克蘭",
-        "event_id": "cna-0f7a4aba90a0a66cc1ed",
-        "event_revision": "cna-0f7a4aba90a0a66cc1ed",
-        "source_support": [
-          {
-            "source_id": "rss-ab89913d1dc9f61c90e6",
-            "evidence": "烏克蘭飛彈空襲俄國　稱擊損6架Su-34M戰鬥轟炸機"
           }
         ],
         "clue_style": "magazine-v1",
@@ -8620,23 +8783,6 @@
         "clue_kind": "meaning"
       },
       {
-        "word": "總統府",
-        "answer_score": 89,
-        "difficulty": "easy",
-        "clue": "國家元首辦公及處理公務的機關。（3字）",
-        "id": "cna-4cd96c93bd29e261ce34::總統府",
-        "event_id": "cna-4cd96c93bd29e261ce34",
-        "event_revision": "cna-4cd96c93bd29e261ce34",
-        "source_support": [
-          {
-            "source_id": "rss-38bcb071e00496958b67",
-            "evidence": "總統府17日開放參觀　安排客家民謠樂團、吳永吉演出"
-          }
-        ],
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning"
-      },
-      {
         "word": "台積電",
         "answer_score": 89,
         "difficulty": "easy",
@@ -8954,23 +9100,6 @@
           {
             "source_id": "rss-9177ecde536f17f1311b",
             "evidence": "基市議員參選人涉招待郵輪旅遊賄選　基隆檢警調搜索約談"
-          }
-        ],
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning"
-      },
-      {
-        "word": "學校",
-        "answer_score": 86,
-        "difficulty": "easy",
-        "clue": "提供有組織課程、讓人接受學習的場所。（2字）",
-        "id": "cna-af735463c13e2bf47c00::學校",
-        "event_id": "cna-af735463c13e2bf47c00",
-        "event_revision": "cna-af735463c13e2bf47c00",
-        "source_support": [
-          {
-            "source_id": "rss-a39e716f3b1fb7aa549f",
-            "evidence": "巴基斯坦學校屋頂坍塌至少28死　恐有更多人罹難"
           }
         ],
         "clue_style": "magazine-v1",
@@ -9385,14 +9514,14 @@
   },
   "automation": {
     "enabled": true,
-    "updated_at": "2026-10-15T17:07:33.076Z",
+    "updated_at": "2026-10-15T21:29:42.026Z",
     "window": {
       "from": "2026-10-10",
       "to": "2026-10-16"
     },
     "interval_hours": 6,
     "source_count": 9,
-    "candidate_count": 79,
+    "candidate_count": 82,
     "sources": [
       {
         "id": "cna-politics",
