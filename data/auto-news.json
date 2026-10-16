@@ -252,7 +252,7 @@
         "rss_lead": "",
         "summary": "歐盟峰會聚焦對中貿易  中國財長：應客觀看待全球失衡問題",
         "categories": [
-          "財經"
+          "國際"
         ],
         "fact_status": "reported",
         "content_type": "news",
@@ -266,7 +266,7 @@
             "url": "https://www.cna.com.tw/news/acn/202610160267.aspx",
             "published_at": "2026-10-16",
             "excerpt": "歐盟峰會聚焦對中貿易  中國財長：應客觀看待全球失衡問題",
-            "section": "財經"
+            "section": "國際"
           }
         ],
         "keywords": [
@@ -1857,6 +1857,66 @@
         "content_revision": "cna-abdff620c42efdd7f029"
       },
       {
+        "event_id": "cna-d619aa47457620723f4d",
+        "dedup_key": "https://www.cna.com.tw/news/afe/202610170002.aspx",
+        "event_date": "2026-10-17",
+        "updated_at": "2026-10-17",
+        "published_at": "2026-10-16T17:20:47.000Z",
+        "title": "輝達、聯準會安撫投資者　歐股收紅",
+        "rss_lead": "",
+        "summary": "輝達、聯準會安撫投資者　歐股收紅",
+        "categories": [
+          "財經"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-a2e3b887391c85406d4f",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/afe/202610170002.aspx",
+            "published_at": "2026-10-17",
+            "excerpt": "輝達、聯準會安撫投資者　歐股收紅",
+            "section": "財經"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "輝達",
+            "clue_options": [
+              {
+                "clue": "以GPU及加速運算產品聞名、英文名稱為NVIDIA的企業。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "easy",
+            "clue": "以GPU及加速運算產品聞名、英文名稱為NVIDIA的企業。（2字）"
+          },
+          {
+            "word": "投資",
+            "clue_options": [
+              {
+                "clue": "投入資金或資源，期望日後取得回報的活動。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "easy",
+            "clue": "投入資金或資源，期望日後取得回報的活動。（2字）"
+          }
+        ],
+        "aliases": [
+          "cna-d619aa47457620723f4d"
+        ],
+        "content_revision": "cna-d619aa47457620723f4d"
+      },
+      {
         "event_id": "cna-6f69c5310d765d59b46a",
         "dedup_key": "https://www.cna.com.tw/news/ahel/202610160146.aspx",
         "event_date": "2026-10-16",
@@ -2758,133 +2818,6 @@
           "cna-aa5ade85fce2c36f2beb"
         ],
         "content_revision": "cna-aa5ade85fce2c36f2beb"
-      },
-      {
-        "event_id": "cna-db7c600025002dee176e",
-        "dedup_key": "https://www.cna.com.tw/news/aipl/202610160138.aspx",
-        "event_date": "2026-10-16",
-        "updated_at": "2026-10-16",
-        "published_at": "2026-10-16T05:41:31.000Z",
-        "title": "國民黨團提案普發現金加碼至2萬元　立法院逕付二讀",
-        "rss_lead": "",
-        "summary": "國民黨團提案普發現金加碼至2萬元　立法院逕付二讀",
-        "categories": [
-          "台灣"
-        ],
-        "fact_status": "reported",
-        "content_type": "news",
-        "event_score": 80,
-        "anchor_event": false,
-        "sources": [
-          {
-            "source_id": "rss-7ee5dc767722f5cbb2f5",
-            "publisher": "中央通訊社",
-            "kind": "newswire",
-            "url": "https://www.cna.com.tw/news/aipl/202610160138.aspx",
-            "published_at": "2026-10-16",
-            "excerpt": "國民黨團提案普發現金加碼至2萬元　立法院逕付二讀",
-            "section": "台灣"
-          }
-        ],
-        "keywords": [
-          {
-            "word": "立法院",
-            "clue_options": [
-              {
-                "clue": "我國負責制定法律及審查預算的最高民意機關。（3字）",
-                "clue_style": "magazine-v1",
-                "clue_kind": "meaning"
-              }
-            ],
-            "answer_score": 89,
-            "difficulty": "easy",
-            "clue": "我國負責制定法律及審查預算的最高民意機關。（3字）"
-          }
-        ],
-        "aliases": [
-          "cna-db7c600025002dee176e"
-        ],
-        "content_revision": "cna-db7c600025002dee176e"
-      },
-      {
-        "event_id": "cna-4a401a5914146aeedd50",
-        "dedup_key": "https://www.cna.com.tw/news/aipl/202610160139.aspx",
-        "event_date": "2026-10-16",
-        "updated_at": "2026-10-16",
-        "published_at": "2026-10-16T05:41:33.000Z",
-        "title": "遭疑為蔣萬安代答　鄭照新：只轉述中市府院會發言",
-        "rss_lead": "",
-        "summary": "遭疑為蔣萬安代答　鄭照新：只轉述中市府院會發言",
-        "categories": [
-          "台灣"
-        ],
-        "fact_status": "reported",
-        "content_type": "news",
-        "event_score": 80,
-        "anchor_event": false,
-        "sources": [
-          {
-            "source_id": "rss-b067f2a728dcbc5a71f9",
-            "publisher": "中央通訊社",
-            "kind": "newswire",
-            "url": "https://www.cna.com.tw/news/aipl/202610160139.aspx",
-            "published_at": "2026-10-16",
-            "excerpt": "遭疑為蔣萬安代答　鄭照新：只轉述中市府院會發言",
-            "section": "台灣"
-          }
-        ],
-        "keywords": [],
-        "aliases": [
-          "cna-4a401a5914146aeedd50"
-        ],
-        "content_revision": "cna-4a401a5914146aeedd50"
-      },
-      {
-        "event_id": "cna-91343a704ffa63d2579d",
-        "dedup_key": "https://www.cna.com.tw/news/aipl/202610160140.aspx",
-        "event_date": "2026-10-16",
-        "updated_at": "2026-10-16",
-        "published_at": "2026-10-16T05:42:35.000Z",
-        "title": "賴總統探望百歲人瑞　親送金鎖片祝福健康長壽",
-        "rss_lead": "",
-        "summary": "賴總統探望百歲人瑞　親送金鎖片祝福健康長壽",
-        "categories": [
-          "台灣"
-        ],
-        "fact_status": "reported",
-        "content_type": "news",
-        "event_score": 80,
-        "anchor_event": false,
-        "sources": [
-          {
-            "source_id": "rss-84b89965e0287a22202a",
-            "publisher": "中央通訊社",
-            "kind": "newswire",
-            "url": "https://www.cna.com.tw/news/aipl/202610160140.aspx",
-            "published_at": "2026-10-16",
-            "excerpt": "賴總統探望百歲人瑞　親送金鎖片祝福健康長壽",
-            "section": "台灣"
-          }
-        ],
-        "keywords": [
-          {
-            "word": "健康",
-            "clue_options": [
-              {
-                "clue": "身心狀態良好、能適應日常生活的狀態。（2字）",
-                "clue_style": "magazine-v1",
-                "clue_kind": "meaning"
-              }
-            ],
-            "answer_score": 86,
-            "difficulty": "easy",
-            "clue": "身心狀態良好、能適應日常生活的狀態。（2字）"
-          }
-        ],
-        "aliases": [
-          "cna-91343a704ffa63d2579d"
-        ],
-        "content_revision": "cna-91343a704ffa63d2579d"
       },
       {
         "event_id": "cna-e39bed3b59596d10f516",
@@ -3835,6 +3768,39 @@
           "cna-467a34983370ad67a5f4"
         ],
         "content_revision": "cna-467a34983370ad67a5f4"
+      },
+      {
+        "event_id": "cna-2d8f5a65e3ec2fa9727a",
+        "dedup_key": "https://www.cna.com.tw/news/aipl/202610160360.aspx",
+        "event_date": "2026-10-16",
+        "updated_at": "2026-10-16",
+        "published_at": "2026-10-16T15:48:37.000Z",
+        "title": "澳軍司令談印太局勢：密切關注台海動向",
+        "rss_lead": "",
+        "summary": "澳軍司令談印太局勢：密切關注台海動向",
+        "categories": [
+          "台灣"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-8a0c6f151e14ae254538",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aipl/202610160360.aspx",
+            "published_at": "2026-10-16",
+            "excerpt": "澳軍司令談印太局勢：密切關注台海動向",
+            "section": "台灣"
+          }
+        ],
+        "keywords": [],
+        "aliases": [
+          "cna-2d8f5a65e3ec2fa9727a"
+        ],
+        "content_revision": "cna-2d8f5a65e3ec2fa9727a"
       },
       {
         "event_id": "cna-177b897531e04f266053",
@@ -5208,58 +5174,6 @@
           "cna-3b4aee61d63fee0c9f66"
         ],
         "content_revision": "cna-3b4aee61d63fee0c9f66"
-      },
-      {
-        "event_id": "cna-0e0b47e9a618b976846c",
-        "dedup_key": "https://www.cna.com.tw/news/aopl/202610160141.aspx",
-        "event_date": "2026-10-16",
-        "updated_at": "2026-10-16",
-        "published_at": "2026-10-16T05:43:37.000Z",
-        "title": "日本擬不明訂防衛費占GDP3.5%目標　政府料仍將大幅增加",
-        "rss_lead": "",
-        "summary": "日本擬不明訂防衛費占GDP3.5%目標　政府料仍將大幅增加",
-        "categories": [
-          "國際"
-        ],
-        "fact_status": "reported",
-        "content_type": "news",
-        "event_score": 80,
-        "anchor_event": false,
-        "sources": [
-          {
-            "source_id": "rss-ee763b3cad692068d83c",
-            "publisher": "中央通訊社",
-            "kind": "newswire",
-            "url": "https://www.cna.com.tw/news/aopl/202610160141.aspx",
-            "published_at": "2026-10-16",
-            "excerpt": "日本擬不明訂防衛費占GDP3.5%目標　政府料仍將大幅增加",
-            "section": "國際"
-          }
-        ],
-        "keywords": [
-          {
-            "word": "日本",
-            "clue_options": [
-              {
-                "clue": "國名，首都為東京，使用日圓。（2字）",
-                "clue_style": "magazine-v1",
-                "clue_kind": "meaning"
-              },
-              {
-                "clue": "據報導，某國家或地區擬不明訂防衛費占GDP3.5%目標　政府料仍將大幅增加。（2字）",
-                "clue_style": "magazine-v1",
-                "clue_kind": "event"
-              }
-            ],
-            "answer_score": 86,
-            "difficulty": "easy",
-            "clue": "國名，首都為東京，使用日圓。（2字）"
-          }
-        ],
-        "aliases": [
-          "cna-0e0b47e9a618b976846c"
-        ],
-        "content_revision": "cna-0e0b47e9a618b976846c"
       },
       {
         "event_id": "cna-a6b776251a2bb9cf7af2",
@@ -6713,6 +6627,100 @@
         "content_revision": "cna-fe6772c484a52a447f15"
       },
       {
+        "event_id": "cna-9f60cb594f5286029dbf",
+        "dedup_key": "https://www.cna.com.tw/news/aopl/202610170003.aspx",
+        "event_date": "2026-10-17",
+        "updated_at": "2026-10-17",
+        "published_at": "2026-10-16T18:36:50.000Z",
+        "title": "教宗良十四世呼籲停火援助烏克蘭平民　普丁表態支持",
+        "rss_lead": "",
+        "summary": "教宗良十四世呼籲停火援助烏克蘭平民　普丁表態支持",
+        "categories": [
+          "國際"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-524d00352956bc5d0393",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aopl/202610170003.aspx",
+            "published_at": "2026-10-17",
+            "excerpt": "教宗良十四世呼籲停火援助烏克蘭平民　普丁表態支持",
+            "section": "國際"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "烏克蘭",
+            "clue_options": [
+              {
+                "clue": "國名，以基輔為首都、國旗由藍黃兩色組成。（3字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning"
+              }
+            ],
+            "answer_score": 89,
+            "difficulty": "easy",
+            "clue": "國名，以基輔為首都、國旗由藍黃兩色組成。（3字）"
+          }
+        ],
+        "aliases": [
+          "cna-9f60cb594f5286029dbf"
+        ],
+        "content_revision": "cna-9f60cb594f5286029dbf"
+      },
+      {
+        "event_id": "cna-3540bd8e8518ef71e597",
+        "dedup_key": "https://www.cna.com.tw/news/aopl/202610170004.aspx",
+        "event_date": "2026-10-17",
+        "updated_at": "2026-10-17",
+        "published_at": "2026-10-16T19:24:53.000Z",
+        "title": "美2026財年預算赤字擴大至近2兆美元　創2021年來新高",
+        "rss_lead": "",
+        "summary": "美2026財年預算赤字擴大至近2兆美元　創2021年來新高",
+        "categories": [
+          "財經"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-4378faf652c96f20e738",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aopl/202610170004.aspx",
+            "published_at": "2026-10-17",
+            "excerpt": "美2026財年預算赤字擴大至近2兆美元　創2021年來新高",
+            "section": "財經"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "美元",
+            "clue_options": [
+              {
+                "clue": "美國使用的主要貨幣單位。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "easy",
+            "clue": "美國使用的主要貨幣單位。（2字）"
+          }
+        ],
+        "aliases": [
+          "cna-3540bd8e8518ef71e597"
+        ],
+        "content_revision": "cna-3540bd8e8518ef71e597"
+      },
+      {
         "event_id": "cna-975608802a0f7132664a",
         "dedup_key": "https://www.cna.com.tw/news/asoc/202610160143.aspx",
         "event_date": "2026-10-16",
@@ -7844,6 +7852,74 @@
     ],
     "candidates": [
       {
+        "word": "美元",
+        "answer_score": 86,
+        "difficulty": "easy",
+        "clue": "美國使用的主要貨幣單位。（2字）",
+        "id": "cna-3540bd8e8518ef71e597::美元",
+        "event_id": "cna-3540bd8e8518ef71e597",
+        "event_revision": "cna-3540bd8e8518ef71e597",
+        "source_support": [
+          {
+            "source_id": "rss-4378faf652c96f20e738",
+            "evidence": "美2026財年預算赤字擴大至近2兆美元　創2021年來新高"
+          }
+        ],
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning"
+      },
+      {
+        "word": "烏克蘭",
+        "answer_score": 89,
+        "difficulty": "easy",
+        "clue": "國名，以基輔為首都、國旗由藍黃兩色組成。（3字）",
+        "id": "cna-9f60cb594f5286029dbf::烏克蘭",
+        "event_id": "cna-9f60cb594f5286029dbf",
+        "event_revision": "cna-9f60cb594f5286029dbf",
+        "source_support": [
+          {
+            "source_id": "rss-524d00352956bc5d0393",
+            "evidence": "教宗良十四世呼籲停火援助烏克蘭平民　普丁表態支持"
+          }
+        ],
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning"
+      },
+      {
+        "word": "投資",
+        "answer_score": 86,
+        "difficulty": "easy",
+        "clue": "投入資金或資源，期望日後取得回報的活動。（2字）",
+        "id": "cna-d619aa47457620723f4d::投資",
+        "event_id": "cna-d619aa47457620723f4d",
+        "event_revision": "cna-d619aa47457620723f4d",
+        "source_support": [
+          {
+            "source_id": "rss-a2e3b887391c85406d4f",
+            "evidence": "輝達、聯準會安撫投資者　歐股收紅"
+          }
+        ],
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning"
+      },
+      {
+        "word": "輝達",
+        "answer_score": 86,
+        "difficulty": "easy",
+        "clue": "以GPU及加速運算產品聞名、英文名稱為NVIDIA的企業。（2字）",
+        "id": "cna-d619aa47457620723f4d::輝達",
+        "event_id": "cna-d619aa47457620723f4d",
+        "event_revision": "cna-d619aa47457620723f4d",
+        "source_support": [
+          {
+            "source_id": "rss-a2e3b887391c85406d4f",
+            "evidence": "輝達、聯準會安撫投資者　歐股收紅"
+          }
+        ],
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning"
+      },
+      {
         "word": "台南市",
         "answer_score": 89,
         "difficulty": "easy",
@@ -7855,23 +7931,6 @@
           {
             "source_id": "rss-6696a29bf6ef059657cb",
             "evidence": "台南市區平面鐵路走入歷史　車站人潮揮別最後列車"
-          }
-        ],
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning"
-      },
-      {
-        "word": "烏克蘭",
-        "answer_score": 89,
-        "difficulty": "easy",
-        "clue": "國名，以基輔為首都、國旗由藍黃兩色組成。（3字）",
-        "id": "cna-fe6772c484a52a447f15::烏克蘭",
-        "event_id": "cna-fe6772c484a52a447f15",
-        "event_revision": "cna-fe6772c484a52a447f15",
-        "source_support": [
-          {
-            "source_id": "rss-6291f05fc5ff332570f2",
-            "evidence": "烏克蘭軍用版星鏈服務受限　美官員：非川普要求"
           }
         ],
         "clue_style": "magazine-v1",
@@ -7940,23 +7999,6 @@
           {
             "source_id": "rss-6a1f5dbe3f052fc44845",
             "evidence": "澤倫斯基籲歐盟明年額外援助700億歐元　助烏克蘭續抗俄國"
-          }
-        ],
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning"
-      },
-      {
-        "word": "輝達",
-        "answer_score": 86,
-        "difficulty": "easy",
-        "clue": "以GPU及加速運算產品聞名、英文名稱為NVIDIA的企業。（2字）",
-        "id": "cna-abdff620c42efdd7f029::輝達",
-        "event_id": "cna-abdff620c42efdd7f029",
-        "event_revision": "cna-abdff620c42efdd7f029",
-        "source_support": [
-          {
-            "source_id": "rss-399219d6a59ad44e57dd",
-            "evidence": "傳旗艦顯卡RTX 5090停產　輝達高層駁斥：將持續供貨"
           }
         ],
         "clue_style": "magazine-v1",
@@ -8416,23 +8458,6 @@
           {
             "source_id": "rss-aa56e188545be55146b3",
             "evidence": "中國擬擴大技術出口管制  AI、生醫及太陽能光電40項納管"
-          }
-        ],
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning"
-      },
-      {
-        "word": "美國",
-        "answer_score": 86,
-        "difficulty": "easy",
-        "clue": "國名，首都為華盛頓，國旗有星條圖案。（2字）",
-        "id": "cna-302cd5826fd2460f405b::美國",
-        "event_id": "cna-302cd5826fd2460f405b",
-        "event_revision": "cna-302cd5826fd2460f405b",
-        "source_support": [
-          {
-            "source_id": "rss-3849f3c3fa5ef2b05404",
-            "evidence": "肯德基美國門市打破40年來慣例　改供應可口可樂"
           }
         ],
         "clue_style": "magazine-v1",
@@ -9066,23 +9091,6 @@
         ],
         "clue_style": "magazine-v1",
         "clue_kind": "meaning"
-      },
-      {
-        "word": "立法院",
-        "answer_score": 89,
-        "difficulty": "easy",
-        "clue": "我國負責制定法律及審查預算的最高民意機關。（3字）",
-        "id": "cna-db7c600025002dee176e::立法院",
-        "event_id": "cna-db7c600025002dee176e",
-        "event_revision": "cna-db7c600025002dee176e",
-        "source_support": [
-          {
-            "source_id": "rss-7ee5dc767722f5cbb2f5",
-            "evidence": "國民黨團提案普發現金加碼至2萬元　立法院逕付二讀"
-          }
-        ],
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning"
       }
     ]
   },
@@ -9170,7 +9178,7 @@
   },
   "automation": {
     "enabled": true,
-    "updated_at": "2026-10-16T16:44:46.741Z",
+    "updated_at": "2026-10-16T21:18:02.030Z",
     "window": {
       "from": "2026-10-11",
       "to": "2026-10-17"
