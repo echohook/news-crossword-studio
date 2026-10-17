@@ -1,86 +1,8 @@
 {
   "news": {
-    "issue_date": "2026-10-17",
+    "issue_date": "2026-10-18",
     "dataset_mode": "news",
     "events": [
-      {
-        "event_id": "cna-50966851a5f9b032071d",
-        "dedup_key": "https://www.cna.com.tw/news/acn/202610160346.aspx",
-        "event_date": "2026-10-16",
-        "updated_at": "2026-10-16",
-        "published_at": "2026-10-16T13:41:03.000Z",
-        "title": "歐盟擬擴大貿易限制  中國：不能幻想以施壓換好處",
-        "rss_lead": "",
-        "summary": "歐盟擬擴大貿易限制  中國：不能幻想以施壓換好處",
-        "categories": [
-          "財經"
-        ],
-        "fact_status": "reported",
-        "content_type": "news",
-        "event_score": 80,
-        "anchor_event": false,
-        "sources": [
-          {
-            "source_id": "rss-5ff96599c2db74ec8cf0",
-            "publisher": "中央通訊社",
-            "kind": "newswire",
-            "url": "https://www.cna.com.tw/news/acn/202610160346.aspx",
-            "published_at": "2026-10-16",
-            "excerpt": "歐盟擬擴大貿易限制  中國：不能幻想以施壓換好處",
-            "section": "財經"
-          }
-        ],
-        "keywords": [
-          {
-            "word": "中國",
-            "clue_options": [
-              {
-                "clue": "國名，以北京為首都、境內有萬里長城。（2字）",
-                "clue_style": "magazine-v1",
-                "clue_kind": "meaning"
-              }
-            ],
-            "answer_score": 86,
-            "difficulty": "easy",
-            "clue": "國名，以北京為首都、境內有萬里長城。（2字）"
-          },
-          {
-            "word": "歐盟",
-            "clue_options": [
-              {
-                "clue": "多個歐洲國家組成的政治與經貿聯合體的簡稱。（2字）",
-                "clue_style": "magazine-v1",
-                "clue_kind": "meaning"
-              },
-              {
-                "clue": "據報導，某國家或地區擬擴大貿易限制  中國：不能幻想以施壓換好處。（2字）",
-                "clue_style": "magazine-v1",
-                "clue_kind": "event"
-              }
-            ],
-            "answer_score": 86,
-            "difficulty": "easy",
-            "clue": "多個歐洲國家組成的政治與經貿聯合體的簡稱。（2字）"
-          },
-          {
-            "word": "貿易",
-            "clue_options": [
-              {
-                "clue": "買賣商品與服務，尤其涉及跨國交換的活動。（2字）",
-                "clue_style": "magazine-v1",
-                "clue_kind": "meaning"
-              }
-            ],
-            "answer_score": 86,
-            "difficulty": "easy",
-            "clue": "買賣商品與服務，尤其涉及跨國交換的活動。（2字）"
-          }
-        ],
-        "aliases": [
-          "cna-50966851a5f9b032071d"
-        ],
-        "content_revision": "cna-50966851a5f9b032071d"
-      },
       {
         "event_id": "cna-d6b98fd130971ec75964",
         "dedup_key": "https://www.cna.com.tw/news/acn/202610170019.aspx",
@@ -701,66 +623,6 @@
           "cna-9ac09940936f5eb0952c"
         ],
         "content_revision": "cna-9ac09940936f5eb0952c"
-      },
-      {
-        "event_id": "cna-509ad0ae72b9642ce5d2",
-        "dedup_key": "https://www.cna.com.tw/news/afe/202610160345.aspx",
-        "event_date": "2026-10-16",
-        "updated_at": "2026-10-16",
-        "published_at": "2026-10-16T13:40:01.000Z",
-        "title": "台積電CoWoS助力　輝達RTX Spark電腦強攻高階市場",
-        "rss_lead": "",
-        "summary": "台積電CoWoS助力　輝達RTX Spark電腦強攻高階市場",
-        "categories": [
-          "財經"
-        ],
-        "fact_status": "reported",
-        "content_type": "news",
-        "event_score": 80,
-        "anchor_event": false,
-        "sources": [
-          {
-            "source_id": "rss-4860138726529ca88a12",
-            "publisher": "中央通訊社",
-            "kind": "newswire",
-            "url": "https://www.cna.com.tw/news/afe/202610160345.aspx",
-            "published_at": "2026-10-16",
-            "excerpt": "台積電CoWoS助力　輝達RTX Spark電腦強攻高階市場",
-            "section": "財經"
-          }
-        ],
-        "keywords": [
-          {
-            "word": "台積電",
-            "clue_options": [
-              {
-                "clue": "1987年創立、專門替客戶製造積體電路的企業。（3字）",
-                "clue_style": "magazine-v1",
-                "clue_kind": "meaning"
-              }
-            ],
-            "answer_score": 89,
-            "difficulty": "easy",
-            "clue": "1987年創立、專門替客戶製造積體電路的企業。（3字）"
-          },
-          {
-            "word": "輝達",
-            "clue_options": [
-              {
-                "clue": "以GPU及加速運算產品聞名、英文名稱為NVIDIA的企業。（2字）",
-                "clue_style": "magazine-v1",
-                "clue_kind": "meaning"
-              }
-            ],
-            "answer_score": 86,
-            "difficulty": "easy",
-            "clue": "以GPU及加速運算產品聞名、英文名稱為NVIDIA的企業。（2字）"
-          }
-        ],
-        "aliases": [
-          "cna-509ad0ae72b9642ce5d2"
-        ],
-        "content_revision": "cna-509ad0ae72b9642ce5d2"
       },
       {
         "event_id": "cna-abdff620c42efdd7f029",
@@ -2313,39 +2175,6 @@
           "cna-f373e7d7c523ec41389f"
         ],
         "content_revision": "cna-f373e7d7c523ec41389f"
-      },
-      {
-        "event_id": "cna-2c64d753436034bea5ad",
-        "dedup_key": "https://www.cna.com.tw/news/aipl/202610160343.aspx",
-        "event_date": "2026-10-16",
-        "updated_at": "2026-10-16",
-        "published_at": "2026-10-16T13:32:55.000Z",
-        "title": "中央委員連署盼開除趙少康　國民黨：不樂見黨內紛爭",
-        "rss_lead": "",
-        "summary": "中央委員連署盼開除趙少康　國民黨：不樂見黨內紛爭",
-        "categories": [
-          "台灣"
-        ],
-        "fact_status": "reported",
-        "content_type": "news",
-        "event_score": 80,
-        "anchor_event": false,
-        "sources": [
-          {
-            "source_id": "rss-21655e48830dd511f5fa",
-            "publisher": "中央通訊社",
-            "kind": "newswire",
-            "url": "https://www.cna.com.tw/news/aipl/202610160343.aspx",
-            "published_at": "2026-10-16",
-            "excerpt": "中央委員連署盼開除趙少康　國民黨：不樂見黨內紛爭",
-            "section": "台灣"
-          }
-        ],
-        "keywords": [],
-        "aliases": [
-          "cna-2c64d753436034bea5ad"
-        ],
-        "content_revision": "cna-2c64d753436034bea5ad"
       },
       {
         "event_id": "cna-467a34983370ad67a5f4",
@@ -4767,16 +4596,16 @@
         "content_revision": "cna-37083cb5c1a38bfa0f78"
       },
       {
-        "event_id": "cna-976f0d58095b7ebddcda",
-        "dedup_key": "https://www.cna.com.tw/news/aopl/202610160344.aspx",
-        "event_date": "2026-10-16",
-        "updated_at": "2026-10-16",
-        "published_at": "2026-10-16T13:37:59.000Z",
-        "title": "梵蒂岡：教宗良十四世日常活動能完全自主　10/18公開露面",
+        "event_id": "cna-d4890835566667aff26f",
+        "dedup_key": "https://www.cna.com.tw/news/aloc/202610170177.aspx",
+        "event_date": "2026-10-17",
+        "updated_at": "2026-10-17",
+        "published_at": "2026-10-17T13:14:23.000Z",
+        "title": "反虐童護孩子集會凱道登場　沈伯洋提護童解方",
         "rss_lead": "",
-        "summary": "梵蒂岡：教宗良十四世日常活動能完全自主　10/18公開露面",
+        "summary": "反虐童護孩子集會凱道登場　沈伯洋提護童解方",
         "categories": [
-          "國際"
+          "台灣"
         ],
         "fact_status": "reported",
         "content_type": "news",
@@ -4784,20 +4613,53 @@
         "anchor_event": false,
         "sources": [
           {
-            "source_id": "rss-dc52d149e5bb84ecbb42",
+            "source_id": "rss-7f82887a24530bcc1d8a",
             "publisher": "中央通訊社",
             "kind": "newswire",
-            "url": "https://www.cna.com.tw/news/aopl/202610160344.aspx",
-            "published_at": "2026-10-16",
-            "excerpt": "梵蒂岡：教宗良十四世日常活動能完全自主　10/18公開露面",
-            "section": "國際"
+            "url": "https://www.cna.com.tw/news/aloc/202610170177.aspx",
+            "published_at": "2026-10-17",
+            "excerpt": "反虐童護孩子集會凱道登場　沈伯洋提護童解方",
+            "section": "台灣"
           }
         ],
         "keywords": [],
         "aliases": [
-          "cna-976f0d58095b7ebddcda"
+          "cna-d4890835566667aff26f"
         ],
-        "content_revision": "cna-976f0d58095b7ebddcda"
+        "content_revision": "cna-d4890835566667aff26f"
+      },
+      {
+        "event_id": "cna-1fa3050f87b804471287",
+        "dedup_key": "https://www.cna.com.tw/news/aloc/202610170181.aspx",
+        "event_date": "2026-10-17",
+        "updated_at": "2026-10-17",
+        "published_at": "2026-10-17T13:42:34.000Z",
+        "title": "蔡英文允任賴瑞隆競總榮譽主委　籲支持者幫忙拉票",
+        "rss_lead": "",
+        "summary": "蔡英文允任賴瑞隆競總榮譽主委　籲支持者幫忙拉票",
+        "categories": [
+          "台灣"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-1f91b44beced49ae0eac",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aloc/202610170181.aspx",
+            "published_at": "2026-10-17",
+            "excerpt": "蔡英文允任賴瑞隆競總榮譽主委　籲支持者幫忙拉票",
+            "section": "台灣"
+          }
+        ],
+        "keywords": [],
+        "aliases": [
+          "cna-1fa3050f87b804471287"
+        ],
+        "content_revision": "cna-1fa3050f87b804471287"
       },
       {
         "event_id": "cna-059abddb7cac730c4ea2",
@@ -6714,16 +6576,16 @@
         "content_revision": "cna-408f69fbf2cd763657cc"
       },
       {
-        "event_id": "cna-a4ec9d004fd36f989be8",
-        "dedup_key": "https://www.cna.com.tw/news/asoc/202610160342.aspx",
-        "event_date": "2026-10-16",
-        "updated_at": "2026-10-16",
-        "published_at": "2026-10-16T13:29:53.000Z",
-        "title": "蘇花公路邊坡發現男屍　警消調查身分",
+        "event_id": "cna-b1c82bd5ac3a844d0446",
+        "dedup_key": "https://www.cna.com.tw/news/aopl/202610170193.aspx",
+        "event_date": "2026-10-17",
+        "updated_at": "2026-10-17",
+        "published_at": "2026-10-17T15:00:02.000Z",
+        "title": "教宗良十四世肺癌手術過後4天　出院返回梵蒂岡",
         "rss_lead": "",
-        "summary": "蘇花公路邊坡發現男屍　警消調查身分",
+        "summary": "教宗良十四世肺癌手術過後4天　出院返回梵蒂岡",
         "categories": [
-          "台灣"
+          "國際"
         ],
         "fact_status": "reported",
         "content_type": "news",
@@ -6731,20 +6593,53 @@
         "anchor_event": false,
         "sources": [
           {
-            "source_id": "rss-f0b94aa38c5c8de60609",
+            "source_id": "rss-4417279744df0d38ff31",
             "publisher": "中央通訊社",
             "kind": "newswire",
-            "url": "https://www.cna.com.tw/news/asoc/202610160342.aspx",
-            "published_at": "2026-10-16",
-            "excerpt": "蘇花公路邊坡發現男屍　警消調查身分",
-            "section": "台灣"
+            "url": "https://www.cna.com.tw/news/aopl/202610170193.aspx",
+            "published_at": "2026-10-17",
+            "excerpt": "教宗良十四世肺癌手術過後4天　出院返回梵蒂岡",
+            "section": "國際"
           }
         ],
         "keywords": [],
         "aliases": [
-          "cna-a4ec9d004fd36f989be8"
+          "cna-b1c82bd5ac3a844d0446"
         ],
-        "content_revision": "cna-a4ec9d004fd36f989be8"
+        "content_revision": "cna-b1c82bd5ac3a844d0446"
+      },
+      {
+        "event_id": "cna-18fb995fa728e0b09d19",
+        "dedup_key": "https://www.cna.com.tw/news/aopl/202610180003.aspx",
+        "event_date": "2026-10-18",
+        "updated_at": "2026-10-18",
+        "published_at": "2026-10-17T17:55:16.000Z",
+        "title": "教宗良十四世出院獲夾道歡迎　信徒高呼無比喜樂",
+        "rss_lead": "",
+        "summary": "教宗良十四世出院獲夾道歡迎　信徒高呼無比喜樂",
+        "categories": [
+          "國際"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-73df1ce86558200de3ac",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aopl/202610180003.aspx",
+            "published_at": "2026-10-18",
+            "excerpt": "教宗良十四世出院獲夾道歡迎　信徒高呼無比喜樂",
+            "section": "國際"
+          }
+        ],
+        "keywords": [],
+        "aliases": [
+          "cna-18fb995fa728e0b09d19"
+        ],
+        "content_revision": "cna-18fb995fa728e0b09d19"
       },
       {
         "event_id": "cna-06667a5ad89c2a7371ca",
@@ -7935,9 +7830,133 @@
           "cna-4c84ab71129a700ac6c7"
         ],
         "content_revision": "cna-4c84ab71129a700ac6c7"
+      },
+      {
+        "event_id": "cna-1b9c1a4cce369d876f92",
+        "dedup_key": "https://www.cna.com.tw/news/aspt/202610180002.aspx",
+        "event_date": "2026-10-18",
+        "updated_at": "2026-10-18",
+        "published_at": "2026-10-17T16:57:13.000Z",
+        "title": "陳秉軒李威霆退日本組合　奪台灣羽球世青賽史首面男雙金牌",
+        "rss_lead": "",
+        "summary": "陳秉軒李威霆退日本組合　奪台灣羽球世青賽史首面男雙金牌",
+        "categories": [
+          "體育"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-05fa0bb77e3c2dd86725",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aspt/202610180002.aspx",
+            "published_at": "2026-10-18",
+            "excerpt": "陳秉軒李威霆退日本組合　奪台灣羽球世青賽史首面男雙金牌",
+            "section": "體育"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "台灣",
+            "clue_options": [
+              {
+                "clue": "島嶼名，以玉山為最高峰，位於東亞海域。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "easy",
+            "clue": "島嶼名，以玉山為最高峰，位於東亞海域。（2字）"
+          },
+          {
+            "word": "日本",
+            "clue_options": [
+              {
+                "clue": "國名，首都為東京，使用日圓。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "easy",
+            "clue": "國名，首都為東京，使用日圓。（2字）"
+          },
+          {
+            "word": "羽球",
+            "clue_options": [
+              {
+                "clue": "使用帶羽毛的小球、隔網以拍互擊的運動。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "easy",
+            "clue": "使用帶羽毛的小球、隔網以拍互擊的運動。（2字）"
+          }
+        ],
+        "aliases": [
+          "cna-1b9c1a4cce369d876f92"
+        ],
+        "content_revision": "cna-1b9c1a4cce369d876f92"
       }
     ],
     "candidates": [
+      {
+        "word": "台灣",
+        "answer_score": 86,
+        "difficulty": "easy",
+        "clue": "島嶼名，以玉山為最高峰，位於東亞海域。（2字）",
+        "id": "cna-1b9c1a4cce369d876f92::台灣",
+        "event_id": "cna-1b9c1a4cce369d876f92",
+        "event_revision": "cna-1b9c1a4cce369d876f92",
+        "source_support": [
+          {
+            "source_id": "rss-05fa0bb77e3c2dd86725",
+            "evidence": "陳秉軒李威霆退日本組合　奪台灣羽球世青賽史首面男雙金牌"
+          }
+        ],
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning"
+      },
+      {
+        "word": "日本",
+        "answer_score": 86,
+        "difficulty": "easy",
+        "clue": "國名，首都為東京，使用日圓。（2字）",
+        "id": "cna-1b9c1a4cce369d876f92::日本",
+        "event_id": "cna-1b9c1a4cce369d876f92",
+        "event_revision": "cna-1b9c1a4cce369d876f92",
+        "source_support": [
+          {
+            "source_id": "rss-05fa0bb77e3c2dd86725",
+            "evidence": "陳秉軒李威霆退日本組合　奪台灣羽球世青賽史首面男雙金牌"
+          }
+        ],
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning"
+      },
+      {
+        "word": "羽球",
+        "answer_score": 86,
+        "difficulty": "easy",
+        "clue": "使用帶羽毛的小球、隔網以拍互擊的運動。（2字）",
+        "id": "cna-1b9c1a4cce369d876f92::羽球",
+        "event_id": "cna-1b9c1a4cce369d876f92",
+        "event_revision": "cna-1b9c1a4cce369d876f92",
+        "source_support": [
+          {
+            "source_id": "rss-05fa0bb77e3c2dd86725",
+            "evidence": "陳秉軒李威霆退日本組合　奪台灣羽球世青賽史首面男雙金牌"
+          }
+        ],
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning"
+      },
       {
         "word": "韓國瑜",
         "answer_score": 89,
@@ -7984,23 +8003,6 @@
           {
             "source_id": "rss-75180197431b2c7743c0",
             "evidence": "韓議員揭露近200輛比亞迪可進出軍事重地　憂翻拍機密傳中國"
-          }
-        ],
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning"
-      },
-      {
-        "word": "運動",
-        "answer_score": 86,
-        "difficulty": "easy",
-        "clue": "透過身體活動鍛鍊體能或參與競賽的活動。（2字）",
-        "id": "cna-a1a61bd608358b7ec85d::運動",
-        "event_id": "cna-a1a61bd608358b7ec85d",
-        "event_revision": "cna-a1a61bd608358b7ec85d",
-        "source_support": [
-          {
-            "source_id": "rss-f9610939c73836f1ed4e",
-            "evidence": "全民運動會開幕　賴總統：讓各運動項目都有發展空間"
           }
         ],
         "clue_style": "magazine-v1",
@@ -8143,23 +8145,6 @@
         "clue_kind": "meaning"
       },
       {
-        "word": "台灣",
-        "answer_score": 86,
-        "difficulty": "easy",
-        "clue": "島嶼名，以玉山為最高峰，位於東亞海域。（2字）",
-        "id": "cna-d0708ba8781bc4d7335a::台灣",
-        "event_id": "cna-d0708ba8781bc4d7335a",
-        "event_revision": "cna-d0708ba8781bc4d7335a",
-        "source_support": [
-          {
-            "source_id": "rss-7347d68de431ff0790cd",
-            "evidence": "台中大墩美展新加坡開幕　藝術家秀台灣多元創作能量"
-          }
-        ],
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning"
-      },
-      {
         "word": "醫療",
         "answer_score": 86,
         "difficulty": "easy",
@@ -8273,6 +8258,23 @@
           {
             "source_id": "rss-10a729075c8d93509f59",
             "evidence": "川普暫緩大規模制裁俄羅斯　澤倫斯基：獎勵且鼓舞普丁"
+          }
+        ],
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning"
+      },
+      {
+        "word": "奧運",
+        "answer_score": 86,
+        "difficulty": "easy",
+        "clue": "奧林匹克運動會的簡稱。（2字）",
+        "id": "cna-ea4242ee18bcfdc75fe4::奧運",
+        "event_id": "cna-ea4242ee18bcfdc75fe4",
+        "event_revision": "cna-ea4242ee18bcfdc75fe4",
+        "source_support": [
+          {
+            "source_id": "rss-bbc68fa57f097e2a2957",
+            "evidence": "楊勇緯續拚奧運積分　感謝哥哥鼓勵自己是最強"
           }
         ],
         "clue_style": "magazine-v1",
@@ -8607,23 +8609,6 @@
         "difficulty": "easy",
         "clue": "1987年創立、專門替客戶製造積體電路的企業。（3字）",
         "id": "cna-30cc2291d64e88c63ab9::台積電",
-        "event_id": "cna-30cc2291d64e88c63ab9",
-        "event_revision": "cna-30cc2291d64e88c63ab9",
-        "source_support": [
-          {
-            "source_id": "rss-b2f14d04485a955dcb9c",
-            "evidence": "台積電在熊本建3奈米廠　日本批准補助資格"
-          }
-        ],
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning"
-      },
-      {
-        "word": "日本",
-        "answer_score": 86,
-        "difficulty": "easy",
-        "clue": "國名，首都為東京，使用日圓。（2字）",
-        "id": "cna-30cc2291d64e88c63ab9::日本",
         "event_id": "cna-30cc2291d64e88c63ab9",
         "event_revision": "cna-30cc2291d64e88c63ab9",
         "source_support": [
@@ -9078,14 +9063,14 @@
   },
   "automation": {
     "enabled": true,
-    "updated_at": "2026-10-17T15:41:24.514Z",
+    "updated_at": "2026-10-17T20:41:29.694Z",
     "window": {
-      "from": "2026-10-11",
-      "to": "2026-10-17"
+      "from": "2026-10-12",
+      "to": "2026-10-18"
     },
     "interval_hours": 6,
     "source_count": 9,
-    "candidate_count": 62,
+    "candidate_count": 63,
     "sources": [
       {
         "id": "cna-politics",
