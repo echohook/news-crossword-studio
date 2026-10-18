@@ -1,6 +1,6 @@
 {
   "news": {
-    "issue_date": "2026-10-18",
+    "issue_date": "2026-10-19",
     "dataset_mode": "news",
     "events": [
       {
@@ -1817,146 +1817,6 @@
         "content_revision": "cna-908536f78b5884fa7dc8"
       },
       {
-        "event_id": "cna-6eced664e3211df4a862",
-        "dedup_key": "https://www.cna.com.tw/news/aipl/202610170176.aspx",
-        "event_date": "2026-10-17",
-        "updated_at": "2026-10-17",
-        "published_at": "2026-10-17T13:03:20.000Z",
-        "title": "吳志中出席西班牙國慶酒會　盼持續深化雙邊夥伴關係",
-        "rss_lead": "",
-        "summary": "吳志中出席西班牙國慶酒會　盼持續深化雙邊夥伴關係",
-        "categories": [
-          "台灣"
-        ],
-        "fact_status": "reported",
-        "content_type": "news",
-        "event_score": 80,
-        "anchor_event": false,
-        "sources": [
-          {
-            "source_id": "rss-db2bf320006d9771897b",
-            "publisher": "中央通訊社",
-            "kind": "newswire",
-            "url": "https://www.cna.com.tw/news/aipl/202610170176.aspx",
-            "published_at": "2026-10-17",
-            "excerpt": "吳志中出席西班牙國慶酒會　盼持續深化雙邊夥伴關係",
-            "section": "台灣"
-          }
-        ],
-        "keywords": [
-          {
-            "word": "西班牙",
-            "clue_options": [
-              {
-                "clue": "國名，以馬德里為首都、以佛朗明哥舞聞名。（3字）",
-                "clue_style": "magazine-v1",
-                "clue_kind": "meaning"
-              }
-            ],
-            "answer_score": 89,
-            "difficulty": "easy",
-            "clue": "國名，以馬德里為首都、以佛朗明哥舞聞名。（3字）"
-          },
-          {
-            "word": "國慶",
-            "clue_options": [
-              {
-                "clue": "紀念一個國家成立等重要歷史事件的慶祝活動。（2字）",
-                "clue_style": "magazine-v1",
-                "clue_kind": "meaning"
-              }
-            ],
-            "answer_score": 86,
-            "difficulty": "easy",
-            "clue": "紀念一個國家成立等重要歷史事件的慶祝活動。（2字）"
-          }
-        ],
-        "aliases": [
-          "cna-6eced664e3211df4a862"
-        ],
-        "content_revision": "cna-6eced664e3211df4a862"
-      },
-      {
-        "event_id": "cna-a1a61bd608358b7ec85d",
-        "dedup_key": "https://www.cna.com.tw/news/aipl/202610170178.aspx",
-        "event_date": "2026-10-17",
-        "updated_at": "2026-10-17",
-        "published_at": "2026-10-17T13:18:25.000Z",
-        "title": "全民運動會開幕　賴總統：讓各運動項目都有發展空間",
-        "rss_lead": "",
-        "summary": "全民運動會開幕　賴總統：讓各運動項目都有發展空間",
-        "categories": [
-          "台灣"
-        ],
-        "fact_status": "reported",
-        "content_type": "news",
-        "event_score": 80,
-        "anchor_event": false,
-        "sources": [
-          {
-            "source_id": "rss-f9610939c73836f1ed4e",
-            "publisher": "中央通訊社",
-            "kind": "newswire",
-            "url": "https://www.cna.com.tw/news/aipl/202610170178.aspx",
-            "published_at": "2026-10-17",
-            "excerpt": "全民運動會開幕　賴總統：讓各運動項目都有發展空間",
-            "section": "台灣"
-          }
-        ],
-        "keywords": [
-          {
-            "word": "運動",
-            "clue_options": [
-              {
-                "clue": "透過身體活動鍛鍊體能或參與競賽的活動。（2字）",
-                "clue_style": "magazine-v1",
-                "clue_kind": "meaning"
-              }
-            ],
-            "answer_score": 86,
-            "difficulty": "easy",
-            "clue": "透過身體活動鍛鍊體能或參與競賽的活動。（2字）"
-          }
-        ],
-        "aliases": [
-          "cna-a1a61bd608358b7ec85d"
-        ],
-        "content_revision": "cna-a1a61bd608358b7ec85d"
-      },
-      {
-        "event_id": "cna-54d7984e19d17c430583",
-        "dedup_key": "https://www.cna.com.tw/news/aipl/202610170182.aspx",
-        "event_date": "2026-10-17",
-        "updated_at": "2026-10-17",
-        "published_at": "2026-10-17T13:42:36.000Z",
-        "title": "蘇巧慧顏蔚慈聯合造勢　張惇涵站台保證果菜市場不遷蘆洲",
-        "rss_lead": "",
-        "summary": "蘇巧慧顏蔚慈聯合造勢　張惇涵站台保證果菜市場不遷蘆洲",
-        "categories": [
-          "台灣"
-        ],
-        "fact_status": "reported",
-        "content_type": "news",
-        "event_score": 80,
-        "anchor_event": false,
-        "sources": [
-          {
-            "source_id": "rss-dc4c67e4a4d49b5833d0",
-            "publisher": "中央通訊社",
-            "kind": "newswire",
-            "url": "https://www.cna.com.tw/news/aipl/202610170182.aspx",
-            "published_at": "2026-10-17",
-            "excerpt": "蘇巧慧顏蔚慈聯合造勢　張惇涵站台保證果菜市場不遷蘆洲",
-            "section": "台灣"
-          }
-        ],
-        "keywords": [],
-        "aliases": [
-          "cna-54d7984e19d17c430583"
-        ],
-        "content_revision": "cna-54d7984e19d17c430583"
-      },
-      {
         "event_id": "cna-f26d82e20d17e37270fc",
         "dedup_key": "https://www.cna.com.tw/news/aipl/202610170189.aspx",
         "event_date": "2026-10-17",
@@ -2969,72 +2829,6 @@
           "cna-f483ce24dacba6882658"
         ],
         "content_revision": "cna-f483ce24dacba6882658"
-      },
-      {
-        "event_id": "cna-d4890835566667aff26f",
-        "dedup_key": "https://www.cna.com.tw/news/aloc/202610170177.aspx",
-        "event_date": "2026-10-17",
-        "updated_at": "2026-10-17",
-        "published_at": "2026-10-17T13:14:23.000Z",
-        "title": "反虐童護孩子集會凱道登場　沈伯洋提護童解方",
-        "rss_lead": "",
-        "summary": "反虐童護孩子集會凱道登場　沈伯洋提護童解方",
-        "categories": [
-          "台灣"
-        ],
-        "fact_status": "reported",
-        "content_type": "news",
-        "event_score": 80,
-        "anchor_event": false,
-        "sources": [
-          {
-            "source_id": "rss-7f82887a24530bcc1d8a",
-            "publisher": "中央通訊社",
-            "kind": "newswire",
-            "url": "https://www.cna.com.tw/news/aloc/202610170177.aspx",
-            "published_at": "2026-10-17",
-            "excerpt": "反虐童護孩子集會凱道登場　沈伯洋提護童解方",
-            "section": "台灣"
-          }
-        ],
-        "keywords": [],
-        "aliases": [
-          "cna-d4890835566667aff26f"
-        ],
-        "content_revision": "cna-d4890835566667aff26f"
-      },
-      {
-        "event_id": "cna-1fa3050f87b804471287",
-        "dedup_key": "https://www.cna.com.tw/news/aloc/202610170181.aspx",
-        "event_date": "2026-10-17",
-        "updated_at": "2026-10-17",
-        "published_at": "2026-10-17T13:42:34.000Z",
-        "title": "蔡英文允任賴瑞隆競總榮譽主委　籲支持者幫忙拉票",
-        "rss_lead": "",
-        "summary": "蔡英文允任賴瑞隆競總榮譽主委　籲支持者幫忙拉票",
-        "categories": [
-          "台灣"
-        ],
-        "fact_status": "reported",
-        "content_type": "news",
-        "event_score": 80,
-        "anchor_event": false,
-        "sources": [
-          {
-            "source_id": "rss-1f91b44beced49ae0eac",
-            "publisher": "中央通訊社",
-            "kind": "newswire",
-            "url": "https://www.cna.com.tw/news/aloc/202610170181.aspx",
-            "published_at": "2026-10-17",
-            "excerpt": "蔡英文允任賴瑞隆競總榮譽主委　籲支持者幫忙拉票",
-            "section": "台灣"
-          }
-        ],
-        "keywords": [],
-        "aliases": [
-          "cna-1fa3050f87b804471287"
-        ],
-        "content_revision": "cna-1fa3050f87b804471287"
       },
       {
         "event_id": "cna-8cb7d8a8b4805ad92b2f",
@@ -6110,6 +5904,394 @@
         "content_revision": "cna-358b1e71218a0d61a319"
       },
       {
+        "event_id": "cna-d3582691974a51f665fc",
+        "dedup_key": "https://www.cna.com.tw/news/aopl/202610180188.aspx",
+        "event_date": "2026-10-18",
+        "updated_at": "2026-10-18",
+        "published_at": "2026-10-18T13:25:13.000Z",
+        "title": "不顧川普要求　烏對俄發動今年最大無人機攻擊之一",
+        "rss_lead": "",
+        "summary": "不顧川普要求　烏對俄發動今年最大無人機攻擊之一",
+        "categories": [
+          "國際"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-5d051f45c53ac45318a3",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aopl/202610180188.aspx",
+            "published_at": "2026-10-18",
+            "excerpt": "不顧川普要求　烏對俄發動今年最大無人機攻擊之一",
+            "section": "國際"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "無人機",
+            "clue_options": [
+              {
+                "clue": "不需要機上駕駛員、可由遠端操控的航空器。（3字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning"
+              }
+            ],
+            "answer_score": 89,
+            "difficulty": "easy",
+            "clue": "不需要機上駕駛員、可由遠端操控的航空器。（3字）"
+          }
+        ],
+        "aliases": [
+          "cna-d3582691974a51f665fc"
+        ],
+        "content_revision": "cna-d3582691974a51f665fc"
+      },
+      {
+        "event_id": "cna-132b2217d14aa1c78cc8",
+        "dedup_key": "https://www.cna.com.tw/news/aopl/202610180189.aspx",
+        "event_date": "2026-10-18",
+        "updated_at": "2026-10-18",
+        "published_at": "2026-10-18T13:35:17.000Z",
+        "title": "美國拉攏中亞　盧比歐率200多位美企高層訪烏茲別克",
+        "rss_lead": "",
+        "summary": "美國拉攏中亞　盧比歐率200多位美企高層訪烏茲別克",
+        "categories": [
+          "國際"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-2e684601b57bc790a297",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aopl/202610180189.aspx",
+            "published_at": "2026-10-18",
+            "excerpt": "美國拉攏中亞　盧比歐率200多位美企高層訪烏茲別克",
+            "section": "國際"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "美國",
+            "clue_options": [
+              {
+                "clue": "國名，首都為華盛頓，國旗有星條圖案。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "easy",
+            "clue": "國名，首都為華盛頓，國旗有星條圖案。（2字）"
+          }
+        ],
+        "aliases": [
+          "cna-132b2217d14aa1c78cc8"
+        ],
+        "content_revision": "cna-132b2217d14aa1c78cc8"
+      },
+      {
+        "event_id": "cna-dd2ca31022eeb2e1f69a",
+        "dedup_key": "https://www.cna.com.tw/news/aopl/202610180190.aspx",
+        "event_date": "2026-10-18",
+        "updated_at": "2026-10-18",
+        "published_at": "2026-10-18T13:43:20.000Z",
+        "title": "烏克蘭盼用星盾打擊俄國　盧比歐：基輔目前無權限",
+        "rss_lead": "",
+        "summary": "烏克蘭盼用星盾打擊俄國　盧比歐：基輔目前無權限",
+        "categories": [
+          "國際"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-2474ca09d64422d68fff",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aopl/202610180190.aspx",
+            "published_at": "2026-10-18",
+            "excerpt": "烏克蘭盼用星盾打擊俄國　盧比歐：基輔目前無權限",
+            "section": "國際"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "烏克蘭",
+            "clue_options": [
+              {
+                "clue": "國名，以基輔為首都、國旗由藍黃兩色組成。（3字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning"
+              }
+            ],
+            "answer_score": 89,
+            "difficulty": "easy",
+            "clue": "國名，以基輔為首都、國旗由藍黃兩色組成。（3字）"
+          }
+        ],
+        "aliases": [
+          "cna-dd2ca31022eeb2e1f69a"
+        ],
+        "content_revision": "cna-dd2ca31022eeb2e1f69a"
+      },
+      {
+        "event_id": "cna-533b8a2ecbbbd8840b1d",
+        "dedup_key": "https://www.cna.com.tw/news/aopl/202610180191.aspx",
+        "event_date": "2026-10-18",
+        "updated_at": "2026-10-18",
+        "published_at": "2026-10-18T13:47:22.000Z",
+        "title": "前英相蘇納克：中國以增他國依賴為目標　歐洲面臨險境",
+        "rss_lead": "",
+        "summary": "前英相蘇納克：中國以增他國依賴為目標　歐洲面臨險境",
+        "categories": [
+          "國際"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-7428c697b93dbe717927",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aopl/202610180191.aspx",
+            "published_at": "2026-10-18",
+            "excerpt": "前英相蘇納克：中國以增他國依賴為目標　歐洲面臨險境",
+            "section": "國際"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "中國",
+            "clue_options": [
+              {
+                "clue": "國名，以北京為首都、境內有萬里長城。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "easy",
+            "clue": "國名，以北京為首都、境內有萬里長城。（2字）"
+          },
+          {
+            "word": "歐洲",
+            "clue_options": [
+              {
+                "clue": "洲名，阿爾卑斯山及多瑙河所在的一洲。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "easy",
+            "clue": "洲名，阿爾卑斯山及多瑙河所在的一洲。（2字）"
+          }
+        ],
+        "aliases": [
+          "cna-533b8a2ecbbbd8840b1d"
+        ],
+        "content_revision": "cna-533b8a2ecbbbd8840b1d"
+      },
+      {
+        "event_id": "cna-30bf78fba55b32373939",
+        "dedup_key": "https://www.cna.com.tw/news/aopl/202610180195.aspx",
+        "event_date": "2026-10-18",
+        "updated_at": "2026-10-18",
+        "published_at": "2026-10-18T15:05:36.000Z",
+        "title": "澤倫斯基稱美國恢復情報分享　助烏克蘭防俄軍空襲",
+        "rss_lead": "",
+        "summary": "澤倫斯基稱美國恢復情報分享　助烏克蘭防俄軍空襲",
+        "categories": [
+          "國際"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-d4e99fc43a3bd06fec59",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aopl/202610180195.aspx",
+            "published_at": "2026-10-18",
+            "excerpt": "澤倫斯基稱美國恢復情報分享　助烏克蘭防俄軍空襲",
+            "section": "國際"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "美國",
+            "clue_options": [
+              {
+                "clue": "國名，首都為華盛頓，國旗有星條圖案。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "easy",
+            "clue": "國名，首都為華盛頓，國旗有星條圖案。（2字）"
+          },
+          {
+            "word": "烏克蘭",
+            "clue_options": [
+              {
+                "clue": "國名，以基輔為首都、國旗由藍黃兩色組成。（3字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning"
+              }
+            ],
+            "answer_score": 89,
+            "difficulty": "easy",
+            "clue": "國名，以基輔為首都、國旗由藍黃兩色組成。（3字）"
+          }
+        ],
+        "aliases": [
+          "cna-30bf78fba55b32373939"
+        ],
+        "content_revision": "cna-30bf78fba55b32373939"
+      },
+      {
+        "event_id": "cna-af137f9a664c0149228b",
+        "dedup_key": "https://www.cna.com.tw/news/aopl/202610180197.aspx",
+        "event_date": "2026-10-18",
+        "updated_at": "2026-10-18",
+        "published_at": "2026-10-18T15:14:40.000Z",
+        "title": "川普怪罪移民造成法國動亂破壞　呼籲收緊邊界管控",
+        "rss_lead": "",
+        "summary": "川普怪罪移民造成法國動亂破壞　呼籲收緊邊界管控",
+        "categories": [
+          "國際"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-51ffbcedbe7c1be6349a",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aopl/202610180197.aspx",
+            "published_at": "2026-10-18",
+            "excerpt": "川普怪罪移民造成法國動亂破壞　呼籲收緊邊界管控",
+            "section": "國際"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "法國",
+            "clue_options": [
+              {
+                "clue": "國名，以巴黎為首都、國旗由藍白紅三色組成。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "easy",
+            "clue": "國名，以巴黎為首都、國旗由藍白紅三色組成。（2字）"
+          }
+        ],
+        "aliases": [
+          "cna-af137f9a664c0149228b"
+        ],
+        "content_revision": "cna-af137f9a664c0149228b"
+      },
+      {
+        "event_id": "cna-bc21c420dd4e3844a8c3",
+        "dedup_key": "https://www.cna.com.tw/news/aopl/202610190002.aspx",
+        "event_date": "2026-10-19",
+        "updated_at": "2026-10-19",
+        "published_at": "2026-10-18T17:10:49.000Z",
+        "title": "川普為尼坦雅胡連任背書　讚揚「偉大戰士總理」",
+        "rss_lead": "",
+        "summary": "川普為尼坦雅胡連任背書　讚揚「偉大戰士總理」",
+        "categories": [
+          "國際"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-05c647d7cc11ea04d02b",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aopl/202610190002.aspx",
+            "published_at": "2026-10-19",
+            "excerpt": "川普為尼坦雅胡連任背書　讚揚「偉大戰士總理」",
+            "section": "國際"
+          }
+        ],
+        "keywords": [],
+        "aliases": [
+          "cna-bc21c420dd4e3844a8c3"
+        ],
+        "content_revision": "cna-bc21c420dd4e3844a8c3"
+      },
+      {
+        "event_id": "cna-d572b63c9aff38f8e206",
+        "dedup_key": "https://www.cna.com.tw/news/aopl/202610190003.aspx",
+        "event_date": "2026-10-19",
+        "updated_at": "2026-10-19",
+        "published_at": "2026-10-18T19:03:53.000Z",
+        "title": "加拿大軍事基地重大事故　總理：已知4軍人罹難數十人重傷",
+        "rss_lead": "",
+        "summary": "加拿大軍事基地重大事故　總理：已知4軍人罹難數十人重傷",
+        "categories": [
+          "國際"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-f9d9afc3b9315fd31140",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aopl/202610190003.aspx",
+            "published_at": "2026-10-19",
+            "excerpt": "加拿大軍事基地重大事故　總理：已知4軍人罹難數十人重傷",
+            "section": "國際"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "加拿大",
+            "clue_options": [
+              {
+                "clue": "國名，以渥太華為首都、國旗有楓葉圖案。（3字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning"
+              }
+            ],
+            "answer_score": 89,
+            "difficulty": "easy",
+            "clue": "國名，以渥太華為首都、國旗有楓葉圖案。（3字）"
+          }
+        ],
+        "aliases": [
+          "cna-d572b63c9aff38f8e206"
+        ],
+        "content_revision": "cna-d572b63c9aff38f8e206"
+      },
+      {
         "event_id": "cna-23caae14c4becdced52e",
         "dedup_key": "https://www.cna.com.tw/news/asoc/202610180036.aspx",
         "event_date": "2026-10-18",
@@ -6515,105 +6697,6 @@
           "cna-8b7c0d6d778b40597523"
         ],
         "content_revision": "cna-8b7c0d6d778b40597523"
-      },
-      {
-        "event_id": "cna-9e2cd713d002afaad65c",
-        "dedup_key": "https://www.cna.com.tw/news/aspt/202610170175.aspx",
-        "event_date": "2026-10-17",
-        "updated_at": "2026-10-17",
-        "published_at": "2026-10-17T13:00:18.000Z",
-        "title": "陳子豪10度台灣大賽還是會緊張　靠大喊抒壓敲關鍵長打",
-        "rss_lead": "",
-        "summary": "陳子豪10度台灣大賽還是會緊張　靠大喊抒壓敲關鍵長打",
-        "categories": [
-          "體育"
-        ],
-        "fact_status": "reported",
-        "content_type": "news",
-        "event_score": 80,
-        "anchor_event": false,
-        "sources": [
-          {
-            "source_id": "rss-9aa6c3ae94dc2c2f3c43",
-            "publisher": "中央通訊社",
-            "kind": "newswire",
-            "url": "https://www.cna.com.tw/news/aspt/202610170175.aspx",
-            "published_at": "2026-10-17",
-            "excerpt": "陳子豪10度台灣大賽還是會緊張　靠大喊抒壓敲關鍵長打",
-            "section": "體育"
-          }
-        ],
-        "keywords": [],
-        "aliases": [
-          "cna-9e2cd713d002afaad65c"
-        ],
-        "content_revision": "cna-9e2cd713d002afaad65c"
-      },
-      {
-        "event_id": "cna-68f54712d6d30c45c1f4",
-        "dedup_key": "https://www.cna.com.tw/news/aspt/202610170179.aspx",
-        "event_date": "2026-10-17",
-        "updated_at": "2026-10-17",
-        "published_at": "2026-10-17T13:26:27.000Z",
-        "title": "林辰勳台灣大賽初亮相自評70分　自認還不算能獨當一面",
-        "rss_lead": "",
-        "summary": "林辰勳台灣大賽初亮相自評70分　自認還不算能獨當一面",
-        "categories": [
-          "體育"
-        ],
-        "fact_status": "reported",
-        "content_type": "news",
-        "event_score": 80,
-        "anchor_event": false,
-        "sources": [
-          {
-            "source_id": "rss-932ca93bda6ecb5f8cb3",
-            "publisher": "中央通訊社",
-            "kind": "newswire",
-            "url": "https://www.cna.com.tw/news/aspt/202610170179.aspx",
-            "published_at": "2026-10-17",
-            "excerpt": "林辰勳台灣大賽初亮相自評70分　自認還不算能獨當一面",
-            "section": "體育"
-          }
-        ],
-        "keywords": [],
-        "aliases": [
-          "cna-68f54712d6d30c45c1f4"
-        ],
-        "content_revision": "cna-68f54712d6d30c45c1f4"
-      },
-      {
-        "event_id": "cna-3b286bb8f6affd46a58d",
-        "dedup_key": "https://www.cna.com.tw/news/aspt/202610170180.aspx",
-        "event_date": "2026-10-17",
-        "updated_at": "2026-10-17",
-        "published_at": "2026-10-17T13:29:29.000Z",
-        "title": "龍隊搶勝張政禹剪掉第1辮　驚訝象迷加油聲像有風壓",
-        "rss_lead": "",
-        "summary": "龍隊搶勝張政禹剪掉第1辮　驚訝象迷加油聲像有風壓",
-        "categories": [
-          "體育"
-        ],
-        "fact_status": "reported",
-        "content_type": "news",
-        "event_score": 80,
-        "anchor_event": false,
-        "sources": [
-          {
-            "source_id": "rss-8ae59da8a5523a5eb9b1",
-            "publisher": "中央通訊社",
-            "kind": "newswire",
-            "url": "https://www.cna.com.tw/news/aspt/202610170180.aspx",
-            "published_at": "2026-10-17",
-            "excerpt": "龍隊搶勝張政禹剪掉第1辮　驚訝象迷加油聲像有風壓",
-            "section": "體育"
-          }
-        ],
-        "keywords": [],
-        "aliases": [
-          "cna-3b286bb8f6affd46a58d"
-        ],
-        "content_revision": "cna-3b286bb8f6affd46a58d"
       },
       {
         "event_id": "cna-77c45c98356b54a71463",
@@ -7737,6 +7820,74 @@
     ],
     "candidates": [
       {
+        "word": "加拿大",
+        "answer_score": 89,
+        "difficulty": "easy",
+        "clue": "國名，以渥太華為首都、國旗有楓葉圖案。（3字）",
+        "id": "cna-d572b63c9aff38f8e206::加拿大",
+        "event_id": "cna-d572b63c9aff38f8e206",
+        "event_revision": "cna-d572b63c9aff38f8e206",
+        "source_support": [
+          {
+            "source_id": "rss-f9d9afc3b9315fd31140",
+            "evidence": "加拿大軍事基地重大事故　總理：已知4軍人罹難數十人重傷"
+          }
+        ],
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning"
+      },
+      {
+        "word": "法國",
+        "answer_score": 86,
+        "difficulty": "easy",
+        "clue": "國名，以巴黎為首都、國旗由藍白紅三色組成。（2字）",
+        "id": "cna-af137f9a664c0149228b::法國",
+        "event_id": "cna-af137f9a664c0149228b",
+        "event_revision": "cna-af137f9a664c0149228b",
+        "source_support": [
+          {
+            "source_id": "rss-51ffbcedbe7c1be6349a",
+            "evidence": "川普怪罪移民造成法國動亂破壞　呼籲收緊邊界管控"
+          }
+        ],
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning"
+      },
+      {
+        "word": "烏克蘭",
+        "answer_score": 89,
+        "difficulty": "easy",
+        "clue": "國名，以基輔為首都、國旗由藍黃兩色組成。（3字）",
+        "id": "cna-30bf78fba55b32373939::烏克蘭",
+        "event_id": "cna-30bf78fba55b32373939",
+        "event_revision": "cna-30bf78fba55b32373939",
+        "source_support": [
+          {
+            "source_id": "rss-d4e99fc43a3bd06fec59",
+            "evidence": "澤倫斯基稱美國恢復情報分享　助烏克蘭防俄軍空襲"
+          }
+        ],
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning"
+      },
+      {
+        "word": "美國",
+        "answer_score": 86,
+        "difficulty": "easy",
+        "clue": "國名，首都為華盛頓，國旗有星條圖案。（2字）",
+        "id": "cna-30bf78fba55b32373939::美國",
+        "event_id": "cna-30bf78fba55b32373939",
+        "event_revision": "cna-30bf78fba55b32373939",
+        "source_support": [
+          {
+            "source_id": "rss-d4e99fc43a3bd06fec59",
+            "evidence": "澤倫斯基稱美國恢復情報分享　助烏克蘭防俄軍空襲"
+          }
+        ],
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning"
+      },
+      {
         "word": "韓國",
         "answer_score": 86,
         "difficulty": "easy",
@@ -7782,6 +7933,40 @@
           {
             "source_id": "rss-6235298895a9c72ac790",
             "evidence": "日系車商陷苦戰  日產9月中國汽車銷量大跌6成、本田減半"
+          }
+        ],
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning"
+      },
+      {
+        "word": "歐洲",
+        "answer_score": 86,
+        "difficulty": "easy",
+        "clue": "洲名，阿爾卑斯山及多瑙河所在的一洲。（2字）",
+        "id": "cna-533b8a2ecbbbd8840b1d::歐洲",
+        "event_id": "cna-533b8a2ecbbbd8840b1d",
+        "event_revision": "cna-533b8a2ecbbbd8840b1d",
+        "source_support": [
+          {
+            "source_id": "rss-7428c697b93dbe717927",
+            "evidence": "前英相蘇納克：中國以增他國依賴為目標　歐洲面臨險境"
+          }
+        ],
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning"
+      },
+      {
+        "word": "無人機",
+        "answer_score": 89,
+        "difficulty": "easy",
+        "clue": "不需要機上駕駛員、可由遠端操控的航空器。（3字）",
+        "id": "cna-d3582691974a51f665fc::無人機",
+        "event_id": "cna-d3582691974a51f665fc",
+        "event_revision": "cna-d3582691974a51f665fc",
+        "source_support": [
+          {
+            "source_id": "rss-5d051f45c53ac45318a3",
+            "evidence": "不顧川普要求　烏對俄發動今年最大無人機攻擊之一"
           }
         ],
         "clue_style": "magazine-v1",
@@ -7850,40 +8035,6 @@
           {
             "source_id": "rss-0ff8d788c7b2af08da41",
             "evidence": "伊朗新任防長警告美國　若再發動攻擊將蒙受巨大損失"
-          }
-        ],
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning"
-      },
-      {
-        "word": "美國",
-        "answer_score": 86,
-        "difficulty": "easy",
-        "clue": "國名，首都為華盛頓，國旗有星條圖案。（2字）",
-        "id": "cna-0afeccd70f51955cea63::美國",
-        "event_id": "cna-0afeccd70f51955cea63",
-        "event_revision": "cna-0afeccd70f51955cea63",
-        "source_support": [
-          {
-            "source_id": "rss-0ff8d788c7b2af08da41",
-            "evidence": "伊朗新任防長警告美國　若再發動攻擊將蒙受巨大損失"
-          }
-        ],
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning"
-      },
-      {
-        "word": "法國",
-        "answer_score": 86,
-        "difficulty": "easy",
-        "clue": "國名，以巴黎為首都、國旗由藍白紅三色組成。（2字）",
-        "id": "cna-5b9db13e5632c0bfda3e::法國",
-        "event_id": "cna-5b9db13e5632c0bfda3e",
-        "event_revision": "cna-5b9db13e5632c0bfda3e",
-        "source_support": [
-          {
-            "source_id": "rss-694786cfb8678c172bb6",
-            "evidence": "法國暴力示威1800多人被捕　當局矢言依法究責"
           }
         ],
         "clue_style": "magazine-v1",
@@ -8071,23 +8222,6 @@
           {
             "source_id": "rss-5a8a21bbc3ef58252e31",
             "evidence": "江啟臣成立醫療長照後援會　何欣純團結晚會細數政策"
-          }
-        ],
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning"
-      },
-      {
-        "word": "加拿大",
-        "answer_score": 89,
-        "difficulty": "easy",
-        "clue": "國名，以渥太華為首都、國旗有楓葉圖案。（3字）",
-        "id": "cna-eca84689cfc9d1135c3a::加拿大",
-        "event_id": "cna-eca84689cfc9d1135c3a",
-        "event_revision": "cna-eca84689cfc9d1135c3a",
-        "source_support": [
-          {
-            "source_id": "rss-4f5614e25d886d0e87f5",
-            "evidence": "科技人文完美結合　加拿大教師林婕芸獲海外師鐸獎"
           }
         ],
         "clue_style": "magazine-v1",
@@ -8519,23 +8653,6 @@
         "clue_kind": "meaning"
       },
       {
-        "word": "無人機",
-        "answer_score": 89,
-        "difficulty": "easy",
-        "clue": "不需要機上駕駛員、可由遠端操控的航空器。（3字）",
-        "id": "cna-c3815b3fcd8eefc47a38::無人機",
-        "event_id": "cna-c3815b3fcd8eefc47a38",
-        "event_revision": "cna-c3815b3fcd8eefc47a38",
-        "source_support": [
-          {
-            "source_id": "rss-9f8a0fd8f69b2581ea56",
-            "evidence": "自衛隊大型無人機墜海　日本撈起部分殘骸"
-          }
-        ],
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning"
-      },
-      {
         "word": "足球",
         "answer_score": 86,
         "difficulty": "easy",
@@ -8689,23 +8806,6 @@
         "clue_kind": "meaning"
       },
       {
-        "word": "烏克蘭",
-        "answer_score": 89,
-        "difficulty": "easy",
-        "clue": "國名，以基輔為首都、國旗由藍黃兩色組成。（3字）",
-        "id": "cna-4f0cc39e93586221e13f::烏克蘭",
-        "event_id": "cna-4f0cc39e93586221e13f",
-        "event_revision": "cna-4f0cc39e93586221e13f",
-        "source_support": [
-          {
-            "source_id": "rss-d26f1656fb04c5b95e2e",
-            "evidence": "烏克蘭：奧列什基淪為「死亡陷阱」  居民深陷飢餓危機"
-          }
-        ],
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning"
-      },
-      {
         "word": "北韓",
         "answer_score": 86,
         "difficulty": "easy",
@@ -8728,23 +8828,6 @@
         "difficulty": "easy",
         "clue": "國名，以希伯來語為官方語言、國旗有六芒星圖案。（3字）",
         "id": "cna-da44d1f19316c6bfc20e::以色列",
-        "event_id": "cna-da44d1f19316c6bfc20e",
-        "event_revision": "cna-da44d1f19316c6bfc20e",
-        "source_support": [
-          {
-            "source_id": "rss-e4888c5dca455deb4a19",
-            "evidence": "以色列屯墾者攻擊歐洲外交官　毆打78歲法國市長"
-          }
-        ],
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning"
-      },
-      {
-        "word": "歐洲",
-        "answer_score": 86,
-        "difficulty": "easy",
-        "clue": "洲名，阿爾卑斯山及多瑙河所在的一洲。（2字）",
-        "id": "cna-da44d1f19316c6bfc20e::歐洲",
         "event_id": "cna-da44d1f19316c6bfc20e",
         "event_revision": "cna-da44d1f19316c6bfc20e",
         "source_support": [
@@ -8785,40 +8868,6 @@
           {
             "source_id": "rss-3bb0eb3db6665f7178b2",
             "evidence": "法抗議浪潮蔓延歐洲多國　義大利比利時爆發警民衝突"
-          }
-        ],
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning"
-      },
-      {
-        "word": "西班牙",
-        "answer_score": 89,
-        "difficulty": "easy",
-        "clue": "國名，以馬德里為首都、以佛朗明哥舞聞名。（3字）",
-        "id": "cna-6eced664e3211df4a862::西班牙",
-        "event_id": "cna-6eced664e3211df4a862",
-        "event_revision": "cna-6eced664e3211df4a862",
-        "source_support": [
-          {
-            "source_id": "rss-db2bf320006d9771897b",
-            "evidence": "吳志中出席西班牙國慶酒會　盼持續深化雙邊夥伴關係"
-          }
-        ],
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning"
-      },
-      {
-        "word": "國慶",
-        "answer_score": 86,
-        "difficulty": "easy",
-        "clue": "紀念一個國家成立等重要歷史事件的慶祝活動。（2字）",
-        "id": "cna-6eced664e3211df4a862::國慶",
-        "event_id": "cna-6eced664e3211df4a862",
-        "event_revision": "cna-6eced664e3211df4a862",
-        "source_support": [
-          {
-            "source_id": "rss-db2bf320006d9771897b",
-            "evidence": "吳志中出席西班牙國慶酒會　盼持續深化雙邊夥伴關係"
           }
         ],
         "clue_style": "magazine-v1",
@@ -8910,14 +8959,14 @@
   },
   "automation": {
     "enabled": true,
-    "updated_at": "2026-10-18T15:56:50.023Z",
+    "updated_at": "2026-10-18T20:51:36.057Z",
     "window": {
-      "from": "2026-10-12",
-      "to": "2026-10-18"
+      "from": "2026-10-13",
+      "to": "2026-10-19"
     },
     "interval_hours": 6,
     "source_count": 9,
-    "candidate_count": 64,
+    "candidate_count": 62,
     "sources": [
       {
         "id": "cna-politics",
@@ -8932,7 +8981,7 @@
         "publisher": "中央通訊社",
         "category": "國際",
         "url": "https://feeds.feedburner.com/rsscna/intworld",
-        "count": 20,
+        "count": 19,
         "error": null
       },
       {
