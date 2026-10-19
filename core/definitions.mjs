@@ -1,3 +1,4 @@
+import {experiencedDefinition,EXPERIENCED_PROFILE} from './experienced-definitions.mjs';
 export const DESCRIPTIONS={
  美國:'首都為華盛頓、國旗有星條圖案的是哪個國家',
  日本:'以東京為首都、使用日圓的是哪個島國',
@@ -318,10 +319,11 @@ const bodies=Object.freeze(Object.fromEntries(
   return [word,label+body+'。'];
  })
 ));
+export const isGeographicWord=word=>countryWords.has(word)||placeWords.has(word)||['亞洲','歐洲','非洲','美洲','中東'].includes(word);
 export function definitionBody(word){return Object.hasOwn(bodies,word)?bodies[word]:null;}
 export function knownDefinitionClue(candidate,meaningful){
  if(candidate?.clue_style!==CLUE_STYLE||candidate?.clue_kind!=='meaning'||typeof candidate.word!=='string')return false;
- const expected=definitionBody(candidate.word);if(!expected)return false;
+ const expected=candidate.clue_profile===EXPERIENCED_PROFILE?experiencedDefinition(candidate.word)?.body:definitionBody(candidate.word);if(!expected)return false;
  const normalize=s=>s.normalize('NFKC').replace(/[\p{P}\p{Z}\p{Cf}\s]/gu,'');
  return normalize(meaningful)===normalize(expected);
 }

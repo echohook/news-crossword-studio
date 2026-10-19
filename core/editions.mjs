@@ -1,3 +1,4 @@
+import {validateEditorialSelection} from './editorial.mjs';
 import {createHash} from 'node:crypto';
 import {runMixed,solveMixedPool} from './mixed.mjs';
 import {runPipeline} from './pipeline.mjs';
@@ -19,11 +20,11 @@ export function generateEditions(input,{count=1,solverOptions={},maxVariantAttem
  const snapshot=structuredClone(input);
  const {maxClueChars:ignored,...options}=solverOptions;
  if(ignored!==undefined)throw Error('maxClueChars 應獨立設定');
- const settings=solverSettings({attempts:mode==='mixed'?256:48,seed:2,minEntries:options.target??12,...options});
+ const settings=solverSettings({attempts:mode==='mixed'?256:48,seed:2,minEntries:options.target??12,...options,editorialPolicy:input.editorial_policy?.profile??options.editorialPolicy??null});
  const editions=[],usedWords=new Set(),usedClues=new Set(),attempts=[];
  let pool,initial=null,mix=null;
  if(mode==='mixed') {
-  initial=runMixed(snapshot,{solverOptions:{...options,attempts:settings.attempts,seed:settings.seed},maxClueChars});
+  initial=runMixed(snapshot,{solverOptions:{...options,editorialPolicy:settings.editorialPolicy,attempts:settings.attempts,seed:settings.seed},maxClueChars});
   mix=initial.content_summary.requested;
   const admitted=new Set(initial.idiom_reports.filter(r=>r.passed).map(r=>r.id));
   pool=[...initial.news_report.eligible_candidates.map(c=>({...c,content_kind:'news'})),
@@ -50,6 +51,8 @@ export function generateEditions(input,{count=1,solverOptions={},maxVariantAttem
   const result=searched.result;
   const puzzle=result.puzzle;
   if(!puzzle||puzzle.expected.length!==target){attempts.push({seed,status:'NO_FULL_PUZZLE'});continue;}
+  const editorial=settings.editorialPolicy?validateEditorialSelection(puzzle.expected,{profile:settings.editorialPolicy,target}):null;
+  if(editorial&&!editorial.valid){attempts.push({seed,status:'EDITORIAL_REJECTED'});continue;}
   const validation=validatePuzzle(puzzle);
   if(!validation.valid){attempts.push({seed,status:'INVALID_GRID'});continue;}
   const diversity=validateEditionDiversity([...editions,{puzzle}]);
@@ -62,12 +65,12 @@ export function generateEditions(input,{count=1,solverOptions={},maxVariantAttem
   const edition_number=editions.length+1;
   const selected=mix?Object.fromEntries(['news','idiom'].map(k=>[k,puzzle.expected.filter(c=>c.content_kind===k).length])):null;
   if(mix&&['news','idiom'].some(k=>selected[k]!==searched.effective[k]))throw Error('混合配額未達標');
-  editions.push({edition_number,label:'第 '+edition_number+' 份',seed,puzzle,grid_validation:validation,
+  editions.push({edition_number,label:'第 '+edition_number+' 份',seed,puzzle,grid_validation:validation,...(editorial?{editorial_validation:editorial}:{}),
    player,answers,...(mix?{content_summary:{requested:{...mix},effective:searched.effective,selected,idiom_optional:true,fallback:selected.idiom<mix.idiom}}:{}),approved_for_print:false});
   attempts.push({seed,status:'ACCEPTED',edition_number});
  }
  return {schema_version:'1.1',mode,status:editions.length===count?'COMPLETE':'INCOMPLETE',
-  requested_count:count,generated_count:editions.length,render_settings:{maxClueChars},issue_date:input.news?.issue_date??input.issue_date??null,
+  editorial_policy:settings.editorialPolicy?{profile:settings.editorialPolicy}:null,requested_count:count,generated_count:editions.length,render_settings:{maxClueChars},issue_date:input.news?.issue_date??input.issue_date??null,
   batch_id:createHash('sha256').update(JSON.stringify(editions.map(e=>e.player.worksheet_id))).digest('hex'),
   repetition_policy:'NO_REPEATED_ANSWERS_OR_CLUES',diversity_validation:validateEditionDiversity(editions),shortage,
   editions,attempts,approved_for_print:false,review_required:['CONTENT_AND_CLUE_REVIEW'],

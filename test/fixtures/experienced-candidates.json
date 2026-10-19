@@ -1,0 +1,1094 @@
+{
+  "note": "固定合成回歸資料；不宣稱其中情境是本期真實新聞。",
+  "editorial_policy": {
+    "profile": "experienced-adults-v1"
+  },
+  "candidates": [
+    {
+      "word": "新台幣",
+      "kind": "財經用語",
+      "answer_score": 89,
+      "difficulty": "medium",
+      "clue": "據報導，本地法定貨幣開盤貶2.2分　為32.36元。（3字）",
+      "id": "cna-6c8cca718e68c4995cd3::新台幣",
+      "event_id": "cna-6c8cca718e68c4995cd3",
+      "event_revision": "cna-6c8cca718e68c4995cd3",
+      "source_support": [
+        {
+          "source_id": "cna-6c8cca718e68c4995cd3::新台幣-fixture-source",
+          "evidence": "合成測試詞彙：新台幣。"
+        }
+      ],
+      "clue_style": "magazine-v1",
+      "clue_kind": "event",
+      "clue_profile": "experienced-adults-v1",
+      "event": {
+        "event_id": "cna-6c8cca718e68c4995cd3",
+        "dedup_key": "https://www.cna.com.tw/news/afe/202610190015.aspx",
+        "event_date": "2026-10-01",
+        "updated_at": "2026-10-01",
+        "published_at": "2026-10-19T01:08:27.000Z",
+        "title": "新台幣開盤貶2.2分　為32.36元",
+        "summary": "新台幣開盤貶2.2分　為32.36元",
+        "categories": [
+          "財經"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "cna-6c8cca718e68c4995cd3::新台幣-fixture-source",
+            "publisher": "合成測試資料",
+            "kind": "fixture",
+            "url": "https://example.invalid/experienced/%E6%96%B0%E5%8F%B0%E5%B9%A3",
+            "published_at": "2026-10-01",
+            "excerpt": "合成測試詞彙：新台幣。"
+          }
+        ],
+        "aliases": [
+          "cna-6c8cca718e68c4995cd3"
+        ],
+        "content_revision": "cna-6c8cca718e68c4995cd3"
+      },
+      "content_kind": "news"
+    },
+    {
+      "word": "外幣",
+      "kind": "專業用語",
+      "answer_domain": "economy",
+      "answer_score": 86,
+      "difficulty": "medium",
+      "clue": "本國貨幣以外的貨幣，持有其存款時仍須承擔換回本幣的比價風險。（2字）",
+      "id": "cna-d5ed3f801b3839247d1c::外幣",
+      "event_id": "cna-d5ed3f801b3839247d1c",
+      "event_revision": "cna-d5ed3f801b3839247d1c",
+      "source_support": [
+        {
+          "source_id": "cna-d5ed3f801b3839247d1c::外幣-fixture-source",
+          "evidence": "合成測試詞彙：外幣。"
+        }
+      ],
+      "clue_style": "magazine-v1",
+      "clue_kind": "meaning",
+      "clue_profile": "experienced-adults-v1",
+      "event": {
+        "event_id": "cna-d5ed3f801b3839247d1c",
+        "dedup_key": "https://www.cna.com.tw/news/afe/202610180061.aspx",
+        "event_date": "2026-10-01",
+        "updated_at": "2026-10-01",
+        "published_at": "2026-10-18T04:23:31.000Z",
+        "title": "國銀外幣存款8月底破17.5兆元　續創新高",
+        "summary": "國銀外幣存款8月底破17.5兆元　續創新高",
+        "categories": [
+          "財經"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "cna-d5ed3f801b3839247d1c::外幣-fixture-source",
+            "publisher": "合成測試資料",
+            "kind": "fixture",
+            "url": "https://example.invalid/experienced/%E5%A4%96%E5%B9%A3",
+            "published_at": "2026-10-01",
+            "excerpt": "合成測試詞彙：外幣。"
+          }
+        ],
+        "aliases": [
+          "cna-d5ed3f801b3839247d1c"
+        ],
+        "content_revision": "cna-d5ed3f801b3839247d1c"
+      },
+      "content_kind": "news"
+    },
+    {
+      "word": "泰國",
+      "kind": "國家或地區",
+      "answer_score": 86,
+      "difficulty": "medium",
+      "clue": "據報導，某國推免費平台提升AI普及率　專家：應強化技能培訓。（2字）",
+      "id": "cna-26785f82def273bc541d::泰國",
+      "event_id": "cna-26785f82def273bc541d",
+      "event_revision": "cna-26785f82def273bc541d",
+      "source_support": [
+        {
+          "source_id": "cna-26785f82def273bc541d::泰國-fixture-source",
+          "evidence": "合成測試詞彙：泰國。"
+        }
+      ],
+      "clue_style": "magazine-v1",
+      "clue_kind": "event",
+      "clue_profile": "experienced-adults-v1",
+      "event": {
+        "event_id": "cna-26785f82def273bc541d",
+        "dedup_key": "https://www.cna.com.tw/news/aopl/202610180151.aspx",
+        "event_date": "2026-10-01",
+        "updated_at": "2026-10-01",
+        "published_at": "2026-10-18T10:46:52.000Z",
+        "title": "泰國推免費平台提升AI普及率　專家：應強化技能培訓",
+        "summary": "泰國推免費平台提升AI普及率　專家：應強化技能培訓",
+        "categories": [
+          "財經"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "cna-26785f82def273bc541d::泰國-fixture-source",
+            "publisher": "合成測試資料",
+            "kind": "fixture",
+            "url": "https://example.invalid/experienced/%E6%B3%B0%E5%9C%8B",
+            "published_at": "2026-10-01",
+            "excerpt": "合成測試詞彙：泰國。"
+          }
+        ],
+        "aliases": [
+          "cna-26785f82def273bc541d"
+        ],
+        "content_revision": "cna-26785f82def273bc541d"
+      },
+      "content_kind": "news"
+    },
+    {
+      "id": "idiom-peace",
+      "word": "國泰民安",
+      "event_id": "idiom-peace",
+      "content_kind": "idiom",
+      "categories": [
+        "文化"
+      ],
+      "difficulty": "medium",
+      "answer_score": 90,
+      "clue": "衡量治理成果，既看社稷安定，也看百姓能否安心過日子；此語兼指兩者。（4字）",
+      "knowledge_source": {
+        "publisher": "教育部臺灣客語辭典",
+        "url": "https://hakkadict.moe.edu.tw/search_result/?id=9186",
+        "meaning": "國家安定，人民安樂。"
+      },
+      "clue_style": "magazine-v1",
+      "clue_kind": "meaning",
+      "clue_profile": "experienced-adults-v1"
+    },
+    {
+      "word": "人工智慧",
+      "kind": "科技用語",
+      "answer_score": 92,
+      "difficulty": "medium",
+      "clue": "讓系統從資料學習並執行辨識、預測或生成工作的技術領域。（4字）",
+      "id": "cna-23477a698a946c385634::人工智慧",
+      "event_id": "cna-23477a698a946c385634",
+      "event_revision": "cna-23477a698a946c385634",
+      "source_support": [
+        {
+          "source_id": "cna-23477a698a946c385634::人工智慧-fixture-source",
+          "evidence": "合成測試詞彙：人工智慧。"
+        }
+      ],
+      "clue_style": "magazine-v1",
+      "clue_kind": "meaning",
+      "clue_profile": "experienced-adults-v1",
+      "event": {
+        "event_id": "cna-23477a698a946c385634",
+        "dedup_key": "https://www.cna.com.tw/news/afe/202610190011.aspx",
+        "event_date": "2026-10-01",
+        "updated_at": "2026-10-01",
+        "published_at": "2026-10-19T00:28:17.000Z",
+        "title": "台指期夜盤挫逾千點　法人：台股面臨賣壓回防季線",
+        "summary": "台指期夜盤挫逾千點　法人：台股面臨賣壓回防季線",
+        "categories": [
+          "財經"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "cna-23477a698a946c385634::人工智慧-fixture-source",
+            "publisher": "合成測試資料",
+            "kind": "fixture",
+            "url": "https://example.invalid/experienced/%E4%BA%BA%E5%B7%A5%E6%99%BA%E6%85%A7",
+            "published_at": "2026-10-01",
+            "excerpt": "合成測試詞彙：人工智慧。"
+          }
+        ],
+        "aliases": [
+          "cna-23477a698a946c385634"
+        ],
+        "content_revision": "cna-23477a698a946c385634"
+      },
+      "content_kind": "news"
+    },
+    {
+      "word": "無人機",
+      "kind": "科技用語",
+      "answer_score": 89,
+      "difficulty": "medium",
+      "clue": "可遙控或自主飛行的載具，軍事偵察與民用巡檢皆有應用。（3字）",
+      "id": "cna-c385bfa543659bd84c26::無人機",
+      "event_id": "cna-c385bfa543659bd84c26",
+      "event_revision": "cna-c385bfa543659bd84c26",
+      "source_support": [
+        {
+          "source_id": "cna-c385bfa543659bd84c26::無人機-fixture-source",
+          "evidence": "合成測試詞彙：無人機。"
+        }
+      ],
+      "clue_style": "magazine-v1",
+      "clue_kind": "meaning",
+      "clue_profile": "experienced-adults-v1",
+      "event": {
+        "event_id": "cna-c385bfa543659bd84c26",
+        "dedup_key": "https://www.cna.com.tw/news/aopl/202610190028.aspx",
+        "event_date": "2026-10-01",
+        "updated_at": "2026-10-01",
+        "published_at": "2026-10-19T02:00:55.000Z",
+        "title": "烏克蘭無人機疑遭俄干擾　立陶宛上空爆炸引來北約戰機",
+        "summary": "烏克蘭無人機疑遭俄干擾　立陶宛上空爆炸引來北約戰機",
+        "categories": [
+          "國際"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "cna-c385bfa543659bd84c26::無人機-fixture-source",
+            "publisher": "合成測試資料",
+            "kind": "fixture",
+            "url": "https://example.invalid/experienced/%E7%84%A1%E4%BA%BA%E6%A9%9F",
+            "published_at": "2026-10-01",
+            "excerpt": "合成測試詞彙：無人機。"
+          }
+        ],
+        "aliases": [
+          "cna-c385bfa543659bd84c26"
+        ],
+        "content_revision": "cna-c385bfa543659bd84c26"
+      },
+      "content_kind": "news"
+    },
+    {
+      "word": "外交部",
+      "kind": "機關或組織",
+      "answer_score": 89,
+      "difficulty": "medium",
+      "clue": "辦理對外關係與領事事務，並在海外事故時協調急難協助的中央部會。（3字）",
+      "id": "cna-c385bfa543659bd84c26::外交部",
+      "event_id": "cna-c385bfa543659bd84c26",
+      "event_revision": "cna-c385bfa543659bd84c26",
+      "source_support": [
+        {
+          "source_id": "cna-c385bfa543659bd84c26::外交部-fixture-source",
+          "evidence": "合成測試詞彙：外交部。"
+        }
+      ],
+      "clue_style": "magazine-v1",
+      "clue_kind": "meaning",
+      "clue_profile": "experienced-adults-v1",
+      "event": {
+        "event_id": "cna-c385bfa543659bd84c26",
+        "dedup_key": "https://www.cna.com.tw/news/aopl/202610190028.aspx",
+        "event_date": "2026-10-01",
+        "updated_at": "2026-10-01",
+        "published_at": "2026-10-19T02:00:55.000Z",
+        "title": "烏克蘭無人機疑遭俄干擾　立陶宛上空爆炸引來北約戰機",
+        "summary": "烏克蘭無人機疑遭俄干擾　立陶宛上空爆炸引來北約戰機",
+        "categories": [
+          "國際"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "cna-c385bfa543659bd84c26::外交部-fixture-source",
+            "publisher": "合成測試資料",
+            "kind": "fixture",
+            "url": "https://example.invalid/experienced/%E5%A4%96%E4%BA%A4%E9%83%A8",
+            "published_at": "2026-10-01",
+            "excerpt": "合成測試詞彙：外交部。"
+          }
+        ],
+        "aliases": [
+          "cna-c385bfa543659bd84c26"
+        ],
+        "content_revision": "cna-c385bfa543659bd84c26"
+      },
+      "content_kind": "news"
+    },
+    {
+      "word": "外交",
+      "kind": "專業用語",
+      "answer_domain": "international",
+      "answer_score": 86,
+      "difficulty": "medium",
+      "clue": "透過交涉、協商及代表制度處理對外關係，是武力以外的國家行動。（2字）",
+      "id": "cna-f420c01d4af135357c0b::外交",
+      "event_id": "cna-f420c01d4af135357c0b",
+      "event_revision": "cna-f420c01d4af135357c0b",
+      "source_support": [
+        {
+          "source_id": "cna-f420c01d4af135357c0b::外交-fixture-source",
+          "evidence": "合成測試詞彙：外交。"
+        }
+      ],
+      "clue_style": "magazine-v1",
+      "clue_kind": "meaning",
+      "clue_profile": "experienced-adults-v1",
+      "event": {
+        "event_id": "cna-f420c01d4af135357c0b",
+        "dedup_key": "https://www.cna.com.tw/news/aipl/202610180059.aspx",
+        "event_date": "2026-10-01",
+        "updated_at": "2026-10-01",
+        "published_at": "2026-10-18T04:19:27.000Z",
+        "title": "賴總統感謝帛琉不畏中國打壓　續為台灣發聲",
+        "summary": "賴總統感謝帛琉不畏中國打壓　續為台灣發聲",
+        "categories": [
+          "台灣"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "cna-f420c01d4af135357c0b::外交-fixture-source",
+            "publisher": "合成測試資料",
+            "kind": "fixture",
+            "url": "https://example.invalid/experienced/%E5%A4%96%E4%BA%A4",
+            "published_at": "2026-10-01",
+            "excerpt": "合成測試詞彙：外交。"
+          }
+        ],
+        "aliases": [
+          "cna-f420c01d4af135357c0b"
+        ],
+        "content_revision": "cna-f420c01d4af135357c0b"
+      },
+      "content_kind": "news"
+    },
+    {
+      "word": "長照",
+      "kind": "生活用語",
+      "answer_score": 86,
+      "difficulty": "medium",
+      "clue": "因失能而持續需要生活支持與照顧的服務體系簡稱，涉及家庭與公共資源分工。（2字）",
+      "id": "cna-1212585d8233f1aba878::長照",
+      "event_id": "cna-1212585d8233f1aba878",
+      "event_revision": "cna-1212585d8233f1aba878",
+      "source_support": [
+        {
+          "source_id": "cna-1212585d8233f1aba878::長照-fixture-source",
+          "evidence": "合成測試詞彙：長照。"
+        }
+      ],
+      "clue_style": "magazine-v1",
+      "clue_kind": "meaning",
+      "clue_profile": "experienced-adults-v1",
+      "event": {
+        "event_id": "cna-1212585d8233f1aba878",
+        "dedup_key": "https://www.cna.com.tw/news/aloc/202610180148.aspx",
+        "event_date": "2026-10-01",
+        "updated_at": "2026-10-01",
+        "published_at": "2026-10-18T10:28:45.000Z",
+        "title": "江啟臣成立醫療長照後援會　何欣純團結晚會細數政策",
+        "summary": "江啟臣成立醫療長照後援會　何欣純團結晚會細數政策",
+        "categories": [
+          "台灣"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "cna-1212585d8233f1aba878::長照-fixture-source",
+            "publisher": "合成測試資料",
+            "kind": "fixture",
+            "url": "https://example.invalid/experienced/%E9%95%B7%E7%85%A7",
+            "published_at": "2026-10-01",
+            "excerpt": "合成測試詞彙：長照。"
+          }
+        ],
+        "aliases": [
+          "cna-1212585d8233f1aba878"
+        ],
+        "content_revision": "cna-1212585d8233f1aba878"
+      },
+      "content_kind": "news"
+    },
+    {
+      "word": "延長賽",
+      "kind": "專業用語",
+      "answer_domain": "sports",
+      "answer_score": 89,
+      "difficulty": "medium",
+      "clue": "正規比賽結束仍平手時，依該運動規則增加的比賽階段。（3字）",
+      "id": "cna-b2cd60309c0f5127ffa8::延長賽",
+      "event_id": "cna-b2cd60309c0f5127ffa8",
+      "event_revision": "cna-b2cd60309c0f5127ffa8",
+      "source_support": [
+        {
+          "source_id": "cna-b2cd60309c0f5127ffa8::延長賽-fixture-source",
+          "evidence": "合成測試詞彙：延長賽。"
+        }
+      ],
+      "clue_style": "magazine-v1",
+      "clue_kind": "meaning",
+      "clue_profile": "experienced-adults-v1",
+      "event": {
+        "event_id": "cna-b2cd60309c0f5127ffa8",
+        "dedup_key": "https://www.cna.com.tw/news/aspt/202610180154.aspx",
+        "event_date": "2026-10-01",
+        "updated_at": "2026-10-01",
+        "published_at": "2026-10-18T10:53:58.000Z",
+        "title": "亞巡澳門公開賽王偉軒奪冠　哽咽盼媽媽在天上看見",
+        "summary": "亞巡澳門公開賽王偉軒奪冠　哽咽盼媽媽在天上看見",
+        "categories": [
+          "體育"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "cna-b2cd60309c0f5127ffa8::延長賽-fixture-source",
+            "publisher": "合成測試資料",
+            "kind": "fixture",
+            "url": "https://example.invalid/experienced/%E5%BB%B6%E9%95%B7%E8%B3%BD",
+            "published_at": "2026-10-01",
+            "excerpt": "合成測試詞彙：延長賽。"
+          }
+        ],
+        "aliases": [
+          "cna-b2cd60309c0f5127ffa8"
+        ],
+        "content_revision": "cna-b2cd60309c0f5127ffa8"
+      },
+      "content_kind": "news"
+    },
+    {
+      "word": "半導體",
+      "kind": "科技用語",
+      "answer_score": 89,
+      "difficulty": "medium",
+      "clue": "可藉摻雜調整導電特性的材料，是積體電路與先進運算的基礎。（3字）",
+      "id": "cna-df4cabac3953a6009190::半導體",
+      "event_id": "cna-df4cabac3953a6009190",
+      "event_revision": "cna-df4cabac3953a6009190",
+      "source_support": [
+        {
+          "source_id": "cna-df4cabac3953a6009190::半導體-fixture-source",
+          "evidence": "合成測試詞彙：半導體。"
+        }
+      ],
+      "clue_style": "magazine-v1",
+      "clue_kind": "meaning",
+      "clue_profile": "experienced-adults-v1",
+      "event": {
+        "event_id": "cna-df4cabac3953a6009190",
+        "dedup_key": "https://www.cna.com.tw/news/afe/202610190017.aspx",
+        "event_date": "2026-10-01",
+        "updated_at": "2026-10-01",
+        "published_at": "2026-10-19T01:14:31.000Z",
+        "title": "台股開低跌逾860點回測46200點　台積電挫30元",
+        "summary": "台股開低跌逾860點回測46200點　台積電挫30元",
+        "categories": [
+          "財經"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "cna-df4cabac3953a6009190::半導體-fixture-source",
+            "publisher": "合成測試資料",
+            "kind": "fixture",
+            "url": "https://example.invalid/experienced/%E5%8D%8A%E5%B0%8E%E9%AB%94",
+            "published_at": "2026-10-01",
+            "excerpt": "合成測試詞彙：半導體。"
+          }
+        ],
+        "aliases": [
+          "cna-df4cabac3953a6009190"
+        ],
+        "content_revision": "cna-df4cabac3953a6009190"
+      },
+      "content_kind": "news"
+    },
+    {
+      "id": "idiom-halfway",
+      "word": "半途而廢",
+      "event_id": "idiom-halfway",
+      "content_kind": "idiom",
+      "categories": [
+        "文化"
+      ],
+      "difficulty": "medium",
+      "answer_score": 90,
+      "clue": "工程投入人力後，卻因挫折在驗收前放棄；可用來批評做事缺乏始終。（4字）",
+      "knowledge_source": {
+        "publisher": "教育部《成語典》",
+        "meaning": "事情沒做成功就停止，比喻做事情有始無終。",
+        "url": "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=152&webMd=1"
+      },
+      "clue_style": "magazine-v1",
+      "clue_kind": "meaning",
+      "clue_profile": "experienced-adults-v1"
+    },
+    {
+      "word": "台股",
+      "kind": "財經用語",
+      "answer_score": 86,
+      "difficulty": "medium",
+      "clue": "據報導，本地股票市場挫逾800點　新台幣重貶逾2角摜破32.5元關卡。（2字）",
+      "id": "cna-126d2cd64b9d53d671a7::台股",
+      "event_id": "cna-126d2cd64b9d53d671a7",
+      "event_revision": "cna-126d2cd64b9d53d671a7",
+      "source_support": [
+        {
+          "source_id": "cna-126d2cd64b9d53d671a7::台股-fixture-source",
+          "evidence": "合成測試詞彙：台股。"
+        }
+      ],
+      "clue_style": "magazine-v1",
+      "clue_kind": "event",
+      "clue_profile": "experienced-adults-v1",
+      "event": {
+        "event_id": "cna-126d2cd64b9d53d671a7",
+        "dedup_key": "https://www.cna.com.tw/news/afe/202610190029.aspx",
+        "event_date": "2026-10-01",
+        "updated_at": "2026-10-01",
+        "published_at": "2026-10-19T02:17:57.000Z",
+        "title": "台股挫逾800點　新台幣重貶逾2角摜破32.5元關卡",
+        "summary": "台股挫逾800點　新台幣重貶逾2角摜破32.5元關卡",
+        "categories": [
+          "財經"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "cna-126d2cd64b9d53d671a7::台股-fixture-source",
+            "publisher": "合成測試資料",
+            "kind": "fixture",
+            "url": "https://example.invalid/experienced/%E5%8F%B0%E8%82%A1",
+            "published_at": "2026-10-01",
+            "excerpt": "合成測試詞彙：台股。"
+          }
+        ],
+        "aliases": [
+          "cna-126d2cd64b9d53d671a7"
+        ],
+        "content_revision": "cna-126d2cd64b9d53d671a7"
+      },
+      "content_kind": "news"
+    },
+    {
+      "word": "股市",
+      "kind": "財經用語",
+      "answer_score": 86,
+      "difficulty": "medium",
+      "clue": "集中交易公司股權的市場，價格會反映預期獲利及投資人的風險評價。（2字）",
+      "id": "cna-f7f15bc3ffc2b4e18a1d::股市",
+      "event_id": "cna-f7f15bc3ffc2b4e18a1d",
+      "event_revision": "cna-f7f15bc3ffc2b4e18a1d",
+      "source_support": [
+        {
+          "source_id": "cna-f7f15bc3ffc2b4e18a1d::股市-fixture-source",
+          "evidence": "合成測試詞彙：股市。"
+        }
+      ],
+      "clue_style": "magazine-v1",
+      "clue_kind": "meaning",
+      "clue_profile": "experienced-adults-v1",
+      "event": {
+        "event_id": "cna-f7f15bc3ffc2b4e18a1d",
+        "dedup_key": "https://www.cna.com.tw/news/afe/202610190014.aspx",
+        "event_date": "2026-10-01",
+        "updated_at": "2026-10-01",
+        "published_at": "2026-10-19T01:05:24.000Z",
+        "title": "台股開盤跌266.62點",
+        "summary": "台股開盤跌266.62點",
+        "categories": [
+          "財經"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "cna-f7f15bc3ffc2b4e18a1d::股市-fixture-source",
+            "publisher": "合成測試資料",
+            "kind": "fixture",
+            "url": "https://example.invalid/experienced/%E8%82%A1%E5%B8%82",
+            "published_at": "2026-10-01",
+            "excerpt": "合成測試詞彙：股市。"
+          }
+        ],
+        "aliases": [
+          "cna-f7f15bc3ffc2b4e18a1d"
+        ],
+        "content_revision": "cna-f7f15bc3ffc2b4e18a1d"
+      },
+      "content_kind": "news"
+    },
+    {
+      "word": "大數據",
+      "kind": "科技用語",
+      "answer_score": 89,
+      "difficulty": "medium",
+      "clue": "規模、速度或種類超出傳統工具處理能力的資料及分析應用概念。（3字）",
+      "id": "cna-49d771da02e6378cb404::大數據",
+      "event_id": "cna-49d771da02e6378cb404",
+      "event_revision": "cna-49d771da02e6378cb404",
+      "source_support": [
+        {
+          "source_id": "cna-49d771da02e6378cb404::大數據-fixture-source",
+          "evidence": "合成測試詞彙：大數據。"
+        }
+      ],
+      "clue_style": "magazine-v1",
+      "clue_kind": "meaning",
+      "clue_profile": "experienced-adults-v1",
+      "event": {
+        "event_id": "cna-49d771da02e6378cb404",
+        "dedup_key": "https://www.cna.com.tw/news/asoc/202610180138.aspx",
+        "event_date": "2026-10-01",
+        "updated_at": "2026-10-01",
+        "published_at": "2026-10-18T09:47:23.000Z",
+        "title": "台南多家太陽能電廠銅製品遭竊　警利用大數據逮1嫌",
+        "summary": "台南多家太陽能電廠銅製品遭竊　警利用大數據逮1嫌",
+        "categories": [
+          "台灣"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "cna-49d771da02e6378cb404::大數據-fixture-source",
+            "publisher": "合成測試資料",
+            "kind": "fixture",
+            "url": "https://example.invalid/experienced/%E5%A4%A7%E6%95%B8%E6%93%9A",
+            "published_at": "2026-10-01",
+            "excerpt": "合成測試詞彙：大數據。"
+          }
+        ],
+        "aliases": [
+          "cna-49d771da02e6378cb404"
+        ],
+        "content_revision": "cna-49d771da02e6378cb404"
+      },
+      "content_kind": "news"
+    },
+    {
+      "id": "idiom-lucky",
+      "word": "大吉大利",
+      "event_id": "idiom-lucky",
+      "content_kind": "idiom",
+      "categories": [
+        "文化"
+      ],
+      "difficulty": "medium",
+      "answer_score": 90,
+      "clue": "新店開張、年節相賀時，用來祝願人事順遂、諸事亨通的四字用語。（4字）",
+      "knowledge_source": {
+        "publisher": "教育部《國語辭典簡編本》",
+        "url": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=7167&la=0&powerMode=0",
+        "meaning": "形容非常吉利。"
+      },
+      "clue_style": "magazine-v1",
+      "clue_kind": "meaning",
+      "clue_profile": "experienced-adults-v1"
+    },
+    {
+      "word": "海巡署",
+      "kind": "專業用語",
+      "answer_domain": "politics",
+      "answer_score": 89,
+      "difficulty": "medium",
+      "clue": "兼顧海域執法、救難與海洋權益維護的我國海岸巡防機關。（3字）",
+      "id": "cna-0f0c0ca34f9516adc989::海巡署",
+      "event_id": "cna-0f0c0ca34f9516adc989",
+      "event_revision": "cna-0f0c0ca34f9516adc989",
+      "source_support": [
+        {
+          "source_id": "cna-0f0c0ca34f9516adc989::海巡署-fixture-source",
+          "evidence": "合成測試詞彙：海巡署。"
+        }
+      ],
+      "clue_style": "magazine-v1",
+      "clue_kind": "meaning",
+      "clue_profile": "experienced-adults-v1",
+      "event": {
+        "event_id": "cna-0f0c0ca34f9516adc989",
+        "dedup_key": "https://www.cna.com.tw/news/asoc/202610180164.aspx",
+        "event_date": "2026-10-01",
+        "updated_at": "2026-10-01",
+        "published_at": "2026-10-18T11:32:20.000Z",
+        "title": "中國海警、科研船多點齊發侵擾　海巡署有效反制",
+        "summary": "中國海警、科研船多點齊發侵擾　海巡署有效反制",
+        "categories": [
+          "台灣"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "cna-0f0c0ca34f9516adc989::海巡署-fixture-source",
+            "publisher": "合成測試資料",
+            "kind": "fixture",
+            "url": "https://example.invalid/experienced/%E6%B5%B7%E5%B7%A1%E7%BD%B2",
+            "published_at": "2026-10-01",
+            "excerpt": "合成測試詞彙：海巡署。"
+          }
+        ],
+        "aliases": [
+          "cna-0f0c0ca34f9516adc989"
+        ],
+        "content_revision": "cna-0f0c0ca34f9516adc989"
+      },
+      "content_kind": "news"
+    },
+    {
+      "word": "海警",
+      "kind": "專業用語",
+      "answer_domain": "environment",
+      "answer_score": 86,
+      "difficulty": "medium",
+      "clue": "海上颱風警報的簡稱，發布依風暴對鄰近海域的預期威脅評估。（2字）",
+      "id": "cna-6bb94b748aadce9a8e9f::海警",
+      "event_id": "cna-6bb94b748aadce9a8e9f",
+      "event_revision": "cna-6bb94b748aadce9a8e9f",
+      "source_support": [
+        {
+          "source_id": "cna-6bb94b748aadce9a8e9f::海警-fixture-source",
+          "evidence": "合成測試詞彙：海警。"
+        }
+      ],
+      "clue_style": "magazine-v1",
+      "clue_kind": "meaning",
+      "clue_profile": "experienced-adults-v1",
+      "event": {
+        "event_id": "cna-6bb94b748aadce9a8e9f",
+        "dedup_key": "https://www.cna.com.tw/news/ahel/202610180141.aspx",
+        "event_date": "2026-10-01",
+        "updated_at": "2026-10-01",
+        "published_at": "2026-10-18T10:03:30.000Z",
+        "title": "颱風薔琵來勢洶洶　最快21日晚間發海警",
+        "summary": "颱風薔琵來勢洶洶　最快21日晚間發海警",
+        "categories": [
+          "生活"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "cna-6bb94b748aadce9a8e9f::海警-fixture-source",
+            "publisher": "合成測試資料",
+            "kind": "fixture",
+            "url": "https://example.invalid/experienced/%E6%B5%B7%E8%AD%A6",
+            "published_at": "2026-10-01",
+            "excerpt": "合成測試詞彙：海警。"
+          }
+        ],
+        "aliases": [
+          "cna-6bb94b748aadce9a8e9f"
+        ],
+        "content_revision": "cna-6bb94b748aadce9a8e9f"
+      },
+      "content_kind": "news"
+    },
+    {
+      "word": "日圓",
+      "kind": "財經用語",
+      "answer_score": 86,
+      "difficulty": "medium",
+      "clue": "利差交易常借入的亞洲貨幣，升值時可能引發部位平倉。（2字）",
+      "id": "cna-5462ce278d0919c36004::日圓",
+      "event_id": "cna-5462ce278d0919c36004",
+      "event_revision": "cna-5462ce278d0919c36004",
+      "source_support": [
+        {
+          "source_id": "cna-5462ce278d0919c36004::日圓-fixture-source",
+          "evidence": "合成測試詞彙：日圓。"
+        }
+      ],
+      "clue_style": "magazine-v1",
+      "clue_kind": "meaning",
+      "clue_profile": "experienced-adults-v1",
+      "event": {
+        "event_id": "cna-5462ce278d0919c36004",
+        "dedup_key": "https://www.cna.com.tw/news/afe/202610180090.aspx",
+        "event_date": "2026-10-01",
+        "updated_at": "2026-10-01",
+        "published_at": "2026-10-18T06:07:36.000Z",
+        "title": "日圓貶值拖累　IMF預測日本名目GDP明年退居全球第6",
+        "summary": "日圓貶值拖累　IMF預測日本名目GDP明年退居全球第6",
+        "categories": [
+          "財經"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "cna-5462ce278d0919c36004::日圓-fixture-source",
+            "publisher": "合成測試資料",
+            "kind": "fixture",
+            "url": "https://example.invalid/experienced/%E6%97%A5%E5%9C%93",
+            "published_at": "2026-10-01",
+            "excerpt": "合成測試詞彙：日圓。"
+          }
+        ],
+        "aliases": [
+          "cna-5462ce278d0919c36004"
+        ],
+        "content_revision": "cna-5462ce278d0919c36004"
+      },
+      "content_kind": "news"
+    },
+    {
+      "word": "日本",
+      "kind": "國家或地區",
+      "answer_score": 86,
+      "difficulty": "medium",
+      "clue": "據報導，某國將啟動火星衛星探測計畫　盼有助揭開太陽系起源之謎。（2字）",
+      "id": "cna-f483ce24dacba6882658::日本",
+      "event_id": "cna-f483ce24dacba6882658",
+      "event_revision": "cna-f483ce24dacba6882658",
+      "source_support": [
+        {
+          "source_id": "cna-f483ce24dacba6882658::日本-fixture-source",
+          "evidence": "合成測試詞彙：日本。"
+        }
+      ],
+      "clue_style": "magazine-v1",
+      "clue_kind": "event",
+      "clue_profile": "experienced-adults-v1",
+      "event": {
+        "event_id": "cna-f483ce24dacba6882658",
+        "dedup_key": "https://www.cna.com.tw/news/ait/202610180039.aspx",
+        "event_date": "2026-10-01",
+        "updated_at": "2026-10-01",
+        "published_at": "2026-10-18T03:02:44.000Z",
+        "title": "日本將啟動火星衛星探測計畫　盼有助揭開太陽系起源之謎",
+        "summary": "日本將啟動火星衛星探測計畫　盼有助揭開太陽系起源之謎",
+        "categories": [
+          "科技"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "cna-f483ce24dacba6882658::日本-fixture-source",
+            "publisher": "合成測試資料",
+            "kind": "fixture",
+            "url": "https://example.invalid/experienced/%E6%97%A5%E6%9C%AC",
+            "published_at": "2026-10-01",
+            "excerpt": "合成測試詞彙：日本。"
+          }
+        ],
+        "aliases": [
+          "cna-f483ce24dacba6882658"
+        ],
+        "content_revision": "cna-f483ce24dacba6882658"
+      },
+      "content_kind": "news"
+    },
+    {
+      "word": "金融",
+      "kind": "財經用語",
+      "answer_score": 86,
+      "difficulty": "medium",
+      "clue": "透過存放款、投資與支付，把資金從供給者引導至需求者的經濟活動。（2字）",
+      "id": "cna-82f71106c62194d1866e::金融",
+      "event_id": "cna-82f71106c62194d1866e",
+      "event_revision": "cna-82f71106c62194d1866e",
+      "source_support": [
+        {
+          "source_id": "cna-82f71106c62194d1866e::金融-fixture-source",
+          "evidence": "合成測試詞彙：金融。"
+        }
+      ],
+      "clue_style": "magazine-v1",
+      "clue_kind": "meaning",
+      "clue_profile": "experienced-adults-v1",
+      "event": {
+        "event_id": "cna-82f71106c62194d1866e",
+        "dedup_key": "https://www.cna.com.tw/news/afe/202610180159.aspx",
+        "event_date": "2026-10-01",
+        "updated_at": "2026-10-01",
+        "published_at": "2026-10-18T11:09:09.000Z",
+        "title": "莊翠雲將率團赴香港　參與APEC財政部長會議",
+        "summary": "莊翠雲將率團赴香港　參與APEC財政部長會議",
+        "categories": [
+          "財經"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "cna-82f71106c62194d1866e::金融-fixture-source",
+            "publisher": "合成測試資料",
+            "kind": "fixture",
+            "url": "https://example.invalid/experienced/%E9%87%91%E8%9E%8D",
+            "published_at": "2026-10-01",
+            "excerpt": "合成測試詞彙：金融。"
+          }
+        ],
+        "aliases": [
+          "cna-82f71106c62194d1866e"
+        ],
+        "content_revision": "cna-82f71106c62194d1866e"
+      },
+      "content_kind": "news"
+    },
+    {
+      "id": "idiom-promise",
+      "word": "一諾千金",
+      "event_id": "idiom-promise",
+      "content_kind": "idiom",
+      "categories": [
+        "文化"
+      ],
+      "difficulty": "medium",
+      "answer_score": 90,
+      "clue": "交易未簽字仍恪守承諾，以信用承擔責任；此語讚許許下的話極有分量。（4字）",
+      "knowledge_source": {
+        "publisher": "教育部《成語典》",
+        "url": "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=69&webMd=1",
+        "meaning": "形容信守承諾，說話算數。"
+      },
+      "clue_style": "magazine-v1",
+      "clue_kind": "meaning",
+      "clue_profile": "experienced-adults-v1"
+    },
+    {
+      "word": "國軍",
+      "kind": "專業用語",
+      "answer_domain": "politics",
+      "answer_score": 86,
+      "difficulty": "medium",
+      "clue": "我國正規武裝部隊的統稱，受文人統制與國家法制規範。（2字）",
+      "id": "cna-0defe2f2e63f58b8581b::國軍",
+      "event_id": "cna-0defe2f2e63f58b8581b",
+      "event_revision": "cna-0defe2f2e63f58b8581b",
+      "source_support": [
+        {
+          "source_id": "cna-0defe2f2e63f58b8581b::國軍-fixture-source",
+          "evidence": "合成測試詞彙：國軍。"
+        }
+      ],
+      "clue_style": "magazine-v1",
+      "clue_kind": "meaning",
+      "clue_profile": "experienced-adults-v1",
+      "event": {
+        "event_id": "cna-0defe2f2e63f58b8581b",
+        "dedup_key": "https://www.cna.com.tw/news/aipl/202610190016.aspx",
+        "event_date": "2026-10-01",
+        "updated_at": "2026-10-01",
+        "published_at": "2026-10-19T01:10:29.000Z",
+        "title": "6艘共艦9艘公務船擾台　國軍嚴密監控",
+        "summary": "6艘共艦9艘公務船擾台　國軍嚴密監控",
+        "categories": [
+          "台灣"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "cna-0defe2f2e63f58b8581b::國軍-fixture-source",
+            "publisher": "合成測試資料",
+            "kind": "fixture",
+            "url": "https://example.invalid/experienced/%E5%9C%8B%E8%BB%8D",
+            "published_at": "2026-10-01",
+            "excerpt": "合成測試詞彙：國軍。"
+          }
+        ],
+        "aliases": [
+          "cna-0defe2f2e63f58b8581b"
+        ],
+        "content_revision": "cna-0defe2f2e63f58b8581b"
+      },
+      "content_kind": "news"
+    },
+    {
+      "word": "國防部",
+      "kind": "機關或組織",
+      "answer_score": 89,
+      "difficulty": "medium",
+      "clue": "統籌軍政與軍備業務、其預算及採購須受民意監督的中央部會。（3字）",
+      "id": "cna-0defe2f2e63f58b8581b::國防部",
+      "event_id": "cna-0defe2f2e63f58b8581b",
+      "event_revision": "cna-0defe2f2e63f58b8581b",
+      "source_support": [
+        {
+          "source_id": "cna-0defe2f2e63f58b8581b::國防部-fixture-source",
+          "evidence": "合成測試詞彙：國防部。"
+        }
+      ],
+      "clue_style": "magazine-v1",
+      "clue_kind": "meaning",
+      "clue_profile": "experienced-adults-v1",
+      "event": {
+        "event_id": "cna-0defe2f2e63f58b8581b",
+        "dedup_key": "https://www.cna.com.tw/news/aipl/202610190016.aspx",
+        "event_date": "2026-10-01",
+        "updated_at": "2026-10-01",
+        "published_at": "2026-10-19T01:10:29.000Z",
+        "title": "6艘共艦9艘公務船擾台　國軍嚴密監控",
+        "summary": "6艘共艦9艘公務船擾台　國軍嚴密監控",
+        "categories": [
+          "台灣"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "cna-0defe2f2e63f58b8581b::國防部-fixture-source",
+            "publisher": "合成測試資料",
+            "kind": "fixture",
+            "url": "https://example.invalid/experienced/%E5%9C%8B%E9%98%B2%E9%83%A8",
+            "published_at": "2026-10-01",
+            "excerpt": "合成測試詞彙：國防部。"
+          }
+        ],
+        "aliases": [
+          "cna-0defe2f2e63f58b8581b"
+        ],
+        "content_revision": "cna-0defe2f2e63f58b8581b"
+      },
+      "content_kind": "news"
+    }
+  ]
+}

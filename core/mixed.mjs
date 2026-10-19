@@ -27,7 +27,7 @@ export function runMixed(packet,{solverOptions={},maxClueChars=60}={}) {
  if(!mix||Array.isArray(mix)||Object.keys(mix).length!==2||Object.keys(mix).some(k=>!['news','idiom'].includes(k))||
   !['news','idiom'].every(k=>Number.isInteger(mix[k])&&mix[k]>=(k==='news'?1:0))||mix.news+mix.idiom<2||mix.news+mix.idiom>14)throw Error('mix 的 news 需為正整數、idiom 需為非負整數，總題數需為 2～14');
  const target=mix.news+mix.idiom;
- const settings=solverSettings({...solverOptions,target,minEntries:target,contentTargets:mix});
+ const settings=solverSettings({...solverOptions,editorialPolicy:packet.editorial_policy?.profile??solverOptions.editorialPolicy??null,target,minEntries:target,contentTargets:mix});
  if(['target','minEntries','contentTargets'].some(k=>Object.hasOwn(solverOptions,k)))throw Error('混合模式的題數及配額由 mix 設定');
  const proposed=structuredClone(packet.idioms===undefined?[]:packet.idioms),idioms=[],reports=[];
  if(!Array.isArray(proposed))throw Error('idioms 需為陣列');

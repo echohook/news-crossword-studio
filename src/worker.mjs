@@ -1,9 +1,11 @@
+import {EXPERIENCED_PROFILE} from '../core/editorial.mjs';
 import {createReportPdf} from './pdf.mjs';
 import {generateEditions} from '../core/editions.mjs';
 import {collectEvents,generateCandidates} from '../core/news.mjs';
 import {checkCandidates} from '../core/model.mjs';
 export function preparePacket(raw) {
  const p=structuredClone(raw);
+ if(p?.automation?.enabled)p.editorial_policy={profile:EXPERIENCED_PROFILE};
  if(p?.news&&p.idioms===undefined)p.idioms=[];
  if(!p||typeof p!=='object'||!p.news||!Array.isArray(p.news.events)||!Array.isArray(p.idioms))throw Error('請匯入包含新聞的題庫檔案；成語可省略。');
  if(p.news.events.length>200||p.idioms.length>300)throw Error('題庫過大，請分成數期匯入。');

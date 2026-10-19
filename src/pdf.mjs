@@ -1,3 +1,4 @@
+import {validateEditorialSelection} from '../core/editorial.mjs';
 import {PDFDocument,rgb} from 'pdf-lib';
 import fontkit from '@pdf-lib/fontkit';
 import {validatePuzzle} from '../core/validator.mjs';
@@ -10,6 +11,7 @@ export function assertPrintableReport(r) {
  const repeat=validateEditionDiversity(r.editions);
  if(!repeat.valid)throw Error('題目或答案重複，不能匯出 PDF。');
  for(const [i,e]of r.editions.entries()) {
+  if(r.editorial_policy&&!validateEditorialSelection(e.puzzle.expected,{profile:r.editorial_policy.profile}).valid)throw Error('題材或難度未通過檢查，不能匯出 PDF。');
   if(e.edition_number!==i+1||!validatePuzzle(e.puzzle).valid)throw Error('盤面未通過獨立驗證，不能匯出 PDF。');
   for(const [key,includeAnswers]of [['player',false],['answers',true]]) {
    const sheet=buildWorksheet(e.puzzle,{includeAnswers,maxClueChars:r.render_settings?.maxClueChars??60});

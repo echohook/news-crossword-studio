@@ -140,7 +140,7 @@ test('RSS leads neither seed golf terms in other topics nor evade entertainment 
  const ordinary=item('日本棒球隊分享心得').replace('</item>','<description><![CDATA[觀眾看到小鳥，也參觀公園沙坑。]]></description></item>');
  const excluded=item('高球名人演唱會　桿弟陪同','202610020009').replace('</item>','<description><![CDATA[高球果嶺交流。]]></description></item>');
  const events=parseFeed(rss(ordinary+excluded+item('美國日本政策會談','202610020008')),sports,{now});
- assert.equal(events.length,2);assert.equal(events.find(e=>e.title.includes('棒球')).rss_lead,'');
+ assert.equal(events.length,2);assert.equal(events.find(e=>e.title.includes('棒球')).rss_lead,'觀眾看到小鳥，也參觀公園沙坑。');
  const p=buildBank([{source:sports,events}],{now});assert(!p.news.candidates.some(c=>c.topic==='golf'));
 });
 

@@ -1,3 +1,4 @@
+import {experiencedDefinition,EXPERIENCED_PROFILE} from '../core/experienced-definitions.mjs';
 import {definitionBody} from '../core/definitions.mjs';
 import {naturalClueOptions,CLUE_STYLE,normalized} from './clues.mjs';
 import {clueKey} from '../core/edition-policy.mjs';
@@ -9,7 +10,7 @@ import {LEXICON} from './lexicon.mjs';
 import {newsWindow,collectEvents,generateCandidates} from '../core/news.mjs';
 import {validateClue} from '../core/clues.mjs';
 const MAX_BYTES=1024*1024;
-const entertainment=/藝人|影帝|影后|演唱會|金馬|金鐘|金曲|綜藝|偶像|票房|粉絲|娛樂|戲劇|電影|歌手|男星|女星|實境秀/u;
+const entertainment=/首映|上映|開播|藝人|影帝|影后|演唱會|金馬|金鐘|金曲|綜藝|偶像|票房|粉絲|娛樂|戲劇|電影|歌手|男星|女星|實境秀/u;
 const hash=s=>createHash('sha256').update(s).digest('hex').slice(0,20);
 export const taipeiDate=(date=new Date())=>new Intl.DateTimeFormat('en-CA',{timeZone:'Asia/Taipei',year:'numeric',month:'2-digit',day:'2-digit'}).format(date);
 export function articleUrl(raw){
@@ -25,7 +26,7 @@ export function parseFeed(xml,source,{now=new Date()}={}){
   const title=plain(item?.title),url=articleUrl(item?.link),pub=new Date(item?.pubDate);
   if(!url||!title||Array.from(title).length>160||entertainment.test(title)||!Number.isFinite(pub.getTime())||pub>now)continue;
   const date=taipeiDate(pub);if(date<window.from||date>window.to)continue;
-  const rawLead=plain(item?.description),lead=rawLead.length<=1200&&hasGolfContext({title,rss_lead:rawLead})?rawLead:'';
+  const rawLead=plain(item?.description),lead=rawLead.length<=1200?rawLead:'';
   if(lead&&entertainment.test(lead))continue;
   const excerpt=lead?title+'\n'+lead:title;
   const id='cna-'+hash(url),sid='rss-'+hash(url+excerpt);
@@ -35,12 +36,19 @@ export function parseFeed(xml,source,{now=new Date()}={}){
  }
  return events;
 }
-export function buildBank(feedResults,{now=new Date(),previous,idioms=[],lexicon=LEXICON}={}){
+export function termAllowed(entry,event,content=[event.title,event.rss_lead].filter(Boolean).join(' ')){
+ if(entry.word==='海警')return /颱風|熱帶氣旋|海上.*警報/u.test(content)&&!/^中國海警/u.test(event.title);
+ if(entry.word==='衛星'&&/衛星變繁星/u.test(content))return /軌道|太空|發射|探測|通訊/u.test(content);
+ if(entry.word==='金融')return content.replaceAll('金融時報','').includes('金融');
+ return true;
+}
+export function buildBank(feedResults,{now=new Date(),previous,idioms=[],lexicon=LEXICON,profile=null}={}){
+ if(profile!==null&&profile!==EXPERIENCED_PROFILE)throw Error('未知選題規格');
  const issue=taipeiDate(now),window=newsWindow(issue),map=new Map();
  const successful=feedResults.filter(r=>!r.error),fresh=successful.flatMap(r=>r.events??[]);
  if(!successful.length||!fresh.length)throw Error('本次沒有取得七天內的新聞；保留上一批題庫。');
  for(const e of previous?.news?.events??[]){
-  if(e.event_date>=window.from&&e.event_date<=window.to&&e.published_at&&new Date(e.published_at)<=now&&articleUrl(e.sources?.[0]?.url)&&!entertainment.test(e.title))map.set(e.dedup_key??e.sources[0].url,structuredClone(e));
+  if(e.event_date>=window.from&&e.event_date<=window.to&&e.published_at&&new Date(e.published_at)<=now&&articleUrl(e.sources?.[0]?.url)&&!entertainment.test(e.title+' '+(e.rss_lead??'')))map.set(e.dedup_key??e.sources[0].url,structuredClone(e));
  }
  for(const e of fresh)map.set(e.dedup_key,e);
  const ordered=[...map.values()].sort((a,b)=>b.published_at.localeCompare(a.published_at)||a.event_id.localeCompare(b.event_id));
@@ -48,31 +56,31 @@ export function buildBank(feedResults,{now=new Date(),previous,idioms=[],lexicon
  const retainedGolf=ordered.filter(hasGolfContext).slice(0,24),selected=new Map(retainedGolf.map(e=>[e.event_id,e]));
  for(const e of ordered){if(selected.size>=180)break;selected.set(e.event_id,e);}
  const events=[...selected.values()].sort((a,b)=>b.published_at.localeCompare(a.published_at)||a.event_id.localeCompare(b.event_id));
- for(const e of events){const content=golfNewsText(e);e.keywords=lexicon.filter(a=>content.includes(a.word)&&golfTermAllowed(a,e)&&
+ for(const e of events){const content=profile?[e.title,e.rss_lead].filter(Boolean).join('\n'):golfNewsText(e);e.keywords=lexicon.filter(a=>content.includes(a.word)&&termAllowed(a,e,content)&&golfTermAllowed(a,e)&&
   !lexicon.some(b=>b.word.length>a.word.length&&b.word.includes(a.word)&&content.includes(b.word)&&golfTermAllowed(b,e))&&
   !(a.word==='鳳梨'&&e.title.includes('鳳梨釋迦'))&&
   !(a.word==='運動'&&/青年運動|學生運動|社會運動|革命運動|工人運動|政治運動/u.test(e.title))).map(a=>({
-  word:a.word,...(a.topic?{topic:a.topic}:{}),...(a.term_reference?{term_reference:a.term_reference}:{}),clue_options:naturalClueOptions(e,a),answer_score:80+Array.from(a.word).length*3,difficulty:'easy'
+  word:a.word,kind:a.kind,...(a.answer_domain?{answer_domain:a.answer_domain}:{}),...(a.topic?{topic:a.topic}:{}),...(a.term_reference?{term_reference:a.term_reference}:{}),clue_options:naturalClueOptions(e,a,{profile}),answer_score:80+Array.from(a.word).length*3,difficulty:profile?'medium':'easy'
  })).filter(a=>a.clue_options.length).map(a=>({...a,clue:a.clue_options[0].clue}));}
  const collected=collectEvents(events,{issueDate:issue}),eventMap=new Map(collected.accepted.map(e=>[e.event_id,e])),seen=new Set(),usedClues=new Set(),candidates=[];
- const proposed=generateCandidates(collected.accepted).sort((a,b)=>eventMap.get(b.event_id).published_at.localeCompare(eventMap.get(a.event_id).published_at)||b.answer_score-a.answer_score||a.id.localeCompare(b.id));
+ const proposed=generateCandidates(collected.accepted).sort((a,b)=>(profile?Number(b.clue_options?.some(o=>o.clue_kind==='event'))-Number(a.clue_options?.some(o=>o.clue_kind==='event')):0)||eventMap.get(b.event_id).published_at.localeCompare(eventMap.get(a.event_id).published_at)||b.answer_score-a.answer_score||a.id.localeCompare(b.id));
  for(const c of proposed){
   if(seen.has(c.word)||candidates.length>=500)continue;
   for(const option of c.clue_options??[]){
    const candidate={...c,...option};delete candidate.clue_options;
    const clueText=normalized(candidate.clue);
-   if(usedClues.has(clueKey(candidate.clue))||candidates.some(old=>clueText.includes(normalized(old.word))||normalized(old.clue).includes(normalized(c.word))))continue;
+   if(usedClues.has(clueKey(candidate.clue))||(!profile&&candidates.some(old=>clueText.includes(normalized(old.word))||normalized(old.clue).includes(normalized(c.word)))))continue;
    if(!validateClue(candidate,eventMap.get(c.event_id)).passed)continue;
    candidates.push(candidate);seen.add(c.word);usedClues.add(clueKey(candidate.clue));break;
   }
  }
 if(candidates.length<2||!candidates.some(c=>fresh.some(e=>e.event_id===c.event_id)))throw Error('本次沒有取得足夠合格的新題目；保留上一批題庫。');
- const styledIdioms=structuredClone(idioms).map(c=>{const body=definitionBody(c.word);return body?{...c,clue:body+'（4字）',clue_style:CLUE_STYLE,clue_kind:'meaning',
+ const styledIdioms=structuredClone(idioms).map(c=>{const body=(profile?experiencedDefinition(c.word)?.body:null)??definitionBody(c.word);return body?{...c,clue:body+'（4字）',clue_style:CLUE_STYLE,clue_kind:'meaning',...(profile?{clue_profile:profile,difficulty:'medium'}:{}),
   ...(c.word==='半途而廢'?{knowledge_source:{...c.knowledge_source,publisher:'教育部《成語典》',url:'https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=152&webMd=1'}}:{})}:c;});
- return {news:{issue_date:issue,dataset_mode:'news',events:collected.accepted,candidates},idioms:styledIdioms,mix:{news:8,idiom:4},
+ return {...(profile?{editorial_policy:{profile}}:{}),news:{issue_date:issue,dataset_mode:'news',events:collected.accepted,candidates},idioms:styledIdioms,mix:profile?{news:10,idiom:2}:{news:8,idiom:4},
   automation:{enabled:true,updated_at:now.toISOString(),window,interval_hours:6,source_count:successful.length,candidate_count:candidates.length,
    sources:feedResults.map(r=>({id:r.source.id,publisher:r.source.publisher,category:r.source.category,url:r.source.url,count:r.events?.length??0,error:r.error??null})),
-   clue_style:CLUE_STYLE,status:successful.length===feedResults.length?'UPDATED':'PARTIAL',method:'RSS 新聞來源核對；精簡敘述、詞義與比喻線索；不擷取全文或圖片'}};
+   clue_style:CLUE_STYLE,status:successful.length===feedResults.length?'UPDATED':'PARTIAL',method:profile?'RSS 七天新聞與摘要；事件及應用詞義；題材與難度獨立檢查':'RSS 新聞來源核對；精簡敘述、詞義與比喻線索；不擷取全文或圖片'}};
 }
 export async function fetchFeeds({sources=SOURCES,fetchImpl=fetch,now=new Date()}={}){
  return Promise.all(sources.map(async source=>{
@@ -86,3 +94,4 @@ export async function fetchFeeds({sources=SOURCES,fetchImpl=fetch,now=new Date()
   }catch(e){return {source,events:[],error:String(e.message).slice(0,120)};}
  }));
 }
+

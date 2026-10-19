@@ -1,3 +1,4 @@
+import {EXPERIENCED_PROFILE} from '../core/experienced-definitions.mjs';
 import {readFile,writeFile,rename,mkdir} from 'node:fs/promises';
 import {resolve} from 'node:path';
 import {fileURLToPath} from 'node:url';
@@ -7,7 +8,7 @@ export async function updateNews({now=new Date(),fetchImpl=fetch,destinationPath
  let previous;try{previous=JSON.parse(await readFile(destinationPath,'utf8'));}catch(e){if(e.code!=='ENOENT')throw e;}
  const template=JSON.parse(await readFile(resolve(base,'core/examples/mixed-input.json'),'utf8'));
  const results=await fetchFeeds({now,fetchImpl});
- const packet=buildBank(results,{now,previous,idioms:template.idioms});
+ const packet=buildBank(results,{now,previous,idioms:template.idioms,profile:EXPERIENCED_PROFILE});
  await mkdir(resolve(destinationPath,'..'),{recursive:true});
  const temporary=destinationPath+'.tmp';
  await writeFile(temporary,JSON.stringify(packet,null,2)+'\n','utf8');await rename(temporary,destinationPath);

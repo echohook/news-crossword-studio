@@ -1,3 +1,4 @@
+import {experiencedLexicon} from '../core/experienced-definitions.mjs';
 import {GOLF_LEXICON} from './golf.mjs';
 const groups={
  '國家或地區':'台灣 美國 日本 韓國 中國 英國 法國 德國 印度 越南 泰國 印尼 馬來西亞 新加坡 菲律賓 澳洲 紐西蘭 加拿大 墨西哥 巴西 智利 阿根廷 烏克蘭 俄羅斯 波蘭 捷克 荷蘭 比利時 丹麥 瑞典 芬蘭 挪威 瑞士 西班牙 葡萄牙 義大利 土耳其 以色列 伊朗 伊拉克 沙烏地 南非 埃及 立陶宛 愛沙尼亞 歐盟 歐洲 亞洲 美洲 非洲 中東 南韓 北韓 香港 澳門 西藏 新疆 格陵蘭 巴勒斯坦 黎巴嫩 緬甸 柬埔寨 寮國 蒙古 尼泊爾 不丹 瑞士 奧地利 匈牙利 羅馬尼亞',
@@ -13,4 +14,5 @@ const groups={
 const seen=new Set();
 const basic=Object.entries(groups).flatMap(([kind,words])=>words.split(' ').filter(word=>/^\p{Script=Han}{2,4}$/u.test(word)&&!seen.has(word)&&seen.add(word)).map(word=>({word,kind})));
 
-export const LEXICON=[...basic,...GOLF_LEXICON.filter(c=>!seen.has(c.word)&&seen.add(c.word))];
+export const LEXICON=[...basic,...GOLF_LEXICON.filter(c=>!seen.has(c.word)&&seen.add(c.word)),...experiencedLexicon.filter(c=>!seen.has(c.word)&&seen.add(c.word))];
+

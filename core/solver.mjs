@@ -1,7 +1,8 @@
+import {editorialAdmission,validateEditorialSelection,editorialReward,EXPERIENCED_PROFILE} from './editorial.mjs';
 import {filterCandidateScope} from './news-policy.mjs';
 export function solverSettings(options={}) {
   if (!options || typeof options!=='object' || Array.isArray(options)) throw new Error('options 必須是物件');
-  const {target=12,minEntries=8,attempts=48,seed=1,sizes=[8,9,10],contentTargets}=options;
+  const {target=12,minEntries=8,attempts=48,seed=1,sizes=[8,9,10],contentTargets,editorialPolicy=null}=options;
   if(!Number.isInteger(target)||target<2||target>14||!Number.isInteger(minEntries)||minEntries<2||minEntries>target)
     throw new Error('需符合 2 <= minEntries <= target <= 14');
   if(!Number.isInteger(attempts)||attempts<1||attempts>10000||(!Number.isSafeInteger(seed)||seed<0||seed>4294967295)) throw new Error('attempts 或 seed 不合法：seed 需為 0～4294967295 整數');
@@ -9,8 +10,9 @@ export function solverSettings(options={}) {
   if(contentTargets!==undefined && (!contentTargets || Array.isArray(contentTargets) || typeof contentTargets!=='object' ||
       Object.keys(contentTargets).length!==2 || Object.keys(contentTargets).some(k=>!['news','idiom'].includes(k)) || !['news','idiom'].every(k=>Number.isInteger(contentTargets[k])&&contentTargets[k]>=0) ||
       contentTargets.news+contentTargets.idiom!==target))throw new Error('contentTargets 需含非負整數 news 與 idiom，總和等於 target');
-  for(const key of Object.keys(options)) if(!['target','minEntries','attempts','seed','sizes','contentTargets'].includes(key)) throw new Error('未知 Solver 選項：'+key);
-  return {target,minEntries,attempts,seed,sizes,...(contentTargets===undefined?{}:{contentTargets:{...contentTargets}})};
+  if(editorialPolicy!==null&&editorialPolicy!==EXPERIENCED_PROFILE)throw Error('未知選題規格');
+  for(const key of Object.keys(options)) if(!['target','minEntries','attempts','seed','sizes','contentTargets','editorialPolicy'].includes(key)) throw new Error('未知 Solver 選項：'+key);
+  return {target,minEntries,attempts,seed,sizes,editorialPolicy,...(contentTargets===undefined?{}:{contentTargets:{...contentTargets}})};
 }
 
 import {BLOCK, checkCandidates, lengthBalance} from './model.mjs';
@@ -64,7 +66,7 @@ function pairs(pool) {
  */
 export function solve(candidates, options={}) {
   checkCandidates(candidates);
-  const {target,minEntries,attempts,seed,sizes,contentTargets}=solverSettings(options);
+  const {target,minEntries,attempts,seed,sizes,contentTargets,editorialPolicy}=solverSettings(options);
   const scope=filterCandidateScope(candidates);
   const pool=[...scope.accepted].sort((a,b)=>a.id<b.id?-1:a.id>b.id?1:0);
   const analysis=analyzeCandidates(candidates,{target,minEntries});
@@ -85,7 +87,8 @@ export function solve(candidates, options={}) {
         state.expected.forEach(c=>events.set(c.event_id,(events.get(c.event_id)??0)+1));
         const contentCounts={news:0,idiom:0};
         if(contentTargets)state.expected.forEach(c=>contentCounts[contentKind(c)]++);
-        const remaining=pool.filter(c=>!used.has(c.id)&&(events.get(c.event_id)??0)<2&&
+        const editorialAllows=editorialAdmission(state.expected,target,editorialPolicy);
+        const remaining=pool.filter(c=>editorialAllows([c])&&!used.has(c.id)&&(events.get(c.event_id)??0)<2&&
           (!contentTargets||contentCounts[contentKind(c)]<contentTargets[contentKind(c)]));
         const actions=[];
         // Existing crossing: a single new answer can connect to several entries.
@@ -99,7 +102,7 @@ export function solve(candidates, options={}) {
         }
         // A new disconnected component must already contain a real crossing.
         if(state.expected.length+2<=target) for(const t of templates) {
-          if(used.has(t.a.id)||used.has(t.b.id)) continue;
+          if(used.has(t.a.id)||used.has(t.b.id)||!editorialAllows([t.a,t.b])) continue;
           if(contentTargets) {
             const additions={news:0,idiom:0};additions[contentKind(t.a)]++;additions[contentKind(t.b)]++;
             if(['news','idiom'].some(k=>contentCounts[k]+additions[k]>contentTargets[k]))continue;
@@ -127,14 +130,14 @@ export function solve(candidates, options={}) {
           for(const item of a.items) {const len=chars(item.c).length; reward+=target/3-projected[len]; projected[len]++;}
           const newAnchorEvents=new Set(a.items.filter(item=>anchors.has(item.c.event_id)&&!events.has(item.c.event_id)).map(item=>item.c.event_id));
           a.anchorGain=newAnchorEvents.size;
-          a.score=reward/a.items.length + random()*2 + a.items.reduce((n,item)=>n+candidatePriority(item.c),0)/a.items.length/200;
+          a.score=editorialReward(state.expected,a.items.map(x=>x.c),target,editorialPolicy)+reward/a.items.length + random()*2 + a.items.reduce((n,item)=>n+candidatePriority(item.c),0)/a.items.length/200;
           if(contentTargets)a.score+=a.items.reduce((sum,item)=>sum+(contentTargets[contentKind(item.c)]-contentCounts[contentKind(item.c)])/Math.max(1,contentTargets[contentKind(item.c)]),0)/a.items.length;
         }
         actions.sort((a,b)=>b.anchorGain-a.anchorGain||b.score-a.score);
         for(const item of actions[0].items) state=apply(state,item.c,item.p);
       }
       largestAttemptCount=Math.max(largestAttemptCount,state.expected.length);
-      if(state.expected.length>=minEntries) {
+      if(state.expected.length>=minEntries&&(!editorialPolicy||validateEditorialSelection(state.expected,{profile:editorialPolicy,target}).valid)) {
         const validation=validatePuzzle(state);
         if(!validation.valid) throw new Error('Solver invariant failed: '+JSON.stringify(validation));
         if(!bestHere || compareSelections(state,bestHere,pool)<0) bestHere=state;
