@@ -1,4 +1,4 @@
-# 時事填字樂 — 多元進階出題 v1.12.0
+# 時事填字樂 — 多元進階出題 v1.12.1
 
 [開啟網站](https://echohook.github.io/news-crossword-studio/) · [另一入口](https://news-crossword-studio.echoman.chatgpt.site/)
 

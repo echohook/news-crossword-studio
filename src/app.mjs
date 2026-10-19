@@ -6,7 +6,7 @@ const el=(tag,cls,text)=>{const n=document.createElement(tag);if(cls)n.className
 let bankConnection='ONLINE';
 let packet,report=null,preview=null,mode='player',editionIndex=0,worker,active=false;
 let nextId=1;const pending=new Map();
-function startWorker(){worker=new Worker(new URL('./worker.js?v=1.12.0',import.meta.url),{type:'module'});worker.onmessage=({data})=>{const p=pending.get(data.id);if(!p)return;pending.delete(data.id);data.type==='error'?p.reject(Error(data.message)):p.resolve(data);};worker.onerror=()=>{for(const p of pending.values())p.reject(Error('產題程式未能載入，請重新整理再試。'));pending.clear();};}
+function startWorker(){worker=new Worker(new URL('./worker.js?v=1.12.1',import.meta.url),{type:'module'});worker.onmessage=({data})=>{const p=pending.get(data.id);if(!p)return;pending.delete(data.id);data.type==='error'?p.reject(Error(data.message)):p.resolve(data);};worker.onerror=()=>{for(const p of pending.values())p.reject(Error('產題程式未能載入，請重新整理再試。'));pending.clear();};}
 function askWorker(data){const id=nextId++;return new Promise((resolve,reject)=>{pending.set(id,{resolve,reject});worker.postMessage({id,...data});});}
 export const chineseNumber=n=>n<10?'零一二三四五六七八九'[n]:n===10?'十':'十'+'零一二三四五六七八九'[n-10];
 export function displayEntries(sheet){return Object.fromEntries(['H','V'].map(d=>[d,[...sheet.clues[d]].sort((a,b)=>a.row-b.row||a.col-b.col).map((e,i)=>({...e,label:d==='H'?String(i+1):chineseNumber(i+1)}))]));}

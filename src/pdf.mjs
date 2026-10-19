@@ -81,9 +81,10 @@ export async function createReportPdf(report,{regular,bold}) {
    if(y<54)throw Error('題目超出 A4 版面，請縮短提示後重新產題。');
   }
   page.drawLine({start:{x:M,y:42},end:{x:W-M,y:42},thickness:.4,color:rgb(.65,.65,.65)});
-  draw(sheet.mode==='player'?'時事與成語':'答案頁請另行保管，勿與作答頁同時發放。',M,27,9);
+  draw(sheet.mode==='player'?'新聞來源：中央通訊社 RSS｜時事與成語':'答案頁請另行保管，勿與作答頁同時發放。',M,27,9);
   right((index+1)+' / '+sheets.length,W-M,27,9);
  }
  doc.setTitle('時事填字樂');doc.setAuthor('時事填字樂');doc.setSubject('各份題目與答案不重複；作答頁在前，答案頁在後');
  return doc.save();
 }
+

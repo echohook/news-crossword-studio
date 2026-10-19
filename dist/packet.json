@@ -8938,12 +8938,12 @@
         "clue_profile": "experienced-adults-v1"
       },
       {
-        "word": "美元",
+        "word": "匯率",
         "kind": "財經用語",
         "answer_score": 86,
         "difficulty": "medium",
-        "clue": "國際貿易與外匯存底常用的計價貨幣，其利率變動牽動跨境資金。（2字）",
-        "id": "cna-126d2cd64b9d53d671a7::美元",
+        "clue": "出口商收取外幣後換回本國貨幣的所得，會受這項比價影響。（2字）",
+        "id": "cna-126d2cd64b9d53d671a7::匯率",
         "event_id": "cna-126d2cd64b9d53d671a7",
         "event_revision": "cna-126d2cd64b9d53d671a7",
         "source_support": [
@@ -8957,12 +8957,12 @@
         "clue_profile": "experienced-adults-v1"
       },
       {
-        "word": "匯率",
+        "word": "美元",
         "kind": "財經用語",
         "answer_score": 86,
         "difficulty": "medium",
-        "clue": "出口商收取外幣後換回本國貨幣的所得，會受這項比價影響。（2字）",
-        "id": "cna-126d2cd64b9d53d671a7::匯率",
+        "clue": "國際貿易與外匯存底常用的計價貨幣，其利率變動牽動跨境資金。（2字）",
+        "id": "cna-126d2cd64b9d53d671a7::美元",
         "event_id": "cna-126d2cd64b9d53d671a7",
         "event_revision": "cna-126d2cd64b9d53d671a7",
         "source_support": [
@@ -9445,13 +9445,13 @@
         "clue_profile": "experienced-adults-v1"
       },
       {
-        "word": "工會",
+        "word": "商標",
         "kind": "專業用語",
         "answer_domain": "society",
         "answer_score": 86,
         "difficulty": "medium",
-        "clue": "受僱者為協商勞動條件及維護共同權益而組成的團體。（2字）",
-        "id": "cna-1358f74ff939bb4104fb::工會",
+        "clue": "用以區別商品或服務來源的識別標誌，保護須兼顧註冊與實際使用等條件。（2字）",
+        "id": "cna-1358f74ff939bb4104fb::商標",
         "event_id": "cna-1358f74ff939bb4104fb",
         "event_revision": "cna-1358f74ff939bb4104fb",
         "source_support": [
@@ -9465,13 +9465,13 @@
         "clue_profile": "experienced-adults-v1"
       },
       {
-        "word": "商標",
+        "word": "工會",
         "kind": "專業用語",
         "answer_domain": "society",
         "answer_score": 86,
         "difficulty": "medium",
-        "clue": "用以區別商品或服務來源的識別標誌，保護須兼顧註冊與實際使用等條件。（2字）",
-        "id": "cna-1358f74ff939bb4104fb::商標",
+        "clue": "受僱者為協商勞動條件及維護共同權益而組成的團體。（2字）",
+        "id": "cna-1358f74ff939bb4104fb::工會",
         "event_id": "cna-1358f74ff939bb4104fb",
         "event_revision": "cna-1358f74ff939bb4104fb",
         "source_support": [
@@ -9505,13 +9505,13 @@
         "clue_profile": "experienced-adults-v1"
       },
       {
-        "word": "詐騙",
+        "word": "網路",
         "kind": "專業用語",
-        "answer_domain": "society",
+        "answer_domain": "technology",
         "answer_score": 86,
         "difficulty": "medium",
-        "clue": "利用虛假訊息使人陷於錯誤並交付財物，常見手法包含假投資與冒名來電。（2字）",
-        "id": "cna-7fa2a5234ae00a4a93f2::詐騙",
+        "clue": "連結設備與資訊的通訊系統，便利性也帶來身分冒用與攻擊風險。（2字）",
+        "id": "cna-7fa2a5234ae00a4a93f2::網路",
         "event_id": "cna-7fa2a5234ae00a4a93f2",
         "event_revision": "cna-7fa2a5234ae00a4a93f2",
         "source_support": [
@@ -9525,13 +9525,13 @@
         "clue_profile": "experienced-adults-v1"
       },
       {
-        "word": "網路",
+        "word": "詐騙",
         "kind": "專業用語",
-        "answer_domain": "technology",
+        "answer_domain": "society",
         "answer_score": 86,
         "difficulty": "medium",
-        "clue": "連結設備與資訊的通訊系統，便利性也帶來身分冒用與攻擊風險。（2字）",
-        "id": "cna-7fa2a5234ae00a4a93f2::網路",
+        "clue": "利用虛假訊息使人陷於錯誤並交付財物，常見手法包含假投資與冒名來電。（2字）",
+        "id": "cna-7fa2a5234ae00a4a93f2::詐騙",
         "event_id": "cna-7fa2a5234ae00a4a93f2",
         "event_revision": "cna-7fa2a5234ae00a4a93f2",
         "source_support": [
@@ -9915,13 +9915,13 @@
         "clue_profile": "experienced-adults-v1"
       },
       {
-        "word": "八音",
+        "word": "傳習",
         "kind": "專業用語",
         "answer_domain": "culture",
         "answer_score": 86,
         "difficulty": "medium",
-        "clue": "客家傳統器樂合奏形式，常見於禮俗場合，保存也仰賴師徒傳習。（2字）",
-        "id": "cna-5f9d771472eea3d68017::八音",
+        "clue": "透過實作與教導延續技藝或文化的過程，重點不只保存器物本身。（2字）",
+        "id": "cna-5f9d771472eea3d68017::傳習",
         "event_id": "cna-5f9d771472eea3d68017",
         "event_revision": "cna-5f9d771472eea3d68017",
         "source_support": [
@@ -9935,13 +9935,13 @@
         "clue_profile": "experienced-adults-v1"
       },
       {
-        "word": "傳習",
+        "word": "八音",
         "kind": "專業用語",
         "answer_domain": "culture",
         "answer_score": 86,
         "difficulty": "medium",
-        "clue": "透過實作與教導延續技藝或文化的過程，重點不只保存器物本身。（2字）",
-        "id": "cna-5f9d771472eea3d68017::傳習",
+        "clue": "客家傳統器樂合奏形式，常見於禮俗場合，保存也仰賴師徒傳習。（2字）",
+        "id": "cna-5f9d771472eea3d68017::八音",
         "event_id": "cna-5f9d771472eea3d68017",
         "event_revision": "cna-5f9d771472eea3d68017",
         "source_support": [
@@ -10054,13 +10054,13 @@
         "clue_profile": "experienced-adults-v1"
       },
       {
-        "word": "骨密度",
+        "word": "類固醇",
         "kind": "專業用語",
         "answer_domain": "health",
         "answer_score": 89,
         "difficulty": "medium",
-        "clue": "評估骨骼礦物含量的量測指標，可協助判斷骨折風險，仍須結合臨床因素。（3字）",
-        "id": "cna-77c1068f07067acf2199::骨密度",
+        "clue": "可用於抗發炎等治療的一類藥物，長期使用可能影響骨質及代謝。（3字）",
+        "id": "cna-77c1068f07067acf2199::類固醇",
         "event_id": "cna-77c1068f07067acf2199",
         "event_revision": "cna-77c1068f07067acf2199",
         "source_support": [
@@ -10074,13 +10074,13 @@
         "clue_profile": "experienced-adults-v1"
       },
       {
-        "word": "類固醇",
+        "word": "骨密度",
         "kind": "專業用語",
         "answer_domain": "health",
         "answer_score": 89,
         "difficulty": "medium",
-        "clue": "可用於抗發炎等治療的一類藥物，長期使用可能影響骨質及代謝。（3字）",
-        "id": "cna-77c1068f07067acf2199::類固醇",
+        "clue": "評估骨骼礦物含量的量測指標，可協助判斷骨折風險，仍須結合臨床因素。（3字）",
+        "id": "cna-77c1068f07067acf2199::骨密度",
         "event_id": "cna-77c1068f07067acf2199",
         "event_revision": "cna-77c1068f07067acf2199",
         "source_support": [
@@ -10308,6 +10308,26 @@
         "clue_profile": "experienced-adults-v1"
       },
       {
+        "word": "國銀",
+        "kind": "專業用語",
+        "answer_domain": "economy",
+        "answer_score": 86,
+        "difficulty": "medium",
+        "clue": "本地銀行業者的兩字統稱，海外放款與外幣存款常反映其跨境業務布局。（2字）",
+        "id": "cna-d5ed3f801b3839247d1c::國銀",
+        "event_id": "cna-d5ed3f801b3839247d1c",
+        "event_revision": "cna-d5ed3f801b3839247d1c",
+        "source_support": [
+          {
+            "source_id": "rss-10b5b538f7b542b12f36",
+            "evidence": "國銀外幣存款8月底破17.5兆元　續創新高\n（中央社記者蘇思云台北18日電）金管會統計顯示，本國銀行截至今年8月底外幣存款餘額達新台幣17兆518億元，續創歷史新高，月增1068億元，累計前8月外幣存款增額達1.6兆元；國銀外幣存款「兆元俱樂部」依然是6家業者，中信銀行以1.77兆元居冠。"
+          }
+        ],
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning",
+        "clue_profile": "experienced-adults-v1"
+      },
+      {
         "word": "外幣",
         "kind": "專業用語",
         "answer_domain": "economy",
@@ -10335,26 +10355,6 @@
         "difficulty": "medium",
         "clue": "把資金交由銀行保管並依約取回的安排，其保障範圍與投資商品有別。（2字）",
         "id": "cna-d5ed3f801b3839247d1c::存款",
-        "event_id": "cna-d5ed3f801b3839247d1c",
-        "event_revision": "cna-d5ed3f801b3839247d1c",
-        "source_support": [
-          {
-            "source_id": "rss-10b5b538f7b542b12f36",
-            "evidence": "國銀外幣存款8月底破17.5兆元　續創新高\n（中央社記者蘇思云台北18日電）金管會統計顯示，本國銀行截至今年8月底外幣存款餘額達新台幣17兆518億元，續創歷史新高，月增1068億元，累計前8月外幣存款增額達1.6兆元；國銀外幣存款「兆元俱樂部」依然是6家業者，中信銀行以1.77兆元居冠。"
-          }
-        ],
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning",
-        "clue_profile": "experienced-adults-v1"
-      },
-      {
-        "word": "國銀",
-        "kind": "專業用語",
-        "answer_domain": "economy",
-        "answer_score": 86,
-        "difficulty": "medium",
-        "clue": "本地銀行業者的兩字統稱，海外放款與外幣存款常反映其跨境業務布局。（2字）",
-        "id": "cna-d5ed3f801b3839247d1c::國銀",
         "event_id": "cna-d5ed3f801b3839247d1c",
         "event_revision": "cna-d5ed3f801b3839247d1c",
         "source_support": [
@@ -10447,26 +10447,6 @@
         "clue_profile": "experienced-adults-v1"
       },
       {
-        "word": "失智",
-        "kind": "專業用語",
-        "answer_domain": "health",
-        "answer_score": 86,
-        "difficulty": "medium",
-        "clue": "認知功能下降至影響生活的狀態簡稱，照顧常須兼顧安全、尊嚴與家庭支持。（2字）",
-        "id": "cna-a515b683b59981d2ff3e::失智",
-        "event_id": "cna-a515b683b59981d2ff3e",
-        "event_revision": "cna-a515b683b59981d2ff3e",
-        "source_support": [
-          {
-            "source_id": "rss-dc7e0f6c162857ca1f19",
-            "evidence": "失智風險增　壽險業規劃保單共管人機制"
-          }
-        ],
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning",
-        "clue_profile": "experienced-adults-v1"
-      },
-      {
         "word": "保單",
         "kind": "專業用語",
         "answer_domain": "economy",
@@ -10494,6 +10474,26 @@
         "difficulty": "medium",
         "clue": "以人的生存或死亡為給付條件的保險，設計時常涉及家庭保障與傳承。（2字）",
         "id": "cna-a515b683b59981d2ff3e::壽險",
+        "event_id": "cna-a515b683b59981d2ff3e",
+        "event_revision": "cna-a515b683b59981d2ff3e",
+        "source_support": [
+          {
+            "source_id": "rss-dc7e0f6c162857ca1f19",
+            "evidence": "失智風險增　壽險業規劃保單共管人機制"
+          }
+        ],
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning",
+        "clue_profile": "experienced-adults-v1"
+      },
+      {
+        "word": "失智",
+        "kind": "專業用語",
+        "answer_domain": "health",
+        "answer_score": 86,
+        "difficulty": "medium",
+        "clue": "認知功能下降至影響生活的狀態簡稱，照顧常須兼顧安全、尊嚴與家庭支持。（2字）",
+        "id": "cna-a515b683b59981d2ff3e::失智",
         "event_id": "cna-a515b683b59981d2ff3e",
         "event_revision": "cna-a515b683b59981d2ff3e",
         "source_support": [
@@ -10567,13 +10567,13 @@
         "clue_profile": "experienced-adults-v1"
       },
       {
-        "word": "電腦",
+        "word": "環保",
         "kind": "專業用語",
-        "answer_domain": "technology",
+        "answer_domain": "environment",
         "answer_score": 86,
         "difficulty": "medium",
-        "clue": "依程式處理資料的設備，其運算結果仍取決於指令與輸入品質。（2字）",
-        "id": "cna-b5eb47a00e6f1f6c4484::電腦",
+        "clue": "減少污染、維護生態及資源永續利用的公共行動簡稱。（2字）",
+        "id": "cna-b5eb47a00e6f1f6c4484::環保",
         "event_id": "cna-b5eb47a00e6f1f6c4484",
         "event_revision": "cna-b5eb47a00e6f1f6c4484",
         "source_support": [
@@ -10587,13 +10587,13 @@
         "clue_profile": "experienced-adults-v1"
       },
       {
-        "word": "環保",
+        "word": "電腦",
         "kind": "專業用語",
-        "answer_domain": "environment",
+        "answer_domain": "technology",
         "answer_score": 86,
         "difficulty": "medium",
-        "clue": "減少污染、維護生態及資源永續利用的公共行動簡稱。（2字）",
-        "id": "cna-b5eb47a00e6f1f6c4484::環保",
+        "clue": "依程式處理資料的設備，其運算結果仍取決於指令與輸入品質。（2字）",
+        "id": "cna-b5eb47a00e6f1f6c4484::電腦",
         "event_id": "cna-b5eb47a00e6f1f6c4484",
         "event_revision": "cna-b5eb47a00e6f1f6c4484",
         "source_support": [
@@ -10716,7 +10716,7 @@
   },
   "automation": {
     "enabled": true,
-    "updated_at": "2026-10-19T03:09:51.413Z",
+    "updated_at": "2026-10-19T03:16:06.986Z",
     "window": {
       "from": "2026-10-13",
       "to": "2026-10-19"
@@ -10808,6 +10808,6 @@
     ],
     "clue_style": "magazine-v1",
     "status": "UPDATED",
-    "method": "RSS 新聞來源核對；精簡敘述、詞義與比喻線索；不擷取全文或圖片"
+    "method": "RSS 七天新聞與摘要；事件及應用詞義；題材與難度獨立檢查"
   }
 }
