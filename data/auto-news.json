@@ -7,57 +7,6 @@
     "dataset_mode": "news",
     "events": [
       {
-        "event_id": "cna-ec9eda2d41adb0e92a0d",
-        "dedup_key": "https://www.cna.com.tw/news/acn/202610200178.aspx",
-        "event_date": "2026-10-20",
-        "updated_at": "2026-10-20",
-        "published_at": "2026-10-20T07:03:48.000Z",
-        "title": "傳中共20屆五中全會「決定」曝光　為習近平反腐政治路線背書",
-        "rss_lead": "（中央社台北20日電）據X平台「爆點週刊」取得的中共20屆五中全會「關於持之以恆推進全面從嚴治黨若干重大問題的決定（討論稿）」（下稱「決定」），全文分為6大部分，肯定習近平2012年執政以來的反腐作為，並將習的個人權力意志轉化為全黨的政治紀律。",
-        "summary": "傳中共20屆五中全會「決定」曝光　為習近平反腐政治路線背書",
-        "categories": [
-          "國際"
-        ],
-        "fact_status": "reported",
-        "content_type": "news",
-        "event_score": 80,
-        "anchor_event": false,
-        "sources": [
-          {
-            "source_id": "rss-7f26fa85409e8faf42ae",
-            "publisher": "中央通訊社",
-            "kind": "newswire",
-            "url": "https://www.cna.com.tw/news/acn/202610200178.aspx",
-            "published_at": "2026-10-20",
-            "excerpt": "傳中共20屆五中全會「決定」曝光　為習近平反腐政治路線背書\n（中央社台北20日電）據X平台「爆點週刊」取得的中共20屆五中全會「關於持之以恆推進全面從嚴治黨若干重大問題的決定（討論稿）」（下稱「決定」），全文分為6大部分，肯定習近平2012年執政以來的反腐作為，並將習的個人權力意志轉化為全黨的政治紀律。",
-            "section": "國際"
-          }
-        ],
-        "keywords": [
-          {
-            "word": "人權",
-            "kind": "專業用語",
-            "answer_domain": "society",
-            "clue_options": [
-              {
-                "clue": "每個人因其為人而享有的基本權利，國家權力行使須受其約束。（2字）",
-                "clue_style": "magazine-v1",
-                "clue_kind": "meaning",
-                "clue_profile": "experienced-adults-v1",
-                "difficulty": "medium"
-              }
-            ],
-            "answer_score": 86,
-            "difficulty": "medium",
-            "clue": "每個人因其為人而享有的基本權利，國家權力行使須受其約束。（2字）"
-          }
-        ],
-        "aliases": [
-          "cna-ec9eda2d41adb0e92a0d"
-        ],
-        "content_revision": "cna-ec9eda2d41adb0e92a0d"
-      },
-      {
         "event_id": "cna-5b197a3c06a6f600ab28",
         "dedup_key": "https://www.cna.com.tw/news/acn/202610200225.aspx",
         "event_date": "2026-10-20",
@@ -3455,57 +3404,6 @@
         "content_revision": "cna-8a44156ade60d11eac00"
       },
       {
-        "event_id": "cna-8957b95ab472286c137a",
-        "dedup_key": "https://www.cna.com.tw/news/aipl/202610200185.aspx",
-        "event_date": "2026-10-20",
-        "updated_at": "2026-10-20",
-        "published_at": "2026-10-20T07:17:03.000Z",
-        "title": "台贈菲除役艦　卓榮泰：未來值勤不會涉及台灣海域",
-        "rss_lead": "（中央社記者曾以寧台北20日電）台灣海巡署除役巡防救難艦「金門艦」，日前經由菲律賓非營利基金會贈予菲律賓海岸防衛隊。行政院長卓榮泰表示，對方已承諾此船未來值勤不會涉及與台灣相關海域、漁民。海委會主委管碧玲指出，雙方協議載明不得用於對台灣漁民執法。",
-        "summary": "台贈菲除役艦　卓榮泰：未來值勤不會涉及台灣海域",
-        "categories": [
-          "台灣"
-        ],
-        "fact_status": "reported",
-        "content_type": "news",
-        "event_score": 80,
-        "anchor_event": false,
-        "sources": [
-          {
-            "source_id": "rss-72498c2591f1ef14b283",
-            "publisher": "中央通訊社",
-            "kind": "newswire",
-            "url": "https://www.cna.com.tw/news/aipl/202610200185.aspx",
-            "published_at": "2026-10-20",
-            "excerpt": "台贈菲除役艦　卓榮泰：未來值勤不會涉及台灣海域\n（中央社記者曾以寧台北20日電）台灣海巡署除役巡防救難艦「金門艦」，日前經由菲律賓非營利基金會贈予菲律賓海岸防衛隊。行政院長卓榮泰表示，對方已承諾此船未來值勤不會涉及與台灣相關海域、漁民。海委會主委管碧玲指出，雙方協議載明不得用於對台灣漁民執法。",
-            "section": "台灣"
-          }
-        ],
-        "keywords": [
-          {
-            "word": "海巡署",
-            "kind": "專業用語",
-            "answer_domain": "politics",
-            "clue_options": [
-              {
-                "clue": "兼顧海域執法、救難與海洋權益維護的我國海岸巡防機關。（3字）",
-                "clue_style": "magazine-v1",
-                "clue_kind": "meaning",
-                "clue_profile": "experienced-adults-v1",
-                "difficulty": "medium"
-              }
-            ],
-            "answer_score": 89,
-            "difficulty": "medium",
-            "clue": "兼顧海域執法、救難與海洋權益維護的我國海岸巡防機關。（3字）"
-          }
-        ],
-        "aliases": [
-          "cna-8957b95ab472286c137a"
-        ],
-        "content_revision": "cna-8957b95ab472286c137a"
-      },
-      {
         "event_id": "cna-87144141875ea55ca739",
         "dedup_key": "https://www.cna.com.tw/news/aipl/202610200194.aspx",
         "event_date": "2026-10-20",
@@ -5523,139 +5421,6 @@
         "content_revision": "cna-6ea4340098b5a928bd82"
       },
       {
-        "event_id": "cna-a3923006c865a8e168a1",
-        "dedup_key": "https://www.cna.com.tw/news/aopl/202610200180.aspx",
-        "event_date": "2026-10-20",
-        "updated_at": "2026-10-20",
-        "published_at": "2026-10-20T07:07:52.000Z",
-        "title": "中國AI工具Artex遭濫用　日本多家企業受駭",
-        "rss_lead": "（中央社東京20日綜合外電報導）東京一家大型網路企業旗下子公司今天表示，日本近日接連發生企業遭駭事件，調查發現其中多起攻擊使用一款名為Artex的中國人工智慧（AI）資安工具。",
-        "summary": "中國AI工具Artex遭濫用　日本多家企業受駭",
-        "categories": [
-          "國際"
-        ],
-        "fact_status": "reported",
-        "content_type": "news",
-        "event_score": 80,
-        "anchor_event": false,
-        "sources": [
-          {
-            "source_id": "rss-e1156d9dba40ea2deca1",
-            "publisher": "中央通訊社",
-            "kind": "newswire",
-            "url": "https://www.cna.com.tw/news/aopl/202610200180.aspx",
-            "published_at": "2026-10-20",
-            "excerpt": "中國AI工具Artex遭濫用　日本多家企業受駭\n（中央社東京20日綜合外電報導）東京一家大型網路企業旗下子公司今天表示，日本近日接連發生企業遭駭事件，調查發現其中多起攻擊使用一款名為Artex的中國人工智慧（AI）資安工具。",
-            "section": "國際"
-          }
-        ],
-        "keywords": [
-          {
-            "word": "人工智慧",
-            "kind": "科技用語",
-            "clue_options": [
-              {
-                "clue": "讓系統從資料學習並執行辨識、預測或生成工作的技術領域。（4字）",
-                "clue_style": "magazine-v1",
-                "clue_kind": "meaning",
-                "clue_profile": "experienced-adults-v1",
-                "difficulty": "medium"
-              }
-            ],
-            "answer_score": 92,
-            "difficulty": "medium",
-            "clue": "讓系統從資料學習並執行辨識、預測或生成工作的技術領域。（4字）"
-          },
-          {
-            "word": "資安",
-            "kind": "科技用語",
-            "clue_options": [
-              {
-                "clue": "從帳號權限、系統防護到事件應變，維護數位資料機密與完整性的工作簡稱。（2字）",
-                "clue_style": "magazine-v1",
-                "clue_kind": "meaning",
-                "clue_profile": "experienced-adults-v1",
-                "difficulty": "medium"
-              }
-            ],
-            "answer_score": 86,
-            "difficulty": "medium",
-            "clue": "從帳號權限、系統防護到事件應變，維護數位資料機密與完整性的工作簡稱。（2字）"
-          },
-          {
-            "word": "網路",
-            "kind": "專業用語",
-            "answer_domain": "technology",
-            "clue_options": [
-              {
-                "clue": "連結設備與資訊的通訊系統，便利性也帶來身分冒用與攻擊風險。（2字）",
-                "clue_style": "magazine-v1",
-                "clue_kind": "meaning",
-                "clue_profile": "experienced-adults-v1",
-                "difficulty": "medium"
-              }
-            ],
-            "answer_score": 86,
-            "difficulty": "medium",
-            "clue": "連結設備與資訊的通訊系統，便利性也帶來身分冒用與攻擊風險。（2字）"
-          }
-        ],
-        "aliases": [
-          "cna-a3923006c865a8e168a1"
-        ],
-        "content_revision": "cna-a3923006c865a8e168a1"
-      },
-      {
-        "event_id": "cna-9f826953425d0de8e46e",
-        "dedup_key": "https://www.cna.com.tw/news/aopl/202610200182.aspx",
-        "event_date": "2026-10-20",
-        "updated_at": "2026-10-20",
-        "published_at": "2026-10-20T07:08:56.000Z",
-        "title": "北韓戰俘移交風波嫌隙加深　南韓撤回更多駐烏克蘭使館人員",
-        "rss_lead": "（中央社首爾20日綜合外電報導）南韓外交部今天宣布，鑑於與基輔當局因為將北韓戰俘移交首爾而引發的外交爭端有進一步擴大趨勢，南韓將撤回更多駐烏克蘭大使館人員。",
-        "summary": "北韓戰俘移交風波嫌隙加深　南韓撤回更多駐烏克蘭使館人員",
-        "categories": [
-          "國際"
-        ],
-        "fact_status": "reported",
-        "content_type": "news",
-        "event_score": 80,
-        "anchor_event": false,
-        "sources": [
-          {
-            "source_id": "rss-9c701ae59852a84dd3c5",
-            "publisher": "中央通訊社",
-            "kind": "newswire",
-            "url": "https://www.cna.com.tw/news/aopl/202610200182.aspx",
-            "published_at": "2026-10-20",
-            "excerpt": "北韓戰俘移交風波嫌隙加深　南韓撤回更多駐烏克蘭使館人員\n（中央社首爾20日綜合外電報導）南韓外交部今天宣布，鑑於與基輔當局因為將北韓戰俘移交首爾而引發的外交爭端有進一步擴大趨勢，南韓將撤回更多駐烏克蘭大使館人員。",
-            "section": "國際"
-          }
-        ],
-        "keywords": [
-          {
-            "word": "外交部",
-            "kind": "機關或組織",
-            "clue_options": [
-              {
-                "clue": "辦理對外關係與領事事務，並在海外事故時協調急難協助的中央部會。（3字）",
-                "clue_style": "magazine-v1",
-                "clue_kind": "meaning",
-                "clue_profile": "experienced-adults-v1",
-                "difficulty": "medium"
-              }
-            ],
-            "answer_score": 89,
-            "difficulty": "medium",
-            "clue": "辦理對外關係與領事事務，並在海外事故時協調急難協助的中央部會。（3字）"
-          }
-        ],
-        "aliases": [
-          "cna-9f826953425d0de8e46e"
-        ],
-        "content_revision": "cna-9f826953425d0de8e46e"
-      },
-      {
         "event_id": "cna-1b898d283b8156a612d4",
         "dedup_key": "https://www.cna.com.tw/news/aopl/202610200188.aspx",
         "event_date": "2026-10-20",
@@ -6856,6 +6621,206 @@
         "content_revision": "cna-89128acad2c19ad71fe3"
       },
       {
+        "event_id": "cna-77ad740edaccfa482718",
+        "dedup_key": "https://www.cna.com.tw/news/aopl/202610210005.aspx",
+        "event_date": "2026-10-21",
+        "updated_at": "2026-10-21",
+        "published_at": "2026-10-20T18:00:33.000Z",
+        "title": "法國防動亂再起　首都巴黎部分地點連2夜實施宵禁",
+        "rss_lead": "（中央社巴黎20日綜合外電報導）法國首都巴黎市警方今天連續第2夜對部分市區實施宵禁。當局表示，經過週末的暴動和打劫亂象後，昨夜實施的宵禁成功讓市區恢復平靜。",
+        "summary": "法國防動亂再起　首都巴黎部分地點連2夜實施宵禁",
+        "categories": [
+          "國際"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-12379cb38f80f26d47e9",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aopl/202610210005.aspx",
+            "published_at": "2026-10-21",
+            "excerpt": "法國防動亂再起　首都巴黎部分地點連2夜實施宵禁\n（中央社巴黎20日綜合外電報導）法國首都巴黎市警方今天連續第2夜對部分市區實施宵禁。當局表示，經過週末的暴動和打劫亂象後，昨夜實施的宵禁成功讓市區恢復平靜。",
+            "section": "國際"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "國防",
+            "kind": "專業用語",
+            "answer_domain": "politics",
+            "clue_options": [
+              {
+                "clue": "面對外來威脅，整合軍事與非軍事資源維護國家安全的公共事務。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "面對外來威脅，整合軍事與非軍事資源維護國家安全的公共事務。（2字）"
+          }
+        ],
+        "aliases": [
+          "cna-77ad740edaccfa482718"
+        ],
+        "content_revision": "cna-77ad740edaccfa482718"
+      },
+      {
+        "event_id": "cna-ba256cdc1c9fa0623ffb",
+        "dedup_key": "https://www.cna.com.tw/news/aopl/202610210006.aspx",
+        "event_date": "2026-10-21",
+        "updated_at": "2026-10-21",
+        "published_at": "2026-10-20T18:26:36.000Z",
+        "title": "伊朗最高安全官員：絕不容許核材料運出德黑蘭",
+        "rss_lead": "（中央社德黑蘭20日綜合外電報導）伊朗國家電視台報導，最高國家安全委員會（SNSC）秘書雷札伊（Mohsen Rezaei）今天告訴來訪的巴基斯坦陸軍參謀長穆尼爾（Asim Munir），德黑蘭絕不容許濃縮核材料運出伊朗。",
+        "summary": "伊朗最高安全官員：絕不容許核材料運出德黑蘭",
+        "categories": [
+          "國際"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-4ca72f45ca3235966049",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aopl/202610210006.aspx",
+            "published_at": "2026-10-21",
+            "excerpt": "伊朗最高安全官員：絕不容許核材料運出德黑蘭\n（中央社德黑蘭20日綜合外電報導）伊朗國家電視台報導，最高國家安全委員會（SNSC）秘書雷札伊（Mohsen Rezaei）今天告訴來訪的巴基斯坦陸軍參謀長穆尼爾（Asim Munir），德黑蘭絕不容許濃縮核材料運出伊朗。",
+            "section": "國際"
+          }
+        ],
+        "keywords": [],
+        "aliases": [
+          "cna-ba256cdc1c9fa0623ffb"
+        ],
+        "content_revision": "cna-ba256cdc1c9fa0623ffb"
+      },
+      {
+        "event_id": "cna-ffeeac041d88ff0a0155",
+        "dedup_key": "https://www.cna.com.tw/news/aopl/202610210007.aspx",
+        "event_date": "2026-10-21",
+        "updated_at": "2026-10-21",
+        "published_at": "2026-10-20T20:02:40.000Z",
+        "title": "川普稱烏克蘭須展現結束戰爭意願　籲基輔與俄簽和平協議",
+        "rss_lead": "（中央社華盛頓20日綜合外電報導）美國總統川普（Donald Trump）今天呼籲烏克蘭與俄羅斯達成協議以終結兩國戰事，並表示基輔須展現出結束戰爭的意願。",
+        "summary": "川普稱烏克蘭須展現結束戰爭意願　籲基輔與俄簽和平協議",
+        "categories": [
+          "國際"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-d2f1c78c2f60b024ba34",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aopl/202610210007.aspx",
+            "published_at": "2026-10-21",
+            "excerpt": "川普稱烏克蘭須展現結束戰爭意願　籲基輔與俄簽和平協議\n（中央社華盛頓20日綜合外電報導）美國總統川普（Donald Trump）今天呼籲烏克蘭與俄羅斯達成協議以終結兩國戰事，並表示基輔須展現出結束戰爭的意願。",
+            "section": "國際"
+          }
+        ],
+        "keywords": [],
+        "aliases": [
+          "cna-ffeeac041d88ff0a0155"
+        ],
+        "content_revision": "cna-ffeeac041d88ff0a0155"
+      },
+      {
+        "event_id": "cna-c8b24f521f78bacd9b72",
+        "dedup_key": "https://www.cna.com.tw/news/aopl/202610210008.aspx",
+        "event_date": "2026-10-21",
+        "updated_at": "2026-10-21",
+        "published_at": "2026-10-20T20:45:43.000Z",
+        "title": "不滿川普對加拿大徵50%關稅　美重要食品進口商提告要求退稅",
+        "rss_lead": "（中央社華盛頓20日綜合外電報導）美國主要食品進口商之一蓋勒特全球集團（Gellert Global Group）今天向美國國際貿易法庭提起訴訟，要求推翻美國總統川普對部分加拿大貨品徵收的50%關稅。",
+        "summary": "不滿川普對加拿大徵50%關稅　美重要食品進口商提告要求退稅",
+        "categories": [
+          "國際"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-d57263a810affe4a92dc",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aopl/202610210008.aspx",
+            "published_at": "2026-10-21",
+            "excerpt": "不滿川普對加拿大徵50%關稅　美重要食品進口商提告要求退稅\n（中央社華盛頓20日綜合外電報導）美國主要食品進口商之一蓋勒特全球集團（Gellert Global Group）今天向美國國際貿易法庭提起訴訟，要求推翻美國總統川普對部分加拿大貨品徵收的50%關稅。",
+            "section": "國際"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "關稅",
+            "kind": "財經用語",
+            "clue_options": [
+              {
+                "clue": "跨境貨物的稅負，除增加財政收入，也可能提高進口品售價。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "跨境貨物的稅負，除增加財政收入，也可能提高進口品售價。（2字）"
+          }
+        ],
+        "aliases": [
+          "cna-c8b24f521f78bacd9b72"
+        ],
+        "content_revision": "cna-c8b24f521f78bacd9b72"
+      },
+      {
+        "event_id": "cna-a47f998d9de35e3586d8",
+        "dedup_key": "https://www.cna.com.tw/news/aopl/202610210009.aspx",
+        "event_date": "2026-10-21",
+        "updated_at": "2026-10-21",
+        "published_at": "2026-10-20T20:55:45.000Z",
+        "title": "Netflix財測不如預期　尋求重振成長",
+        "rss_lead": "（中央社洛杉磯20日綜合外電報導）影音串流平台Netflix今天美股盤後公布的財測不如預期。該公司近來剛裁員約1000名員工並撤換2名節目製作高管，正設法重振成長。",
+        "summary": "Netflix財測不如預期　尋求重振成長",
+        "categories": [
+          "國際"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-038befc63525a338760b",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aopl/202610210009.aspx",
+            "published_at": "2026-10-21",
+            "excerpt": "Netflix財測不如預期　尋求重振成長\n（中央社洛杉磯20日綜合外電報導）影音串流平台Netflix今天美股盤後公布的財測不如預期。該公司近來剛裁員約1000名員工並撤換2名節目製作高管，正設法重振成長。",
+            "section": "國際"
+          }
+        ],
+        "keywords": [],
+        "aliases": [
+          "cna-a47f998d9de35e3586d8"
+        ],
+        "content_revision": "cna-a47f998d9de35e3586d8"
+      },
+      {
         "event_id": "cna-b4998e6d71167e557bab",
         "dedup_key": "https://www.cna.com.tw/news/asoc/202610200210.aspx",
         "event_date": "2026-10-20",
@@ -7662,39 +7627,6 @@
         "content_revision": "cna-b2cd60309c0f5127ffa8"
       },
       {
-        "event_id": "cna-877639a92ce05feac0df",
-        "dedup_key": "https://www.cna.com.tw/news/aspt/202610200183.aspx",
-        "event_date": "2026-10-20",
-        "updated_at": "2026-10-20",
-        "published_at": "2026-10-20T07:11:59.000Z",
-        "title": "U23世界盃培訓赴日交流賽　王宇傑後援飆速155公里",
-        "rss_lead": "（中央社記者謝靜雯台北20日電）U23世界盃棒球賽台灣培訓隊移地訓練，今天與日本社會人隊西部瓦斯交手，林佾葳、王翾祈各挨1轟，後援投手王宇傑投1局飆速155公里，培訓隊追分不及終場以3比7吞敗。",
-        "summary": "U23世界盃培訓赴日交流賽　王宇傑後援飆速155公里",
-        "categories": [
-          "體育"
-        ],
-        "fact_status": "reported",
-        "content_type": "news",
-        "event_score": 80,
-        "anchor_event": false,
-        "sources": [
-          {
-            "source_id": "rss-980003ae063eaacfa674",
-            "publisher": "中央通訊社",
-            "kind": "newswire",
-            "url": "https://www.cna.com.tw/news/aspt/202610200183.aspx",
-            "published_at": "2026-10-20",
-            "excerpt": "U23世界盃培訓赴日交流賽　王宇傑後援飆速155公里\n（中央社記者謝靜雯台北20日電）U23世界盃棒球賽台灣培訓隊移地訓練，今天與日本社會人隊西部瓦斯交手，林佾葳、王翾祈各挨1轟，後援投手王宇傑投1局飆速155公里，培訓隊追分不及終場以3比7吞敗。",
-            "section": "體育"
-          }
-        ],
-        "keywords": [],
-        "aliases": [
-          "cna-877639a92ce05feac0df"
-        ],
-        "content_revision": "cna-877639a92ce05feac0df"
-      },
-      {
         "event_id": "cna-221759ed5de82ffd9104",
         "dedup_key": "https://www.cna.com.tw/news/aspt/202610200193.aspx",
         "event_date": "2026-10-20",
@@ -8454,6 +8386,45 @@
         ],
         "clue_style": "magazine-v1",
         "clue_kind": "event",
+        "clue_profile": "experienced-adults-v1"
+      },
+      {
+        "word": "關稅",
+        "kind": "財經用語",
+        "answer_score": 86,
+        "difficulty": "medium",
+        "clue": "跨境貨物的稅負，除增加財政收入，也可能提高進口品售價。（2字）",
+        "id": "cna-c8b24f521f78bacd9b72::關稅",
+        "event_id": "cna-c8b24f521f78bacd9b72",
+        "event_revision": "cna-c8b24f521f78bacd9b72",
+        "source_support": [
+          {
+            "source_id": "rss-d57263a810affe4a92dc",
+            "evidence": "不滿川普對加拿大徵50%關稅　美重要食品進口商提告要求退稅\n（中央社華盛頓20日綜合外電報導）美國主要食品進口商之一蓋勒特全球集團（Gellert Global Group）今天向美國國際貿易法庭提起訴訟，要求推翻美國總統川普對部分加拿大貨品徵收的50%關稅。"
+          }
+        ],
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning",
+        "clue_profile": "experienced-adults-v1"
+      },
+      {
+        "word": "國防",
+        "kind": "專業用語",
+        "answer_domain": "politics",
+        "answer_score": 86,
+        "difficulty": "medium",
+        "clue": "面對外來威脅，整合軍事與非軍事資源維護國家安全的公共事務。（2字）",
+        "id": "cna-77ad740edaccfa482718::國防",
+        "event_id": "cna-77ad740edaccfa482718",
+        "event_revision": "cna-77ad740edaccfa482718",
+        "source_support": [
+          {
+            "source_id": "rss-12379cb38f80f26d47e9",
+            "evidence": "法國防動亂再起　首都巴黎部分地點連2夜實施宵禁\n（中央社巴黎20日綜合外電報導）法國首都巴黎市警方今天連續第2夜對部分市區實施宵禁。"
+          }
+        ],
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning",
         "clue_profile": "experienced-adults-v1"
       },
       {
@@ -9237,26 +9208,6 @@
         "clue_profile": "experienced-adults-v1"
       },
       {
-        "word": "國防",
-        "kind": "專業用語",
-        "answer_domain": "politics",
-        "answer_score": 86,
-        "difficulty": "medium",
-        "clue": "面對外來威脅，整合軍事與非軍事資源維護國家安全的公共事務。（2字）",
-        "id": "cna-615a5ed942da0a4da01a::國防",
-        "event_id": "cna-615a5ed942da0a4da01a",
-        "event_revision": "cna-615a5ed942da0a4da01a",
-        "source_support": [
-          {
-            "source_id": "rss-32fbbfdac7003b3ee95c",
-            "evidence": "賴總統：山巔之城要固若金湯　續投入國防建設守護民主\n（中央社記者楊堯茹台北20日電）賴總統今天於僑務委員會議開幕典禮致詞時，引用「禮運大同篇」強調要將台灣打造為「山巔之城」，期望所有國民享受經濟成長果實、安居樂業；賴總統說，「山巔之城」要固若金湯，必須持續投入國防建設、守護民主價值、防止共產主義滲透，告訴世界台灣不會故步自封、閉門造車。"
-          }
-        ],
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning",
-        "clue_profile": "experienced-adults-v1"
-      },
-      {
         "word": "台股",
         "kind": "財經用語",
         "answer_score": 86,
@@ -9407,25 +9358,6 @@
           {
             "source_id": "rss-3ae7c6bb64bf8fd37df3",
             "evidence": "竹縣寶山野溪現不明泡沫　環保局採樣追查污染源\n（中央社記者郭宣彣新竹縣20日電）新竹縣寶山鄉雙林路一段附近野溪今天出現大量不明泡沫，民眾反映有魚蝦死亡及泡沫流入稻田情形；竹縣環保局表示，現場初步水質檢測未見異常，已採樣送驗重金屬，持續追查污染來源。"
-          }
-        ],
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning",
-        "clue_profile": "experienced-adults-v1"
-      },
-      {
-        "word": "關稅",
-        "kind": "財經用語",
-        "answer_score": 86,
-        "difficulty": "medium",
-        "clue": "跨境貨物的稅負，除增加財政收入，也可能提高進口品售價。（2字）",
-        "id": "cna-85198e94825f8ba8bd79::關稅",
-        "event_id": "cna-85198e94825f8ba8bd79",
-        "event_revision": "cna-85198e94825f8ba8bd79",
-        "source_support": [
-          {
-            "source_id": "rss-79e54785cf4c8b656afb",
-            "evidence": "採購阿拉斯加天然氣　卓榮泰：與關稅談判無關\n（中央社記者林敬殷台北20日電）中油規劃每年採購600萬公噸阿拉斯加天然氣，成為立委關切議題。"
           }
         ],
         "clue_style": "magazine-v1",
@@ -9587,65 +9519,6 @@
         "clue_profile": "experienced-adults-v1"
       },
       {
-        "word": "海巡署",
-        "kind": "專業用語",
-        "answer_domain": "politics",
-        "answer_score": 89,
-        "difficulty": "medium",
-        "clue": "兼顧海域執法、救難與海洋權益維護的我國海岸巡防機關。（3字）",
-        "id": "cna-8957b95ab472286c137a::海巡署",
-        "event_id": "cna-8957b95ab472286c137a",
-        "event_revision": "cna-8957b95ab472286c137a",
-        "source_support": [
-          {
-            "source_id": "rss-72498c2591f1ef14b283",
-            "evidence": "台贈菲除役艦　卓榮泰：未來值勤不會涉及台灣海域\n（中央社記者曾以寧台北20日電）台灣海巡署除役巡防救難艦「金門艦」，日前經由菲律賓非營利基金會贈予菲律賓海岸防衛隊。"
-          }
-        ],
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning",
-        "clue_profile": "experienced-adults-v1"
-      },
-      {
-        "word": "資安",
-        "kind": "科技用語",
-        "answer_score": 86,
-        "difficulty": "medium",
-        "clue": "從帳號權限、系統防護到事件應變，維護數位資料機密與完整性的工作簡稱。（2字）",
-        "id": "cna-a3923006c865a8e168a1::資安",
-        "event_id": "cna-a3923006c865a8e168a1",
-        "event_revision": "cna-a3923006c865a8e168a1",
-        "source_support": [
-          {
-            "source_id": "rss-e1156d9dba40ea2deca1",
-            "evidence": "中國AI工具Artex遭濫用　日本多家企業受駭\n（中央社東京20日綜合外電報導）東京一家大型網路企業旗下子公司今天表示，日本近日接連發生企業遭駭事件，調查發現其中多起攻擊使用一款名為Artex的中國人工智慧（AI）資安工具。"
-          }
-        ],
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning",
-        "clue_profile": "experienced-adults-v1"
-      },
-      {
-        "word": "人權",
-        "kind": "專業用語",
-        "answer_domain": "society",
-        "answer_score": 86,
-        "difficulty": "medium",
-        "clue": "每個人因其為人而享有的基本權利，國家權力行使須受其約束。（2字）",
-        "id": "cna-ec9eda2d41adb0e92a0d::人權",
-        "event_id": "cna-ec9eda2d41adb0e92a0d",
-        "event_revision": "cna-ec9eda2d41adb0e92a0d",
-        "source_support": [
-          {
-            "source_id": "rss-7f26fa85409e8faf42ae",
-            "evidence": "傳中共20屆五中全會「決定」曝光　為習近平反腐政治路線背書\n（中央社台北20日電）據X平台「爆點週刊」取得的中共20屆五中全會「關於持之以恆推進全面從嚴治黨若干重大問題的決定（討論稿）」（下稱「決定」），全文分為6大部分，肯定習近平2012年執政以來的反腐作為，並將習的個人權力意志轉化為全黨的政治紀律。"
-          }
-        ],
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning",
-        "clue_profile": "experienced-adults-v1"
-      },
-      {
         "word": "延長賽",
         "kind": "專業用語",
         "answer_domain": "sports",
@@ -9755,14 +9628,14 @@
   },
   "automation": {
     "enabled": true,
-    "updated_at": "2026-10-20T17:16:17.589Z",
+    "updated_at": "2026-10-20T21:42:14.693Z",
     "window": {
       "from": "2026-10-15",
       "to": "2026-10-21"
     },
     "interval_hours": 6,
     "source_count": 10,
-    "candidate_count": 66,
+    "candidate_count": 63,
     "sources": [
       {
         "id": "cna-politics",
