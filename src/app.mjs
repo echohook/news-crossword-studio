@@ -1,3 +1,6 @@
+import {analyzeCandidates} from '../core/analysis.mjs';
+import {verifiedCapacity} from '../core/verified-bank.mjs';
+import {MAX_BANK_BYTES} from '../core/limits.mjs';
 import {editorialFacts,editorialLimits} from '../core/editorial.mjs';
 import {loadAutoBank} from './auto-bank.mjs';
 import {assertPrintableReport} from './pdf.mjs';
@@ -6,7 +9,7 @@ const el=(tag,cls,text)=>{const n=document.createElement(tag);if(cls)n.className
 let bankConnection='ONLINE';
 let packet,report=null,preview=null,mode='player',editionIndex=0,worker,active=false;
 let nextId=1;const pending=new Map();
-function startWorker(){worker=new Worker(new URL('./worker.js?v=1.12.1',import.meta.url),{type:'module'});worker.onmessage=({data})=>{const p=pending.get(data.id);if(!p)return;pending.delete(data.id);data.type==='error'?p.reject(Error(data.message)):p.resolve(data);};worker.onerror=()=>{for(const p of pending.values())p.reject(Error('產題程式未能載入，請重新整理再試。'));pending.clear();};}
+function startWorker(){worker=new Worker(new URL('./worker.js?v=1.13.0',import.meta.url),{type:'module'});worker.onmessage=({data})=>{if(data.type==='progress'){if(!pending.has(data.id))return;$('progress').textContent=['replanning','verified-fallback'].includes(data.phase)?'正在重新分配整批題目，避免前面的題目用完後面所需的交叉字…':'已完成 '+data.generated_count+'／'+data.requested_count+' 份，繼續檢查下一份…';return;}const p=pending.get(data.id);if(!p)return;pending.delete(data.id);data.type==='error'?p.reject(Error(data.message)):p.resolve(data);};worker.onerror=()=>{for(const p of pending.values())p.reject(Error('產題程式未能載入，請重新整理再試。'));pending.clear();};}
 function askWorker(data){const id=nextId++;return new Promise((resolve,reject)=>{pending.set(id,{resolve,reject});worker.postMessage({id,...data});});}
 export const chineseNumber=n=>n<10?'零一二三四五六七八九'[n]:n===10?'十':'十'+'零一二三四五六七八九'[n-10];
 export function displayEntries(sheet){return Object.fromEntries(['H','V'].map(d=>[d,[...sheet.clues[d]].sort((a,b)=>a.row-b.row||a.col-b.col).map((e,i)=>({...e,label:d==='H'?String(i+1):chineseNumber(i+1)}))]));}
@@ -38,9 +41,13 @@ function updatePreview(){
 function updatePool(window){
  const m=packet.mix;$('quota-news').textContent=m.news;$('quota-idiom').textContent=m.idiom;
  $('pool-count').textContent=packet.news.candidates.length+' 時事／'+packet.idioms.length+' 成語';
- let cap=Math.min(Math.floor((packet.news.candidates.length+Math.min(packet.idioms.length,m.idiom*7))/(m.news+m.idiom)),Math.floor(packet.news.candidates.length/m.news),7);
+ const eventMapForCapacity=new Map(packet.news.events.map(e=>[e.event_id,e]));
+ const capacityPool=[...packet.news.candidates.map(c=>({...c,event:eventMapForCapacity.get(c.event_id)})),...packet.idioms.map(c=>({...c,content_kind:'idiom'}))];
+ const crossable=capacityPool.length?analyzeCandidates(capacityPool,{target:m.news+m.idiom}).crossableCount:0;
+ let cap=Math.min(Math.floor(crossable/(m.news+m.idiom)),Math.floor((packet.news.candidates.length+Math.min(packet.idioms.length,m.idiom*7))/(m.news+m.idiom)),Math.floor(packet.news.candidates.length/m.news),7);
  if(packet.editorial_policy){const eventMap=new Map(packet.news.events.map(e=>[e.event_id,e])),facts=packet.news.candidates.map(c=>editorialFacts({...c,event:eventMap.get(c.event_id)})),limits=editorialLimits(m.news+m.idiom);if(limits.contextual)cap=Math.min(cap,Math.floor(facts.filter(f=>f.contextual).length/limits.contextual));cap=Math.min(cap,Math.floor(facts.filter(f=>f.applied).length/limits.applied));}
- $('capacity').textContent='依候選與選題條件估算，至多 '+cap+' 份；成語不足以時事補足，仍須通過題目與盤面檢查。';
+ const verified=verifiedCapacity(packet);
+ $('capacity').textContent=(verified!==null?'本次題庫已實際試排完成 '+verified+' 份。':'依可交叉答案估算，至多可嘗試 '+cap+' 份。')+' 可交叉候選 '+crossable+' 個；各份仍會重新檢查題目與盤面。';
  const a=packet.automation;
  const stamp=a?new Intl.DateTimeFormat('zh-TW',{timeZone:'Asia/Taipei',dateStyle:'short',timeStyle:'short'}).format(new Date(a.updated_at)):'';
  const status=a?(a.stale?'更新延遲；已排除過期新聞。':bankConnection==='OFFLINE'?'連線未完成，使用最近一次題庫。':a.status==='PARTIAL'?'部分來源暫時無法連線，其餘已更新。':'已載入自動題庫。'):'已載入自訂題庫。';
@@ -53,10 +60,12 @@ async function generate(count=Number($('count').value)){
  active=true;$('generate').disabled=true;$('cancel').hidden=false;
  $('progress').textContent='正在排盤並檢查每份題目…';$('download-pdf').disabled=true;
  try {
-  const result=await askWorker({type:'generate',packet,count});report=result.report;packet=result.packet;editionIndex=0;mode='player';
+  const seed=crypto.getRandomValues(new Uint32Array(1))[0];
+  const result=await askWorker({type:'generate',packet,count,seed});report=result.report;packet=result.packet;editionIndex=0;mode='player';
   $('result-status').classList.toggle('error',report.status!=='COMPLETE');
-  $('result-status').textContent=report.status==='COMPLETE'?'已完成 '+report.generated_count+' 份；各份驗證通過，題目與答案不重複。':'指定 '+count+' 份，完成 '+report.generated_count+' 份。'+(report.shortage?'剩餘題庫不足，可減少份數或取得更新後的題庫。':'搜尋未找到足夠的合法盤面，可減少份數或等待題庫更新。');
+  $('result-status').textContent=report.status==='COMPLETE'?'已完成 '+report.generated_count+' 份；各份驗證通過，題目與答案不重複。':'指定 '+count+' 份，完成 '+report.generated_count+' 份。'+(report.shortage?.code==='CROSSABLE_POOL_TOO_SMALL'?'剩餘可交叉答案不足，請減少份數或取得最新題庫。':report.shortage?'剩餘題庫不足，可減少份數或取得更新後的題庫。':'搜尋未找到足夠的合法盤面，可減少份數或等待題庫更新。');
   if(report.editions.some(e=>e.content_summary?.fallback))$('result-status').textContent+=' 成語不足或無法排入的部分已改用時事題。';
+  if(report.shortage?.available.crossable!==undefined)$('result-status').textContent+=' 剩餘 '+report.shortage.available.crossable+' 個答案可交叉。';
   if(report.shortage)$('result-status').textContent+=' 下一份需 '+report.shortage.needed_for_next.total+' 題，剩餘 '+report.shortage.available.total+' 題。';
   updatePreview();onGenerated(report);return {requested:count,generated:report.generated_count,status:report.status};
  }finally{active=false;$('generate').disabled=false;$('cancel').hidden=true;$('progress').textContent='';}
@@ -119,7 +128,7 @@ $('bank-filter').onchange=()=>drawBank();
 $('save-bank').onclick=()=>saveBank().catch(e=>{$('bank-message').textContent=e.message;});
 $('export-bank').onclick=async()=>{try{if(bankDirty)await saveBank();downloadBlob(JSON.stringify(packet,null,2),'application/json','時事填字樂_'+packet.news.issue_date+'_題庫.json');$('bank-message').textContent='題庫檔已下載。可在這裡重新匯入，或交給其他出題者。';}catch(e){$('bank-message').textContent=e.message;}};
 $('import-bank').onclick=()=>{$('bank-file').value='';$('bank-file').click();};
-$('bank-file').onchange=async()=>{try{const file=$('bank-file').files[0];if(!file)return;if(file.size>2*1024*1024)throw Error('題庫檔上限為 2 MB。');
+$('bank-file').onchange=async()=>{try{const file=$('bank-file').files[0];if(!file)return;if(file.size>MAX_BANK_BYTES)throw Error('題庫檔上限為 16 MB。');
  const raw=JSON.parse((await file.text()).replace(/^\uFEFF/,''));let p;
  if(raw.news&&(raw.idioms===undefined||Array.isArray(raw.idioms)))p=raw;
  else if(raw.issue_date&&Array.isArray(raw.events)){p=structuredClone(packet);p.news=raw;}

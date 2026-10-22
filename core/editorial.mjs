@@ -1,3 +1,4 @@
+import {validateClue} from './clues.mjs';
 import {experiencedDefinition,experiencedEventBody,EXPERIENCED_PROFILE} from './experienced-definitions.mjs';
 import {isGeographicWord} from './definitions.mjs';
 export {EXPERIENCED_PROFILE};
@@ -19,7 +20,7 @@ export function editorialFacts(c){
  return {word:c.word,domain,idiom,geographic:geo,named_entity:named,institution:agency,applied,contextual,qualified:idiomQualified||applied||contextual};
 }
 export function editorialLimits(target=12){
- return {idioms:2,geography:Math.max(1,Math.floor(target/6)),domain:Math.max(2,Math.ceil(target/3)),named:Math.max(2,Math.ceil(target/3)),institutions:Math.max(1,Math.floor(target/6)),domains:Math.min(4,Math.ceil(target/3)),applied:Math.ceil(target/2),contextual:Math.min(2,Math.floor(target/4))};
+ return {idioms:2,geography:Math.max(1,Math.floor(target/6)),domain:Math.max(2,Math.ceil(target/3)),named:Math.max(2,Math.ceil(target/3)),institutions:Math.max(1,Math.floor(target/6)),domains:Math.min(4,Math.ceil(target/3)),applied:Math.ceil(target/2),contextual:0,preferred_contextual:Math.min(2,Math.floor(target/4))};
 }
 export function editorialSummary(candidates){
  const facts=candidates.map(editorialFacts),domains={};
@@ -53,12 +54,30 @@ export function validateEditorialSelection(candidates,{profile=EXPERIENCED_PROFI
   {id:'Q03',pass:Object.keys(s.domains).length>=l.domains&&Object.values(s.domains).every(n=>n<=l.domain),label:'至少 '+l.domains+' 類且單類不超過 '+l.domain+' 題'},
   {id:'Q04',pass:s.named<=l.named&&s.institutions<=l.institutions,label:'限制專名與機關集中'},
   {id:'Q05',pass:s.applied>=l.applied,label:'至少 '+l.applied+' 題應用詞義'},
-  {id:'Q06',pass:s.contextual>=l.contextual,label:'至少 '+l.contextual+' 題近期事件線索'}
+  {id:'Q06',pass:candidates.filter(c=>c.content_kind!=='idiom').every(c=>c.event&&validateClue(c,c.event).passed),label:'所有新聞詞義或事件題均有來源支持'}
  ];
  return {profile,valid:checks.every(c=>c.pass),checks,limits:l,summary:s};
 }
 export function editorialReward(existing,added,target,profile){
  if(!profile)return 0;
  const s=editorialSummary(existing),l=editorialLimits(target);
- return added.reduce((score,c)=>{const f=editorialFacts(c);return score+(!s.domains[f.domain]?2:0)+(f.contextual&&s.contextual<l.contextual?3:0)+(f.applied&&s.applied<l.applied?1:0);},0)/added.length;
+ return added.reduce((score,c)=>{const f=editorialFacts(c);return score+(!s.domains[f.domain]?2:0)+(f.contextual&&s.contextual<l.preferred_contextual?3:0)+(f.applied&&s.applied<l.applied?1:0);},0)/added.length;
+}
+
+/** Necessary capacity bounds for all later editions; never a claim of geometric solvability. */
+export function editorialReserve(candidates,target,entries,profile){
+ if(!profile||!entries)return ()=>true;
+ const facts=new Map(candidates.map(c=>[c.id,editorialFacts(c)])),base=editorialSummary(candidates),limits=editorialLimits(target),future=Math.ceil(entries/target);
+ const eventCounts=new Map();for(const c of candidates)eventCounts.set(c.event_id,(eventCounts.get(c.event_id)??0)+1);
+ const eventsById=new Map(candidates.map(c=>[c.id,c.event_id]));
+ return removed=>{
+  const s={...base,domains:{...base.domains}},events=new Map(eventCounts);
+  for(const id of removed){const f=facts.get(id);if(!f)continue;s.domains[f.domain]--;s.idioms-=Number(f.idiom);s.geography-=Number(f.geographic);s.named-=Number(f.named_entity);s.institutions-=Number(f.institution);s.applied-=Number(f.applied);const e=eventsById.get(id);events.set(e,events.get(e)-1);}
+  const count=candidates.length-[...removed].filter(id=>facts.has(id)).length;
+  if(count<entries||s.applied<Math.floor(entries/target)*limits.applied)return false;
+  for(const key of ['idioms','geography','named','institutions'])if(count-Math.max(0,s[key]-limits[key]*future)<entries)return false;
+  for(const n of Object.values(s.domains))if(count-Math.max(0,n-limits.domain*future)<entries)return false;
+  if(Object.values(s.domains).reduce((n,k)=>n+Math.min(k,future),0)<Math.floor(entries/target)*limits.domains)return false;
+  return [...events.values()].reduce((n,k)=>n+Math.min(k,2*future),0)>=entries;
+ };
 }

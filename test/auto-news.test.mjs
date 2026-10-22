@@ -1,3 +1,4 @@
+import {MAX_NEWS_EVENTS} from '../core/limits.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {mkdtemp,readFile,writeFile,rm} from 'node:fs/promises';
@@ -144,12 +145,12 @@ test('RSS leads neither seed golf terms in other topics nor evade entertainment 
  const p=buildBank([{source:sports,events}],{now});assert(!p.news.candidates.some(c=>c.topic==='golf'));
 });
 
-test('older golf stories within seven days survive the 180-event shared cap',()=>{
+test('older golf stories within seven days survive the seven-day archive cap',()=>{
  const sports=SOURCES.find(s=>s.category==='體育');
  const old=parseFeed(rss(item('高球桿弟協助選手','202610010001','Thu, 01 Oct 2026 09:00:00 +0800')),sports,{now});
- const recent=parseFeed(rss(Array.from({length:181},(_,i)=>item('美國日本政策消息'+i,'20261002'+String(i+1).padStart(4,'0'))).join('')),SOURCES[0],{now});
+ const recent=parseFeed(rss(Array.from({length:MAX_NEWS_EVENTS+1},(_,i)=>item('美國日本政策消息'+i,'20261002'+String(i+1).padStart(4,'0'))).join('')),SOURCES[0],{now});
  const p=buildBank([{source:SOURCES[0],events:recent}],{now,previous:{news:{events:old}}});
- assert.equal(p.news.events.length,180);assert(p.news.events.some(e=>e.title==='高球桿弟協助選手'));
+ assert.equal(p.news.events.length,MAX_NEWS_EVENTS);assert(p.news.events.some(e=>e.title==='高球桿弟協助選手'));
  assert(p.news.candidates.some(c=>c.word==='桿弟'));
 });
 test('entertainment cues in golf RSS summaries are rejected too',()=>{

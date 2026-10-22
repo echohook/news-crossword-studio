@@ -1,8 +1,8 @@
-import {editorialAdmission,validateEditorialSelection,editorialReward,EXPERIENCED_PROFILE} from './editorial.mjs';
+import {editorialAdmission,editorialReserve,validateEditorialSelection,editorialReward,EXPERIENCED_PROFILE} from './editorial.mjs';
 import {filterCandidateScope} from './news-policy.mjs';
 export function solverSettings(options={}) {
   if (!options || typeof options!=='object' || Array.isArray(options)) throw new Error('options 必須是物件');
-  const {target=12,minEntries=8,attempts=48,seed=1,sizes=[8,9,10],contentTargets,editorialPolicy=null}=options;
+  const {target=12,minEntries=8,attempts=48,seed=1,sizes=[8,9,10],contentTargets,editorialPolicy=null,reserveEntries=0}=options;
   if(!Number.isInteger(target)||target<2||target>14||!Number.isInteger(minEntries)||minEntries<2||minEntries>target)
     throw new Error('需符合 2 <= minEntries <= target <= 14');
   if(!Number.isInteger(attempts)||attempts<1||attempts>10000||(!Number.isSafeInteger(seed)||seed<0||seed>4294967295)) throw new Error('attempts 或 seed 不合法：seed 需為 0～4294967295 整數');
@@ -10,9 +10,10 @@ export function solverSettings(options={}) {
   if(contentTargets!==undefined && (!contentTargets || Array.isArray(contentTargets) || typeof contentTargets!=='object' ||
       Object.keys(contentTargets).length!==2 || Object.keys(contentTargets).some(k=>!['news','idiom'].includes(k)) || !['news','idiom'].every(k=>Number.isInteger(contentTargets[k])&&contentTargets[k]>=0) ||
       contentTargets.news+contentTargets.idiom!==target))throw new Error('contentTargets 需含非負整數 news 與 idiom，總和等於 target');
+  if(!Number.isSafeInteger(reserveEntries)||reserveEntries<0||reserveEntries>98)throw Error('reserveEntries 必須為 0～98 整數');
   if(editorialPolicy!==null&&editorialPolicy!==EXPERIENCED_PROFILE)throw Error('未知選題規格');
-  for(const key of Object.keys(options)) if(!['target','minEntries','attempts','seed','sizes','contentTargets','editorialPolicy'].includes(key)) throw new Error('未知 Solver 選項：'+key);
-  return {target,minEntries,attempts,seed,sizes,editorialPolicy,...(contentTargets===undefined?{}:{contentTargets:{...contentTargets}})};
+  for(const key of Object.keys(options)) if(!['target','minEntries','attempts','seed','sizes','contentTargets','editorialPolicy','reserveEntries'].includes(key)) throw new Error('未知 Solver 選項：'+key);
+  return {target,minEntries,attempts,seed,sizes,editorialPolicy,reserveEntries,...(contentTargets===undefined?{}:{contentTargets:{...contentTargets}})};
 }
 
 import {BLOCK, checkCandidates, lengthBalance} from './model.mjs';
@@ -66,7 +67,7 @@ function pairs(pool) {
  */
 export function solve(candidates, options={}) {
   checkCandidates(candidates);
-  const {target,minEntries,attempts,seed,sizes,contentTargets,editorialPolicy}=solverSettings(options);
+  const {target,minEntries,attempts,seed,sizes,contentTargets,editorialPolicy,reserveEntries}=solverSettings(options);
   const scope=filterCandidateScope(candidates);
   const pool=[...scope.accepted].sort((a,b)=>a.id<b.id?-1:a.id>b.id?1:0);
   const analysis=analyzeCandidates(candidates,{target,minEntries});
@@ -74,6 +75,8 @@ export function solve(candidates, options={}) {
   if(contentTargets&&pool.some(c=>!['news','idiom'].includes(contentKind(c))))throw new Error('content_kind 需為 news 或 idiom');
   const anchors=new Set(anchorEvents(pool));
   const map=new Map(pool.map(c=>[c.id,c])), templates=pairs(pool), random=rng(seed);
+  const neighbors=new Map(pool.map(c=>[c.id,new Set()]));
+  if(reserveEntries)for(const t of templates){neighbors.get(t.a.id).add(t.b.id);neighbors.get(t.b.id).add(t.a.id);}
   let best=null;
   const diagnostics=[];
   for(const size of sizes) {
@@ -83,13 +86,27 @@ export function solve(candidates, options={}) {
       let state={board:Array.from({length:size},()=>Array(size).fill(BLOCK)),placements:[],expected:[]};
       while(state.expected.length<target) {
         const used=new Set(state.expected.map(c=>c.id));
+        const reserveCache=new Map(),aliveDegrees=new Map();let aliveCrossable=0;
+        if(reserveEntries)for(const c of pool)if(!used.has(c.id)){const degree=[...neighbors.get(c.id)].filter(id=>!used.has(id)).length;aliveDegrees.set(c.id,degree);if(degree)aliveCrossable++;}
+        const editorialReserveAllows=editorialReserve(pool.filter(c=>aliveDegrees.get(c.id)>0),target,reserveEntries,editorialPolicy);
+        const assessReserve=items=>{
+          if(!reserveEntries)return {allowed:true,loss:0};
+          const key=JSON.stringify(items.map(c=>c.id).sort());if(reserveCache.has(key))return reserveCache.get(key);
+          const removed=new Set(items.map(c=>c.id)),affected=new Set();let loss=0;
+          for(const id of removed)for(const n of neighbors.get(id))if(!used.has(n)&&!removed.has(n))affected.add(n);
+          const orphanIds=[];
+          for(const n of affected){let lost=0;for(const id of removed)if(neighbors.get(n).has(id))lost++;if(lost===aliveDegrees.get(n)){loss++;orphanIds.push(n);}}
+          const after=aliveCrossable-items.filter(c=>aliveDegrees.get(c.id)>0).length-loss;
+          const result={allowed:after>=reserveEntries&&editorialReserveAllows(new Set([...removed,...orphanIds])),loss};reserveCache.set(key,result);return result;
+        };
         const events=new Map();
         state.expected.forEach(c=>events.set(c.event_id,(events.get(c.event_id)??0)+1));
         const contentCounts={news:0,idiom:0};
         if(contentTargets)state.expected.forEach(c=>contentCounts[contentKind(c)]++);
         const editorialAllows=editorialAdmission(state.expected,target,editorialPolicy);
-        const remaining=pool.filter(c=>editorialAllows([c])&&!used.has(c.id)&&(events.get(c.event_id)??0)<2&&
+        const remaining=pool.filter(c=>!used.has(c.id)&&assessReserve([c]).allowed&&editorialAllows([c])&&(events.get(c.event_id)??0)<2&&
           (!contentTargets||contentCounts[contentKind(c)]<contentTargets[contentKind(c)]));
+        const remainingIds=new Set(remaining.map(c=>c.id));
         const actions=[];
         // Existing crossing: a single new answer can connect to several entries.
         for(const c of remaining) for(const old of state.placements) {
@@ -102,7 +119,7 @@ export function solve(candidates, options={}) {
         }
         // A new disconnected component must already contain a real crossing.
         if(state.expected.length+2<=target) for(const t of templates) {
-          if(used.has(t.a.id)||used.has(t.b.id)||!editorialAllows([t.a,t.b])) continue;
+          if(!remainingIds.has(t.a.id)||!remainingIds.has(t.b.id)||!editorialAllows([t.a,t.b])||!assessReserve([t.a,t.b]).allowed) continue;
           if(contentTargets) {
             const additions={news:0,idiom:0};additions[contentKind(t.a)]++;additions[contentKind(t.b)]++;
             if(['news','idiom'].some(k=>contentCounts[k]+additions[k]>contentTargets[k]))continue;
@@ -130,7 +147,7 @@ export function solve(candidates, options={}) {
           for(const item of a.items) {const len=chars(item.c).length; reward+=target/3-projected[len]; projected[len]++;}
           const newAnchorEvents=new Set(a.items.filter(item=>anchors.has(item.c.event_id)&&!events.has(item.c.event_id)).map(item=>item.c.event_id));
           a.anchorGain=newAnchorEvents.size;
-          a.score=editorialReward(state.expected,a.items.map(x=>x.c),target,editorialPolicy)+reward/a.items.length + random()*2 + a.items.reduce((n,item)=>n+candidatePriority(item.c),0)/a.items.length/200;
+          a.score=-assessReserve(a.items.map(x=>x.c)).loss*2/a.items.length+editorialReward(state.expected,a.items.map(x=>x.c),target,editorialPolicy)+reward/a.items.length + random()*2 + a.items.reduce((n,item)=>n+candidatePriority(item.c),0)/a.items.length/200;
           if(contentTargets)a.score+=a.items.reduce((sum,item)=>sum+(contentTargets[contentKind(item.c)]-contentCounts[contentKind(item.c)])/Math.max(1,contentTargets[contentKind(item.c)]),0)/a.items.length;
         }
         actions.sort((a,b)=>b.anchorGain-a.anchorGain||b.score-a.score);
@@ -143,7 +160,7 @@ export function solve(candidates, options={}) {
         if(!bestHere || compareSelections(state,bestHere,pool)<0) bestHere=state;
         const quality=selectionQuality(state.expected,pool);
         if(state.expected.length===target && !quality.missing_anchor_event_ids.length &&
-           quality.length_balance.penalty===(target%3===0?0:4)) break;
+           (quality.length_balance.penalty===(target%3===0?0:4)||(editorialPolicy&&attempt>=7&&quality.length_balance.withinHalf))) break;
       }
     }
     diagnostics.push({size,attempts:tries,bestCount:largestAttemptCount,meetsMinimum:bestHere!==null,

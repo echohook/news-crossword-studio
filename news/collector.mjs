@@ -1,3 +1,4 @@
+import {MAX_NEWS_EVENTS} from '../core/limits.mjs';
 import {experiencedDefinition,EXPERIENCED_PROFILE} from '../core/experienced-definitions.mjs';
 import {definitionBody} from '../core/definitions.mjs';
 import {naturalClueOptions,CLUE_STYLE,normalized} from './clues.mjs';
@@ -52,9 +53,11 @@ export function buildBank(feedResults,{now=new Date(),previous,idioms=[],lexicon
  }
  for(const e of fresh)map.set(e.dedup_key,e);
  const ordered=[...map.values()].sort((a,b)=>b.published_at.localeCompare(a.published_at)||a.event_id.localeCompare(b.event_id));
- // Keep up to 24 recent golf stories before filling the shared limit with other topics.
+ // Retain the complete seven-day archive; stratify days and categories at the safety cap.
  const retainedGolf=ordered.filter(hasGolfContext).slice(0,24),selected=new Map(retainedGolf.map(e=>[e.event_id,e]));
- for(const e of ordered){if(selected.size>=180)break;selected.set(e.event_id,e);}
+ const buckets=new Map();
+ for(const e of ordered){const key=e.event_date+'|'+e.categories?.[0];if(!buckets.has(key))buckets.set(key,[]);buckets.get(key).push(e);}
+ for(let offset=0;selected.size<MAX_NEWS_EVENTS;offset++){let any=false;for(const list of buckets.values()){if(list[offset]){any=true;selected.set(list[offset].event_id,list[offset]);if(selected.size>=MAX_NEWS_EVENTS)break;}}if(!any)break;}
  const events=[...selected.values()].sort((a,b)=>b.published_at.localeCompare(a.published_at)||a.event_id.localeCompare(b.event_id));
  for(const e of events){const content=profile?[e.title,e.rss_lead].filter(Boolean).join('\n'):golfNewsText(e);e.keywords=lexicon.filter(a=>content.includes(a.word)&&termAllowed(a,e,content)&&golfTermAllowed(a,e)&&
   !lexicon.some(b=>b.word.length>a.word.length&&b.word.includes(a.word)&&content.includes(b.word)&&golfTermAllowed(b,e))&&

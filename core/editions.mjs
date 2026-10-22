@@ -1,3 +1,4 @@
+import {analyzeCandidates} from './analysis.mjs';
 import {validateEditorialSelection} from './editorial.mjs';
 import {createHash} from 'node:crypto';
 import {runMixed,solveMixedPool} from './mixed.mjs';
@@ -12,9 +13,10 @@ import {MAX_EDITIONS,answerKey,clueKey,validateEditionDiversity} from './edition
 /** Used answers and clues are removed before searching each next edition.
  * Shared characters remain permitted: only whole answers / questions are unique.
  */
-export function generateEditions(input,{count=1,solverOptions={},maxVariantAttempts=3,maxClueChars=60}={}) {
+export function generateEditions(input,{count=1,solverOptions={},maxVariantAttempts=3,maxClueChars=60,onProgress=null}={}) {
  if(!Number.isSafeInteger(count)||count<1||count>MAX_EDITIONS)throw Error('份數需為 1～7 的整數');
  if(!Number.isSafeInteger(maxVariantAttempts)||maxVariantAttempts<1||maxVariantAttempts>10)throw Error('每份搜尋次數需為 1～10 的整數');
+ if(onProgress!==null&&typeof onProgress!=='function')throw Error('onProgress 必須是函式');
  if(!input||typeof input!=='object')throw Error('需提供題庫輸入');
  const mode=input.news?'mixed':Array.isArray(input)||Array.isArray(input.candidates)?'candidates':'news';
  const snapshot=structuredClone(input);
@@ -24,19 +26,27 @@ export function generateEditions(input,{count=1,solverOptions={},maxVariantAttem
  const editions=[],usedWords=new Set(),usedClues=new Set(),attempts=[];
  let pool,initial=null,mix=null;
  if(mode==='mixed') {
-  initial=runMixed(snapshot,{solverOptions:{...options,editorialPolicy:settings.editorialPolicy,attempts:settings.attempts,seed:settings.seed},maxClueChars});
+  initial=runMixed(snapshot,{solverOptions:{...options,editorialPolicy:settings.editorialPolicy,attempts:settings.attempts,seed:settings.seed},maxClueChars,intakeOnly:!!settings.editorialPolicy});
   mix=initial.content_summary.requested;
   const admitted=new Set(initial.idiom_reports.filter(r=>r.passed).map(r=>r.id));
   pool=[...initial.news_report.eligible_candidates.map(c=>({...c,content_kind:'news'})),
    ...(snapshot.idioms??[]).filter(c=>admitted.has(c.id)).map(c=>({...c,content_kind:'idiom',
     knowledge_source:{...c.knowledge_source,url:sourceUrl(c.knowledge_source.url)}}))];
+  if(settings.editorialPolicy)initial=null;
  } else if(mode==='news') {
-  initial=runPipeline(snapshot,{solverOptions:{...settings,minEntries:settings.target},maxClueChars});
+  initial=runPipeline(snapshot,{solverOptions:{...settings,minEntries:settings.target},maxClueChars,intakeOnly:!!settings.editorialPolicy});
   pool=initial.eligible_candidates;
+  if(settings.editorialPolicy)initial=null;
  } else {pool=Array.isArray(snapshot)?snapshot:snapshot.candidates;checkCandidates(pool);}
  const target=mix?mix.news+mix.idiom:settings.target;
  const searchSettings={...settings,target,minEntries:target,...(mix?{contentTargets:mix}:{})};
- let shortage=null;
+ const initialCrossable=pool.length?analyzeCandidates(pool,{target,minEntries:target}).crossableCount:0;
+ const plannedCount=settings.editorialPolicy?Math.min(count,Math.floor(initialCrossable/target)):count;
+ let shortage=null,bestEditions=[],bestShortage=null,roundsUsed=0;
+ const roundLimit=settings.editorialPolicy&&count>1?3:1;
+ for(let round=0;round<roundLimit;round++){
+  roundsUsed=round+1;let depthFailures=0;shortage=null;
+  if(round){editions.length=0;usedWords.clear();usedClues.clear();onProgress?.({phase:'replanning',generated_count:0,requested_count:count,round:round+1});}
  for(let attempt=0;attempt<count*maxVariantAttempts && editions.length<count;attempt++) {
   const remaining=pool.filter(c=>!usedWords.has(answerKey(c.word))&&!usedClues.has(clueKey(c.clue)));
   const available={total:remaining.length};
@@ -46,11 +56,13 @@ export function generateEditions(input,{count=1,solverOptions={},maxVariantAttem
     needed_for_next:{total:target,...(mix?{news:target-Math.min(mix.idiom,available.idiom),idiom:Math.min(mix.idiom,available.idiom)}:{})}};
    attempts.push({status:shortage.code,...shortage});break;
   }
-  const seed=(settings.seed+Math.imul(attempt,2654435761))>>>0;
-  const searched=attempt===0&&initial?{result:initial,effective:initial.content_summary?.effective}:mix?solveMixedPool(remaining,mix,{...searchSettings,seed}):{result:solve(remaining,{...searchSettings,seed})};
+  if(settings.editorialPolicy){const capacity=analyzeCandidates(remaining,{target,minEntries:target});if(capacity.entryUpperBound<target){shortage={code:'CROSSABLE_POOL_TOO_SMALL',next_edition:editions.length+1,available:{...available,crossable:capacity.crossableCount,entry_upper_bound:capacity.entryUpperBound},needed_for_next:{total:target}};attempts.push({round,status:shortage.code,...shortage});break;}}
+  const seed=(settings.seed+Math.imul(round,2246822519)+Math.imul(attempt,2654435761))>>>0;
+  const reservedSearch={...searchSettings,...(settings.editorialPolicy?{reserveEntries:round===roundLimit-1?0:Math.max(0,plannedCount-editions.length-1)*target}:{}),seed};
+  const searched=attempt===0&&initial?{result:initial,effective:initial.content_summary?.effective}:mix?solveMixedPool(remaining,mix,reservedSearch):{result:solve(remaining,reservedSearch)};
   const result=searched.result;
   const puzzle=result.puzzle;
-  if(!puzzle||puzzle.expected.length!==target){attempts.push({seed,status:'NO_FULL_PUZZLE'});continue;}
+  if(!puzzle||puzzle.expected.length!==target){attempts.push({round,seed,status:'NO_FULL_PUZZLE'});if(settings.editorialPolicy&&++depthFailures>=maxVariantAttempts)break;continue;}
   const editorial=settings.editorialPolicy?validateEditorialSelection(puzzle.expected,{profile:settings.editorialPolicy,target}):null;
   if(editorial&&!editorial.valid){attempts.push({seed,status:'EDITORIAL_REJECTED'});continue;}
   const validation=validatePuzzle(puzzle);
@@ -67,9 +79,14 @@ export function generateEditions(input,{count=1,solverOptions={},maxVariantAttem
   if(mix&&['news','idiom'].some(k=>selected[k]!==searched.effective[k]))throw Error('混合配額未達標');
   editions.push({edition_number,label:'第 '+edition_number+' 份',seed,puzzle,grid_validation:validation,...(editorial?{editorial_validation:editorial}:{}),
    player,answers,...(mix?{content_summary:{requested:{...mix},effective:searched.effective,selected,idiom_optional:true,fallback:selected.idiom<mix.idiom}}:{}),approved_for_print:false});
-  attempts.push({seed,status:'ACCEPTED',edition_number});
+  depthFailures=0;attempts.push({round,seed,status:'ACCEPTED',edition_number});
+  onProgress?.({phase:'edition-complete',generated_count:editions.length,requested_count:count,round:round+1});
  }
- return {schema_version:'1.1',mode,status:editions.length===count?'COMPLETE':'INCOMPLETE',
+  if(editions.length>bestEditions.length){bestEditions=[...editions];bestShortage=shortage;}
+  if(editions.length===count||bestEditions.length>=plannedCount)break;
+ }
+ if(editions.length<bestEditions.length){editions.splice(0,editions.length,...bestEditions);shortage=bestShortage;}
+ return {schema_version:'1.1',mode,batch_search:{rounds:roundsUsed,seed:settings.seed,crossable_candidates:initialCrossable},status:editions.length===count?'COMPLETE':'INCOMPLETE',
   editorial_policy:settings.editorialPolicy?{profile:settings.editorialPolicy}:null,requested_count:count,generated_count:editions.length,render_settings:{maxClueChars},issue_date:input.news?.issue_date??input.issue_date??null,
   batch_id:createHash('sha256').update(JSON.stringify(editions.map(e=>e.player.worksheet_id))).digest('hex'),
   repetition_policy:'NO_REPEATED_ANSWERS_OR_CLUES',diversity_validation:validateEditionDiversity(editions),shortage,

@@ -21,11 +21,12 @@ export function solveMixedPool(pool,mix,solverOptions={}) {
  }
  return {result,effective,attempted};
 }
-export function runMixed(packet,{solverOptions={},maxClueChars=60}={}) {
+export function runMixed(packet,{solverOptions={},maxClueChars=60,intakeOnly=false}={}) {
  if(!packet||typeof packet!=='object'||Array.isArray(packet)||!packet.news)throw Error('mixed 輸入需有 news；idioms 可省略');
  const mix=packet.mix===undefined?{news:8,idiom:4}:packet.mix;
  if(!mix||Array.isArray(mix)||Object.keys(mix).length!==2||Object.keys(mix).some(k=>!['news','idiom'].includes(k))||
   !['news','idiom'].every(k=>Number.isInteger(mix[k])&&mix[k]>=(k==='news'?1:0))||mix.news+mix.idiom<2||mix.news+mix.idiom>14)throw Error('mix 的 news 需為正整數、idiom 需為非負整數，總題數需為 2～14');
+ if(typeof intakeOnly!=='boolean')throw Error('intakeOnly 必須是布林值');
  const target=mix.news+mix.idiom;
  const settings=solverSettings({...solverOptions,editorialPolicy:packet.editorial_policy?.profile??solverOptions.editorialPolicy??null,target,minEntries:target,contentTargets:mix});
  if(['target','minEntries','contentTargets'].some(k=>Object.hasOwn(solverOptions,k)))throw Error('混合模式的題數及配額由 mix 設定');
@@ -43,9 +44,10 @@ export function runMixed(packet,{solverOptions={},maxClueChars=60}={}) {
   reports.push({id:c.id,word:c.word,passed:!errors.length,errors,semantic_review:'REQUIRED'});
   if(!errors.length)idioms.push({...c,content_kind:'idiom',knowledge_source:{...source,url:sourceUrl(source.url)}});
  }
- const news=runPipeline(packet.news,{maxClueChars});
+ const news=runPipeline(packet.news,{maxClueChars,intakeOnly});
  const pool=[...news.eligible_candidates.map(c=>({...c,content_kind:'news'})),...idioms];
  if(pool.length)checkCandidates(pool);
+ if(intakeOnly)return {status:'INTAKE_READY',puzzle:null,news_report:news,idiom_reports:reports,eligible_candidates:pool,content_summary:{requested:{...mix}}};
  const searched=solveMixedPool(pool,mix,settings),result=searched.result,puzzle=result.puzzle,validation=puzzle?validatePuzzle(puzzle):null;
  const selected={news:0,idiom:0};puzzle?.expected.forEach(c=>selected[c.content_kind]++);
  if(puzzle&&(!validation.valid||['news','idiom'].some(k=>selected[k]!==searched.effective[k])))throw Error('混合盤未通過獨立驗證或配額檢查');

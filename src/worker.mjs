@@ -1,6 +1,7 @@
+import {MAX_NEWS_EVENTS,MAX_CANDIDATES} from '../core/limits.mjs';
 import {EXPERIENCED_PROFILE} from '../core/editorial.mjs';
 import {createReportPdf} from './pdf.mjs';
-import {generateEditions} from '../core/editions.mjs';
+import {generateVerifiedEditions,verifiedCapacity} from '../core/verified-bank.mjs';
 import {collectEvents,generateCandidates} from '../core/news.mjs';
 import {checkCandidates} from '../core/model.mjs';
 export function preparePacket(raw) {
@@ -8,12 +9,13 @@ export function preparePacket(raw) {
  if(p?.automation?.enabled)p.editorial_policy={profile:EXPERIENCED_PROFILE};
  if(p?.news&&p.idioms===undefined)p.idioms=[];
  if(!p||typeof p!=='object'||!p.news||!Array.isArray(p.news.events)||!Array.isArray(p.idioms))throw Error('請匯入包含新聞的題庫檔案；成語可省略。');
- if(p.news.events.length>200||p.idioms.length>300)throw Error('題庫過大，請分成數期匯入。');
+ if(p.news.events.length>MAX_NEWS_EVENTS||p.idioms.length>300)throw Error('題庫過大，請分成數期匯入。');
  const collected=collectEvents(p.news.events,{issueDate:p.news.issue_date,fixture:p.news.dataset_mode==='fixture'});
  if(p.news.candidates===undefined)p.news.candidates=generateCandidates(collected.accepted);
- if(!Array.isArray(p.news.candidates)||p.news.candidates.length>500)throw Error('每期新聞候選上限為 500 題。');
+ if(!Array.isArray(p.news.candidates)||p.news.candidates.length>MAX_CANDIDATES)throw Error('每期新聞候選上限為 500 題。');
  if(p.idioms.length)checkCandidates(p.idioms);
  if(p.news.candidates.length)checkCandidates(p.news.candidates);
+ if(p.automation?.generation_check&&verifiedCapacity(p)===null)delete p.automation.generation_check;
  p.mix??={news:8,idiom:4};
  if(!Number.isInteger(p.mix.news)||!Number.isInteger(p.mix.idiom)||p.mix.news<1||p.mix.idiom<0||p.mix.news+p.mix.idiom<2||p.mix.news+p.mix.idiom>14)throw Error('新聞題數需為正整數，成語可為 0，合計需為 2～14 題。');
  return {packet:p,window:collected.window,excluded_events:collected.reports.filter(e=>!e.passed).length};
@@ -24,7 +26,7 @@ if(typeof self!=='undefined')self.onmessage=async({data})=>{
   const prepared=preparePacket(data.packet);
   if(data.type==='prepare'){self.postMessage({id:data.id,type:'prepared',...prepared});return;}
   if(data.type!=='generate')throw Error('未知操作。');
-  const report=generateEditions(prepared.packet,{count:data.count,solverOptions:{attempts:256,seed:2}});
+  const report=generateVerifiedEditions(prepared.packet,{count:data.count,attempts:32,seed:data.seed??2,onProgress:progress=>self.postMessage({id:data.id,type:'progress',...progress})});
   self.postMessage({id:data.id,type:'result',report,packet:prepared.packet});
  }catch(e){self.postMessage({id:data.id,type:'error',message:e.message});}
 };

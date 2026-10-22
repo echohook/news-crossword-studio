@@ -14,10 +14,11 @@ const reviews=[
   {id:'POLITICAL_NEUTRALITY',message:'確認題目沒有主觀政治判斷'},
   {id:'SENIOR_DIFFICULTY',message:'確認長輩理解與書寫難度'}
 ];
-export function runPipeline(packet,{solverOptions={},maxClueChars=60}={}) {
+export function runPipeline(packet,{solverOptions={},maxClueChars=60,intakeOnly=false}={}) {
   if(!packet||typeof packet!=='object'||Array.isArray(packet)) throw new Error('新聞輸入必須是物件');
   if(packet.dataset_mode!==undefined&&!['news','fixture'].includes(packet.dataset_mode)) throw new Error('dataset_mode 必須為 news 或 fixture');
   if(!Number.isInteger(maxClueChars)||maxClueChars<10||maxClueChars>300) throw new Error('maxClueChars 需為 10～300 整數');
+  if(typeof intakeOnly!=='boolean')throw Error('intakeOnly 必須是布林值');
   const config=solverSettings(solverOptions);
   const fixture=packet.dataset_mode==='fixture';
   const news=collectEvents(packet.events,{issueDate:packet.issue_date,fixture});
@@ -68,6 +69,7 @@ export function runPipeline(packet,{solverOptions={},maxClueChars=60}={}) {
     approved_for_print:false,review_required:structuredClone(reviews),
     note:fixture?'合成資料僅供管線測試，未宣稱為真實新聞。':'來源與評分為輸入資料；機械檢查不等於已完成事實查核。'};
   if(!candidates.length) return {...base,status:'NO_ELIGIBLE_CANDIDATES',grid_status:null,puzzle:null,solver_result:null,grid_validation:null,clue_validation:[]};
+  if(intakeOnly)return {...base,status:'INTAKE_READY',grid_status:null,puzzle:null,solver_result:null,grid_validation:null,clue_validation:[]};
   const result=solve(candidates,config);
   const puzzle=result.puzzle;
   const grid=puzzle?validatePuzzle(puzzle):null;
