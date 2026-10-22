@@ -4166,6 +4166,106 @@
         "content_revision": "cna-b54176058d0eb393860c"
       },
       {
+        "event_id": "cna-c5652f2e71a81336d97b",
+        "dedup_key": "https://www.cna.com.tw/news/acn/202610220063.aspx",
+        "event_date": "2026-10-22",
+        "updated_at": "2026-10-22",
+        "published_at": "2026-10-22T02:48:31.000Z",
+        "title": "李強訪俄  中俄指破壞性外部干涉是破壞亞歐大陸穩定主因",
+        "rss_lead": "（中央社記者呂佳蓉北京22日電）中國國務院總理李強訪問俄羅斯，與俄羅斯總理米舒斯共同主持中俄總理第31次定期會晤。雙方發布的聯合公報表示，「破壞性外部干涉」是當前破壞亞歐大陸穩定的主要原因。",
+        "summary": "李強訪俄  中俄指破壞性外部干涉是破壞亞歐大陸穩定主因",
+        "categories": [
+          "國際"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-aa8ec620c9ea160fabb2",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/acn/202610220063.aspx",
+            "published_at": "2026-10-22",
+            "excerpt": "李強訪俄  中俄指破壞性外部干涉是破壞亞歐大陸穩定主因\n（中央社記者呂佳蓉北京22日電）中國國務院總理李強訪問俄羅斯，與俄羅斯總理米舒斯共同主持中俄總理第31次定期會晤。雙方發布的聯合公報表示，「破壞性外部干涉」是當前破壞亞歐大陸穩定的主要原因。",
+            "section": "國際"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "李強",
+            "kind": "人物",
+            "clue_options": [
+              {
+                "clue": "據報導，某位人物訪俄  中俄指破壞性外部干涉是破壞亞歐大陸穩定主因。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "event",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "據報導，某位人物訪俄  中俄指破壞性外部干涉是破壞亞歐大陸穩定主因。（2字）"
+          }
+        ],
+        "aliases": [
+          "cna-c5652f2e71a81336d97b"
+        ],
+        "content_revision": "cna-c5652f2e71a81336d97b"
+      },
+      {
+        "event_id": "cna-a2c0e14aca5f410f6cee",
+        "dedup_key": "https://www.cna.com.tw/news/acn/202610220096.aspx",
+        "event_date": "2026-10-22",
+        "updated_at": "2026-10-22",
+        "published_at": "2026-10-22T03:59:41.000Z",
+        "title": "烏克蘭外長會見中國大使　就推動和平方案交換意見",
+        "rss_lead": "（中央社台北22日電）美俄中是否會舉行三方會談受到關注之際，烏克蘭外交部長西比哈21日會見了中國駐烏克蘭大使馬升琨，就推動俄烏戰爭的和平解決方案交換意見，西比哈並稱期待北京發揮建設性作用。",
+        "summary": "烏克蘭外長會見中國大使　就推動和平方案交換意見",
+        "categories": [
+          "國際"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-44d6720df2cc62672c6b",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/acn/202610220096.aspx",
+            "published_at": "2026-10-22",
+            "excerpt": "烏克蘭外長會見中國大使　就推動和平方案交換意見\n（中央社台北22日電）美俄中是否會舉行三方會談受到關注之際，烏克蘭外交部長西比哈21日會見了中國駐烏克蘭大使馬升琨，就推動俄烏戰爭的和平解決方案交換意見，西比哈並稱期待北京發揮建設性作用。",
+            "section": "國際"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "外交部",
+            "kind": "機關或組織",
+            "clue_options": [
+              {
+                "clue": "辦理對外關係與領事事務，並在海外事故時協調急難協助的中央部會。（3字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 89,
+            "difficulty": "medium",
+            "clue": "辦理對外關係與領事事務，並在海外事故時協調急難協助的中央部會。（3字）"
+          }
+        ],
+        "aliases": [
+          "cna-a2c0e14aca5f410f6cee"
+        ],
+        "content_revision": "cna-a2c0e14aca5f410f6cee"
+      },
+      {
         "event_id": "cna-bc7374162104854ee8b2",
         "dedup_key": "https://www.cna.com.tw/news/acul/202610160095.aspx",
         "event_date": "2026-10-16",
@@ -62969,6 +63069,39 @@
         "content_revision": "cna-5387f033c0ff2568ceb7"
       },
       {
+        "event_id": "cna-5ce13de41b0944e36c81",
+        "dedup_key": "https://www.cna.com.tw/news/asoc/202610220045.aspx",
+        "event_date": "2026-10-22",
+        "updated_at": "2026-10-22",
+        "published_at": "2026-10-22T02:07:52.000Z",
+        "title": "台南六甲區某民宅疑瓦斯氣爆　1人燒燙傷送醫",
+        "rss_lead": "（中央社記者張榮祥台南22日電）台南市六甲區某民宅昨晚發生疑似瓦斯氣爆，造成1名40多歲男子二度燒燙傷，送醫治療。",
+        "summary": "台南六甲區某民宅疑瓦斯氣爆　1人燒燙傷送醫",
+        "categories": [
+          "台灣"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-c91c3d79371ef9225e85",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/asoc/202610220045.aspx",
+            "published_at": "2026-10-22",
+            "excerpt": "台南六甲區某民宅疑瓦斯氣爆　1人燒燙傷送醫\n（中央社記者張榮祥台南22日電）台南市六甲區某民宅昨晚發生疑似瓦斯氣爆，造成1名40多歲男子二度燒燙傷，送醫治療。",
+            "section": "台灣"
+          }
+        ],
+        "keywords": [],
+        "aliases": [
+          "cna-5ce13de41b0944e36c81"
+        ],
+        "content_revision": "cna-5ce13de41b0944e36c81"
+      },
+      {
         "event_id": "cna-d075af62ac57a8c585ab",
         "dedup_key": "https://www.cna.com.tw/news/asoc/202610220057.aspx",
         "event_date": "2026-10-22",
@@ -63000,6 +63133,323 @@
           "cna-d075af62ac57a8c585ab"
         ],
         "content_revision": "cna-d075af62ac57a8c585ab"
+      },
+      {
+        "event_id": "cna-77e674886986761f7a37",
+        "dedup_key": "https://www.cna.com.tw/news/asoc/202610220058.aspx",
+        "event_date": "2026-10-22",
+        "updated_at": "2026-10-22",
+        "published_at": "2026-10-22T02:35:20.000Z",
+        "title": "移民署查獲14名失聯移工及逾期停留者台南打黑工",
+        "rss_lead": "（中央社記者張榮祥台南22日電）移民署台南市專勤隊今天宣布在歸仁區某處工地查獲14名失聯移工及逾期停留外籍人士，這些人被4間企業社的5名雇主以日薪新台幣1700元至2000元非法聘用，訊後依法處理。",
+        "summary": "移民署查獲14名失聯移工及逾期停留者台南打黑工",
+        "categories": [
+          "台灣"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-3d26f416666e6d52a507",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/asoc/202610220058.aspx",
+            "published_at": "2026-10-22",
+            "excerpt": "移民署查獲14名失聯移工及逾期停留者台南打黑工\n（中央社記者張榮祥台南22日電）移民署台南市專勤隊今天宣布在歸仁區某處工地查獲14名失聯移工及逾期停留外籍人士，這些人被4間企業社的5名雇主以日薪新台幣1700元至2000元非法聘用，訊後依法處理。",
+            "section": "台灣"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "新台幣",
+            "kind": "財經用語",
+            "clue_options": [
+              {
+                "clue": "本地法定貨幣，其對外比價變動會影響進口成本與出口換匯收入。（3字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 89,
+            "difficulty": "medium",
+            "clue": "本地法定貨幣，其對外比價變動會影響進口成本與出口換匯收入。（3字）"
+          }
+        ],
+        "aliases": [
+          "cna-77e674886986761f7a37"
+        ],
+        "content_revision": "cna-77e674886986761f7a37"
+      },
+      {
+        "event_id": "cna-dc74f513f23bbf5446a8",
+        "dedup_key": "https://www.cna.com.tw/news/asoc/202610220065.aspx",
+        "event_date": "2026-10-22",
+        "updated_at": "2026-10-22",
+        "published_at": "2026-10-22T02:52:35.000Z",
+        "title": "桃園山地原住民市議員參選人涉餐會賄選　15萬交保",
+        "rss_lead": "（中央社記者葉臻桃園22日電）桃園市山地原住民議員選舉張姓參選人，以每桌5000元的價格招待選民免費飲宴，涉行賄。桃園地檢署昨天搜索帶回張男及2競選團隊成員，張男以15萬元交保，2成員各10萬元交保。",
+        "summary": "桃園山地原住民市議員參選人涉餐會賄選　15萬交保",
+        "categories": [
+          "台灣"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-eb822c91445126fdff95",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/asoc/202610220065.aspx",
+            "published_at": "2026-10-22",
+            "excerpt": "桃園山地原住民市議員參選人涉餐會賄選　15萬交保\n（中央社記者葉臻桃園22日電）桃園市山地原住民議員選舉張姓參選人，以每桌5000元的價格招待選民免費飲宴，涉行賄。桃園地檢署昨天搜索帶回張男及2競選團隊成員，張男以15萬元交保，2成員各10萬元交保。",
+            "section": "台灣"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "選舉",
+            "kind": "專業用語",
+            "answer_domain": "politics",
+            "clue_options": [
+              {
+                "clue": "由選民投票產生公職代表的制度，結果仍須接受法定程序及監督。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "由選民投票產生公職代表的制度，結果仍須接受法定程序及監督。（2字）"
+          }
+        ],
+        "aliases": [
+          "cna-dc74f513f23bbf5446a8"
+        ],
+        "content_revision": "cna-dc74f513f23bbf5446a8"
+      },
+      {
+        "event_id": "cna-e6634c5cb7034339de2f",
+        "dedup_key": "https://www.cna.com.tw/news/asoc/202610220086.aspx",
+        "event_date": "2026-10-22",
+        "updated_at": "2026-10-22",
+        "published_at": "2026-10-22T03:22:19.000Z",
+        "title": "招待一日遊涉賄  台中大雅區里長參選人遭起訴",
+        "rss_lead": "（中央社記者蘇木春台中22日電）台中大雅區六寶里里長參選人張嘉榮，涉嫌今年8月間招待里民一日遊並請託支持，案經檢方偵辦後，今天依選罷法將張嘉榮等人起訴，另對受賄選民33人為緩起訴處分。",
+        "summary": "招待一日遊涉賄  台中大雅區里長參選人遭起訴",
+        "categories": [
+          "台灣"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-9024af19255e877f39f4",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/asoc/202610220086.aspx",
+            "published_at": "2026-10-22",
+            "excerpt": "招待一日遊涉賄  台中大雅區里長參選人遭起訴\n（中央社記者蘇木春台中22日電）台中大雅區六寶里里長參選人張嘉榮，涉嫌今年8月間招待里民一日遊並請託支持，案經檢方偵辦後，今天依選罷法將張嘉榮等人起訴，另對受賄選民33人為緩起訴處分。",
+            "section": "台灣"
+          }
+        ],
+        "keywords": [],
+        "aliases": [
+          "cna-e6634c5cb7034339de2f"
+        ],
+        "content_revision": "cna-e6634c5cb7034339de2f"
+      },
+      {
+        "event_id": "cna-3fe1048eea3252842c44",
+        "dedup_key": "https://www.cna.com.tw/news/asoc/202610220088.aspx",
+        "event_date": "2026-10-22",
+        "updated_at": "2026-10-22",
+        "published_at": "2026-10-22T03:33:24.000Z",
+        "title": "社子島阿嬤遭影射高薪臨演　自救會陪同控告林杏兒誹謗",
+        "rss_lead": "（中央社記者林長順台北22日電）台北市長參選人沈伯洋近日參與社子島活動時，社子島阿嬤下跪陳情，北市議員林杏兒質疑是領高薪臨演，後來發聲明致歉。社子島阿嬤今天在社子島自救會陪同下，控告林杏兒誹謗。",
+        "summary": "社子島阿嬤遭影射高薪臨演　自救會陪同控告林杏兒誹謗",
+        "categories": [
+          "台灣"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-993557c6a5da7ae76ffe",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/asoc/202610220088.aspx",
+            "published_at": "2026-10-22",
+            "excerpt": "社子島阿嬤遭影射高薪臨演　自救會陪同控告林杏兒誹謗\n（中央社記者林長順台北22日電）台北市長參選人沈伯洋近日參與社子島活動時，社子島阿嬤下跪陳情，北市議員林杏兒質疑是領高薪臨演，後來發聲明致歉。社子島阿嬤今天在社子島自救會陪同下，控告林杏兒誹謗。",
+            "section": "台灣"
+          }
+        ],
+        "keywords": [],
+        "aliases": [
+          "cna-3fe1048eea3252842c44"
+        ],
+        "content_revision": "cna-3fe1048eea3252842c44"
+      },
+      {
+        "event_id": "cna-8e89ad7846e29c6a628d",
+        "dedup_key": "https://www.cna.com.tw/news/asoc/202610220094.aspx",
+        "event_date": "2026-10-22",
+        "updated_at": "2026-10-22",
+        "published_at": "2026-10-22T03:52:37.000Z",
+        "title": "進口貨櫃涉匿報走私　吉伊卡哇等侵權商品市值逾千萬",
+        "rss_lead": "（中央社記者洪學廣高雄22日電）保三總隊日前在高雄大社查獲業者假借「家用物品」名義，自中國走私未申報的工業機具與食品，更夾帶熱門「吉伊卡哇」等侵權商品，總市值逾千萬元，全案移送高雄關裁處。",
+        "summary": "進口貨櫃涉匿報走私　吉伊卡哇等侵權商品市值逾千萬",
+        "categories": [
+          "台灣"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-6c258378c4b803e192c5",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/asoc/202610220094.aspx",
+            "published_at": "2026-10-22",
+            "excerpt": "進口貨櫃涉匿報走私　吉伊卡哇等侵權商品市值逾千萬\n（中央社記者洪學廣高雄22日電）保三總隊日前在高雄大社查獲業者假借「家用物品」名義，自中國走私未申報的工業機具與食品，更夾帶熱門「吉伊卡哇」等侵權商品，總市值逾千萬元，全案移送高雄關裁處。",
+            "section": "台灣"
+          }
+        ],
+        "keywords": [],
+        "aliases": [
+          "cna-8e89ad7846e29c6a628d"
+        ],
+        "content_revision": "cna-8e89ad7846e29c6a628d"
+      },
+      {
+        "event_id": "cna-03f1aa689ac174160779",
+        "dedup_key": "https://www.cna.com.tw/news/asoc/202610220098.aspx",
+        "event_date": "2026-10-22",
+        "updated_at": "2026-10-22",
+        "published_at": "2026-10-22T04:07:45.000Z",
+        "title": "苗縣公館育苗場倉庫火警　風勢助長濃煙蔽天",
+        "rss_lead": "（中央社記者管瑞平苗栗縣22日電）苗栗縣公館鄉一處育苗場倉庫上午發生火警，因薔琵颱風外圍環流強風助長，火勢猛烈、濃煙蔽天，苗栗縣消防局獲報出動大批人車前往灌救，所幸未傳出有人員受困受傷。",
+        "summary": "苗縣公館育苗場倉庫火警　風勢助長濃煙蔽天",
+        "categories": [
+          "台灣"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-0efa5c75adef0e7041ed",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/asoc/202610220098.aspx",
+            "published_at": "2026-10-22",
+            "excerpt": "苗縣公館育苗場倉庫火警　風勢助長濃煙蔽天\n（中央社記者管瑞平苗栗縣22日電）苗栗縣公館鄉一處育苗場倉庫上午發生火警，因薔琵颱風外圍環流強風助長，火勢猛烈、濃煙蔽天，苗栗縣消防局獲報出動大批人車前往灌救，所幸未傳出有人員受困受傷。",
+            "section": "台灣"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "颱風",
+            "kind": "生活用語",
+            "clue_options": [
+              {
+                "clue": "形成於西北太平洋的熱帶氣旋達到一定強度後的名稱，路徑與地形會左右災害。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "形成於西北太平洋的熱帶氣旋達到一定強度後的名稱，路徑與地形會左右災害。（2字）"
+          }
+        ],
+        "aliases": [
+          "cna-03f1aa689ac174160779"
+        ],
+        "content_revision": "cna-03f1aa689ac174160779"
+      },
+      {
+        "event_id": "cna-47d83507e9892f20a581",
+        "dedup_key": "https://www.cna.com.tw/news/asoc/202610220108.aspx",
+        "event_date": "2026-10-22",
+        "updated_at": "2026-10-22",
+        "published_at": "2026-10-22T04:19:07.000Z",
+        "title": "強風吹倒選舉看板　苗市騎士疑遭固定繩勾脖摔車",
+        "rss_lead": "（中央社記者管瑞平苗栗縣22日電）薔琵颱風外圍環流在苗栗地區颳起陣陣強風，豎立於苗栗市龜山大橋路口一座選舉看板上午倒塌，1名女子騎車經過，疑遭看板的固定繩索勾脖摔車受傷送醫。",
+        "summary": "強風吹倒選舉看板　苗市騎士疑遭固定繩勾脖摔車",
+        "categories": [
+          "台灣"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-1c028651c1f3e5aec74b",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/asoc/202610220108.aspx",
+            "published_at": "2026-10-22",
+            "excerpt": "強風吹倒選舉看板　苗市騎士疑遭固定繩勾脖摔車\n（中央社記者管瑞平苗栗縣22日電）薔琵颱風外圍環流在苗栗地區颳起陣陣強風，豎立於苗栗市龜山大橋路口一座選舉看板上午倒塌，1名女子騎車經過，疑遭看板的固定繩索勾脖摔車受傷送醫。",
+            "section": "台灣"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "颱風",
+            "kind": "生活用語",
+            "clue_options": [
+              {
+                "clue": "形成於西北太平洋的熱帶氣旋達到一定強度後的名稱，路徑與地形會左右災害。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "形成於西北太平洋的熱帶氣旋達到一定強度後的名稱，路徑與地形會左右災害。（2字）"
+          },
+          {
+            "word": "選舉",
+            "kind": "專業用語",
+            "answer_domain": "politics",
+            "clue_options": [
+              {
+                "clue": "由選民投票產生公職代表的制度，結果仍須接受法定程序及監督。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "由選民投票產生公職代表的制度，結果仍須接受法定程序及監督。（2字）"
+          }
+        ],
+        "aliases": [
+          "cna-47d83507e9892f20a581"
+        ],
+        "content_revision": "cna-47d83507e9892f20a581"
       },
       {
         "event_id": "cna-045b097d4411d6416c7e",
@@ -67966,6 +68416,25 @@
         "clue_profile": "experienced-adults-v1"
       },
       {
+        "word": "李強",
+        "kind": "人物",
+        "answer_score": 86,
+        "difficulty": "medium",
+        "clue": "據報導，某位人物訪俄  中俄指破壞性外部干涉是破壞亞歐大陸穩定主因。（2字）",
+        "id": "cna-c5652f2e71a81336d97b::李強",
+        "event_id": "cna-c5652f2e71a81336d97b",
+        "event_revision": "cna-c5652f2e71a81336d97b",
+        "source_support": [
+          {
+            "source_id": "rss-aa8ec620c9ea160fabb2",
+            "evidence": "李強訪俄  中俄指破壞性外部干涉是破壞亞歐大陸穩定主因\n（中央社記者呂佳蓉北京22日電）中國國務院總理李強訪問俄羅斯，與俄羅斯總理米舒斯共同主持中俄總理第31次定期會晤。"
+          }
+        ],
+        "clue_style": "magazine-v1",
+        "clue_kind": "event",
+        "clue_profile": "experienced-adults-v1"
+      },
+      {
         "word": "美光",
         "kind": "企業",
         "answer_score": 86,
@@ -68460,18 +68929,38 @@
         "clue_profile": "experienced-adults-v1"
       },
       {
+        "word": "選舉",
+        "kind": "專業用語",
+        "answer_domain": "politics",
+        "answer_score": 86,
+        "difficulty": "medium",
+        "clue": "由選民投票產生公職代表的制度，結果仍須接受法定程序及監督。（2字）",
+        "id": "cna-47d83507e9892f20a581::選舉",
+        "event_id": "cna-47d83507e9892f20a581",
+        "event_revision": "cna-47d83507e9892f20a581",
+        "source_support": [
+          {
+            "source_id": "rss-1c028651c1f3e5aec74b",
+            "evidence": "強風吹倒選舉看板　苗市騎士疑遭固定繩勾脖摔車\n（中央社記者管瑞平苗栗縣22日電）薔琵颱風外圍環流在苗栗地區颳起陣陣強風，豎立於苗栗市龜山大橋路口一座選舉看板上午倒塌，1名女子騎車經過，疑遭看板的固定繩索勾脖摔車受傷送醫。"
+          }
+        ],
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning",
+        "clue_profile": "experienced-adults-v1"
+      },
+      {
         "word": "外交部",
         "kind": "機關或組織",
         "answer_score": 89,
         "difficulty": "medium",
         "clue": "辦理對外關係與領事事務，並在海外事故時協調急難協助的中央部會。（3字）",
-        "id": "cna-d3c3b0fcb39227f48718::外交部",
-        "event_id": "cna-d3c3b0fcb39227f48718",
-        "event_revision": "cna-d3c3b0fcb39227f48718",
+        "id": "cna-a2c0e14aca5f410f6cee::外交部",
+        "event_id": "cna-a2c0e14aca5f410f6cee",
+        "event_revision": "cna-a2c0e14aca5f410f6cee",
         "source_support": [
           {
-            "source_id": "rss-ca1648512a6c9f08b847",
-            "evidence": "奧克拉荷馬州參議長：在台設經貿辦是里程碑　顯示對台重視\n（中央社記者楊堯茹台北22日電）美國南部地區州議會領袖團訪台，外交部政次陳明祺於款宴時表示，感謝美南各州議會近年持續通過友台決議，並樂見奧克拉荷馬州在台設立經貿辦事處；團長奧克拉荷馬州參議長派克斯頓則說，在台設經貿辦是重要里程碑，顯示對台灣夥伴關係的重視。"
+            "source_id": "rss-44d6720df2cc62672c6b",
+            "evidence": "烏克蘭外長會見中國大使　就推動和平方案交換意見\n（中央社台北22日電）美俄中是否會舉行三方會談受到關注之際，烏克蘭外交部長西比哈21日會見了中國駐烏克蘭大使馬升琨，就推動俄烏戰爭的和平解決方案交換意見，西比哈並稱期待北京發揮建設性作用。"
           }
         ],
         "clue_style": "magazine-v1",
@@ -68702,26 +69191,6 @@
           {
             "source_id": "rss-a5923179510cc0e3397d",
             "evidence": "這家社群媒體巨頭持續加碼投資，積極投入全球人工智慧（AI）競賽，但受到與美國幾乎所有州達成180億美元法律和解協議影響，獲利受到衝擊。"
-          }
-        ],
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning",
-        "clue_profile": "experienced-adults-v1"
-      },
-      {
-        "word": "選舉",
-        "kind": "專業用語",
-        "answer_domain": "politics",
-        "answer_score": 86,
-        "difficulty": "medium",
-        "clue": "由選民投票產生公職代表的制度，結果仍須接受法定程序及監督。（2字）",
-        "id": "cna-9274fbc4a73f51dd7078::選舉",
-        "event_id": "cna-9274fbc4a73f51dd7078",
-        "event_revision": "cna-9274fbc4a73f51dd7078",
-        "source_support": [
-          {
-            "source_id": "rss-83b16fd541041c65f478",
-            "evidence": "美期中選舉倒數　民調顯示僅45%受訪者對計票準確度有信心\n（中央社記者林宏翰洛杉磯21日專電）美國期中選舉11月3日登場，最新民調顯示，僅45%登記選民對計票準確度有較高信心，比4年前下降5個百分點。"
           }
         ],
         "clue_style": "magazine-v1",
@@ -71370,14 +71839,14 @@
   },
   "automation": {
     "enabled": true,
-    "updated_at": "2026-10-22T04:26:36.678Z",
+    "updated_at": "2026-10-22T04:58:46.272Z",
     "window": {
       "from": "2026-10-16",
       "to": "2026-10-22"
     },
     "interval_hours": 6,
     "source_count": 10,
-    "candidate_count": 172,
+    "candidate_count": 173,
     "sources": [
       {
         "id": "cna-politics",
@@ -71432,7 +71901,7 @@
         "publisher": "中央通訊社",
         "category": "台灣",
         "url": "https://feeds.feedburner.com/rsscna/social",
-        "count": 19,
+        "count": 20,
         "error": null
       },
       {
@@ -71469,7 +71938,7 @@
       "generated_count": 7,
       "seed": 2,
       "attempts": 16,
-      "fingerprint": "583f1018640a77de465ca86137d01e6aa9a0cdd2e9b900437dd1d0338ac48f32",
+      "fingerprint": "6c7bfc09f8d776ea4d8ef2efd4b39e771d491de3664646e7abee8eda6eb952fc",
       "grid_valid": true,
       "editorial_valid": true,
       "nonrepeating": true
