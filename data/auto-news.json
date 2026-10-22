@@ -68671,12 +68671,12 @@
         "clue_profile": "experienced-adults-v1"
       },
       {
-        "word": "美元",
+        "word": "獲利",
         "kind": "財經用語",
         "answer_score": 86,
         "difficulty": "medium",
-        "clue": "國際貿易與外匯存底常用的計價貨幣，其利率變動牽動跨境資金。（2字）",
-        "id": "cna-30170ab5d80d841d1beb::美元",
+        "clue": "收入扣除相關成本費用後的成果，與單看銷售額成長並不相同。（2字）",
+        "id": "cna-30170ab5d80d841d1beb::獲利",
         "event_id": "cna-30170ab5d80d841d1beb",
         "event_revision": "cna-30170ab5d80d841d1beb",
         "source_support": [
@@ -68690,12 +68690,12 @@
         "clue_profile": "experienced-adults-v1"
       },
       {
-        "word": "獲利",
+        "word": "美元",
         "kind": "財經用語",
         "answer_score": 86,
         "difficulty": "medium",
-        "clue": "收入扣除相關成本費用後的成果，與單看銷售額成長並不相同。（2字）",
-        "id": "cna-30170ab5d80d841d1beb::獲利",
+        "clue": "國際貿易與外匯存底常用的計價貨幣，其利率變動牽動跨境資金。（2字）",
+        "id": "cna-30170ab5d80d841d1beb::美元",
         "event_id": "cna-30170ab5d80d841d1beb",
         "event_revision": "cna-30170ab5d80d841d1beb",
         "source_support": [
@@ -68748,26 +68748,6 @@
         "clue_profile": "experienced-adults-v1"
       },
       {
-        "word": "聲押",
-        "kind": "專業用語",
-        "answer_domain": "society",
-        "answer_score": 86,
-        "difficulty": "medium",
-        "clue": "檢察官向法院請求拘禁被告的程序簡稱，並不等同法院已裁准。（2字）",
-        "id": "cna-5387f033c0ff2568ceb7::聲押",
-        "event_id": "cna-5387f033c0ff2568ceb7",
-        "event_revision": "cna-5387f033c0ff2568ceb7",
-        "source_support": [
-          {
-            "source_id": "rss-e463bc2b31fabfbea4e1",
-            "evidence": "竹縣橫山鄉長涉圖利及賄選　檢聲押禁見\n（中央社記者郭宣彣新竹縣22日電）新竹縣橫山鄉長張志弘涉嫌將公務車作為私人使用，另涉嫌交付選民新台幣6000元至1萬元不等現金行賄，新竹地檢署今天說，張男涉貪污及賄選罪嫌重大，向法院聲請羈押禁見。"
-          }
-        ],
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning",
-        "clue_profile": "experienced-adults-v1"
-      },
-      {
         "word": "羈押",
         "kind": "專業用語",
         "answer_domain": "society",
@@ -68788,19 +68768,19 @@
         "clue_profile": "experienced-adults-v1"
       },
       {
-        "word": "國防",
+        "word": "聲押",
         "kind": "專業用語",
-        "answer_domain": "politics",
+        "answer_domain": "society",
         "answer_score": 86,
         "difficulty": "medium",
-        "clue": "面對外來威脅，整合軍事與非軍事資源維護國家安全的公共事務。（2字）",
-        "id": "cna-56080454e927dd42e96a::國防",
-        "event_id": "cna-56080454e927dd42e96a",
-        "event_revision": "cna-56080454e927dd42e96a",
+        "clue": "檢察官向法院請求拘禁被告的程序簡稱，並不等同法院已裁准。（2字）",
+        "id": "cna-5387f033c0ff2568ceb7::聲押",
+        "event_id": "cna-5387f033c0ff2568ceb7",
+        "event_revision": "cna-5387f033c0ff2568ceb7",
         "source_support": [
           {
-            "source_id": "rss-c08b9e912976c6693968",
-            "evidence": "劉得金入選美國防大學名人堂　台灣首位部長級校友\n（中央社記者葉素萍台北22日電）國家安全會議諮詢委員劉得金獲選進入美國國防大學（NDU）國際學人名人堂，成為台灣首位獲此殊榮的部長級傑出校友。"
+            "source_id": "rss-e463bc2b31fabfbea4e1",
+            "evidence": "竹縣橫山鄉長涉圖利及賄選　檢聲押禁見\n（中央社記者郭宣彣新竹縣22日電）新竹縣橫山鄉長張志弘涉嫌將公務車作為私人使用，另涉嫌交付選民新台幣6000元至1萬元不等現金行賄，新竹地檢署今天說，張男涉貪污及賄選罪嫌重大，向法院聲請羈押禁見。"
           }
         ],
         "clue_style": "magazine-v1",
@@ -68821,6 +68801,26 @@
           {
             "source_id": "rss-c08b9e912976c6693968",
             "evidence": "劉得金21日在華府出席授勳儀式時表示，台灣正發展不對稱戰力、無人系統及多層次防空體系，目標是提升自我防衛能力、嚇阻侵略，並為台海及印太和平穩定做出貢獻。"
+          }
+        ],
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning",
+        "clue_profile": "experienced-adults-v1"
+      },
+      {
+        "word": "國防",
+        "kind": "專業用語",
+        "answer_domain": "politics",
+        "answer_score": 86,
+        "difficulty": "medium",
+        "clue": "面對外來威脅，整合軍事與非軍事資源維護國家安全的公共事務。（2字）",
+        "id": "cna-56080454e927dd42e96a::國防",
+        "event_id": "cna-56080454e927dd42e96a",
+        "event_revision": "cna-56080454e927dd42e96a",
+        "source_support": [
+          {
+            "source_id": "rss-c08b9e912976c6693968",
+            "evidence": "劉得金入選美國防大學名人堂　台灣首位部長級校友\n（中央社記者葉素萍台北22日電）國家安全會議諮詢委員劉得金獲選進入美國國防大學（NDU）國際學人名人堂，成為台灣首位獲此殊榮的部長級傑出校友。"
           }
         ],
         "clue_style": "magazine-v1",
@@ -69670,6 +69670,25 @@
         "clue_profile": "experienced-adults-v1"
       },
       {
+        "word": "補助",
+        "kind": "財經用語",
+        "answer_score": 86,
+        "difficulty": "medium",
+        "clue": "政府提供資源支持特定公共目的的措施，應有法源、條件及財源安排。（2字）",
+        "id": "cna-faa97ea49150ead46c85::補助",
+        "event_id": "cna-faa97ea49150ead46c85",
+        "event_revision": "cna-faa97ea49150ead46c85",
+        "source_support": [
+          {
+            "source_id": "rss-05651dad1a2df5642040",
+            "evidence": "民眾黨：中央補助長者健保費　健保收入一塊都不會少\n（中央社記者許維庭台北21日電）立法院通過老人福利修法，中央有條件補助65歲以上健保費，外界憂心健保面臨崩潰。"
+          }
+        ],
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning",
+        "clue_profile": "experienced-adults-v1"
+      },
+      {
         "word": "財政",
         "kind": "專業用語",
         "answer_domain": "economy",
@@ -69683,25 +69702,6 @@
           {
             "source_id": "rss-05651dad1a2df5642040",
             "evidence": "民眾黨主席黃國昌表示，修法後「健保收入一塊都不會少」，行政院若認為財政規劃需調整，就應提出具體數據，而非把社會福利支出，混淆成全民健保財務危機、恐嚇人民。"
-          }
-        ],
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning",
-        "clue_profile": "experienced-adults-v1"
-      },
-      {
-        "word": "補助",
-        "kind": "財經用語",
-        "answer_score": 86,
-        "difficulty": "medium",
-        "clue": "政府提供資源支持特定公共目的的措施，應有法源、條件及財源安排。（2字）",
-        "id": "cna-faa97ea49150ead46c85::補助",
-        "event_id": "cna-faa97ea49150ead46c85",
-        "event_revision": "cna-faa97ea49150ead46c85",
-        "source_support": [
-          {
-            "source_id": "rss-05651dad1a2df5642040",
-            "evidence": "民眾黨：中央補助長者健保費　健保收入一塊都不會少\n（中央社記者許維庭台北21日電）立法院通過老人福利修法，中央有條件補助65歲以上健保費，外界憂心健保面臨崩潰。"
           }
         ],
         "clue_style": "magazine-v1",
@@ -70787,13 +70787,13 @@
         "clue_profile": "experienced-adults-v1"
       },
       {
-        "word": "八音",
+        "word": "傳習",
         "kind": "專業用語",
         "answer_domain": "culture",
         "answer_score": 86,
         "difficulty": "medium",
-        "clue": "客家傳統器樂合奏形式，常見於禮俗場合，保存也仰賴師徒傳習。（2字）",
-        "id": "cna-5f9d771472eea3d68017::八音",
+        "clue": "透過實作與教導延續技藝或文化的過程，重點不只保存器物本身。（2字）",
+        "id": "cna-5f9d771472eea3d68017::傳習",
         "event_id": "cna-5f9d771472eea3d68017",
         "event_revision": "cna-5f9d771472eea3d68017",
         "source_support": [
@@ -70807,13 +70807,13 @@
         "clue_profile": "experienced-adults-v1"
       },
       {
-        "word": "傳習",
+        "word": "八音",
         "kind": "專業用語",
         "answer_domain": "culture",
         "answer_score": 86,
         "difficulty": "medium",
-        "clue": "透過實作與教導延續技藝或文化的過程，重點不只保存器物本身。（2字）",
-        "id": "cna-5f9d771472eea3d68017::傳習",
+        "clue": "客家傳統器樂合奏形式，常見於禮俗場合，保存也仰賴師徒傳習。（2字）",
+        "id": "cna-5f9d771472eea3d68017::八音",
         "event_id": "cna-5f9d771472eea3d68017",
         "event_revision": "cna-5f9d771472eea3d68017",
         "source_support": [
@@ -70847,13 +70847,13 @@
         "clue_profile": "experienced-adults-v1"
       },
       {
-        "word": "骨密度",
+        "word": "類固醇",
         "kind": "專業用語",
         "answer_domain": "health",
         "answer_score": 89,
         "difficulty": "medium",
-        "clue": "評估骨骼礦物含量的量測指標，可協助判斷骨折風險，仍須結合臨床因素。（3字）",
-        "id": "cna-77c1068f07067acf2199::骨密度",
+        "clue": "可用於抗發炎等治療的一類藥物，長期使用可能影響骨質及代謝。（3字）",
+        "id": "cna-77c1068f07067acf2199::類固醇",
         "event_id": "cna-77c1068f07067acf2199",
         "event_revision": "cna-77c1068f07067acf2199",
         "source_support": [
@@ -70867,13 +70867,13 @@
         "clue_profile": "experienced-adults-v1"
       },
       {
-        "word": "類固醇",
+        "word": "骨密度",
         "kind": "專業用語",
         "answer_domain": "health",
         "answer_score": 89,
         "difficulty": "medium",
-        "clue": "可用於抗發炎等治療的一類藥物，長期使用可能影響骨質及代謝。（3字）",
-        "id": "cna-77c1068f07067acf2199::類固醇",
+        "clue": "評估骨骼礦物含量的量測指標，可協助判斷骨折風險，仍須結合臨床因素。（3字）",
+        "id": "cna-77c1068f07067acf2199::骨密度",
         "event_id": "cna-77c1068f07067acf2199",
         "event_revision": "cna-77c1068f07067acf2199",
         "source_support": [
@@ -70926,13 +70926,13 @@
         "clue_profile": "experienced-adults-v1"
       },
       {
-        "word": "存款",
+        "word": "國銀",
         "kind": "專業用語",
         "answer_domain": "economy",
         "answer_score": 86,
         "difficulty": "medium",
-        "clue": "把資金交由銀行保管並依約取回的安排，其保障範圍與投資商品有別。（2字）",
-        "id": "cna-d5ed3f801b3839247d1c::存款",
+        "clue": "本地銀行業者的兩字統稱，海外放款與外幣存款常反映其跨境業務布局。（2字）",
+        "id": "cna-d5ed3f801b3839247d1c::國銀",
         "event_id": "cna-d5ed3f801b3839247d1c",
         "event_revision": "cna-d5ed3f801b3839247d1c",
         "source_support": [
@@ -70946,13 +70946,13 @@
         "clue_profile": "experienced-adults-v1"
       },
       {
-        "word": "國銀",
+        "word": "存款",
         "kind": "專業用語",
         "answer_domain": "economy",
         "answer_score": 86,
         "difficulty": "medium",
-        "clue": "本地銀行業者的兩字統稱，海外放款與外幣存款常反映其跨境業務布局。（2字）",
-        "id": "cna-d5ed3f801b3839247d1c::國銀",
+        "clue": "把資金交由銀行保管並依約取回的安排，其保障範圍與投資商品有別。（2字）",
+        "id": "cna-d5ed3f801b3839247d1c::存款",
         "event_id": "cna-d5ed3f801b3839247d1c",
         "event_revision": "cna-d5ed3f801b3839247d1c",
         "source_support": [
@@ -71006,26 +71006,6 @@
         "clue_profile": "experienced-adults-v1"
       },
       {
-        "word": "失智",
-        "kind": "專業用語",
-        "answer_domain": "health",
-        "answer_score": 86,
-        "difficulty": "medium",
-        "clue": "認知功能下降至影響生活的狀態簡稱，照顧常須兼顧安全、尊嚴與家庭支持。（2字）",
-        "id": "cna-a515b683b59981d2ff3e::失智",
-        "event_id": "cna-a515b683b59981d2ff3e",
-        "event_revision": "cna-a515b683b59981d2ff3e",
-        "source_support": [
-          {
-            "source_id": "rss-dc7e0f6c162857ca1f19",
-            "evidence": "失智風險增　壽險業規劃保單共管人機制"
-          }
-        ],
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning",
-        "clue_profile": "experienced-adults-v1"
-      },
-      {
         "word": "保單",
         "kind": "專業用語",
         "answer_domain": "economy",
@@ -71053,6 +71033,26 @@
         "difficulty": "medium",
         "clue": "以人的生存或死亡為給付條件的保險，設計時常涉及家庭保障與傳承。（2字）",
         "id": "cna-a515b683b59981d2ff3e::壽險",
+        "event_id": "cna-a515b683b59981d2ff3e",
+        "event_revision": "cna-a515b683b59981d2ff3e",
+        "source_support": [
+          {
+            "source_id": "rss-dc7e0f6c162857ca1f19",
+            "evidence": "失智風險增　壽險業規劃保單共管人機制"
+          }
+        ],
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning",
+        "clue_profile": "experienced-adults-v1"
+      },
+      {
+        "word": "失智",
+        "kind": "專業用語",
+        "answer_domain": "health",
+        "answer_score": 86,
+        "difficulty": "medium",
+        "clue": "認知功能下降至影響生活的狀態簡稱，照顧常須兼顧安全、尊嚴與家庭支持。（2字）",
+        "id": "cna-a515b683b59981d2ff3e::失智",
         "event_id": "cna-a515b683b59981d2ff3e",
         "event_revision": "cna-a515b683b59981d2ff3e",
         "source_support": [
@@ -71370,7 +71370,7 @@
   },
   "automation": {
     "enabled": true,
-    "updated_at": "2026-10-22T04:24:08.125Z",
+    "updated_at": "2026-10-22T04:26:36.678Z",
     "window": {
       "from": "2026-10-16",
       "to": "2026-10-22"
@@ -71469,7 +71469,7 @@
       "generated_count": 7,
       "seed": 2,
       "attempts": 16,
-      "fingerprint": "7ae19e128f42a41260bc806c68f1669fd3717f9ae97293ab59ecb2d1ca0d90b5",
+      "fingerprint": "583f1018640a77de465ca86137d01e6aa9a0cdd2e9b900437dd1d0338ac48f32",
       "grid_valid": true,
       "editorial_valid": true,
       "nonrepeating": true
