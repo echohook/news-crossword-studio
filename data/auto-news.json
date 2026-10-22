@@ -17987,6 +17987,273 @@
         "content_revision": "cna-0d268fe989dd64933e96"
       },
       {
+        "event_id": "cna-e554031693234e401f8e",
+        "dedup_key": "https://www.cna.com.tw/news/afe/202610220434.aspx",
+        "event_date": "2026-10-22",
+        "updated_at": "2026-10-22",
+        "published_at": "2026-10-22T15:06:01.000Z",
+        "title": "91APP公布遭自動化攻擊階段調查　承諾補償消費者財損",
+        "rss_lead": "（中央社記者趙敏雅台北22日電）電商技術服務公司91APP今天表示，Commerce Cloud其中一座訂單資料庫遭AI自動化滲透工具攻擊而被非法存取，這次事件僅涉及該座資料庫，遭存取的是訂單資訊，不包含信用卡等支付工具資訊。91APP表示，對經確認因此事件遭詐騙而受有財產損失的消費者，提供全面補償。",
+        "summary": "91APP公布遭自動化攻擊階段調查　承諾補償消費者財損",
+        "categories": [
+          "財經"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-89b44a6dda9c697b23d0",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/afe/202610220434.aspx",
+            "published_at": "2026-10-22",
+            "excerpt": "91APP公布遭自動化攻擊階段調查　承諾補償消費者財損\n（中央社記者趙敏雅台北22日電）電商技術服務公司91APP今天表示，Commerce Cloud其中一座訂單資料庫遭AI自動化滲透工具攻擊而被非法存取，這次事件僅涉及該座資料庫，遭存取的是訂單資訊，不包含信用卡等支付工具資訊。91APP表示，對經確認因此事件遭詐騙而受有財產損失的消費者，提供全面補償。",
+            "section": "財經"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "詐騙",
+            "kind": "專業用語",
+            "answer_domain": "society",
+            "clue_options": [
+              {
+                "clue": "利用虛假訊息使人陷於錯誤並交付財物，常見手法包含假投資與冒名來電。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "利用虛假訊息使人陷於錯誤並交付財物，常見手法包含假投資與冒名來電。（2字）"
+          }
+        ],
+        "aliases": [
+          "cna-e554031693234e401f8e"
+        ],
+        "content_revision": "cna-e554031693234e401f8e"
+      },
+      {
+        "event_id": "cna-1afa93d9db87ca97a64d",
+        "dedup_key": "https://www.cna.com.tw/news/afe/202610220437.aspx",
+        "event_date": "2026-10-22",
+        "updated_at": "2026-10-22",
+        "published_at": "2026-10-22T15:37:08.000Z",
+        "title": "經濟部樂見美光與台中工會達成協議　盼桃園廠續協商",
+        "rss_lead": "（中央社記者曾筠庭台北22日電）美光（Micron）與台灣美光記憶體工會（台中工會）昨天達成勞資協議且取得多項共識。經濟部今天晚間表示，政府樂見雙方理性溝通、共創雙贏，並指出協議涵蓋調薪、勞退提撥及輪班津貼等3大成果，更盼桃園廠持續溝通協商。",
+        "summary": "經濟部樂見美光與台中工會達成協議　盼桃園廠續協商",
+        "categories": [
+          "財經"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-afb75af2eab2e1c4652f",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/afe/202610220437.aspx",
+            "published_at": "2026-10-22",
+            "excerpt": "經濟部樂見美光與台中工會達成協議　盼桃園廠續協商\n（中央社記者曾筠庭台北22日電）美光（Micron）與台灣美光記憶體工會（台中工會）昨天達成勞資協議且取得多項共識。經濟部今天晚間表示，政府樂見雙方理性溝通、共創雙贏，並指出協議涵蓋調薪、勞退提撥及輪班津貼等3大成果，更盼桃園廠持續溝通協商。",
+            "section": "財經"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "記憶體",
+            "kind": "科技用語",
+            "clue_options": [
+              {
+                "clue": "暫存或保存運算資料的元件，容量與存取速度會限制系統表現。（3字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 89,
+            "difficulty": "medium",
+            "clue": "暫存或保存運算資料的元件，容量與存取速度會限制系統表現。（3字）"
+          },
+          {
+            "word": "勞退",
+            "kind": "財經用語",
+            "clue_options": [
+              {
+                "clue": "雇主按月提繳至個人退休金專戶的制度簡稱，與老年社會保險給付分屬不同制度。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "雇主按月提繳至個人退休金專戶的制度簡稱，與老年社會保險給付分屬不同制度。（2字）"
+          },
+          {
+            "word": "工會",
+            "kind": "專業用語",
+            "answer_domain": "society",
+            "clue_options": [
+              {
+                "clue": "受僱者為協商勞動條件及維護共同權益而組成的團體。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "受僱者為協商勞動條件及維護共同權益而組成的團體。（2字）"
+          }
+        ],
+        "aliases": [
+          "cna-1afa93d9db87ca97a64d"
+        ],
+        "content_revision": "cna-1afa93d9db87ca97a64d"
+      },
+      {
+        "event_id": "cna-4b1fdd76a2883e5d62e2",
+        "dedup_key": "https://www.cna.com.tw/news/afe/202610230003.aspx",
+        "event_date": "2026-10-23",
+        "updated_at": "2026-10-23",
+        "published_at": "2026-10-22T16:46:20.000Z",
+        "title": "企業財報與油價衝擊市場情緒　歐股收黑",
+        "rss_lead": "（中央社倫敦22日綜合外電報導）歐洲主要股市今天都收黑，主因企業財報好壞參半，同時國際油價走高、法國公債殖利率上升，也進一步削弱市場的風險偏好。",
+        "summary": "企業財報與油價衝擊市場情緒　歐股收黑",
+        "categories": [
+          "財經"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-2762de0bf50ea5f8d421",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/afe/202610230003.aspx",
+            "published_at": "2026-10-23",
+            "excerpt": "企業財報與油價衝擊市場情緒　歐股收黑\n（中央社倫敦22日綜合外電報導）歐洲主要股市今天都收黑，主因企業財報好壞參半，同時國際油價走高、法國公債殖利率上升，也進一步削弱市場的風險偏好。",
+            "section": "財經"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "股市",
+            "kind": "財經用語",
+            "clue_options": [
+              {
+                "clue": "集中交易公司股權的市場，價格會反映預期獲利及投資人的風險評價。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "集中交易公司股權的市場，價格會反映預期獲利及投資人的風險評價。（2字）"
+          },
+          {
+            "word": "油價",
+            "kind": "財經用語",
+            "clue_options": [
+              {
+                "clue": "運輸成本與民生物價的重要變數，常隨產油國政策及航道風險波動。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "運輸成本與民生物價的重要變數，常隨產油國政策及航道風險波動。（2字）"
+          },
+          {
+            "word": "殖利率",
+            "kind": "專業用語",
+            "answer_domain": "economy",
+            "clue_options": [
+              {
+                "clue": "每年現金股利相對於股價的比率，價格下跌也可能使其上升。（3字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 89,
+            "difficulty": "medium",
+            "clue": "每年現金股利相對於股價的比率，價格下跌也可能使其上升。（3字）"
+          }
+        ],
+        "aliases": [
+          "cna-4b1fdd76a2883e5d62e2"
+        ],
+        "content_revision": "cna-4b1fdd76a2883e5d62e2"
+      },
+      {
+        "event_id": "cna-9fd8111eb6ffdeaad790",
+        "dedup_key": "https://www.cna.com.tw/news/afe/202610230007.aspx",
+        "event_date": "2026-10-23",
+        "updated_at": "2026-10-23",
+        "published_at": "2026-10-22T19:37:32.000Z",
+        "title": "葉門叛軍襲沙烏地加劇中東供應疑慮　油價大漲",
+        "rss_lead": "（中央社紐約22日綜合外電報導）油價今天大漲，布倫特原油來到5個月來的高點，主因沙烏地阿拉伯遭到葉門叛軍「青年運動」（Houthi）攻擊，讓市場擔心來自這個能源出口要地的供應可能進一步中斷。",
+        "summary": "葉門叛軍襲沙烏地加劇中東供應疑慮　油價大漲",
+        "categories": [
+          "財經"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-05c71d1a7986a54a8d96",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/afe/202610230007.aspx",
+            "published_at": "2026-10-23",
+            "excerpt": "葉門叛軍襲沙烏地加劇中東供應疑慮　油價大漲\n（中央社紐約22日綜合外電報導）油價今天大漲，布倫特原油來到5個月來的高點，主因沙烏地阿拉伯遭到葉門叛軍「青年運動」（Houthi）攻擊，讓市場擔心來自這個能源出口要地的供應可能進一步中斷。",
+            "section": "財經"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "油價",
+            "kind": "財經用語",
+            "clue_options": [
+              {
+                "clue": "運輸成本與民生物價的重要變數，常隨產油國政策及航道風險波動。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "運輸成本與民生物價的重要變數，常隨產油國政策及航道風險波動。（2字）"
+          }
+        ],
+        "aliases": [
+          "cna-9fd8111eb6ffdeaad790"
+        ],
+        "content_revision": "cna-9fd8111eb6ffdeaad790"
+      },
+      {
         "event_id": "cna-a431f46e435473a91b5e",
         "dedup_key": "https://www.cna.com.tw/news/ahel/202610170016.aspx",
         "event_date": "2026-10-17",
@@ -26015,6 +26282,63 @@
           "cna-9dc793189f657b51f9ce"
         ],
         "content_revision": "cna-9dc793189f657b51f9ce"
+      },
+      {
+        "event_id": "cna-3d7a0eafc613b267abec",
+        "dedup_key": "https://www.cna.com.tw/news/ahel/202610230002.aspx",
+        "event_date": "2026-10-23",
+        "updated_at": "2026-10-23",
+        "published_at": "2026-10-22T16:24:18.000Z",
+        "title": "颱風薔琵強度再減弱　23日晚間至24日清晨降雨明顯",
+        "rss_lead": "（中央社記者余曉涵台北23日電）氣象署表示，颱風薔琵近中心最大風速從每秒45公尺減弱為43公尺，預計23日至24日清晨將是雨勢最為明顯的時候，要到25日整體雨勢才會緩和。",
+        "summary": "颱風薔琵強度再減弱　23日晚間至24日清晨降雨明顯",
+        "categories": [
+          "生活"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-30a70a8457ce6f5f7a87",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/ahel/202610230002.aspx",
+            "published_at": "2026-10-23",
+            "excerpt": "颱風薔琵強度再減弱　23日晚間至24日清晨降雨明顯\n（中央社記者余曉涵台北23日電）氣象署表示，颱風薔琵近中心最大風速從每秒45公尺減弱為43公尺，預計23日至24日清晨將是雨勢最為明顯的時候，要到25日整體雨勢才會緩和。",
+            "section": "生活"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "颱風",
+            "kind": "生活用語",
+            "clue_options": [
+              {
+                "clue": "據報導，西北太平洋熱帶氣旋薔琵強度再減弱　23日晚間至24日清晨降雨明顯。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "event",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              },
+              {
+                "clue": "形成於西北太平洋的熱帶氣旋達到一定強度後的名稱，路徑與地形會左右災害。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "據報導，西北太平洋熱帶氣旋薔琵強度再減弱　23日晚間至24日清晨降雨明顯。（2字）"
+          }
+        ],
+        "aliases": [
+          "cna-3d7a0eafc613b267abec"
+        ],
+        "content_revision": "cna-3d7a0eafc613b267abec"
       },
       {
         "event_id": "cna-1d93c72a274b8a0fe044",
@@ -36294,6 +36618,74 @@
           "cna-def3846d8300342b2dd0"
         ],
         "content_revision": "cna-def3846d8300342b2dd0"
+      },
+      {
+        "event_id": "cna-69a4f971d071d56dc5b4",
+        "dedup_key": "https://www.cna.com.tw/news/ait/202610230009.aspx",
+        "event_date": "2026-10-23",
+        "updated_at": "2026-10-23",
+        "published_at": "2026-10-22T19:55:36.000Z",
+        "title": "PHP爆漏洞多國網站急搶修　駭客嘗試攻擊數百萬次",
+        "rss_lead": "（中央社東京22日綜合外電報導）支撐網際網路運作的程式語言PHP爆嚴重漏洞，全球企業與政府今天加緊腳步搶修，多國銀行、航空、鐵路與政府網站緊急暫停服務，駭客已嘗試攻擊達數百萬次。",
+        "summary": "PHP爆漏洞多國網站急搶修　駭客嘗試攻擊數百萬次",
+        "categories": [
+          "科技"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-f8770d9630013c316a8f",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/ait/202610230009.aspx",
+            "published_at": "2026-10-23",
+            "excerpt": "PHP爆漏洞多國網站急搶修　駭客嘗試攻擊數百萬次\n（中央社東京22日綜合外電報導）支撐網際網路運作的程式語言PHP爆嚴重漏洞，全球企業與政府今天加緊腳步搶修，多國銀行、航空、鐵路與政府網站緊急暫停服務，駭客已嘗試攻擊達數百萬次。",
+            "section": "科技"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "國銀",
+            "kind": "專業用語",
+            "answer_domain": "economy",
+            "clue_options": [
+              {
+                "clue": "本地銀行業者的兩字統稱，海外放款與外幣存款常反映其跨境業務布局。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "本地銀行業者的兩字統稱，海外放款與外幣存款常反映其跨境業務布局。（2字）"
+          },
+          {
+            "word": "網路",
+            "kind": "專業用語",
+            "answer_domain": "technology",
+            "clue_options": [
+              {
+                "clue": "連結設備與資訊的通訊系統，便利性也帶來身分冒用與攻擊風險。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "連結設備與資訊的通訊系統，便利性也帶來身分冒用與攻擊風險。（2字）"
+          }
+        ],
+        "aliases": [
+          "cna-69a4f971d071d56dc5b4"
+        ],
+        "content_revision": "cna-69a4f971d071d56dc5b4"
       },
       {
         "event_id": "cna-a96d2358c0303ab1a708",
@@ -56693,6 +57085,206 @@
         "content_revision": "cna-cfa328a0208ba96b4fe9"
       },
       {
+        "event_id": "cna-1126ed09ec3fe8125faf",
+        "dedup_key": "https://www.cna.com.tw/news/aopl/202610230004.aspx",
+        "event_date": "2026-10-23",
+        "updated_at": "2026-10-23",
+        "published_at": "2026-10-22T17:17:23.000Z",
+        "title": "澤倫斯基：與川普無私怨　警告放寬制裁恐壯大普丁",
+        "rss_lead": "（中央社基輔22日綜合外電報導）美烏關係近來急轉直下，烏克蘭總統澤倫斯基今天接受CNN專訪時態度軟化，強調他與美國總統川普之間「沒有私人恩怨」，但警告解除對俄制裁，只會讓俄國總統普丁「更強大」。",
+        "summary": "澤倫斯基：與川普無私怨　警告放寬制裁恐壯大普丁",
+        "categories": [
+          "國際"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-4e6997cbccbc5dc8b2e9",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aopl/202610230004.aspx",
+            "published_at": "2026-10-23",
+            "excerpt": "澤倫斯基：與川普無私怨　警告放寬制裁恐壯大普丁\n（中央社基輔22日綜合外電報導）美烏關係近來急轉直下，烏克蘭總統澤倫斯基今天接受CNN專訪時態度軟化，強調他與美國總統川普之間「沒有私人恩怨」，但警告解除對俄制裁，只會讓俄國總統普丁「更強大」。",
+            "section": "國際"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "制裁",
+            "kind": "專業用語",
+            "answer_domain": "international",
+            "clue_options": [
+              {
+                "clue": "以貿易、金融或人員限制向對方施壓，屬於戰爭以外的政策工具。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "以貿易、金融或人員限制向對方施壓，屬於戰爭以外的政策工具。（2字）"
+          }
+        ],
+        "aliases": [
+          "cna-1126ed09ec3fe8125faf"
+        ],
+        "content_revision": "cna-1126ed09ec3fe8125faf"
+      },
+      {
+        "event_id": "cna-2b76d5c74f649f77491b",
+        "dedup_key": "https://www.cna.com.tw/news/aopl/202610230005.aspx",
+        "event_date": "2026-10-23",
+        "updated_at": "2026-10-23",
+        "published_at": "2026-10-22T17:40:26.000Z",
+        "title": "西藏那曲規模7強震至少2傷　中國逾2年來最強地震",
+        "rss_lead": "（中央社北京23日綜合外電報導）中國地震台網中心表示，西藏北部那曲昨天晚間10時33分發生芮氏規模7.0地震，震源深度10公里，已知至少2人受傷，這是中國自2024年1月以來最強烈的地震。",
+        "summary": "西藏那曲規模7強震至少2傷　中國逾2年來最強地震",
+        "categories": [
+          "國際"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-e1411549ba11b84fff1c",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aopl/202610230005.aspx",
+            "published_at": "2026-10-23",
+            "excerpt": "西藏那曲規模7強震至少2傷　中國逾2年來最強地震\n（中央社北京23日綜合外電報導）中國地震台網中心表示，西藏北部那曲昨天晚間10時33分發生芮氏規模7.0地震，震源深度10公里，已知至少2人受傷，這是中國自2024年1月以來最強烈的地震。",
+            "section": "國際"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "地震",
+            "kind": "生活用語",
+            "clue_options": [
+              {
+                "clue": "斷層錯動釋放能量造成地表震動，規模與各地感受強弱是不同概念。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "斷層錯動釋放能量造成地表震動，規模與各地感受強弱是不同概念。（2字）"
+          }
+        ],
+        "aliases": [
+          "cna-2b76d5c74f649f77491b"
+        ],
+        "content_revision": "cna-2b76d5c74f649f77491b"
+      },
+      {
+        "event_id": "cna-0da032460ec9d6e8896a",
+        "dedup_key": "https://www.cna.com.tw/news/aopl/202610230006.aspx",
+        "event_date": "2026-10-23",
+        "updated_at": "2026-10-23",
+        "published_at": "2026-10-22T18:01:28.000Z",
+        "title": "法國速審上週末暴動案件　司法部長：217人已入獄",
+        "rss_lead": "（中央社巴黎22日綜合外電報導）法國司法部長達馬南（Gerald Darmanin）今天表示，針對上週末暴動事件，法院以快速審理程序將217人定罪後，已將他們關進監獄。他並稱讚司法部門的應對措施「極其堅定」。",
+        "summary": "法國速審上週末暴動案件　司法部長：217人已入獄",
+        "categories": [
+          "國際"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-bf1d85f271bf29a0bdb7",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aopl/202610230006.aspx",
+            "published_at": "2026-10-23",
+            "excerpt": "法國速審上週末暴動案件　司法部長：217人已入獄\n（中央社巴黎22日綜合外電報導）法國司法部長達馬南（Gerald Darmanin）今天表示，針對上週末暴動事件，法院以快速審理程序將217人定罪後，已將他們關進監獄。他並稱讚司法部門的應對措施「極其堅定」。",
+            "section": "國際"
+          }
+        ],
+        "keywords": [],
+        "aliases": [
+          "cna-0da032460ec9d6e8896a"
+        ],
+        "content_revision": "cna-0da032460ec9d6e8896a"
+      },
+      {
+        "event_id": "cna-98e6bd76f7ad67e3b702",
+        "dedup_key": "https://www.cna.com.tw/news/aopl/202610230008.aspx",
+        "event_date": "2026-10-23",
+        "updated_at": "2026-10-23",
+        "published_at": "2026-10-22T19:54:34.000Z",
+        "title": "川普告BBC誹謗求償百億美元　法官限期12/11前宣誓作證",
+        "rss_lead": "（中央社邁阿密22日綜合外電報導）美國一名法官今天下令，總統川普必須在12月11日前，就他控告英國廣播公司（BBC）誹謗、求償100億美元（約新台幣3260.6億元）的訴訟案宣誓作證。",
+        "summary": "川普告BBC誹謗求償百億美元　法官限期12/11前宣誓作證",
+        "categories": [
+          "國際"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-d9cdc22828ba5f913da2",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aopl/202610230008.aspx",
+            "published_at": "2026-10-23",
+            "excerpt": "川普告BBC誹謗求償百億美元　法官限期12/11前宣誓作證\n（中央社邁阿密22日綜合外電報導）美國一名法官今天下令，總統川普必須在12月11日前，就他控告英國廣播公司（BBC）誹謗、求償100億美元（約新台幣3260.6億元）的訴訟案宣誓作證。",
+            "section": "國際"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "美元",
+            "kind": "財經用語",
+            "clue_options": [
+              {
+                "clue": "國際貿易與外匯存底常用的計價貨幣，其利率變動牽動跨境資金。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "國際貿易與外匯存底常用的計價貨幣，其利率變動牽動跨境資金。（2字）"
+          },
+          {
+            "word": "新台幣",
+            "kind": "財經用語",
+            "clue_options": [
+              {
+                "clue": "本地法定貨幣，其對外比價變動會影響進口成本與出口換匯收入。（3字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 89,
+            "difficulty": "medium",
+            "clue": "本地法定貨幣，其對外比價變動會影響進口成本與出口換匯收入。（3字）"
+          }
+        ],
+        "aliases": [
+          "cna-98e6bd76f7ad67e3b702"
+        ],
+        "content_revision": "cna-98e6bd76f7ad67e3b702"
+      },
+      {
         "event_id": "cna-06667a5ad89c2a7371ca",
         "dedup_key": "https://www.cna.com.tw/news/asoc/202610170038.aspx",
         "event_date": "2026-10-17",
@@ -67680,14 +68272,14 @@
         "kind": "生活用語",
         "answer_score": 86,
         "difficulty": "medium",
-        "clue": "據報導，西北太平洋熱帶氣旋薔琵逼近　省道10路段陸續預警性封閉。（2字）",
-        "id": "cna-3f71e6f84295e7a5124f::颱風",
-        "event_id": "cna-3f71e6f84295e7a5124f",
-        "event_revision": "cna-3f71e6f84295e7a5124f",
+        "clue": "據報導，西北太平洋熱帶氣旋薔琵強度再減弱　23日晚間至24日清晨降雨明顯。（2字）",
+        "id": "cna-3d7a0eafc613b267abec::颱風",
+        "event_id": "cna-3d7a0eafc613b267abec",
+        "event_revision": "cna-3d7a0eafc613b267abec",
         "source_support": [
           {
-            "source_id": "rss-b605ec59bdec16c0c123",
-            "evidence": "颱風薔琵逼近　省道10路段陸續預警性封閉\n（中央社記者余曉涵台北22日電）颱風薔琵逼近，公路局今天晚間表示，省道已有6處路段實施預警性封閉，4處路段預計明天上午起實施預警性封閉，呼籲用路人颱風期間勿進入山區道路。"
+            "source_id": "rss-30a70a8457ce6f5f7a87",
+            "evidence": "颱風薔琵強度再減弱　23日晚間至24日清晨降雨明顯\n（中央社記者余曉涵台北23日電）氣象署表示，颱風薔琵近中心最大風速從每秒45公尺減弱為43公尺，預計23日至24日清晨將是雨勢最為明顯的時候，要到25日整體雨勢才會緩和。"
           }
         ],
         "clue_style": "magazine-v1",
@@ -68227,18 +68819,233 @@
         "clue_profile": "experienced-adults-v1"
       },
       {
+        "word": "國銀",
+        "kind": "專業用語",
+        "answer_domain": "economy",
+        "answer_score": 86,
+        "difficulty": "medium",
+        "clue": "本地銀行業者的兩字統稱，海外放款與外幣存款常反映其跨境業務布局。（2字）",
+        "id": "cna-69a4f971d071d56dc5b4::國銀",
+        "event_id": "cna-69a4f971d071d56dc5b4",
+        "event_revision": "cna-69a4f971d071d56dc5b4",
+        "source_support": [
+          {
+            "source_id": "rss-f8770d9630013c316a8f",
+            "evidence": "PHP爆漏洞多國網站急搶修　駭客嘗試攻擊數百萬次\n（中央社東京22日綜合外電報導）支撐網際網路運作的程式語言PHP爆嚴重漏洞，全球企業與政府今天加緊腳步搶修，多國銀行、航空、鐵路與政府網站緊急暫停服務，駭客已嘗試攻擊達數百萬次。"
+          }
+        ],
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning",
+        "clue_profile": "experienced-adults-v1"
+      },
+      {
+        "word": "網路",
+        "kind": "專業用語",
+        "answer_domain": "technology",
+        "answer_score": 86,
+        "difficulty": "medium",
+        "clue": "連結設備與資訊的通訊系統，便利性也帶來身分冒用與攻擊風險。（2字）",
+        "id": "cna-69a4f971d071d56dc5b4::網路",
+        "event_id": "cna-69a4f971d071d56dc5b4",
+        "event_revision": "cna-69a4f971d071d56dc5b4",
+        "source_support": [
+          {
+            "source_id": "rss-f8770d9630013c316a8f",
+            "evidence": "PHP爆漏洞多國網站急搶修　駭客嘗試攻擊數百萬次\n（中央社東京22日綜合外電報導）支撐網際網路運作的程式語言PHP爆嚴重漏洞，全球企業與政府今天加緊腳步搶修，多國銀行、航空、鐵路與政府網站緊急暫停服務，駭客已嘗試攻擊達數百萬次。"
+          }
+        ],
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning",
+        "clue_profile": "experienced-adults-v1"
+      },
+      {
+        "word": "美元",
+        "kind": "財經用語",
+        "answer_score": 86,
+        "difficulty": "medium",
+        "clue": "國際貿易與外匯存底常用的計價貨幣，其利率變動牽動跨境資金。（2字）",
+        "id": "cna-98e6bd76f7ad67e3b702::美元",
+        "event_id": "cna-98e6bd76f7ad67e3b702",
+        "event_revision": "cna-98e6bd76f7ad67e3b702",
+        "source_support": [
+          {
+            "source_id": "rss-d9cdc22828ba5f913da2",
+            "evidence": "川普告BBC誹謗求償百億美元　法官限期12/11前宣誓作證\n（中央社邁阿密22日綜合外電報導）美國一名法官今天下令，總統川普必須在12月11日前，就他控告英國廣播公司（BBC）誹謗、求償100億美元（約新台幣3260.6億元）的訴訟案宣誓作證。"
+          }
+        ],
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning",
+        "clue_profile": "experienced-adults-v1"
+      },
+      {
+        "word": "油價",
+        "kind": "財經用語",
+        "answer_score": 86,
+        "difficulty": "medium",
+        "clue": "運輸成本與民生物價的重要變數，常隨產油國政策及航道風險波動。（2字）",
+        "id": "cna-9fd8111eb6ffdeaad790::油價",
+        "event_id": "cna-9fd8111eb6ffdeaad790",
+        "event_revision": "cna-9fd8111eb6ffdeaad790",
+        "source_support": [
+          {
+            "source_id": "rss-05c71d1a7986a54a8d96",
+            "evidence": "葉門叛軍襲沙烏地加劇中東供應疑慮　油價大漲\n（中央社紐約22日綜合外電報導）油價今天大漲，布倫特原油來到5個月來的高點，主因沙烏地阿拉伯遭到葉門叛軍「青年運動」（Houthi）攻擊，讓市場擔心來自這個能源出口要地的供應可能進一步中斷。"
+          }
+        ],
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning",
+        "clue_profile": "experienced-adults-v1"
+      },
+      {
         "word": "地震",
         "kind": "生活用語",
         "answer_score": 86,
         "difficulty": "medium",
         "clue": "斷層錯動釋放能量造成地表震動，規模與各地感受強弱是不同概念。（2字）",
-        "id": "cna-6c40e0c47eb55f3f80b8::地震",
-        "event_id": "cna-6c40e0c47eb55f3f80b8",
-        "event_revision": "cna-6c40e0c47eb55f3f80b8",
+        "id": "cna-2b76d5c74f649f77491b::地震",
+        "event_id": "cna-2b76d5c74f649f77491b",
+        "event_revision": "cna-2b76d5c74f649f77491b",
         "source_support": [
           {
-            "source_id": "rss-8c10e4137a845f5870cb",
-            "evidence": "中國西藏巴青縣發生規模7地震　震源深度10公里\n（中央社台北22日電）根據中國地震台網的資訊，今天晚間10時33分，西藏那曲市巴青縣發生規模7地震，震源深度10公里。"
+            "source_id": "rss-e1411549ba11b84fff1c",
+            "evidence": "西藏那曲規模7強震至少2傷　中國逾2年來最強地震\n（中央社北京23日綜合外電報導）中國地震台網中心表示，西藏北部那曲昨天晚間10時33分發生芮氏規模7.0地震，震源深度10公里，已知至少2人受傷，這是中國自2024年1月以來最強烈的地震。"
+          }
+        ],
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning",
+        "clue_profile": "experienced-adults-v1"
+      },
+      {
+        "word": "制裁",
+        "kind": "專業用語",
+        "answer_domain": "international",
+        "answer_score": 86,
+        "difficulty": "medium",
+        "clue": "以貿易、金融或人員限制向對方施壓，屬於戰爭以外的政策工具。（2字）",
+        "id": "cna-1126ed09ec3fe8125faf::制裁",
+        "event_id": "cna-1126ed09ec3fe8125faf",
+        "event_revision": "cna-1126ed09ec3fe8125faf",
+        "source_support": [
+          {
+            "source_id": "rss-4e6997cbccbc5dc8b2e9",
+            "evidence": "澤倫斯基：與川普無私怨　警告放寬制裁恐壯大普丁\n（中央社基輔22日綜合外電報導）美烏關係近來急轉直下，烏克蘭總統澤倫斯基今天接受CNN專訪時態度軟化，強調他與美國總統川普之間「沒有私人恩怨」，但警告解除對俄制裁，只會讓俄國總統普丁「更強大」。"
+          }
+        ],
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning",
+        "clue_profile": "experienced-adults-v1"
+      },
+      {
+        "word": "殖利率",
+        "kind": "專業用語",
+        "answer_domain": "economy",
+        "answer_score": 89,
+        "difficulty": "medium",
+        "clue": "每年現金股利相對於股價的比率，價格下跌也可能使其上升。（3字）",
+        "id": "cna-4b1fdd76a2883e5d62e2::殖利率",
+        "event_id": "cna-4b1fdd76a2883e5d62e2",
+        "event_revision": "cna-4b1fdd76a2883e5d62e2",
+        "source_support": [
+          {
+            "source_id": "rss-2762de0bf50ea5f8d421",
+            "evidence": "企業財報與油價衝擊市場情緒　歐股收黑\n（中央社倫敦22日綜合外電報導）歐洲主要股市今天都收黑，主因企業財報好壞參半，同時國際油價走高、法國公債殖利率上升，也進一步削弱市場的風險偏好。"
+          }
+        ],
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning",
+        "clue_profile": "experienced-adults-v1"
+      },
+      {
+        "word": "股市",
+        "kind": "財經用語",
+        "answer_score": 86,
+        "difficulty": "medium",
+        "clue": "集中交易公司股權的市場，價格會反映預期獲利及投資人的風險評價。（2字）",
+        "id": "cna-4b1fdd76a2883e5d62e2::股市",
+        "event_id": "cna-4b1fdd76a2883e5d62e2",
+        "event_revision": "cna-4b1fdd76a2883e5d62e2",
+        "source_support": [
+          {
+            "source_id": "rss-2762de0bf50ea5f8d421",
+            "evidence": "企業財報與油價衝擊市場情緒　歐股收黑\n（中央社倫敦22日綜合外電報導）歐洲主要股市今天都收黑，主因企業財報好壞參半，同時國際油價走高、法國公債殖利率上升，也進一步削弱市場的風險偏好。"
+          }
+        ],
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning",
+        "clue_profile": "experienced-adults-v1"
+      },
+      {
+        "word": "記憶體",
+        "kind": "科技用語",
+        "answer_score": 89,
+        "difficulty": "medium",
+        "clue": "暫存或保存運算資料的元件，容量與存取速度會限制系統表現。（3字）",
+        "id": "cna-1afa93d9db87ca97a64d::記憶體",
+        "event_id": "cna-1afa93d9db87ca97a64d",
+        "event_revision": "cna-1afa93d9db87ca97a64d",
+        "source_support": [
+          {
+            "source_id": "rss-afb75af2eab2e1c4652f",
+            "evidence": "經濟部樂見美光與台中工會達成協議　盼桃園廠續協商\n（中央社記者曾筠庭台北22日電）美光（Micron）與台灣美光記憶體工會（台中工會）昨天達成勞資協議且取得多項共識。"
+          }
+        ],
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning",
+        "clue_profile": "experienced-adults-v1"
+      },
+      {
+        "word": "勞退",
+        "kind": "財經用語",
+        "answer_score": 86,
+        "difficulty": "medium",
+        "clue": "雇主按月提繳至個人退休金專戶的制度簡稱，與老年社會保險給付分屬不同制度。（2字）",
+        "id": "cna-1afa93d9db87ca97a64d::勞退",
+        "event_id": "cna-1afa93d9db87ca97a64d",
+        "event_revision": "cna-1afa93d9db87ca97a64d",
+        "source_support": [
+          {
+            "source_id": "rss-afb75af2eab2e1c4652f",
+            "evidence": "經濟部今天晚間表示，政府樂見雙方理性溝通、共創雙贏，並指出協議涵蓋調薪、勞退提撥及輪班津貼等3大成果，更盼桃園廠持續溝通協商。"
+          }
+        ],
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning",
+        "clue_profile": "experienced-adults-v1"
+      },
+      {
+        "word": "工會",
+        "kind": "專業用語",
+        "answer_domain": "society",
+        "answer_score": 86,
+        "difficulty": "medium",
+        "clue": "受僱者為協商勞動條件及維護共同權益而組成的團體。（2字）",
+        "id": "cna-1afa93d9db87ca97a64d::工會",
+        "event_id": "cna-1afa93d9db87ca97a64d",
+        "event_revision": "cna-1afa93d9db87ca97a64d",
+        "source_support": [
+          {
+            "source_id": "rss-afb75af2eab2e1c4652f",
+            "evidence": "經濟部樂見美光與台中工會達成協議　盼桃園廠續協商\n（中央社記者曾筠庭台北22日電）美光（Micron）與台灣美光記憶體工會（台中工會）昨天達成勞資協議且取得多項共識。"
+          }
+        ],
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning",
+        "clue_profile": "experienced-adults-v1"
+      },
+      {
+        "word": "詐騙",
+        "kind": "專業用語",
+        "answer_domain": "society",
+        "answer_score": 86,
+        "difficulty": "medium",
+        "clue": "利用虛假訊息使人陷於錯誤並交付財物，常見手法包含假投資與冒名來電。（2字）",
+        "id": "cna-e554031693234e401f8e::詐騙",
+        "event_id": "cna-e554031693234e401f8e",
+        "event_revision": "cna-e554031693234e401f8e",
+        "source_support": [
+          {
+            "source_id": "rss-89b44a6dda9c697b23d0",
+            "evidence": "91APP表示，對經確認因此事件遭詐騙而受有財產損失的消費者，提供全面補償。"
           }
         ],
         "clue_style": "magazine-v1",
@@ -68312,44 +69119,6 @@
         "difficulty": "medium",
         "clue": "讓系統從資料學習並執行辨識、預測或生成工作的技術領域。（4字）",
         "id": "cna-0d268fe989dd64933e96::人工智慧",
-        "event_id": "cna-0d268fe989dd64933e96",
-        "event_revision": "cna-0d268fe989dd64933e96",
-        "source_support": [
-          {
-            "source_id": "rss-7bc3f316ac8aa9b25802",
-            "evidence": "科技巨頭財報未能消除AI前景疑慮　美國股市開低\n（中央社紐約22日綜合外電報導）電動車大廠特斯拉（Tesla）和社群巨擘Meta發布財報後，未能消除投資人對於人工智慧（AI）前景的疑慮，國際油價回升也加劇市場緊張情緒，使美國股市主要指數今天開盤走低。"
-          }
-        ],
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning",
-        "clue_profile": "experienced-adults-v1"
-      },
-      {
-        "word": "油價",
-        "kind": "財經用語",
-        "answer_score": 86,
-        "difficulty": "medium",
-        "clue": "運輸成本與民生物價的重要變數，常隨產油國政策及航道風險波動。（2字）",
-        "id": "cna-0d268fe989dd64933e96::油價",
-        "event_id": "cna-0d268fe989dd64933e96",
-        "event_revision": "cna-0d268fe989dd64933e96",
-        "source_support": [
-          {
-            "source_id": "rss-7bc3f316ac8aa9b25802",
-            "evidence": "科技巨頭財報未能消除AI前景疑慮　美國股市開低\n（中央社紐約22日綜合外電報導）電動車大廠特斯拉（Tesla）和社群巨擘Meta發布財報後，未能消除投資人對於人工智慧（AI）前景的疑慮，國際油價回升也加劇市場緊張情緒，使美國股市主要指數今天開盤走低。"
-          }
-        ],
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning",
-        "clue_profile": "experienced-adults-v1"
-      },
-      {
-        "word": "股市",
-        "kind": "財經用語",
-        "answer_score": 86,
-        "difficulty": "medium",
-        "clue": "集中交易公司股權的市場，價格會反映預期獲利及投資人的風險評價。（2字）",
-        "id": "cna-0d268fe989dd64933e96::股市",
         "event_id": "cna-0d268fe989dd64933e96",
         "event_revision": "cna-0d268fe989dd64933e96",
         "source_support": [
@@ -68559,26 +69328,6 @@
         "clue_profile": "experienced-adults-v1"
       },
       {
-        "word": "網路",
-        "kind": "專業用語",
-        "answer_domain": "technology",
-        "answer_score": 86,
-        "difficulty": "medium",
-        "clue": "連結設備與資訊的通訊系統，便利性也帶來身分冒用與攻擊風險。（2字）",
-        "id": "cna-a13735cc31063a58972c::網路",
-        "event_id": "cna-a13735cc31063a58972c",
-        "event_revision": "cna-a13735cc31063a58972c",
-        "source_support": [
-          {
-            "source_id": "rss-327855c1212988ca0069",
-            "evidence": "交通部擬納管網路叫車平台　Bolt：樂見修法方向\n（中央社記者鍾榮峰台北22日電）交通部預告修法，將網路叫車平台納入計程車業規範，最快11月底、12月初上路。"
-          }
-        ],
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning",
-        "clue_profile": "experienced-adults-v1"
-      },
-      {
         "word": "投信",
         "kind": "專業用語",
         "answer_domain": "economy",
@@ -68697,26 +69446,6 @@
         "clue_profile": "experienced-adults-v1"
       },
       {
-        "word": "制裁",
-        "kind": "專業用語",
-        "answer_domain": "international",
-        "answer_score": 86,
-        "difficulty": "medium",
-        "clue": "以貿易、金融或人員限制向對方施壓，屬於戰爭以外的政策工具。（2字）",
-        "id": "cna-c2888cd5de783c4138d5::制裁",
-        "event_id": "cna-c2888cd5de783c4138d5",
-        "event_revision": "cna-c2888cd5de783c4138d5",
-        "source_support": [
-          {
-            "source_id": "rss-a8a86d388dd06438cdeb",
-            "evidence": "國際刑事法院獲歐盟最高人權獎　院長坦言面臨美制裁等挑戰\n（中央社海牙22日綜合外電報導）國際刑事法院（ICC）今天獲頒歐洲聯盟最高人權獎，院長赤根智子（Tomoko Akane）對此表示，獲獎的同時該機構面臨包括美國制裁在內等「前所未有的挑戰」。"
-          }
-        ],
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning",
-        "clue_profile": "experienced-adults-v1"
-      },
-      {
         "word": "上訴",
         "kind": "專業用語",
         "answer_domain": "society",
@@ -68730,26 +69459,6 @@
           {
             "source_id": "rss-d286de5d70157d42d4d7",
             "evidence": "可上訴。"
-          }
-        ],
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning",
-        "clue_profile": "experienced-adults-v1"
-      },
-      {
-        "word": "詐騙",
-        "kind": "專業用語",
-        "answer_domain": "society",
-        "answer_score": 86,
-        "difficulty": "medium",
-        "clue": "利用虛假訊息使人陷於錯誤並交付財物，常見手法包含假投資與冒名來電。（2字）",
-        "id": "cna-60dd78479e3320ac0654::詐騙",
-        "event_id": "cna-60dd78479e3320ac0654",
-        "event_revision": "cna-60dd78479e3320ac0654",
-        "source_support": [
-          {
-            "source_id": "rss-8e405ca2781d7e79564d",
-            "evidence": "新光三越主動通報資安異常　通知受影響顧客防詐\n（中央社記者何秀玲台北22日電）百貨龍頭新光三越表示，日前發現資訊系統異常，疑遭外部不法入侵，隨即啟動緊急應變機制；初步清查，部分顧客個人資料受到影響，但僅限於宅配訂單顧客的姓名、地址與聯絡電話，即刻通報主管機關，並通知受影響顧客，目前警方未接獲顧客因此次事件致遭詐騙的通報。"
           }
         ],
         "clue_style": "magazine-v1",
@@ -68848,26 +69557,6 @@
           {
             "source_id": "rss-0c237def0ac521983664",
             "evidence": "颱風薔琵來襲　國軍2萬兵力待命救援\n（中央社記者游凱翔台北22日電）颱風薔琵來襲，國防部今天表示，已完成災害應變中心一級開設，目前災防待命總兵力約2萬人，AAV7兩棲突擊車、膠舟等各類災防裝備機具計35類3000輛（部）均完成整備；並針對災害潛勢區及低窪地區預置兵力、機具，以利即時救援。"
-          }
-        ],
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning",
-        "clue_profile": "experienced-adults-v1"
-      },
-      {
-        "word": "殖利率",
-        "kind": "專業用語",
-        "answer_domain": "economy",
-        "answer_score": 89,
-        "difficulty": "medium",
-        "clue": "每年現金股利相對於股價的比率，價格下跌也可能使其上升。（3字）",
-        "id": "cna-e41a4182c3c83a9bc6eb::殖利率",
-        "event_id": "cna-e41a4182c3c83a9bc6eb",
-        "event_revision": "cna-e41a4182c3c83a9bc6eb",
-        "source_support": [
-          {
-            "source_id": "rss-0c578d2445563e9bd94c",
-            "evidence": "各國升息造成殖利率攀高　挪威主權基金第3季虧損近兆元\n（中央社奧斯陸22日綜合外電報導）世界最大主權財富基金挪威主權基金今天公布，受到多國利率升高影響，第3季虧損2780億挪威克朗（約新台幣9700億元）。"
           }
         ],
         "clue_style": "magazine-v1",
@@ -68992,25 +69681,6 @@
         "clue_profile": "experienced-adults-v1"
       },
       {
-        "word": "美元",
-        "kind": "財經用語",
-        "answer_score": 86,
-        "difficulty": "medium",
-        "clue": "國際貿易與外匯存底常用的計價貨幣，其利率變動牽動跨境資金。（2字）",
-        "id": "cna-a8b81e09dc7c322bc281::美元",
-        "event_id": "cna-a8b81e09dc7c322bc281",
-        "event_revision": "cna-a8b81e09dc7c322bc281",
-        "source_support": [
-          {
-            "source_id": "rss-d40b464c5dac9d2fdabd",
-            "evidence": "外資再砍台股逾800億　新台幣貶2分收32.508元\n（中央社記者潘姿羽台北22日電）市場AI疑慮未消，加上連假前賣壓湧現，外資今天再揮刀大砍台股逾800億元，股匯同步下挫，新台幣兌美元收盤收32.508元，小貶2分，台北及元太外匯市場總成交金額為35.71億美元。"
-          }
-        ],
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning",
-        "clue_profile": "experienced-adults-v1"
-      },
-      {
         "word": "晉級",
         "kind": "專業用語",
         "answer_domain": "sports",
@@ -69123,64 +69793,6 @@
           {
             "source_id": "rss-14af184453a6ec480237",
             "evidence": "宇田控制23日每股42.5元興櫃　攻AI液冷和半導體設備商機\n（中央社記者鍾榮峰台北22日）半導體與精密製程環境感測廠宇田控制將於23日以每股參考價42.5元登錄興櫃，董事長朱仁誠今天表示，持續布局無塵室與建廠工程、半導體製程設備及人工智慧AI資料中心3大應用。"
-          }
-        ],
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning",
-        "clue_profile": "experienced-adults-v1"
-      },
-      {
-        "word": "記憶體",
-        "kind": "科技用語",
-        "answer_score": 89,
-        "difficulty": "medium",
-        "clue": "暫存或保存運算資料的元件，容量與存取速度會限制系統表現。（3字）",
-        "id": "cna-473199b94dea5b302931::記憶體",
-        "event_id": "cna-473199b94dea5b302931",
-        "event_revision": "cna-473199b94dea5b302931",
-        "source_support": [
-          {
-            "source_id": "rss-f5370d7e06be610b339e",
-            "evidence": "美光回應工會訴求獎酬升級　增季度分潤獎金結構調薪\n（中央社記者張建中新竹22日電）美光（Micron）21日與台灣美光記憶體工會（台中工會）簽署勞資協議，台灣美光董事長盧東暉今天公開說明相關協議內容，包括新增季度分潤獎金、進行結構性調薪、全面調升輪班津貼、額外增加3天有薪假，並將勞退提撥率提高至10%。"
-          }
-        ],
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning",
-        "clue_profile": "experienced-adults-v1"
-      },
-      {
-        "word": "勞退",
-        "kind": "財經用語",
-        "answer_score": 86,
-        "difficulty": "medium",
-        "clue": "雇主按月提繳至個人退休金專戶的制度簡稱，與老年社會保險給付分屬不同制度。（2字）",
-        "id": "cna-473199b94dea5b302931::勞退",
-        "event_id": "cna-473199b94dea5b302931",
-        "event_revision": "cna-473199b94dea5b302931",
-        "source_support": [
-          {
-            "source_id": "rss-f5370d7e06be610b339e",
-            "evidence": "美光回應工會訴求獎酬升級　增季度分潤獎金結構調薪\n（中央社記者張建中新竹22日電）美光（Micron）21日與台灣美光記憶體工會（台中工會）簽署勞資協議，台灣美光董事長盧東暉今天公開說明相關協議內容，包括新增季度分潤獎金、進行結構性調薪、全面調升輪班津貼、額外增加3天有薪假，並將勞退提撥率提高至10%。"
-          }
-        ],
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning",
-        "clue_profile": "experienced-adults-v1"
-      },
-      {
-        "word": "工會",
-        "kind": "專業用語",
-        "answer_domain": "society",
-        "answer_score": 86,
-        "difficulty": "medium",
-        "clue": "受僱者為協商勞動條件及維護共同權益而組成的團體。（2字）",
-        "id": "cna-473199b94dea5b302931::工會",
-        "event_id": "cna-473199b94dea5b302931",
-        "event_revision": "cna-473199b94dea5b302931",
-        "source_support": [
-          {
-            "source_id": "rss-f5370d7e06be610b339e",
-            "evidence": "美光回應工會訴求獎酬升級　增季度分潤獎金結構調薪\n（中央社記者張建中新竹22日電）美光（Micron）21日與台灣美光記憶體工會（台中工會）簽署勞資協議，台灣美光董事長盧東暉今天公開說明相關協議內容，包括新增季度分潤獎金、進行結構性調薪、全面調升輪班津貼、額外增加3天有薪假，並將勞退提撥率提高至10%。"
           }
         ],
         "clue_style": "magazine-v1",
@@ -70908,26 +71520,6 @@
         "clue_profile": "experienced-adults-v1"
       },
       {
-        "word": "國銀",
-        "kind": "專業用語",
-        "answer_domain": "economy",
-        "answer_score": 86,
-        "difficulty": "medium",
-        "clue": "本地銀行業者的兩字統稱，海外放款與外幣存款常反映其跨境業務布局。（2字）",
-        "id": "cna-d5ed3f801b3839247d1c::國銀",
-        "event_id": "cna-d5ed3f801b3839247d1c",
-        "event_revision": "cna-d5ed3f801b3839247d1c",
-        "source_support": [
-          {
-            "source_id": "rss-10b5b538f7b542b12f36",
-            "evidence": "國銀外幣存款8月底破17.5兆元　續創新高\n（中央社記者蘇思云台北18日電）金管會統計顯示，本國銀行截至今年8月底外幣存款餘額達新台幣17兆518億元，續創歷史新高，月增1068億元，累計前8月外幣存款增額達1.6兆元；國銀外幣存款「兆元俱樂部」依然是6家業者，中信銀行以1.77兆元居冠。"
-          }
-        ],
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning",
-        "clue_profile": "experienced-adults-v1"
-      },
-      {
         "word": "存款",
         "kind": "專業用語",
         "answer_domain": "economy",
@@ -71117,7 +71709,7 @@
   },
   "automation": {
     "enabled": true,
-    "updated_at": "2026-10-22T17:17:16.243Z",
+    "updated_at": "2026-10-22T21:42:52.157Z",
     "window": {
       "from": "2026-10-17",
       "to": "2026-10-23"
@@ -71216,7 +71808,7 @@
       "generated_count": 7,
       "seed": 2,
       "attempts": 16,
-      "fingerprint": "401ef18eeb996b828c081e74e558aba757c806e3e4ab5f95285201692d48eea1",
+      "fingerprint": "e4b610078a3a3cc70914b4a035ecf4e2d6518d522e3a23500d1372b288538c0c",
       "grid_valid": true,
       "editorial_valid": true,
       "nonrepeating": true
