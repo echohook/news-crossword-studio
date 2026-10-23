@@ -19445,6 +19445,72 @@
         "content_revision": "cna-40240f935733a06c5294"
       },
       {
+        "event_id": "cna-eb78490a04523c9deb62",
+        "dedup_key": "https://www.cna.com.tw/news/afe/202610240003.aspx",
+        "event_date": "2026-10-24",
+        "updated_at": "2026-10-24",
+        "published_at": "2026-10-23T17:10:01.000Z",
+        "title": "油價勁揚和企業財報欠佳　歐股收黑",
+        "rss_lead": "（中央社倫敦23日綜合外電報導）受油價勁揚，以及古馳（Gucci）母公司開雲集團（Kering）與瑞典富豪汽車（Volvo Cars）財報表現欠佳等影響，歐洲股市今天收黑。",
+        "summary": "油價勁揚和企業財報欠佳　歐股收黑",
+        "categories": [
+          "財經"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-96f79243c749dec2b8b1",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/afe/202610240003.aspx",
+            "published_at": "2026-10-24",
+            "excerpt": "油價勁揚和企業財報欠佳　歐股收黑\n（中央社倫敦23日綜合外電報導）受油價勁揚，以及古馳（Gucci）母公司開雲集團（Kering）與瑞典富豪汽車（Volvo Cars）財報表現欠佳等影響，歐洲股市今天收黑。",
+            "section": "財經"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "股市",
+            "kind": "財經用語",
+            "clue_options": [
+              {
+                "clue": "集中交易公司股權的市場，價格會反映預期獲利及投資人的風險評價。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "集中交易公司股權的市場，價格會反映預期獲利及投資人的風險評價。（2字）"
+          },
+          {
+            "word": "油價",
+            "kind": "財經用語",
+            "clue_options": [
+              {
+                "clue": "運輸成本與民生物價的重要變數，常隨產油國政策及航道風險波動。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "運輸成本與民生物價的重要變數，常隨產油國政策及航道風險波動。（2字）"
+          }
+        ],
+        "aliases": [
+          "cna-eb78490a04523c9deb62"
+        ],
+        "content_revision": "cna-eb78490a04523c9deb62"
+      },
+      {
         "event_id": "cna-b7f982deda594d75f47a",
         "dedup_key": "https://www.cna.com.tw/news/ahel/202610180012.aspx",
         "event_date": "2026-10-18",
@@ -28981,6 +29047,207 @@
           "cna-d53cbaa296f6d661849f"
         ],
         "content_revision": "cna-d53cbaa296f6d661849f"
+      },
+      {
+        "event_id": "cna-e17a96c53b8c929b25d6",
+        "dedup_key": "https://www.cna.com.tw/news/ahel/202610240002.aspx",
+        "event_date": "2026-10-24",
+        "updated_at": "2026-10-24",
+        "published_at": "2026-10-23T16:49:58.000Z",
+        "title": "氣象署發布豪雨特報　宜蘭縣山區防局部大豪雨或超大豪雨",
+        "rss_lead": "（中央社記者24日電）中央氣象署發布豪雨特報，第29號颱風及其外圍環流影響，今(24)日宜蘭縣山區有局部大豪雨或超大豪雨，臺北市山區、新北市山區、桃園市山區、新竹縣山區、苗栗縣山區有局部豪雨或大豪雨，基隆市地區、臺北市地區、新北市地區、桃園市地區、新竹縣地區、苗栗縣地區、宜蘭縣地區、臺中市山區、南投縣山區、花蓮縣山區有局部大雨或豪雨，新竹、臺中、南投、花蓮地區及雲林、嘉義、高雄、屏東山區有局部大雨發生的機率，請注意瞬間大雨，山區請慎防坍方、落石、土石流，低窪地區請慎防積淹水，應避免前往山區及溪流活動。",
+        "summary": "氣象署發布豪雨特報　宜蘭縣山區防局部大豪雨或超大豪雨",
+        "categories": [
+          "生活"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-ac243dc78d45adf6b7ae",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/ahel/202610240002.aspx",
+            "published_at": "2026-10-24",
+            "excerpt": "氣象署發布豪雨特報　宜蘭縣山區防局部大豪雨或超大豪雨\n（中央社記者24日電）中央氣象署發布豪雨特報，第29號颱風及其外圍環流影響，今(24)日宜蘭縣山區有局部大豪雨或超大豪雨，臺北市山區、新北市山區、桃園市山區、新竹縣山區、苗栗縣山區有局部豪雨或大豪雨，基隆市地區、臺北市地區、新北市地區、桃園市地區、新竹縣地區、苗栗縣地區、宜蘭縣地區、臺中市山區、南投縣山區、花蓮縣山區有局部大雨或豪雨，新竹、臺中、南投、花蓮地區及雲林、嘉義、高雄、屏東山區有局部大雨發生的機率，請注意瞬間大雨，山區請慎防坍方、落石、土石流，低窪地區請慎防積淹水，應避免前往山區及溪流活動。",
+            "section": "生活"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "颱風",
+            "kind": "生活用語",
+            "clue_options": [
+              {
+                "clue": "形成於西北太平洋的熱帶氣旋達到一定強度後的名稱，路徑與地形會左右災害。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "形成於西北太平洋的熱帶氣旋達到一定強度後的名稱，路徑與地形會左右災害。（2字）"
+          },
+          {
+            "word": "土石流",
+            "kind": "專業用語",
+            "answer_domain": "environment",
+            "clue_options": [
+              {
+                "clue": "豪雨時水與泥砂、石塊混合向下移動的災害，常威脅溪谷聚落。（3字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 89,
+            "difficulty": "medium",
+            "clue": "豪雨時水與泥砂、石塊混合向下移動的災害，常威脅溪谷聚落。（3字）"
+          }
+        ],
+        "aliases": [
+          "cna-e17a96c53b8c929b25d6"
+        ],
+        "content_revision": "cna-e17a96c53b8c929b25d6"
+      },
+      {
+        "event_id": "cna-af74a9ca3c8e2d790f8b",
+        "dedup_key": "https://www.cna.com.tw/news/ahel/202610240006.aspx",
+        "event_date": "2026-10-24",
+        "updated_at": "2026-10-24",
+        "published_at": "2026-10-23T18:27:09.000Z",
+        "title": "氣象署發布豪雨特報　宜蘭、雙北和桃竹苗慎防豪大雨",
+        "rss_lead": "（中央社台北24日電）中央氣象署發布豪雨特報，第29號颱風及其外圍環流影響，今(24)日宜蘭縣山區有局部大豪雨或超大豪雨，臺北市山區、新北市山區、桃園市山區、新竹縣山區、苗栗縣山區有局部豪雨或大豪雨，基隆市地區、臺北市地區、新北市地區、桃園市地區、新竹縣地區、苗栗縣地區、宜蘭縣地區、臺中市山區、雲林縣山區、嘉義縣山區、南投縣山區、花蓮縣山區有局部大雨或豪雨，新竹、臺中、南投、花蓮地區及高雄、屏東山區有局部大雨發生的機率，請注意瞬間大雨，山區請慎防坍方、落石、土石流，低窪地區請慎防積淹水，應避免前往山區及溪流活動。",
+        "summary": "氣象署發布豪雨特報　宜蘭、雙北和桃竹苗慎防豪大雨",
+        "categories": [
+          "生活"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-4283836c5baafb17a3b9",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/ahel/202610240006.aspx",
+            "published_at": "2026-10-24",
+            "excerpt": "氣象署發布豪雨特報　宜蘭、雙北和桃竹苗慎防豪大雨\n（中央社台北24日電）中央氣象署發布豪雨特報，第29號颱風及其外圍環流影響，今(24)日宜蘭縣山區有局部大豪雨或超大豪雨，臺北市山區、新北市山區、桃園市山區、新竹縣山區、苗栗縣山區有局部豪雨或大豪雨，基隆市地區、臺北市地區、新北市地區、桃園市地區、新竹縣地區、苗栗縣地區、宜蘭縣地區、臺中市山區、雲林縣山區、嘉義縣山區、南投縣山區、花蓮縣山區有局部大雨或豪雨，新竹、臺中、南投、花蓮地區及高雄、屏東山區有局部大雨發生的機率，請注意瞬間大雨，山區請慎防坍方、落石、土石流，低窪地區請慎防積淹水，應避免前往山區及溪流活動。",
+            "section": "生活"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "颱風",
+            "kind": "生活用語",
+            "clue_options": [
+              {
+                "clue": "形成於西北太平洋的熱帶氣旋達到一定強度後的名稱，路徑與地形會左右災害。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "形成於西北太平洋的熱帶氣旋達到一定強度後的名稱，路徑與地形會左右災害。（2字）"
+          },
+          {
+            "word": "土石流",
+            "kind": "專業用語",
+            "answer_domain": "environment",
+            "clue_options": [
+              {
+                "clue": "豪雨時水與泥砂、石塊混合向下移動的災害，常威脅溪谷聚落。（3字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 89,
+            "difficulty": "medium",
+            "clue": "豪雨時水與泥砂、石塊混合向下移動的災害，常威脅溪谷聚落。（3字）"
+          }
+        ],
+        "aliases": [
+          "cna-af74a9ca3c8e2d790f8b"
+        ],
+        "content_revision": "cna-af74a9ca3c8e2d790f8b"
+      },
+      {
+        "event_id": "cna-173aff7d0e5fce5964aa",
+        "dedup_key": "https://www.cna.com.tw/news/ahel/202610240008.aspx",
+        "event_date": "2026-10-24",
+        "updated_at": "2026-10-24",
+        "published_at": "2026-10-23T19:46:14.000Z",
+        "title": "氣象署發布豪雨特報　慎防宜蘭雙北桃竹苗發生豪大雨",
+        "rss_lead": "（中央社台北24日電）中央氣象署發布豪雨特報，第29號颱風及其外圍環流影響，今(24)日宜蘭縣山區有局部大豪雨或超大豪雨，臺北市山區、新北市山區、桃園市山區、新竹縣山區、苗栗縣山區有局部豪雨或大豪雨，基隆市地區、臺北市地區、新北市地區、桃園市地區、新竹縣地區、苗栗縣地區、宜蘭縣地區、臺中市山區、雲林縣山區、嘉義縣山區、南投縣山區、花蓮縣山區有局部大雨或豪雨，新竹、臺中、臺南、南投、花蓮地區及高雄、屏東山區有局部大雨發生的機率，請注意瞬間大雨，山區請慎防坍方、落石、土石流，低窪地區請慎防積淹水，應避免前往山區及溪流活動。超大豪雨地區：宜蘭縣。大豪雨地區：臺北市、新北市、桃園市、新竹縣、苗栗縣。（編輯：徐睿承）1151024",
+        "summary": "氣象署發布豪雨特報　慎防宜蘭雙北桃竹苗發生豪大雨",
+        "categories": [
+          "生活"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-80418fe933a60dff6a94",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/ahel/202610240008.aspx",
+            "published_at": "2026-10-24",
+            "excerpt": "氣象署發布豪雨特報　慎防宜蘭雙北桃竹苗發生豪大雨\n（中央社台北24日電）中央氣象署發布豪雨特報，第29號颱風及其外圍環流影響，今(24)日宜蘭縣山區有局部大豪雨或超大豪雨，臺北市山區、新北市山區、桃園市山區、新竹縣山區、苗栗縣山區有局部豪雨或大豪雨，基隆市地區、臺北市地區、新北市地區、桃園市地區、新竹縣地區、苗栗縣地區、宜蘭縣地區、臺中市山區、雲林縣山區、嘉義縣山區、南投縣山區、花蓮縣山區有局部大雨或豪雨，新竹、臺中、臺南、南投、花蓮地區及高雄、屏東山區有局部大雨發生的機率，請注意瞬間大雨，山區請慎防坍方、落石、土石流，低窪地區請慎防積淹水，應避免前往山區及溪流活動。超大豪雨地區：宜蘭縣。大豪雨地區：臺北市、新北市、桃園市、新竹縣、苗栗縣。（編輯：徐睿承）1151024",
+            "section": "生活"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "颱風",
+            "kind": "生活用語",
+            "clue_options": [
+              {
+                "clue": "形成於西北太平洋的熱帶氣旋達到一定強度後的名稱，路徑與地形會左右災害。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "形成於西北太平洋的熱帶氣旋達到一定強度後的名稱，路徑與地形會左右災害。（2字）"
+          },
+          {
+            "word": "土石流",
+            "kind": "專業用語",
+            "answer_domain": "environment",
+            "clue_options": [
+              {
+                "clue": "豪雨時水與泥砂、石塊混合向下移動的災害，常威脅溪谷聚落。（3字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 89,
+            "difficulty": "medium",
+            "clue": "豪雨時水與泥砂、石塊混合向下移動的災害，常威脅溪谷聚落。（3字）"
+          }
+        ],
+        "aliases": [
+          "cna-173aff7d0e5fce5964aa"
+        ],
+        "content_revision": "cna-173aff7d0e5fce5964aa"
       },
       {
         "event_id": "cna-0fcb9e6f3c904377ca35",
@@ -48311,6 +48578,56 @@
         "content_revision": "cna-6474c8d806a4b24191b2"
       },
       {
+        "event_id": "cna-ccc9957d23b3cb27fb5a",
+        "dedup_key": "https://www.cna.com.tw/news/aloc/202610240013.aspx",
+        "event_date": "2026-10-24",
+        "updated_at": "2026-10-24",
+        "published_at": "2026-10-23T21:10:26.000Z",
+        "title": "台灣東部海域發生規模4.8地震　最大震度花蓮、南投縣3級",
+        "rss_lead": "（中央社台北24日電）根據中央氣象署最新資訊，24日4時58分發生芮氏規模4.8地震，地震深度16.8公里，震央位於花蓮縣政府東南東方30.4公里(位於臺灣東部海域)，最大震度花蓮縣、南投縣3級。1151024",
+        "summary": "台灣東部海域發生規模4.8地震　最大震度花蓮、南投縣3級",
+        "categories": [
+          "台灣"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-fff5d5ebdd9fdb1f58d5",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aloc/202610240013.aspx",
+            "published_at": "2026-10-24",
+            "excerpt": "台灣東部海域發生規模4.8地震　最大震度花蓮、南投縣3級\n（中央社台北24日電）根據中央氣象署最新資訊，24日4時58分發生芮氏規模4.8地震，地震深度16.8公里，震央位於花蓮縣政府東南東方30.4公里(位於臺灣東部海域)，最大震度花蓮縣、南投縣3級。1151024",
+            "section": "台灣"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "地震",
+            "kind": "生活用語",
+            "clue_options": [
+              {
+                "clue": "斷層錯動釋放能量造成地表震動，規模與各地感受強弱是不同概念。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "斷層錯動釋放能量造成地表震動，規模與各地感受強弱是不同概念。（2字）"
+          }
+        ],
+        "aliases": [
+          "cna-ccc9957d23b3cb27fb5a"
+        ],
+        "content_revision": "cna-ccc9957d23b3cb27fb5a"
+      },
+      {
         "event_id": "cna-18fb995fa728e0b09d19",
         "dedup_key": "https://www.cna.com.tw/news/aopl/202610180003.aspx",
         "event_date": "2026-10-18",
@@ -62155,6 +62472,156 @@
         "content_revision": "cna-71f349c076f7982b0e1a"
       },
       {
+        "event_id": "cna-7c6196280285cfeead4d",
+        "dedup_key": "https://www.cna.com.tw/news/aopl/202610230283.aspx",
+        "event_date": "2026-10-23",
+        "updated_at": "2026-10-23",
+        "published_at": "2026-10-23T15:46:49.000Z",
+        "title": "約旦教堂爆槍擊釀6死28傷　槍手在喪禮期間開火",
+        "rss_lead": "（中央社安曼23日綜合外電報導）約旦公共安全局今天發表聲明指出，多名槍手在約旦卡拉克省（Karak）一座教堂舉行喪禮期間開火，造成6人死亡、28人受傷。",
+        "summary": "約旦教堂爆槍擊釀6死28傷　槍手在喪禮期間開火",
+        "categories": [
+          "國際"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-8635a072e733f733c904",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aopl/202610230283.aspx",
+            "published_at": "2026-10-23",
+            "excerpt": "約旦教堂爆槍擊釀6死28傷　槍手在喪禮期間開火\n（中央社安曼23日綜合外電報導）約旦公共安全局今天發表聲明指出，多名槍手在約旦卡拉克省（Karak）一座教堂舉行喪禮期間開火，造成6人死亡、28人受傷。",
+            "section": "國際"
+          }
+        ],
+        "keywords": [],
+        "aliases": [
+          "cna-7c6196280285cfeead4d"
+        ],
+        "content_revision": "cna-7c6196280285cfeead4d"
+      },
+      {
+        "event_id": "cna-ba77373dec27fd943681",
+        "dedup_key": "https://www.cna.com.tw/news/aopl/202610240004.aspx",
+        "event_date": "2026-10-24",
+        "updated_at": "2026-10-24",
+        "published_at": "2026-10-23T18:09:04.000Z",
+        "title": "美第一夫人促成俄烏在奧列什基停火　川普：她想拯救孩童",
+        "rss_lead": "（中央社記者侯姿瑩華盛頓23日專電）美國第一夫人梅蘭妮亞（Melania Trump）促成俄羅斯與烏克蘭在俄方控制的烏南城鎮奧列什基（Oleshky）停火。美國總統川普今天表示，梅蘭妮亞想拯救孩童，俄烏雙方也有意合作，不過她並不會參與美國、俄羅斯及烏克蘭的三方會談。",
+        "summary": "美第一夫人促成俄烏在奧列什基停火　川普：她想拯救孩童",
+        "categories": [
+          "國際"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-4c98b4b4d71836704719",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aopl/202610240004.aspx",
+            "published_at": "2026-10-24",
+            "excerpt": "美第一夫人促成俄烏在奧列什基停火　川普：她想拯救孩童\n（中央社記者侯姿瑩華盛頓23日專電）美國第一夫人梅蘭妮亞（Melania Trump）促成俄羅斯與烏克蘭在俄方控制的烏南城鎮奧列什基（Oleshky）停火。美國總統川普今天表示，梅蘭妮亞想拯救孩童，俄烏雙方也有意合作，不過她並不會參與美國、俄羅斯及烏克蘭的三方會談。",
+            "section": "國際"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "停火",
+            "kind": "專業用語",
+            "answer_domain": "international",
+            "clue_options": [
+              {
+                "clue": "交戰方暫停武力行動的安排，並不等同已達成永久和平協議。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "交戰方暫停武力行動的安排，並不等同已達成永久和平協議。（2字）"
+          }
+        ],
+        "aliases": [
+          "cna-ba77373dec27fd943681"
+        ],
+        "content_revision": "cna-ba77373dec27fd943681"
+      },
+      {
+        "event_id": "cna-9936b9c26553707e7966",
+        "dedup_key": "https://www.cna.com.tw/news/aopl/202610240005.aspx",
+        "event_date": "2026-10-24",
+        "updated_at": "2026-10-24",
+        "published_at": "2026-10-23T18:25:06.000Z",
+        "title": "美以接連施壓伊朗　美國特使：最快可能本週末動武",
+        "rss_lead": "（中央社耶路撒冷23日綜合外電報導）美國與以色列接連對伊朗發出強硬訊號，中東局勢再度升溫。美國特使巴瑞克（Tom Barrack）今天表示，美國最快可能於本週末對伊朗發動攻擊，並稱這種可能性「絕對存在」。",
+        "summary": "美以接連施壓伊朗　美國特使：最快可能本週末動武",
+        "categories": [
+          "國際"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-4bf56c501f8826247684",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aopl/202610240005.aspx",
+            "published_at": "2026-10-24",
+            "excerpt": "美以接連施壓伊朗　美國特使：最快可能本週末動武\n（中央社耶路撒冷23日綜合外電報導）美國與以色列接連對伊朗發出強硬訊號，中東局勢再度升溫。美國特使巴瑞克（Tom Barrack）今天表示，美國最快可能於本週末對伊朗發動攻擊，並稱這種可能性「絕對存在」。",
+            "section": "國際"
+          }
+        ],
+        "keywords": [],
+        "aliases": [
+          "cna-9936b9c26553707e7966"
+        ],
+        "content_revision": "cna-9936b9c26553707e7966"
+      },
+      {
+        "event_id": "cna-6b2a85757eb7768e8156",
+        "dedup_key": "https://www.cna.com.tw/news/aopl/202610240007.aspx",
+        "event_date": "2026-10-24",
+        "updated_at": "2026-10-24",
+        "published_at": "2026-10-23T19:42:12.000Z",
+        "title": "巴基斯坦西南部發生嚴重車禍　造成13死21傷",
+        "rss_lead": "（中央社巴基斯坦奎達市23日綜合外電報導）巴基斯坦西南部今天發生嚴重車禍，一輛開往喀拉蚩（Karachi）的客運巴士與另一輛車相撞，造成至少13人死亡、21人受傷，部分傷者情況危急。",
+        "summary": "巴基斯坦西南部發生嚴重車禍　造成13死21傷",
+        "categories": [
+          "國際"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-fe72a7e422924501fae9",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aopl/202610240007.aspx",
+            "published_at": "2026-10-24",
+            "excerpt": "巴基斯坦西南部發生嚴重車禍　造成13死21傷\n（中央社巴基斯坦奎達市23日綜合外電報導）巴基斯坦西南部今天發生嚴重車禍，一輛開往喀拉蚩（Karachi）的客運巴士與另一輛車相撞，造成至少13人死亡、21人受傷，部分傷者情況危急。",
+            "section": "國際"
+          }
+        ],
+        "keywords": [],
+        "aliases": [
+          "cna-6b2a85757eb7768e8156"
+        ],
+        "content_revision": "cna-6b2a85757eb7768e8156"
+      },
+      {
         "event_id": "cna-23caae14c4becdced52e",
         "dedup_key": "https://www.cna.com.tw/news/asoc/202610180036.aspx",
         "event_date": "2026-10-18",
@@ -74181,13 +74648,33 @@
         "answer_score": 86,
         "difficulty": "medium",
         "clue": "斷層錯動釋放能量造成地表震動，規模與各地感受強弱是不同概念。（2字）",
-        "id": "cna-17b95e21c80b69bd30bb::地震",
-        "event_id": "cna-17b95e21c80b69bd30bb",
-        "event_revision": "cna-17b95e21c80b69bd30bb",
+        "id": "cna-ccc9957d23b3cb27fb5a::地震",
+        "event_id": "cna-ccc9957d23b3cb27fb5a",
+        "event_revision": "cna-ccc9957d23b3cb27fb5a",
         "source_support": [
           {
-            "source_id": "rss-bd0b28ed28c93facd9b0",
-            "evidence": "西藏那曲強震16死76傷  官方：未發現失聯人員\n（中央社台北23日電）西藏那曲市巴青縣昨晚發生規模7地震，是今年以來中國最強地震。"
+            "source_id": "rss-fff5d5ebdd9fdb1f58d5",
+            "evidence": "台灣東部海域發生規模4.8地震　最大震度花蓮、南投縣3級\n（中央社台北24日電）根據中央氣象署最新資訊，24日4時58分發生芮氏規模4.8地震，地震深度16.8公里，震央位於花蓮縣政府東南東方30.4公里(位於臺灣東部海域)，最大震度花蓮縣、南投縣3級。"
+          }
+        ],
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning",
+        "clue_profile": "experienced-adults-v1"
+      },
+      {
+        "word": "土石流",
+        "kind": "專業用語",
+        "answer_domain": "environment",
+        "answer_score": 89,
+        "difficulty": "medium",
+        "clue": "豪雨時水與泥砂、石塊混合向下移動的災害，常威脅溪谷聚落。（3字）",
+        "id": "cna-173aff7d0e5fce5964aa::土石流",
+        "event_id": "cna-173aff7d0e5fce5964aa",
+        "event_revision": "cna-173aff7d0e5fce5964aa",
+        "source_support": [
+          {
+            "source_id": "rss-80418fe933a60dff6a94",
+            "evidence": "氣象署發布豪雨特報　慎防宜蘭雙北桃竹苗發生豪大雨\n（中央社台北24日電）中央氣象署發布豪雨特報，第29號颱風及其外圍環流影響，今(24)日宜蘭縣山區有局部大豪雨或超大豪雨，臺北市山區、新北市山區、桃園市山區、新竹縣山區、苗栗縣山區有局部豪雨或大豪雨，基隆市地區、臺北市地區、新北市地區、桃園市地區、新竹縣地區、苗栗縣地區、宜蘭縣地區、臺中市山區、雲林縣山區、嘉義縣山區、南投縣山區、花蓮縣山區有局部大雨或豪雨，新竹、臺中、臺南、南投、花蓮地區及高雄、屏東山區有局部大雨發生的機率，請注意瞬間大雨，山區請慎防坍方、落石、土石流，低窪地區請慎防積淹水，應避免前往山區及溪流活動。"
           }
         ],
         "clue_style": "magazine-v1",
@@ -74201,13 +74688,51 @@
         "answer_score": 86,
         "difficulty": "medium",
         "clue": "交戰方暫停武力行動的安排，並不等同已達成永久和平協議。（2字）",
-        "id": "cna-5cb02135d25a28b78bfb::停火",
-        "event_id": "cna-5cb02135d25a28b78bfb",
-        "event_revision": "cna-5cb02135d25a28b78bfb",
+        "id": "cna-ba77373dec27fd943681::停火",
+        "event_id": "cna-ba77373dec27fd943681",
+        "event_revision": "cna-ba77373dec27fd943681",
         "source_support": [
           {
-            "source_id": "rss-b6ddc6dc9c10bcc066fe",
-            "evidence": "白宮：美第一夫人促成俄烏在奧列什基停火　10/29生效\n（中央社華盛頓23日綜合外電報導）白宮今天表示，美國第一夫人梅蘭妮亞（Melania Trump）已促成俄羅斯與烏克蘭在俄方控制的烏南城鎮奧列什基（Oleshky）停火，將於10月29日開始生效。"
+            "source_id": "rss-4c98b4b4d71836704719",
+            "evidence": "美第一夫人促成俄烏在奧列什基停火　川普：她想拯救孩童\n（中央社記者侯姿瑩華盛頓23日專電）美國第一夫人梅蘭妮亞（Melania Trump）促成俄羅斯與烏克蘭在俄方控制的烏南城鎮奧列什基（Oleshky）停火。"
+          }
+        ],
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning",
+        "clue_profile": "experienced-adults-v1"
+      },
+      {
+        "word": "油價",
+        "kind": "財經用語",
+        "answer_score": 86,
+        "difficulty": "medium",
+        "clue": "運輸成本與民生物價的重要變數，常隨產油國政策及航道風險波動。（2字）",
+        "id": "cna-eb78490a04523c9deb62::油價",
+        "event_id": "cna-eb78490a04523c9deb62",
+        "event_revision": "cna-eb78490a04523c9deb62",
+        "source_support": [
+          {
+            "source_id": "rss-96f79243c749dec2b8b1",
+            "evidence": "油價勁揚和企業財報欠佳　歐股收黑\n（中央社倫敦23日綜合外電報導）受油價勁揚，以及古馳（Gucci）母公司開雲集團（Kering）與瑞典富豪汽車（Volvo Cars）財報表現欠佳等影響，歐洲股市今天收黑。"
+          }
+        ],
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning",
+        "clue_profile": "experienced-adults-v1"
+      },
+      {
+        "word": "股市",
+        "kind": "財經用語",
+        "answer_score": 86,
+        "difficulty": "medium",
+        "clue": "集中交易公司股權的市場，價格會反映預期獲利及投資人的風險評價。（2字）",
+        "id": "cna-eb78490a04523c9deb62::股市",
+        "event_id": "cna-eb78490a04523c9deb62",
+        "event_revision": "cna-eb78490a04523c9deb62",
+        "source_support": [
+          {
+            "source_id": "rss-96f79243c749dec2b8b1",
+            "evidence": "油價勁揚和企業財報欠佳　歐股收黑\n（中央社倫敦23日綜合外電報導）受油價勁揚，以及古馳（Gucci）母公司開雲集團（Kering）與瑞典富豪汽車（Volvo Cars）財報表現欠佳等影響，歐洲股市今天收黑。"
           }
         ],
         "clue_style": "magazine-v1",
@@ -74384,25 +74909,6 @@
           {
             "source_id": "rss-6b0bd118696fedfa0218",
             "evidence": "颱風薔琵來襲  新北部分醫院24日上午開特別門診\n（中央社記者黃旭昇、曹亞沿新北23日電）颱風薔琵來襲，24日上午實施颱風特別門診的醫院包括板橋亞東醫院、天主教耕莘醫療體系、輔大醫院、衛福部雙和醫院；多數醫院的住院、急診及透析服務仍照常服務。"
-          }
-        ],
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning",
-        "clue_profile": "experienced-adults-v1"
-      },
-      {
-        "word": "油價",
-        "kind": "財經用語",
-        "answer_score": 86,
-        "difficulty": "medium",
-        "clue": "運輸成本與民生物價的重要變數，常隨產油國政策及航道風險波動。（2字）",
-        "id": "cna-4c8d7c2253556e079157::油價",
-        "event_id": "cna-4c8d7c2253556e079157",
-        "event_revision": "cna-4c8d7c2253556e079157",
-        "source_support": [
-          {
-            "source_id": "rss-209062e9031a9a0ba075",
-            "evidence": "布倫特原油觸及每桶115美元　創5月初以來新高\n（中央社倫敦23日綜合外電報導）在中東戰火引發市場對能源供應的憂慮之際，國際油價指標倫敦北海布倫特原油在今天交易時段觸及每桶115美元，創5月初以來新高。"
           }
         ],
         "clue_style": "magazine-v1",
@@ -74763,25 +75269,6 @@
         "clue_profile": "experienced-adults-v1"
       },
       {
-        "word": "股市",
-        "kind": "財經用語",
-        "answer_score": 86,
-        "difficulty": "medium",
-        "clue": "集中交易公司股權的市場，價格會反映預期獲利及投資人的風險評價。（2字）",
-        "id": "cna-0fab0e3fd8eeef0a4372::股市",
-        "event_id": "cna-0fab0e3fd8eeef0a4372",
-        "event_revision": "cna-0fab0e3fd8eeef0a4372",
-        "source_support": [
-          {
-            "source_id": "rss-7e1d99448401936d1363",
-            "evidence": "亞股收盤互有漲跌　科技股收復早盤部分失土\n（中央社香港23日綜合外電報導）亞洲股市今天收盤互有漲跌，科技股在歷經艱困的一週後，受逢低買盤帶動，成功收復早盤部分失土。"
-          }
-        ],
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning",
-        "clue_profile": "experienced-adults-v1"
-      },
-      {
         "word": "避險",
         "kind": "專業用語",
         "answer_domain": "economy",
@@ -74968,26 +75455,6 @@
           {
             "source_id": "rss-cf2846c529e9cc047610",
             "evidence": "颱風薔琵來襲　國軍各作戰區預置兵力強化災防應變\n（中央社記者吳書緯台北23日電）颱風薔琵來襲，國軍第3、4、5作戰區進行預置兵力、檢整救災器具，並充分與地方政府保持密切聯繫，掌握轄區內的災害潛勢及應變需求，確保接獲任務時，能迅速應處、即時馳援。"
-          }
-        ],
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning",
-        "clue_profile": "experienced-adults-v1"
-      },
-      {
-        "word": "土石流",
-        "kind": "專業用語",
-        "answer_domain": "environment",
-        "answer_score": 89,
-        "difficulty": "medium",
-        "clue": "豪雨時水與泥砂、石塊混合向下移動的災害，常威脅溪谷聚落。（3字）",
-        "id": "cna-7af68158ea51a148110e::土石流",
-        "event_id": "cna-7af68158ea51a148110e",
-        "event_revision": "cna-7af68158ea51a148110e",
-        "source_support": [
-          {
-            "source_id": "rss-73dfdce8ed3087cafd14",
-            "evidence": "土石流黃色警戒145條  分布宜蘭、新北、桃園、新竹\n（中央社記者汪淑芬台北23日電）颱風薔琵來襲，農業部農村發展及水土保持署今天下午發布最新土石流預警，黃色警戒共145條，分布於宜蘭縣、新北市、桃園市、新竹縣，另桃園市及新竹縣共3處大規模崩塌黃色警戒。"
           }
         ],
         "clue_style": "magazine-v1",
@@ -77145,7 +77612,7 @@
   },
   "automation": {
     "enabled": true,
-    "updated_at": "2026-10-23T17:14:50.584Z",
+    "updated_at": "2026-10-23T21:29:37.911Z",
     "window": {
       "from": "2026-10-18",
       "to": "2026-10-24"
@@ -77244,7 +77711,7 @@
       "generated_count": 7,
       "seed": 2,
       "attempts": 16,
-      "fingerprint": "64a142a164c37f188f1088d0635b59c39644c3259d9f9a1045b0d0326fd50ea9",
+      "fingerprint": "2f1e029fabb25d49697efd25958cdee758f9a912fa5bc7f57f35037af81e58cf",
       "grid_valid": true,
       "editorial_valid": true,
       "nonrepeating": true
