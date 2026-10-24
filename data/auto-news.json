@@ -63887,6 +63887,138 @@
         "content_revision": "cna-0a3918843a78b6845615"
       },
       {
+        "event_id": "cna-9757a9c07d6307b66640",
+        "dedup_key": "https://www.cna.com.tw/news/aopl/202610240210.aspx",
+        "event_date": "2026-10-24",
+        "updated_at": "2026-10-24",
+        "published_at": "2026-10-24T14:48:52.000Z",
+        "title": "俄羅斯遠東地區列車撞上小型巴士　導致6死1傷",
+        "rss_lead": "（中央社莫斯科24日綜合外電報導）俄羅斯遠東地區猶太自治區（Jewish Autonomous Region）鐵路當局指出，一列客運列車撞上一輛試圖穿越平交道的小型巴士，造成6人喪命、1人受傷慘劇。",
+        "summary": "俄羅斯遠東地區列車撞上小型巴士　導致6死1傷",
+        "categories": [
+          "國際"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-e2d2e5f596b36f2ca405",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aopl/202610240210.aspx",
+            "published_at": "2026-10-24",
+            "excerpt": "俄羅斯遠東地區列車撞上小型巴士　導致6死1傷\n（中央社莫斯科24日綜合外電報導）俄羅斯遠東地區猶太自治區（Jewish Autonomous Region）鐵路當局指出，一列客運列車撞上一輛試圖穿越平交道的小型巴士，造成6人喪命、1人受傷慘劇。",
+            "section": "國際"
+          }
+        ],
+        "keywords": [],
+        "aliases": [
+          "cna-9757a9c07d6307b66640"
+        ],
+        "content_revision": "cna-9757a9c07d6307b66640"
+      },
+      {
+        "event_id": "cna-89823a00eb9291c8d0d0",
+        "dedup_key": "https://www.cna.com.tw/news/aopl/202610250002.aspx",
+        "event_date": "2026-10-25",
+        "updated_at": "2026-10-25",
+        "published_at": "2026-10-24T17:39:06.000Z",
+        "title": "金正恩結束訪中行程　分析：盼北京加速兌現承諾",
+        "rss_lead": "（中央社中國丹東24日綜合外電報導）北韓領導人金正恩結束中國遼寧省丹東一天的訪問行程後，今天返國。中國官方媒體報導，這次突訪目的尚未明朗。學者分析，金正恩此次或許是為了「敦促中方加速履行」今年中國國家主席習近平訪問北韓期間達成的多項承諾。",
+        "summary": "金正恩結束訪中行程　分析：盼北京加速兌現承諾",
+        "categories": [
+          "國際"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-6198bc800eb3c7d7890a",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aopl/202610250002.aspx",
+            "published_at": "2026-10-25",
+            "excerpt": "金正恩結束訪中行程　分析：盼北京加速兌現承諾\n（中央社中國丹東24日綜合外電報導）北韓領導人金正恩結束中國遼寧省丹東一天的訪問行程後，今天返國。中國官方媒體報導，這次突訪目的尚未明朗。學者分析，金正恩此次或許是為了「敦促中方加速履行」今年中國國家主席習近平訪問北韓期間達成的多項承諾。",
+            "section": "國際"
+          }
+        ],
+        "keywords": [],
+        "aliases": [
+          "cna-89823a00eb9291c8d0d0"
+        ],
+        "content_revision": "cna-89823a00eb9291c8d0d0"
+      },
+      {
+        "event_id": "cna-5242a3eae23609fbf2e2",
+        "dedup_key": "https://www.cna.com.tw/news/aopl/202610250003.aspx",
+        "event_date": "2026-10-25",
+        "updated_at": "2026-10-25",
+        "published_at": "2026-10-24T18:53:09.000Z",
+        "title": "法國各地爆發數百場抗議　41萬人上街頭表達不滿生活費高漲",
+        "rss_lead": "（中央社巴黎24日綜合外電報導）隨著全國對生活成本的不滿情緒升高，法國各地今天出現數百場抗議行動，安全部隊嚴陣以待，以防重演上週末抗議爆發的暴力衝突。法國內政部表示，估計今晚全國有41萬人走上街頭抗議，其中11萬人在巴黎。",
+        "summary": "法國各地爆發數百場抗議　41萬人上街頭表達不滿生活費高漲",
+        "categories": [
+          "國際"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-d2dc1a1686b6b468f740",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aopl/202610250003.aspx",
+            "published_at": "2026-10-25",
+            "excerpt": "法國各地爆發數百場抗議　41萬人上街頭表達不滿生活費高漲\n（中央社巴黎24日綜合外電報導）隨著全國對生活成本的不滿情緒升高，法國各地今天出現數百場抗議行動，安全部隊嚴陣以待，以防重演上週末抗議爆發的暴力衝突。法國內政部表示，估計今晚全國有41萬人走上街頭抗議，其中11萬人在巴黎。",
+            "section": "國際"
+          }
+        ],
+        "keywords": [],
+        "aliases": [
+          "cna-5242a3eae23609fbf2e2"
+        ],
+        "content_revision": "cna-5242a3eae23609fbf2e2"
+      },
+      {
+        "event_id": "cna-0366351bf32b06f6c029",
+        "dedup_key": "https://www.cna.com.tw/news/aopl/202610250004.aspx",
+        "event_date": "2026-10-25",
+        "updated_at": "2026-10-25",
+        "published_at": "2026-10-24T20:22:13.000Z",
+        "title": "葉門青年運動攻擊沙國能源設施　聯軍稱擊落兩飛彈",
+        "rss_lead": "（中央社葉門亞丁24日綜合外電報導）與伊朗結盟的葉門武裝與政治組織青年運動（Houthis）今天表示，對沙烏地阿拉伯的石油設施及機場發動攻擊，而與該組織交戰的沙烏地為首聯軍則稱擊落兩枚飛彈，雙方衝突進一步升溫。",
+        "summary": "葉門青年運動攻擊沙國能源設施　聯軍稱擊落兩飛彈",
+        "categories": [
+          "國際"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-d079f5dec92f35efdc67",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aopl/202610250004.aspx",
+            "published_at": "2026-10-25",
+            "excerpt": "葉門青年運動攻擊沙國能源設施　聯軍稱擊落兩飛彈\n（中央社葉門亞丁24日綜合外電報導）與伊朗結盟的葉門武裝與政治組織青年運動（Houthis）今天表示，對沙烏地阿拉伯的石油設施及機場發動攻擊，而與該組織交戰的沙烏地為首聯軍則稱擊落兩枚飛彈，雙方衝突進一步升溫。",
+            "section": "國際"
+          }
+        ],
+        "keywords": [],
+        "aliases": [
+          "cna-0366351bf32b06f6c029"
+        ],
+        "content_revision": "cna-0366351bf32b06f6c029"
+      },
+      {
         "event_id": "cna-82694c8f72ce7b5d9895",
         "dedup_key": "https://www.cna.com.tw/news/asoc/202610190036.aspx",
         "event_date": "2026-10-19",
@@ -77922,7 +78054,7 @@
   },
   "automation": {
     "enabled": true,
-    "updated_at": "2026-10-24T16:02:53.041Z",
+    "updated_at": "2026-10-24T20:55:54.323Z",
     "window": {
       "from": "2026-10-19",
       "to": "2026-10-25"
@@ -78021,7 +78153,7 @@
       "generated_count": 7,
       "seed": 2,
       "attempts": 16,
-      "fingerprint": "e183975f535d23c76174372addd3bc079ee65932020aa73c82a198193475a4b4",
+      "fingerprint": "a306490424278074fedba719be5f1907a4d84da080028fa1e18d4acc04143a81",
       "grid_valid": true,
       "editorial_valid": true,
       "nonrepeating": true
