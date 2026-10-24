@@ -4643,6 +4643,171 @@
         "content_revision": "cna-17b95e21c80b69bd30bb"
       },
       {
+        "event_id": "cna-75b3609d57d8e391dc74",
+        "dedup_key": "https://www.cna.com.tw/news/acn/202610240045.aspx",
+        "event_date": "2026-10-24",
+        "updated_at": "2026-10-24",
+        "published_at": "2026-10-24T02:48:42.000Z",
+        "title": "中國外長王毅：中美有責任管控好人工智慧",
+        "rss_lead": "（中央社記者李雅雯台北24日電）中國外交部長王毅在會晤美國亞洲協會董事會共同主席桑頓、紐約時報專欄作家佛里曼時表示，中美有能力也有責任共同發展好、管控好人工智慧（AI），不僅要防範風險也要展開合作。",
+        "summary": "中國外長王毅：中美有責任管控好人工智慧",
+        "categories": [
+          "國際"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-6e54866ada2bc261de2f",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/acn/202610240045.aspx",
+            "published_at": "2026-10-24",
+            "excerpt": "中國外長王毅：中美有責任管控好人工智慧\n（中央社記者李雅雯台北24日電）中國外交部長王毅在會晤美國亞洲協會董事會共同主席桑頓、紐約時報專欄作家佛里曼時表示，中美有能力也有責任共同發展好、管控好人工智慧（AI），不僅要防範風險也要展開合作。",
+            "section": "國際"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "外交部",
+            "kind": "機關或組織",
+            "clue_options": [
+              {
+                "clue": "辦理對外關係與領事事務，並在海外事故時協調急難協助的中央部會。（3字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 89,
+            "difficulty": "medium",
+            "clue": "辦理對外關係與領事事務，並在海外事故時協調急難協助的中央部會。（3字）"
+          },
+          {
+            "word": "人工智慧",
+            "kind": "科技用語",
+            "clue_options": [
+              {
+                "clue": "讓系統從資料學習並執行辨識、預測或生成工作的技術領域。（4字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 92,
+            "difficulty": "medium",
+            "clue": "讓系統從資料學習並執行辨識、預測或生成工作的技術領域。（4字）"
+          }
+        ],
+        "aliases": [
+          "cna-75b3609d57d8e391dc74"
+        ],
+        "content_revision": "cna-75b3609d57d8e391dc74"
+      },
+      {
+        "event_id": "cna-f9586584f10cb8bc0b81",
+        "dedup_key": "https://www.cna.com.tw/news/acn/202610240059.aspx",
+        "event_date": "2026-10-24",
+        "updated_at": "2026-10-24",
+        "published_at": "2026-10-24T03:15:12.000Z",
+        "title": "AI衝擊就業　中國發布文件要求管控風險、開發新職業",
+        "rss_lead": "（中央社台北24日電）針對人工智慧（AI）對就業的衝擊，中國國務院昨天印發意見，要求企業探索建立「失業緩衝期」制度，提供轉職就業支持，同時加快開發與AI相關的新職業。",
+        "summary": "AI衝擊就業　中國發布文件要求管控風險、開發新職業",
+        "categories": [
+          "國際"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-b4f608d08c1f8bd57e4e",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/acn/202610240059.aspx",
+            "published_at": "2026-10-24",
+            "excerpt": "AI衝擊就業　中國發布文件要求管控風險、開發新職業\n（中央社台北24日電）針對人工智慧（AI）對就業的衝擊，中國國務院昨天印發意見，要求企業探索建立「失業緩衝期」制度，提供轉職就業支持，同時加快開發與AI相關的新職業。",
+            "section": "國際"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "人工智慧",
+            "kind": "科技用語",
+            "clue_options": [
+              {
+                "clue": "讓系統從資料學習並執行辨識、預測或生成工作的技術領域。（4字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 92,
+            "difficulty": "medium",
+            "clue": "讓系統從資料學習並執行辨識、預測或生成工作的技術領域。（4字）"
+          },
+          {
+            "word": "就業",
+            "kind": "財經用語",
+            "clue_options": [
+              {
+                "clue": "人力投入有報酬工作的狀態，產業轉型時須兼顧技能與職缺的配合。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "人力投入有報酬工作的狀態，產業轉型時須兼顧技能與職缺的配合。（2字）"
+          }
+        ],
+        "aliases": [
+          "cna-f9586584f10cb8bc0b81"
+        ],
+        "content_revision": "cna-f9586584f10cb8bc0b81"
+      },
+      {
+        "event_id": "cna-5871e63168d29391f866",
+        "dedup_key": "https://www.cna.com.tw/news/acn/202610240069.aspx",
+        "event_date": "2026-10-24",
+        "updated_at": "2026-10-24",
+        "published_at": "2026-10-24T03:45:34.000Z",
+        "title": "中國國務院副秘書長王志軍  任中共湖南省委書記",
+        "rss_lead": "（中央社記者呂佳蓉北京24日電）中國官方今天公布，中國國務院副秘書長王志軍任中共湖南省委書記。王志軍今年61歲，是中共20屆中央委員，長期在中央工作。",
+        "summary": "中國國務院副秘書長王志軍  任中共湖南省委書記",
+        "categories": [
+          "國際"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-9bf0ac146955469096eb",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/acn/202610240069.aspx",
+            "published_at": "2026-10-24",
+            "excerpt": "中國國務院副秘書長王志軍  任中共湖南省委書記\n（中央社記者呂佳蓉北京24日電）中國官方今天公布，中國國務院副秘書長王志軍任中共湖南省委書記。王志軍今年61歲，是中共20屆中央委員，長期在中央工作。",
+            "section": "國際"
+          }
+        ],
+        "keywords": [],
+        "aliases": [
+          "cna-5871e63168d29391f866"
+        ],
+        "content_revision": "cna-5871e63168d29391f866"
+      },
+      {
         "event_id": "cna-c9edeb2bed87d94f1782",
         "dedup_key": "https://www.cna.com.tw/news/acul/202610180078.aspx",
         "event_date": "2026-10-18",
@@ -19511,6 +19676,427 @@
         "content_revision": "cna-eb78490a04523c9deb62"
       },
       {
+        "event_id": "cna-a24c65455eaeffe0df86",
+        "dedup_key": "https://www.cna.com.tw/news/afe/202610240011.aspx",
+        "event_date": "2026-10-24",
+        "updated_at": "2026-10-24",
+        "published_at": "2026-10-23T21:03:22.000Z",
+        "title": "中東供應風險攀升　布倫特原油價格創6個月高點",
+        "rss_lead": "（中央社紐約23日綜合外電報導）由於沙烏地阿拉伯遭到的襲擊愈演愈烈，加深市場對先前已因美伊戰爭而升溫的供應憂慮，油價今天上漲，布倫特原油價格本週收於4月以來最高。",
+        "summary": "中東供應風險攀升　布倫特原油價格創6個月高點",
+        "categories": [
+          "財經"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-8c5a054800c128a9b743",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/afe/202610240011.aspx",
+            "published_at": "2026-10-24",
+            "excerpt": "中東供應風險攀升　布倫特原油價格創6個月高點\n（中央社紐約23日綜合外電報導）由於沙烏地阿拉伯遭到的襲擊愈演愈烈，加深市場對先前已因美伊戰爭而升溫的供應憂慮，油價今天上漲，布倫特原油價格本週收於4月以來最高。",
+            "section": "財經"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "油價",
+            "kind": "財經用語",
+            "clue_options": [
+              {
+                "clue": "運輸成本與民生物價的重要變數，常隨產油國政策及航道風險波動。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "運輸成本與民生物價的重要變數，常隨產油國政策及航道風險波動。（2字）"
+          }
+        ],
+        "aliases": [
+          "cna-a24c65455eaeffe0df86"
+        ],
+        "content_revision": "cna-a24c65455eaeffe0df86"
+      },
+      {
+        "event_id": "cna-677473c98642636aab5f",
+        "dedup_key": "https://www.cna.com.tw/news/afe/202610240014.aspx",
+        "event_date": "2026-10-24",
+        "updated_at": "2026-10-24",
+        "published_at": "2026-10-23T21:35:29.000Z",
+        "title": "油價勁揚和AI支出引憂　美股互有漲跌",
+        "rss_lead": "（中央社紐約23日綜合外電報導）布倫特原油價格攀升至4月底以來最高水準，加上市場對人工智慧（AI）支出感到憂慮，美股今天互有漲跌。",
+        "summary": "油價勁揚和AI支出引憂　美股互有漲跌",
+        "categories": [
+          "財經"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-72ed8b7240f7d81b41b5",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/afe/202610240014.aspx",
+            "published_at": "2026-10-24",
+            "excerpt": "油價勁揚和AI支出引憂　美股互有漲跌\n（中央社紐約23日綜合外電報導）布倫特原油價格攀升至4月底以來最高水準，加上市場對人工智慧（AI）支出感到憂慮，美股今天互有漲跌。",
+            "section": "財經"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "人工智慧",
+            "kind": "科技用語",
+            "clue_options": [
+              {
+                "clue": "讓系統從資料學習並執行辨識、預測或生成工作的技術領域。（4字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 92,
+            "difficulty": "medium",
+            "clue": "讓系統從資料學習並執行辨識、預測或生成工作的技術領域。（4字）"
+          },
+          {
+            "word": "油價",
+            "kind": "財經用語",
+            "clue_options": [
+              {
+                "clue": "運輸成本與民生物價的重要變數，常隨產油國政策及航道風險波動。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "運輸成本與民生物價的重要變數，常隨產油國政策及航道風險波動。（2字）"
+          }
+        ],
+        "aliases": [
+          "cna-677473c98642636aab5f"
+        ],
+        "content_revision": "cna-677473c98642636aab5f"
+      },
+      {
+        "event_id": "cna-728d59c1ede5a08bb4f7",
+        "dedup_key": "https://www.cna.com.tw/news/afe/202610240024.aspx",
+        "event_date": "2026-10-24",
+        "updated_at": "2026-10-24",
+        "published_at": "2026-10-24T00:53:56.000Z",
+        "title": "上任週年　張培仁：工研院扮演科技發展第二棒角色",
+        "rss_lead": "工研院張培仁專訪（中央社記者張建中新竹24日電）工研院院長張培仁上任將滿1週年，期間，對外與大學密切合作，串聯其他法人研究單位，對內導入AI數位工具和系統工程方法論，並分3階段培育人才。他強調，工研院成立53年來定位始終不變，追求的目標是將研發成果分享協助產業界。",
+        "summary": "上任週年　張培仁：工研院扮演科技發展第二棒角色",
+        "categories": [
+          "財經"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-fe96fc5e30d1774b805b",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/afe/202610240024.aspx",
+            "published_at": "2026-10-24",
+            "excerpt": "上任週年　張培仁：工研院扮演科技發展第二棒角色\n工研院張培仁專訪（中央社記者張建中新竹24日電）工研院院長張培仁上任將滿1週年，期間，對外與大學密切合作，串聯其他法人研究單位，對內導入AI數位工具和系統工程方法論，並分3階段培育人才。他強調，工研院成立53年來定位始終不變，追求的目標是將研發成果分享協助產業界。",
+            "section": "財經"
+          }
+        ],
+        "keywords": [],
+        "aliases": [
+          "cna-728d59c1ede5a08bb4f7"
+        ],
+        "content_revision": "cna-728d59c1ede5a08bb4f7"
+      },
+      {
+        "event_id": "cna-5e11ba35a587edcb660c",
+        "dedup_key": "https://www.cna.com.tw/news/afe/202610240025.aspx",
+        "event_date": "2026-10-24",
+        "updated_at": "2026-10-24",
+        "published_at": "2026-10-24T00:53:58.000Z",
+        "title": "工研院擬工業區建稀土廠　拚2030年50%需求自給自足",
+        "rss_lead": "工研院張培仁專訪（中央社記者張建中新竹24日電）中國為全球最大稀土生產與出口國，並實施出口管制，引發國際關注。工研院院長張培仁表示，工研院內有稀土實驗線，計劃進一步在工業區內建置示範工廠，並於2030年底達到年產500噸規模，台灣50%需求得以自給自足。",
+        "summary": "工研院擬工業區建稀土廠　拚2030年50%需求自給自足",
+        "categories": [
+          "財經"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-2cd3c41ad32eeb58194a",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/afe/202610240025.aspx",
+            "published_at": "2026-10-24",
+            "excerpt": "工研院擬工業區建稀土廠　拚2030年50%需求自給自足\n工研院張培仁專訪（中央社記者張建中新竹24日電）中國為全球最大稀土生產與出口國，並實施出口管制，引發國際關注。工研院院長張培仁表示，工研院內有稀土實驗線，計劃進一步在工業區內建置示範工廠，並於2030年底達到年產500噸規模，台灣50%需求得以自給自足。",
+            "section": "財經"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "工研院",
+            "kind": "機關或組織",
+            "clue_options": [
+              {
+                "clue": "據報導，某機關或組織擬工業區建稀土廠　拚2030年50%需求自給自足。（3字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "event",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 89,
+            "difficulty": "medium",
+            "clue": "據報導，某機關或組織擬工業區建稀土廠　拚2030年50%需求自給自足。（3字）"
+          },
+          {
+            "word": "出口管制",
+            "kind": "專業用語",
+            "answer_domain": "international",
+            "clue_options": [
+              {
+                "clue": "基於安全等理由，限制敏感貨品、技術或服務向境外移轉的措施。（4字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 92,
+            "difficulty": "medium",
+            "clue": "基於安全等理由，限制敏感貨品、技術或服務向境外移轉的措施。（4字）"
+          }
+        ],
+        "aliases": [
+          "cna-5e11ba35a587edcb660c"
+        ],
+        "content_revision": "cna-5e11ba35a587edcb660c"
+      },
+      {
+        "event_id": "cna-98293a18cba861cd8637",
+        "dedup_key": "https://www.cna.com.tw/news/afe/202610240030.aspx",
+        "event_date": "2026-10-24",
+        "updated_at": "2026-10-24",
+        "published_at": "2026-10-24T01:24:09.000Z",
+        "title": "搶救少子化　行庫加碼生育補助今年前8月逾760人申請",
+        "rss_lead": "（中央社記者呂晏慈台北24日電）因應少子化挑戰，不少企業開始加入「催生」行列，公股行庫也持續加碼生育補助，第1胎最高新台幣12萬元、第3胎以上最高25萬元，今年前8月已有超過760人申請，以支持員工建立家庭並兼顧育兒需求。",
+        "summary": "搶救少子化　行庫加碼生育補助今年前8月逾760人申請",
+        "categories": [
+          "財經"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-e1ad4aeacd1660e27fb1",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/afe/202610240030.aspx",
+            "published_at": "2026-10-24",
+            "excerpt": "搶救少子化　行庫加碼生育補助今年前8月逾760人申請\n（中央社記者呂晏慈台北24日電）因應少子化挑戰，不少企業開始加入「催生」行列，公股行庫也持續加碼生育補助，第1胎最高新台幣12萬元、第3胎以上最高25萬元，今年前8月已有超過760人申請，以支持員工建立家庭並兼顧育兒需求。",
+            "section": "財經"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "新台幣",
+            "kind": "財經用語",
+            "clue_options": [
+              {
+                "clue": "本地法定貨幣，其對外比價變動會影響進口成本與出口換匯收入。（3字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 89,
+            "difficulty": "medium",
+            "clue": "本地法定貨幣，其對外比價變動會影響進口成本與出口換匯收入。（3字）"
+          },
+          {
+            "word": "補助",
+            "kind": "財經用語",
+            "clue_options": [
+              {
+                "clue": "政府提供資源支持特定公共目的的措施，應有法源、條件及財源安排。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "政府提供資源支持特定公共目的的措施，應有法源、條件及財源安排。（2字）"
+          },
+          {
+            "word": "少子化",
+            "kind": "生活用語",
+            "clue_options": [
+              {
+                "clue": "出生人口長期減少的趨勢，會連動學校規模、勞動供給與代間負擔。（3字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 89,
+            "difficulty": "medium",
+            "clue": "出生人口長期減少的趨勢，會連動學校規模、勞動供給與代間負擔。（3字）"
+          }
+        ],
+        "aliases": [
+          "cna-98293a18cba861cd8637"
+        ],
+        "content_revision": "cna-98293a18cba861cd8637"
+      },
+      {
+        "event_id": "cna-95bd0a28f6dbe924c6a4",
+        "dedup_key": "https://www.cna.com.tw/news/afe/202610240034.aspx",
+        "event_date": "2026-10-24",
+        "updated_at": "2026-10-24",
+        "published_at": "2026-10-24T01:48:18.000Z",
+        "title": "特休放滿還能領2.8萬　公股銀大手筆祭休假獎金福利",
+        "rss_lead": "（中央社記者呂晏慈台北24日電）為落實工作與生活平衡，多家公股行庫推出「休假獎金」制度，其中，台銀、土銀、第一銀、彰銀均設計「休越多領越多」機制，鼓勵員工適度休閒與家庭參與。據統計，去年包括土銀、第一銀均發出超過新台幣6100萬元補助金。",
+        "summary": "特休放滿還能領2.8萬　公股銀大手筆祭休假獎金福利",
+        "categories": [
+          "財經"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-7b16336aa73a88b7f844",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/afe/202610240034.aspx",
+            "published_at": "2026-10-24",
+            "excerpt": "特休放滿還能領2.8萬　公股銀大手筆祭休假獎金福利\n（中央社記者呂晏慈台北24日電）為落實工作與生活平衡，多家公股行庫推出「休假獎金」制度，其中，台銀、土銀、第一銀、彰銀均設計「休越多領越多」機制，鼓勵員工適度休閒與家庭參與。據統計，去年包括土銀、第一銀均發出超過新台幣6100萬元補助金。",
+            "section": "財經"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "新台幣",
+            "kind": "財經用語",
+            "clue_options": [
+              {
+                "clue": "本地法定貨幣，其對外比價變動會影響進口成本與出口換匯收入。（3字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 89,
+            "difficulty": "medium",
+            "clue": "本地法定貨幣，其對外比價變動會影響進口成本與出口換匯收入。（3字）"
+          },
+          {
+            "word": "補助",
+            "kind": "財經用語",
+            "clue_options": [
+              {
+                "clue": "政府提供資源支持特定公共目的的措施，應有法源、條件及財源安排。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "政府提供資源支持特定公共目的的措施，應有法源、條件及財源安排。（2字）"
+          }
+        ],
+        "aliases": [
+          "cna-95bd0a28f6dbe924c6a4"
+        ],
+        "content_revision": "cna-95bd0a28f6dbe924c6a4"
+      },
+      {
+        "event_id": "cna-35a2056cdc5fd5c51fc6",
+        "dedup_key": "https://www.cna.com.tw/news/afe/202610240041.aspx",
+        "event_date": "2026-10-24",
+        "updated_at": "2026-10-24",
+        "published_at": "2026-10-24T02:38:34.000Z",
+        "title": "颱風薔琵全台逾28萬戶曾停電　已復電約8成",
+        "rss_lead": "（中央社記者呂晏慈台北24日電）颱風薔琵強度減弱且暴風圈持續縮小，截至今天上午9時，全台曾停電戶數 達28萬8382戶，其中已復電約8成。台電表示，薔琵颱風挾帶狂風豪雨，造成多地線路斷線、脫落，台電人員冒雨搶修。",
+        "summary": "颱風薔琵全台逾28萬戶曾停電　已復電約8成",
+        "categories": [
+          "財經"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-7e4e83cf942d91eee684",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/afe/202610240041.aspx",
+            "published_at": "2026-10-24",
+            "excerpt": "颱風薔琵全台逾28萬戶曾停電　已復電約8成\n（中央社記者呂晏慈台北24日電）颱風薔琵強度減弱且暴風圈持續縮小，截至今天上午9時，全台曾停電戶數 達28萬8382戶，其中已復電約8成。台電表示，薔琵颱風挾帶狂風豪雨，造成多地線路斷線、脫落，台電人員冒雨搶修。",
+            "section": "財經"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "颱風",
+            "kind": "生活用語",
+            "clue_options": [
+              {
+                "clue": "據報導，西北太平洋熱帶氣旋薔琵全台逾28萬戶曾停電　已復電約8成。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "event",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              },
+              {
+                "clue": "形成於西北太平洋的熱帶氣旋達到一定強度後的名稱，路徑與地形會左右災害。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "據報導，西北太平洋熱帶氣旋薔琵全台逾28萬戶曾停電　已復電約8成。（2字）"
+          }
+        ],
+        "aliases": [
+          "cna-35a2056cdc5fd5c51fc6"
+        ],
+        "content_revision": "cna-35a2056cdc5fd5c51fc6"
+      },
+      {
         "event_id": "cna-b7f982deda594d75f47a",
         "dedup_key": "https://www.cna.com.tw/news/ahel/202610180012.aspx",
         "event_date": "2026-10-18",
@@ -28539,7 +29125,7 @@
         "rss_lead": "（中央社台北23日電）大樂透第115099期今晚開獎。中獎號碼為40、38、33、09、45、10，特別號02。",
         "summary": "大樂透第115099期開獎",
         "categories": [
-          "生活"
+          "財經"
         ],
         "fact_status": "reported",
         "content_type": "news",
@@ -28553,7 +29139,7 @@
             "url": "https://www.cna.com.tw/news/ahel/202610230247.aspx",
             "published_at": "2026-10-23",
             "excerpt": "大樂透第115099期開獎\n（中央社台北23日電）大樂透第115099期今晚開獎。中獎號碼為40、38、33、09、45、10，特別號02。",
-            "section": "生活"
+            "section": "財經"
           }
         ],
         "keywords": [],
@@ -28572,7 +29158,7 @@
         "rss_lead": "（中央社台北23日電）今彩539第115257期開獎，中獎號碼17、03、07、14、27。3星彩中獎號碼551，4星彩中獎號碼7604。",
         "summary": "今彩539第115257期開獎",
         "categories": [
-          "生活"
+          "財經"
         ],
         "fact_status": "reported",
         "content_type": "news",
@@ -28586,7 +29172,7 @@
             "url": "https://www.cna.com.tw/news/ahel/202610230251.aspx",
             "published_at": "2026-10-23",
             "excerpt": "今彩539第115257期開獎\n（中央社台北23日電）今彩539第115257期開獎，中獎號碼17、03、07、14、27。3星彩中獎號碼551，4星彩中獎號碼7604。",
-            "section": "生活"
+            "section": "財經"
           }
         ],
         "keywords": [],
@@ -28761,7 +29347,7 @@
         "rss_lead": "（中央社台北23日電）今彩539第115257期開獎，中獎號碼17、03、07、14、27；派彩結果，頭獎4注中獎，各得獎金新台幣600萬元。",
         "summary": "今彩539第115257期　頭獎4注中獎",
         "categories": [
-          "生活"
+          "財經"
         ],
         "fact_status": "reported",
         "content_type": "news",
@@ -28775,7 +29361,7 @@
             "url": "https://www.cna.com.tw/news/ahel/202610230273.aspx",
             "published_at": "2026-10-23",
             "excerpt": "今彩539第115257期　頭獎4注中獎\n（中央社台北23日電）今彩539第115257期開獎，中獎號碼17、03、07、14、27；派彩結果，頭獎4注中獎，各得獎金新台幣600萬元。",
-            "section": "生活"
+            "section": "財經"
           }
         ],
         "keywords": [
@@ -28811,7 +29397,7 @@
         "rss_lead": "（中央社台北23日電）大樂透第115099期今晚開獎。中獎號碼為40、38、33、09、45、10，特別號02；派彩結果，頭獎槓龜，下期（27日）預估銷售新台幣0.9至1.1億元，頭獎累積金額預估上看1.2億元。",
         "summary": "大樂透頭獎槓龜　中秋加碼2注各得850萬",
         "categories": [
-          "生活"
+          "財經"
         ],
         "fact_status": "reported",
         "content_type": "news",
@@ -28825,7 +29411,7 @@
             "url": "https://www.cna.com.tw/news/ahel/202610230276.aspx",
             "published_at": "2026-10-23",
             "excerpt": "大樂透頭獎槓龜　中秋加碼2注各得850萬\n（中央社台北23日電）大樂透第115099期今晚開獎。中獎號碼為40、38、33、09、45、10，特別號02；派彩結果，頭獎槓龜，下期（27日）預估銷售新台幣0.9至1.1億元，頭獎累積金額預估上看1.2億元。",
-            "section": "生活"
+            "section": "財經"
           }
         ],
         "keywords": [
@@ -28997,9 +29583,9 @@
         "event_date": "2026-10-23",
         "updated_at": "2026-10-23",
         "published_at": "2026-10-23T15:57:51.000Z",
-        "title": "颱風薔琵路徑偏西 大屯山三貂角測出17級陣風",
+        "title": "颱風薔琵路徑偏西　大屯山三貂角測出17級陣風",
         "rss_lead": "（中央社記者余曉涵台北23日電）颱風薔琵過去路徑偏西，氣象署表示，若路徑未如預期往南的話，不排除中心會掠過東北角跟宜蘭陸地。此外，根據氣象署觀測，大屯山與三貂角觀測到17級強陣風。",
-        "summary": "颱風薔琵路徑偏西 大屯山三貂角測出17級陣風",
+        "summary": "颱風薔琵路徑偏西　大屯山三貂角測出17級陣風",
         "categories": [
           "生活"
         ],
@@ -29009,12 +29595,12 @@
         "anchor_event": false,
         "sources": [
           {
-            "source_id": "rss-8645cee7188c71127b6a",
+            "source_id": "rss-d9b43d01fce5cb4f9337",
             "publisher": "中央通訊社",
             "kind": "newswire",
             "url": "https://www.cna.com.tw/news/ahel/202610230284.aspx",
             "published_at": "2026-10-23",
-            "excerpt": "颱風薔琵路徑偏西 大屯山三貂角測出17級陣風\n（中央社記者余曉涵台北23日電）颱風薔琵過去路徑偏西，氣象署表示，若路徑未如預期往南的話，不排除中心會掠過東北角跟宜蘭陸地。此外，根據氣象署觀測，大屯山與三貂角觀測到17級強陣風。",
+            "excerpt": "颱風薔琵路徑偏西　大屯山三貂角測出17級陣風\n（中央社記者余曉涵台北23日電）颱風薔琵過去路徑偏西，氣象署表示，若路徑未如預期往南的話，不排除中心會掠過東北角跟宜蘭陸地。此外，根據氣象署觀測，大屯山與三貂角觀測到17級強陣風。",
             "section": "生活"
           }
         ],
@@ -29024,7 +29610,7 @@
             "kind": "生活用語",
             "clue_options": [
               {
-                "clue": "據報導，西北太平洋熱帶氣旋薔琵路徑偏西 大屯山三貂角測出17級陣風。（2字）",
+                "clue": "據報導，西北太平洋熱帶氣旋薔琵路徑偏西　大屯山三貂角測出17級陣風。（2字）",
                 "clue_style": "magazine-v1",
                 "clue_kind": "event",
                 "clue_profile": "experienced-adults-v1",
@@ -29040,7 +29626,7 @@
             ],
             "answer_score": 86,
             "difficulty": "medium",
-            "clue": "據報導，西北太平洋熱帶氣旋薔琵路徑偏西 大屯山三貂角測出17級陣風。（2字）"
+            "clue": "據報導，西北太平洋熱帶氣旋薔琵路徑偏西　大屯山三貂角測出17級陣風。（2字）"
           }
         ],
         "aliases": [
@@ -29248,6 +29834,739 @@
           "cna-173aff7d0e5fce5964aa"
         ],
         "content_revision": "cna-173aff7d0e5fce5964aa"
+      },
+      {
+        "event_id": "cna-e26c7fb4a2328abefbf9",
+        "dedup_key": "https://www.cna.com.tw/news/ahel/202610240015.aspx",
+        "event_date": "2026-10-24",
+        "updated_at": "2026-10-24",
+        "published_at": "2026-10-23T21:39:31.000Z",
+        "title": "氣象署發布豪雨特報　宜蘭縣山區出現超大豪雨",
+        "rss_lead": "（中央社台北24日電）中央氣象署發布豪雨特報，第29號颱風及其外圍環流影響，宜蘭縣山區已有超大豪雨，桃園市山區已有大豪雨，今(24)日臺北市、新北市、桃園市、新竹縣、苗栗縣山區仍有局部大雨或豪雨發生的機率，臺中以北、南投、宜蘭、臺南地區及雲林以南山區有局部大雨發生的機率，請注意瞬間大雨，山區請慎防坍方、落石、土石流，低窪地區請慎防積淹水，應避免前往山區及溪流活動。（編輯：徐睿承）1151024",
+        "summary": "氣象署發布豪雨特報　宜蘭縣山區出現超大豪雨",
+        "categories": [
+          "生活"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-669ec625579345e200e8",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/ahel/202610240015.aspx",
+            "published_at": "2026-10-24",
+            "excerpt": "氣象署發布豪雨特報　宜蘭縣山區出現超大豪雨\n（中央社台北24日電）中央氣象署發布豪雨特報，第29號颱風及其外圍環流影響，宜蘭縣山區已有超大豪雨，桃園市山區已有大豪雨，今(24)日臺北市、新北市、桃園市、新竹縣、苗栗縣山區仍有局部大雨或豪雨發生的機率，臺中以北、南投、宜蘭、臺南地區及雲林以南山區有局部大雨發生的機率，請注意瞬間大雨，山區請慎防坍方、落石、土石流，低窪地區請慎防積淹水，應避免前往山區及溪流活動。（編輯：徐睿承）1151024",
+            "section": "生活"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "颱風",
+            "kind": "生活用語",
+            "clue_options": [
+              {
+                "clue": "形成於西北太平洋的熱帶氣旋達到一定強度後的名稱，路徑與地形會左右災害。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "形成於西北太平洋的熱帶氣旋達到一定強度後的名稱，路徑與地形會左右災害。（2字）"
+          },
+          {
+            "word": "土石流",
+            "kind": "專業用語",
+            "answer_domain": "environment",
+            "clue_options": [
+              {
+                "clue": "豪雨時水與泥砂、石塊混合向下移動的災害，常威脅溪谷聚落。（3字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 89,
+            "difficulty": "medium",
+            "clue": "豪雨時水與泥砂、石塊混合向下移動的災害，常威脅溪谷聚落。（3字）"
+          }
+        ],
+        "aliases": [
+          "cna-e26c7fb4a2328abefbf9"
+        ],
+        "content_revision": "cna-e26c7fb4a2328abefbf9"
+      },
+      {
+        "event_id": "cna-7042890d26ce49446e72",
+        "dedup_key": "https://www.cna.com.tw/news/ahel/202610240016.aspx",
+        "event_date": "2026-10-24",
+        "updated_at": "2026-10-24",
+        "published_at": "2026-10-23T22:05:34.000Z",
+        "title": "氣象署發布豪雨特報　宜蘭山區出現超大豪雨、桃園山區大豪雨",
+        "rss_lead": "（中央社台北24日電）中央氣象署發布豪雨特報，(更正)第29號颱風及其外圍環流影響，宜蘭縣山區已有超大豪雨，桃園市山區已有大豪雨，今(24)日臺北市、新北市、桃園市、新竹縣、苗栗縣山區仍有局部大雨或豪雨發生的機率，臺中以北、南投、宜蘭、臺南地區及雲林以南山區有局部大雨發生的機率，請注意瞬間大雨，山區請慎防坍方、落石、土石流，低窪地區請慎防積淹水，應避免前往山區及溪流活動。（編輯：徐睿承）1151024",
+        "summary": "氣象署發布豪雨特報　宜蘭山區出現超大豪雨、桃園山區大豪雨",
+        "categories": [
+          "生活"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-ca98a93cbe0b373f85cf",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/ahel/202610240016.aspx",
+            "published_at": "2026-10-24",
+            "excerpt": "氣象署發布豪雨特報　宜蘭山區出現超大豪雨、桃園山區大豪雨\n（中央社台北24日電）中央氣象署發布豪雨特報，(更正)第29號颱風及其外圍環流影響，宜蘭縣山區已有超大豪雨，桃園市山區已有大豪雨，今(24)日臺北市、新北市、桃園市、新竹縣、苗栗縣山區仍有局部大雨或豪雨發生的機率，臺中以北、南投、宜蘭、臺南地區及雲林以南山區有局部大雨發生的機率，請注意瞬間大雨，山區請慎防坍方、落石、土石流，低窪地區請慎防積淹水，應避免前往山區及溪流活動。（編輯：徐睿承）1151024",
+            "section": "生活"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "颱風",
+            "kind": "生活用語",
+            "clue_options": [
+              {
+                "clue": "形成於西北太平洋的熱帶氣旋達到一定強度後的名稱，路徑與地形會左右災害。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "形成於西北太平洋的熱帶氣旋達到一定強度後的名稱，路徑與地形會左右災害。（2字）"
+          },
+          {
+            "word": "土石流",
+            "kind": "專業用語",
+            "answer_domain": "environment",
+            "clue_options": [
+              {
+                "clue": "豪雨時水與泥砂、石塊混合向下移動的災害，常威脅溪谷聚落。（3字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 89,
+            "difficulty": "medium",
+            "clue": "豪雨時水與泥砂、石塊混合向下移動的災害，常威脅溪谷聚落。（3字）"
+          }
+        ],
+        "aliases": [
+          "cna-7042890d26ce49446e72"
+        ],
+        "content_revision": "cna-7042890d26ce49446e72"
+      },
+      {
+        "event_id": "cna-f35cedb6d1e4c70f8bda",
+        "dedup_key": "https://www.cna.com.tw/news/ahel/202610240017.aspx",
+        "event_date": "2026-10-24",
+        "updated_at": "2026-10-24",
+        "published_at": "2026-10-23T22:42:37.000Z",
+        "title": "颱風煙花生成　對台灣無直接影響",
+        "rss_lead": "（中央社記者黃巧雯台北24日電）氣象署今天凌晨發布颱風生成訊息，原位於威克島南方海面上的熱帶性低氣壓，在凌晨2時發展為輕度颱風，編號第30號煙花，未來將向北轉西北西方向移動，對台灣無直接影響。",
+        "summary": "颱風煙花生成　對台灣無直接影響",
+        "categories": [
+          "生活"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-489256573879ab486d67",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/ahel/202610240017.aspx",
+            "published_at": "2026-10-24",
+            "excerpt": "颱風煙花生成　對台灣無直接影響\n（中央社記者黃巧雯台北24日電）氣象署今天凌晨發布颱風生成訊息，原位於威克島南方海面上的熱帶性低氣壓，在凌晨2時發展為輕度颱風，編號第30號煙花，未來將向北轉西北西方向移動，對台灣無直接影響。",
+            "section": "生活"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "颱風",
+            "kind": "生活用語",
+            "clue_options": [
+              {
+                "clue": "據報導，西北太平洋熱帶氣旋煙花生成　對台灣無直接影響。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "event",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              },
+              {
+                "clue": "形成於西北太平洋的熱帶氣旋達到一定強度後的名稱，路徑與地形會左右災害。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "據報導，西北太平洋熱帶氣旋煙花生成　對台灣無直接影響。（2字）"
+          }
+        ],
+        "aliases": [
+          "cna-f35cedb6d1e4c70f8bda"
+        ],
+        "content_revision": "cna-f35cedb6d1e4c70f8bda"
+      },
+      {
+        "event_id": "cna-0c9ac315d108d189325d",
+        "dedup_key": "https://www.cna.com.tw/news/ahel/202610240019.aspx",
+        "event_date": "2026-10-24",
+        "updated_at": "2026-10-24",
+        "published_at": "2026-10-23T23:49:44.000Z",
+        "title": "颱風薔琵強度減弱暴風圈縮小　雨勢逐漸緩和",
+        "rss_lead": "（中央社記者黃巧雯台北24日電）氣象署今天表示，颱風薔琵過去3小時強度稍減弱且暴風圈縮小，預計今天上午雨勢將較清晨緩和，儘管颱風影響最嚴重時間已經過去，但仍須留意台灣附近海面風浪仍強勁。",
+        "summary": "颱風薔琵強度減弱暴風圈縮小　雨勢逐漸緩和",
+        "categories": [
+          "生活"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-1d61b70df60b513e8579",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/ahel/202610240019.aspx",
+            "published_at": "2026-10-24",
+            "excerpt": "颱風薔琵強度減弱暴風圈縮小　雨勢逐漸緩和\n（中央社記者黃巧雯台北24日電）氣象署今天表示，颱風薔琵過去3小時強度稍減弱且暴風圈縮小，預計今天上午雨勢將較清晨緩和，儘管颱風影響最嚴重時間已經過去，但仍須留意台灣附近海面風浪仍強勁。",
+            "section": "生活"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "颱風",
+            "kind": "生活用語",
+            "clue_options": [
+              {
+                "clue": "據報導，西北太平洋熱帶氣旋薔琵強度減弱暴風圈縮小　雨勢逐漸緩和。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "event",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              },
+              {
+                "clue": "形成於西北太平洋的熱帶氣旋達到一定強度後的名稱，路徑與地形會左右災害。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "據報導，西北太平洋熱帶氣旋薔琵強度減弱暴風圈縮小　雨勢逐漸緩和。（2字）"
+          }
+        ],
+        "aliases": [
+          "cna-0c9ac315d108d189325d"
+        ],
+        "content_revision": "cna-0c9ac315d108d189325d"
+      },
+      {
+        "event_id": "cna-1dfa79dbed15abae0df4",
+        "dedup_key": "https://www.cna.com.tw/news/ahel/202610240026.aspx",
+        "event_date": "2026-10-24",
+        "updated_at": "2026-10-24",
+        "published_at": "2026-10-24T01:05:00.000Z",
+        "title": "颱風薔琵影響交通需求下降　國1國5取消匝道封閉",
+        "rss_lead": "（中央社記者沈佩瑤台北24日電）光復節連假首日，高公局預估，上午受颱風影響，國道交通需求下降且部分路段路況不佳，取消原規劃今天實施的國1平鎮系統、埔鹽系統南入匝道及國5石碇、坪林南入匝道封閉措施。",
+        "summary": "颱風薔琵影響交通需求下降　國1國5取消匝道封閉",
+        "categories": [
+          "生活"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-a16db6b0d05a8eeff5c3",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/ahel/202610240026.aspx",
+            "published_at": "2026-10-24",
+            "excerpt": "颱風薔琵影響交通需求下降　國1國5取消匝道封閉\n（中央社記者沈佩瑤台北24日電）光復節連假首日，高公局預估，上午受颱風影響，國道交通需求下降且部分路段路況不佳，取消原規劃今天實施的國1平鎮系統、埔鹽系統南入匝道及國5石碇、坪林南入匝道封閉措施。",
+            "section": "生活"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "颱風",
+            "kind": "生活用語",
+            "clue_options": [
+              {
+                "clue": "據報導，西北太平洋熱帶氣旋薔琵影響交通需求下降　國1國5取消匝道封閉。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "event",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              },
+              {
+                "clue": "形成於西北太平洋的熱帶氣旋達到一定強度後的名稱，路徑與地形會左右災害。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "據報導，西北太平洋熱帶氣旋薔琵影響交通需求下降　國1國5取消匝道封閉。（2字）"
+          }
+        ],
+        "aliases": [
+          "cna-1dfa79dbed15abae0df4"
+        ],
+        "content_revision": "cna-1dfa79dbed15abae0df4"
+      },
+      {
+        "event_id": "cna-ceb80ea82169aa82baf6",
+        "dedup_key": "https://www.cna.com.tw/news/ahel/202610240027.aspx",
+        "event_date": "2026-10-24",
+        "updated_at": "2026-10-24",
+        "published_at": "2026-10-24T01:16:03.000Z",
+        "title": "颱風薔琵減弱　北部百貨陸續恢復營業",
+        "rss_lead": "（中央社記者張建中台北24日電）中央氣象署持續發布中度颱風薔琵海上陸上警報，今天北北基等部分縣市停止上班上課，不過颱風強度減弱，多家百貨也調整營業時間，板橋大遠百、遠百信義A13等百貨將於下午1時開始營業，新光三越與SOGO位於北部各分店預計下午2時營業，中南部門市正常營業。微風則在上午11時營業。",
+        "summary": "颱風薔琵減弱　北部百貨陸續恢復營業",
+        "categories": [
+          "生活"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-dc1b7ada0613ed47c189",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/ahel/202610240027.aspx",
+            "published_at": "2026-10-24",
+            "excerpt": "颱風薔琵減弱　北部百貨陸續恢復營業\n（中央社記者張建中台北24日電）中央氣象署持續發布中度颱風薔琵海上陸上警報，今天北北基等部分縣市停止上班上課，不過颱風強度減弱，多家百貨也調整營業時間，板橋大遠百、遠百信義A13等百貨將於下午1時開始營業，新光三越與SOGO位於北部各分店預計下午2時營業，中南部門市正常營業。微風則在上午11時營業。",
+            "section": "生活"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "颱風",
+            "kind": "生活用語",
+            "clue_options": [
+              {
+                "clue": "據報導，西北太平洋熱帶氣旋薔琵減弱　北部百貨陸續恢復營業。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "event",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              },
+              {
+                "clue": "形成於西北太平洋的熱帶氣旋達到一定強度後的名稱，路徑與地形會左右災害。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "據報導，西北太平洋熱帶氣旋薔琵減弱　北部百貨陸續恢復營業。（2字）"
+          }
+        ],
+        "aliases": [
+          "cna-ceb80ea82169aa82baf6"
+        ],
+        "content_revision": "cna-ceb80ea82169aa82baf6"
+      },
+      {
+        "event_id": "cna-1763dd61ca1a8935f97d",
+        "dedup_key": "https://www.cna.com.tw/news/ahel/202610240032.aspx",
+        "event_date": "2026-10-24",
+        "updated_at": "2026-10-24",
+        "published_at": "2026-10-24T01:42:14.000Z",
+        "title": "彰化以南脫離颱風薔琵暴風圈　估傍晚解除陸警",
+        "rss_lead": "（中央社記者黃巧雯台北24日電）颱風薔琵強度減弱且暴風圈持續縮小，氣象署今天表示，目前彰化以南已脫離暴風圈，預計薔琵下午將減弱為輕颱，傍晚前後解除陸警，晚上至深夜解除海警。",
+        "summary": "彰化以南脫離颱風薔琵暴風圈　估傍晚解除陸警",
+        "categories": [
+          "生活"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-a64e1751f663fba4f49d",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/ahel/202610240032.aspx",
+            "published_at": "2026-10-24",
+            "excerpt": "彰化以南脫離颱風薔琵暴風圈　估傍晚解除陸警\n（中央社記者黃巧雯台北24日電）颱風薔琵強度減弱且暴風圈持續縮小，氣象署今天表示，目前彰化以南已脫離暴風圈，預計薔琵下午將減弱為輕颱，傍晚前後解除陸警，晚上至深夜解除海警。",
+            "section": "生活"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "颱風",
+            "kind": "生活用語",
+            "clue_options": [
+              {
+                "clue": "形成於西北太平洋的熱帶氣旋達到一定強度後的名稱，路徑與地形會左右災害。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "形成於西北太平洋的熱帶氣旋達到一定強度後的名稱，路徑與地形會左右災害。（2字）"
+          },
+          {
+            "word": "海警",
+            "kind": "專業用語",
+            "answer_domain": "environment",
+            "clue_options": [
+              {
+                "clue": "海上颱風警報的簡稱，發布依風暴對鄰近海域的預期威脅評估。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "海上颱風警報的簡稱，發布依風暴對鄰近海域的預期威脅評估。（2字）"
+          }
+        ],
+        "aliases": [
+          "cna-1763dd61ca1a8935f97d"
+        ],
+        "content_revision": "cna-1763dd61ca1a8935f97d"
+      },
+      {
+        "event_id": "cna-5882444ea27480e3167b",
+        "dedup_key": "https://www.cna.com.tw/news/ahel/202610240035.aspx",
+        "event_date": "2026-10-24",
+        "updated_at": "2026-10-24",
+        "published_at": "2026-10-24T01:50:20.000Z",
+        "title": "颱風薔琵逐漸遠離　台鐵24日中午12時起西部、東部幹線陸續復駛",
+        "rss_lead": "（中央社記者沈佩瑤台北24日電）颱風薔琵過境，台鐵公司表示，今天中午12時後西部、東部幹線等陸續恢復正常行駛，受颱風影響編組運用，部分列車截短或停駛，籲旅客出門前可先詢問台鐵最新運行資訊。",
+        "summary": "颱風薔琵逐漸遠離　台鐵24日中午12時起西部、東部幹線陸續復駛",
+        "categories": [
+          "生活"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-5e632dacfae579fcb96d",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/ahel/202610240035.aspx",
+            "published_at": "2026-10-24",
+            "excerpt": "颱風薔琵逐漸遠離　台鐵24日中午12時起西部、東部幹線陸續復駛\n（中央社記者沈佩瑤台北24日電）颱風薔琵過境，台鐵公司表示，今天中午12時後西部、東部幹線等陸續恢復正常行駛，受颱風影響編組運用，部分列車截短或停駛，籲旅客出門前可先詢問台鐵最新運行資訊。",
+            "section": "生活"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "颱風",
+            "kind": "生活用語",
+            "clue_options": [
+              {
+                "clue": "據報導，西北太平洋熱帶氣旋薔琵逐漸遠離　台鐵24日中午12時起西部、東部幹線陸續復駛。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "event",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              },
+              {
+                "clue": "形成於西北太平洋的熱帶氣旋達到一定強度後的名稱，路徑與地形會左右災害。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "據報導，西北太平洋熱帶氣旋薔琵逐漸遠離　台鐵24日中午12時起西部、東部幹線陸續復駛。（2字）"
+          }
+        ],
+        "aliases": [
+          "cna-5882444ea27480e3167b"
+        ],
+        "content_revision": "cna-5882444ea27480e3167b"
+      },
+      {
+        "event_id": "cna-4013532e8f588cba3629",
+        "dedup_key": "https://www.cna.com.tw/news/ahel/202610240040.aspx",
+        "event_date": "2026-10-24",
+        "updated_at": "2026-10-24",
+        "published_at": "2026-10-24T02:30:32.000Z",
+        "title": "颱風薔琵影響　海運6航線84航次停航",
+        "rss_lead": "（中央社記者黃巧雯台北24日電）颱風薔琵影響，交通部航港局表示，今天包括東港-小琉球在內，共有6航線、84航次停航；航空部分，民航局統計，截至上午10時，國內線取消145架次，國際暨兩岸航線取消114架次。",
+        "summary": "颱風薔琵影響　海運6航線84航次停航",
+        "categories": [
+          "生活"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-1efb177534f5a6bac42d",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/ahel/202610240040.aspx",
+            "published_at": "2026-10-24",
+            "excerpt": "颱風薔琵影響　海運6航線84航次停航\n（中央社記者黃巧雯台北24日電）颱風薔琵影響，交通部航港局表示，今天包括東港-小琉球在內，共有6航線、84航次停航；航空部分，民航局統計，截至上午10時，國內線取消145架次，國際暨兩岸航線取消114架次。",
+            "section": "生活"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "颱風",
+            "kind": "生活用語",
+            "clue_options": [
+              {
+                "clue": "據報導，西北太平洋熱帶氣旋薔琵影響　海運6航線84航次停航。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "event",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              },
+              {
+                "clue": "形成於西北太平洋的熱帶氣旋達到一定強度後的名稱，路徑與地形會左右災害。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "據報導，西北太平洋熱帶氣旋薔琵影響　海運6航線84航次停航。（2字）"
+          }
+        ],
+        "aliases": [
+          "cna-4013532e8f588cba3629"
+        ],
+        "content_revision": "cna-4013532e8f588cba3629"
+      },
+      {
+        "event_id": "cna-d80a1ede059b2b24a08a",
+        "dedup_key": "https://www.cna.com.tw/news/ahel/202610240042.aspx",
+        "event_date": "2026-10-24",
+        "updated_at": "2026-10-24",
+        "published_at": "2026-10-24T02:38:36.000Z",
+        "title": "光復節連假  桃機受颱風影響取消航班、旅運人次降低",
+        "rss_lead": "（中央社記者葉臻桃園24日電）光復節連假受薔琵颱風影響，桃園國際機場今天出入境人次預估從15萬降至11萬；昨天航班共有563架次取消、全日起降共230個航班，今天截至目前已取消261架次班機。",
+        "summary": "光復節連假  桃機受颱風影響取消航班、旅運人次降低",
+        "categories": [
+          "生活"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-c58274e4b002daf946a4",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/ahel/202610240042.aspx",
+            "published_at": "2026-10-24",
+            "excerpt": "光復節連假  桃機受颱風影響取消航班、旅運人次降低\n（中央社記者葉臻桃園24日電）光復節連假受薔琵颱風影響，桃園國際機場今天出入境人次預估從15萬降至11萬；昨天航班共有563架次取消、全日起降共230個航班，今天截至目前已取消261架次班機。",
+            "section": "生活"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "颱風",
+            "kind": "生活用語",
+            "clue_options": [
+              {
+                "clue": "形成於西北太平洋的熱帶氣旋達到一定強度後的名稱，路徑與地形會左右災害。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "形成於西北太平洋的熱帶氣旋達到一定強度後的名稱，路徑與地形會左右災害。（2字）"
+          }
+        ],
+        "aliases": [
+          "cna-d80a1ede059b2b24a08a"
+        ],
+        "content_revision": "cna-d80a1ede059b2b24a08a"
+      },
+      {
+        "event_id": "cna-766e2ec5b888a034658b",
+        "dedup_key": "https://www.cna.com.tw/news/ahel/202610240043.aspx",
+        "event_date": "2026-10-24",
+        "updated_at": "2026-10-24",
+        "published_at": "2026-10-24T02:38:38.000Z",
+        "title": "AI衝擊閱讀教育　學界倡批判思考不再只「找答案」",
+        "rss_lead": "（中央社記者陳至中台北24日電）AI科技的發展衝擊閱讀教育，許多教師都發現學生越來越沒耐心閱讀長文，獲取的資訊也流於碎片化。學界認為閱讀教育必須轉為更重視「問問題」和批判思考，不再只為「找答案」。",
+        "summary": "AI衝擊閱讀教育　學界倡批判思考不再只「找答案」",
+        "categories": [
+          "生活"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-c4aa063ca2c08ded6b4c",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/ahel/202610240043.aspx",
+            "published_at": "2026-10-24",
+            "excerpt": "AI衝擊閱讀教育　學界倡批判思考不再只「找答案」\n（中央社記者陳至中台北24日電）AI科技的發展衝擊閱讀教育，許多教師都發現學生越來越沒耐心閱讀長文，獲取的資訊也流於碎片化。學界認為閱讀教育必須轉為更重視「問問題」和批判思考，不再只為「找答案」。",
+            "section": "生活"
+          }
+        ],
+        "keywords": [],
+        "aliases": [
+          "cna-766e2ec5b888a034658b"
+        ],
+        "content_revision": "cna-766e2ec5b888a034658b"
+      },
+      {
+        "event_id": "cna-cc9bab7ffe4c15ac12d5",
+        "dedup_key": "https://www.cna.com.tw/news/ahel/202610240051.aspx",
+        "event_date": "2026-10-24",
+        "updated_at": "2026-10-24",
+        "published_at": "2026-10-24T03:11:55.000Z",
+        "title": "颱風薔琵使宿舍受損　文大：留宿生平安、物資完善",
+        "rss_lead": "（中央社記者陳至中台北24日電）颱風薔琵過境，位於陽明山上的中國文化大學，傳出宿舍天花板被吹翻、輕鋼架受損的災情。校方今天表示，目前留宿學生都平安，學校已籌備完善物資並發放，請家長放心。",
+        "summary": "颱風薔琵使宿舍受損　文大：留宿生平安、物資完善",
+        "categories": [
+          "生活"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-3cbd2e421175839d5daa",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/ahel/202610240051.aspx",
+            "published_at": "2026-10-24",
+            "excerpt": "颱風薔琵使宿舍受損　文大：留宿生平安、物資完善\n（中央社記者陳至中台北24日電）颱風薔琵過境，位於陽明山上的中國文化大學，傳出宿舍天花板被吹翻、輕鋼架受損的災情。校方今天表示，目前留宿學生都平安，學校已籌備完善物資並發放，請家長放心。",
+            "section": "生活"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "颱風",
+            "kind": "生活用語",
+            "clue_options": [
+              {
+                "clue": "據報導，西北太平洋熱帶氣旋薔琵使宿舍受損　文大：留宿生平安、物資完善。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "event",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              },
+              {
+                "clue": "形成於西北太平洋的熱帶氣旋達到一定強度後的名稱，路徑與地形會左右災害。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "據報導，西北太平洋熱帶氣旋薔琵使宿舍受損　文大：留宿生平安、物資完善。（2字）"
+          }
+        ],
+        "aliases": [
+          "cna-cc9bab7ffe4c15ac12d5"
+        ],
+        "content_revision": "cna-cc9bab7ffe4c15ac12d5"
+      },
+      {
+        "event_id": "cna-cc41cf61c18235ac07ec",
+        "dedup_key": "https://www.cna.com.tw/news/ahel/202610240060.aspx",
+        "event_date": "2026-10-24",
+        "updated_at": "2026-10-24",
+        "published_at": "2026-10-24T03:16:14.000Z",
+        "title": "萬那杜群島7.2地震　氣象署嚴密監視海嘯影響",
+        "rss_lead": "（中央社記者黃巧雯台北24日電）交通部中央氣象署今天上午10時44分發布海嘯消息，大洋洲萬那杜群島發生規模7.2地震，太平洋海嘯警報中心研判可能在太平洋地區引發海嘯威脅，氣象署將嚴密監視海嘯後續影響。",
+        "summary": "萬那杜群島7.2地震　氣象署嚴密監視海嘯影響",
+        "categories": [
+          "生活"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-b9a6210b8f08f5b85c8b",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/ahel/202610240060.aspx",
+            "published_at": "2026-10-24",
+            "excerpt": "萬那杜群島7.2地震　氣象署嚴密監視海嘯影響\n（中央社記者黃巧雯台北24日電）交通部中央氣象署今天上午10時44分發布海嘯消息，大洋洲萬那杜群島發生規模7.2地震，太平洋海嘯警報中心研判可能在太平洋地區引發海嘯威脅，氣象署將嚴密監視海嘯後續影響。",
+            "section": "生活"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "地震",
+            "kind": "生活用語",
+            "clue_options": [
+              {
+                "clue": "斷層錯動釋放能量造成地表震動，規模與各地感受強弱是不同概念。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "斷層錯動釋放能量造成地表震動，規模與各地感受強弱是不同概念。（2字）"
+          }
+        ],
+        "aliases": [
+          "cna-cc41cf61c18235ac07ec"
+        ],
+        "content_revision": "cna-cc41cf61c18235ac07ec"
       },
       {
         "event_id": "cna-0fcb9e6f3c904377ca35",
@@ -38178,6 +39497,155 @@
           "cna-91cfed503f9f89ebdb76"
         ],
         "content_revision": "cna-91cfed503f9f89ebdb76"
+      },
+      {
+        "event_id": "cna-1e3bc35ba50c98cd4ed9",
+        "dedup_key": "https://www.cna.com.tw/news/aipl/202610240020.aspx",
+        "event_date": "2026-10-24",
+        "updated_at": "2026-10-24",
+        "published_at": "2026-10-23T23:50:46.000Z",
+        "title": "造山者愛荷華州放映　駐美官員：台美關係唇齒相依",
+        "rss_lead": "（中央社記者廖漢原華盛頓23日專電）紀錄片「造山者－世紀的賭注」在美國愛荷華州立大學放映。駐芝加哥辦事處長類延峰指出，2300萬人口的台灣已是美國第4大貿易夥伴，顯示台美互利互補、理念契合與唇齒相依的關係。",
+        "summary": "造山者愛荷華州放映　駐美官員：台美關係唇齒相依",
+        "categories": [
+          "台灣"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-41e166ecf733f31506db",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aipl/202610240020.aspx",
+            "published_at": "2026-10-24",
+            "excerpt": "造山者愛荷華州放映　駐美官員：台美關係唇齒相依\n（中央社記者廖漢原華盛頓23日專電）紀錄片「造山者－世紀的賭注」在美國愛荷華州立大學放映。駐芝加哥辦事處長類延峰指出，2300萬人口的台灣已是美國第4大貿易夥伴，顯示台美互利互補、理念契合與唇齒相依的關係。",
+            "section": "台灣"
+          }
+        ],
+        "keywords": [],
+        "aliases": [
+          "cna-1e3bc35ba50c98cd4ed9"
+        ],
+        "content_revision": "cna-1e3bc35ba50c98cd4ed9"
+      },
+      {
+        "event_id": "cna-3d94817fe3ed57829016",
+        "dedup_key": "https://www.cna.com.tw/news/aipl/202610240028.aspx",
+        "event_date": "2026-10-24",
+        "updated_at": "2026-10-24",
+        "published_at": "2026-10-24T01:17:05.000Z",
+        "title": "中共1軍艦5公務船台海周邊活動　國軍嚴密監控",
+        "rss_lead": "（中央社記者吳書緯台北24日電）颱風薔琵襲台之際，中共持續襲擾台灣，國防部指出，自昨天上午6時至今天上午6時，偵獲共艦1艘及公務船5艘，持續在台海周邊活動，國軍嚴密監控與應處。",
+        "summary": "中共1軍艦5公務船台海周邊活動　國軍嚴密監控",
+        "categories": [
+          "台灣"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-f1ae9a2d0b16944d5a76",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aipl/202610240028.aspx",
+            "published_at": "2026-10-24",
+            "excerpt": "中共1軍艦5公務船台海周邊活動　國軍嚴密監控\n（中央社記者吳書緯台北24日電）颱風薔琵襲台之際，中共持續襲擾台灣，國防部指出，自昨天上午6時至今天上午6時，偵獲共艦1艘及公務船5艘，持續在台海周邊活動，國軍嚴密監控與應處。",
+            "section": "台灣"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "國防部",
+            "kind": "機關或組織",
+            "clue_options": [
+              {
+                "clue": "統籌軍政與軍備業務、其預算及採購須受民意監督的中央部會。（3字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 89,
+            "difficulty": "medium",
+            "clue": "統籌軍政與軍備業務、其預算及採購須受民意監督的中央部會。（3字）"
+          },
+          {
+            "word": "颱風",
+            "kind": "生活用語",
+            "clue_options": [
+              {
+                "clue": "形成於西北太平洋的熱帶氣旋達到一定強度後的名稱，路徑與地形會左右災害。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "形成於西北太平洋的熱帶氣旋達到一定強度後的名稱，路徑與地形會左右災害。（2字）"
+          },
+          {
+            "word": "國軍",
+            "kind": "專業用語",
+            "answer_domain": "politics",
+            "clue_options": [
+              {
+                "clue": "我國正規武裝部隊的統稱，受文人統制與國家法制規範。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "我國正規武裝部隊的統稱，受文人統制與國家法制規範。（2字）"
+          }
+        ],
+        "aliases": [
+          "cna-3d94817fe3ed57829016"
+        ],
+        "content_revision": "cna-3d94817fe3ed57829016"
+      },
+      {
+        "event_id": "cna-d1bf9d3f5babb6bf52ef",
+        "dedup_key": "https://www.cna.com.tw/news/aipl/202610240039.aspx",
+        "event_date": "2026-10-24",
+        "updated_at": "2026-10-24",
+        "published_at": "2026-10-24T02:29:29.000Z",
+        "title": "2025年國人平均壽命81.27歲　排除惡性腫瘤可增3.7歲",
+        "rss_lead": "（中央社記者吳書緯台北24日電）內政部今天公布「114年特定死因除外之簡易生命表」，去年國人一般平均壽命為81.27歲，若排除惡性腫瘤因素，可增加3.70歲，提升至84.97歲，為10大死因中影響最大者，若排除心臟疾病及肺炎則可分別提升1.54歲及1.13歲。",
+        "summary": "2025年國人平均壽命81.27歲　排除惡性腫瘤可增3.7歲",
+        "categories": [
+          "台灣"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-a4642e45a0a79b0277fc",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aipl/202610240039.aspx",
+            "published_at": "2026-10-24",
+            "excerpt": "2025年國人平均壽命81.27歲　排除惡性腫瘤可增3.7歲\n（中央社記者吳書緯台北24日電）內政部今天公布「114年特定死因除外之簡易生命表」，去年國人一般平均壽命為81.27歲，若排除惡性腫瘤因素，可增加3.70歲，提升至84.97歲，為10大死因中影響最大者，若排除心臟疾病及肺炎則可分別提升1.54歲及1.13歲。",
+            "section": "台灣"
+          }
+        ],
+        "keywords": [],
+        "aliases": [
+          "cna-d1bf9d3f5babb6bf52ef"
+        ],
+        "content_revision": "cna-d1bf9d3f5babb6bf52ef"
       },
       {
         "event_id": "cna-f483ce24dacba6882658",
@@ -48626,6 +50094,287 @@
           "cna-ccc9957d23b3cb27fb5a"
         ],
         "content_revision": "cna-ccc9957d23b3cb27fb5a"
+      },
+      {
+        "event_id": "cna-f98594436a0d9662cd9b",
+        "dedup_key": "https://www.cna.com.tw/news/aloc/202610240033.aspx",
+        "event_date": "2026-10-24",
+        "updated_at": "2026-10-24",
+        "published_at": "2026-10-24T01:43:16.000Z",
+        "title": "高雄地震深度5公里　最大震度4級",
+        "rss_lead": "（中央社台北24日電）根據中央氣象署最新資訊，24日9時25分發生芮氏規模4地震，地震深度5公里，震央位於高雄市政府東北方75.7公里(位於高雄市桃源區)，最大震度高雄市4級。（編輯：林恕暉）1151024",
+        "summary": "高雄地震深度5公里　最大震度4級",
+        "categories": [
+          "台灣"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-83cfd9550ad9db5200ff",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aloc/202610240033.aspx",
+            "published_at": "2026-10-24",
+            "excerpt": "高雄地震深度5公里　最大震度4級\n（中央社台北24日電）根據中央氣象署最新資訊，24日9時25分發生芮氏規模4地震，地震深度5公里，震央位於高雄市政府東北方75.7公里(位於高雄市桃源區)，最大震度高雄市4級。（編輯：林恕暉）1151024",
+            "section": "台灣"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "地震",
+            "kind": "生活用語",
+            "clue_options": [
+              {
+                "clue": "斷層錯動釋放能量造成地表震動，規模與各地感受強弱是不同概念。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "斷層錯動釋放能量造成地表震動，規模與各地感受強弱是不同概念。（2字）"
+          }
+        ],
+        "aliases": [
+          "cna-f98594436a0d9662cd9b"
+        ],
+        "content_revision": "cna-f98594436a0d9662cd9b"
+      },
+      {
+        "event_id": "cna-fdf4724754bc9f332f89",
+        "dedup_key": "https://www.cna.com.tw/news/aloc/202610240037.aspx",
+        "event_date": "2026-10-24",
+        "updated_at": "2026-10-24",
+        "published_at": "2026-10-24T02:08:25.000Z",
+        "title": "新北吳松標打造開心農場推廣綠化　里長多年同額競選",
+        "rss_lead": "（中央社記者曹亞沿新北24日電）新北市蘆洲區水湳里長吳松標服務鄉里20年，在里內設置魚菜共生等系統並將停車場打造為「開心農場」，更擅長將「四句聯」融入宣導獲在地好評，讓他多年來無競爭對手同額競選。",
+        "summary": "新北吳松標打造開心農場推廣綠化　里長多年同額競選",
+        "categories": [
+          "台灣"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-5f437d40e801e8ca75f3",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aloc/202610240037.aspx",
+            "published_at": "2026-10-24",
+            "excerpt": "新北吳松標打造開心農場推廣綠化　里長多年同額競選\n（中央社記者曹亞沿新北24日電）新北市蘆洲區水湳里長吳松標服務鄉里20年，在里內設置魚菜共生等系統並將停車場打造為「開心農場」，更擅長將「四句聯」融入宣導獲在地好評，讓他多年來無競爭對手同額競選。",
+            "section": "台灣"
+          }
+        ],
+        "keywords": [],
+        "aliases": [
+          "cna-fdf4724754bc9f332f89"
+        ],
+        "content_revision": "cna-fdf4724754bc9f332f89"
+      },
+      {
+        "event_id": "cna-1b076f3d49c1e9b92118",
+        "dedup_key": "https://www.cna.com.tw/news/aloc/202610240038.aspx",
+        "event_date": "2026-10-24",
+        "updated_at": "2026-10-24",
+        "published_at": "2026-10-24T02:10:27.000Z",
+        "title": "里長爭取逾2億工程　汐止伯爵山莊解決頻繁停水惡夢",
+        "rss_lead": "（中央社記者曹亞沿新北24日電）汐止伯爵山莊數千住戶曾長年飽受自來水管漏水、停水修理之苦，8年前25歲的郭書成選上汐止湖興里長，努力爭取政府2.8億元工程預算，終於解決住戶頻繁停水惡夢。",
+        "summary": "里長爭取逾2億工程　汐止伯爵山莊解決頻繁停水惡夢",
+        "categories": [
+          "台灣"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-0b3621e74e2aab1b2d95",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aloc/202610240038.aspx",
+            "published_at": "2026-10-24",
+            "excerpt": "里長爭取逾2億工程　汐止伯爵山莊解決頻繁停水惡夢\n（中央社記者曹亞沿新北24日電）汐止伯爵山莊數千住戶曾長年飽受自來水管漏水、停水修理之苦，8年前25歲的郭書成選上汐止湖興里長，努力爭取政府2.8億元工程預算，終於解決住戶頻繁停水惡夢。",
+            "section": "台灣"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "預算",
+            "kind": "專業用語",
+            "answer_domain": "economy",
+            "clue_options": [
+              {
+                "clue": "政府事先提出收入與支出計畫，須經民意機關審議的財政安排。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "政府事先提出收入與支出計畫，須經民意機關審議的財政安排。（2字）"
+          }
+        ],
+        "aliases": [
+          "cna-1b076f3d49c1e9b92118"
+        ],
+        "content_revision": "cna-1b076f3d49c1e9b92118"
+      },
+      {
+        "event_id": "cna-6546054068faa84c66f0",
+        "dedup_key": "https://www.cna.com.tw/news/aloc/202610240064.aspx",
+        "event_date": "2026-10-24",
+        "updated_at": "2026-10-24",
+        "published_at": "2026-10-24T03:29:23.000Z",
+        "title": "颱風薔琵釀北市1457件災情、31傷　蔣萬安：全力投入復原",
+        "rss_lead": "（中央社記者葉蓁芸台北24日電）颱風薔琵影響，截至今天上午7時，北市接獲災情通報1457件，其中750件為路樹災情，另有31人受傷。市長蔣萬安表示，這次颱風影響時間長、風雨強度高，各單位全力投入復原工作。",
+        "summary": "颱風薔琵釀北市1457件災情、31傷　蔣萬安：全力投入復原",
+        "categories": [
+          "台灣"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-5b988f39352a93995fd2",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aloc/202610240064.aspx",
+            "published_at": "2026-10-24",
+            "excerpt": "颱風薔琵釀北市1457件災情、31傷　蔣萬安：全力投入復原\n（中央社記者葉蓁芸台北24日電）颱風薔琵影響，截至今天上午7時，北市接獲災情通報1457件，其中750件為路樹災情，另有31人受傷。市長蔣萬安表示，這次颱風影響時間長、風雨強度高，各單位全力投入復原工作。",
+            "section": "台灣"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "颱風",
+            "kind": "生活用語",
+            "clue_options": [
+              {
+                "clue": "據報導，西北太平洋熱帶氣旋薔琵釀北市1457件災情、31傷　蔣萬安：全力投入復原。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "event",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              },
+              {
+                "clue": "形成於西北太平洋的熱帶氣旋達到一定強度後的名稱，路徑與地形會左右災害。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "據報導，西北太平洋熱帶氣旋薔琵釀北市1457件災情、31傷　蔣萬安：全力投入復原。（2字）"
+          }
+        ],
+        "aliases": [
+          "cna-6546054068faa84c66f0"
+        ],
+        "content_revision": "cna-6546054068faa84c66f0"
+      },
+      {
+        "event_id": "cna-ced752ce094d8d7cf433",
+        "dedup_key": "https://www.cna.com.tw/news/aloc/202610240066.aspx",
+        "event_date": "2026-10-24",
+        "updated_at": "2026-10-24",
+        "published_at": "2026-10-24T03:40:27.000Z",
+        "title": "路樹傾倒影響供電　宜蘭約9000戶待復電",
+        "rss_lead": "（中央社記者沈如峰宜蘭縣24日電）台灣電力股份有限公司宜蘭區營業處說，截至今天上午11時，宜蘭縣曾2萬3635戶停電，約9000戶待復電，主要多處路樹遭強風折斷影響供電，主要幹線多數正常供電，已動員搶修。",
+        "summary": "路樹傾倒影響供電　宜蘭約9000戶待復電",
+        "categories": [
+          "台灣"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-6d93f108c6eb0242f411",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aloc/202610240066.aspx",
+            "published_at": "2026-10-24",
+            "excerpt": "路樹傾倒影響供電　宜蘭約9000戶待復電\n（中央社記者沈如峰宜蘭縣24日電）台灣電力股份有限公司宜蘭區營業處說，截至今天上午11時，宜蘭縣曾2萬3635戶停電，約9000戶待復電，主要多處路樹遭強風折斷影響供電，主要幹線多數正常供電，已動員搶修。",
+            "section": "台灣"
+          }
+        ],
+        "keywords": [],
+        "aliases": [
+          "cna-ced752ce094d8d7cf433"
+        ],
+        "content_revision": "cna-ced752ce094d8d7cf433"
+      },
+      {
+        "event_id": "cna-22884ea8586ef06ff99a",
+        "dedup_key": "https://www.cna.com.tw/news/aloc/202610240068.aspx",
+        "event_date": "2026-10-24",
+        "updated_at": "2026-10-24",
+        "published_at": "2026-10-24T03:42:32.000Z",
+        "title": "颱風薔琵災後復原　新北中午後加班收運垃圾",
+        "rss_lead": "（中央社記者黃旭昇新北24日電）颱風薔琵過境，新北市截至今天上午8時累計受理災情544件，以招牌掉落、路樹傾倒居多。市府下午啟動環境復原及垃圾清運，今天中午過後加班收運垃圾；坪林、石碇區預計中午12時恢復供電。",
+        "summary": "颱風薔琵災後復原　新北中午後加班收運垃圾",
+        "categories": [
+          "台灣"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-cdb79f4385e20664b951",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aloc/202610240068.aspx",
+            "published_at": "2026-10-24",
+            "excerpt": "颱風薔琵災後復原　新北中午後加班收運垃圾\n（中央社記者黃旭昇新北24日電）颱風薔琵過境，新北市截至今天上午8時累計受理災情544件，以招牌掉落、路樹傾倒居多。市府下午啟動環境復原及垃圾清運，今天中午過後加班收運垃圾；坪林、石碇區預計中午12時恢復供電。",
+            "section": "台灣"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "颱風",
+            "kind": "生活用語",
+            "clue_options": [
+              {
+                "clue": "據報導，西北太平洋熱帶氣旋薔琵災後復原　新北中午後加班收運垃圾。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "event",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              },
+              {
+                "clue": "形成於西北太平洋的熱帶氣旋達到一定強度後的名稱，路徑與地形會左右災害。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "據報導，西北太平洋熱帶氣旋薔琵災後復原　新北中午後加班收運垃圾。（2字）"
+          }
+        ],
+        "aliases": [
+          "cna-22884ea8586ef06ff99a"
+        ],
+        "content_revision": "cna-22884ea8586ef06ff99a"
       },
       {
         "event_id": "cna-18fb995fa728e0b09d19",
@@ -62622,6 +64371,492 @@
         "content_revision": "cna-6b2a85757eb7768e8156"
       },
       {
+        "event_id": "cna-b508146580fe01c3c388",
+        "dedup_key": "https://www.cna.com.tw/news/aopl/202610240009.aspx",
+        "event_date": "2026-10-24",
+        "updated_at": "2026-10-24",
+        "published_at": "2026-10-23T19:54:17.000Z",
+        "title": "澤倫斯基：星鏈速度仍未恢復　盼烏美俄下月舉行工作會談",
+        "rss_lead": "（中央社記者廖漢原華盛頓23日專電）烏克蘭總統澤倫斯基今天在智庫哈德遜研究所視訊演說指出，星鏈與星盾仍未恢復速度，飛彈攔截系統也未到位，這是嚴重問題。他已與美方特使討論11月舉行烏、美、俄3方工作會談，希望美國對俄羅斯施壓參加會議。",
+        "summary": "澤倫斯基：星鏈速度仍未恢復　盼烏美俄下月舉行工作會談",
+        "categories": [
+          "國際"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-375b00190f88d8978e6e",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aopl/202610240009.aspx",
+            "published_at": "2026-10-24",
+            "excerpt": "澤倫斯基：星鏈速度仍未恢復　盼烏美俄下月舉行工作會談\n（中央社記者廖漢原華盛頓23日專電）烏克蘭總統澤倫斯基今天在智庫哈德遜研究所視訊演說指出，星鏈與星盾仍未恢復速度，飛彈攔截系統也未到位，這是嚴重問題。他已與美方特使討論11月舉行烏、美、俄3方工作會談，希望美國對俄羅斯施壓參加會議。",
+            "section": "國際"
+          }
+        ],
+        "keywords": [],
+        "aliases": [
+          "cna-b508146580fe01c3c388"
+        ],
+        "content_revision": "cna-b508146580fe01c3c388"
+      },
+      {
+        "event_id": "cna-a5806b819ca466f1b4b3",
+        "dedup_key": "https://www.cna.com.tw/news/aopl/202610240010.aspx",
+        "event_date": "2026-10-24",
+        "updated_at": "2026-10-24",
+        "published_at": "2026-10-23T20:47:20.000Z",
+        "title": "烏克蘭稱星鏈服務未完全恢復　川普：若還沒解決會跟馬斯克談",
+        "rss_lead": "（中央社記者侯姿瑩華盛頓23日專電）烏克蘭總統澤倫斯基今天表示，烏國使用星鏈（Starlink）的限制尚未完全解除。美國總統川普則說，會去了解情況；他之前聽說問題已經解決了，但如果還沒解決，他會跟星鏈母公司太空探索科技公司執行長馬斯克（Elon Musk）談。",
+        "summary": "烏克蘭稱星鏈服務未完全恢復　川普：若還沒解決會跟馬斯克談",
+        "categories": [
+          "國際"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-99c2248e0e5dab2c8af0",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aopl/202610240010.aspx",
+            "published_at": "2026-10-24",
+            "excerpt": "烏克蘭稱星鏈服務未完全恢復　川普：若還沒解決會跟馬斯克談\n（中央社記者侯姿瑩華盛頓23日專電）烏克蘭總統澤倫斯基今天表示，烏國使用星鏈（Starlink）的限制尚未完全解除。美國總統川普則說，會去了解情況；他之前聽說問題已經解決了，但如果還沒解決，他會跟星鏈母公司太空探索科技公司執行長馬斯克（Elon Musk）談。",
+            "section": "國際"
+          }
+        ],
+        "keywords": [],
+        "aliases": [
+          "cna-a5806b819ca466f1b4b3"
+        ],
+        "content_revision": "cna-a5806b819ca466f1b4b3"
+      },
+      {
+        "event_id": "cna-9c3e7e6d194e0cafccb8",
+        "dedup_key": "https://www.cna.com.tw/news/aopl/202610240018.aspx",
+        "event_date": "2026-10-24",
+        "updated_at": "2026-10-24",
+        "published_at": "2026-10-23T23:31:42.000Z",
+        "title": "巴西總統決選將登場　財政改革考驗下任領導人",
+        "rss_lead": "（中央社記者唐雅陵聖保羅23日專電）巴西總統大選第2輪投票將於25日登場，現任總統魯拉與右翼候選人佛拉維歐．波索納洛陷入激戰，民調顯示雙方幾近平手，焦點已轉向新政府能否化解高債務與經濟放緩等難題。",
+        "summary": "巴西總統決選將登場　財政改革考驗下任領導人",
+        "categories": [
+          "國際"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-a3519f12c383e215eab7",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aopl/202610240018.aspx",
+            "published_at": "2026-10-24",
+            "excerpt": "巴西總統決選將登場　財政改革考驗下任領導人\n（中央社記者唐雅陵聖保羅23日專電）巴西總統大選第2輪投票將於25日登場，現任總統魯拉與右翼候選人佛拉維歐．波索納洛陷入激戰，民調顯示雙方幾近平手，焦點已轉向新政府能否化解高債務與經濟放緩等難題。",
+            "section": "國際"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "財政",
+            "kind": "專業用語",
+            "answer_domain": "economy",
+            "clue_options": [
+              {
+                "clue": "政府籌措收入、安排支出與管理債務的公共經濟活動。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "政府籌措收入、安排支出與管理債務的公共經濟活動。（2字）"
+          }
+        ],
+        "aliases": [
+          "cna-9c3e7e6d194e0cafccb8"
+        ],
+        "content_revision": "cna-9c3e7e6d194e0cafccb8"
+      },
+      {
+        "event_id": "cna-601336556e2b6622f76c",
+        "dedup_key": "https://www.cna.com.tw/news/aopl/202610240021.aspx",
+        "event_date": "2026-10-24",
+        "updated_at": "2026-10-24",
+        "published_at": "2026-10-23T23:54:48.000Z",
+        "title": "川普警告伊朗不協議就動武　揚言發動新一輪軍事行動",
+        "rss_lead": "（中央社佛羅里達州邁爾斯堡23日綜合外電報導）美國總統川普今天表示，如果伊朗不與美國達成協議，美國可能會對伊朗發動新一輪軍事行動。",
+        "summary": "川普警告伊朗不協議就動武　揚言發動新一輪軍事行動",
+        "categories": [
+          "國際"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-70b33a1603a5033ada3a",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aopl/202610240021.aspx",
+            "published_at": "2026-10-24",
+            "excerpt": "川普警告伊朗不協議就動武　揚言發動新一輪軍事行動\n（中央社佛羅里達州邁爾斯堡23日綜合外電報導）美國總統川普今天表示，如果伊朗不與美國達成協議，美國可能會對伊朗發動新一輪軍事行動。",
+            "section": "國際"
+          }
+        ],
+        "keywords": [],
+        "aliases": [
+          "cna-601336556e2b6622f76c"
+        ],
+        "content_revision": "cna-601336556e2b6622f76c"
+      },
+      {
+        "event_id": "cna-fb892e8520f9285b03f1",
+        "dedup_key": "https://www.cna.com.tw/news/aopl/202610240022.aspx",
+        "event_date": "2026-10-24",
+        "updated_at": "2026-10-24",
+        "published_at": "2026-10-24T00:07:51.000Z",
+        "title": "中國資助在美孔子學院　美戰爭部認定威脅國安",
+        "rss_lead": "（中央社華盛頓23日綜合外電報導）美國戰爭部部長赫格塞斯（Pete Hegseth）今天表示，戰爭部已將設於大學校園內、由中國資助的文化中心「孔子學院」認定為威脅美國國家安全的機構。",
+        "summary": "中國資助在美孔子學院　美戰爭部認定威脅國安",
+        "categories": [
+          "國際"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-23b76670000ebd167124",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aopl/202610240022.aspx",
+            "published_at": "2026-10-24",
+            "excerpt": "中國資助在美孔子學院　美戰爭部認定威脅國安\n（中央社華盛頓23日綜合外電報導）美國戰爭部部長赫格塞斯（Pete Hegseth）今天表示，戰爭部已將設於大學校園內、由中國資助的文化中心「孔子學院」認定為威脅美國國家安全的機構。",
+            "section": "國際"
+          }
+        ],
+        "keywords": [],
+        "aliases": [
+          "cna-fb892e8520f9285b03f1"
+        ],
+        "content_revision": "cna-fb892e8520f9285b03f1"
+      },
+      {
+        "event_id": "cna-716aeb8fed41f64aacae",
+        "dedup_key": "https://www.cna.com.tw/news/aopl/202610240023.aspx",
+        "event_date": "2026-10-24",
+        "updated_at": "2026-10-24",
+        "published_at": "2026-10-24T00:51:53.000Z",
+        "title": "張婉瑩涉監控賴總統之子　出庭不認罪11月底審判",
+        "rss_lead": "（中央社記者林宏翰洛杉磯23日專電）中國裔加州房地產經紀人張婉瑩涉嫌接受中國官員指示在美國監控總統賴清德的兒子，她今天在洛杉磯聯邦法院出庭，對共謀及未登記充當中國代理人等罪名不認罪。",
+        "summary": "張婉瑩涉監控賴總統之子　出庭不認罪11月底審判",
+        "categories": [
+          "國際"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-ab32ed0a79dbbe7b92bf",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aopl/202610240023.aspx",
+            "published_at": "2026-10-24",
+            "excerpt": "張婉瑩涉監控賴總統之子　出庭不認罪11月底審判\n（中央社記者林宏翰洛杉磯23日專電）中國裔加州房地產經紀人張婉瑩涉嫌接受中國官員指示在美國監控總統賴清德的兒子，她今天在洛杉磯聯邦法院出庭，對共謀及未登記充當中國代理人等罪名不認罪。",
+            "section": "國際"
+          }
+        ],
+        "keywords": [],
+        "aliases": [
+          "cna-716aeb8fed41f64aacae"
+        ],
+        "content_revision": "cna-716aeb8fed41f64aacae"
+      },
+      {
+        "event_id": "cna-594220efd806c363b08e",
+        "dedup_key": "https://www.cna.com.tw/news/aopl/202610240029.aspx",
+        "event_date": "2026-10-24",
+        "updated_at": "2026-10-24",
+        "published_at": "2026-10-24T01:20:07.000Z",
+        "title": "美國施壓古巴　川普談軍事干預盧比歐籲民合作",
+        "rss_lead": "（中央社華盛頓23日綜合外電報導）美國總統川普今天在佛州造勢集會再提軍事干預的構想，表示伊朗戰事解決後將處理古巴問題。美國國務卿盧比歐今天也呼籲古巴人民與美國情報機關「低調」合作。",
+        "summary": "美國施壓古巴　川普談軍事干預盧比歐籲民合作",
+        "categories": [
+          "國際"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-a667c84db5650794638e",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aopl/202610240029.aspx",
+            "published_at": "2026-10-24",
+            "excerpt": "美國施壓古巴　川普談軍事干預盧比歐籲民合作\n（中央社華盛頓23日綜合外電報導）美國總統川普今天在佛州造勢集會再提軍事干預的構想，表示伊朗戰事解決後將處理古巴問題。美國國務卿盧比歐今天也呼籲古巴人民與美國情報機關「低調」合作。",
+            "section": "國際"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "情報",
+            "kind": "專業用語",
+            "answer_domain": "international",
+            "clue_options": [
+              {
+                "clue": "經蒐集、分析供安全決策使用的資訊，分享範圍取決於合作與信任。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "經蒐集、分析供安全決策使用的資訊，分享範圍取決於合作與信任。（2字）"
+          }
+        ],
+        "aliases": [
+          "cna-594220efd806c363b08e"
+        ],
+        "content_revision": "cna-594220efd806c363b08e"
+      },
+      {
+        "event_id": "cna-2e5caa8ac13908826257",
+        "dedup_key": "https://www.cna.com.tw/news/aopl/202610240031.aspx",
+        "event_date": "2026-10-24",
+        "updated_at": "2026-10-24",
+        "published_at": "2026-10-24T01:35:11.000Z",
+        "title": "英團體揭首相官邸也能預訂　訂房網站：與各方合作打擊詐騙",
+        "rss_lead": "（中央社記者陳韻聿倫敦23日專電）英國消費者權益組織Which?揭露，訂房網站Booking.com的詐騙防堵和資訊安全措施不足，未能預防民眾誤信首相官邸出租廣告並因此預付房費。Booking.com一名發言人表示，安全、信任與個資保護是公司首要關切，將持續與相關單位合作，打擊網路犯罪和詐騙。",
+        "summary": "英團體揭首相官邸也能預訂　訂房網站：與各方合作打擊詐騙",
+        "categories": [
+          "財經"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-aaab9a026d8e7ea6ab00",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aopl/202610240031.aspx",
+            "published_at": "2026-10-24",
+            "excerpt": "英團體揭首相官邸也能預訂　訂房網站：與各方合作打擊詐騙\n（中央社記者陳韻聿倫敦23日專電）英國消費者權益組織Which?揭露，訂房網站Booking.com的詐騙防堵和資訊安全措施不足，未能預防民眾誤信首相官邸出租廣告並因此預付房費。Booking.com一名發言人表示，安全、信任與個資保護是公司首要關切，將持續與相關單位合作，打擊網路犯罪和詐騙。",
+            "section": "財經"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "詐騙",
+            "kind": "專業用語",
+            "answer_domain": "society",
+            "clue_options": [
+              {
+                "clue": "利用虛假訊息使人陷於錯誤並交付財物，常見手法包含假投資與冒名來電。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "利用虛假訊息使人陷於錯誤並交付財物，常見手法包含假投資與冒名來電。（2字）"
+          },
+          {
+            "word": "網路",
+            "kind": "專業用語",
+            "answer_domain": "technology",
+            "clue_options": [
+              {
+                "clue": "連結設備與資訊的通訊系統，便利性也帶來身分冒用與攻擊風險。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "連結設備與資訊的通訊系統，便利性也帶來身分冒用與攻擊風險。（2字）"
+          }
+        ],
+        "aliases": [
+          "cna-2e5caa8ac13908826257"
+        ],
+        "content_revision": "cna-2e5caa8ac13908826257"
+      },
+      {
+        "event_id": "cna-d94c34946a31fcefc369",
+        "dedup_key": "https://www.cna.com.tw/news/aopl/202610240036.aspx",
+        "event_date": "2026-10-24",
+        "updated_at": "2026-10-24",
+        "published_at": "2026-10-24T02:08:23.000Z",
+        "title": "憂2候選人同名引混淆　美司法部阻阿拉斯加選舉認證",
+        "rss_lead": "（中央社華盛頓23日綜合外電報導）美國司法部昨天提起訴訟，要求預先阻止阿拉斯加州在現任共和黨參議員以些微差距敗選時認證參議員選舉結果，表示由於選票上有兩名共和黨人名字雷同，可能讓選民感到混淆。",
+        "summary": "憂2候選人同名引混淆　美司法部阻阿拉斯加選舉認證",
+        "categories": [
+          "國際"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-6f659f023685966e5c68",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aopl/202610240036.aspx",
+            "published_at": "2026-10-24",
+            "excerpt": "憂2候選人同名引混淆　美司法部阻阿拉斯加選舉認證\n（中央社華盛頓23日綜合外電報導）美國司法部昨天提起訴訟，要求預先阻止阿拉斯加州在現任共和黨參議員以些微差距敗選時認證參議員選舉結果，表示由於選票上有兩名共和黨人名字雷同，可能讓選民感到混淆。",
+            "section": "國際"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "選舉",
+            "kind": "專業用語",
+            "answer_domain": "politics",
+            "clue_options": [
+              {
+                "clue": "由選民投票產生公職代表的制度，結果仍須接受法定程序及監督。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "由選民投票產生公職代表的制度，結果仍須接受法定程序及監督。（2字）"
+          }
+        ],
+        "aliases": [
+          "cna-d94c34946a31fcefc369"
+        ],
+        "content_revision": "cna-d94c34946a31fcefc369"
+      },
+      {
+        "event_id": "cna-1a5de0e698f30748180d",
+        "dedup_key": "https://www.cna.com.tw/news/aopl/202610240046.aspx",
+        "event_date": "2026-10-24",
+        "updated_at": "2026-10-24",
+        "published_at": "2026-10-24T02:49:45.000Z",
+        "title": "川普豁免部分加拿大商品50%關稅　助參議員柯林斯拚連任",
+        "rss_lead": "（中央社華盛頓23日綜合外電報導）緬因州共和黨籍現任聯邦參議員陷入激烈連任戰之際，美國總統川普今天簽署行政命令，取消針對部分加拿大農產品及林木產品課徵的50%關稅，此舉可能使該州企業受益。",
+        "summary": "川普豁免部分加拿大商品50%關稅　助參議員柯林斯拚連任",
+        "categories": [
+          "國際"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-5295681bc02c81d1594a",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aopl/202610240046.aspx",
+            "published_at": "2026-10-24",
+            "excerpt": "川普豁免部分加拿大商品50%關稅　助參議員柯林斯拚連任\n（中央社華盛頓23日綜合外電報導）緬因州共和黨籍現任聯邦參議員陷入激烈連任戰之際，美國總統川普今天簽署行政命令，取消針對部分加拿大農產品及林木產品課徵的50%關稅，此舉可能使該州企業受益。",
+            "section": "國際"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "關稅",
+            "kind": "財經用語",
+            "clue_options": [
+              {
+                "clue": "跨境貨物的稅負，除增加財政收入，也可能提高進口品售價。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "跨境貨物的稅負，除增加財政收入，也可能提高進口品售價。（2字）"
+          }
+        ],
+        "aliases": [
+          "cna-1a5de0e698f30748180d"
+        ],
+        "content_revision": "cna-1a5de0e698f30748180d"
+      },
+      {
+        "event_id": "cna-291123edeefdcc0ae2b0",
+        "dedup_key": "https://www.cna.com.tw/news/aopl/202610240061.aspx",
+        "event_date": "2026-10-24",
+        "updated_at": "2026-10-24",
+        "published_at": "2026-10-24T03:17:16.000Z",
+        "title": "萬那杜外海規模7.2地震　引發海嘯警報",
+        "rss_lead": "（中央社雪梨24日綜合外電報導）太平洋海嘯警報中心（Pacific Tsunami Warning Center）表示，萬那杜外海今天發生規模7.2地震，並引發海嘯警報。",
+        "summary": "萬那杜外海規模7.2地震　引發海嘯警報",
+        "categories": [
+          "國際"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-27dd76b66093c22dc161",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aopl/202610240061.aspx",
+            "published_at": "2026-10-24",
+            "excerpt": "萬那杜外海規模7.2地震　引發海嘯警報\n（中央社雪梨24日綜合外電報導）太平洋海嘯警報中心（Pacific Tsunami Warning Center）表示，萬那杜外海今天發生規模7.2地震，並引發海嘯警報。",
+            "section": "國際"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "地震",
+            "kind": "生活用語",
+            "clue_options": [
+              {
+                "clue": "斷層錯動釋放能量造成地表震動，規模與各地感受強弱是不同概念。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "斷層錯動釋放能量造成地表震動，規模與各地感受強弱是不同概念。（2字）"
+          }
+        ],
+        "aliases": [
+          "cna-291123edeefdcc0ae2b0"
+        ],
+        "content_revision": "cna-291123edeefdcc0ae2b0"
+      },
+      {
         "event_id": "cna-23caae14c4becdced52e",
         "dedup_key": "https://www.cna.com.tw/news/asoc/202610180036.aspx",
         "event_date": "2026-10-18",
@@ -69767,9 +72002,9 @@
         "event_date": "2026-10-23",
         "updated_at": "2026-10-23",
         "published_at": "2026-10-23T14:18:32.000Z",
-        "title": "颱風薔琵來襲　1死350傷",
+        "title": "颱風薔琵襲台　釀1死350傷",
         "rss_lead": "（中央社記者劉建邦台北23日電）中央災害應變中心今天表示，颱風薔琵襲台期間全台有1人死亡、350人受傷，受傷新增187人，包含台中、彰化等件數多，以擦挫傷等輕傷為主，一般災情則是路樹倒塌件數最多。",
-        "summary": "颱風薔琵來襲　1死350傷",
+        "summary": "颱風薔琵襲台　釀1死350傷",
         "categories": [
           "台灣"
         ],
@@ -69779,12 +72014,12 @@
         "anchor_event": false,
         "sources": [
           {
-            "source_id": "rss-7729f3f1365b6f7f7a1f",
+            "source_id": "rss-8d58befbf1d91633723f",
             "publisher": "中央通訊社",
             "kind": "newswire",
             "url": "https://www.cna.com.tw/news/asoc/202610230277.aspx",
             "published_at": "2026-10-23",
-            "excerpt": "颱風薔琵來襲　1死350傷\n（中央社記者劉建邦台北23日電）中央災害應變中心今天表示，颱風薔琵襲台期間全台有1人死亡、350人受傷，受傷新增187人，包含台中、彰化等件數多，以擦挫傷等輕傷為主，一般災情則是路樹倒塌件數最多。",
+            "excerpt": "颱風薔琵襲台　釀1死350傷\n（中央社記者劉建邦台北23日電）中央災害應變中心今天表示，颱風薔琵襲台期間全台有1人死亡、350人受傷，受傷新增187人，包含台中、彰化等件數多，以擦挫傷等輕傷為主，一般災情則是路樹倒塌件數最多。",
             "section": "台灣"
           }
         ],
@@ -69794,7 +72029,7 @@
             "kind": "生活用語",
             "clue_options": [
               {
-                "clue": "據報導，西北太平洋熱帶氣旋薔琵來襲　1死350傷。（2字）",
+                "clue": "據報導，西北太平洋熱帶氣旋薔琵襲台　釀1死350傷。（2字）",
                 "clue_style": "magazine-v1",
                 "clue_kind": "event",
                 "clue_profile": "experienced-adults-v1",
@@ -69810,13 +72045,244 @@
             ],
             "answer_score": 86,
             "difficulty": "medium",
-            "clue": "據報導，西北太平洋熱帶氣旋薔琵來襲　1死350傷。（2字）"
+            "clue": "據報導，西北太平洋熱帶氣旋薔琵襲台　釀1死350傷。（2字）"
           }
         ],
         "aliases": [
           "cna-ddb17c0bd2f090926811"
         ],
         "content_revision": "cna-ddb17c0bd2f090926811"
+      },
+      {
+        "event_id": "cna-49c570687e94aae3f6d8",
+        "dedup_key": "https://www.cna.com.tw/news/asoc/202610240012.aspx",
+        "event_date": "2026-10-24",
+        "updated_at": "2026-10-24",
+        "published_at": "2026-10-23T21:06:24.000Z",
+        "title": "台灣東部海域發生規模5地震　最大震度花蓮縣3級",
+        "rss_lead": "（中央社台北24日電）根據中央氣象署最新資訊，24日4時48分發生芮氏規模5地震，地震深度15.4公里，震央位於花蓮縣政府東南東方31.2公里(位於臺灣東部海域)，最大震度花蓮縣3級。1151024",
+        "summary": "台灣東部海域發生規模5地震　最大震度花蓮縣3級",
+        "categories": [
+          "台灣"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-e8556594a903d5a74e4d",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/asoc/202610240012.aspx",
+            "published_at": "2026-10-24",
+            "excerpt": "台灣東部海域發生規模5地震　最大震度花蓮縣3級\n（中央社台北24日電）根據中央氣象署最新資訊，24日4時48分發生芮氏規模5地震，地震深度15.4公里，震央位於花蓮縣政府東南東方31.2公里(位於臺灣東部海域)，最大震度花蓮縣3級。1151024",
+            "section": "台灣"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "地震",
+            "kind": "生活用語",
+            "clue_options": [
+              {
+                "clue": "斷層錯動釋放能量造成地表震動，規模與各地感受強弱是不同概念。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "斷層錯動釋放能量造成地表震動，規模與各地感受強弱是不同概念。（2字）"
+          }
+        ],
+        "aliases": [
+          "cna-49c570687e94aae3f6d8"
+        ],
+        "content_revision": "cna-49c570687e94aae3f6d8"
+      },
+      {
+        "event_id": "cna-9295fea37d1fba0cdbba",
+        "dedup_key": "https://www.cna.com.tw/news/asoc/202610240044.aspx",
+        "event_date": "2026-10-24",
+        "updated_at": "2026-10-24",
+        "published_at": "2026-10-24T02:47:40.000Z",
+        "title": "颱風薔琵襲台1死527傷　路樹傾倒災情件數多",
+        "rss_lead": "（中央社記者劉建邦台北24日電）中央災害應變中心今天說，颱風薔琵造成1人死亡、527人受傷，傷者多數擦挫傷等輕傷，災情包括路樹傾倒、電線掉落或水管等民生基礎設施毀損、廣告招牌掉落及建物鐵皮被吹倒等。",
+        "summary": "颱風薔琵襲台1死527傷　路樹傾倒災情件數多",
+        "categories": [
+          "台灣"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-92127644c464174cc46b",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/asoc/202610240044.aspx",
+            "published_at": "2026-10-24",
+            "excerpt": "颱風薔琵襲台1死527傷　路樹傾倒災情件數多\n（中央社記者劉建邦台北24日電）中央災害應變中心今天說，颱風薔琵造成1人死亡、527人受傷，傷者多數擦挫傷等輕傷，災情包括路樹傾倒、電線掉落或水管等民生基礎設施毀損、廣告招牌掉落及建物鐵皮被吹倒等。",
+            "section": "台灣"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "颱風",
+            "kind": "生活用語",
+            "clue_options": [
+              {
+                "clue": "據報導，西北太平洋熱帶氣旋薔琵襲台1死527傷　路樹傾倒災情件數多。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "event",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              },
+              {
+                "clue": "形成於西北太平洋的熱帶氣旋達到一定強度後的名稱，路徑與地形會左右災害。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "據報導，西北太平洋熱帶氣旋薔琵襲台1死527傷　路樹傾倒災情件數多。（2字）"
+          }
+        ],
+        "aliases": [
+          "cna-9295fea37d1fba0cdbba"
+        ],
+        "content_revision": "cna-9295fea37d1fba0cdbba"
+      },
+      {
+        "event_id": "cna-905ec3f327fa72df7fb5",
+        "dedup_key": "https://www.cna.com.tw/news/asoc/202610240047.aspx",
+        "event_date": "2026-10-24",
+        "updated_at": "2026-10-24",
+        "published_at": "2026-10-24T02:56:47.000Z",
+        "title": "颱風薔琵釀逾千起台中災情　網傳假圖警送辦6人",
+        "rss_lead": "（中央社記者蘇木春台中24日電）台中市長盧秀燕今天表示，全市共獲報超過1000起颱風薔琵災情、164人受傷，影響近年少見；另大甲區速食店招牌倒塌人工智慧（AI）假訊息案，警方已查獲6人依法送辦。",
+        "summary": "颱風薔琵釀逾千起台中災情　網傳假圖警送辦6人",
+        "categories": [
+          "台灣"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-69a46b3313eb2b36dc5b",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/asoc/202610240047.aspx",
+            "published_at": "2026-10-24",
+            "excerpt": "颱風薔琵釀逾千起台中災情　網傳假圖警送辦6人\n（中央社記者蘇木春台中24日電）台中市長盧秀燕今天表示，全市共獲報超過1000起颱風薔琵災情、164人受傷，影響近年少見；另大甲區速食店招牌倒塌人工智慧（AI）假訊息案，警方已查獲6人依法送辦。",
+            "section": "台灣"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "人工智慧",
+            "kind": "科技用語",
+            "clue_options": [
+              {
+                "clue": "讓系統從資料學習並執行辨識、預測或生成工作的技術領域。（4字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 92,
+            "difficulty": "medium",
+            "clue": "讓系統從資料學習並執行辨識、預測或生成工作的技術領域。（4字）"
+          },
+          {
+            "word": "颱風",
+            "kind": "生活用語",
+            "clue_options": [
+              {
+                "clue": "據報導，西北太平洋熱帶氣旋薔琵釀逾千起台中災情　網傳假圖警送辦6人。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "event",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              },
+              {
+                "clue": "形成於西北太平洋的熱帶氣旋達到一定強度後的名稱，路徑與地形會左右災害。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "據報導，西北太平洋熱帶氣旋薔琵釀逾千起台中災情　網傳假圖警送辦6人。（2字）"
+          }
+        ],
+        "aliases": [
+          "cna-905ec3f327fa72df7fb5"
+        ],
+        "content_revision": "cna-905ec3f327fa72df7fb5"
+      },
+      {
+        "event_id": "cna-511e1aa90deb54e0f5eb",
+        "dedup_key": "https://www.cna.com.tw/news/asoc/202610240048.aspx",
+        "event_date": "2026-10-24",
+        "updated_at": "2026-10-24",
+        "published_at": "2026-10-24T03:10:49.000Z",
+        "title": "推妻子接棒參選　台東陳姓里長夫妻涉餐會賄選遭羈押",
+        "rss_lead": "（中央社記者盧太城台東縣24日電）台東市現任陳姓里長準備交棒給張姓妻子，由妻子登記參選里長，夫妻涉嫌餐會賄選均被羈押禁見；另張姓市民代表參選人發送普渡供品涉賄選同樣羈押禁見。",
+        "summary": "推妻子接棒參選　台東陳姓里長夫妻涉餐會賄選遭羈押",
+        "categories": [
+          "台灣"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-ec8dc2fb2905f8c1f50a",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/asoc/202610240048.aspx",
+            "published_at": "2026-10-24",
+            "excerpt": "推妻子接棒參選　台東陳姓里長夫妻涉餐會賄選遭羈押\n（中央社記者盧太城台東縣24日電）台東市現任陳姓里長準備交棒給張姓妻子，由妻子登記參選里長，夫妻涉嫌餐會賄選均被羈押禁見；另張姓市民代表參選人發送普渡供品涉賄選同樣羈押禁見。",
+            "section": "台灣"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "羈押",
+            "kind": "專業用語",
+            "answer_domain": "society",
+            "clue_options": [
+              {
+                "clue": "審判確定前，法院依逃亡或串證等法定事由限制被告自由的處分。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "審判確定前，法院依逃亡或串證等法定事由限制被告自由的處分。（2字）"
+          }
+        ],
+        "aliases": [
+          "cna-511e1aa90deb54e0f5eb"
+        ],
+        "content_revision": "cna-511e1aa90deb54e0f5eb"
       },
       {
         "event_id": "cna-1b9c1a4cce369d876f92",
@@ -74058,14 +76524,33 @@
         "kind": "生活用語",
         "answer_score": 86,
         "difficulty": "medium",
-        "clue": "據報導，西北太平洋熱帶氣旋薔琵路徑偏西 大屯山三貂角測出17級陣風。（2字）",
-        "id": "cna-d53cbaa296f6d661849f::颱風",
-        "event_id": "cna-d53cbaa296f6d661849f",
-        "event_revision": "cna-d53cbaa296f6d661849f",
+        "clue": "據報導，西北太平洋熱帶氣旋薔琵災後復原　新北中午後加班收運垃圾。（2字）",
+        "id": "cna-22884ea8586ef06ff99a::颱風",
+        "event_id": "cna-22884ea8586ef06ff99a",
+        "event_revision": "cna-22884ea8586ef06ff99a",
         "source_support": [
           {
-            "source_id": "rss-8645cee7188c71127b6a",
-            "evidence": "颱風薔琵路徑偏西 大屯山三貂角測出17級陣風\n（中央社記者余曉涵台北23日電）颱風薔琵過去路徑偏西，氣象署表示，若路徑未如預期往南的話，不排除中心會掠過東北角跟宜蘭陸地。"
+            "source_id": "rss-cdb79f4385e20664b951",
+            "evidence": "颱風薔琵災後復原　新北中午後加班收運垃圾\n（中央社記者黃旭昇新北24日電）颱風薔琵過境，新北市截至今天上午8時累計受理災情544件，以招牌掉落、路樹傾倒居多。"
+          }
+        ],
+        "clue_style": "magazine-v1",
+        "clue_kind": "event",
+        "clue_profile": "experienced-adults-v1"
+      },
+      {
+        "word": "工研院",
+        "kind": "機關或組織",
+        "answer_score": 89,
+        "difficulty": "medium",
+        "clue": "據報導，某機關或組織擬工業區建稀土廠　拚2030年50%需求自給自足。（3字）",
+        "id": "cna-5e11ba35a587edcb660c::工研院",
+        "event_id": "cna-5e11ba35a587edcb660c",
+        "event_revision": "cna-5e11ba35a587edcb660c",
+        "source_support": [
+          {
+            "source_id": "rss-2cd3c41ad32eeb58194a",
+            "evidence": "工研院擬工業區建稀土廠　拚2030年50%需求自給自足\n工研院張培仁專訪（中央社記者張建中新竹24日電）中國為全球最大稀土生產與出口國，並實施出口管制，引發國際關注。"
           }
         ],
         "clue_style": "magazine-v1",
@@ -74648,13 +77133,346 @@
         "answer_score": 86,
         "difficulty": "medium",
         "clue": "斷層錯動釋放能量造成地表震動，規模與各地感受強弱是不同概念。（2字）",
-        "id": "cna-ccc9957d23b3cb27fb5a::地震",
-        "event_id": "cna-ccc9957d23b3cb27fb5a",
-        "event_revision": "cna-ccc9957d23b3cb27fb5a",
+        "id": "cna-291123edeefdcc0ae2b0::地震",
+        "event_id": "cna-291123edeefdcc0ae2b0",
+        "event_revision": "cna-291123edeefdcc0ae2b0",
         "source_support": [
           {
-            "source_id": "rss-fff5d5ebdd9fdb1f58d5",
-            "evidence": "台灣東部海域發生規模4.8地震　最大震度花蓮、南投縣3級\n（中央社台北24日電）根據中央氣象署最新資訊，24日4時58分發生芮氏規模4.8地震，地震深度16.8公里，震央位於花蓮縣政府東南東方30.4公里(位於臺灣東部海域)，最大震度花蓮縣、南投縣3級。"
+            "source_id": "rss-27dd76b66093c22dc161",
+            "evidence": "萬那杜外海規模7.2地震　引發海嘯警報\n（中央社雪梨24日綜合外電報導）太平洋海嘯警報中心（Pacific Tsunami Warning Center）表示，萬那杜外海今天發生規模7.2地震，並引發海嘯警報。"
+          }
+        ],
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning",
+        "clue_profile": "experienced-adults-v1"
+      },
+      {
+        "word": "人工智慧",
+        "kind": "科技用語",
+        "answer_score": 92,
+        "difficulty": "medium",
+        "clue": "讓系統從資料學習並執行辨識、預測或生成工作的技術領域。（4字）",
+        "id": "cna-f9586584f10cb8bc0b81::人工智慧",
+        "event_id": "cna-f9586584f10cb8bc0b81",
+        "event_revision": "cna-f9586584f10cb8bc0b81",
+        "source_support": [
+          {
+            "source_id": "rss-b4f608d08c1f8bd57e4e",
+            "evidence": "AI衝擊就業　中國發布文件要求管控風險、開發新職業\n（中央社台北24日電）針對人工智慧（AI）對就業的衝擊，中國國務院昨天印發意見，要求企業探索建立「失業緩衝期」制度，提供轉職就業支持，同時加快開發與AI相關的新職業。"
+          }
+        ],
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning",
+        "clue_profile": "experienced-adults-v1"
+      },
+      {
+        "word": "就業",
+        "kind": "財經用語",
+        "answer_score": 86,
+        "difficulty": "medium",
+        "clue": "人力投入有報酬工作的狀態，產業轉型時須兼顧技能與職缺的配合。（2字）",
+        "id": "cna-f9586584f10cb8bc0b81::就業",
+        "event_id": "cna-f9586584f10cb8bc0b81",
+        "event_revision": "cna-f9586584f10cb8bc0b81",
+        "source_support": [
+          {
+            "source_id": "rss-b4f608d08c1f8bd57e4e",
+            "evidence": "AI衝擊就業　中國發布文件要求管控風險、開發新職業\n（中央社台北24日電）針對人工智慧（AI）對就業的衝擊，中國國務院昨天印發意見，要求企業探索建立「失業緩衝期」制度，提供轉職就業支持，同時加快開發與AI相關的新職業。"
+          }
+        ],
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning",
+        "clue_profile": "experienced-adults-v1"
+      },
+      {
+        "word": "羈押",
+        "kind": "專業用語",
+        "answer_domain": "society",
+        "answer_score": 86,
+        "difficulty": "medium",
+        "clue": "審判確定前，法院依逃亡或串證等法定事由限制被告自由的處分。（2字）",
+        "id": "cna-511e1aa90deb54e0f5eb::羈押",
+        "event_id": "cna-511e1aa90deb54e0f5eb",
+        "event_revision": "cna-511e1aa90deb54e0f5eb",
+        "source_support": [
+          {
+            "source_id": "rss-ec8dc2fb2905f8c1f50a",
+            "evidence": "推妻子接棒參選　台東陳姓里長夫妻涉餐會賄選遭羈押\n（中央社記者盧太城台東縣24日電）台東市現任陳姓里長準備交棒給張姓妻子，由妻子登記參選里長，夫妻涉嫌餐會賄選均被羈押禁見；另張姓市民代表參選人發送普渡供品涉賄選同樣羈押禁見。"
+          }
+        ],
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning",
+        "clue_profile": "experienced-adults-v1"
+      },
+      {
+        "word": "關稅",
+        "kind": "財經用語",
+        "answer_score": 86,
+        "difficulty": "medium",
+        "clue": "跨境貨物的稅負，除增加財政收入，也可能提高進口品售價。（2字）",
+        "id": "cna-1a5de0e698f30748180d::關稅",
+        "event_id": "cna-1a5de0e698f30748180d",
+        "event_revision": "cna-1a5de0e698f30748180d",
+        "source_support": [
+          {
+            "source_id": "rss-5295681bc02c81d1594a",
+            "evidence": "川普豁免部分加拿大商品50%關稅　助參議員柯林斯拚連任\n（中央社華盛頓23日綜合外電報導）緬因州共和黨籍現任聯邦參議員陷入激烈連任戰之際，美國總統川普今天簽署行政命令，取消針對部分加拿大農產品及林木產品課徵的50%關稅，此舉可能使該州企業受益。"
+          }
+        ],
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning",
+        "clue_profile": "experienced-adults-v1"
+      },
+      {
+        "word": "外交部",
+        "kind": "機關或組織",
+        "answer_score": 89,
+        "difficulty": "medium",
+        "clue": "辦理對外關係與領事事務，並在海外事故時協調急難協助的中央部會。（3字）",
+        "id": "cna-75b3609d57d8e391dc74::外交部",
+        "event_id": "cna-75b3609d57d8e391dc74",
+        "event_revision": "cna-75b3609d57d8e391dc74",
+        "source_support": [
+          {
+            "source_id": "rss-6e54866ada2bc261de2f",
+            "evidence": "中國外長王毅：中美有責任管控好人工智慧\n（中央社記者李雅雯台北24日電）中國外交部長王毅在會晤美國亞洲協會董事會共同主席桑頓、紐約時報專欄作家佛里曼時表示，中美有能力也有責任共同發展好、管控好人工智慧（AI），不僅要防範風險也要展開合作。"
+          }
+        ],
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning",
+        "clue_profile": "experienced-adults-v1"
+      },
+      {
+        "word": "預算",
+        "kind": "專業用語",
+        "answer_domain": "economy",
+        "answer_score": 86,
+        "difficulty": "medium",
+        "clue": "政府事先提出收入與支出計畫，須經民意機關審議的財政安排。（2字）",
+        "id": "cna-1b076f3d49c1e9b92118::預算",
+        "event_id": "cna-1b076f3d49c1e9b92118",
+        "event_revision": "cna-1b076f3d49c1e9b92118",
+        "source_support": [
+          {
+            "source_id": "rss-0b3621e74e2aab1b2d95",
+            "evidence": "里長爭取逾2億工程　汐止伯爵山莊解決頻繁停水惡夢\n（中央社記者曹亞沿新北24日電）汐止伯爵山莊數千住戶曾長年飽受自來水管漏水、停水修理之苦，8年前25歲的郭書成選上汐止湖興里長，努力爭取政府2.8億元工程預算，終於解決住戶頻繁停水惡夢。"
+          }
+        ],
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning",
+        "clue_profile": "experienced-adults-v1"
+      },
+      {
+        "word": "選舉",
+        "kind": "專業用語",
+        "answer_domain": "politics",
+        "answer_score": 86,
+        "difficulty": "medium",
+        "clue": "由選民投票產生公職代表的制度，結果仍須接受法定程序及監督。（2字）",
+        "id": "cna-d94c34946a31fcefc369::選舉",
+        "event_id": "cna-d94c34946a31fcefc369",
+        "event_revision": "cna-d94c34946a31fcefc369",
+        "source_support": [
+          {
+            "source_id": "rss-6f659f023685966e5c68",
+            "evidence": "憂2候選人同名引混淆　美司法部阻阿拉斯加選舉認證\n（中央社華盛頓23日綜合外電報導）美國司法部昨天提起訴訟，要求預先阻止阿拉斯加州在現任共和黨參議員以些微差距敗選時認證參議員選舉結果，表示由於選票上有兩名共和黨人名字雷同，可能讓選民感到混淆。"
+          }
+        ],
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning",
+        "clue_profile": "experienced-adults-v1"
+      },
+      {
+        "word": "補助",
+        "kind": "財經用語",
+        "answer_score": 86,
+        "difficulty": "medium",
+        "clue": "政府提供資源支持特定公共目的的措施，應有法源、條件及財源安排。（2字）",
+        "id": "cna-95bd0a28f6dbe924c6a4::補助",
+        "event_id": "cna-95bd0a28f6dbe924c6a4",
+        "event_revision": "cna-95bd0a28f6dbe924c6a4",
+        "source_support": [
+          {
+            "source_id": "rss-7b16336aa73a88b7f844",
+            "evidence": "據統計，去年包括土銀、第一銀均發出超過新台幣6100萬元補助金。"
+          }
+        ],
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning",
+        "clue_profile": "experienced-adults-v1"
+      },
+      {
+        "word": "海警",
+        "kind": "專業用語",
+        "answer_domain": "environment",
+        "answer_score": 86,
+        "difficulty": "medium",
+        "clue": "海上颱風警報的簡稱，發布依風暴對鄰近海域的預期威脅評估。（2字）",
+        "id": "cna-1763dd61ca1a8935f97d::海警",
+        "event_id": "cna-1763dd61ca1a8935f97d",
+        "event_revision": "cna-1763dd61ca1a8935f97d",
+        "source_support": [
+          {
+            "source_id": "rss-a64e1751f663fba4f49d",
+            "evidence": "彰化以南脫離颱風薔琵暴風圈　估傍晚解除陸警\n（中央社記者黃巧雯台北24日電）颱風薔琵強度減弱且暴風圈持續縮小，氣象署今天表示，目前彰化以南已脫離暴風圈，預計薔琵下午將減弱為輕颱，傍晚前後解除陸警，晚上至深夜解除海警。"
+          }
+        ],
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning",
+        "clue_profile": "experienced-adults-v1"
+      },
+      {
+        "word": "網路",
+        "kind": "專業用語",
+        "answer_domain": "technology",
+        "answer_score": 86,
+        "difficulty": "medium",
+        "clue": "連結設備與資訊的通訊系統，便利性也帶來身分冒用與攻擊風險。（2字）",
+        "id": "cna-2e5caa8ac13908826257::網路",
+        "event_id": "cna-2e5caa8ac13908826257",
+        "event_revision": "cna-2e5caa8ac13908826257",
+        "source_support": [
+          {
+            "source_id": "rss-aaab9a026d8e7ea6ab00",
+            "evidence": "Booking.com一名發言人表示，安全、信任與個資保護是公司首要關切，將持續與相關單位合作，打擊網路犯罪和詐騙。"
+          }
+        ],
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning",
+        "clue_profile": "experienced-adults-v1"
+      },
+      {
+        "word": "詐騙",
+        "kind": "專業用語",
+        "answer_domain": "society",
+        "answer_score": 86,
+        "difficulty": "medium",
+        "clue": "利用虛假訊息使人陷於錯誤並交付財物，常見手法包含假投資與冒名來電。（2字）",
+        "id": "cna-2e5caa8ac13908826257::詐騙",
+        "event_id": "cna-2e5caa8ac13908826257",
+        "event_revision": "cna-2e5caa8ac13908826257",
+        "source_support": [
+          {
+            "source_id": "rss-aaab9a026d8e7ea6ab00",
+            "evidence": "英團體揭首相官邸也能預訂　訂房網站：與各方合作打擊詐騙\n（中央社記者陳韻聿倫敦23日專電）英國消費者權益組織Which?揭露，訂房網站Booking.com的詐騙防堵和資訊安全措施不足，未能預防民眾誤信首相官邸出租廣告並因此預付房費。"
+          }
+        ],
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning",
+        "clue_profile": "experienced-adults-v1"
+      },
+      {
+        "word": "少子化",
+        "kind": "生活用語",
+        "answer_score": 89,
+        "difficulty": "medium",
+        "clue": "出生人口長期減少的趨勢，會連動學校規模、勞動供給與代間負擔。（3字）",
+        "id": "cna-98293a18cba861cd8637::少子化",
+        "event_id": "cna-98293a18cba861cd8637",
+        "event_revision": "cna-98293a18cba861cd8637",
+        "source_support": [
+          {
+            "source_id": "rss-e1ad4aeacd1660e27fb1",
+            "evidence": "搶救少子化　行庫加碼生育補助今年前8月逾760人申請\n（中央社記者呂晏慈台北24日電）因應少子化挑戰，不少企業開始加入「催生」行列，公股行庫也持續加碼生育補助，第1胎最高新台幣12萬元、第3胎以上最高25萬元，今年前8月已有超過760人申請，以支持員工建立家庭並兼顧育兒需求。"
+          }
+        ],
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning",
+        "clue_profile": "experienced-adults-v1"
+      },
+      {
+        "word": "情報",
+        "kind": "專業用語",
+        "answer_domain": "international",
+        "answer_score": 86,
+        "difficulty": "medium",
+        "clue": "經蒐集、分析供安全決策使用的資訊，分享範圍取決於合作與信任。（2字）",
+        "id": "cna-594220efd806c363b08e::情報",
+        "event_id": "cna-594220efd806c363b08e",
+        "event_revision": "cna-594220efd806c363b08e",
+        "source_support": [
+          {
+            "source_id": "rss-a667c84db5650794638e",
+            "evidence": "美國國務卿盧比歐今天也呼籲古巴人民與美國情報機關「低調」合作。"
+          }
+        ],
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning",
+        "clue_profile": "experienced-adults-v1"
+      },
+      {
+        "word": "國防部",
+        "kind": "機關或組織",
+        "answer_score": 89,
+        "difficulty": "medium",
+        "clue": "統籌軍政與軍備業務、其預算及採購須受民意監督的中央部會。（3字）",
+        "id": "cna-3d94817fe3ed57829016::國防部",
+        "event_id": "cna-3d94817fe3ed57829016",
+        "event_revision": "cna-3d94817fe3ed57829016",
+        "source_support": [
+          {
+            "source_id": "rss-f1ae9a2d0b16944d5a76",
+            "evidence": "中共1軍艦5公務船台海周邊活動　國軍嚴密監控\n（中央社記者吳書緯台北24日電）颱風薔琵襲台之際，中共持續襲擾台灣，國防部指出，自昨天上午6時至今天上午6時，偵獲共艦1艘及公務船5艘，持續在台海周邊活動，國軍嚴密監控與應處。"
+          }
+        ],
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning",
+        "clue_profile": "experienced-adults-v1"
+      },
+      {
+        "word": "國軍",
+        "kind": "專業用語",
+        "answer_domain": "politics",
+        "answer_score": 86,
+        "difficulty": "medium",
+        "clue": "我國正規武裝部隊的統稱，受文人統制與國家法制規範。（2字）",
+        "id": "cna-3d94817fe3ed57829016::國軍",
+        "event_id": "cna-3d94817fe3ed57829016",
+        "event_revision": "cna-3d94817fe3ed57829016",
+        "source_support": [
+          {
+            "source_id": "rss-f1ae9a2d0b16944d5a76",
+            "evidence": "中共1軍艦5公務船台海周邊活動　國軍嚴密監控\n（中央社記者吳書緯台北24日電）颱風薔琵襲台之際，中共持續襲擾台灣，國防部指出，自昨天上午6時至今天上午6時，偵獲共艦1艘及公務船5艘，持續在台海周邊活動，國軍嚴密監控與應處。"
+          }
+        ],
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning",
+        "clue_profile": "experienced-adults-v1"
+      },
+      {
+        "word": "出口管制",
+        "kind": "專業用語",
+        "answer_domain": "international",
+        "answer_score": 92,
+        "difficulty": "medium",
+        "clue": "基於安全等理由，限制敏感貨品、技術或服務向境外移轉的措施。（4字）",
+        "id": "cna-5e11ba35a587edcb660c::出口管制",
+        "event_id": "cna-5e11ba35a587edcb660c",
+        "event_revision": "cna-5e11ba35a587edcb660c",
+        "source_support": [
+          {
+            "source_id": "rss-2cd3c41ad32eeb58194a",
+            "evidence": "工研院擬工業區建稀土廠　拚2030年50%需求自給自足\n工研院張培仁專訪（中央社記者張建中新竹24日電）中國為全球最大稀土生產與出口國，並實施出口管制，引發國際關注。"
+          }
+        ],
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning",
+        "clue_profile": "experienced-adults-v1"
+      },
+      {
+        "word": "財政",
+        "kind": "專業用語",
+        "answer_domain": "economy",
+        "answer_score": 86,
+        "difficulty": "medium",
+        "clue": "政府籌措收入、安排支出與管理債務的公共經濟活動。（2字）",
+        "id": "cna-9c3e7e6d194e0cafccb8::財政",
+        "event_id": "cna-9c3e7e6d194e0cafccb8",
+        "event_revision": "cna-9c3e7e6d194e0cafccb8",
+        "source_support": [
+          {
+            "source_id": "rss-a3519f12c383e215eab7",
+            "evidence": "巴西總統決選將登場　財政改革考驗下任領導人\n（中央社記者唐雅陵聖保羅23日專電）巴西總統大選第2輪投票將於25日登場，現任總統魯拉與右翼候選人佛拉維歐．波索納洛陷入激戰，民調顯示雙方幾近平手，焦點已轉向新政府能否化解高債務與經濟放緩等難題。"
           }
         ],
         "clue_style": "magazine-v1",
@@ -74668,13 +77486,32 @@
         "answer_score": 89,
         "difficulty": "medium",
         "clue": "豪雨時水與泥砂、石塊混合向下移動的災害，常威脅溪谷聚落。（3字）",
-        "id": "cna-173aff7d0e5fce5964aa::土石流",
-        "event_id": "cna-173aff7d0e5fce5964aa",
-        "event_revision": "cna-173aff7d0e5fce5964aa",
+        "id": "cna-7042890d26ce49446e72::土石流",
+        "event_id": "cna-7042890d26ce49446e72",
+        "event_revision": "cna-7042890d26ce49446e72",
         "source_support": [
           {
-            "source_id": "rss-80418fe933a60dff6a94",
-            "evidence": "氣象署發布豪雨特報　慎防宜蘭雙北桃竹苗發生豪大雨\n（中央社台北24日電）中央氣象署發布豪雨特報，第29號颱風及其外圍環流影響，今(24)日宜蘭縣山區有局部大豪雨或超大豪雨，臺北市山區、新北市山區、桃園市山區、新竹縣山區、苗栗縣山區有局部豪雨或大豪雨，基隆市地區、臺北市地區、新北市地區、桃園市地區、新竹縣地區、苗栗縣地區、宜蘭縣地區、臺中市山區、雲林縣山區、嘉義縣山區、南投縣山區、花蓮縣山區有局部大雨或豪雨，新竹、臺中、臺南、南投、花蓮地區及高雄、屏東山區有局部大雨發生的機率，請注意瞬間大雨，山區請慎防坍方、落石、土石流，低窪地區請慎防積淹水，應避免前往山區及溪流活動。"
+            "source_id": "rss-ca98a93cbe0b373f85cf",
+            "evidence": "氣象署發布豪雨特報　宜蘭山區出現超大豪雨、桃園山區大豪雨\n（中央社台北24日電）中央氣象署發布豪雨特報，(更正)第29號颱風及其外圍環流影響，宜蘭縣山區已有超大豪雨，桃園市山區已有大豪雨，今(24)日臺北市、新北市、桃園市、新竹縣、苗栗縣山區仍有局部大雨或豪雨發生的機率，臺中以北、南投、宜蘭、臺南地區及雲林以南山區有局部大雨發生的機率，請注意瞬間大雨，山區請慎防坍方、落石、土石流，低窪地區請慎防積淹水，應避免前往山區及溪流活動。"
+          }
+        ],
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning",
+        "clue_profile": "experienced-adults-v1"
+      },
+      {
+        "word": "油價",
+        "kind": "財經用語",
+        "answer_score": 86,
+        "difficulty": "medium",
+        "clue": "運輸成本與民生物價的重要變數，常隨產油國政策及航道風險波動。（2字）",
+        "id": "cna-677473c98642636aab5f::油價",
+        "event_id": "cna-677473c98642636aab5f",
+        "event_revision": "cna-677473c98642636aab5f",
+        "source_support": [
+          {
+            "source_id": "rss-72ed8b7240f7d81b41b5",
+            "evidence": "油價勁揚和AI支出引憂　美股互有漲跌\n（中央社紐約23日綜合外電報導）布倫特原油價格攀升至4月底以來最高水準，加上市場對人工智慧（AI）支出感到憂慮，美股今天互有漲跌。"
           }
         ],
         "clue_style": "magazine-v1",
@@ -74695,25 +77532,6 @@
           {
             "source_id": "rss-4c98b4b4d71836704719",
             "evidence": "美第一夫人促成俄烏在奧列什基停火　川普：她想拯救孩童\n（中央社記者侯姿瑩華盛頓23日專電）美國第一夫人梅蘭妮亞（Melania Trump）促成俄羅斯與烏克蘭在俄方控制的烏南城鎮奧列什基（Oleshky）停火。"
-          }
-        ],
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning",
-        "clue_profile": "experienced-adults-v1"
-      },
-      {
-        "word": "油價",
-        "kind": "財經用語",
-        "answer_score": 86,
-        "difficulty": "medium",
-        "clue": "運輸成本與民生物價的重要變數，常隨產油國政策及航道風險波動。（2字）",
-        "id": "cna-eb78490a04523c9deb62::油價",
-        "event_id": "cna-eb78490a04523c9deb62",
-        "event_revision": "cna-eb78490a04523c9deb62",
-        "source_support": [
-          {
-            "source_id": "rss-96f79243c749dec2b8b1",
-            "evidence": "油價勁揚和企業財報欠佳　歐股收黑\n（中央社倫敦23日綜合外電報導）受油價勁揚，以及古馳（Gucci）母公司開雲集團（Kering）與瑞典富豪汽車（Volvo Cars）財報表現欠佳等影響，歐洲股市今天收黑。"
           }
         ],
         "clue_style": "magazine-v1",
@@ -74753,26 +77571,6 @@
           {
             "source_id": "rss-70e61a34cbf2e75c678d",
             "evidence": "載運首批俄柴油貨輪估11/7抵美　克宮僅證實船隻啟航\n（中央社紐約23日綜合外電報導）船舶追蹤數據顯示，美國總統川普與俄羅斯達成一項令人意料的協議後，載運首批俄柴油的油輪啟航，估11月7日抵美。"
-          }
-        ],
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning",
-        "clue_profile": "experienced-adults-v1"
-      },
-      {
-        "word": "出口管制",
-        "kind": "專業用語",
-        "answer_domain": "international",
-        "answer_score": 92,
-        "difficulty": "medium",
-        "clue": "基於安全等理由，限制敏感貨品、技術或服務向境外移轉的措施。（4字）",
-        "id": "cna-bb52b31a8230f252b68a::出口管制",
-        "event_id": "cna-bb52b31a8230f252b68a",
-        "event_revision": "cna-bb52b31a8230f252b68a",
-        "source_support": [
-          {
-            "source_id": "rss-880f4180f6a769d1e0bb",
-            "evidence": "中國提出把半導體設備廠艾司摩爾的德國供應商Sindlhauser從出口管制清單中移除，以換取歐盟撤銷制裁湖北玉莎集團，該公司被指向俄羅斯買家出售敏感歐洲科技。"
           }
         ],
         "clue_style": "magazine-v1",
@@ -74857,46 +77655,6 @@
         "clue_profile": "experienced-adults-v1"
       },
       {
-        "word": "國軍",
-        "kind": "專業用語",
-        "answer_domain": "politics",
-        "answer_score": 86,
-        "difficulty": "medium",
-        "clue": "我國正規武裝部隊的統稱，受文人統制與國家法制規範。（2字）",
-        "id": "cna-ceb60495803436c228cb::國軍",
-        "event_id": "cna-ceb60495803436c228cb",
-        "event_revision": "cna-ceb60495803436c228cb",
-        "source_support": [
-          {
-            "source_id": "rss-5caad0b3a84ab67eb179",
-            "evidence": "憂車載感測器蒐集情報　美軍禁比亞迪進沖繩嘉手納基地\n（中央社首爾23日綜合外電報導）韓聯社今天報導，在華府將中國汽車製造商比亞迪列入其認定協助中國軍方的企業名單後，美軍出於安全考量，已禁止比亞迪電動車進入美軍駐日本空軍基地。"
-          }
-        ],
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning",
-        "clue_profile": "experienced-adults-v1"
-      },
-      {
-        "word": "情報",
-        "kind": "專業用語",
-        "answer_domain": "international",
-        "answer_score": 86,
-        "difficulty": "medium",
-        "clue": "經蒐集、分析供安全決策使用的資訊，分享範圍取決於合作與信任。（2字）",
-        "id": "cna-ceb60495803436c228cb::情報",
-        "event_id": "cna-ceb60495803436c228cb",
-        "event_revision": "cna-ceb60495803436c228cb",
-        "source_support": [
-          {
-            "source_id": "rss-5caad0b3a84ab67eb179",
-            "evidence": "憂車載感測器蒐集情報　美軍禁比亞迪進沖繩嘉手納基地\n（中央社首爾23日綜合外電報導）韓聯社今天報導，在華府將中國汽車製造商比亞迪列入其認定協助中國軍方的企業名單後，美軍出於安全考量，已禁止比亞迪電動車進入美軍駐日本空軍基地。"
-          }
-        ],
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning",
-        "clue_profile": "experienced-adults-v1"
-      },
-      {
         "word": "醫療",
         "kind": "生活用語",
         "answer_score": 86,
@@ -74935,25 +77693,6 @@
         "clue_profile": "experienced-adults-v1"
       },
       {
-        "word": "就業",
-        "kind": "財經用語",
-        "answer_score": 86,
-        "difficulty": "medium",
-        "clue": "人力投入有報酬工作的狀態，產業轉型時須兼顧技能與職缺的配合。（2字）",
-        "id": "cna-3a5c4532c78cea6864e8::就業",
-        "event_id": "cna-3a5c4532c78cea6864e8",
-        "event_revision": "cna-3a5c4532c78cea6864e8",
-        "source_support": [
-          {
-            "source_id": "rss-4fa2f10f30080301cf2f",
-            "evidence": "115年非典工作者占比14年新低　有子女婦女勞參率逼近8成\n（中央社記者潘姿羽台北23日電）主計總處今天公布最新人力運用調查統計，結果顯示，115年5月非典型（部分時間、臨時性或人力派遣）工作者計79.3萬人，占全體就業人數6.82%，為102年以來最低水準。"
-          }
-        ],
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning",
-        "clue_profile": "experienced-adults-v1"
-      },
-      {
         "word": "托育",
         "kind": "生活用語",
         "answer_score": 86,
@@ -74966,45 +77705,6 @@
           {
             "source_id": "rss-4fa2f10f30080301cf2f",
             "evidence": "另外，主計總處也指出，政策支持托育之下，有子女婦女勞動力參與率已接近8成，創波段新高。"
-          }
-        ],
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning",
-        "clue_profile": "experienced-adults-v1"
-      },
-      {
-        "word": "詐騙",
-        "kind": "專業用語",
-        "answer_domain": "society",
-        "answer_score": 86,
-        "difficulty": "medium",
-        "clue": "利用虛假訊息使人陷於錯誤並交付財物，常見手法包含假投資與冒名來電。（2字）",
-        "id": "cna-aea3935e3784f140c102::詐騙",
-        "event_id": "cna-aea3935e3784f140c102",
-        "event_revision": "cna-aea3935e3784f140c102",
-        "source_support": [
-          {
-            "source_id": "rss-7581f30e9150116017b4",
-            "evidence": "藏身別墅公寓詐騙　大馬警逮15嫌多為中國人\n（中央社記者黃自強吉隆坡23日專電）馬來西亞柔佛州警方接連破獲3個詐騙集團，搜查公寓及豪華別墅等至少7處場所，逮捕15人，其中多數為中國人；社區治安關懷組織人士呼籲加強刑事究責，屋主也應留意出租住宅是否遭利用為詐騙據點。"
-          }
-        ],
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning",
-        "clue_profile": "experienced-adults-v1"
-      },
-      {
-        "word": "外交部",
-        "kind": "機關或組織",
-        "answer_score": 89,
-        "difficulty": "medium",
-        "clue": "辦理對外關係與領事事務，並在海外事故時協調急難協助的中央部會。（3字）",
-        "id": "cna-0abb19899aae80508832::外交部",
-        "event_id": "cna-0abb19899aae80508832",
-        "event_revision": "cna-0abb19899aae80508832",
-        "source_support": [
-          {
-            "source_id": "rss-625c1463c95869de01e3",
-            "evidence": "印度深化與波蘭合作　盼雙邊貿易額翻倍\n（中央社記者李晉緯新德里23日專電）印度不斷深化和波蘭在經濟、戰略上的合作，印度外交部負責西方事務的高階官員喬治（Sibi George）表示，兩國期盼在2030年前，將雙邊貿易額翻倍，突破120億美元（約新台幣3911億元）大關。"
           }
         ],
         "clue_style": "magazine-v1",
@@ -75052,65 +77752,6 @@
         "clue_profile": "experienced-adults-v1"
       },
       {
-        "word": "網路",
-        "kind": "專業用語",
-        "answer_domain": "technology",
-        "answer_score": 86,
-        "difficulty": "medium",
-        "clue": "連結設備與資訊的通訊系統，便利性也帶來身分冒用與攻擊風險。（2字）",
-        "id": "cna-099f04b3a910d7f4f3a5::網路",
-        "event_id": "cna-099f04b3a910d7f4f3a5",
-        "event_revision": "cna-099f04b3a910d7f4f3a5",
-        "source_support": [
-          {
-            "source_id": "rss-b7aa846b4cae4b94821d",
-            "evidence": "出國熱潮帶動　民眾前9月網路投保保費收入年增近2成\n（中央社記者蘇思云台北23日電）金管會公布2026年前9月網路投保情形，產險業與壽險業前9月網路投保件數合計833.5萬件，年成長17.79%，保費收入新台幣54.36億元，年增18.17%。"
-          }
-        ],
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning",
-        "clue_profile": "experienced-adults-v1"
-      },
-      {
-        "word": "補助",
-        "kind": "財經用語",
-        "answer_score": 86,
-        "difficulty": "medium",
-        "clue": "政府提供資源支持特定公共目的的措施，應有法源、條件及財源安排。（2字）",
-        "id": "cna-992935c690544428fe71::補助",
-        "event_id": "cna-992935c690544428fe71",
-        "event_revision": "cna-992935c690544428fe71",
-        "source_support": [
-          {
-            "source_id": "rss-f3055356a30dde963654",
-            "evidence": "藍質疑曠世智能獲政府投資補助　蘇巧慧陣營：依法辦理\n（中央社記者王承中、曹亞沿台北22日電）民進黨新北市長參選人蘇巧慧的妹妹蘇巧純擔任董事的曠世智能獲政府投資，國民黨發言人呂家愷今天質疑申請及審查過程；蘇巧慧競選辦公室表示，蘇巧純並非曠世智能負責人，申請補助時均依主管機關要求據實填寫相關表格，強調團隊將持續以正面方式迎戰選舉。"
-          }
-        ],
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning",
-        "clue_profile": "experienced-adults-v1"
-      },
-      {
-        "word": "選舉",
-        "kind": "專業用語",
-        "answer_domain": "politics",
-        "answer_score": 86,
-        "difficulty": "medium",
-        "clue": "由選民投票產生公職代表的制度，結果仍須接受法定程序及監督。（2字）",
-        "id": "cna-992935c690544428fe71::選舉",
-        "event_id": "cna-992935c690544428fe71",
-        "event_revision": "cna-992935c690544428fe71",
-        "source_support": [
-          {
-            "source_id": "rss-f3055356a30dde963654",
-            "evidence": "藍質疑曠世智能獲政府投資補助　蘇巧慧陣營：依法辦理\n（中央社記者王承中、曹亞沿台北22日電）民進黨新北市長參選人蘇巧慧的妹妹蘇巧純擔任董事的曠世智能獲政府投資，國民黨發言人呂家愷今天質疑申請及審查過程；蘇巧慧競選辦公室表示，蘇巧純並非曠世智能負責人，申請補助時均依主管機關要求據實填寫相關表格，強調團隊將持續以正面方式迎戰選舉。"
-          }
-        ],
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning",
-        "clue_profile": "experienced-adults-v1"
-      },
-      {
         "word": "肺癌",
         "kind": "生活用語",
         "answer_score": 86,
@@ -75123,26 +77764,6 @@
           {
             "source_id": "rss-78c8dabdd80f79bec522",
             "evidence": "教宗良十四世肺癌術後休養　遵醫囑缺席阿西西和平集會\n（中央社梵蒂岡23日綜合外電報導）梵蒂岡今天表示，天主教教宗良十四世（Pope Leo XIV）因剛接受肺癌手術正在復原中，在醫師建議下，將不出席下週在義大利阿西西（Assisi）舉行的和平集會。"
-          }
-        ],
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning",
-        "clue_profile": "experienced-adults-v1"
-      },
-      {
-        "word": "羈押",
-        "kind": "專業用語",
-        "answer_domain": "society",
-        "answer_score": 86,
-        "difficulty": "medium",
-        "clue": "審判確定前，法院依逃亡或串證等法定事由限制被告自由的處分。（2字）",
-        "id": "cna-ef466ab35ca06aa85d0e::羈押",
-        "event_id": "cna-ef466ab35ca06aa85d0e",
-        "event_revision": "cna-ef466ab35ca06aa85d0e",
-        "source_support": [
-          {
-            "source_id": "rss-3c36d1b3cff8b6d81074",
-            "evidence": "金門議員參選人涉現金買票賄選　檢聲押禁見獲准\n（中央社記者吳玟嶸金門23日電）董姓金門縣議員參選人涉現金買票賄選，2名樁腳日前遭羈押，檢方指揮警調持續偵辦溯源，傳喚董姓參選人到案偵訊。"
           }
         ],
         "clue_style": "magazine-v1",
@@ -75367,44 +77988,6 @@
         "clue_profile": "experienced-adults-v1"
       },
       {
-        "word": "關稅",
-        "kind": "財經用語",
-        "answer_score": 86,
-        "difficulty": "medium",
-        "clue": "跨境貨物的稅負，除增加財政收入，也可能提高進口品售價。（2字）",
-        "id": "cna-ee24415c7fb5e0561267::關稅",
-        "event_id": "cna-ee24415c7fb5e0561267",
-        "event_revision": "cna-ee24415c7fb5e0561267",
-        "source_support": [
-          {
-            "source_id": "rss-c82a98e4e48ba4eededb",
-            "evidence": "Volvo宣布全球裁員2500人　因應美國關稅和中國競爭衝擊\n（中央社斯德哥爾摩23日綜合外電報導）瑞典富豪汽車（Volvo Cars）今天表示，受美國關稅和中國品牌競爭激烈影響，導致第3季出現赤字，將在全球裁員約2500人，持續在極其艱困的環境中營運。"
-          }
-        ],
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning",
-        "clue_profile": "experienced-adults-v1"
-      },
-      {
-        "word": "國防部",
-        "kind": "機關或組織",
-        "answer_score": 89,
-        "difficulty": "medium",
-        "clue": "統籌軍政與軍備業務、其預算及採購須受民意監督的中央部會。（3字）",
-        "id": "cna-a33038dc8d0c69d5bba5::國防部",
-        "event_id": "cna-a33038dc8d0c69d5bba5",
-        "event_revision": "cna-a33038dc8d0c69d5bba5",
-        "source_support": [
-          {
-            "source_id": "rss-0fce76f484d73c64f70f",
-            "evidence": "菲律賓將辦東協防長會議　聚焦南海與海底基礎設施\n（中央社記者林行健馬尼拉23日專電）菲律賓下週將在宿霧舉行東協國防部長會議及東協國防部長擴大會議。"
-          }
-        ],
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning",
-        "clue_profile": "experienced-adults-v1"
-      },
-      {
         "word": "聯合國",
         "kind": "機關或組織",
         "answer_score": 89,
@@ -75417,25 +78000,6 @@
           {
             "source_id": "rss-22d8f2144c34ea629b52",
             "evidence": "尼泊爾表示，該國將獲聯合國（UN）氣候基金2000萬美元援助。"
-          }
-        ],
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning",
-        "clue_profile": "experienced-adults-v1"
-      },
-      {
-        "word": "人工智慧",
-        "kind": "科技用語",
-        "answer_score": 92,
-        "difficulty": "medium",
-        "clue": "讓系統從資料學習並執行辨識、預測或生成工作的技術領域。（4字）",
-        "id": "cna-1bba0acb7d258c461fe0::人工智慧",
-        "event_id": "cna-1bba0acb7d258c461fe0",
-        "event_revision": "cna-1bba0acb7d258c461fe0",
-        "source_support": [
-          {
-            "source_id": "rss-b28c4740e0b000225e3e",
-            "evidence": "AI投資疑慮加劇美科技股重挫　油價上漲拖累日股收低\n（中央社東京23日綜合外電報導）由於市場對人工智慧（AI）投資永續性的疑慮加劇，引發美股科技股暴跌，加上油價上揚進一步打擊市場情緒，日本股市隨之收低。"
           }
         ],
         "clue_style": "magazine-v1",
@@ -75822,26 +78386,6 @@
           {
             "source_id": "rss-1d598b4de345a41ce2db",
             "evidence": "廢除非核家園公投將登場　府：重啟核能須符3條件\n（中央社記者葉素萍台北22日電）國民黨推動廢除非核家園公投，將與年底地方選舉合併投票。"
-          }
-        ],
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning",
-        "clue_profile": "experienced-adults-v1"
-      },
-      {
-        "word": "預算",
-        "kind": "專業用語",
-        "answer_domain": "economy",
-        "answer_score": 86,
-        "difficulty": "medium",
-        "clue": "政府事先提出收入與支出計畫，須經民意機關審議的財政安排。（2字）",
-        "id": "cna-2798d6cb421819df323f::預算",
-        "event_id": "cna-2798d6cb421819df323f",
-        "event_revision": "cna-2798d6cb421819df323f",
-        "source_support": [
-          {
-            "source_id": "rss-ae2de20531244758809f",
-            "evidence": "漢測擬砸64億元　建置新竹研發和中南部製造中心\n（中央社記者鍾榮峰台北22日電）半導體晶圓測試供應商漢民測試系統今天公告，董事會決議通過建置新竹研發中心和中南部製造中心兩項預算授權案，合計投資規模新台幣64億元，布局矽光子設備組裝及MEMS探針卡製造產線等。"
           }
         ],
         "clue_style": "magazine-v1",
@@ -76458,26 +79002,6 @@
         "clue_profile": "experienced-adults-v1"
       },
       {
-        "word": "海警",
-        "kind": "專業用語",
-        "answer_domain": "environment",
-        "answer_score": 86,
-        "difficulty": "medium",
-        "clue": "海上颱風警報的簡稱，發布依風暴對鄰近海域的預期威脅評估。（2字）",
-        "id": "cna-b67f1311e6821a28aa3e::海警",
-        "event_id": "cna-b67f1311e6821a28aa3e",
-        "event_revision": "cna-b67f1311e6821a28aa3e",
-        "source_support": [
-          {
-            "source_id": "rss-e623a0d31544b7d9fe68",
-            "evidence": "颱風薔琵逼近　氣象署晚間11時30分發海警\n（中央社記者張雄風台北21日電）交通部中央氣象署表示，今天晚間11時30分將發布今年第29號颱風薔琵海上颱風警報，並於11時40分舉行記者說明會。"
-          }
-        ],
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning",
-        "clue_profile": "experienced-adults-v1"
-      },
-      {
         "word": "修憲",
         "kind": "專業用語",
         "answer_domain": "politics",
@@ -76687,26 +79211,6 @@
           {
             "source_id": "rss-32cc8af10f11e4d789c5",
             "evidence": "醫療永續聯盟成立  設定2050淨零排放目標\n（中央社記者沈佩瑤台北21日電）在氣候變遷、超高齡社會的挑戰下，衛福部與環境部今天攜手逾200家醫療衛生等機構成立永續聯盟，啟動綠色與數位轉型，要讓看病救人也能為地球減碳，邁向2050淨零排放目標。"
-          }
-        ],
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning",
-        "clue_profile": "experienced-adults-v1"
-      },
-      {
-        "word": "財政",
-        "kind": "專業用語",
-        "answer_domain": "economy",
-        "answer_score": 86,
-        "difficulty": "medium",
-        "clue": "政府籌措收入、安排支出與管理債務的公共經濟活動。（2字）",
-        "id": "cna-faa97ea49150ead46c85::財政",
-        "event_id": "cna-faa97ea49150ead46c85",
-        "event_revision": "cna-faa97ea49150ead46c85",
-        "source_support": [
-          {
-            "source_id": "rss-05651dad1a2df5642040",
-            "evidence": "民眾黨主席黃國昌表示，修法後「健保收入一塊都不會少」，行政院若認為財政規劃需調整，就應提出具體數據，而非把社會福利支出，混淆成全民健保財務危機、恐嚇人民。"
           }
         ],
         "clue_style": "magazine-v1",
@@ -76981,25 +79485,6 @@
           {
             "source_id": "rss-f8f9dc0b77c36ecf3bea",
             "evidence": "勞動部表示，涉及勞退制度變革，將持續與各界溝通、滾動檢討；呼籲雇主應隨著最低工資調升，考量對既有員工加薪。"
-          }
-        ],
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning",
-        "clue_profile": "experienced-adults-v1"
-      },
-      {
-        "word": "少子化",
-        "kind": "生活用語",
-        "answer_score": 89,
-        "difficulty": "medium",
-        "clue": "出生人口長期減少的趨勢，會連動學校規模、勞動供給與代間負擔。（3字）",
-        "id": "cna-ba24cb788f08226eafba::少子化",
-        "event_id": "cna-ba24cb788f08226eafba",
-        "event_revision": "cna-ba24cb788f08226eafba",
-        "source_support": [
-          {
-            "source_id": "rss-1c6c61d7d058eb040c92",
-            "evidence": "日本少子化加速　至少145間高中面臨關門\n（中央社東京19日綜合外電報導）日媒今天報導，由於少子化加速，在2040年度之前，日本各地至少有145間高中將關閉；另一項調查顯示，日本希望生育第二胎的人，比例較6年前減少一半。"
           }
         ],
         "clue_style": "magazine-v1",
@@ -77612,14 +80097,14 @@
   },
   "automation": {
     "enabled": true,
-    "updated_at": "2026-10-23T21:29:37.911Z",
+    "updated_at": "2026-10-24T04:45:19.139Z",
     "window": {
       "from": "2026-10-18",
       "to": "2026-10-24"
     },
     "interval_hours": 6,
     "source_count": 10,
-    "candidate_count": 178,
+    "candidate_count": 179,
     "sources": [
       {
         "id": "cna-politics",
@@ -77711,7 +80196,7 @@
       "generated_count": 7,
       "seed": 2,
       "attempts": 16,
-      "fingerprint": "2f1e029fabb25d49697efd25958cdee758f9a912fa5bc7f57f35037af81e58cf",
+      "fingerprint": "c0fc9ae304fb154aa087aa783d17d71665ae8d746095d4459153a5a53e75bd02",
       "grid_valid": true,
       "editorial_valid": true,
       "nonrepeating": true
