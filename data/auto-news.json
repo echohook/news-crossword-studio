@@ -5130,6 +5130,39 @@
         "content_revision": "cna-902c2f26930c15c6e322"
       },
       {
+        "event_id": "cna-988bb3805b81ec219675",
+        "dedup_key": "https://www.cna.com.tw/news/acul/202610250197.aspx",
+        "event_date": "2026-10-25",
+        "updated_at": "2026-10-25",
+        "published_at": "2026-10-25T15:01:34.000Z",
+        "title": "雲門舞集「十三聲」艋舺戶外演出　重返創作萌芽地",
+        "rss_lead": "（中央社記者楊淑閔台北25日電）雲門舞集經典舞作「十三聲」適逢發表十週年，今晚在台北市文化局主辦的「艋舺公園OPEN UP」系列活動中重返發源地艋舺演出，現場座無虛席，也吸引觀光客駐足欣賞。",
+        "summary": "雲門舞集「十三聲」艋舺戶外演出　重返創作萌芽地",
+        "categories": [
+          "文化"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-4e6ec9a90528dbd41ea6",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/acul/202610250197.aspx",
+            "published_at": "2026-10-25",
+            "excerpt": "雲門舞集「十三聲」艋舺戶外演出　重返創作萌芽地\n（中央社記者楊淑閔台北25日電）雲門舞集經典舞作「十三聲」適逢發表十週年，今晚在台北市文化局主辦的「艋舺公園OPEN UP」系列活動中重返發源地艋舺演出，現場座無虛席，也吸引觀光客駐足欣賞。",
+            "section": "文化"
+          }
+        ],
+        "keywords": [],
+        "aliases": [
+          "cna-988bb3805b81ec219675"
+        ],
+        "content_revision": "cna-988bb3805b81ec219675"
+      },
+      {
         "event_id": "cna-3b83dca97fb8f0c34a33",
         "dedup_key": "https://www.cna.com.tw/news/afe/202610200003.aspx",
         "event_date": "2026-10-20",
@@ -27850,6 +27883,39 @@
           "cna-49fa06b94d7f57abb8c9"
         ],
         "content_revision": "cna-49fa06b94d7f57abb8c9"
+      },
+      {
+        "event_id": "cna-dde2a691f8baa7610b19",
+        "dedup_key": "https://www.cna.com.tw/news/ahel/202610260006.aspx",
+        "event_date": "2026-10-26",
+        "updated_at": "2026-10-26",
+        "published_at": "2026-10-25T18:38:01.000Z",
+        "title": "觀光署參與新航旅展　推廣台灣農遊搶攻年底新加坡客源",
+        "rss_lead": "（中央社記者吳昇鴻新加坡25日專電）交通部觀光署駐新加坡辦事處本週參與新加坡航空舉辦旅展。觀光署駐新加坡辦事處主任施志忠今天表示，為掌握年底出國旅遊商機，持續深化新加坡市場的台灣觀光宣傳，期盼吸引更多新加坡旅客，將台灣列為下一趟海外旅遊的優先選擇。",
+        "summary": "觀光署參與新航旅展　推廣台灣農遊搶攻年底新加坡客源",
+        "categories": [
+          "生活"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-347bd1055d9d5108ed82",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/ahel/202610260006.aspx",
+            "published_at": "2026-10-26",
+            "excerpt": "觀光署參與新航旅展　推廣台灣農遊搶攻年底新加坡客源\n（中央社記者吳昇鴻新加坡25日專電）交通部觀光署駐新加坡辦事處本週參與新加坡航空舉辦旅展。觀光署駐新加坡辦事處主任施志忠今天表示，為掌握年底出國旅遊商機，持續深化新加坡市場的台灣觀光宣傳，期盼吸引更多新加坡旅客，將台灣列為下一趟海外旅遊的優先選擇。",
+            "section": "生活"
+          }
+        ],
+        "keywords": [],
+        "aliases": [
+          "cna-dde2a691f8baa7610b19"
+        ],
+        "content_revision": "cna-dde2a691f8baa7610b19"
       },
       {
         "event_id": "cna-7e0c4f7507f0d723bd48",
@@ -61125,6 +61191,272 @@
         "content_revision": "cna-8d7e955431ae349783ca"
       },
       {
+        "event_id": "cna-47d3302bd0e74103d446",
+        "dedup_key": "https://www.cna.com.tw/news/aopl/202610250193.aspx",
+        "event_date": "2026-10-25",
+        "updated_at": "2026-10-25",
+        "published_at": "2026-10-25T14:30:23.000Z",
+        "title": "法國週末示威警方逮1314人　工會領袖籲繼續抗議",
+        "rss_lead": "（中央社巴黎25日綜合外電報導）法國內政部今天表示，警方在週末國內各地的示威活動中逮捕1314人，但有53位警員因衝突受傷，工會領袖則呼籲下一個週六持續抗議。",
+        "summary": "法國週末示威警方逮1314人　工會領袖籲繼續抗議",
+        "categories": [
+          "國際"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-c92a1dc334ca38fcfc75",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aopl/202610250193.aspx",
+            "published_at": "2026-10-25",
+            "excerpt": "法國週末示威警方逮1314人　工會領袖籲繼續抗議\n（中央社巴黎25日綜合外電報導）法國內政部今天表示，警方在週末國內各地的示威活動中逮捕1314人，但有53位警員因衝突受傷，工會領袖則呼籲下一個週六持續抗議。",
+            "section": "國際"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "工會",
+            "kind": "專業用語",
+            "answer_domain": "society",
+            "clue_options": [
+              {
+                "clue": "受僱者為協商勞動條件及維護共同權益而組成的團體。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "受僱者為協商勞動條件及維護共同權益而組成的團體。（2字）"
+          }
+        ],
+        "aliases": [
+          "cna-47d3302bd0e74103d446"
+        ],
+        "content_revision": "cna-47d3302bd0e74103d446"
+      },
+      {
+        "event_id": "cna-bf2b9e9938cffa536556",
+        "dedup_key": "https://www.cna.com.tw/news/aopl/202610250194.aspx",
+        "event_date": "2026-10-25",
+        "updated_at": "2026-10-25",
+        "published_at": "2026-10-25T14:33:25.000Z",
+        "title": "中國需求低迷　歐洲前6大精品集團市值蒸發9兆多元",
+        "rss_lead": "（中央社巴黎25日綜合外電報導）由於中國消費者買氣持續低迷，加人工智慧（AI）題材造成股市走勢不穩，影響當地高檔包包和鞋品需求，歐洲前6大上市精品集團的市值今年來合計已蒸發合新台幣9兆多元。",
+        "summary": "中國需求低迷　歐洲前6大精品集團市值蒸發9兆多元",
+        "categories": [
+          "財經"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-fa8273e7d4e880798869",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aopl/202610250194.aspx",
+            "published_at": "2026-10-25",
+            "excerpt": "中國需求低迷　歐洲前6大精品集團市值蒸發9兆多元\n（中央社巴黎25日綜合外電報導）由於中國消費者買氣持續低迷，加人工智慧（AI）題材造成股市走勢不穩，影響當地高檔包包和鞋品需求，歐洲前6大上市精品集團的市值今年來合計已蒸發合新台幣9兆多元。",
+            "section": "財經"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "人工智慧",
+            "kind": "科技用語",
+            "clue_options": [
+              {
+                "clue": "讓系統從資料學習並執行辨識、預測或生成工作的技術領域。（4字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 92,
+            "difficulty": "medium",
+            "clue": "讓系統從資料學習並執行辨識、預測或生成工作的技術領域。（4字）"
+          },
+          {
+            "word": "股市",
+            "kind": "財經用語",
+            "clue_options": [
+              {
+                "clue": "集中交易公司股權的市場，價格會反映預期獲利及投資人的風險評價。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "集中交易公司股權的市場，價格會反映預期獲利及投資人的風險評價。（2字）"
+          },
+          {
+            "word": "新台幣",
+            "kind": "財經用語",
+            "clue_options": [
+              {
+                "clue": "本地法定貨幣，其對外比價變動會影響進口成本與出口換匯收入。（3字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 89,
+            "difficulty": "medium",
+            "clue": "本地法定貨幣，其對外比價變動會影響進口成本與出口換匯收入。（3字）"
+          }
+        ],
+        "aliases": [
+          "cna-bf2b9e9938cffa536556"
+        ],
+        "content_revision": "cna-bf2b9e9938cffa536556"
+      },
+      {
+        "event_id": "cna-42f96b3de1f800754a53",
+        "dedup_key": "https://www.cna.com.tw/news/aopl/202610260003.aspx",
+        "event_date": "2026-10-26",
+        "updated_at": "2026-10-26",
+        "published_at": "2026-10-25T16:55:53.000Z",
+        "title": "流亡近1年　委內瑞拉反對派領袖馬查多返國",
+        "rss_lead": "（中央社卡拉卡斯25日綜合外電報導）委內瑞拉反對派領袖、諾貝爾和平獎得主馬查多今天表示，她在流亡將近一年後已經返回祖國。",
+        "summary": "流亡近1年　委內瑞拉反對派領袖馬查多返國",
+        "categories": [
+          "國際"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-ba3cda677820e71f0964",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aopl/202610260003.aspx",
+            "published_at": "2026-10-26",
+            "excerpt": "流亡近1年　委內瑞拉反對派領袖馬查多返國\n（中央社卡拉卡斯25日綜合外電報導）委內瑞拉反對派領袖、諾貝爾和平獎得主馬查多今天表示，她在流亡將近一年後已經返回祖國。",
+            "section": "國際"
+          }
+        ],
+        "keywords": [],
+        "aliases": [
+          "cna-42f96b3de1f800754a53"
+        ],
+        "content_revision": "cna-42f96b3de1f800754a53"
+      },
+      {
+        "event_id": "cna-93ee0e7f6fd8df725e85",
+        "dedup_key": "https://www.cna.com.tw/news/aopl/202610260005.aspx",
+        "event_date": "2026-10-26",
+        "updated_at": "2026-10-26",
+        "published_at": "2026-10-25T18:31:59.000Z",
+        "title": "印尼減供新加坡天然氣　黃循財指應履約進口商將護權益",
+        "rss_lead": "（中央社記者吳昇鴻新加坡25日專電）東南亞地區煙霾問題引來外交齟齬，印尼削減對新加坡天然氣出口。新加坡總理黃循財今天表示，天然氣供應受商業合約保障，各方應履行承諾，本地進口商將採取必要措施維護合法權益。",
+        "summary": "印尼減供新加坡天然氣　黃循財指應履約進口商將護權益",
+        "categories": [
+          "國際"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-47c718f9301717cd709d",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aopl/202610260005.aspx",
+            "published_at": "2026-10-26",
+            "excerpt": "印尼減供新加坡天然氣　黃循財指應履約進口商將護權益\n（中央社記者吳昇鴻新加坡25日專電）東南亞地區煙霾問題引來外交齟齬，印尼削減對新加坡天然氣出口。新加坡總理黃循財今天表示，天然氣供應受商業合約保障，各方應履行承諾，本地進口商將採取必要措施維護合法權益。",
+            "section": "國際"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "印尼",
+            "kind": "國家或地區",
+            "clue_options": [
+              {
+                "clue": "據報導，某國減供新加坡天然氣　黃循財指應履約進口商將護權益。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "event",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "據報導，某國減供新加坡天然氣　黃循財指應履約進口商將護權益。（2字）"
+          },
+          {
+            "word": "外交",
+            "kind": "專業用語",
+            "answer_domain": "international",
+            "clue_options": [
+              {
+                "clue": "透過交涉、協商及代表制度處理對外關係，是武力以外的國家行動。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "透過交涉、協商及代表制度處理對外關係，是武力以外的國家行動。（2字）"
+          }
+        ],
+        "aliases": [
+          "cna-93ee0e7f6fd8df725e85"
+        ],
+        "content_revision": "cna-93ee0e7f6fd8df725e85"
+      },
+      {
+        "event_id": "cna-a7694f162f933df52a6d",
+        "dedup_key": "https://www.cna.com.tw/news/aopl/202610260007.aspx",
+        "event_date": "2026-10-26",
+        "updated_at": "2026-10-26",
+        "published_at": "2026-10-25T19:13:03.000Z",
+        "title": "極右派瑪琳．雷朋首場競選演說　誓言重振法國法治",
+        "rss_lead": "（中央社法國奧爾良25日綜合外電報導）爭取明年接替法國總統馬克宏的極右派領袖瑪琳．雷朋今天在首場競選演說中誓言，若能勝選，將「重振法治」。",
+        "summary": "極右派瑪琳．雷朋首場競選演說　誓言重振法國法治",
+        "categories": [
+          "國際"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-633b4e3560889606f024",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aopl/202610260007.aspx",
+            "published_at": "2026-10-26",
+            "excerpt": "極右派瑪琳．雷朋首場競選演說　誓言重振法國法治\n（中央社法國奧爾良25日綜合外電報導）爭取明年接替法國總統馬克宏的極右派領袖瑪琳．雷朋今天在首場競選演說中誓言，若能勝選，將「重振法治」。",
+            "section": "國際"
+          }
+        ],
+        "keywords": [],
+        "aliases": [
+          "cna-a7694f162f933df52a6d"
+        ],
+        "content_revision": "cna-a7694f162f933df52a6d"
+      },
+      {
         "event_id": "cna-951c441e28f6f6be0d8a",
         "dedup_key": "https://www.cna.com.tw/news/asoc/202610200019.aspx",
         "event_date": "2026-10-20",
@@ -71991,9 +72323,61 @@
           "cna-19ba16d2e62adca471f0"
         ],
         "content_revision": "cna-19ba16d2e62adca471f0"
+      },
+      {
+        "event_id": "cna-c770180e4d3548193183",
+        "dedup_key": "https://www.cna.com.tw/news/aspt/202610260004.aspx",
+        "event_date": "2026-10-26",
+        "updated_at": "2026-10-26",
+        "published_at": "2026-10-25T18:13:56.000Z",
+        "title": "「世界貓王」唐嘉鴻單槓摘金　世錦賽史上台灣第一人",
+        "rss_lead": "（中央社記者黎建忠台北26日電）台灣男子體操好手、「世界貓王」唐嘉鴻在荷蘭鹿特丹舉行的世界體操錦標賽單槓決賽，以難度分6.600分、執行分8.366分、總分14.966分摘金，這是他個人與台灣體操隊在世錦賽首金。",
+        "summary": "「世界貓王」唐嘉鴻單槓摘金　世錦賽史上台灣第一人",
+        "categories": [
+          "體育"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-a32fe69b6f93c5a91235",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aspt/202610260004.aspx",
+            "published_at": "2026-10-26",
+            "excerpt": "「世界貓王」唐嘉鴻單槓摘金　世錦賽史上台灣第一人\n（中央社記者黎建忠台北26日電）台灣男子體操好手、「世界貓王」唐嘉鴻在荷蘭鹿特丹舉行的世界體操錦標賽單槓決賽，以難度分6.600分、執行分8.366分、總分14.966分摘金，這是他個人與台灣體操隊在世錦賽首金。",
+            "section": "體育"
+          }
+        ],
+        "keywords": [],
+        "aliases": [
+          "cna-c770180e4d3548193183"
+        ],
+        "content_revision": "cna-c770180e4d3548193183"
       }
     ],
     "candidates": [
+      {
+        "word": "印尼",
+        "kind": "國家或地區",
+        "answer_score": 86,
+        "difficulty": "medium",
+        "clue": "據報導，某國減供新加坡天然氣　黃循財指應履約進口商將護權益。（2字）",
+        "id": "cna-93ee0e7f6fd8df725e85::印尼",
+        "event_id": "cna-93ee0e7f6fd8df725e85",
+        "event_revision": "cna-93ee0e7f6fd8df725e85",
+        "source_support": [
+          {
+            "source_id": "rss-47c718f9301717cd709d",
+            "evidence": "印尼減供新加坡天然氣　黃循財指應履約進口商將護權益\n（中央社記者吳昇鴻新加坡25日專電）東南亞地區煙霾問題引來外交齟齬，印尼削減對新加坡天然氣出口。"
+          }
+        ],
+        "clue_style": "magazine-v1",
+        "clue_kind": "event",
+        "clue_profile": "experienced-adults-v1"
+      },
       {
         "word": "韓國瑜",
         "kind": "人物",
@@ -72584,6 +72968,26 @@
         "clue_profile": "experienced-adults-v1"
       },
       {
+        "word": "外交",
+        "kind": "專業用語",
+        "answer_domain": "international",
+        "answer_score": 86,
+        "difficulty": "medium",
+        "clue": "透過交涉、協商及代表制度處理對外關係，是武力以外的國家行動。（2字）",
+        "id": "cna-93ee0e7f6fd8df725e85::外交",
+        "event_id": "cna-93ee0e7f6fd8df725e85",
+        "event_revision": "cna-93ee0e7f6fd8df725e85",
+        "source_support": [
+          {
+            "source_id": "rss-47c718f9301717cd709d",
+            "evidence": "印尼減供新加坡天然氣　黃循財指應履約進口商將護權益\n（中央社記者吳昇鴻新加坡25日專電）東南亞地區煙霾問題引來外交齟齬，印尼削減對新加坡天然氣出口。"
+          }
+        ],
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning",
+        "clue_profile": "experienced-adults-v1"
+      },
+      {
         "word": "選舉",
         "kind": "專業用語",
         "answer_domain": "politics",
@@ -72597,6 +73001,64 @@
           {
             "source_id": "rss-d54cc2c1c40902aa26cd",
             "evidence": "沈伯洋說，民調只是數字，不能真正代表選舉結果，能否傾聽市民的聲音才是最重要的，「我相信我能贏」。"
+          }
+        ],
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning",
+        "clue_profile": "experienced-adults-v1"
+      },
+      {
+        "word": "人工智慧",
+        "kind": "科技用語",
+        "answer_score": 92,
+        "difficulty": "medium",
+        "clue": "讓系統從資料學習並執行辨識、預測或生成工作的技術領域。（4字）",
+        "id": "cna-bf2b9e9938cffa536556::人工智慧",
+        "event_id": "cna-bf2b9e9938cffa536556",
+        "event_revision": "cna-bf2b9e9938cffa536556",
+        "source_support": [
+          {
+            "source_id": "rss-fa8273e7d4e880798869",
+            "evidence": "中國需求低迷　歐洲前6大精品集團市值蒸發9兆多元\n（中央社巴黎25日綜合外電報導）由於中國消費者買氣持續低迷，加人工智慧（AI）題材造成股市走勢不穩，影響當地高檔包包和鞋品需求，歐洲前6大上市精品集團的市值今年來合計已蒸發合新台幣9兆多元。"
+          }
+        ],
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning",
+        "clue_profile": "experienced-adults-v1"
+      },
+      {
+        "word": "股市",
+        "kind": "財經用語",
+        "answer_score": 86,
+        "difficulty": "medium",
+        "clue": "集中交易公司股權的市場，價格會反映預期獲利及投資人的風險評價。（2字）",
+        "id": "cna-bf2b9e9938cffa536556::股市",
+        "event_id": "cna-bf2b9e9938cffa536556",
+        "event_revision": "cna-bf2b9e9938cffa536556",
+        "source_support": [
+          {
+            "source_id": "rss-fa8273e7d4e880798869",
+            "evidence": "中國需求低迷　歐洲前6大精品集團市值蒸發9兆多元\n（中央社巴黎25日綜合外電報導）由於中國消費者買氣持續低迷，加人工智慧（AI）題材造成股市走勢不穩，影響當地高檔包包和鞋品需求，歐洲前6大上市精品集團的市值今年來合計已蒸發合新台幣9兆多元。"
+          }
+        ],
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning",
+        "clue_profile": "experienced-adults-v1"
+      },
+      {
+        "word": "工會",
+        "kind": "專業用語",
+        "answer_domain": "society",
+        "answer_score": 86,
+        "difficulty": "medium",
+        "clue": "受僱者為協商勞動條件及維護共同權益而組成的團體。（2字）",
+        "id": "cna-47d3302bd0e74103d446::工會",
+        "event_id": "cna-47d3302bd0e74103d446",
+        "event_revision": "cna-47d3302bd0e74103d446",
+        "source_support": [
+          {
+            "source_id": "rss-c92a1dc334ca38fcfc75",
+            "evidence": "法國週末示威警方逮1314人　工會領袖籲繼續抗議\n（中央社巴黎25日綜合外電報導）法國內政部今天表示，警方在週末國內各地的示威活動中逮捕1314人，但有53位警員因衝突受傷，工會領袖則呼籲下一個週六持續抗議。"
           }
         ],
         "clue_style": "magazine-v1",
@@ -72693,26 +73155,6 @@
           {
             "source_id": "rss-d1f6fe2f590bf00a59df",
             "evidence": "黎巴嫩425元烤雞肉捲引發論戰　凸顯社會貧富差距\n（中央社貝魯特25日綜合外電報導）在黎巴嫩爆發金融危機7年後，一份要價約13美元（約新台幣425元）的烤雞肉捲引發論戰，凸顯在這個深受政經動盪及軍事衝突衝擊的國家，當地民眾的消費能力差距日益懸殊。"
-          }
-        ],
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning",
-        "clue_profile": "experienced-adults-v1"
-      },
-      {
-        "word": "外交",
-        "kind": "專業用語",
-        "answer_domain": "international",
-        "answer_score": 86,
-        "difficulty": "medium",
-        "clue": "透過交涉、協商及代表制度處理對外關係，是武力以外的國家行動。（2字）",
-        "id": "cna-edbd94c4a7365835c068::外交",
-        "event_id": "cna-edbd94c4a7365835c068",
-        "event_revision": "cna-edbd94c4a7365835c068",
-        "source_support": [
-          {
-            "source_id": "rss-90e81a64ef9007a08d49",
-            "evidence": "美期中選舉民主黨若勝出　川普外交政策可能出現4大轉變\n（中央社華盛頓25日綜合外電報導）非黨派分析人士表示，在美國11月3日期中選舉，民主黨很有機會贏得聯邦眾議院多數席次，並可能拿下聯邦參議院，讓民主黨在共和黨掌控華府兩年後，重新取得部分政治權力，若民主黨勝選，美國外交政策可能出現4大轉變。"
           }
         ],
         "clue_style": "magazine-v1",
@@ -72848,25 +73290,6 @@
           {
             "source_id": "rss-55dc35cfd14857479a84",
             "evidence": "約基奇締造生涯第199次大三元　金塊延長賽擊倒鵜鶘\n（中央社丹佛24日綜合外電報導）美國職籃NBA丹佛金塊中鋒約基奇今天晚間繳出35分、15籃板和10助攻，不僅率領球隊在延長賽以141比135擊敗紐奧良鵜鶘，也締造個人生涯第199次例行賽大三元。"
-          }
-        ],
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning",
-        "clue_profile": "experienced-adults-v1"
-      },
-      {
-        "word": "人工智慧",
-        "kind": "科技用語",
-        "answer_score": 92,
-        "difficulty": "medium",
-        "clue": "讓系統從資料學習並執行辨識、預測或生成工作的技術領域。（4字）",
-        "id": "cna-21e4dd69d7f22b99a1af::人工智慧",
-        "event_id": "cna-21e4dd69d7f22b99a1af",
-        "event_revision": "cna-21e4dd69d7f22b99a1af",
-        "source_support": [
-          {
-            "source_id": "rss-c26944fceca1ccfb276f",
-            "evidence": "比爾蓋茲：AI將持續取代人類工作　富豪應多繳稅助政府因應\n（中央社倫敦25日綜合外電報導）微軟創辦人比爾．蓋茲接受英國「觀察家報」獨家專訪時指出，人們將持續因人工智慧（AI）失業，機器人的應用也會大幅顛覆勞動市場，在政府需新闢財源應對之際，億萬富豪應繳納更多稅金。"
           }
         ],
         "clue_style": "magazine-v1",
@@ -73655,25 +74078,6 @@
         "clue_profile": "experienced-adults-v1"
       },
       {
-        "word": "股市",
-        "kind": "財經用語",
-        "answer_score": 86,
-        "difficulty": "medium",
-        "clue": "集中交易公司股權的市場，價格會反映預期獲利及投資人的風險評價。（2字）",
-        "id": "cna-3d1e8936b917784ad92b::股市",
-        "event_id": "cna-3d1e8936b917784ad92b",
-        "event_revision": "cna-3d1e8936b917784ad92b",
-        "source_support": [
-          {
-            "source_id": "rss-c4d78ab23a6d9dd7e1cd",
-            "evidence": "美股下跌Fed開會在即　學者看連假過後新台幣短線貶勢居多\n（中央社記者呂晏慈台北24日電）台灣連假期間美股再遇AI科技股拋售潮，以及美國聯準會開會在即，不僅影響台北股市表現，更牽動新台幣走勢。"
-          }
-        ],
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning",
-        "clue_profile": "experienced-adults-v1"
-      },
-      {
         "word": "登革熱",
         "kind": "生活用語",
         "answer_score": 89,
@@ -74099,26 +74503,6 @@
           {
             "source_id": "rss-385b57ebba7bbde2ccec",
             "evidence": "民調領先尼坦雅胡　前總參謀長埃森科特鷹派姿態角逐總理\n（中央社耶路撒冷23日綜合外電報導）以色列前國防軍總參謀長埃森科特作風低調、鮮少面對媒體，在以色列政壇堪稱新面孔，與經驗豐富的現任總理尼坦雅胡形成鮮明對比。"
-          }
-        ],
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning",
-        "clue_profile": "experienced-adults-v1"
-      },
-      {
-        "word": "工會",
-        "kind": "專業用語",
-        "answer_domain": "society",
-        "answer_score": 86,
-        "difficulty": "medium",
-        "clue": "受僱者為協商勞動條件及維護共同權益而組成的團體。（2字）",
-        "id": "cna-58fc96fa93d800a373ce::工會",
-        "event_id": "cna-58fc96fa93d800a373ce",
-        "event_revision": "cna-58fc96fa93d800a373ce",
-        "source_support": [
-          {
-            "source_id": "rss-f733c748e897d0bdda37",
-            "evidence": "美光桃園工會堅持分潤制　協商因颱風延至27日\n（中央社記者張建中新竹23日電）台灣美光晶圓工會（桃園工會）今天公布會員對於美光（Micron）提出方案投票的統計結果，共有1633名會員反對公司提出的方案，占全體會員近7成，占絕對多數，將持續堅持分潤制訴求。"
           }
         ],
         "clue_style": "magazine-v1",
@@ -75193,14 +75577,14 @@
   },
   "automation": {
     "enabled": true,
-    "updated_at": "2026-10-25T16:30:44.325Z",
+    "updated_at": "2026-10-25T20:57:03.856Z",
     "window": {
       "from": "2026-10-20",
       "to": "2026-10-26"
     },
     "interval_hours": 6,
     "source_count": 10,
-    "candidate_count": 160,
+    "candidate_count": 161,
     "sources": [
       {
         "id": "cna-politics",
@@ -75292,7 +75676,7 @@
       "generated_count": 7,
       "seed": 2,
       "attempts": 16,
-      "fingerprint": "9994326cd271a7368b2e8c826789d65ead2452bb3d3d4fd646ee6a9c39b5329f",
+      "fingerprint": "38716de891106534a8f3069eecd9d64bb5ca2483e820bdaca6a82dab712b10ce",
       "grid_valid": true,
       "editorial_valid": true,
       "nonrepeating": true
