@@ -9,7 +9,7 @@ const el=(tag,cls,text)=>{const n=document.createElement(tag);if(cls)n.className
 let bankConnection='ONLINE';
 let packet,report=null,preview=null,mode='player',editionIndex=0,worker,active=false;
 let nextId=1;const pending=new Map();
-function startWorker(){worker=new Worker(new URL('./worker.js?v=1.13.0',import.meta.url),{type:'module'});worker.onmessage=({data})=>{if(data.type==='progress'){if(!pending.has(data.id))return;$('progress').textContent=['replanning','verified-fallback'].includes(data.phase)?'正在重新分配整批題目，避免前面的題目用完後面所需的交叉字…':'已完成 '+data.generated_count+'／'+data.requested_count+' 份，繼續檢查下一份…';return;}const p=pending.get(data.id);if(!p)return;pending.delete(data.id);data.type==='error'?p.reject(Error(data.message)):p.resolve(data);};worker.onerror=()=>{for(const p of pending.values())p.reject(Error('產題程式未能載入，請重新整理再試。'));pending.clear();};}
+function startWorker(){worker=new Worker(new URL('./worker.js?v=1.14.0',import.meta.url),{type:'module'});worker.onmessage=({data})=>{if(data.type==='progress'){if(!pending.has(data.id))return;$('progress').textContent=['replanning','verified-fallback'].includes(data.phase)?'正在重新分配整批題目，避免前面的題目用完後面所需的交叉字…':'已完成 '+data.generated_count+'／'+data.requested_count+' 份，繼續檢查下一份…';return;}const p=pending.get(data.id);if(!p)return;pending.delete(data.id);data.type==='error'?p.reject(Error(data.message)):p.resolve(data);};worker.onerror=()=>{for(const p of pending.values())p.reject(Error('產題程式未能載入，請重新整理再試。'));pending.clear();};}
 function askWorker(data){const id=nextId++;return new Promise((resolve,reject)=>{pending.set(id,{resolve,reject});worker.postMessage({id,...data});});}
 export const chineseNumber=n=>n<10?'零一二三四五六七八九'[n]:n===10?'十':'十'+'零一二三四五六七八九'[n-10];
 export function displayEntries(sheet){return Object.fromEntries(['H','V'].map(d=>[d,[...sheet.clues[d]].sort((a,b)=>a.row-b.row||a.col-b.col).map((e,i)=>({...e,label:d==='H'?String(i+1):chineseNumber(i+1)}))]));}
@@ -40,7 +40,7 @@ function updatePreview(){
 }
 function updatePool(window){
  const m=packet.mix;$('quota-news').textContent=m.news;$('quota-idiom').textContent=m.idiom;
- $('pool-count').textContent=packet.news.candidates.length+' 時事／'+packet.idioms.length+' 成語';
+ $('pool-count').textContent=packet.news.candidates.filter(c=>c.content_kind!=='knowledge').length+' 時事／'+packet.news.candidates.filter(c=>c.content_kind==='knowledge').length+' 延伸／'+packet.idioms.length+' 成語';
  const eventMapForCapacity=new Map(packet.news.events.map(e=>[e.event_id,e]));
  const capacityPool=[...packet.news.candidates.map(c=>({...c,event:eventMapForCapacity.get(c.event_id)})),...packet.idioms.map(c=>({...c,content_kind:'idiom'}))];
  const crossable=capacityPool.length?analyzeCandidates(capacityPool,{target:m.news+m.idiom}).crossableCount:0;
@@ -51,7 +51,7 @@ function updatePool(window){
  const a=packet.automation;
  const stamp=a?new Intl.DateTimeFormat('zh-TW',{timeZone:'Asia/Taipei',dateStyle:'short',timeStyle:'short'}).format(new Date(a.updated_at)):'';
  const status=a?(a.stale?'更新延遲；已排除過期新聞。':bankConnection==='OFFLINE'?'連線未完成，使用最近一次題庫。':a.status==='PARTIAL'?'部分來源暫時無法連線，其餘已更新。':'已載入自動題庫。'):'已載入自訂題庫。';
- $('notice').textContent='新聞期間：'+window.from+' ～ '+window.to+'。'+status+(packet.editorial_policy?' 每份至少 4 類題材；國名、地名合計最多 2 題，以事件與應用詞義出題。':'');
+ $('notice').textContent='新聞期間：'+window.from+' ～ '+window.to+'。'+status+(packet.editorial_policy?' 每份至少 4 類題材；國名、地名合計最多 2 題，結合事件、知識與成語，以完整敘述出題。':'');
  $('auto-status').textContent=a?'最近更新：'+stamp+'　'+a.source_count+' 個新聞分類來源／'+packet.news.candidates.length+' 個候選。 '+status:'目前使用自訂題庫；可取得最新題庫回到自動模式。';
 }
 async function generate(count=Number($('count').value)){
@@ -64,7 +64,7 @@ async function generate(count=Number($('count').value)){
   const result=await askWorker({type:'generate',packet,count,seed});report=result.report;packet=result.packet;editionIndex=0;mode='player';
   $('result-status').classList.toggle('error',report.status!=='COMPLETE');
   $('result-status').textContent=report.status==='COMPLETE'?'已完成 '+report.generated_count+' 份；各份驗證通過，題目與答案不重複。':'指定 '+count+' 份，完成 '+report.generated_count+' 份。'+(report.shortage?.code==='CROSSABLE_POOL_TOO_SMALL'?'剩餘可交叉答案不足，請減少份數或取得最新題庫。':report.shortage?'剩餘題庫不足，可減少份數或取得更新後的題庫。':'搜尋未找到足夠的合法盤面，可減少份數或等待題庫更新。');
-  if(report.editions.some(e=>e.content_summary?.fallback))$('result-status').textContent+=' 成語不足或無法排入的部分已改用時事題。';
+  if(report.editions.some(e=>e.content_summary?.fallback))$('result-status').textContent+=' 成語不足或無法排入的部分已改用時事或延伸知識題。';
   if(report.shortage?.available.crossable!==undefined)$('result-status').textContent+=' 剩餘 '+report.shortage.available.crossable+' 個答案可交叉。';
   if(report.shortage)$('result-status').textContent+=' 下一份需 '+report.shortage.needed_for_next.total+' 題，剩餘 '+report.shortage.available.total+' 題。';
   updatePreview();onGenerated(report);return {requested:count,generated:report.generated_count,status:report.status};
@@ -88,9 +88,9 @@ function sourceLink(url,label){try{const u=new URL(url);if(!['http:','https:'].i
 function withHint(clue,length){return clue.trim().replace(/[（(]\s*[234二三四]\s*字\s*[）)]\s*$/u,'')+'（'+length+'字）';}
 function drawBank(reset=false){
  $('auto-bank-list').replaceChildren();
- for(const c of packet.news.candidates){const row=el('article','bank-row'),event=packet.news.events.find(e=>e.event_id===c.event_id);
- row.append(el('strong',null,c.word),el('p',null,c.clue));const source=el('div','source');source.append(el('span',null,event?.title??''));
- for(const s of event?.sources??[]){const link=sourceLink(s.url,s.publisher);if(link)source.append(link);}row.append(source);$('auto-bank-list').append(row);}
+ for(const c of [...packet.news.candidates,...packet.idioms]){const row=el('article','bank-row'),event=packet.news.events.find(e=>e.event_id===(c.related_news?.event_id??c.event_id));
+ row.append(el('strong',null,c.word+(c.content_kind==='knowledge'?'【延伸知識】':c.content_kind==='idiom'?'【成語】':'')),el('p',null,c.clue));const source=el('div','source');source.append(el('span',null,event?.title??''));
+ for(const s of event?.sources??[]){const link=sourceLink(s.url,s.publisher);if(link)source.append(link);}if(c.knowledge_source){const link=sourceLink(c.knowledge_source.url,c.knowledge_source.publisher);if(link)source.append(link);const root=c.expansion??c.related_news;if(root)source.append(el('span',null,'連結：'+root.seed_word+' → '+c.word));}row.append(source);$('auto-bank-list').append(row);}
  if(reset||!bankDraft){bankDraft=structuredClone(packet);bankDirty=false;$('bank-status').textContent=packet.automation?'自動題庫':'自訂題庫';}
  $('issue-date').value=bankDraft.news.issue_date;
  const kind=$('bank-filter').value,items=kind==='news'?bankDraft.news.candidates:bankDraft.idioms;
@@ -102,7 +102,8 @@ function drawBank(reset=false){
   const clueLabel=el('label',null,'題目提示');const clue=el('textarea');clue.value=c.clue;clue.setAttribute('aria-label','提示 '+c.word);clue.oninput=()=>{c.clue=clue.value;markDirty();};clueLabel.append(clue);
   row.append(wordLabel,clueLabel);
   const source=el('div','source');
-  if(kind==='news'){const event=bankDraft.news.events.find(e=>e.event_id===c.event_id);source.append(el('span',null,(event?.title??'新聞事件')+'　'));for(const s of event?.sources??[]){const a=sourceLink(s.url,s.publisher);if(a)source.append(a);}}
+  if(c.content_kind==='knowledge'){const a=sourceLink(c.knowledge_source.url,c.knowledge_source.publisher);if(a)source.append(a);source.append(el('span',null,'延伸知識，非新聞事件敘述。'));}
+  else if(kind==='news'){const event=bankDraft.news.events.find(e=>e.event_id===c.event_id);source.append(el('span',null,(event?.title??'新聞事件')+'　'));for(const s of event?.sources??[]){const a=sourceLink(s.url,s.publisher);if(a)source.append(a);}}
   else{const a=sourceLink(c.knowledge_source?.url,c.knowledge_source?.publisher??'辭典來源');if(a)source.append(a);source.append(el('span',null,c.knowledge_source?.meaning??''));}
   const remove=el('button',null,'移除此題');remove.onclick=()=>{const idx=items.indexOf(c);if(idx>=0)items.splice(idx,1);markDirty();drawBank();};source.append(remove);row.append(source);$('bank-list').append(row);
  }
@@ -119,7 +120,7 @@ $('auto-refresh').onclick=async()=>{const button=$('auto-refresh');button.disabl
  try{if(active)throw Error('請完成或取消產題後再更新。');const automatic=await loadAutoBank({fallback:packet});bankConnection=automatic.connection;await applyPacket(automatic.packet);}
  catch(e){$('auto-status').textContent=e.message;}finally{button.disabled=false;button.textContent='取得最新題庫';}};
 async function saveBank(){
- for(const c of bankDraft.news.candidates){const event=bankDraft.news.events.find(e=>e.event_id===c.event_id);c.clue=withHint(c.clue,Array.from(c.word).length);if(event)c.source_support=(event.sources??[]).filter(s=>s.excerpt?.includes(c.word)).map(s=>({source_id:s.source_id,evidence:s.excerpt}));}
+ for(const c of bankDraft.news.candidates){const event=bankDraft.news.events.find(e=>e.event_id===c.event_id);c.clue=withHint(c.clue,Array.from(c.word).length);if(event&&c.content_kind!=='knowledge')c.source_support=(event.sources??[]).filter(s=>s.excerpt?.includes(c.word)).map(s=>({source_id:s.source_id,evidence:s.excerpt}));}
  for(const c of bankDraft.idioms)c.clue=withHint(c.clue,4);
  const prepared=await applyPacket(bankDraft);$('bank-message').textContent='修改已套用。下載題庫檔即可保存；產題時仍會檢查提示及來源。';return prepared;
 }

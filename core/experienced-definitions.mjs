@@ -1,3 +1,4 @@
+import {EXPANSION_DEFINITIONS} from './expansion-definitions.mjs';
 /** Authored applied clues; no dated factual claims. */
 export const EXPERIENCED_PROFILE='experienced-adults-v1';
 const rows=`
@@ -202,7 +203,7 @@ culture|一諾千金|交易未簽字仍恪守承諾，以信用承擔責任；�
 culture|大吉大利|新店開張、年節相賀時，用來祝願人事順遂、諸事亨通的四字用語。
 culture|國泰民安|衡量治理成果，既看社稷安定，也看百姓能否安心過日子；此語兼指兩者。
 `;
-export const EXPERIENCED_DEFINITIONS=Object.freeze(Object.fromEntries(rows.trim().split('\n').map(line=>{const [domain,word,body]=line.split('|');return [word,Object.freeze({body,domain})];})));
+export const EXPERIENCED_DEFINITIONS=Object.freeze(Object.assign({},EXPANSION_DEFINITIONS,Object.fromEntries(rows.trim().split('\n').map(line=>{const [domain,word,body]=line.split('|');return [word,Object.freeze({body,domain})];}))));
 export const experiencedDefinition=word=>EXPERIENCED_DEFINITIONS[word]??null;
 export const experiencedLexicon=Object.entries(EXPERIENCED_DEFINITIONS).map(([word,{domain}])=>({word,kind:'專業用語',answer_domain:domain}));
 const referents={'台股':'本地股票市場','新台幣':'本地法定貨幣','颱風':'西北太平洋熱帶氣旋','健保':'全民醫療保險制度','無人機':'無人駕駛飛行器','記憶體':'運算資料儲存元件','半導體':'導電性可調的電子材料','油價':'石油價格','匯率':'貨幣兌換比價','長照':'失能者長期照顧服務','預算':'政府收支計畫','利率':'資金借貸比率','古蹟':'受法律保護的歷史建造物','制裁':'貿易及金融限制措施','衛星':'人造軌道飛行器'};

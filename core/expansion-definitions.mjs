@@ -1,0 +1,60 @@
+/** Original clue wording; references support word senses, not news occurrence. */
+const rows=`
+environment|風災|強烈氣流侵襲，造成房屋、農作物或公共設施受損的災害。
+environment|災難|天災或人禍造成生命財產重大損失，並使日常秩序嚴重受破壞的事件。
+environment|豪雨|氣象警戒中，以累積降水量達到較高門檻判定的強降雨等級。
+environment|暴風圈|熱帶氣旋周圍，持續風速達指定標準的範圍，並不等於降雨影響區。
+environment|颱風眼|熱帶氣旋中心附近，可能短暫風弱少雲、外圍卻環繞強烈對流的區域。
+environment|土石流|大量泥砂石塊混合水流，沿山溝快速下移、常危及聚落的坡地災害。
+environment|滯洪池|暴雨時暫存逕流、降低下游排水負荷，雨後再逐步放流的設施。
+environment|防波堤|港口外圍削減浪能、維護港內水面穩定的海岸構造物。
+environment|堤防|沿河道或海岸修築，用以阻擋洪水或海水侵入的長形設施。
+environment|洪水|河川水位急升而可能溢出河道，淹及原有陸地的水文現象。
+environment|氣壓|空氣柱重量作用在單位面積上的力，其差異是驅動大氣流動的因素。
+environment|季風|大範圍盛行風向隨季節轉變，牽動區域乾濕與冷暖變化的氣候現象。
+environment|雲海|從高處俯視連綿雲層，呈現如水面般鋪展景象的自然景觀。
+environment|雨量|一定時間內降水累積的深度，常以毫米表示的觀測數值。
+society|疏散|面對危險時，有計畫地把密集人群分批引導至安全地點的行動。
+society|撤離|因現地已有或預期出現危險，將人員移出原處所的應變措施。
+society|重建|災後恢復住宅、公共設施及社區生活機能的長期工作。
+society|避難所|災時供民眾暫時安置、維持基本生活及安全的指定場所。
+culture|琵琶|白居易名篇描寫其演奏如珠落玉盤；曲頸、梨形音箱的四弦彈撥樂器。
+environment|紫薇|夏日開花、樹幹光滑，俗稱百日紅的落葉小喬木。
+environment|薔薇|與玫瑰同屬，常呈蔓生、枝具刺而花小且多的觀賞灌木。
+culture|風聲鶴唳|敗軍逃亡時，連自然界的細微聲響也疑為追兵；形容極度驚恐疑懼。
+culture|風起雲湧|新思潮或社會力量接連興起，勢頭迅速而盛大，可用此四字形容。
+culture|未雨綢繆|事情尚未發生就先做好準備，以免臨時措手不及的處事態度。
+culture|同舟共濟|處境艱難時，眾人如同共乘一船，彼此合作以渡過難關。
+culture|臨危不亂|面對突發險境，仍能保持鎮定、依序處置的態度。
+culture|雨過天晴|原指降水停止、天空轉為明朗，也比喻困難消除、局勢好轉。
+culture|防患未然|在禍害尚未形成前，先採取措施加以預防。
+culture|水到渠成|條件逐漸具備後，事情自然取得成果，無須勉強促成。
+culture|雪中送炭|在別人急需援助、處境困苦時，給予及時而實際的幫助。
+culture|見微知著|從細小的跡象，判斷事情的本質或往後發展的趨勢。
+culture|集思廣益|匯集眾人的意見與智慧，使思慮更周全、辦法更完善。
+culture|因地制宜|考量各處環境與條件的差異，採取合適的辦法。
+culture|居安思危|生活安穩時仍預想可能的風險，及早做好因應準備。
+culture|高瞻遠矚|看事情眼光放得長遠，能超越眼前得失而作整體考量。
+culture|一葉知秋|由眼前一點徵兆，推知局勢即將出現的變化。
+culture|管中窺豹|只憑有限片段理解全貌，容易流於片面；也可指略見一斑。
+culture|柳暗花明|原寫濃蔭與繁花相映的景色，也比喻困境中忽然出現轉機。
+culture|竹報平安|傳統書信與吉祥圖案中，借植物意象傳達家人無恙的祝頌語。
+culture|枇杷|果實成熟時呈黃橙色；名稱與一種四弦彈撥樂器同音的常綠果樹。
+culture|杜鵑|既可指春季常見的觀賞花木，也可指古詩中常寄託鄉愁的鳥。
+culture|梅花|常在寒冬至早春開放，傳統文化借其耐寒特性象徵堅貞的五瓣花卉。
+culture|古琴|傳統文人所習、以七條弦彈奏，重視泛音與吟猱的樂器。
+culture|二胡|以弓毛夾在兩條弦之間運弓，常用蛇皮蒙製琴筒的拉弦樂器。
+culture|笛子|橫持吹奏、常貼膜以增添音色特徵的竹製管樂器。
+culture|編鐘|把不同音高的青銅打擊器懸掛成組，常見於古代禮樂制度的樂器。
+culture|春秋|孔子據魯國史料修訂的編年史，也指東周前期的一個歷史時代。
+economy|風險|結果存在不確定性且可能帶來損失，決策時須衡量機率與影響。
+economy|災損|天然或人為事故造成財產及生產損失，在理賠或復原時須加以估算。
+`;
+export const EXPANSION_DEFINITIONS=Object.freeze(Object.fromEntries(rows.trim().split('\n').map(line=>{const [domain,word,body]=line.split('|');return [word,Object.freeze({domain,body})];})));
+export const EXPANSION_IDIOMS=new Set('風聲鶴唳 風起雲湧 未雨綢繆 同舟共濟 臨危不亂 雨過天晴 防患未然 水到渠成 雪中送炭 見微知著 集思廣益 因地制宜 居安思危 高瞻遠矚 一葉知秋 管中窺豹 柳暗花明 竹報平安 半途而廢 一諾千金 大吉大利 國泰民安'.split(' '));
+export const WORD_REFERENCES=Object.freeze({
+ '琵琶':'https://dict.mini.moe.edu.tw/SearchIndex/word_detail?wordID=D0000975',
+ '薔薇':'https://dict.concised.moe.edu.tw/dictView.jsp?ID=25495&la=0&powerMode=0',
+ '風起雲湧':'https://dict.concised.moe.edu.tw/dictView.jsp?ID=6134&la=0&powerMode=0',
+ '風聲鶴唳':'https://dict.idioms.moe.edu.tw/bookView.jsp?ID=95'
+});

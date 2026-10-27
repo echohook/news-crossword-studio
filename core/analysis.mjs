@@ -1,3 +1,4 @@
+import {selectionEventKey} from './content.mjs';
 import {filterCandidateScope} from './news-policy.mjs';
 import {checkCandidates} from './model.mjs';
 
@@ -24,7 +25,7 @@ export function analyzeCandidates(candidates, {target=12,minEntries=8}={}) {
   const crossable=pool.filter(c=>neighbors.get(c.id).size>0);
   const histogram=items=>Object.fromEntries([2,3,4].map(n=>[n,items.filter(c=>Array.from(c.word).length===n).length]));
   const events=new Map();
-  for(const c of crossable) events.set(c.event_id,(events.get(c.event_id)??0)+1);
+  for(const c of crossable) events.set(selectionEventKey(c),(events.get(selectionEventKey(c))??0)+1);
   const eventCapacity=[...events.values()].reduce((n,count)=>n+Math.min(2,count),0);
   const entryUpperBound=Math.min(crossable.length,eventCapacity);
   const isolated=pool.filter(c=>!neighbors.get(c.id).size).map(c=>({id:c.id,word:c.word,event_id:c.event_id}));
@@ -59,11 +60,11 @@ export function explainUnselected(candidates,puzzle,analysis) {
   const isolated=new Set(analysis.isolated.map(c=>c.id));
   const scopeExcluded=new Map((analysis.excluded_candidates??[]).map(c=>[c.candidate_id,c]));
   const events=new Map();
-  for(const c of puzzle?.expected??[]) events.set(c.event_id,(events.get(c.event_id)??0)+1);
+  for(const c of puzzle?.expected??[]) events.set(selectionEventKey(c),(events.get(selectionEventKey(c))??0)+1);
   return candidates.filter(c=>!selected.has(c.id)).map(c=>{
     if(scopeExcluded.has(c.id))return scopeExcluded.get(c.id);
     const reason=isolated.has(c.id)?'NO_SHARED_CHARACTER':
-      (events.get(c.event_id)??0)>=2?'EVENT_LIMIT':'NOT_SELECTED_WITHIN_BUDGET';
+      (events.get(selectionEventKey(c))??0)>=2?'EVENT_LIMIT':'NOT_SELECTED_WITHIN_BUDGET';
     const message={NO_SHARED_CHARACTER:'沒有其他候選能以相同字交叉',
       EVENT_LIMIT:'此方案已達同事件兩題上限',
       NOT_SELECTED_WITHIN_BUDGET:'本次方案未選入；不代表一定排不進'}[reason];

@@ -1,3 +1,4 @@
+import {contentSlot} from './content.mjs';
 import {analyzeCandidates} from './analysis.mjs';
 import {validateEditorialSelection} from './editorial.mjs';
 import {createHash} from 'node:crypto';
@@ -29,7 +30,7 @@ export function generateEditions(input,{count=1,solverOptions={},maxVariantAttem
   initial=runMixed(snapshot,{solverOptions:{...options,editorialPolicy:settings.editorialPolicy,attempts:settings.attempts,seed:settings.seed},maxClueChars,intakeOnly:!!settings.editorialPolicy});
   mix=initial.content_summary.requested;
   const admitted=new Set(initial.idiom_reports.filter(r=>r.passed).map(r=>r.id));
-  pool=[...initial.news_report.eligible_candidates.map(c=>({...c,content_kind:'news'})),
+  pool=[...initial.news_report.eligible_candidates.map(c=>({...c,content_kind:c.content_kind??'news'})),
    ...(snapshot.idioms??[]).filter(c=>admitted.has(c.id)).map(c=>({...c,content_kind:'idiom',
     knowledge_source:{...c.knowledge_source,url:sourceUrl(c.knowledge_source.url)}}))];
   if(settings.editorialPolicy)initial=null;
@@ -50,7 +51,7 @@ export function generateEditions(input,{count=1,solverOptions={},maxVariantAttem
  for(let attempt=0;attempt<count*maxVariantAttempts && editions.length<count;attempt++) {
   const remaining=pool.filter(c=>!usedWords.has(answerKey(c.word))&&!usedClues.has(clueKey(c.clue)));
   const available={total:remaining.length};
-  if(mix)for(const kind of ['news','idiom'])available[kind]=remaining.filter(c=>c.content_kind===kind).length;
+  if(mix)for(const kind of ['news','idiom'])available[kind]=remaining.filter(c=>contentSlot(c)===kind).length;
   if(available.total<target||(mix&&available.news<mix.news)) {
    shortage={code:'REMAINING_POOL_TOO_SMALL',next_edition:editions.length+1,available,
     needed_for_next:{total:target,...(mix?{news:target-Math.min(mix.idiom,available.idiom),idiom:Math.min(mix.idiom,available.idiom)}:{})}};
@@ -75,7 +76,7 @@ export function generateEditions(input,{count=1,solverOptions={},maxVariantAttem
   }
   puzzle.expected.forEach(c=>{usedWords.add(answerKey(c.word));usedClues.add(clueKey(c.clue));});
   const edition_number=editions.length+1;
-  const selected=mix?Object.fromEntries(['news','idiom'].map(k=>[k,puzzle.expected.filter(c=>c.content_kind===k).length])):null;
+  const selected=mix?Object.fromEntries(['news','idiom'].map(k=>[k,puzzle.expected.filter(c=>contentSlot(c)===k).length])):null;
   if(mix&&['news','idiom'].some(k=>selected[k]!==searched.effective[k]))throw Error('混合配額未達標');
   editions.push({edition_number,label:'第 '+edition_number+' 份',seed,puzzle,grid_validation:validation,...(editorial?{editorial_validation:editorial}:{}),
    player,answers,...(mix?{content_summary:{requested:{...mix},effective:searched.effective,selected,idiom_optional:true,fallback:selected.idiom<mix.idiom}}:{}),approved_for_print:false});

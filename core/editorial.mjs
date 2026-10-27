@@ -1,3 +1,5 @@
+import {typhoonNameClue,validateKnowledge} from './expansion.mjs';
+import {selectionEventKey} from './content.mjs';
 import {validateClue} from './clues.mjs';
 import {experiencedDefinition,experiencedEventBody,EXPERIENCED_PROFILE} from './experienced-definitions.mjs';
 import {isGeographicWord} from './definitions.mjs';
@@ -9,29 +11,30 @@ export function editorialFacts(c){
  const geo=isGeographicWord(c.word)||['國家或地區','地名'].includes(c.kind);
  const idiom=c.content_kind==='idiom';
  const definition=experiencedDefinition(c.word);
- const context=experiencedEventBody(c.event,c);
+ const context=c.kind==='颱風名稱'?typhoonNameClue(c.event,c.word):experiencedEventBody(c.event,c);
  const contextual=c.clue_profile===EXPERIENCED_PROFILE&&c.clue_kind==='event'&&!!context&&normalize(body(c))===normalize(context);
  const applied=!idiom&&c.clue_profile===EXPERIENCED_PROFILE&&c.clue_kind==='meaning'&&!!definition&&normalize(body(c))===normalize(definition.body);
  const idiomQualified=idiom&&c.clue_profile===EXPERIENCED_PROFILE&&!!definition&&normalize(body(c))===normalize(definition.body);
  const agency=institution.has(c.word)||c.kind==='機關或組織';
- const named=geo||agency||['企業','人物'].includes(c.kind);
+ const named=geo||agency||['企業','人物','颱風名稱'].includes(c.kind);
  const category=c.event?.categories?.[0];
  const domain=geo?'geography':idiom?'culture':definition?.domain??({'台灣':'politics','國際':'international','財經':'economy','科技':'technology','生活':'society','體育':'sports','文化':'culture'}[category]??'society');
- return {word:c.word,domain,idiom,geographic:geo,named_entity:named,institution:agency,applied,contextual,qualified:idiomQualified||applied||contextual};
+ return {word:c.word,domain,idiom,geographic:geo,named_entity:named,institution:agency,applied,contextual,qualified:idiomQualified||(c.content_kind==='knowledge'?validateKnowledge(c,c.event):applied||contextual)};
 }
 export function editorialLimits(target=12){
  return {idioms:2,geography:Math.max(1,Math.floor(target/6)),domain:Math.max(2,Math.ceil(target/3)),named:Math.max(2,Math.ceil(target/3)),institutions:Math.max(1,Math.floor(target/6)),domains:Math.min(4,Math.ceil(target/3)),applied:Math.ceil(target/2),contextual:0,preferred_contextual:Math.min(2,Math.floor(target/4))};
 }
-export function editorialSummary(candidates){
- const facts=candidates.map(editorialFacts),domains={};
+const cachedFact=cache=>c=>{if(!cache.has(c))cache.set(c,editorialFacts(c));return cache.get(c);};
+export function editorialSummary(candidates,fact=editorialFacts){
+ const facts=candidates.map(fact),domains={};
  for(const f of facts)domains[f.domain]=(domains[f.domain]??0)+1;
  return {domains,idioms:facts.filter(f=>f.idiom).length,geography:facts.filter(f=>f.geographic).length,named:facts.filter(f=>f.named_entity).length,institutions:facts.filter(f=>f.institution).length,applied:facts.filter(f=>f.applied).length,contextual:facts.filter(f=>f.contextual).length,unqualified:facts.filter(f=>!f.qualified).map(f=>f.word),facts};
 }
 /** Admission uses upper bounds and remaining seats; final audit is independent of geometry. */
-export function editorialAdmission(existing,target,profile){
+export function editorialAdmission(existing,target,profile,factCache=new WeakMap()){
  if(!profile)return ()=>true;
- const cache=new WeakMap(),fact=c=>{if(!cache.has(c))cache.set(c,editorialFacts(c));return cache.get(c);};
- const start=editorialSummary(existing),l=editorialLimits(target),clues=existing.map(c=>normalize(c.clue)),words=existing.map(c=>normalize(c.word));
+ const fact=cachedFact(factCache);
+ const start=editorialSummary(existing,fact),l=editorialLimits(target),clues=existing.map(c=>normalize(c.clue)),words=existing.map(c=>normalize(c.word));
  return added=>{
   const all=added.map(fact);if(all.some(f=>!f.qualified))return false;
   for(const c of added)if(clues.some(x=>x.includes(normalize(c.word)))||words.some(w=>normalize(c.clue).includes(w)))return false;
@@ -54,22 +57,23 @@ export function validateEditorialSelection(candidates,{profile=EXPERIENCED_PROFI
   {id:'Q03',pass:Object.keys(s.domains).length>=l.domains&&Object.values(s.domains).every(n=>n<=l.domain),label:'至少 '+l.domains+' 類且單類不超過 '+l.domain+' 題'},
   {id:'Q04',pass:s.named<=l.named&&s.institutions<=l.institutions,label:'限制專名與機關集中'},
   {id:'Q05',pass:s.applied>=l.applied,label:'至少 '+l.applied+' 題應用詞義'},
-  {id:'Q06',pass:candidates.filter(c=>c.content_kind!=='idiom').every(c=>c.event&&validateClue(c,c.event).passed),label:'所有新聞詞義或事件題均有來源支持'}
+  {id:'Q06',pass:candidates.filter(c=>c.content_kind!=='idiom').every(c=>c.event&&validateClue(c,c.event).passed),label:'新聞有原文支持；延伸知識有詞義與新聞連結'}
  ];
  return {profile,valid:checks.every(c=>c.pass),checks,limits:l,summary:s};
 }
-export function editorialReward(existing,added,target,profile){
- if(!profile)return 0;
- const s=editorialSummary(existing),l=editorialLimits(target);
- return added.reduce((score,c)=>{const f=editorialFacts(c);return score+(!s.domains[f.domain]?2:0)+(f.contextual&&s.contextual<l.preferred_contextual?3:0)+(f.applied&&s.applied<l.applied?1:0);},0)/added.length;
+export function editorialReward(existing,added,target,profile){return editorialRewardFor(existing,target,profile)(added);}
+export function editorialRewardFor(existing,target,profile,factCache=new WeakMap()){
+ if(!profile)return ()=>0;
+ const fact=cachedFact(factCache),s=editorialSummary(existing,fact),l=editorialLimits(target);
+ return added=>added.reduce((score,c)=>{const f=fact(c);return score+(!s.domains[f.domain]?2:0)+(f.contextual&&s.contextual<l.preferred_contextual?3:0)+(f.applied&&s.applied<l.applied?1:0);},0)/added.length;
 }
 
 /** Necessary capacity bounds for all later editions; never a claim of geometric solvability. */
-export function editorialReserve(candidates,target,entries,profile){
+export function editorialReserve(candidates,target,entries,profile,factCache=new WeakMap()){
  if(!profile||!entries)return ()=>true;
- const facts=new Map(candidates.map(c=>[c.id,editorialFacts(c)])),base=editorialSummary(candidates),limits=editorialLimits(target),future=Math.ceil(entries/target);
- const eventCounts=new Map();for(const c of candidates)eventCounts.set(c.event_id,(eventCounts.get(c.event_id)??0)+1);
- const eventsById=new Map(candidates.map(c=>[c.id,c.event_id]));
+ const fact=cachedFact(factCache),facts=new Map(candidates.map(c=>[c.id,fact(c)])),base=editorialSummary(candidates,fact),limits=editorialLimits(target),future=Math.ceil(entries/target);
+ const eventCounts=new Map();for(const c of candidates)eventCounts.set(selectionEventKey(c),(eventCounts.get(selectionEventKey(c))??0)+1);
+ const eventsById=new Map(candidates.map(c=>[c.id,selectionEventKey(c)]));
  return removed=>{
   const s={...base,domains:{...base.domains}},events=new Map(eventCounts);
   for(const id of removed){const f=facts.get(id);if(!f)continue;s.domains[f.domain]--;s.idioms-=Number(f.idiom);s.geography-=Number(f.geographic);s.named-=Number(f.named_entity);s.institutions-=Number(f.institution);s.applied-=Number(f.applied);const e=eventsById.get(id);events.set(e,events.get(e)-1);}

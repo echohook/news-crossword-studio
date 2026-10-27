@@ -1,3 +1,5 @@
+import {validateKnowledge} from './expansion.mjs';
+import {contentSlot} from './content.mjs';
 import {runPipeline} from './pipeline.mjs';
 import {solve,solverSettings} from './solver.mjs';
 import {checkCandidates} from './model.mjs';
@@ -9,7 +11,7 @@ import {assessCandidateScope} from './news-policy.mjs';
 /** Prefer idioms, but replace unavailable or unplaceable idioms with news. */
 export function solveMixedPool(pool,mix,solverOptions={}) {
  const target=mix.news+mix.idiom;
- const available={news:pool.filter(c=>c.content_kind==='news').length,idiom:pool.filter(c=>c.content_kind==='idiom').length};
+ const available={news:pool.filter(c=>contentSlot(c)==='news').length,idiom:pool.filter(c=>c.content_kind==='idiom').length};
  const preferred=Math.min(mix.idiom,available.idiom),minimum=Math.max(0,target-available.news),attempted=[];
  let effective={news:target-preferred,idiom:preferred};
  let result={status:'SEARCH_EXHAUSTED',puzzle:null,diagnostics:[],reason:'INSUFFICIENT_CANDIDATES'};
@@ -30,6 +32,8 @@ export function runMixed(packet,{solverOptions={},maxClueChars=60,intakeOnly=fal
  const target=mix.news+mix.idiom;
  const settings=solverSettings({...solverOptions,editorialPolicy:packet.editorial_policy?.profile??solverOptions.editorialPolicy??null,target,minEntries:target,contentTargets:mix});
  if(['target','minEntries','contentTargets'].some(k=>Object.hasOwn(solverOptions,k)))throw Error('混合模式的題數及配額由 mix 設定');
+ const news=runPipeline(packet.news,{maxClueChars,intakeOnly});
+ const admittedEvents=new Set(news.event_reports.filter(r=>r.passed).flatMap(r=>r.aliases));
  const proposed=structuredClone(packet.idioms===undefined?[]:packet.idioms),idioms=[],reports=[];
  if(!Array.isArray(proposed))throw Error('idioms 需為陣列');
  if(proposed.length)checkCandidates(proposed);
@@ -38,18 +42,18 @@ export function runMixed(packet,{solverOptions={},maxClueChars=60,intakeOnly=fal
   if(Array.from(c.word).length!==4)errors.push('成語模式只接受完整四字成語');
   if(c.event!==undefined||c.anchor_event===true)errors.push('成語不是新聞事件或新聞重點，不得附 event 或 anchor_event=true');
   if(!source||!text(source.publisher)||!sourceUrl(source.url)||!text(source.meaning))errors.push('成語需有辭典來源與釋義');
+  if(c.related_news){const event=packet.news.events.find(e=>e.event_id===c.related_news.event_id);if(!event||!admittedEvents.has(event.event_id)||!validateKnowledge({...c,content_kind:'knowledge',expansion:c.related_news},event))errors.push('成語與本期新聞的延伸連結無效');}
   if(!assessCandidateScope(c).allowed)errors.push('內容分類不符合選題範圍');
   const clue=validateClue(c,undefined,{maxChars:maxClueChars});
   errors.push(...clue.checks.filter(x=>['C01','C02','C03','C04'].includes(x.id)&&!x.pass).map(x=>x.id+' '+x.label));
   reports.push({id:c.id,word:c.word,passed:!errors.length,errors,semantic_review:'REQUIRED'});
   if(!errors.length)idioms.push({...c,content_kind:'idiom',knowledge_source:{...source,url:sourceUrl(source.url)}});
  }
- const news=runPipeline(packet.news,{maxClueChars,intakeOnly});
- const pool=[...news.eligible_candidates.map(c=>({...c,content_kind:'news'})),...idioms];
+ const pool=[...news.eligible_candidates.map(c=>({...c,content_kind:c.content_kind??'news'})),...idioms];
  if(pool.length)checkCandidates(pool);
  if(intakeOnly)return {status:'INTAKE_READY',puzzle:null,news_report:news,idiom_reports:reports,eligible_candidates:pool,content_summary:{requested:{...mix}}};
  const searched=solveMixedPool(pool,mix,settings),result=searched.result,puzzle=result.puzzle,validation=puzzle?validatePuzzle(puzzle):null;
- const selected={news:0,idiom:0};puzzle?.expected.forEach(c=>selected[c.content_kind]++);
+ const selected={news:0,idiom:0};puzzle?.expected.forEach(c=>selected[contentSlot(c)]++);
  if(puzzle&&(!validation.valid||['news','idiom'].some(k=>selected[k]!==searched.effective[k])))throw Error('混合盤未通過獨立驗證或配額檢查');
  return {schema_version:'1.0',mode:'news_and_idioms',issue_date:packet.news.issue_date,
   status:result.status==='SOLVED'?'REVIEW_REQUIRED':result.status,puzzle,grid_validation:validation,

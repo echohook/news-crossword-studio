@@ -1,3 +1,4 @@
+import {namedTyphoons,expandCandidates} from '../core/expansion.mjs';
 import {MAX_NEWS_EVENTS} from '../core/limits.mjs';
 import {experiencedDefinition,EXPERIENCED_PROFILE} from '../core/experienced-definitions.mjs';
 import {definitionBody} from '../core/definitions.mjs';
@@ -59,8 +60,8 @@ export function buildBank(feedResults,{now=new Date(),previous,idioms=[],lexicon
  for(const e of ordered){const key=e.event_date+'|'+e.categories?.[0];if(!buckets.has(key))buckets.set(key,[]);buckets.get(key).push(e);}
  for(let offset=0;selected.size<MAX_NEWS_EVENTS;offset++){let any=false;for(const list of buckets.values()){if(list[offset]){any=true;selected.set(list[offset].event_id,list[offset]);if(selected.size>=MAX_NEWS_EVENTS)break;}}if(!any)break;}
  const events=[...selected.values()].sort((a,b)=>b.published_at.localeCompare(a.published_at)||a.event_id.localeCompare(b.event_id));
- for(const e of events){const content=profile?[e.title,e.rss_lead].filter(Boolean).join('\n'):golfNewsText(e);e.keywords=lexicon.filter(a=>content.includes(a.word)&&termAllowed(a,e,content)&&golfTermAllowed(a,e)&&
-  !lexicon.some(b=>b.word.length>a.word.length&&b.word.includes(a.word)&&content.includes(b.word)&&golfTermAllowed(b,e))&&
+ for(const e of events){const content=profile?[e.title,e.rss_lead].filter(Boolean).join('\n'):golfNewsText(e);const eventLexicon=profile?[...lexicon,...namedTyphoons(e).filter(word=>!lexicon.some(a=>a.word===word)).map(word=>({word,kind:'颱風名稱'}))]:lexicon;e.keywords=eventLexicon.filter(a=>content.includes(a.word)&&termAllowed(a,e,content)&&golfTermAllowed(a,e)&&
+  !eventLexicon.some(b=>b.word.length>a.word.length&&b.word.includes(a.word)&&content.includes(b.word)&&golfTermAllowed(b,e))&&
   !(a.word==='鳳梨'&&e.title.includes('鳳梨釋迦'))&&
   !(a.word==='運動'&&/青年運動|學生運動|社會運動|革命運動|工人運動|政治運動/u.test(e.title))).map(a=>({
   word:a.word,kind:a.kind,...(a.answer_domain?{answer_domain:a.answer_domain}:{}),...(a.topic?{topic:a.topic}:{}),...(a.term_reference?{term_reference:a.term_reference}:{}),clue_options:naturalClueOptions(e,a,{profile}),answer_score:80+Array.from(a.word).length*3,difficulty:profile?'medium':'easy'
@@ -78,12 +79,15 @@ export function buildBank(feedResults,{now=new Date(),previous,idioms=[],lexicon
   }
  }
 if(candidates.length<2||!candidates.some(c=>fresh.some(e=>e.event_id===c.event_id)))throw Error('本次沒有取得足夠合格的新題目；保留上一批題庫。');
+ const expanded=profile?expandCandidates(collected.accepted,candidates):{knowledge:[],idioms:[]};
+ candidates.push(...expanded.knowledge);
  const styledIdioms=structuredClone(idioms).map(c=>{const body=(profile?experiencedDefinition(c.word)?.body:null)??definitionBody(c.word);return body?{...c,clue:body+'（4字）',clue_style:CLUE_STYLE,clue_kind:'meaning',...(profile?{clue_profile:profile,difficulty:'medium'}:{}),
   ...(c.word==='半途而廢'?{knowledge_source:{...c.knowledge_source,publisher:'教育部《成語典》',url:'https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=152&webMd=1'}}:{})}:c;});
+ const idiomWords=new Set(styledIdioms.map(c=>c.word));styledIdioms.push(...expanded.idioms.filter(c=>!idiomWords.has(c.word)));
  return {...(profile?{editorial_policy:{profile}}:{}),news:{issue_date:issue,dataset_mode:'news',events:collected.accepted,candidates},idioms:styledIdioms,mix:profile?{news:10,idiom:2}:{news:8,idiom:4},
   automation:{enabled:true,updated_at:now.toISOString(),window,interval_hours:6,source_count:successful.length,candidate_count:candidates.length,
    sources:feedResults.map(r=>({id:r.source.id,publisher:r.source.publisher,category:r.source.category,url:r.source.url,count:r.events?.length??0,error:r.error??null})),
-   clue_style:CLUE_STYLE,status:successful.length===feedResults.length?'UPDATED':'PARTIAL',method:profile?'RSS 七天新聞與摘要；事件及應用詞義；題材與難度獨立檢查':'RSS 新聞來源核對；精簡敘述、詞義與比喻線索；不擷取全文或圖片'}};
+   clue_style:CLUE_STYLE,status:successful.length===feedResults.length?'UPDATED':'PARTIAL',method:profile?'RSS 七天新聞；事件、主題聯想、共字延伸與成語；延伸知識不冒充新聞事實':'RSS 新聞來源核對；精簡敘述、詞義與比喻線索；不擷取全文或圖片'}};
 }
 export async function fetchFeeds({sources=SOURCES,fetchImpl=fetch,now=new Date()}={}){
  return Promise.all(sources.map(async source=>{

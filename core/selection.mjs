@@ -6,7 +6,7 @@ export const SELECTION_ORDER=[
  'length_within_half_first','length_penalty_asc','editorial_score_desc'
 ];
 export function anchorEvents(candidates) {
- return [...new Set(candidates.filter(c=>c.anchor_event===true||c.event?.anchor_event===true)
+ return [...new Set(candidates.filter(c=>c.content_kind!=='knowledge'&&(c.anchor_event===true||c.event?.anchor_event===true))
   .map(c=>c.event_id))].sort();
 }
 const score=n=>typeof n==='number'&&Number.isFinite(n)&&n>=0&&n<=100?n:0;
@@ -14,7 +14,7 @@ export function candidatePriority(c) {
  return 0.7*score(c.answer_score)+0.3*score(c.event?.event_score??c.event_score);
 }
 export function selectionQuality(answers,candidates) {
- const required=anchorEvents(candidates),used=new Set(answers.map(c=>c.event_id));
+ const required=anchorEvents(candidates),used=new Set(answers.filter(c=>c.content_kind!=='knowledge').map(c=>c.event_id));
  const covered=required.filter(id=>used.has(id)),missing=required.filter(id=>!used.has(id));
  return {anchor_event_ids:required,covered_anchor_event_ids:covered,missing_anchor_event_ids:missing,
   length_balance:lengthBalance(answers),

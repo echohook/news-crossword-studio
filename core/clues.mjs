@@ -1,3 +1,4 @@
+import {validateKnowledge} from './expansion.mjs';
 import {knownDefinitionClue} from './definitions.mjs';
 const normalized=s=>s.normalize('NFKC').replace(/[\p{P}\p{Z}\p{Cf}\s]/gu,'');
 const label={C01:'題目未洩漏答案',C02:'題目完整且長度合適',C03:'正確字數提示',
@@ -18,8 +19,10 @@ export function validateClue(candidate,event,{maxChars=60}={}) {
   const knownMeaning=knownDefinitionClue(candidate,meaningful);
   const overclaim=(status==='considering'||status==='planned')&&/已(?:決定|定案|設廠|完成|實施|確定)|確定(?:設廠|完成|實施)/.test(normalized(clue));
   const support=candidate?.source_support, sources=new Map((Array.isArray(event?.sources)?event.sources:[]).filter(s=>s&&typeof s.source_id==='string').map(s=>[s.source_id,s]));
+  const knowledge=candidate?.content_kind==='knowledge',knowledgeValid=knowledge&&validateKnowledge(candidate,event);
   const invalidSupport=[];
-  if(!Array.isArray(support)||!support.length) invalidSupport.push('缺少 source_support');
+  if(knowledge){if(!knowledgeValid)invalidSupport.push('延伸詞義、來源或新聞連結無效');}
+  else if(!Array.isArray(support)||!support.length) invalidSupport.push('缺少 source_support');
   else for(const s of support) {
     const source=s&&typeof s==='object'?sources.get(s.source_id):null;
     const evidence=typeof s?.evidence==='string'?s.evidence:'';
@@ -31,7 +34,7 @@ export function validateClue(candidate,event,{maxChars=60}={}) {
     C02:Array.from(meaningful).length>=4&&Array.from(clue).length<=maxChars,
     C03:hintLength===length,
     C04:Array.isArray(alternatives)&&alternatives.every(a=>typeof a==='string')&&competing.length===0,
-    C05:['confirmed','announced','considering','planned','reported'].includes(status)&&(knownMeaning||!qualifier||qualifier.test(normalized(clue)))&&!overclaim,
+    C05:['confirmed','announced','considering','planned','reported'].includes(status)&&(knowledgeValid||knownMeaning||!qualifier||qualifier.test(normalized(clue)))&&!overclaim,
     C06:invalidSupport.length===0
   };
   const checks=Object.entries(conditions).map(([id,pass])=>({id,label:label[id],pass,

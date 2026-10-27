@@ -1,4 +1,5 @@
-import {editorialAdmission,editorialReserve,validateEditorialSelection,editorialReward,EXPERIENCED_PROFILE} from './editorial.mjs';
+import {contentSlot,selectionEventKey} from './content.mjs';
+import {editorialAdmission,editorialReserve,validateEditorialSelection,editorialRewardFor,EXPERIENCED_PROFILE} from './editorial.mjs';
 import {filterCandidateScope} from './news-policy.mjs';
 export function solverSettings(options={}) {
   if (!options || typeof options!=='object' || Array.isArray(options)) throw new Error('options 必須是物件');
@@ -71,12 +72,13 @@ export function solve(candidates, options={}) {
   const scope=filterCandidateScope(candidates);
   const pool=[...scope.accepted].sort((a,b)=>a.id<b.id?-1:a.id>b.id?1:0);
   const analysis=analyzeCandidates(candidates,{target,minEntries});
-  const contentKind=c=>c.content_kind??'news';
+  const contentKind=contentSlot;
   if(contentTargets&&pool.some(c=>!['news','idiom'].includes(contentKind(c))))throw new Error('content_kind 需為 news 或 idiom');
   const anchors=new Set(anchorEvents(pool));
   const map=new Map(pool.map(c=>[c.id,c])), templates=pairs(pool), random=rng(seed);
   const neighbors=new Map(pool.map(c=>[c.id,new Set()]));
   if(reserveEntries)for(const t of templates){neighbors.get(t.a.id).add(t.b.id);neighbors.get(t.b.id).add(t.a.id);}
+  const editorialFactCache=new WeakMap();
   let best=null;
   const diagnostics=[];
   for(const size of sizes) {
@@ -88,7 +90,7 @@ export function solve(candidates, options={}) {
         const used=new Set(state.expected.map(c=>c.id));
         const reserveCache=new Map(),aliveDegrees=new Map();let aliveCrossable=0;
         if(reserveEntries)for(const c of pool)if(!used.has(c.id)){const degree=[...neighbors.get(c.id)].filter(id=>!used.has(id)).length;aliveDegrees.set(c.id,degree);if(degree)aliveCrossable++;}
-        const editorialReserveAllows=editorialReserve(pool.filter(c=>aliveDegrees.get(c.id)>0),target,reserveEntries,editorialPolicy);
+        const editorialReserveAllows=editorialReserve(pool.filter(c=>aliveDegrees.get(c.id)>0),target,reserveEntries,editorialPolicy,editorialFactCache);
         const assessReserve=items=>{
           if(!reserveEntries)return {allowed:true,loss:0};
           const key=JSON.stringify(items.map(c=>c.id).sort());if(reserveCache.has(key))return reserveCache.get(key);
@@ -100,11 +102,12 @@ export function solve(candidates, options={}) {
           const result={allowed:after>=reserveEntries&&editorialReserveAllows(new Set([...removed,...orphanIds])),loss};reserveCache.set(key,result);return result;
         };
         const events=new Map();
-        state.expected.forEach(c=>events.set(c.event_id,(events.get(c.event_id)??0)+1));
+        state.expected.forEach(c=>events.set(selectionEventKey(c),(events.get(selectionEventKey(c))??0)+1));
         const contentCounts={news:0,idiom:0};
         if(contentTargets)state.expected.forEach(c=>contentCounts[contentKind(c)]++);
-        const editorialAllows=editorialAdmission(state.expected,target,editorialPolicy);
-        const remaining=pool.filter(c=>!used.has(c.id)&&assessReserve([c]).allowed&&editorialAllows([c])&&(events.get(c.event_id)??0)<2&&
+        const editorialAllows=editorialAdmission(state.expected,target,editorialPolicy,editorialFactCache);
+        const editorialRewards=editorialRewardFor(state.expected,target,editorialPolicy,editorialFactCache);
+        const remaining=pool.filter(c=>!used.has(c.id)&&assessReserve([c]).allowed&&editorialAllows([c])&&(events.get(selectionEventKey(c))??0)<2&&
           (!contentTargets||contentCounts[contentKind(c)]<contentTargets[contentKind(c)]));
         const remainingIds=new Set(remaining.map(c=>c.id));
         const actions=[];
@@ -124,7 +127,7 @@ export function solve(candidates, options={}) {
             const additions={news:0,idiom:0};additions[contentKind(t.a)]++;additions[contentKind(t.b)]++;
             if(['news','idiom'].some(k=>contentCounts[k]+additions[k]>contentTargets[k]))continue;
           }
-          if((events.get(t.a.event_id)??0)+1+(t.a.event_id===t.b.event_id?1:0)>2 || (events.get(t.b.event_id)??0)+1>2) continue;
+          if((events.get(selectionEventKey(t.a))??0)+1+(selectionEventKey(t.a)===selectionEventKey(t.b)?1:0)>2 || (events.get(selectionEventKey(t.b))??0)+1>2) continue;
           let admitted=0;
           const offset=Math.floor(random()*size*size);
           for(let pos=0;pos<size*size && admitted<3;pos++) {
@@ -147,7 +150,7 @@ export function solve(candidates, options={}) {
           for(const item of a.items) {const len=chars(item.c).length; reward+=target/3-projected[len]; projected[len]++;}
           const newAnchorEvents=new Set(a.items.filter(item=>anchors.has(item.c.event_id)&&!events.has(item.c.event_id)).map(item=>item.c.event_id));
           a.anchorGain=newAnchorEvents.size;
-          a.score=-assessReserve(a.items.map(x=>x.c)).loss*2/a.items.length+editorialReward(state.expected,a.items.map(x=>x.c),target,editorialPolicy)+reward/a.items.length + random()*2 + a.items.reduce((n,item)=>n+candidatePriority(item.c),0)/a.items.length/200;
+          a.score=-assessReserve(a.items.map(x=>x.c)).loss*2/a.items.length+editorialRewards(a.items.map(x=>x.c))+reward/a.items.length + random()*2 + a.items.reduce((n,item)=>n+candidatePriority(item.c),0)/a.items.length/200;
           if(contentTargets)a.score+=a.items.reduce((sum,item)=>sum+(contentTargets[contentKind(item.c)]-contentCounts[contentKind(item.c)])/Math.max(1,contentTargets[contentKind(item.c)]),0)/a.items.length;
         }
         actions.sort((a,b)=>b.anchorGain-a.anchorGain||b.score-a.score);

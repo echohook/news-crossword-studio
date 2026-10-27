@@ -1,3 +1,4 @@
+import {typhoonNameClue} from '../core/expansion.mjs';
 import {experiencedDefinition,experiencedEventBody,EXPERIENCED_PROFILE} from '../core/experienced-definitions.mjs';
 /** Authored, complete clue sentences. Unknown terms are skipped instead of masked. */
 import {CLUE_STYLE,definitionBody} from '../core/definitions.mjs';
@@ -8,7 +9,7 @@ const subjectQuestions={'國家或地區':'哪個國家或地區','地名':'哪�
 const subjectPredicate=/^(?:將|擬|宣布|公布|推出|表示|指出|決定|計畫|規劃|評估|考慮|研議|調升|調降|啟動|完成|成立|同意|要求|批准|通過|拒絕|反對|呼籲|邀請|獲|奪|拿下|出訪|訪|赴|捐|推|籲|控|提|估|與|和|對|在)/u;
 export function naturalClueOptions(event,entry,{profile=null}={}){
  if(profile===EXPERIENCED_PROFILE){
-  const options=[],body=experiencedDefinition(entry.word)?.body,eventBody=experiencedEventBody(event,entry),hint='（'+Array.from(entry.word).length+'字）';
+  const options=[],body=experiencedDefinition(entry.word)?.body,eventBody=entry.kind==='颱風名稱'?typhoonNameClue(event,entry.word):experiencedEventBody(event,entry),hint='（'+Array.from(entry.word).length+'字）';
   if(eventBody)options.push({clue:eventBody+hint,clue_style:CLUE_STYLE,clue_kind:'event',clue_profile:profile,difficulty:'medium'});
   if(body)options.push({clue:body+hint,clue_style:CLUE_STYLE,clue_kind:'meaning',clue_profile:profile,difficulty:'medium'});
   return options.filter(o=>Array.from(o.clue).length<=60&&!normalized(o.clue).includes(normalized(entry.word)));

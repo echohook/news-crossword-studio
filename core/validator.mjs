@@ -113,7 +113,11 @@ export function validatePuzzle(puzzle) {
     if (board[r][c]!==BLOCK && !owners.has(cellKey(r,c))) structural.push('未歸屬正式答案的字格 @ '+r+','+c);
   }
   const eventCounts = new Map();
-  for (const c of expected) eventCounts.set(c.event_id,(eventCounts.get(c.event_id)??0)+1);
+  for (const c of expected) {
+    // Dictionary extensions are not extra factual answers about their linked event.
+    const eventKey=c.content_kind==='knowledge'?'knowledge:'+c.word:c.event_id;
+    eventCounts.set(eventKey,(eventCounts.get(eventKey)??0)+1);
+  }
   for (const [id,count] of eventCounts) if(count>2) structural.push('事件 '+id+' 超過預設 2 題上限');
   const checks = labels.map((label,i)=>({id:'V0'+(i+1),label,pass:errors[i].length===0,errors:[...new Set(errors[i])]}));
   const valid = !structural.length && checks.every(c=>c.pass);
