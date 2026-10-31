@@ -3483,6 +3483,206 @@
         "content_revision": "cna-2f72f0fee362c9f4d69e"
       },
       {
+        "event_id": "cna-44e13982f549ede9b196",
+        "dedup_key": "https://www.cna.com.tw/news/acn/202610310120.aspx",
+        "event_date": "2026-10-31",
+        "updated_at": "2026-10-31",
+        "published_at": "2026-10-31T07:31:16.000Z",
+        "title": "中共20屆五中全會　陸委會：對比台灣選舉呈現反差",
+        "rss_lead": "（中央社記者李雅雯台北31日電）中共20屆五中全會落幕。陸委會副主委沈有忠今天表示，五中全會對比台灣選舉，凸顯兩岸最根本的差距在於民主和威權的制度差異，呈現中共愈來愈極權、台灣更加民主的反差。",
+        "summary": "中共20屆五中全會　陸委會：對比台灣選舉呈現反差",
+        "categories": [
+          "國際"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-0cdd74fa4762ea8c8f4d",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/acn/202610310120.aspx",
+            "published_at": "2026-10-31",
+            "excerpt": "中共20屆五中全會　陸委會：對比台灣選舉呈現反差\n（中央社記者李雅雯台北31日電）中共20屆五中全會落幕。陸委會副主委沈有忠今天表示，五中全會對比台灣選舉，凸顯兩岸最根本的差距在於民主和威權的制度差異，呈現中共愈來愈極權、台灣更加民主的反差。",
+            "section": "國際"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "選舉",
+            "kind": "專業用語",
+            "answer_domain": "politics",
+            "clue_options": [
+              {
+                "clue": "由選民投票產生公職代表的制度，結果仍須接受法定程序及監督。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "由選民投票產生公職代表的制度，結果仍須接受法定程序及監督。（2字）"
+          }
+        ],
+        "aliases": [
+          "cna-44e13982f549ede9b196"
+        ],
+        "content_revision": "cna-44e13982f549ede9b196"
+      },
+      {
+        "event_id": "cna-7a46fe8cffca441a3462",
+        "dedup_key": "https://www.cna.com.tw/news/acn/202610310157.aspx",
+        "event_date": "2026-10-31",
+        "updated_at": "2026-10-31",
+        "published_at": "2026-10-31T09:44:36.000Z",
+        "title": "中國製造業景氣回落  10月PMI跌至榮枯線以下",
+        "rss_lead": "（中央社台北31日電）中國製造業活動短暫擴張後再次萎縮，10月製造業採購經理指數（PMI）為49.3，較9月下跌0.8個百分點，跌至榮枯線以下，為最近3個月以來最大萎縮幅度。",
+        "summary": "中國製造業景氣回落  10月PMI跌至榮枯線以下",
+        "categories": [
+          "國際"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-dfd0b095e695c372c1b5",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/acn/202610310157.aspx",
+            "published_at": "2026-10-31",
+            "excerpt": "中國製造業景氣回落  10月PMI跌至榮枯線以下\n（中央社台北31日電）中國製造業活動短暫擴張後再次萎縮，10月製造業採購經理指數（PMI）為49.3，較9月下跌0.8個百分點，跌至榮枯線以下，為最近3個月以來最大萎縮幅度。",
+            "section": "國際"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "景氣",
+            "kind": "財經用語",
+            "clue_options": [
+              {
+                "clue": "整體經濟活動的起伏狀態，投資、就業與消費常隨其循環變化。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "整體經濟活動的起伏狀態，投資、就業與消費常隨其循環變化。（2字）"
+          }
+        ],
+        "aliases": [
+          "cna-7a46fe8cffca441a3462"
+        ],
+        "content_revision": "cna-7a46fe8cffca441a3462"
+      },
+      {
+        "event_id": "cna-7600620e77e20047bd2a",
+        "dedup_key": "https://www.cna.com.tw/news/acn/202610310167.aspx",
+        "event_date": "2026-10-31",
+        "updated_at": "2026-10-31",
+        "published_at": "2026-10-31T10:40:03.000Z",
+        "title": "習近平大規模整肅　學者：不斷找敵人維持執政正當性",
+        "rss_lead": "（中央社記者李雅雯台北31日電）中共20屆五中全會落幕。學者蔡文軒今天在一場座談會上解析，中共領導人習近平反貪腐，也打親自提拔的人，原因在於習必須不斷地在黨內找新敵人以維持長期執政合法性和正當性。",
+        "summary": "習近平大規模整肅　學者：不斷找敵人維持執政正當性",
+        "categories": [
+          "國際"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-88d99dd5525a5c811693",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/acn/202610310167.aspx",
+            "published_at": "2026-10-31",
+            "excerpt": "習近平大規模整肅　學者：不斷找敵人維持執政正當性\n（中央社記者李雅雯台北31日電）中共20屆五中全會落幕。學者蔡文軒今天在一場座談會上解析，中共領導人習近平反貪腐，也打親自提拔的人，原因在於習必須不斷地在黨內找新敵人以維持長期執政合法性和正當性。",
+            "section": "國際"
+          }
+        ],
+        "keywords": [],
+        "aliases": [
+          "cna-7600620e77e20047bd2a"
+        ],
+        "content_revision": "cna-7600620e77e20047bd2a"
+      },
+      {
+        "event_id": "cna-76ca4e493e34b99da774",
+        "dedup_key": "https://www.cna.com.tw/news/acn/202610310175.aspx",
+        "event_date": "2026-10-31",
+        "updated_at": "2026-10-31",
+        "published_at": "2026-10-31T11:33:21.000Z",
+        "title": "退休逾11年  前中國中石化董事長傅成玉受查",
+        "rss_lead": "（中央社台北31日電）中共五中全會後，據中共中央紀委國家監委網站，前中國石油化工集團公司黨組書記、董事長傅成玉涉嫌嚴重違紀違法，目前正接受中央紀委國家監委紀律審查和監察調查。",
+        "summary": "退休逾11年  前中國中石化董事長傅成玉受查",
+        "categories": [
+          "國際"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-fab6464a5ff3320d5f4e",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/acn/202610310175.aspx",
+            "published_at": "2026-10-31",
+            "excerpt": "退休逾11年  前中國中石化董事長傅成玉受查\n（中央社台北31日電）中共五中全會後，據中共中央紀委國家監委網站，前中國石油化工集團公司黨組書記、董事長傅成玉涉嫌嚴重違紀違法，目前正接受中央紀委國家監委紀律審查和監察調查。",
+            "section": "國際"
+          }
+        ],
+        "keywords": [],
+        "aliases": [
+          "cna-76ca4e493e34b99da774"
+        ],
+        "content_revision": "cna-76ca4e493e34b99da774"
+      },
+      {
+        "event_id": "cna-4b87a62c8ffb099b3572",
+        "dedup_key": "https://www.cna.com.tw/news/acn/202610310180.aspx",
+        "event_date": "2026-10-31",
+        "updated_at": "2026-10-31",
+        "published_at": "2026-10-31T12:14:32.000Z",
+        "title": "中國首次載人登月計畫　2030年前實現兩太空人登陸月球",
+        "rss_lead": "（中央社台北31日電）中國載人航天工程副總設計師王翔今天公布，中國計畫在2030年前實現載人登陸月球，將採用「兩次發射，一次登月」的方式，乘組計畫由三人組成，其中兩人登陸月球表面。",
+        "summary": "中國首次載人登月計畫　2030年前實現兩太空人登陸月球",
+        "categories": [
+          "科技"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-e633ffc8a8273f9baa60",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/acn/202610310180.aspx",
+            "published_at": "2026-10-31",
+            "excerpt": "中國首次載人登月計畫　2030年前實現兩太空人登陸月球\n（中央社台北31日電）中國載人航天工程副總設計師王翔今天公布，中國計畫在2030年前實現載人登陸月球，將採用「兩次發射，一次登月」的方式，乘組計畫由三人組成，其中兩人登陸月球表面。",
+            "section": "科技"
+          }
+        ],
+        "keywords": [],
+        "aliases": [
+          "cna-4b87a62c8ffb099b3572"
+        ],
+        "content_revision": "cna-4b87a62c8ffb099b3572"
+      },
+      {
         "event_id": "cna-46a1a5efc8083d1f76fd",
         "dedup_key": "https://www.cna.com.tw/news/acul/202610250095.aspx",
         "event_date": "2026-10-25",
@@ -4664,6 +4864,105 @@
           "cna-1954732eef5097b099ac"
         ],
         "content_revision": "cna-1954732eef5097b099ac"
+      },
+      {
+        "event_id": "cna-c4f98f9858045199c21c",
+        "dedup_key": "https://www.cna.com.tw/news/acul/202610310084.aspx",
+        "event_date": "2026-10-31",
+        "updated_at": "2026-10-31",
+        "published_at": "2026-10-31T04:58:55.000Z",
+        "title": "紙風車屏東團新戲「阿猴落地掃2」　相約廟口看戲",
+        "rss_lead": "（中央社記者邱祖胤台北31日電）紙風車劇團屏東團全新巡演計畫「紙風車阿猴落地掃2」，30日在屏東市頭前溪鎮溪宮演出，持續前進庄頭廟埕，邀鄉親在廟口相聚看戲。",
+        "summary": "紙風車屏東團新戲「阿猴落地掃2」　相約廟口看戲",
+        "categories": [
+          "文化"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-84cb74c4baa0fa5edd69",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/acul/202610310084.aspx",
+            "published_at": "2026-10-31",
+            "excerpt": "紙風車屏東團新戲「阿猴落地掃2」　相約廟口看戲\n（中央社記者邱祖胤台北31日電）紙風車劇團屏東團全新巡演計畫「紙風車阿猴落地掃2」，30日在屏東市頭前溪鎮溪宮演出，持續前進庄頭廟埕，邀鄉親在廟口相聚看戲。",
+            "section": "文化"
+          }
+        ],
+        "keywords": [],
+        "aliases": [
+          "cna-c4f98f9858045199c21c"
+        ],
+        "content_revision": "cna-c4f98f9858045199c21c"
+      },
+      {
+        "event_id": "cna-169f834ab3d47ac52790",
+        "dedup_key": "https://www.cna.com.tw/news/acul/202610310127.aspx",
+        "event_date": "2026-10-31",
+        "updated_at": "2026-10-31",
+        "published_at": "2026-10-31T08:09:32.000Z",
+        "title": "關渡國際動畫影展閉幕　God is shy獲關渡狗首獎",
+        "rss_lead": "（中央社記者邱祖胤台北31日電）第16屆關渡國際動畫影展今天圓滿閉幕，為期一週展期吸引4500觀影人次，本屆「關渡狗首獎」由法國動畫「God is shy」拿下，「台灣特別獎」由吳承筠作品「工」獲得。",
+        "summary": "關渡國際動畫影展閉幕　God is shy獲關渡狗首獎",
+        "categories": [
+          "文化"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-cbbc3b54e995021c2f29",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/acul/202610310127.aspx",
+            "published_at": "2026-10-31",
+            "excerpt": "關渡國際動畫影展閉幕　God is shy獲關渡狗首獎\n（中央社記者邱祖胤台北31日電）第16屆關渡國際動畫影展今天圓滿閉幕，為期一週展期吸引4500觀影人次，本屆「關渡狗首獎」由法國動畫「God is shy」拿下，「台灣特別獎」由吳承筠作品「工」獲得。",
+            "section": "文化"
+          }
+        ],
+        "keywords": [],
+        "aliases": [
+          "cna-169f834ab3d47ac52790"
+        ],
+        "content_revision": "cna-169f834ab3d47ac52790"
+      },
+      {
+        "event_id": "cna-b55b121a8eb5bb4a1426",
+        "dedup_key": "https://www.cna.com.tw/news/acul/202610310169.aspx",
+        "event_date": "2026-10-31",
+        "updated_at": "2026-10-31",
+        "published_at": "2026-10-31T10:48:07.000Z",
+        "title": "4個月走訪市場街頭　柏林作家將台灣滋味寫進食譜",
+        "rss_lead": "（中央社記者林尚縈柏林31日專電）柏林知名美食作家與自媒體創作者Sissi Chen於10月出版介紹台灣料理的德文食譜，為此特別赴台4個月，走訪各地尋味，希望打破德國讀者對「亞洲料理」的籠統印象，呈現台灣獨特飲食文化。",
+        "summary": "4個月走訪市場街頭　柏林作家將台灣滋味寫進食譜",
+        "categories": [
+          "文化"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-1d846ca4fd61479dd40b",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/acul/202610310169.aspx",
+            "published_at": "2026-10-31",
+            "excerpt": "4個月走訪市場街頭　柏林作家將台灣滋味寫進食譜\n（中央社記者林尚縈柏林31日專電）柏林知名美食作家與自媒體創作者Sissi Chen於10月出版介紹台灣料理的德文食譜，為此特別赴台4個月，走訪各地尋味，希望打破德國讀者對「亞洲料理」的籠統印象，呈現台灣獨特飲食文化。",
+            "section": "文化"
+          }
+        ],
+        "keywords": [],
+        "aliases": [
+          "cna-b55b121a8eb5bb4a1426"
+        ],
+        "content_revision": "cna-b55b121a8eb5bb4a1426"
       },
       {
         "event_id": "cna-09e31c8891edd461fe44",
@@ -18505,6 +18804,39 @@
         "content_revision": "cna-b2972ec9e2b39d8e4042"
       },
       {
+        "event_id": "cna-adfb4ed7174a5666504d",
+        "dedup_key": "https://www.cna.com.tw/news/afe/202610310087.aspx",
+        "event_date": "2026-10-31",
+        "updated_at": "2026-10-31",
+        "published_at": "2026-10-31T05:05:04.000Z",
+        "title": "鴻海：盼合作台廠參與機器人標準制定",
+        "rss_lead": "（中央社記者鍾榮峰台北31日電）鴻海年度科技日（HHTD 26）今天持續登場，鴻海集團C事業群總經理李光曜表示，鴻海期盼參與機器人標準制定，台灣廠商可共同合作參與規格制定，他預期機器人應用可能先在商用市場落實，未來機器人在工廠內承擔大部分工作，有機會在3到5年內實現。",
+        "summary": "鴻海：盼合作台廠參與機器人標準制定",
+        "categories": [
+          "財經"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-6925636044e95bb50114",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/afe/202610310087.aspx",
+            "published_at": "2026-10-31",
+            "excerpt": "鴻海：盼合作台廠參與機器人標準制定\n（中央社記者鍾榮峰台北31日電）鴻海年度科技日（HHTD 26）今天持續登場，鴻海集團C事業群總經理李光曜表示，鴻海期盼參與機器人標準制定，台灣廠商可共同合作參與規格制定，他預期機器人應用可能先在商用市場落實，未來機器人在工廠內承擔大部分工作，有機會在3到5年內實現。",
+            "section": "財經"
+          }
+        ],
+        "keywords": [],
+        "aliases": [
+          "cna-adfb4ed7174a5666504d"
+        ],
+        "content_revision": "cna-adfb4ed7174a5666504d"
+      },
+      {
         "event_id": "cna-7d61af05debda6f65473",
         "dedup_key": "https://www.cna.com.tw/news/ahel/202610250014.aspx",
         "event_date": "2026-10-25",
@@ -26426,7 +26758,7 @@
         "rss_lead": "（中央社台北30日電）大樂透第115101期今晚開獎。中獎號碼為30、37、04、22、25、34，特別號48；派彩結果，頭獎槓龜。",
         "summary": "大樂透第115101期　頭獎槓龜",
         "categories": [
-          "生活"
+          "財經"
         ],
         "fact_status": "reported",
         "content_type": "news",
@@ -26440,7 +26772,7 @@
             "url": "https://www.cna.com.tw/news/ahel/202610300329.aspx",
             "published_at": "2026-10-30",
             "excerpt": "大樂透第115101期　頭獎槓龜\n（中央社台北30日電）大樂透第115101期今晚開獎。中獎號碼為30、37、04、22、25、34，特別號48；派彩結果，頭獎槓龜。",
-            "section": "生活"
+            "section": "財經"
           }
         ],
         "keywords": [],
@@ -26459,7 +26791,7 @@
         "rss_lead": "（中央社台北30日電）今彩539第115263期開獎，中獎號碼37、11、12、31、09；派彩結果，頭獎3注中獎，每注獎金新台幣800萬元。",
         "summary": "今彩539第115263期　頭獎3注中獎",
         "categories": [
-          "生活"
+          "財經"
         ],
         "fact_status": "reported",
         "content_type": "news",
@@ -26473,7 +26805,7 @@
             "url": "https://www.cna.com.tw/news/ahel/202610300331.aspx",
             "published_at": "2026-10-30",
             "excerpt": "今彩539第115263期　頭獎3注中獎\n（中央社台北30日電）今彩539第115263期開獎，中獎號碼37、11、12、31、09；派彩結果，頭獎3注中獎，每注獎金新台幣800萬元。",
-            "section": "生活"
+            "section": "財經"
           }
         ],
         "keywords": [
@@ -26757,11 +27089,11 @@
         "event_date": "2026-10-31",
         "updated_at": "2026-10-31",
         "published_at": "2026-10-31T03:52:17.000Z",
-        "title": "雅加達時裝周穿上台灣航空美學  台印跨界探索時尚新可能",
+        "title": "雅加達時裝週穿上台灣航空美學　台印跨界探索時尚新可能",
         "rss_lead": "（中央社記者羅薇佳雅加達31日專電）印尼年度時尚盛事「雅加達時裝周」（Jakarta Fashion Week）近日登場，今年活動首度迎來航空夥伴，來自台灣的航空企業跨足時尚領域，與印尼本土設計師跨國合作，將飛行意象與空中美學搬上伸展台，展現時尚、藝術與航空產業交織的多元面貌。",
-        "summary": "雅加達時裝周穿上台灣航空美學  台印跨界探索時尚新可能",
+        "summary": "雅加達時裝週穿上台灣航空美學　台印跨界探索時尚新可能",
         "categories": [
-          "國際"
+          "生活"
         ],
         "fact_status": "reported",
         "content_type": "news",
@@ -26769,13 +27101,13 @@
         "anchor_event": false,
         "sources": [
           {
-            "source_id": "rss-cd503f91907227983363",
+            "source_id": "rss-43f50f1b89fb19bf0636",
             "publisher": "中央通訊社",
             "kind": "newswire",
             "url": "https://www.cna.com.tw/news/ahel/202610310067.aspx",
             "published_at": "2026-10-31",
-            "excerpt": "雅加達時裝周穿上台灣航空美學  台印跨界探索時尚新可能\n（中央社記者羅薇佳雅加達31日專電）印尼年度時尚盛事「雅加達時裝周」（Jakarta Fashion Week）近日登場，今年活動首度迎來航空夥伴，來自台灣的航空企業跨足時尚領域，與印尼本土設計師跨國合作，將飛行意象與空中美學搬上伸展台，展現時尚、藝術與航空產業交織的多元面貌。",
-            "section": "國際"
+            "excerpt": "雅加達時裝週穿上台灣航空美學　台印跨界探索時尚新可能\n（中央社記者羅薇佳雅加達31日專電）印尼年度時尚盛事「雅加達時裝周」（Jakarta Fashion Week）近日登場，今年活動首度迎來航空夥伴，來自台灣的航空企業跨足時尚領域，與印尼本土設計師跨國合作，將飛行意象與空中美學搬上伸展台，展現時尚、藝術與航空產業交織的多元面貌。",
+            "section": "生活"
           }
         ],
         "keywords": [],
@@ -26783,6 +27115,486 @@
           "cna-4bce1118d55829913661"
         ],
         "content_revision": "cna-4bce1118d55829913661"
+      },
+      {
+        "event_id": "cna-334a6c49043915a36620",
+        "dedup_key": "https://www.cna.com.tw/news/ahel/202610310069.aspx",
+        "event_date": "2026-10-31",
+        "updated_at": "2026-10-31",
+        "published_at": "2026-10-31T04:07:22.000Z",
+        "title": "調查：小黃駕駛月淨收入增2成　多元化計程車占比增至近4成",
+        "rss_lead": "（中央社記者黃巧雯台北31日電）交通部調查，114年專職計程車駕駛人月均總收入5萬5788元，較112年增14.4%，扣除支出後淨收入3萬2465元，增5508元、20.4%；此外，多元化計程車逾3.6萬輛，占比增至近4成。",
+        "summary": "調查：小黃駕駛月淨收入增2成　多元化計程車占比增至近4成",
+        "categories": [
+          "生活"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-217a30ce1a099bf5a1aa",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/ahel/202610310069.aspx",
+            "published_at": "2026-10-31",
+            "excerpt": "調查：小黃駕駛月淨收入增2成　多元化計程車占比增至近4成\n（中央社記者黃巧雯台北31日電）交通部調查，114年專職計程車駕駛人月均總收入5萬5788元，較112年增14.4%，扣除支出後淨收入3萬2465元，增5508元、20.4%；此外，多元化計程車逾3.6萬輛，占比增至近4成。",
+            "section": "生活"
+          }
+        ],
+        "keywords": [],
+        "aliases": [
+          "cna-334a6c49043915a36620"
+        ],
+        "content_revision": "cna-334a6c49043915a36620"
+      },
+      {
+        "event_id": "cna-ce62d6b0d624dc71a0c0",
+        "dedup_key": "https://www.cna.com.tw/news/ahel/202610310072.aspx",
+        "event_date": "2026-10-31",
+        "updated_at": "2026-10-31",
+        "published_at": "2026-10-31T04:18:29.000Z",
+        "title": "彭啓明：116年擬提計畫　盼清潔隊員福利更好",
+        "rss_lead": "（中央社記者張榮祥台南31日電）環境部長彭啓明今天表示，台灣未來10年要更好，無法缺少清潔隊員，政府也有規劃，預定明年提出計畫，希望清潔隊員擁有更好福利、待遇和制度，在社會體系愈來愈重要。",
+        "summary": "彭啓明：116年擬提計畫　盼清潔隊員福利更好",
+        "categories": [
+          "生活"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-301d99dca6a792ae84a5",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/ahel/202610310072.aspx",
+            "published_at": "2026-10-31",
+            "excerpt": "彭啓明：116年擬提計畫　盼清潔隊員福利更好\n（中央社記者張榮祥台南31日電）環境部長彭啓明今天表示，台灣未來10年要更好，無法缺少清潔隊員，政府也有規劃，預定明年提出計畫，希望清潔隊員擁有更好福利、待遇和制度，在社會體系愈來愈重要。",
+            "section": "生活"
+          }
+        ],
+        "keywords": [],
+        "aliases": [
+          "cna-ce62d6b0d624dc71a0c0"
+        ],
+        "content_revision": "cna-ce62d6b0d624dc71a0c0"
+      },
+      {
+        "event_id": "cna-76e0d7aecd1023391c29",
+        "dedup_key": "https://www.cna.com.tw/news/ahel/202610310096.aspx",
+        "event_date": "2026-10-31",
+        "updated_at": "2026-10-31",
+        "published_at": "2026-10-31T05:44:23.000Z",
+        "title": "同志酒吧執法爭議　同志遊行下午登場估突破15萬人",
+        "rss_lead": "（中央社記者吳欣紜台北31日電）台灣同志遊行今天登場，主題為「聲做伙聽，路做伙行」，主辦單位表示，萬華酒吧搜索事件喚起許多同志遭打壓回憶，盼透過遊行呈現多元樣貌，讓大眾互相傾聽並跨越理解差異。",
+        "summary": "同志酒吧執法爭議　同志遊行下午登場估突破15萬人",
+        "categories": [
+          "生活"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-b026dbac5c265e0754d3",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/ahel/202610310096.aspx",
+            "published_at": "2026-10-31",
+            "excerpt": "同志酒吧執法爭議　同志遊行下午登場估突破15萬人\n（中央社記者吳欣紜台北31日電）台灣同志遊行今天登場，主題為「聲做伙聽，路做伙行」，主辦單位表示，萬華酒吧搜索事件喚起許多同志遭打壓回憶，盼透過遊行呈現多元樣貌，讓大眾互相傾聽並跨越理解差異。",
+            "section": "生活"
+          }
+        ],
+        "keywords": [],
+        "aliases": [
+          "cna-76e0d7aecd1023391c29"
+        ],
+        "content_revision": "cna-76e0d7aecd1023391c29"
+      },
+      {
+        "event_id": "cna-4676bf1820db7f05afba",
+        "dedup_key": "https://www.cna.com.tw/news/ahel/202610310126.aspx",
+        "event_date": "2026-10-31",
+        "updated_at": "2026-10-31",
+        "published_at": "2026-10-31T08:07:30.000Z",
+        "title": "兩度重創癱瘓不放棄　蔡承恩獲衛福部金鷹獎表揚",
+        "rss_lead": "（中央社記者沈佩瑤台北31日電）蔡承恩曾兩度走過生死關卡，從此全身癱瘓、說話吃力。在母親溫柔守護下，他從無法動彈到重拾學習與運動，今年獲衛福部身障楷模金鷹獎表揚，盼各界看見障礙之外的無限可能。",
+        "summary": "兩度重創癱瘓不放棄　蔡承恩獲衛福部金鷹獎表揚",
+        "categories": [
+          "生活"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-07004f3f75ddf57c5d4f",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/ahel/202610310126.aspx",
+            "published_at": "2026-10-31",
+            "excerpt": "兩度重創癱瘓不放棄　蔡承恩獲衛福部金鷹獎表揚\n（中央社記者沈佩瑤台北31日電）蔡承恩曾兩度走過生死關卡，從此全身癱瘓、說話吃力。在母親溫柔守護下，他從無法動彈到重拾學習與運動，今年獲衛福部身障楷模金鷹獎表揚，盼各界看見障礙之外的無限可能。",
+            "section": "生活"
+          }
+        ],
+        "keywords": [],
+        "aliases": [
+          "cna-4676bf1820db7f05afba"
+        ],
+        "content_revision": "cna-4676bf1820db7f05afba"
+      },
+      {
+        "event_id": "cna-6bde78fc37dbf19ec76e",
+        "dedup_key": "https://www.cna.com.tw/news/ahel/202610310129.aspx",
+        "event_date": "2026-10-31",
+        "updated_at": "2026-10-31",
+        "published_at": "2026-10-31T08:20:36.000Z",
+        "title": "中油11月民生與工業天然氣價凍漲　電業漲4%",
+        "rss_lead": "（中央社記者謝怡璇台北31日電）台灣中油今天宣布，為配合政府穩定國內物價政策、降低產業成本負擔，11月民生、工業用戶天然氣價格不予調整；電業用戶方面，為適度反映上漲的氣源成本，調漲4%。",
+        "summary": "中油11月民生與工業天然氣價凍漲　電業漲4%",
+        "categories": [
+          "生活"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-2deb5a0e1c0d03837d8d",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/ahel/202610310129.aspx",
+            "published_at": "2026-10-31",
+            "excerpt": "中油11月民生與工業天然氣價凍漲　電業漲4%\n（中央社記者謝怡璇台北31日電）台灣中油今天宣布，為配合政府穩定國內物價政策、降低產業成本負擔，11月民生、工業用戶天然氣價格不予調整；電業用戶方面，為適度反映上漲的氣源成本，調漲4%。",
+            "section": "生活"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "物價",
+            "kind": "財經用語",
+            "clue_options": [
+              {
+                "clue": "退休收入固定時，這項整體商品與服務價格水準的變化會影響生活負擔。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "退休收入固定時，這項整體商品與服務價格水準的變化會影響生活負擔。（2字）"
+          }
+        ],
+        "aliases": [
+          "cna-6bde78fc37dbf19ec76e"
+        ],
+        "content_revision": "cna-6bde78fc37dbf19ec76e"
+      },
+      {
+        "event_id": "cna-293544a6370fcc9f5402",
+        "dedup_key": "https://www.cna.com.tw/news/ahel/202610310137.aspx",
+        "event_date": "2026-10-31",
+        "updated_at": "2026-10-31",
+        "published_at": "2026-10-31T09:00:54.000Z",
+        "title": "11/1高溫上看32度東半部有雨　下週2波東北季風",
+        "rss_lead": "（中央社記者黃巧雯台北31日電）氣象署表示，明天各地大多為多雲到晴，高溫上看32度，僅東半部地區有零星短暫雨，11月2日東北季風增強，迎風面有雨，11月6日又有另一波東北季風。",
+        "summary": "11/1高溫上看32度東半部有雨　下週2波東北季風",
+        "categories": [
+          "生活"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-33d2d9e25d28609bcec7",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/ahel/202610310137.aspx",
+            "published_at": "2026-10-31",
+            "excerpt": "11/1高溫上看32度東半部有雨　下週2波東北季風\n（中央社記者黃巧雯台北31日電）氣象署表示，明天各地大多為多雲到晴，高溫上看32度，僅東半部地區有零星短暫雨，11月2日東北季風增強，迎風面有雨，11月6日又有另一波東北季風。",
+            "section": "生活"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "季風",
+            "kind": "專業用語",
+            "answer_domain": "environment",
+            "clue_options": [
+              {
+                "clue": "大範圍盛行風向隨季節轉變，牽動區域乾濕與冷暖變化的氣候現象。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "大範圍盛行風向隨季節轉變，牽動區域乾濕與冷暖變化的氣候現象。（2字）"
+          }
+        ],
+        "aliases": [
+          "cna-293544a6370fcc9f5402"
+        ],
+        "content_revision": "cna-293544a6370fcc9f5402"
+      },
+      {
+        "event_id": "cna-bf9f2f91de72b30afcad",
+        "dedup_key": "https://www.cna.com.tw/news/ahel/202610310152.aspx",
+        "event_date": "2026-10-31",
+        "updated_at": "2026-10-31",
+        "published_at": "2026-10-31T09:28:25.000Z",
+        "title": "中油：下週汽柴油價格不調整　累計吸收約318.6億元",
+        "rss_lead": "（中央社記者謝怡璇台北31日電）為照顧國內民生與平穩物價，中油今天宣布，自11月2日凌晨零時起至11月8日晚上12時止，汽、柴油價格維持不調整；統計自2月28日至11月1日執行專案平穩各項措施，汽、柴油合計擴大吸收約新台幣318.6億元。",
+        "summary": "中油：下週汽柴油價格不調整　累計吸收約318.6億元",
+        "categories": [
+          "生活"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-7b41ee15a10b9748b0e1",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/ahel/202610310152.aspx",
+            "published_at": "2026-10-31",
+            "excerpt": "中油：下週汽柴油價格不調整　累計吸收約318.6億元\n（中央社記者謝怡璇台北31日電）為照顧國內民生與平穩物價，中油今天宣布，自11月2日凌晨零時起至11月8日晚上12時止，汽、柴油價格維持不調整；統計自2月28日至11月1日執行專案平穩各項措施，汽、柴油合計擴大吸收約新台幣318.6億元。",
+            "section": "生活"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "新台幣",
+            "kind": "財經用語",
+            "clue_options": [
+              {
+                "clue": "本地法定貨幣，其對外比價變動會影響進口成本與出口換匯收入。（3字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 89,
+            "difficulty": "medium",
+            "clue": "本地法定貨幣，其對外比價變動會影響進口成本與出口換匯收入。（3字）"
+          },
+          {
+            "word": "油價",
+            "kind": "財經用語",
+            "clue_options": [
+              {
+                "clue": "運輸成本與民生物價的重要變數，常隨產油國政策及航道風險波動。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "運輸成本與民生物價的重要變數，常隨產油國政策及航道風險波動。（2字）"
+          },
+          {
+            "word": "物價",
+            "kind": "財經用語",
+            "clue_options": [
+              {
+                "clue": "退休收入固定時，這項整體商品與服務價格水準的變化會影響生活負擔。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "退休收入固定時，這項整體商品與服務價格水準的變化會影響生活負擔。（2字）"
+          }
+        ],
+        "aliases": [
+          "cna-bf9f2f91de72b30afcad"
+        ],
+        "content_revision": "cna-bf9f2f91de72b30afcad"
+      },
+      {
+        "event_id": "cna-e505edbe655e5dd7bd68",
+        "dedup_key": "https://www.cna.com.tw/news/ahel/202610310155.aspx",
+        "event_date": "2026-10-31",
+        "updated_at": "2026-10-31",
+        "published_at": "2026-10-31T09:36:32.000Z",
+        "title": "國1五堵汐止段拓寬11月再招標　卓榮泰盼116年動工",
+        "rss_lead": "（中央社記者黃旭昇新北31日電）交通部高速公路局優化基隆與台北間的國道運輸服務，計畫拓寬國1五堵至汐止交流道路段；行政院長卓榮泰今天視察後表示，盼工程早日順利發包，明年可動工，打造首都圈黃金廊帶。",
+        "summary": "國1五堵汐止段拓寬11月再招標　卓榮泰盼116年動工",
+        "categories": [
+          "台灣"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-10b4efce07042f5fcfc4",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/ahel/202610310155.aspx",
+            "published_at": "2026-10-31",
+            "excerpt": "國1五堵汐止段拓寬11月再招標　卓榮泰盼116年動工\n（中央社記者黃旭昇新北31日電）交通部高速公路局優化基隆與台北間的國道運輸服務，計畫拓寬國1五堵至汐止交流道路段；行政院長卓榮泰今天視察後表示，盼工程早日順利發包，明年可動工，打造首都圈黃金廊帶。",
+            "section": "台灣"
+          }
+        ],
+        "keywords": [],
+        "aliases": [
+          "cna-e505edbe655e5dd7bd68"
+        ],
+        "content_revision": "cna-e505edbe655e5dd7bd68"
+      },
+      {
+        "event_id": "cna-03638d870f15cf3f9cb1",
+        "dedup_key": "https://www.cna.com.tw/news/ahel/202610310158.aspx",
+        "event_date": "2026-10-31",
+        "updated_at": "2026-10-31",
+        "published_at": "2026-10-31T09:45:38.000Z",
+        "title": "台灣同志遊行台北登場　主辦單位估17萬人上街「做伙行」【圖輯】",
+        "rss_lead": "（中央社記者吳欣紜台北31日電）同志界盛事台灣同志遊行今天下午登場，吸引民眾盛裝出席，主辦單位表示，伴隨舒適好天氣，遊行估計有17萬人參與，一起上街頭「聲做伙聽，路做伙行」。",
+        "summary": "台灣同志遊行台北登場　主辦單位估17萬人上街「做伙行」【圖輯】",
+        "categories": [
+          "生活"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-076e250fdbcc3f6b6577",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/ahel/202610310158.aspx",
+            "published_at": "2026-10-31",
+            "excerpt": "台灣同志遊行台北登場　主辦單位估17萬人上街「做伙行」【圖輯】\n（中央社記者吳欣紜台北31日電）同志界盛事台灣同志遊行今天下午登場，吸引民眾盛裝出席，主辦單位表示，伴隨舒適好天氣，遊行估計有17萬人參與，一起上街頭「聲做伙聽，路做伙行」。",
+            "section": "生活"
+          }
+        ],
+        "keywords": [],
+        "aliases": [
+          "cna-03638d870f15cf3f9cb1"
+        ],
+        "content_revision": "cna-03638d870f15cf3f9cb1"
+      },
+      {
+        "event_id": "cna-69dd1e968f9d7addd40e",
+        "dedup_key": "https://www.cna.com.tw/news/ahel/202610310159.aspx",
+        "event_date": "2026-10-31",
+        "updated_at": "2026-10-31",
+        "published_at": "2026-10-31T09:51:41.000Z",
+        "title": "器捐連結生死兩端  受負面新聞影響捐贈率下滑",
+        "rss_lead": "（中央社記者沈佩瑤台北31日電）器官捐贈連結生死兩端，全台現有逾1.1萬人正迫切等待器官移植，專家指出，受活摘等負面新聞影響，近1年捐贈率約下滑1至2成，台灣相關流程公開嚴謹，將持續加強宣導。",
+        "summary": "器捐連結生死兩端  受負面新聞影響捐贈率下滑",
+        "categories": [
+          "生活"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-d292a8e96e44e6d272f8",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/ahel/202610310159.aspx",
+            "published_at": "2026-10-31",
+            "excerpt": "器捐連結生死兩端  受負面新聞影響捐贈率下滑\n（中央社記者沈佩瑤台北31日電）器官捐贈連結生死兩端，全台現有逾1.1萬人正迫切等待器官移植，專家指出，受活摘等負面新聞影響，近1年捐贈率約下滑1至2成，台灣相關流程公開嚴謹，將持續加強宣導。",
+            "section": "生活"
+          }
+        ],
+        "keywords": [],
+        "aliases": [
+          "cna-69dd1e968f9d7addd40e"
+        ],
+        "content_revision": "cna-69dd1e968f9d7addd40e"
+      },
+      {
+        "event_id": "cna-2c1f48e5199139e526d4",
+        "dedup_key": "https://www.cna.com.tw/news/ahel/202610310168.aspx",
+        "event_date": "2026-10-31",
+        "updated_at": "2026-10-31",
+        "published_at": "2026-10-31T10:44:05.000Z",
+        "title": "東海大學71週年校慶  校友捐1億元助建半導體大樓",
+        "rss_lead": "（中央社記者蘇木春台中31日電）東海大學今天舉辦創校71週年校慶活動，聘任4名中央研究院院士為榮譽講座教授。校友、大渡山學會理事長鄭清和捐資新台幣1億元支持半導體大樓建設與人才培育，盼強化教學量能。",
+        "summary": "東海大學71週年校慶  校友捐1億元助建半導體大樓",
+        "categories": [
+          "生活"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-d498487f76876aa1179d",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/ahel/202610310168.aspx",
+            "published_at": "2026-10-31",
+            "excerpt": "東海大學71週年校慶  校友捐1億元助建半導體大樓\n（中央社記者蘇木春台中31日電）東海大學今天舉辦創校71週年校慶活動，聘任4名中央研究院院士為榮譽講座教授。校友、大渡山學會理事長鄭清和捐資新台幣1億元支持半導體大樓建設與人才培育，盼強化教學量能。",
+            "section": "生活"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "半導體",
+            "kind": "科技用語",
+            "clue_options": [
+              {
+                "clue": "可藉摻雜調整導電特性的材料，是積體電路與先進運算的基礎。（3字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 89,
+            "difficulty": "medium",
+            "clue": "可藉摻雜調整導電特性的材料，是積體電路與先進運算的基礎。（3字）"
+          },
+          {
+            "word": "新台幣",
+            "kind": "財經用語",
+            "clue_options": [
+              {
+                "clue": "本地法定貨幣，其對外比價變動會影響進口成本與出口換匯收入。（3字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 89,
+            "difficulty": "medium",
+            "clue": "本地法定貨幣，其對外比價變動會影響進口成本與出口換匯收入。（3字）"
+          }
+        ],
+        "aliases": [
+          "cna-2c1f48e5199139e526d4"
+        ],
+        "content_revision": "cna-2c1f48e5199139e526d4"
       },
       {
         "event_id": "cna-e0139806dea534683e51",
@@ -37224,6 +38036,476 @@
         "content_revision": "cna-6d2c8fb3753a796ff2e5"
       },
       {
+        "event_id": "cna-fdfc3c36ec7c4672acc1",
+        "dedup_key": "https://www.cna.com.tw/news/aipl/202610310090.aspx",
+        "event_date": "2026-10-31",
+        "updated_at": "2026-10-31",
+        "published_at": "2026-10-31T05:27:10.000Z",
+        "title": "卓榮泰：持續強化獸醫服務體系　加強國際交流",
+        "rss_lead": "（中央社記者賴于榛台北31日電）2026 FASAVA亞洲小動物獸醫師大會今天在台北舉行，行政院長卓榮泰出席致詞表示，因應動物疫情挑戰，政府已啟動國家「防疫一體」聯合行動方案，強化抗生素的管理、監測與分析，同時持續強化台灣的獸醫服務體系，以及與國際間的交流。",
+        "summary": "卓榮泰：持續強化獸醫服務體系　加強國際交流",
+        "categories": [
+          "台灣"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-35682fb470ceede98358",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aipl/202610310090.aspx",
+            "published_at": "2026-10-31",
+            "excerpt": "卓榮泰：持續強化獸醫服務體系　加強國際交流\n（中央社記者賴于榛台北31日電）2026 FASAVA亞洲小動物獸醫師大會今天在台北舉行，行政院長卓榮泰出席致詞表示，因應動物疫情挑戰，政府已啟動國家「防疫一體」聯合行動方案，強化抗生素的管理、監測與分析，同時持續強化台灣的獸醫服務體系，以及與國際間的交流。",
+            "section": "台灣"
+          }
+        ],
+        "keywords": [],
+        "aliases": [
+          "cna-fdfc3c36ec7c4672acc1"
+        ],
+        "content_revision": "cna-fdfc3c36ec7c4672acc1"
+      },
+      {
+        "event_id": "cna-fbf5560323e4d8fdd7bb",
+        "dedup_key": "https://www.cna.com.tw/news/aipl/202610310094.aspx",
+        "event_date": "2026-10-31",
+        "updated_at": "2026-10-31",
+        "published_at": "2026-10-31T05:39:19.000Z",
+        "title": "鄭麗文出席陸官校友會　促重啟核電公投、拚2028執政",
+        "rss_lead": "（中央社記者蘇木春台中31日電）中國國民黨主席鄭麗文今天出席陸官專修班校友會活動，回顧上任週年，她表示，唯有國民黨能捍衛憲法並力挺國軍，呼籲年底公投支持重啟核電，力拚勝選以在2028年重返執政。",
+        "summary": "鄭麗文出席陸官校友會　促重啟核電公投、拚2028執政",
+        "categories": [
+          "台灣"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-9d1ca994ce87194b9aeb",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aipl/202610310094.aspx",
+            "published_at": "2026-10-31",
+            "excerpt": "鄭麗文出席陸官校友會　促重啟核電公投、拚2028執政\n（中央社記者蘇木春台中31日電）中國國民黨主席鄭麗文今天出席陸官專修班校友會活動，回顧上任週年，她表示，唯有國民黨能捍衛憲法並力挺國軍，呼籲年底公投支持重啟核電，力拚勝選以在2028年重返執政。",
+            "section": "台灣"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "公投",
+            "kind": "專業用語",
+            "answer_domain": "politics",
+            "clue_options": [
+              {
+                "clue": "選民對公共議題直接表決的制度，與選出代議士的選舉有所區別。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "選民對公共議題直接表決的制度，與選出代議士的選舉有所區別。（2字）"
+          },
+          {
+            "word": "國軍",
+            "kind": "專業用語",
+            "answer_domain": "politics",
+            "clue_options": [
+              {
+                "clue": "我國正規武裝部隊的統稱，受文人統制與國家法制規範。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "我國正規武裝部隊的統稱，受文人統制與國家法制規範。（2字）"
+          }
+        ],
+        "aliases": [
+          "cna-fbf5560323e4d8fdd7bb"
+        ],
+        "content_revision": "cna-fbf5560323e4d8fdd7bb"
+      },
+      {
+        "event_id": "cna-5d5c0e34980de3a0bdd5",
+        "dedup_key": "https://www.cna.com.tw/news/aipl/202610310100.aspx",
+        "event_date": "2026-10-31",
+        "updated_at": "2026-10-31",
+        "published_at": "2026-10-31T05:57:32.000Z",
+        "title": "卓榮泰：民主來自願意彼此傾聽　行政團隊將續深化平權",
+        "rss_lead": "（中央社記者賴于榛台北31日電）今天是第24屆台灣同志遊行，行政院長卓榮泰今天表示，真正的民主與進步，來自於願意傾聽彼此、理解不同，並肩攜手向前，行政團隊會持續堅定地與所有同志朋友站在一起，深化平權、落實保障，讓所有人都能勇敢做自己。",
+        "summary": "卓榮泰：民主來自願意彼此傾聽　行政團隊將續深化平權",
+        "categories": [
+          "台灣"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-b96a0e41431981e4dfc5",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aipl/202610310100.aspx",
+            "published_at": "2026-10-31",
+            "excerpt": "卓榮泰：民主來自願意彼此傾聽　行政團隊將續深化平權\n（中央社記者賴于榛台北31日電）今天是第24屆台灣同志遊行，行政院長卓榮泰今天表示，真正的民主與進步，來自於願意傾聽彼此、理解不同，並肩攜手向前，行政團隊會持續堅定地與所有同志朋友站在一起，深化平權、落實保障，讓所有人都能勇敢做自己。",
+            "section": "台灣"
+          }
+        ],
+        "keywords": [],
+        "aliases": [
+          "cna-5d5c0e34980de3a0bdd5"
+        ],
+        "content_revision": "cna-5d5c0e34980de3a0bdd5"
+      },
+      {
+        "event_id": "cna-a5b2d7041818efd3890d",
+        "dedup_key": "https://www.cna.com.tw/news/aipl/202610310115.aspx",
+        "event_date": "2026-10-31",
+        "updated_at": "2026-10-31",
+        "published_at": "2026-10-31T07:07:05.000Z",
+        "title": "莊競程競總成立　賴總統站台肯定交通政見",
+        "rss_lead": "（中央社記者郭宣彣新竹市31日電）民進黨新竹市長參選人莊競程今天舉辦競選總部成立大會，總統賴清德等人到場站台；賴總統說，莊競程具工程專業及行政歷練，有能力整合資源、推動市政。",
+        "summary": "莊競程競總成立　賴總統站台肯定交通政見",
+        "categories": [
+          "台灣"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-f8d8278e10bbb4dc8358",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aipl/202610310115.aspx",
+            "published_at": "2026-10-31",
+            "excerpt": "莊競程競總成立　賴總統站台肯定交通政見\n（中央社記者郭宣彣新竹市31日電）民進黨新竹市長參選人莊競程今天舉辦競選總部成立大會，總統賴清德等人到場站台；賴總統說，莊競程具工程專業及行政歷練，有能力整合資源、推動市政。",
+            "section": "台灣"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "政見",
+            "kind": "專業用語",
+            "answer_domain": "politics",
+            "clue_options": [
+              {
+                "clue": "候選人對公共政策提出的主張，評估時應同時考量權限與財源。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "候選人對公共政策提出的主張，評估時應同時考量權限與財源。（2字）"
+          }
+        ],
+        "aliases": [
+          "cna-a5b2d7041818efd3890d"
+        ],
+        "content_revision": "cna-a5b2d7041818efd3890d"
+      },
+      {
+        "event_id": "cna-eb17fa945f1c82f9841b",
+        "dedup_key": "https://www.cna.com.tw/news/aipl/202610310123.aspx",
+        "event_date": "2026-10-31",
+        "updated_at": "2026-10-31",
+        "published_at": "2026-10-31T07:43:23.000Z",
+        "title": "宜蘭林國漳溪北競總成立　蕭副總統、蔡英文站台力挺",
+        "rss_lead": "（中央社記者沈如峰宜蘭縣31日電）民進黨宜蘭縣長參選人林國漳溪北競選總部今天成立，前總統蔡英文與副總統蕭美琴站台力挺，呼籲選民為了宜蘭的未來，一定要支持林國漳當選。",
+        "summary": "宜蘭林國漳溪北競總成立　蕭副總統、蔡英文站台力挺",
+        "categories": [
+          "台灣"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-deabd0669595bee3a9e7",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aipl/202610310123.aspx",
+            "published_at": "2026-10-31",
+            "excerpt": "宜蘭林國漳溪北競總成立　蕭副總統、蔡英文站台力挺\n（中央社記者沈如峰宜蘭縣31日電）民進黨宜蘭縣長參選人林國漳溪北競選總部今天成立，前總統蔡英文與副總統蕭美琴站台力挺，呼籲選民為了宜蘭的未來，一定要支持林國漳當選。",
+            "section": "台灣"
+          }
+        ],
+        "keywords": [],
+        "aliases": [
+          "cna-eb17fa945f1c82f9841b"
+        ],
+        "content_revision": "cna-eb17fa945f1c82f9841b"
+      },
+      {
+        "event_id": "cna-173b0ebf737dedb63471",
+        "dedup_key": "https://www.cna.com.tw/news/aipl/202610310131.aspx",
+        "event_date": "2026-10-31",
+        "updated_at": "2026-10-31",
+        "published_at": "2026-10-31T08:22:40.000Z",
+        "title": "同志遊行　副總統：爭取每個人都能自由自在做選擇",
+        "rss_lead": "（中央社記者吳書緯、賴于榛台北31日電）台灣同志遊行今天登場，副總統蕭美琴表示，政治工作者的參與，是希望能形塑大家更想要看到的台灣，及想要看到的未來是一個更尊重、更平等、更包容也更多元的台灣，並爭取每一個人能夠自由、自在、自信，自然地做自己的選擇。",
+        "summary": "同志遊行　副總統：爭取每個人都能自由自在做選擇",
+        "categories": [
+          "台灣"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-87f2965af05ce6e4ce75",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aipl/202610310131.aspx",
+            "published_at": "2026-10-31",
+            "excerpt": "同志遊行　副總統：爭取每個人都能自由自在做選擇\n（中央社記者吳書緯、賴于榛台北31日電）台灣同志遊行今天登場，副總統蕭美琴表示，政治工作者的參與，是希望能形塑大家更想要看到的台灣，及想要看到的未來是一個更尊重、更平等、更包容也更多元的台灣，並爭取每一個人能夠自由、自在、自信，自然地做自己的選擇。",
+            "section": "台灣"
+          }
+        ],
+        "keywords": [],
+        "aliases": [
+          "cna-173b0ebf737dedb63471"
+        ],
+        "content_revision": "cna-173b0ebf737dedb63471"
+      },
+      {
+        "event_id": "cna-049dfd3210bdea2a1c91",
+        "dedup_key": "https://www.cna.com.tw/news/aipl/202610310135.aspx",
+        "event_date": "2026-10-31",
+        "updated_at": "2026-10-31",
+        "published_at": "2026-10-31T08:46:49.000Z",
+        "title": "卓榮泰：蔣萬安沈伯洋辯論認真　盼願景清晰可行",
+        "rss_lead": "（中央社記者黃旭昇新北31日電）「2026台北市長候選人電視辯論會」今天舉行，行政院長卓榮泰表示，出席辯論的蔣萬安、沈伯洋兩人都很認真，市民希望看到參選人提到的政見與可行願景，以作為投票的選擇。",
+        "summary": "卓榮泰：蔣萬安沈伯洋辯論認真　盼願景清晰可行",
+        "categories": [
+          "台灣"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-69f2ed3dd882aeeac943",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aipl/202610310135.aspx",
+            "published_at": "2026-10-31",
+            "excerpt": "卓榮泰：蔣萬安沈伯洋辯論認真　盼願景清晰可行\n（中央社記者黃旭昇新北31日電）「2026台北市長候選人電視辯論會」今天舉行，行政院長卓榮泰表示，出席辯論的蔣萬安、沈伯洋兩人都很認真，市民希望看到參選人提到的政見與可行願景，以作為投票的選擇。",
+            "section": "台灣"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "政見",
+            "kind": "專業用語",
+            "answer_domain": "politics",
+            "clue_options": [
+              {
+                "clue": "候選人對公共政策提出的主張，評估時應同時考量權限與財源。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "候選人對公共政策提出的主張，評估時應同時考量權限與財源。（2字）"
+          }
+        ],
+        "aliases": [
+          "cna-049dfd3210bdea2a1c91"
+        ],
+        "content_revision": "cna-049dfd3210bdea2a1c91"
+      },
+      {
+        "event_id": "cna-1c48c2d7a42465061f74",
+        "dedup_key": "https://www.cna.com.tw/news/aipl/202610310154.aspx",
+        "event_date": "2026-10-31",
+        "updated_at": "2026-10-31",
+        "published_at": "2026-10-31T09:34:30.000Z",
+        "title": "18架次共機越中線配合共艦擾台　國軍嚴密掌握應處",
+        "rss_lead": "（中央社記者吳書緯台北31日電）國防部表示，自今天下午1時15分起，陸續偵獲中共各型軍機22架次出海，其中18架次逾越海峽中線及其延伸線，進入台灣周邊及西太平洋空域，配合共艦，假所謂「聯合戰備警巡」之名，騷擾台灣周邊空、海域，國軍嚴密掌握應處。",
+        "summary": "18架次共機越中線配合共艦擾台　國軍嚴密掌握應處",
+        "categories": [
+          "台灣"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-38986ca9fd95d9e4cc42",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aipl/202610310154.aspx",
+            "published_at": "2026-10-31",
+            "excerpt": "18架次共機越中線配合共艦擾台　國軍嚴密掌握應處\n（中央社記者吳書緯台北31日電）國防部表示，自今天下午1時15分起，陸續偵獲中共各型軍機22架次出海，其中18架次逾越海峽中線及其延伸線，進入台灣周邊及西太平洋空域，配合共艦，假所謂「聯合戰備警巡」之名，騷擾台灣周邊空、海域，國軍嚴密掌握應處。",
+            "section": "台灣"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "國防部",
+            "kind": "機關或組織",
+            "clue_options": [
+              {
+                "clue": "統籌軍政與軍備業務、其預算及採購須受民意監督的中央部會。（3字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 89,
+            "difficulty": "medium",
+            "clue": "統籌軍政與軍備業務、其預算及採購須受民意監督的中央部會。（3字）"
+          },
+          {
+            "word": "國軍",
+            "kind": "專業用語",
+            "answer_domain": "politics",
+            "clue_options": [
+              {
+                "clue": "我國正規武裝部隊的統稱，受文人統制與國家法制規範。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "我國正規武裝部隊的統稱，受文人統制與國家法制規範。（2字）"
+          }
+        ],
+        "aliases": [
+          "cna-1c48c2d7a42465061f74"
+        ],
+        "content_revision": "cna-1c48c2d7a42465061f74"
+      },
+      {
+        "event_id": "cna-92effb7e3e6df841c3be",
+        "dedup_key": "https://www.cna.com.tw/news/aipl/202610310164.aspx",
+        "event_date": "2026-10-31",
+        "updated_at": "2026-10-31",
+        "published_at": "2026-10-31T10:24:56.000Z",
+        "title": "民眾黨花蓮2黨員違紀參選　開鍘傅國淵、江躍辰",
+        "rss_lead": "（中央社記者張祈花蓮縣31日電）年底選舉，台灣民眾黨提名現任市民代表蔡翼陽參選花蓮縣議員第一選區，同選區還有2名黨員違紀參選，縣黨部今天依黨規開鍘。",
+        "summary": "民眾黨花蓮2黨員違紀參選　開鍘傅國淵、江躍辰",
+        "categories": [
+          "台灣"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-7e29b9e622523ce9a0a1",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aipl/202610310164.aspx",
+            "published_at": "2026-10-31",
+            "excerpt": "民眾黨花蓮2黨員違紀參選　開鍘傅國淵、江躍辰\n（中央社記者張祈花蓮縣31日電）年底選舉，台灣民眾黨提名現任市民代表蔡翼陽參選花蓮縣議員第一選區，同選區還有2名黨員違紀參選，縣黨部今天依黨規開鍘。",
+            "section": "台灣"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "選舉",
+            "kind": "專業用語",
+            "answer_domain": "politics",
+            "clue_options": [
+              {
+                "clue": "由選民投票產生公職代表的制度，結果仍須接受法定程序及監督。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "由選民投票產生公職代表的制度，結果仍須接受法定程序及監督。（2字）"
+          }
+        ],
+        "aliases": [
+          "cna-92effb7e3e6df841c3be"
+        ],
+        "content_revision": "cna-92effb7e3e6df841c3be"
+      },
+      {
+        "event_id": "cna-74100ea861fc00135547",
+        "dedup_key": "https://www.cna.com.tw/news/aipl/202610310171.aspx",
+        "event_date": "2026-10-31",
+        "updated_at": "2026-10-31",
+        "published_at": "2026-10-31T11:10:12.000Z",
+        "title": "韓國瑜力薦張嘉郡　劉建國斗六西市場拜票",
+        "rss_lead": "（中央社記者姜宜菁雲林縣31日電）國民黨雲林縣長參選人張嘉郡今天與立法院長韓國瑜到西螺鎮車隊拜票，韓國瑜力薦張嘉郡一心一意為雲林縣打拚；民進黨雲林縣長參選人劉建國則走訪斗六西市場，關心老市場保存與活化。",
+        "summary": "韓國瑜力薦張嘉郡　劉建國斗六西市場拜票",
+        "categories": [
+          "台灣"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-440ef3a832abf3d8e94a",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aipl/202610310171.aspx",
+            "published_at": "2026-10-31",
+            "excerpt": "韓國瑜力薦張嘉郡　劉建國斗六西市場拜票\n（中央社記者姜宜菁雲林縣31日電）國民黨雲林縣長參選人張嘉郡今天與立法院長韓國瑜到西螺鎮車隊拜票，韓國瑜力薦張嘉郡一心一意為雲林縣打拚；民進黨雲林縣長參選人劉建國則走訪斗六西市場，關心老市場保存與活化。",
+            "section": "台灣"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "立法院",
+            "kind": "機關或組織",
+            "clue_options": [
+              {
+                "clue": "透過法律案、預算案及質詢等職權監督行政部門的中央民意機關。（3字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 89,
+            "difficulty": "medium",
+            "clue": "透過法律案、預算案及質詢等職權監督行政部門的中央民意機關。（3字）"
+          }
+        ],
+        "aliases": [
+          "cna-74100ea861fc00135547"
+        ],
+        "content_revision": "cna-74100ea861fc00135547"
+      },
+      {
         "event_id": "cna-81ddae6223940d3a4306",
         "dedup_key": "https://www.cna.com.tw/news/ait/202610250062.aspx",
         "event_date": "2026-10-25",
@@ -44759,6 +46041,796 @@
           "cna-a2f1941e9c87cd4e14e9"
         ],
         "content_revision": "cna-a2f1941e9c87cd4e14e9"
+      },
+      {
+        "event_id": "cna-0866375f4d405d834971",
+        "dedup_key": "https://www.cna.com.tw/news/aloc/202610310095.aspx",
+        "event_date": "2026-10-31",
+        "updated_at": "2026-10-31",
+        "published_at": "2026-10-31T05:40:21.000Z",
+        "title": "蔣萬安批對毒駕態度傲慢　沈伯洋反擊：地方應重預防",
+        "rss_lead": "（中央社記者葉素萍台北31日電）台北市長選舉辯論會今天登場，台北市長蔣萬安質疑民進黨台北市長參選人沈伯洋未參與毒駕修法投票，批評沈伯洋站在加害者而非被害者立場，展現「專業的傲慢」；沈伯洋反擊，反對的是不符合比例原則的修法，強調酒駕、毒駕都應重刑，但地方政府更重要的是做好預防。",
+        "summary": "蔣萬安批對毒駕態度傲慢　沈伯洋反擊：地方應重預防",
+        "categories": [
+          "台灣"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-56518dcfdc5abdadbc19",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aloc/202610310095.aspx",
+            "published_at": "2026-10-31",
+            "excerpt": "蔣萬安批對毒駕態度傲慢　沈伯洋反擊：地方應重預防\n（中央社記者葉素萍台北31日電）台北市長選舉辯論會今天登場，台北市長蔣萬安質疑民進黨台北市長參選人沈伯洋未參與毒駕修法投票，批評沈伯洋站在加害者而非被害者立場，展現「專業的傲慢」；沈伯洋反擊，反對的是不符合比例原則的修法，強調酒駕、毒駕都應重刑，但地方政府更重要的是做好預防。",
+            "section": "台灣"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "選舉",
+            "kind": "專業用語",
+            "answer_domain": "politics",
+            "clue_options": [
+              {
+                "clue": "由選民投票產生公職代表的制度，結果仍須接受法定程序及監督。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "由選民投票產生公職代表的制度，結果仍須接受法定程序及監督。（2字）"
+          }
+        ],
+        "aliases": [
+          "cna-0866375f4d405d834971"
+        ],
+        "content_revision": "cna-0866375f4d405d834971"
+      },
+      {
+        "event_id": "cna-c33372a0d276a6725938",
+        "dedup_key": "https://www.cna.com.tw/news/aloc/202610310098.aspx",
+        "event_date": "2026-10-31",
+        "updated_at": "2026-10-31",
+        "published_at": "2026-10-31T05:47:28.000Z",
+        "title": "沈伯洋質疑未出席市府會議　蔣萬安：分層負責分工合作",
+        "rss_lead": "（中央社記者王承中台北31日電）台北市長選舉辯論今天登場，民進黨台北市長參選人沈伯洋質疑台北市長蔣萬安未出席市府的相關會議，蔣萬安表示，沈伯洋不了解北市府運作，台北市政府就是分層負責，分工合作。有任何突發事件，他會親自主持專案會議追蹤列管，這才是處理的態度。",
+        "summary": "沈伯洋質疑未出席市府會議　蔣萬安：分層負責分工合作",
+        "categories": [
+          "台灣"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-f630e8f026f688d6d04d",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aloc/202610310098.aspx",
+            "published_at": "2026-10-31",
+            "excerpt": "沈伯洋質疑未出席市府會議　蔣萬安：分層負責分工合作\n（中央社記者王承中台北31日電）台北市長選舉辯論今天登場，民進黨台北市長參選人沈伯洋質疑台北市長蔣萬安未出席市府的相關會議，蔣萬安表示，沈伯洋不了解北市府運作，台北市政府就是分層負責，分工合作。有任何突發事件，他會親自主持專案會議追蹤列管，這才是處理的態度。",
+            "section": "台灣"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "選舉",
+            "kind": "專業用語",
+            "answer_domain": "politics",
+            "clue_options": [
+              {
+                "clue": "由選民投票產生公職代表的制度，結果仍須接受法定程序及監督。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "由選民投票產生公職代表的制度，結果仍須接受法定程序及監督。（2字）"
+          }
+        ],
+        "aliases": [
+          "cna-c33372a0d276a6725938"
+        ],
+        "content_revision": "cna-c33372a0d276a6725938"
+      },
+      {
+        "event_id": "cna-825c0fbec9fc0e8892dd",
+        "dedup_key": "https://www.cna.com.tw/news/aloc/202610310104.aspx",
+        "event_date": "2026-10-31",
+        "updated_at": "2026-10-31",
+        "published_at": "2026-10-31T06:14:41.000Z",
+        "title": "沈伯洋問可否加LINE約下次辯論　蔣萬安：雙方團隊可溝通協調",
+        "rss_lead": "（中央社記者王承中台北31日電）台北市長選舉辯論今天登場，民進黨台北市長參選人沈伯洋表示，很多問題台北市長蔣萬安都沒有回答，是否有機會再約下一次的辯論，若蔣萬安現在沒有辦法決定，晚一點兩人加個LINE好友也可以。蔣萬安回答，雙方團隊都可以溝通、協調，今天就是一個很成功的案例。",
+        "summary": "沈伯洋問可否加LINE約下次辯論　蔣萬安：雙方團隊可溝通協調",
+        "categories": [
+          "台灣"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-2125c492c4c1338e88b8",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aloc/202610310104.aspx",
+            "published_at": "2026-10-31",
+            "excerpt": "沈伯洋問可否加LINE約下次辯論　蔣萬安：雙方團隊可溝通協調\n（中央社記者王承中台北31日電）台北市長選舉辯論今天登場，民進黨台北市長參選人沈伯洋表示，很多問題台北市長蔣萬安都沒有回答，是否有機會再約下一次的辯論，若蔣萬安現在沒有辦法決定，晚一點兩人加個LINE好友也可以。蔣萬安回答，雙方團隊都可以溝通、協調，今天就是一個很成功的案例。",
+            "section": "台灣"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "選舉",
+            "kind": "專業用語",
+            "answer_domain": "politics",
+            "clue_options": [
+              {
+                "clue": "由選民投票產生公職代表的制度，結果仍須接受法定程序及監督。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "由選民投票產生公職代表的制度，結果仍須接受法定程序及監督。（2字）"
+          }
+        ],
+        "aliases": [
+          "cna-825c0fbec9fc0e8892dd"
+        ],
+        "content_revision": "cna-825c0fbec9fc0e8892dd"
+      },
+      {
+        "event_id": "cna-57f75deb721d4b2d7cc7",
+        "dedup_key": "https://www.cna.com.tw/news/aloc/202610310116.aspx",
+        "event_date": "2026-10-31",
+        "updated_at": "2026-10-31",
+        "published_at": "2026-10-31T07:10:07.000Z",
+        "title": "蔣萬安盼打造世界AI場域　沈伯洋要翻新都市美感",
+        "rss_lead": "（中央社記者黃麗芸、李念庭台北31日電）尋求連任的台北市長蔣萬安今天說，無菸城市、捷運路網新里程成新風貌，北士科將成世界級AI示範場域；民主進步黨台北市長參選人沈伯洋說，透過多項措施翻新都市美感。",
+        "summary": "蔣萬安盼打造世界AI場域　沈伯洋要翻新都市美感",
+        "categories": [
+          "台灣"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-b838dd6ebdee684c85dc",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aloc/202610310116.aspx",
+            "published_at": "2026-10-31",
+            "excerpt": "蔣萬安盼打造世界AI場域　沈伯洋要翻新都市美感\n（中央社記者黃麗芸、李念庭台北31日電）尋求連任的台北市長蔣萬安今天說，無菸城市、捷運路網新里程成新風貌，北士科將成世界級AI示範場域；民主進步黨台北市長參選人沈伯洋說，透過多項措施翻新都市美感。",
+            "section": "台灣"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "蔣萬安",
+            "kind": "人物",
+            "clue_options": [
+              {
+                "clue": "據報導，某位人物盼打造世界AI場域　沈伯洋要翻新都市美感。（3字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "event",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 89,
+            "difficulty": "medium",
+            "clue": "據報導，某位人物盼打造世界AI場域　沈伯洋要翻新都市美感。（3字）"
+          }
+        ],
+        "aliases": [
+          "cna-57f75deb721d4b2d7cc7"
+        ],
+        "content_revision": "cna-57f75deb721d4b2d7cc7"
+      },
+      {
+        "event_id": "cna-f2c1982711b761cc0f13",
+        "dedup_key": "https://www.cna.com.tw/news/aloc/202610310117.aspx",
+        "event_date": "2026-10-31",
+        "updated_at": "2026-10-31",
+        "published_at": "2026-10-31T07:16:10.000Z",
+        "title": "蔣萬安結論質疑沈伯洋搖擺雙標　敬佩柯文哲公正客觀",
+        "rss_lead": "（中央社記者王承中台北31日電）台北市長選舉辯論今天登場，台北市長蔣萬安在結論時表示，民進黨台北市長參選人沈伯洋反覆、搖擺與雙標，而他對市政有方法、有魄力、有行動；他也感謝前台北市長柯文哲，柯文哲在被民進黨司法追殺之下，面對市政議題依然公正給予客觀評價，他深表敬佩。",
+        "summary": "蔣萬安結論質疑沈伯洋搖擺雙標　敬佩柯文哲公正客觀",
+        "categories": [
+          "台灣"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-bad7a207803c5f393e82",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aloc/202610310117.aspx",
+            "published_at": "2026-10-31",
+            "excerpt": "蔣萬安結論質疑沈伯洋搖擺雙標　敬佩柯文哲公正客觀\n（中央社記者王承中台北31日電）台北市長選舉辯論今天登場，台北市長蔣萬安在結論時表示，民進黨台北市長參選人沈伯洋反覆、搖擺與雙標，而他對市政有方法、有魄力、有行動；他也感謝前台北市長柯文哲，柯文哲在被民進黨司法追殺之下，面對市政議題依然公正給予客觀評價，他深表敬佩。",
+            "section": "台灣"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "選舉",
+            "kind": "專業用語",
+            "answer_domain": "politics",
+            "clue_options": [
+              {
+                "clue": "由選民投票產生公職代表的制度，結果仍須接受法定程序及監督。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "由選民投票產生公職代表的制度，結果仍須接受法定程序及監督。（2字）"
+          }
+        ],
+        "aliases": [
+          "cna-f2c1982711b761cc0f13"
+        ],
+        "content_revision": "cna-f2c1982711b761cc0f13"
+      },
+      {
+        "event_id": "cna-88c9c416904752144255",
+        "dedup_key": "https://www.cna.com.tw/news/aloc/202610310121.aspx",
+        "event_date": "2026-10-31",
+        "updated_at": "2026-10-31",
+        "published_at": "2026-10-31T07:33:18.000Z",
+        "title": "鄭朝方推5款競選飄帶　融入竹縣特色與選民互動",
+        "rss_lead": "（中央社記者郭宣彣新竹縣31日電）民進黨新竹縣長參選人鄭朝方競選總部今天表示，推出5款由鄭朝方參與設計的限量「隨行飄帶」，融入科技、客家文化及原住民等元素，展現新竹地區特色，也藉此與支持者互動。",
+        "summary": "鄭朝方推5款競選飄帶　融入竹縣特色與選民互動",
+        "categories": [
+          "台灣"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-c63e4d5a19d76c0bc4e0",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aloc/202610310121.aspx",
+            "published_at": "2026-10-31",
+            "excerpt": "鄭朝方推5款競選飄帶　融入竹縣特色與選民互動\n（中央社記者郭宣彣新竹縣31日電）民進黨新竹縣長參選人鄭朝方競選總部今天表示，推出5款由鄭朝方參與設計的限量「隨行飄帶」，融入科技、客家文化及原住民等元素，展現新竹地區特色，也藉此與支持者互動。",
+            "section": "台灣"
+          }
+        ],
+        "keywords": [],
+        "aliases": [
+          "cna-88c9c416904752144255"
+        ],
+        "content_revision": "cna-88c9c416904752144255"
+      },
+      {
+        "event_id": "cna-ec9d4c427574f1536e9a",
+        "dedup_key": "https://www.cna.com.tw/news/aloc/202610310122.aspx",
+        "event_date": "2026-10-31",
+        "updated_at": "2026-10-31",
+        "published_at": "2026-10-31T07:33:21.000Z",
+        "title": "台北市長選舉辯論會落幕　蔣萬安：交給市民打分數",
+        "rss_lead": "（中央社記者李念庭台北31日電）台北市長選舉辯論會落幕，台北市長蔣萬安認為今天表現很好，針對市政議題交換意見、公開報告成果，一切交由市民打分數。他並強調，對下一場辯論持開放態度，靜待媒體邀約。",
+        "summary": "台北市長選舉辯論會落幕　蔣萬安：交給市民打分數",
+        "categories": [
+          "台灣"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-cc9ff3c0a543d5bcf86e",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aloc/202610310122.aspx",
+            "published_at": "2026-10-31",
+            "excerpt": "台北市長選舉辯論會落幕　蔣萬安：交給市民打分數\n（中央社記者李念庭台北31日電）台北市長選舉辯論會落幕，台北市長蔣萬安認為今天表現很好，針對市政議題交換意見、公開報告成果，一切交由市民打分數。他並強調，對下一場辯論持開放態度，靜待媒體邀約。",
+            "section": "台灣"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "選舉",
+            "kind": "專業用語",
+            "answer_domain": "politics",
+            "clue_options": [
+              {
+                "clue": "由選民投票產生公職代表的制度，結果仍須接受法定程序及監督。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "由選民投票產生公職代表的制度，結果仍須接受法定程序及監督。（2字）"
+          }
+        ],
+        "aliases": [
+          "cna-ec9d4c427574f1536e9a"
+        ],
+        "content_revision": "cna-ec9d4c427574f1536e9a"
+      },
+      {
+        "event_id": "cna-ee38b80ded3b78ddd2fc",
+        "dedup_key": "https://www.cna.com.tw/news/aloc/202610310130.aspx",
+        "event_date": "2026-10-31",
+        "updated_at": "2026-10-31",
+        "published_at": "2026-10-31T08:21:38.000Z",
+        "title": "台北市長選舉辯論　沈伯洋：仍多負面標籤",
+        "rss_lead": "（中央社記者黃麗芸台北31日電）民主進步黨台北市長參選人沈伯洋今天在台北市長選舉電視辯論會結束後表示，表現交由市民打分數，較可惜的地方是仍有很多負面標籤和問A答B，非常希望能有後續辯論會。",
+        "summary": "台北市長選舉辯論　沈伯洋：仍多負面標籤",
+        "categories": [
+          "台灣"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-7784d67f17b5aeb7756b",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aloc/202610310130.aspx",
+            "published_at": "2026-10-31",
+            "excerpt": "台北市長選舉辯論　沈伯洋：仍多負面標籤\n（中央社記者黃麗芸台北31日電）民主進步黨台北市長參選人沈伯洋今天在台北市長選舉電視辯論會結束後表示，表現交由市民打分數，較可惜的地方是仍有很多負面標籤和問A答B，非常希望能有後續辯論會。",
+            "section": "台灣"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "選舉",
+            "kind": "專業用語",
+            "answer_domain": "politics",
+            "clue_options": [
+              {
+                "clue": "由選民投票產生公職代表的制度，結果仍須接受法定程序及監督。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "由選民投票產生公職代表的制度，結果仍須接受法定程序及監督。（2字）"
+          }
+        ],
+        "aliases": [
+          "cna-ee38b80ded3b78ddd2fc"
+        ],
+        "content_revision": "cna-ee38b80ded3b78ddd2fc"
+      },
+      {
+        "event_id": "cna-8487026d58dc56d3ab49",
+        "dedup_key": "https://www.cna.com.tw/news/aloc/202610310132.aspx",
+        "event_date": "2026-10-31",
+        "updated_at": "2026-10-31",
+        "published_at": "2026-10-31T08:34:43.000Z",
+        "title": "台北市長首場辯論交鋒　蔣萬安、沈伯洋市政議題直球對決[影]",
+        "rss_lead": "（中央社記者劉建邦、葉蓁芸台北31日電）台北市長首場電視辯論會今天登場，蔣萬安、沈伯洋2位參選人首度正面交鋒，雙方在都市更新、市民大道廊道串聯、樹木保育、營養午餐、舉辦雙城論壇等議題直球對決。",
+        "summary": "台北市長首場辯論交鋒　蔣萬安、沈伯洋市政議題直球對決[影]",
+        "categories": [
+          "台灣"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-74f6eee83f4726298c22",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aloc/202610310132.aspx",
+            "published_at": "2026-10-31",
+            "excerpt": "台北市長首場辯論交鋒　蔣萬安、沈伯洋市政議題直球對決[影]\n（中央社記者劉建邦、葉蓁芸台北31日電）台北市長首場電視辯論會今天登場，蔣萬安、沈伯洋2位參選人首度正面交鋒，雙方在都市更新、市民大道廊道串聯、樹木保育、營養午餐、舉辦雙城論壇等議題直球對決。",
+            "section": "台灣"
+          }
+        ],
+        "keywords": [],
+        "aliases": [
+          "cna-8487026d58dc56d3ab49"
+        ],
+        "content_revision": "cna-8487026d58dc56d3ab49"
+      },
+      {
+        "event_id": "cna-cae867918016e2f6d4d6",
+        "dedup_key": "https://www.cna.com.tw/news/aloc/202610310134.aspx",
+        "event_date": "2026-10-31",
+        "updated_at": "2026-10-31",
+        "published_at": "2026-10-31T08:46:47.000Z",
+        "title": "南投縣長許淑華拚連任　水里掃街成立北中寮競總",
+        "rss_lead": "（中央社記者蕭博陽南投縣31日電）尋求連任的南投縣長許淑華今天到水里掃街，成立北中寮聯合競選總部，推薦無黨籍水里鄉長參選人詹淵州與國民黨中寮鄉長參選人周俊霖說，未來南投縣政府緊密合作公所推建設。",
+        "summary": "南投縣長許淑華拚連任　水里掃街成立北中寮競總",
+        "categories": [
+          "台灣"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-4a328fb0af0e46c9d88f",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aloc/202610310134.aspx",
+            "published_at": "2026-10-31",
+            "excerpt": "南投縣長許淑華拚連任　水里掃街成立北中寮競總\n（中央社記者蕭博陽南投縣31日電）尋求連任的南投縣長許淑華今天到水里掃街，成立北中寮聯合競選總部，推薦無黨籍水里鄉長參選人詹淵州與國民黨中寮鄉長參選人周俊霖說，未來南投縣政府緊密合作公所推建設。",
+            "section": "台灣"
+          }
+        ],
+        "keywords": [],
+        "aliases": [
+          "cna-cae867918016e2f6d4d6"
+        ],
+        "content_revision": "cna-cae867918016e2f6d4d6"
+      },
+      {
+        "event_id": "cna-906258a8fda45ba972b0",
+        "dedup_key": "https://www.cna.com.tw/news/aloc/202610310136.aspx",
+        "event_date": "2026-10-31",
+        "updated_at": "2026-10-31",
+        "published_at": "2026-10-31T08:53:51.000Z",
+        "title": "出席同志遊行  沈伯洋：推性別有關審計創造友善空間",
+        "rss_lead": "（中央社記者楊淑閔台北31日電）民進黨台北市長參選人沈伯洋今天現身2026年台灣同志遊行隊伍，針對之前同志酒吧搜索不當案，他受訪表示，除被動不讓侵害權益的事發生，有審計制度，政策上會積極創造友善空間。",
+        "summary": "出席同志遊行  沈伯洋：推性別有關審計創造友善空間",
+        "categories": [
+          "台灣"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-0a3e383da730e93a6d29",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aloc/202610310136.aspx",
+            "published_at": "2026-10-31",
+            "excerpt": "出席同志遊行  沈伯洋：推性別有關審計創造友善空間\n（中央社記者楊淑閔台北31日電）民進黨台北市長參選人沈伯洋今天現身2026年台灣同志遊行隊伍，針對之前同志酒吧搜索不當案，他受訪表示，除被動不讓侵害權益的事發生，有審計制度，政策上會積極創造友善空間。",
+            "section": "台灣"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "審計",
+            "kind": "專業用語",
+            "answer_domain": "politics",
+            "clue_options": [
+              {
+                "clue": "檢查公共財務收支與執行績效，促使政府對資源使用負責的制度。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "檢查公共財務收支與執行績效，促使政府對資源使用負責的制度。（2字）"
+          }
+        ],
+        "aliases": [
+          "cna-906258a8fda45ba972b0"
+        ],
+        "content_revision": "cna-906258a8fda45ba972b0"
+      },
+      {
+        "event_id": "cna-1efa97a0a7a7676a03fc",
+        "dedup_key": "https://www.cna.com.tw/news/aloc/202610310139.aspx",
+        "event_date": "2026-10-31",
+        "updated_at": "2026-10-31",
+        "published_at": "2026-10-31T09:12:58.000Z",
+        "title": "大肚和美大橋通車  中彰往返30分鐘縮減至3分鐘",
+        "rss_lead": "（中央社記者蘇木春台中31日電）斥資新台幣33億元興建的大肚和美大橋今天舉辦通車典禮，台中市長盧秀燕與彰化縣長王惠美出席見證。過去兩地往返須繞行30分鐘，通車後車程縮短至約3分鐘，盼串聯帶動區域繁榮。",
+        "summary": "大肚和美大橋通車  中彰往返30分鐘縮減至3分鐘",
+        "categories": [
+          "台灣"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-268328920b5ccbd025af",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aloc/202610310139.aspx",
+            "published_at": "2026-10-31",
+            "excerpt": "大肚和美大橋通車  中彰往返30分鐘縮減至3分鐘\n（中央社記者蘇木春台中31日電）斥資新台幣33億元興建的大肚和美大橋今天舉辦通車典禮，台中市長盧秀燕與彰化縣長王惠美出席見證。過去兩地往返須繞行30分鐘，通車後車程縮短至約3分鐘，盼串聯帶動區域繁榮。",
+            "section": "台灣"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "新台幣",
+            "kind": "財經用語",
+            "clue_options": [
+              {
+                "clue": "本地法定貨幣，其對外比價變動會影響進口成本與出口換匯收入。（3字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 89,
+            "difficulty": "medium",
+            "clue": "本地法定貨幣，其對外比價變動會影響進口成本與出口換匯收入。（3字）"
+          }
+        ],
+        "aliases": [
+          "cna-1efa97a0a7a7676a03fc"
+        ],
+        "content_revision": "cna-1efa97a0a7a7676a03fc"
+      },
+      {
+        "event_id": "cna-441a2e8ef11a66eed206",
+        "dedup_key": "https://www.cna.com.tw/news/aloc/202610310153.aspx",
+        "event_date": "2026-10-31",
+        "updated_at": "2026-10-31",
+        "published_at": "2026-10-31T09:31:28.000Z",
+        "title": "同志酒吧爭議事件後參加同志遊行　蔣萬安：深刻檢討是市府態度",
+        "rss_lead": "（中央社記者葉蓁芸台北31日電）台北市長蔣萬安今天針對同志酒吧搜查爭議表示，他已表達嚴正立場，針對警員執勤過程不當言行，第一時間要求調查、懲處並深刻檢討，「這就是我們的態度，也是市府的態度」。",
+        "summary": "同志酒吧爭議事件後參加同志遊行　蔣萬安：深刻檢討是市府態度",
+        "categories": [
+          "台灣"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-f2329f37404cc032e361",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aloc/202610310153.aspx",
+            "published_at": "2026-10-31",
+            "excerpt": "同志酒吧爭議事件後參加同志遊行　蔣萬安：深刻檢討是市府態度\n（中央社記者葉蓁芸台北31日電）台北市長蔣萬安今天針對同志酒吧搜查爭議表示，他已表達嚴正立場，針對警員執勤過程不當言行，第一時間要求調查、懲處並深刻檢討，「這就是我們的態度，也是市府的態度」。",
+            "section": "台灣"
+          }
+        ],
+        "keywords": [],
+        "aliases": [
+          "cna-441a2e8ef11a66eed206"
+        ],
+        "content_revision": "cna-441a2e8ef11a66eed206"
+      },
+      {
+        "event_id": "cna-cc63d129578ba4da8105",
+        "dedup_key": "https://www.cna.com.tw/news/aloc/202610310156.aspx",
+        "event_date": "2026-10-31",
+        "updated_at": "2026-10-31",
+        "published_at": "2026-10-31T09:40:34.000Z",
+        "title": "高捷蜜柑站長聯名Hello Kitty　彩繪列車首航",
+        "rss_lead": "（中央社記者張已亷高雄31日電）高雄捷運蜜柑站長攜手國際知名IP角色「Hello Kitty」推出彩繪列車，採車體外觀全包膜並搭配車內主題彩繪，首航今天從橋頭糖廠站出發，美麗島站則於晚間點燈應援。",
+        "summary": "高捷蜜柑站長聯名Hello Kitty　彩繪列車首航",
+        "categories": [
+          "台灣"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-b1a9761d5f3d755a6209",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aloc/202610310156.aspx",
+            "published_at": "2026-10-31",
+            "excerpt": "高捷蜜柑站長聯名Hello Kitty　彩繪列車首航\n（中央社記者張已亷高雄31日電）高雄捷運蜜柑站長攜手國際知名IP角色「Hello Kitty」推出彩繪列車，採車體外觀全包膜並搭配車內主題彩繪，首航今天從橋頭糖廠站出發，美麗島站則於晚間點燈應援。",
+            "section": "台灣"
+          }
+        ],
+        "keywords": [],
+        "aliases": [
+          "cna-cc63d129578ba4da8105"
+        ],
+        "content_revision": "cna-cc63d129578ba4da8105"
+      },
+      {
+        "event_id": "cna-a660c0f8ecc8ac4c2828",
+        "dedup_key": "https://www.cna.com.tw/news/aloc/202610310161.aspx",
+        "event_date": "2026-10-31",
+        "updated_at": "2026-10-31",
+        "published_at": "2026-10-31T09:52:49.000Z",
+        "title": "張峻、游淑貞忙拜票設鄉鎮競總　魏嘉賢駁退選傳言",
+        "rss_lead": "（中央社記者張祈花蓮縣31日電）九合一選舉倒數，花蓮縣長參選人行程滿檔，無黨籍張峻由跨黨派議員陪同拜票；國民黨游淑貞今天起一連2天在11鄉鎮成立競選總部；無黨籍魏嘉賢回應退選傳言，強調會參選到底。",
+        "summary": "張峻、游淑貞忙拜票設鄉鎮競總　魏嘉賢駁退選傳言",
+        "categories": [
+          "台灣"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-1cfa8dc06264db50bc34",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aloc/202610310161.aspx",
+            "published_at": "2026-10-31",
+            "excerpt": "張峻、游淑貞忙拜票設鄉鎮競總　魏嘉賢駁退選傳言\n（中央社記者張祈花蓮縣31日電）九合一選舉倒數，花蓮縣長參選人行程滿檔，無黨籍張峻由跨黨派議員陪同拜票；國民黨游淑貞今天起一連2天在11鄉鎮成立競選總部；無黨籍魏嘉賢回應退選傳言，強調會參選到底。",
+            "section": "台灣"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "選舉",
+            "kind": "專業用語",
+            "answer_domain": "politics",
+            "clue_options": [
+              {
+                "clue": "由選民投票產生公職代表的制度，結果仍須接受法定程序及監督。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "由選民投票產生公職代表的制度，結果仍須接受法定程序及監督。（2字）"
+          }
+        ],
+        "aliases": [
+          "cna-a660c0f8ecc8ac4c2828"
+        ],
+        "content_revision": "cna-a660c0f8ecc8ac4c2828"
+      },
+      {
+        "event_id": "cna-b74d3ba4f67b22a1951b",
+        "dedup_key": "https://www.cna.com.tw/news/aloc/202610310162.aspx",
+        "event_date": "2026-10-31",
+        "updated_at": "2026-10-31",
+        "published_at": "2026-10-31T10:08:52.000Z",
+        "title": "同志遊行關注執法涉歧視　蔣萬安致歉允最大程度公開調查報告",
+        "rss_lead": "（中央社記者楊淑閔台北31日電）台北市長蔣萬安今天現身2026年台灣同志遊行，針對警方搜索同志酒吧涉歧視，被問及是否要當面跟同志道歉。他表示，已表達非常抱歉，現在配合司法調查，會最大程度公開調查報告。",
+        "summary": "同志遊行關注執法涉歧視　蔣萬安致歉允最大程度公開調查報告",
+        "categories": [
+          "台灣"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-ab8e06caec7b42ac48cf",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aloc/202610310162.aspx",
+            "published_at": "2026-10-31",
+            "excerpt": "同志遊行關注執法涉歧視　蔣萬安致歉允最大程度公開調查報告\n（中央社記者楊淑閔台北31日電）台北市長蔣萬安今天現身2026年台灣同志遊行，針對警方搜索同志酒吧涉歧視，被問及是否要當面跟同志道歉。他表示，已表達非常抱歉，現在配合司法調查，會最大程度公開調查報告。",
+            "section": "台灣"
+          }
+        ],
+        "keywords": [],
+        "aliases": [
+          "cna-b74d3ba4f67b22a1951b"
+        ],
+        "content_revision": "cna-b74d3ba4f67b22a1951b"
+      },
+      {
+        "event_id": "cna-3c777a4c85b1860e8a10",
+        "dedup_key": "https://www.cna.com.tw/news/aloc/202610310170.aspx",
+        "event_date": "2026-10-31",
+        "updated_at": "2026-10-31",
+        "published_at": "2026-10-31T10:50:09.000Z",
+        "title": "國民黨桃竹竹苗聯合造勢　籲核能公投投同意票",
+        "rss_lead": "（中央社記者郭宣彣新竹縣31日電）國民黨今天舉辦桃竹竹苗公投造勢活動，黨主席鄭麗文與桃園市長張善政、苗栗縣長鍾東錦及新竹縣長參選人徐欣瑩，以及無黨籍新竹市長高虹安同台，呼籲民眾核能公投中投下同意票。",
+        "summary": "國民黨桃竹竹苗聯合造勢　籲核能公投投同意票",
+        "categories": [
+          "台灣"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-5f697a0d8fd2208a978d",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aloc/202610310170.aspx",
+            "published_at": "2026-10-31",
+            "excerpt": "國民黨桃竹竹苗聯合造勢　籲核能公投投同意票\n（中央社記者郭宣彣新竹縣31日電）國民黨今天舉辦桃竹竹苗公投造勢活動，黨主席鄭麗文與桃園市長張善政、苗栗縣長鍾東錦及新竹縣長參選人徐欣瑩，以及無黨籍新竹市長高虹安同台，呼籲民眾核能公投中投下同意票。",
+            "section": "台灣"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "公投",
+            "kind": "專業用語",
+            "answer_domain": "politics",
+            "clue_options": [
+              {
+                "clue": "選民對公共議題直接表決的制度，與選出代議士的選舉有所區別。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "選民對公共議題直接表決的制度，與選出代議士的選舉有所區別。（2字）"
+          }
+        ],
+        "aliases": [
+          "cna-3c777a4c85b1860e8a10"
+        ],
+        "content_revision": "cna-3c777a4c85b1860e8a10"
+      },
+      {
+        "event_id": "cna-f5118c579026e039fe8a",
+        "dedup_key": "https://www.cna.com.tw/news/aloc/202610310173.aspx",
+        "event_date": "2026-10-31",
+        "updated_at": "2026-10-31",
+        "published_at": "2026-10-31T11:11:16.000Z",
+        "title": "柯志恩、賴瑞隆趕場　柯延續辯論攻防肯定吳敦義建設",
+        "rss_lead": "（中央社記者林巧璉高雄31日電）國民黨高雄市長參選人柯志恩、民進黨高雄市長參選人賴瑞隆今天都行程滿檔，連跑多場市議員參選人競總成立大會。柯志恩在站台時說，前市長吳敦義、韓國瑜對高雄都有貢獻。",
+        "summary": "柯志恩、賴瑞隆趕場　柯延續辯論攻防肯定吳敦義建設",
+        "categories": [
+          "台灣"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-6204ff5242b6e13fefb1",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aloc/202610310173.aspx",
+            "published_at": "2026-10-31",
+            "excerpt": "柯志恩、賴瑞隆趕場　柯延續辯論攻防肯定吳敦義建設\n（中央社記者林巧璉高雄31日電）國民黨高雄市長參選人柯志恩、民進黨高雄市長參選人賴瑞隆今天都行程滿檔，連跑多場市議員參選人競總成立大會。柯志恩在站台時說，前市長吳敦義、韓國瑜對高雄都有貢獻。",
+            "section": "台灣"
+          }
+        ],
+        "keywords": [],
+        "aliases": [
+          "cna-f5118c579026e039fe8a"
+        ],
+        "content_revision": "cna-f5118c579026e039fe8a"
       },
       {
         "event_id": "cna-89823a00eb9291c8d0d0",
@@ -61835,6 +63907,810 @@
         "content_revision": "cna-998e076e52d2ab8aa349"
       },
       {
+        "event_id": "cna-6216331dfcb71f122066",
+        "dedup_key": "https://www.cna.com.tw/news/aopl/202610310075.aspx",
+        "event_date": "2026-10-31",
+        "updated_at": "2026-10-31",
+        "published_at": "2026-10-31T04:23:35.000Z",
+        "title": "泰國備妥中東撤僑計畫　國安會評估美伊衝突風險",
+        "rss_lead": "（中央社記者李宗憲曼谷31日專電）美國可能再度對伊朗採取軍事行動，引發外界關注中東局勢升溫及能源供應風險。泰國政府表示，已與軍方協調撤僑及緊急應變計畫，若衝突擴大，可能撤離當地泰國公民。此外，國安會也將召開緊急會議，評估可能面臨的風險及因應措施。",
+        "summary": "泰國備妥中東撤僑計畫　國安會評估美伊衝突風險",
+        "categories": [
+          "國際"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-ae0e8822e0bb75cae569",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aopl/202610310075.aspx",
+            "published_at": "2026-10-31",
+            "excerpt": "泰國備妥中東撤僑計畫　國安會評估美伊衝突風險\n（中央社記者李宗憲曼谷31日專電）美國可能再度對伊朗採取軍事行動，引發外界關注中東局勢升溫及能源供應風險。泰國政府表示，已與軍方協調撤僑及緊急應變計畫，若衝突擴大，可能撤離當地泰國公民。此外，國安會也將召開緊急會議，評估可能面臨的風險及因應措施。",
+            "section": "國際"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "撤離",
+            "kind": "專業用語",
+            "answer_domain": "society",
+            "clue_options": [
+              {
+                "clue": "因現地已有或預期出現危險，將人員移出原處所的應變措施。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "因現地已有或預期出現危險，將人員移出原處所的應變措施。（2字）"
+          },
+          {
+            "word": "風險",
+            "kind": "專業用語",
+            "answer_domain": "economy",
+            "clue_options": [
+              {
+                "clue": "結果存在不確定性且可能帶來損失，決策時須衡量機率與影響。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "結果存在不確定性且可能帶來損失，決策時須衡量機率與影響。（2字）"
+          }
+        ],
+        "aliases": [
+          "cna-6216331dfcb71f122066"
+        ],
+        "content_revision": "cna-6216331dfcb71f122066"
+      },
+      {
+        "event_id": "cna-f7c5ab31cf9f91f6e843",
+        "dedup_key": "https://www.cna.com.tw/news/aopl/202610310078.aspx",
+        "event_date": "2026-10-31",
+        "updated_at": "2026-10-31",
+        "published_at": "2026-10-31T04:46:42.000Z",
+        "title": "日本外相會晤俄羅斯外長　要求釋放遭拘留日籍記者",
+        "rss_lead": "（中央社亞特蘭大30日綜合外電報導）日本外務大臣茂木敏充今天在20國集團（G20）會議場邊會晤俄羅斯外長拉夫羅夫（Sergei Lavrov），並要求俄方立即釋放在薩哈林州（Sakhalin Oblast）遭拘留的日籍記者。",
+        "summary": "日本外相會晤俄羅斯外長　要求釋放遭拘留日籍記者",
+        "categories": [
+          "國際"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-71ae155373a7810057ac",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aopl/202610310078.aspx",
+            "published_at": "2026-10-31",
+            "excerpt": "日本外相會晤俄羅斯外長　要求釋放遭拘留日籍記者\n（中央社亞特蘭大30日綜合外電報導）日本外務大臣茂木敏充今天在20國集團（G20）會議場邊會晤俄羅斯外長拉夫羅夫（Sergei Lavrov），並要求俄方立即釋放在薩哈林州（Sakhalin Oblast）遭拘留的日籍記者。",
+            "section": "國際"
+          }
+        ],
+        "keywords": [],
+        "aliases": [
+          "cna-f7c5ab31cf9f91f6e843"
+        ],
+        "content_revision": "cna-f7c5ab31cf9f91f6e843"
+      },
+      {
+        "event_id": "cna-8f70dadb8491d822ceb4",
+        "dedup_key": "https://www.cna.com.tw/news/aopl/202610310079.aspx",
+        "event_date": "2026-10-31",
+        "updated_at": "2026-10-31",
+        "published_at": "2026-10-31T04:46:44.000Z",
+        "title": "美期中選舉白熱化　川普取消2州造勢集會後又恢復",
+        "rss_lead": "（中央社華盛頓30日綜合外電報導）美國期中選舉將決定國會控制權歸屬，選戰進入最後白熱化階段，總統川普今天堅稱共和黨「有機會」成功。",
+        "summary": "美期中選舉白熱化　川普取消2州造勢集會後又恢復",
+        "categories": [
+          "國際"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-8b7b722b1a975f7df48d",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aopl/202610310079.aspx",
+            "published_at": "2026-10-31",
+            "excerpt": "美期中選舉白熱化　川普取消2州造勢集會後又恢復\n（中央社華盛頓30日綜合外電報導）美國期中選舉將決定國會控制權歸屬，選戰進入最後白熱化階段，總統川普今天堅稱共和黨「有機會」成功。",
+            "section": "國際"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "選舉",
+            "kind": "專業用語",
+            "answer_domain": "politics",
+            "clue_options": [
+              {
+                "clue": "由選民投票產生公職代表的制度，結果仍須接受法定程序及監督。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "由選民投票產生公職代表的制度，結果仍須接受法定程序及監督。（2字）"
+          }
+        ],
+        "aliases": [
+          "cna-8f70dadb8491d822ceb4"
+        ],
+        "content_revision": "cna-8f70dadb8491d822ceb4"
+      },
+      {
+        "event_id": "cna-cf7e57be3e9b025e6d01",
+        "dedup_key": "https://www.cna.com.tw/news/aopl/202610310080.aspx",
+        "event_date": "2026-10-31",
+        "updated_at": "2026-10-31",
+        "published_at": "2026-10-31T04:50:46.000Z",
+        "title": "法國示威潮遇萬聖節　7萬警力嚴防暴動再掀",
+        "rss_lead": "（中央社巴黎31日綜合外電報導）法國今天在萬聖節嚴陣以待即將連續第3個週末登場的示威潮。店家紛紛以木板封住門面，當局則全力戒備，防範兩週前席捲全國的街頭暴力重演。",
+        "summary": "法國示威潮遇萬聖節　7萬警力嚴防暴動再掀",
+        "categories": [
+          "國際"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-cf764cba4b4f1dcf572f",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aopl/202610310080.aspx",
+            "published_at": "2026-10-31",
+            "excerpt": "法國示威潮遇萬聖節　7萬警力嚴防暴動再掀\n（中央社巴黎31日綜合外電報導）法國今天在萬聖節嚴陣以待即將連續第3個週末登場的示威潮。店家紛紛以木板封住門面，當局則全力戒備，防範兩週前席捲全國的街頭暴力重演。",
+            "section": "國際"
+          }
+        ],
+        "keywords": [],
+        "aliases": [
+          "cna-cf7e57be3e9b025e6d01"
+        ],
+        "content_revision": "cna-cf7e57be3e9b025e6d01"
+      },
+      {
+        "event_id": "cna-35ab2390c2534e7d843a",
+        "dedup_key": "https://www.cna.com.tw/news/aopl/202610310086.aspx",
+        "event_date": "2026-10-31",
+        "updated_at": "2026-10-31",
+        "published_at": "2026-10-31T05:04:02.000Z",
+        "title": "美媒：川普擬期中選舉隔日再攻伊朗　盼結束戰事",
+        "rss_lead": "（中央社華盛頓30日綜合外電報導）美國媒體MS NOW報導，隨著共和黨對伊朗戰爭的支持率下滑，第3艘航空母艦也駛往中東地區，總統川普正考慮最早於期中選舉隔日對伊朗發動新一輪打擊，希望藉此結束戰事。",
+        "summary": "美媒：川普擬期中選舉隔日再攻伊朗　盼結束戰事",
+        "categories": [
+          "國際"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-8f3a9ec1b3437973674d",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aopl/202610310086.aspx",
+            "published_at": "2026-10-31",
+            "excerpt": "美媒：川普擬期中選舉隔日再攻伊朗　盼結束戰事\n（中央社華盛頓30日綜合外電報導）美國媒體MS NOW報導，隨著共和黨對伊朗戰爭的支持率下滑，第3艘航空母艦也駛往中東地區，總統川普正考慮最早於期中選舉隔日對伊朗發動新一輪打擊，希望藉此結束戰事。",
+            "section": "國際"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "選舉",
+            "kind": "專業用語",
+            "answer_domain": "politics",
+            "clue_options": [
+              {
+                "clue": "由選民投票產生公職代表的制度，結果仍須接受法定程序及監督。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "由選民投票產生公職代表的制度，結果仍須接受法定程序及監督。（2字）"
+          }
+        ],
+        "aliases": [
+          "cna-35ab2390c2534e7d843a"
+        ],
+        "content_revision": "cna-35ab2390c2534e7d843a"
+      },
+      {
+        "event_id": "cna-1c2d06be74a05d8f73f4",
+        "dedup_key": "https://www.cna.com.tw/news/aopl/202610310097.aspx",
+        "event_date": "2026-10-31",
+        "updated_at": "2026-10-31",
+        "published_at": "2026-10-31T05:47:26.000Z",
+        "title": "美日韓外長強調台海和平穩定重要　盧比歐直指中國脅迫行為",
+        "rss_lead": "（中央社記者侯姿瑩華盛頓30日專電）美國國務卿盧比歐今天在G20外長會議場邊，與日本外務大臣茂木敏充及韓國外交部長趙顯舉行會談，強調維護台海和平穩定的重要性；此外，盧比歐還提及中國企圖控制南海的舉措、在東海及黃海的脅迫行為，以及中俄合作破壞印太和平與穩定。",
+        "summary": "美日韓外長強調台海和平穩定重要　盧比歐直指中國脅迫行為",
+        "categories": [
+          "國際"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-421de66c9e15fff5a334",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aopl/202610310097.aspx",
+            "published_at": "2026-10-31",
+            "excerpt": "美日韓外長強調台海和平穩定重要　盧比歐直指中國脅迫行為\n（中央社記者侯姿瑩華盛頓30日專電）美國國務卿盧比歐今天在G20外長會議場邊，與日本外務大臣茂木敏充及韓國外交部長趙顯舉行會談，強調維護台海和平穩定的重要性；此外，盧比歐還提及中國企圖控制南海的舉措、在東海及黃海的脅迫行為，以及中俄合作破壞印太和平與穩定。",
+            "section": "國際"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "外交部",
+            "kind": "機關或組織",
+            "clue_options": [
+              {
+                "clue": "辦理對外關係與領事事務，並在海外事故時協調急難協助的中央部會。（3字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 89,
+            "difficulty": "medium",
+            "clue": "辦理對外關係與領事事務，並在海外事故時協調急難協助的中央部會。（3字）"
+          }
+        ],
+        "aliases": [
+          "cna-1c2d06be74a05d8f73f4"
+        ],
+        "content_revision": "cna-1c2d06be74a05d8f73f4"
+      },
+      {
+        "event_id": "cna-ad5023517c76fd2c36fa",
+        "dedup_key": "https://www.cna.com.tw/news/aopl/202610310105.aspx",
+        "event_date": "2026-10-31",
+        "updated_at": "2026-10-31",
+        "published_at": "2026-10-31T06:17:43.000Z",
+        "title": "波蘭總理總統鬥法　憲法法院法官罷黜院長重點一次看",
+        "rss_lead": "（中央社華沙31日綜合外電報導）波蘭憲法法院30日陷嚴重動盪。之前遭禁止審案的法官採取突襲行動，罷黜法院正副院長，引發「政變」指控，凸顯現任親歐內閣與右翼前朝間的角力升溫。",
+        "summary": "波蘭總理總統鬥法　憲法法院法官罷黜院長重點一次看",
+        "categories": [
+          "國際"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-45b4427c8960d39cf4d4",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aopl/202610310105.aspx",
+            "published_at": "2026-10-31",
+            "excerpt": "波蘭總理總統鬥法　憲法法院法官罷黜院長重點一次看\n（中央社華沙31日綜合外電報導）波蘭憲法法院30日陷嚴重動盪。之前遭禁止審案的法官採取突襲行動，罷黜法院正副院長，引發「政變」指控，凸顯現任親歐內閣與右翼前朝間的角力升溫。",
+            "section": "國際"
+          }
+        ],
+        "keywords": [],
+        "aliases": [
+          "cna-ad5023517c76fd2c36fa"
+        ],
+        "content_revision": "cna-ad5023517c76fd2c36fa"
+      },
+      {
+        "event_id": "cna-7a2e269592c862791f61",
+        "dedup_key": "https://www.cna.com.tw/news/aopl/202610310106.aspx",
+        "event_date": "2026-10-31",
+        "updated_at": "2026-10-31",
+        "published_at": "2026-10-31T06:23:45.000Z",
+        "title": "阿拉斯加同名候選人風波　川普政府加速刑事調查",
+        "rss_lead": "（中央社華盛頓/安克拉治30日綜合外電報導）美國官員今天表示，總統川普政府加強刑事與民事調查，追查民主黨人涉嫌合謀在阿拉斯加州關鍵參議員選戰中招募同名候選人瓜分選票的指控，此舉為11月3日期中選舉增添新的不確定性。",
+        "summary": "阿拉斯加同名候選人風波　川普政府加速刑事調查",
+        "categories": [
+          "國際"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-6c1a8f49b81cee873a89",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aopl/202610310106.aspx",
+            "published_at": "2026-10-31",
+            "excerpt": "阿拉斯加同名候選人風波　川普政府加速刑事調查\n（中央社華盛頓/安克拉治30日綜合外電報導）美國官員今天表示，總統川普政府加強刑事與民事調查，追查民主黨人涉嫌合謀在阿拉斯加州關鍵參議員選戰中招募同名候選人瓜分選票的指控，此舉為11月3日期中選舉增添新的不確定性。",
+            "section": "國際"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "選舉",
+            "kind": "專業用語",
+            "answer_domain": "politics",
+            "clue_options": [
+              {
+                "clue": "由選民投票產生公職代表的制度，結果仍須接受法定程序及監督。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "由選民投票產生公職代表的制度，結果仍須接受法定程序及監督。（2字）"
+          }
+        ],
+        "aliases": [
+          "cna-7a2e269592c862791f61"
+        ],
+        "content_revision": "cna-7a2e269592c862791f61"
+      },
+      {
+        "event_id": "cna-38b995df90b4752ea70e",
+        "dedup_key": "https://www.cna.com.tw/news/aopl/202610310109.aspx",
+        "event_date": "2026-10-31",
+        "updated_at": "2026-10-31",
+        "published_at": "2026-10-31T06:35:52.000Z",
+        "title": "小波索納洛自稱遭迫害　敗選後逃離巴西赴美",
+        "rss_lead": "（中央社巴西利亞30日綜合外電報導）巴西前保守派總統候選人佛拉維歐．波索納洛（Flavio Bolsonaro）今天透露，他逃離巴西前往美國，是因為他在國內遭到「迫害」。",
+        "summary": "小波索納洛自稱遭迫害　敗選後逃離巴西赴美",
+        "categories": [
+          "國際"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-bd6589c303f9055c8892",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aopl/202610310109.aspx",
+            "published_at": "2026-10-31",
+            "excerpt": "小波索納洛自稱遭迫害　敗選後逃離巴西赴美\n（中央社巴西利亞30日綜合外電報導）巴西前保守派總統候選人佛拉維歐．波索納洛（Flavio Bolsonaro）今天透露，他逃離巴西前往美國，是因為他在國內遭到「迫害」。",
+            "section": "國際"
+          }
+        ],
+        "keywords": [],
+        "aliases": [
+          "cna-38b995df90b4752ea70e"
+        ],
+        "content_revision": "cna-38b995df90b4752ea70e"
+      },
+      {
+        "event_id": "cna-90f319ab7bd51077fd56",
+        "dedup_key": "https://www.cna.com.tw/news/aopl/202610310118.aspx",
+        "event_date": "2026-10-31",
+        "updated_at": "2026-10-31",
+        "published_at": "2026-10-31T07:21:12.000Z",
+        "title": "美批准售烏21億美元愛國者飛彈　交貨恐等到2030年代初期",
+        "rss_lead": "（中央社華盛頓30日綜合外電報導）美國國務院今天宣布，已批准向烏克蘭出售500枚愛國者三型（Patriot PAC-3）飛彈，估計總金額達21億美元。不過由於這批飛彈尚未開始製造，消息人士透露，預計要到2030年代初期才能交貨。",
+        "summary": "美批准售烏21億美元愛國者飛彈　交貨恐等到2030年代初期",
+        "categories": [
+          "國際"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-0993dd655209bc1f6221",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aopl/202610310118.aspx",
+            "published_at": "2026-10-31",
+            "excerpt": "美批准售烏21億美元愛國者飛彈　交貨恐等到2030年代初期\n（中央社華盛頓30日綜合外電報導）美國國務院今天宣布，已批准向烏克蘭出售500枚愛國者三型（Patriot PAC-3）飛彈，估計總金額達21億美元。不過由於這批飛彈尚未開始製造，消息人士透露，預計要到2030年代初期才能交貨。",
+            "section": "國際"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "美元",
+            "kind": "財經用語",
+            "clue_options": [
+              {
+                "clue": "國際貿易與外匯存底常用的計價貨幣，其利率變動牽動跨境資金。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "國際貿易與外匯存底常用的計價貨幣，其利率變動牽動跨境資金。（2字）"
+          }
+        ],
+        "aliases": [
+          "cna-90f319ab7bd51077fd56"
+        ],
+        "content_revision": "cna-90f319ab7bd51077fd56"
+      },
+      {
+        "event_id": "cna-0d2f1845a723836908ab",
+        "dedup_key": "https://www.cna.com.tw/news/aopl/202610310125.aspx",
+        "event_date": "2026-10-31",
+        "updated_at": "2026-10-31",
+        "published_at": "2026-10-31T07:57:27.000Z",
+        "title": "標普全球調降Meta信評展望至負向　AI支出與現金流引發疑慮",
+        "rss_lead": "（中央社紐約30日綜合外電報導）標準普爾全球評級公司（S&P Global Ratings）今天以資本支出及自由現金流存在重大不確定性為由，將Meta Platforms信評展望從「穩定」調降至「負向」。",
+        "summary": "標普全球調降Meta信評展望至負向　AI支出與現金流引發疑慮",
+        "categories": [
+          "財經"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-28ffe031e1345d3b32be",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aopl/202610310125.aspx",
+            "published_at": "2026-10-31",
+            "excerpt": "標普全球調降Meta信評展望至負向　AI支出與現金流引發疑慮\n（中央社紐約30日綜合外電報導）標準普爾全球評級公司（S&P Global Ratings）今天以資本支出及自由現金流存在重大不確定性為由，將Meta Platforms信評展望從「穩定」調降至「負向」。",
+            "section": "財經"
+          }
+        ],
+        "keywords": [],
+        "aliases": [
+          "cna-0d2f1845a723836908ab"
+        ],
+        "content_revision": "cna-0d2f1845a723836908ab"
+      },
+      {
+        "event_id": "cna-e7fc2fd478365f4ca81b",
+        "dedup_key": "https://www.cna.com.tw/news/aopl/202610310128.aspx",
+        "event_date": "2026-10-31",
+        "updated_at": "2026-10-31",
+        "published_at": "2026-10-31T08:10:34.000Z",
+        "title": "北海道特急深夜撞熊出軌　乘客被迫車內過夜",
+        "rss_lead": "（中央社記者戴雅真東京31日專電）日本北海道一列開往稚內的特急列車，昨天深夜行駛途中撞上熊，乘客的短途旅程意外變成車廂過夜。事故造成首節車廂出軌，所幸車上32名乘客及乘務人員均未受傷。",
+        "summary": "北海道特急深夜撞熊出軌　乘客被迫車內過夜",
+        "categories": [
+          "國際"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-f9909efb6efc9c7fa5a9",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aopl/202610310128.aspx",
+            "published_at": "2026-10-31",
+            "excerpt": "北海道特急深夜撞熊出軌　乘客被迫車內過夜\n（中央社記者戴雅真東京31日專電）日本北海道一列開往稚內的特急列車，昨天深夜行駛途中撞上熊，乘客的短途旅程意外變成車廂過夜。事故造成首節車廂出軌，所幸車上32名乘客及乘務人員均未受傷。",
+            "section": "國際"
+          }
+        ],
+        "keywords": [],
+        "aliases": [
+          "cna-e7fc2fd478365f4ca81b"
+        ],
+        "content_revision": "cna-e7fc2fd478365f4ca81b"
+      },
+      {
+        "event_id": "cna-5cc4c150625d4f2cadf6",
+        "dedup_key": "https://www.cna.com.tw/news/aopl/202610310151.aspx",
+        "event_date": "2026-10-31",
+        "updated_at": "2026-10-31",
+        "published_at": "2026-10-31T09:26:23.000Z",
+        "title": "聯合國COP17閉幕　各國承諾讓自然保育目標重回正軌",
+        "rss_lead": "（中央社葉里凡31日綜合外電報導）近200個國家歷經兩週的談判，在聯合國生物多樣性峰會上達成多項協議，但結果仍令人失望，批評者認為各國錯失解決人類活動對自然造成嚴重破壞的機會。",
+        "summary": "聯合國COP17閉幕　各國承諾讓自然保育目標重回正軌",
+        "categories": [
+          "國際"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-b8fe1134a00777f9e50b",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aopl/202610310151.aspx",
+            "published_at": "2026-10-31",
+            "excerpt": "聯合國COP17閉幕　各國承諾讓自然保育目標重回正軌\n（中央社葉里凡31日綜合外電報導）近200個國家歷經兩週的談判，在聯合國生物多樣性峰會上達成多項協議，但結果仍令人失望，批評者認為各國錯失解決人類活動對自然造成嚴重破壞的機會。",
+            "section": "國際"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "聯合國",
+            "kind": "機關或組織",
+            "clue_options": [
+              {
+                "clue": "以憲章為基礎、透過會員國合作處理和平安全與發展議題的國際組織。（3字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 89,
+            "difficulty": "medium",
+            "clue": "以憲章為基礎、透過會員國合作處理和平安全與發展議題的國際組織。（3字）"
+          },
+          {
+            "word": "峰會",
+            "kind": "專業用語",
+            "answer_domain": "international",
+            "clue_options": [
+              {
+                "clue": "國家或政府領袖層級的會談，常藉聯合聲明表達共同立場。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "國家或政府領袖層級的會談，常藉聯合聲明表達共同立場。（2字）"
+          }
+        ],
+        "aliases": [
+          "cna-5cc4c150625d4f2cadf6"
+        ],
+        "content_revision": "cna-5cc4c150625d4f2cadf6"
+      },
+      {
+        "event_id": "cna-bbdb20c1ad6d2c88b3e2",
+        "dedup_key": "https://www.cna.com.tw/news/aopl/202610310160.aspx",
+        "event_date": "2026-10-31",
+        "updated_at": "2026-10-31",
+        "published_at": "2026-10-31T09:51:47.000Z",
+        "title": "沙烏地處決2孟加拉籍人士　案情未明引司法透明爭議",
+        "rss_lead": "（中央社記者施婉清開羅31日專電）沙烏地阿拉伯日前處決2名孟加拉籍人士，但官方未公布具體犯行及審判細節，事件陸續引發網路輿論及後續被證實為謠言的說法，爭議也從維護宗教聖地尊嚴，延伸至司法透明、死刑適當性及外籍勞工權益。",
+        "summary": "沙烏地處決2孟加拉籍人士　案情未明引司法透明爭議",
+        "categories": [
+          "國際"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-565e60ab98b050422d68",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aopl/202610310160.aspx",
+            "published_at": "2026-10-31",
+            "excerpt": "沙烏地處決2孟加拉籍人士　案情未明引司法透明爭議\n（中央社記者施婉清開羅31日專電）沙烏地阿拉伯日前處決2名孟加拉籍人士，但官方未公布具體犯行及審判細節，事件陸續引發網路輿論及後續被證實為謠言的說法，爭議也從維護宗教聖地尊嚴，延伸至司法透明、死刑適當性及外籍勞工權益。",
+            "section": "國際"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "網路",
+            "kind": "專業用語",
+            "answer_domain": "technology",
+            "clue_options": [
+              {
+                "clue": "連結設備與資訊的通訊系統，便利性也帶來身分冒用與攻擊風險。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "連結設備與資訊的通訊系統，便利性也帶來身分冒用與攻擊風險。（2字）"
+          }
+        ],
+        "aliases": [
+          "cna-bbdb20c1ad6d2c88b3e2"
+        ],
+        "content_revision": "cna-bbdb20c1ad6d2c88b3e2"
+      },
+      {
+        "event_id": "cna-3df25aa6d808ae5c1b8d",
+        "dedup_key": "https://www.cna.com.tw/news/aopl/202610310163.aspx",
+        "event_date": "2026-10-31",
+        "updated_at": "2026-10-31",
+        "published_at": "2026-10-31T10:14:54.000Z",
+        "title": "美國與伊朗戰事若升級　埃及外長憂造成更大破壞",
+        "rss_lead": "（中央社麥納瑪31日綜合外電報導）埃及外交部長阿布德拉提（Badr Abdelatty）今天表示，他相當擔憂美國與伊朗之間的戰事若再度升級，將導致更大破壞並帶來嚴重影響。",
+        "summary": "美國與伊朗戰事若升級　埃及外長憂造成更大破壞",
+        "categories": [
+          "國際"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-c57a3310bab6413ef6b7",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aopl/202610310163.aspx",
+            "published_at": "2026-10-31",
+            "excerpt": "美國與伊朗戰事若升級　埃及外長憂造成更大破壞\n（中央社麥納瑪31日綜合外電報導）埃及外交部長阿布德拉提（Badr Abdelatty）今天表示，他相當擔憂美國與伊朗之間的戰事若再度升級，將導致更大破壞並帶來嚴重影響。",
+            "section": "國際"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "美國",
+            "kind": "國家或地區",
+            "clue_options": [
+              {
+                "clue": "據報導，某國與伊朗戰事若升級　埃及外長憂造成更大破壞。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "event",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "據報導，某國與伊朗戰事若升級　埃及外長憂造成更大破壞。（2字）"
+          },
+          {
+            "word": "外交部",
+            "kind": "機關或組織",
+            "clue_options": [
+              {
+                "clue": "辦理對外關係與領事事務，並在海外事故時協調急難協助的中央部會。（3字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 89,
+            "difficulty": "medium",
+            "clue": "辦理對外關係與領事事務，並在海外事故時協調急難協助的中央部會。（3字）"
+          }
+        ],
+        "aliases": [
+          "cna-3df25aa6d808ae5c1b8d"
+        ],
+        "content_revision": "cna-3df25aa6d808ae5c1b8d"
+      },
+      {
+        "event_id": "cna-6d0321afb2420e923dbb",
+        "dedup_key": "https://www.cna.com.tw/news/aopl/202610310166.aspx",
+        "event_date": "2026-10-31",
+        "updated_at": "2026-10-31",
+        "published_at": "2026-10-31T10:31:00.000Z",
+        "title": "北韓官媒：制裁無法否定平壤當局核武國家地位",
+        "rss_lead": "（中央社首爾31日綜合外電報導）北韓官媒今天報導，平壤譴責一群負責監督制裁執行情況的國家發布的聯合聲明，稱這是美國與西方出於敵意而採取的「恣意侵犯北韓主權」行為。",
+        "summary": "北韓官媒：制裁無法否定平壤當局核武國家地位",
+        "categories": [
+          "國際"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-a741981e46189262ac80",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aopl/202610310166.aspx",
+            "published_at": "2026-10-31",
+            "excerpt": "北韓官媒：制裁無法否定平壤當局核武國家地位\n（中央社首爾31日綜合外電報導）北韓官媒今天報導，平壤譴責一群負責監督制裁執行情況的國家發布的聯合聲明，稱這是美國與西方出於敵意而採取的「恣意侵犯北韓主權」行為。",
+            "section": "國際"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "制裁",
+            "kind": "專業用語",
+            "answer_domain": "international",
+            "clue_options": [
+              {
+                "clue": "以貿易、金融或人員限制向對方施壓，屬於戰爭以外的政策工具。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "以貿易、金融或人員限制向對方施壓，屬於戰爭以外的政策工具。（2字）"
+          },
+          {
+            "word": "主權",
+            "kind": "專業用語",
+            "answer_domain": "international",
+            "clue_options": [
+              {
+                "clue": "國家對內最高統治權與對外自主地位，常是領土爭端的核心概念。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "國家對內最高統治權與對外自主地位，常是領土爭端的核心概念。（2字）"
+          }
+        ],
+        "aliases": [
+          "cna-6d0321afb2420e923dbb"
+        ],
+        "content_revision": "cna-6d0321afb2420e923dbb"
+      },
+      {
+        "event_id": "cna-19f74a1a26a220d9e0a7",
+        "dedup_key": "https://www.cna.com.tw/news/aopl/202610310172.aspx",
+        "event_date": "2026-10-31",
+        "updated_at": "2026-10-31",
+        "published_at": "2026-10-31T11:11:14.000Z",
+        "title": "波蘭憲法法院動盪蔓延  駐中大使率先請辭引發跟進潮",
+        "rss_lead": "（中央社台北31日電）波蘭憲法法院人事任命風波引爆的政治危機持續蔓延。波蘭駐中國大使古天衛今天率先宣布請辭；波蘭駐羅馬尼亞大使索洛克隨後也請辭，已在波蘭官場引發跟進潮。",
+        "summary": "波蘭憲法法院動盪蔓延  駐中大使率先請辭引發跟進潮",
+        "categories": [
+          "國際"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-47de5bab0d168fb6e447",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aopl/202610310172.aspx",
+            "published_at": "2026-10-31",
+            "excerpt": "波蘭憲法法院動盪蔓延  駐中大使率先請辭引發跟進潮\n（中央社台北31日電）波蘭憲法法院人事任命風波引爆的政治危機持續蔓延。波蘭駐中國大使古天衛今天率先宣布請辭；波蘭駐羅馬尼亞大使索洛克隨後也請辭，已在波蘭官場引發跟進潮。",
+            "section": "國際"
+          }
+        ],
+        "keywords": [],
+        "aliases": [
+          "cna-19f74a1a26a220d9e0a7"
+        ],
+        "content_revision": "cna-19f74a1a26a220d9e0a7"
+      },
+      {
         "event_id": "cna-f37339689d3edd2a168e",
         "dedup_key": "https://www.cna.com.tw/news/asoc/202610250027.aspx",
         "event_date": "2026-10-25",
@@ -68068,6 +70944,190 @@
         "content_revision": "cna-b5d10f280cd478fce223"
       },
       {
+        "event_id": "cna-0855bfaaaa21825c3dad",
+        "dedup_key": "https://www.cna.com.tw/news/asoc/202610310092.aspx",
+        "event_date": "2026-10-31",
+        "updated_at": "2026-10-31",
+        "published_at": "2026-10-31T05:36:15.000Z",
+        "title": "台東延平鄉代參選人涉現金賄選　遭收押禁見",
+        "rss_lead": "（中央社記者盧太城台東縣31日電）陳姓台東縣延平鄉民代表參選人和胡姓配偶共同涉以每票新台幣2000元到5000元賄選，台灣台東地方檢察署檢察官向法院聲請羈押禁見陳姓被告獲准。",
+        "summary": "台東延平鄉代參選人涉現金賄選　遭收押禁見",
+        "categories": [
+          "台灣"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-3c474aefb54995db3dd0",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/asoc/202610310092.aspx",
+            "published_at": "2026-10-31",
+            "excerpt": "台東延平鄉代參選人涉現金賄選　遭收押禁見\n（中央社記者盧太城台東縣31日電）陳姓台東縣延平鄉民代表參選人和胡姓配偶共同涉以每票新台幣2000元到5000元賄選，台灣台東地方檢察署檢察官向法院聲請羈押禁見陳姓被告獲准。",
+            "section": "台灣"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "新台幣",
+            "kind": "財經用語",
+            "clue_options": [
+              {
+                "clue": "本地法定貨幣，其對外比價變動會影響進口成本與出口換匯收入。（3字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 89,
+            "difficulty": "medium",
+            "clue": "本地法定貨幣，其對外比價變動會影響進口成本與出口換匯收入。（3字）"
+          },
+          {
+            "word": "羈押",
+            "kind": "專業用語",
+            "answer_domain": "society",
+            "clue_options": [
+              {
+                "clue": "審判確定前，法院依逃亡或串證等法定事由限制被告自由的處分。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "審判確定前，法院依逃亡或串證等法定事由限制被告自由的處分。（2字）"
+          }
+        ],
+        "aliases": [
+          "cna-0855bfaaaa21825c3dad"
+        ],
+        "content_revision": "cna-0855bfaaaa21825c3dad"
+      },
+      {
+        "event_id": "cna-84014732a54bdc768c27",
+        "dedup_key": "https://www.cna.com.tw/news/asoc/202610310124.aspx",
+        "event_date": "2026-10-31",
+        "updated_at": "2026-10-31",
+        "published_at": "2026-10-31T07:49:25.000Z",
+        "title": "高雄興達電廠鍋爐房火警釀空污  環保局開罰包商",
+        "rss_lead": "（中央社記者洪學廣高雄31日電）高雄興達電廠燃氣機組鍋爐房今天發生火警事故，火勢於中午12時24分許撲滅，無人傷亡。環保局表示，因包商使用瓦斯噴燈不慎起火，產生明顯粒狀污染物釀空污，將開罰10萬至500萬元。",
+        "summary": "高雄興達電廠鍋爐房火警釀空污  環保局開罰包商",
+        "categories": [
+          "台灣"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-a903da7ae139158ccd92",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/asoc/202610310124.aspx",
+            "published_at": "2026-10-31",
+            "excerpt": "高雄興達電廠鍋爐房火警釀空污  環保局開罰包商\n（中央社記者洪學廣高雄31日電）高雄興達電廠燃氣機組鍋爐房今天發生火警事故，火勢於中午12時24分許撲滅，無人傷亡。環保局表示，因包商使用瓦斯噴燈不慎起火，產生明顯粒狀污染物釀空污，將開罰10萬至500萬元。",
+            "section": "台灣"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "環保",
+            "kind": "專業用語",
+            "answer_domain": "environment",
+            "clue_options": [
+              {
+                "clue": "減少污染、維護生態及資源永續利用的公共行動簡稱。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "減少污染、維護生態及資源永續利用的公共行動簡稱。（2字）"
+          }
+        ],
+        "aliases": [
+          "cna-84014732a54bdc768c27"
+        ],
+        "content_revision": "cna-84014732a54bdc768c27"
+      },
+      {
+        "event_id": "cna-a23bbde7884e0e6e1706",
+        "dedup_key": "https://www.cna.com.tw/news/asoc/202610310133.aspx",
+        "event_date": "2026-10-31",
+        "updated_at": "2026-10-31",
+        "published_at": "2026-10-31T08:40:45.000Z",
+        "title": "中國海警以「暗船」闖東沙限制水域　海巡併航驅離",
+        "rss_lead": "（中央社記者張已亷高雄31日電）1艘中國海警船今天以「暗船」隱匿行蹤航向東沙水域，海巡調派「巡護七號」前推部署，該海警船清晨自東沙島西方進入限制水域，「巡護七號」趨前驅離，目前於現場對峙中。",
+        "summary": "中國海警以「暗船」闖東沙限制水域　海巡併航驅離",
+        "categories": [
+          "台灣"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-0a11ac9e9fa69473332b",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/asoc/202610310133.aspx",
+            "published_at": "2026-10-31",
+            "excerpt": "中國海警以「暗船」闖東沙限制水域　海巡併航驅離\n（中央社記者張已亷高雄31日電）1艘中國海警船今天以「暗船」隱匿行蹤航向東沙水域，海巡調派「巡護七號」前推部署，該海警船清晨自東沙島西方進入限制水域，「巡護七號」趨前驅離，目前於現場對峙中。",
+            "section": "台灣"
+          }
+        ],
+        "keywords": [],
+        "aliases": [
+          "cna-a23bbde7884e0e6e1706"
+        ],
+        "content_revision": "cna-a23bbde7884e0e6e1706"
+      },
+      {
+        "event_id": "cna-c313ca953871379bc182",
+        "dedup_key": "https://www.cna.com.tw/news/asoc/202610310138.aspx",
+        "event_date": "2026-10-31",
+        "updated_at": "2026-10-31",
+        "published_at": "2026-10-31T09:03:56.000Z",
+        "title": "新竹癱瘓男求合法安樂死遭法院駁回　委律師聲請釋憲",
+        "rss_lead": "（中央社記者張祈花蓮縣31日電）新竹鍾姓男子因受傷癱瘓，喪失基本生活能力，不願當「活著的死人」，近年積極尋求合法安樂死未果。近日委託律師遞狀送憲法法庭，律師表示，是台灣首個安樂死憲法訴訟案。",
+        "summary": "新竹癱瘓男求合法安樂死遭法院駁回　委律師聲請釋憲",
+        "categories": [
+          "台灣"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-5a98b53b863c411be8be",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/asoc/202610310138.aspx",
+            "published_at": "2026-10-31",
+            "excerpt": "新竹癱瘓男求合法安樂死遭法院駁回　委律師聲請釋憲\n（中央社記者張祈花蓮縣31日電）新竹鍾姓男子因受傷癱瘓，喪失基本生活能力，不願當「活著的死人」，近年積極尋求合法安樂死未果。近日委託律師遞狀送憲法法庭，律師表示，是台灣首個安樂死憲法訴訟案。",
+            "section": "台灣"
+          }
+        ],
+        "keywords": [],
+        "aliases": [
+          "cna-c313ca953871379bc182"
+        ],
+        "content_revision": "cna-c313ca953871379bc182"
+      },
+      {
         "event_id": "cna-8e6c00d6de8553149b83",
         "dedup_key": "https://www.cna.com.tw/news/aspt/202610250065.aspx",
         "event_date": "2026-10-25",
@@ -71621,9 +74681,212 @@
           "cna-ffbf122d400ab744c6e2"
         ],
         "content_revision": "cna-ffbf122d400ab744c6e2"
+      },
+      {
+        "event_id": "cna-510e122e5201811098ab",
+        "dedup_key": "https://www.cna.com.tw/news/aspt/202610310089.aspx",
+        "event_date": "2026-10-31",
+        "updated_at": "2026-10-31",
+        "published_at": "2026-10-31T05:23:08.000Z",
+        "title": "曾峻岳相約林凱威旅外　陳昭如盼成制度旅美首例",
+        "rss_lead": "（中央社記者蘇志畬台北31日電）中華職棒今年2位終結者挑戰旅外，富邦悍將隊曾峻岳透露這是經典賽時與味全龍隊林凱威彼此的約定，悍將領隊陳昭如期待曾峻岳成為透過旅外制度的旅美首例。",
+        "summary": "曾峻岳相約林凱威旅外　陳昭如盼成制度旅美首例",
+        "categories": [
+          "體育"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-a14781e38fa8b15c9605",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aspt/202610310089.aspx",
+            "published_at": "2026-10-31",
+            "excerpt": "曾峻岳相約林凱威旅外　陳昭如盼成制度旅美首例\n（中央社記者蘇志畬台北31日電）中華職棒今年2位終結者挑戰旅外，富邦悍將隊曾峻岳透露這是經典賽時與味全龍隊林凱威彼此的約定，悍將領隊陳昭如期待曾峻岳成為透過旅外制度的旅美首例。",
+            "section": "體育"
+          }
+        ],
+        "keywords": [],
+        "aliases": [
+          "cna-510e122e5201811098ab"
+        ],
+        "content_revision": "cna-510e122e5201811098ab"
+      },
+      {
+        "event_id": "cna-1287b4102e0ca3939923",
+        "dedup_key": "https://www.cna.com.tw/news/aspt/202610310103.aspx",
+        "event_date": "2026-10-31",
+        "updated_at": "2026-10-31",
+        "published_at": "2026-10-31T06:09:39.000Z",
+        "title": "張育成治療骨刺獲「全新手臂」　新賽季拚重返游擊",
+        "rss_lead": "（中央社記者蘇志畬台北31日電）中華職棒富邦悍將隊野手張育成休賽季開刀治療骨刺，他形容猶如獲得「全新手臂」，12月將赴美找回打擊型態，新球季期待能夠重返游擊守備。",
+        "summary": "張育成治療骨刺獲「全新手臂」　新賽季拚重返游擊",
+        "categories": [
+          "體育"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-1e856f06b9f2517aab26",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aspt/202610310103.aspx",
+            "published_at": "2026-10-31",
+            "excerpt": "張育成治療骨刺獲「全新手臂」　新賽季拚重返游擊\n（中央社記者蘇志畬台北31日電）中華職棒富邦悍將隊野手張育成休賽季開刀治療骨刺，他形容猶如獲得「全新手臂」，12月將赴美找回打擊型態，新球季期待能夠重返游擊守備。",
+            "section": "體育"
+          }
+        ],
+        "keywords": [],
+        "aliases": [
+          "cna-1287b4102e0ca3939923"
+        ],
+        "content_revision": "cna-1287b4102e0ca3939923"
+      },
+      {
+        "event_id": "cna-a5b1305238bcb587256f",
+        "dedup_key": "https://www.cna.com.tw/news/aspt/202610310108.aspx",
+        "event_date": "2026-10-31",
+        "updated_at": "2026-10-31",
+        "published_at": "2026-10-31T06:29:50.000Z",
+        "title": "傅兆玄走出亞運摘金不真實感　直言不能停留太久",
+        "rss_lead": "（中央社記者陳容琛台北31日電）逐漸走出名古屋亞運摘下金牌的不真實感，台灣田徑跳高好手傅兆玄今天出席活動時表示，目前心態上有朝著下一個目標前進的感覺，「不能在這個地方停留太久。」",
+        "summary": "傅兆玄走出亞運摘金不真實感　直言不能停留太久",
+        "categories": [
+          "體育"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-4f0772890b131b2aab76",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aspt/202610310108.aspx",
+            "published_at": "2026-10-31",
+            "excerpt": "傅兆玄走出亞運摘金不真實感　直言不能停留太久\n（中央社記者陳容琛台北31日電）逐漸走出名古屋亞運摘下金牌的不真實感，台灣田徑跳高好手傅兆玄今天出席活動時表示，目前心態上有朝著下一個目標前進的感覺，「不能在這個地方停留太久。」",
+            "section": "體育"
+          }
+        ],
+        "keywords": [],
+        "aliases": [
+          "cna-a5b1305238bcb587256f"
+        ],
+        "content_revision": "cna-a5b1305238bcb587256f"
+      },
+      {
+        "event_id": "cna-e2d0a9bc6516e61f86b5",
+        "dedup_key": "https://www.cna.com.tw/news/aspt/202610310119.aspx",
+        "event_date": "2026-10-31",
+        "updated_at": "2026-10-31",
+        "published_at": "2026-10-31T07:28:14.000Z",
+        "title": "詹姆斯20分挹注　76人擊敗尼克暫居東區龍頭",
+        "rss_lead": "（中央社洛杉磯30日綜合外電報導）美國職籃NBA費城76人隊球星詹姆斯（LeBron James）攻下20分，包括終場前一記關鍵的補籃，幫助76人以98比93擊敗衛冕軍紐約尼克。",
+        "summary": "詹姆斯20分挹注　76人擊敗尼克暫居東區龍頭",
+        "categories": [
+          "體育"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-2290ee03295c02157fb4",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aspt/202610310119.aspx",
+            "published_at": "2026-10-31",
+            "excerpt": "詹姆斯20分挹注　76人擊敗尼克暫居東區龍頭\n（中央社洛杉磯30日綜合外電報導）美國職籃NBA費城76人隊球星詹姆斯（LeBron James）攻下20分，包括終場前一記關鍵的補籃，幫助76人以98比93擊敗衛冕軍紐約尼克。",
+            "section": "體育"
+          }
+        ],
+        "keywords": [],
+        "aliases": [
+          "cna-e2d0a9bc6516e61f86b5"
+        ],
+        "content_revision": "cna-e2d0a9bc6516e61f86b5"
+      },
+      {
+        "event_id": "cna-d8603a0ad236fe84998a",
+        "dedup_key": "https://www.cna.com.tw/news/aspt/202610310177.aspx",
+        "event_date": "2026-10-31",
+        "updated_at": "2026-10-31",
+        "published_at": "2026-10-31T11:58:25.000Z",
+        "title": "日本90歲健美選手金澤利翼西班牙競技　展現不老雄心",
+        "rss_lead": "（中央社西班牙聖蘇珊納30日綜合外電報導）日本90歲健美選手金澤利翼（Toshisuke Kanazawa）今天登上西班牙馬雷斯梅海岸（Costa del Maresme）的舞台，證明年齡並非維持巔峰體能的障礙。",
+        "summary": "日本90歲健美選手金澤利翼西班牙競技　展現不老雄心",
+        "categories": [
+          "體育"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-71e28b8db8b2d12d409f",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aspt/202610310177.aspx",
+            "published_at": "2026-10-31",
+            "excerpt": "日本90歲健美選手金澤利翼西班牙競技　展現不老雄心\n（中央社西班牙聖蘇珊納30日綜合外電報導）日本90歲健美選手金澤利翼（Toshisuke Kanazawa）今天登上西班牙馬雷斯梅海岸（Costa del Maresme）的舞台，證明年齡並非維持巔峰體能的障礙。",
+            "section": "體育"
+          }
+        ],
+        "keywords": [],
+        "aliases": [
+          "cna-d8603a0ad236fe84998a"
+        ],
+        "content_revision": "cna-d8603a0ad236fe84998a"
       }
     ],
     "candidates": [
+      {
+        "word": "美國",
+        "kind": "國家或地區",
+        "answer_score": 86,
+        "difficulty": "medium",
+        "clue": "據報導，某國與伊朗戰事若升級　埃及外長憂造成更大破壞。（2字）",
+        "id": "cna-3df25aa6d808ae5c1b8d::美國",
+        "event_id": "cna-3df25aa6d808ae5c1b8d",
+        "event_revision": "cna-3df25aa6d808ae5c1b8d",
+        "source_support": [
+          {
+            "source_id": "rss-c57a3310bab6413ef6b7",
+            "evidence": "美國與伊朗戰事若升級　埃及外長憂造成更大破壞\n（中央社麥納瑪31日綜合外電報導）埃及外交部長阿布德拉提（Badr Abdelatty）今天表示，他相當擔憂美國與伊朗之間的戰事若再度升級，將導致更大破壞並帶來嚴重影響。"
+          }
+        ],
+        "clue_style": "magazine-v1",
+        "clue_kind": "event",
+        "clue_profile": "experienced-adults-v1"
+      },
+      {
+        "word": "蔣萬安",
+        "kind": "人物",
+        "answer_score": 89,
+        "difficulty": "medium",
+        "clue": "據報導，某位人物盼打造世界AI場域　沈伯洋要翻新都市美感。（3字）",
+        "id": "cna-57f75deb721d4b2d7cc7::蔣萬安",
+        "event_id": "cna-57f75deb721d4b2d7cc7",
+        "event_revision": "cna-57f75deb721d4b2d7cc7",
+        "source_support": [
+          {
+            "source_id": "rss-b838dd6ebdee684c85dc",
+            "evidence": "蔣萬安盼打造世界AI場域　沈伯洋要翻新都市美感\n（中央社記者黃麗芸、李念庭台北31日電）尋求連任的台北市長蔣萬安今天說，無菸城市、捷運路網新里程成新風貌，北士科將成世界級AI示範場域；民主進步黨台北市長參選人沈伯洋說，透過多項措施翻新都市美感。"
+          }
+        ],
+        "clue_style": "magazine-v1",
+        "clue_kind": "event",
+        "clue_profile": "experienced-adults-v1"
+      },
       {
         "word": "黃仁勳",
         "kind": "人物",
@@ -72385,19 +75648,391 @@
         "clue_profile": "experienced-adults-v1"
       },
       {
+        "word": "立法院",
+        "kind": "機關或組織",
+        "answer_score": 89,
+        "difficulty": "medium",
+        "clue": "透過法律案、預算案及質詢等職權監督行政部門的中央民意機關。（3字）",
+        "id": "cna-74100ea861fc00135547::立法院",
+        "event_id": "cna-74100ea861fc00135547",
+        "event_revision": "cna-74100ea861fc00135547",
+        "source_support": [
+          {
+            "source_id": "rss-440ef3a832abf3d8e94a",
+            "evidence": "韓國瑜力薦張嘉郡　劉建國斗六西市場拜票\n（中央社記者姜宜菁雲林縣31日電）國民黨雲林縣長參選人張嘉郡今天與立法院長韓國瑜到西螺鎮車隊拜票，韓國瑜力薦張嘉郡一心一意為雲林縣打拚；民進黨雲林縣長參選人劉建國則走訪斗六西市場，關心老市場保存與活化。"
+          }
+        ],
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning",
+        "clue_profile": "experienced-adults-v1"
+      },
+      {
+        "word": "公投",
+        "kind": "專業用語",
+        "answer_domain": "politics",
+        "answer_score": 86,
+        "difficulty": "medium",
+        "clue": "選民對公共議題直接表決的制度，與選出代議士的選舉有所區別。（2字）",
+        "id": "cna-3c777a4c85b1860e8a10::公投",
+        "event_id": "cna-3c777a4c85b1860e8a10",
+        "event_revision": "cna-3c777a4c85b1860e8a10",
+        "source_support": [
+          {
+            "source_id": "rss-5f697a0d8fd2208a978d",
+            "evidence": "國民黨桃竹竹苗聯合造勢　籲核能公投投同意票\n（中央社記者郭宣彣新竹縣31日電）國民黨今天舉辦桃竹竹苗公投造勢活動，黨主席鄭麗文與桃園市長張善政、苗栗縣長鍾東錦及新竹縣長參選人徐欣瑩，以及無黨籍新竹市長高虹安同台，呼籲民眾核能公投中投下同意票。"
+          }
+        ],
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning",
+        "clue_profile": "experienced-adults-v1"
+      },
+      {
+        "word": "主權",
+        "kind": "專業用語",
+        "answer_domain": "international",
+        "answer_score": 86,
+        "difficulty": "medium",
+        "clue": "國家對內最高統治權與對外自主地位，常是領土爭端的核心概念。（2字）",
+        "id": "cna-6d0321afb2420e923dbb::主權",
+        "event_id": "cna-6d0321afb2420e923dbb",
+        "event_revision": "cna-6d0321afb2420e923dbb",
+        "source_support": [
+          {
+            "source_id": "rss-a741981e46189262ac80",
+            "evidence": "北韓官媒：制裁無法否定平壤當局核武國家地位\n（中央社首爾31日綜合外電報導）北韓官媒今天報導，平壤譴責一群負責監督制裁執行情況的國家發布的聯合聲明，稱這是美國與西方出於敵意而採取的「恣意侵犯北韓主權」行為。"
+          }
+        ],
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning",
+        "clue_profile": "experienced-adults-v1"
+      },
+      {
+        "word": "制裁",
+        "kind": "專業用語",
+        "answer_domain": "international",
+        "answer_score": 86,
+        "difficulty": "medium",
+        "clue": "以貿易、金融或人員限制向對方施壓，屬於戰爭以外的政策工具。（2字）",
+        "id": "cna-6d0321afb2420e923dbb::制裁",
+        "event_id": "cna-6d0321afb2420e923dbb",
+        "event_revision": "cna-6d0321afb2420e923dbb",
+        "source_support": [
+          {
+            "source_id": "rss-a741981e46189262ac80",
+            "evidence": "北韓官媒：制裁無法否定平壤當局核武國家地位\n（中央社首爾31日綜合外電報導）北韓官媒今天報導，平壤譴責一群負責監督制裁執行情況的國家發布的聯合聲明，稱這是美國與西方出於敵意而採取的「恣意侵犯北韓主權」行為。"
+          }
+        ],
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning",
+        "clue_profile": "experienced-adults-v1"
+      },
+      {
         "word": "選舉",
         "kind": "專業用語",
         "answer_domain": "politics",
         "answer_score": 86,
         "difficulty": "medium",
         "clue": "由選民投票產生公職代表的制度，結果仍須接受法定程序及監督。（2字）",
-        "id": "cna-a2f1941e9c87cd4e14e9::選舉",
-        "event_id": "cna-a2f1941e9c87cd4e14e9",
-        "event_revision": "cna-a2f1941e9c87cd4e14e9",
+        "id": "cna-92effb7e3e6df841c3be::選舉",
+        "event_id": "cna-92effb7e3e6df841c3be",
+        "event_revision": "cna-92effb7e3e6df841c3be",
         "source_support": [
           {
-            "source_id": "rss-7e3adb73ab42dbc91a3a",
-            "evidence": "都更議題交鋒　蔣萬安批已讀亂回沈伯洋促強化陪伴機制\n（中央社記者葉素萍台北31日電）台北市長選舉辯論會今天登場，爭取連任的台北市長蔣萬安以都更案例考驗民進黨台北市長參選人沈伯洋，批評沈伯洋不熟市政、「已讀亂回」；沈伯洋反擊，市府不能只秀漂亮數據，都更不只要核定更要動工、完工，應強化陪伴機制，避免「入口寬、出口窄」。"
+            "source_id": "rss-7e29b9e622523ce9a0a1",
+            "evidence": "民眾黨花蓮2黨員違紀參選　開鍘傅國淵、江躍辰\n（中央社記者張祈花蓮縣31日電）年底選舉，台灣民眾黨提名現任市民代表蔡翼陽參選花蓮縣議員第一選區，同選區還有2名黨員違紀參選，縣黨部今天依黨規開鍘。"
+          }
+        ],
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning",
+        "clue_profile": "experienced-adults-v1"
+      },
+      {
+        "word": "外交部",
+        "kind": "機關或組織",
+        "answer_score": 89,
+        "difficulty": "medium",
+        "clue": "辦理對外關係與領事事務，並在海外事故時協調急難協助的中央部會。（3字）",
+        "id": "cna-3df25aa6d808ae5c1b8d::外交部",
+        "event_id": "cna-3df25aa6d808ae5c1b8d",
+        "event_revision": "cna-3df25aa6d808ae5c1b8d",
+        "source_support": [
+          {
+            "source_id": "rss-c57a3310bab6413ef6b7",
+            "evidence": "美國與伊朗戰事若升級　埃及外長憂造成更大破壞\n（中央社麥納瑪31日綜合外電報導）埃及外交部長阿布德拉提（Badr Abdelatty）今天表示，他相當擔憂美國與伊朗之間的戰事若再度升級，將導致更大破壞並帶來嚴重影響。"
+          }
+        ],
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning",
+        "clue_profile": "experienced-adults-v1"
+      },
+      {
+        "word": "網路",
+        "kind": "專業用語",
+        "answer_domain": "technology",
+        "answer_score": 86,
+        "difficulty": "medium",
+        "clue": "連結設備與資訊的通訊系統，便利性也帶來身分冒用與攻擊風險。（2字）",
+        "id": "cna-bbdb20c1ad6d2c88b3e2::網路",
+        "event_id": "cna-bbdb20c1ad6d2c88b3e2",
+        "event_revision": "cna-bbdb20c1ad6d2c88b3e2",
+        "source_support": [
+          {
+            "source_id": "rss-565e60ab98b050422d68",
+            "evidence": "沙烏地處決2孟加拉籍人士　案情未明引司法透明爭議\n（中央社記者施婉清開羅31日專電）沙烏地阿拉伯日前處決2名孟加拉籍人士，但官方未公布具體犯行及審判細節，事件陸續引發網路輿論及後續被證實為謠言的說法，爭議也從維護宗教聖地尊嚴，延伸至司法透明、死刑適當性及外籍勞工權益。"
+          }
+        ],
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning",
+        "clue_profile": "experienced-adults-v1"
+      },
+      {
+        "word": "景氣",
+        "kind": "財經用語",
+        "answer_score": 86,
+        "difficulty": "medium",
+        "clue": "整體經濟活動的起伏狀態，投資、就業與消費常隨其循環變化。（2字）",
+        "id": "cna-7a46fe8cffca441a3462::景氣",
+        "event_id": "cna-7a46fe8cffca441a3462",
+        "event_revision": "cna-7a46fe8cffca441a3462",
+        "source_support": [
+          {
+            "source_id": "rss-dfd0b095e695c372c1b5",
+            "evidence": "中國製造業景氣回落  10月PMI跌至榮枯線以下\n（中央社台北31日電）中國製造業活動短暫擴張後再次萎縮，10月製造業採購經理指數（PMI）為49.3，較9月下跌0.8個百分點，跌至榮枯線以下，為最近3個月以來最大萎縮幅度。"
+          }
+        ],
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning",
+        "clue_profile": "experienced-adults-v1"
+      },
+      {
+        "word": "國防部",
+        "kind": "機關或組織",
+        "answer_score": 89,
+        "difficulty": "medium",
+        "clue": "統籌軍政與軍備業務、其預算及採購須受民意監督的中央部會。（3字）",
+        "id": "cna-1c48c2d7a42465061f74::國防部",
+        "event_id": "cna-1c48c2d7a42465061f74",
+        "event_revision": "cna-1c48c2d7a42465061f74",
+        "source_support": [
+          {
+            "source_id": "rss-38986ca9fd95d9e4cc42",
+            "evidence": "18架次共機越中線配合共艦擾台　國軍嚴密掌握應處\n（中央社記者吳書緯台北31日電）國防部表示，自今天下午1時15分起，陸續偵獲中共各型軍機22架次出海，其中18架次逾越海峽中線及其延伸線，進入台灣周邊及西太平洋空域，配合共艦，假所謂「聯合戰備警巡」之名，騷擾台灣周邊空、海域，國軍嚴密掌握應處。"
+          }
+        ],
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning",
+        "clue_profile": "experienced-adults-v1"
+      },
+      {
+        "word": "國軍",
+        "kind": "專業用語",
+        "answer_domain": "politics",
+        "answer_score": 86,
+        "difficulty": "medium",
+        "clue": "我國正規武裝部隊的統稱，受文人統制與國家法制規範。（2字）",
+        "id": "cna-1c48c2d7a42465061f74::國軍",
+        "event_id": "cna-1c48c2d7a42465061f74",
+        "event_revision": "cna-1c48c2d7a42465061f74",
+        "source_support": [
+          {
+            "source_id": "rss-38986ca9fd95d9e4cc42",
+            "evidence": "18架次共機越中線配合共艦擾台　國軍嚴密掌握應處\n（中央社記者吳書緯台北31日電）國防部表示，自今天下午1時15分起，陸續偵獲中共各型軍機22架次出海，其中18架次逾越海峽中線及其延伸線，進入台灣周邊及西太平洋空域，配合共艦，假所謂「聯合戰備警巡」之名，騷擾台灣周邊空、海域，國軍嚴密掌握應處。"
+          }
+        ],
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning",
+        "clue_profile": "experienced-adults-v1"
+      },
+      {
+        "word": "油價",
+        "kind": "財經用語",
+        "answer_score": 86,
+        "difficulty": "medium",
+        "clue": "運輸成本與民生物價的重要變數，常隨產油國政策及航道風險波動。（2字）",
+        "id": "cna-bf9f2f91de72b30afcad::油價",
+        "event_id": "cna-bf9f2f91de72b30afcad",
+        "event_revision": "cna-bf9f2f91de72b30afcad",
+        "source_support": [
+          {
+            "source_id": "rss-7b41ee15a10b9748b0e1",
+            "evidence": "中油：下週汽柴油價格不調整　累計吸收約318.6億元\n（中央社記者謝怡璇台北31日電）為照顧國內民生與平穩物價，中油今天宣布，自11月2日凌晨零時起至11月8日晚上12時止，汽、柴油價格維持不調整；統計自2月28日至11月1日執行專案平穩各項措施，汽、柴油合計擴大吸收約新台幣318.6億元。"
+          }
+        ],
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning",
+        "clue_profile": "experienced-adults-v1"
+      },
+      {
+        "word": "物價",
+        "kind": "財經用語",
+        "answer_score": 86,
+        "difficulty": "medium",
+        "clue": "退休收入固定時，這項整體商品與服務價格水準的變化會影響生活負擔。（2字）",
+        "id": "cna-bf9f2f91de72b30afcad::物價",
+        "event_id": "cna-bf9f2f91de72b30afcad",
+        "event_revision": "cna-bf9f2f91de72b30afcad",
+        "source_support": [
+          {
+            "source_id": "rss-7b41ee15a10b9748b0e1",
+            "evidence": "中油：下週汽柴油價格不調整　累計吸收約318.6億元\n（中央社記者謝怡璇台北31日電）為照顧國內民生與平穩物價，中油今天宣布，自11月2日凌晨零時起至11月8日晚上12時止，汽、柴油價格維持不調整；統計自2月28日至11月1日執行專案平穩各項措施，汽、柴油合計擴大吸收約新台幣318.6億元。"
+          }
+        ],
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning",
+        "clue_profile": "experienced-adults-v1"
+      },
+      {
+        "word": "聯合國",
+        "kind": "機關或組織",
+        "answer_score": 89,
+        "difficulty": "medium",
+        "clue": "以憲章為基礎、透過會員國合作處理和平安全與發展議題的國際組織。（3字）",
+        "id": "cna-5cc4c150625d4f2cadf6::聯合國",
+        "event_id": "cna-5cc4c150625d4f2cadf6",
+        "event_revision": "cna-5cc4c150625d4f2cadf6",
+        "source_support": [
+          {
+            "source_id": "rss-b8fe1134a00777f9e50b",
+            "evidence": "聯合國COP17閉幕　各國承諾讓自然保育目標重回正軌\n（中央社葉里凡31日綜合外電報導）近200個國家歷經兩週的談判，在聯合國生物多樣性峰會上達成多項協議，但結果仍令人失望，批評者認為各國錯失解決人類活動對自然造成嚴重破壞的機會。"
+          }
+        ],
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning",
+        "clue_profile": "experienced-adults-v1"
+      },
+      {
+        "word": "峰會",
+        "kind": "專業用語",
+        "answer_domain": "international",
+        "answer_score": 86,
+        "difficulty": "medium",
+        "clue": "國家或政府領袖層級的會談，常藉聯合聲明表達共同立場。（2字）",
+        "id": "cna-5cc4c150625d4f2cadf6::峰會",
+        "event_id": "cna-5cc4c150625d4f2cadf6",
+        "event_revision": "cna-5cc4c150625d4f2cadf6",
+        "source_support": [
+          {
+            "source_id": "rss-b8fe1134a00777f9e50b",
+            "evidence": "聯合國COP17閉幕　各國承諾讓自然保育目標重回正軌\n（中央社葉里凡31日綜合外電報導）近200個國家歷經兩週的談判，在聯合國生物多樣性峰會上達成多項協議，但結果仍令人失望，批評者認為各國錯失解決人類活動對自然造成嚴重破壞的機會。"
+          }
+        ],
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning",
+        "clue_profile": "experienced-adults-v1"
+      },
+      {
+        "word": "季風",
+        "kind": "專業用語",
+        "answer_domain": "environment",
+        "answer_score": 86,
+        "difficulty": "medium",
+        "clue": "大範圍盛行風向隨季節轉變，牽動區域乾濕與冷暖變化的氣候現象。（2字）",
+        "id": "cna-293544a6370fcc9f5402::季風",
+        "event_id": "cna-293544a6370fcc9f5402",
+        "event_revision": "cna-293544a6370fcc9f5402",
+        "source_support": [
+          {
+            "source_id": "rss-33d2d9e25d28609bcec7",
+            "evidence": "11/1高溫上看32度東半部有雨　下週2波東北季風\n（中央社記者黃巧雯台北31日電）氣象署表示，明天各地大多為多雲到晴，高溫上看32度，僅東半部地區有零星短暫雨，11月2日東北季風增強，迎風面有雨，11月6日又有另一波東北季風。"
+          }
+        ],
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning",
+        "clue_profile": "experienced-adults-v1"
+      },
+      {
+        "word": "審計",
+        "kind": "專業用語",
+        "answer_domain": "politics",
+        "answer_score": 86,
+        "difficulty": "medium",
+        "clue": "檢查公共財務收支與執行績效，促使政府對資源使用負責的制度。（2字）",
+        "id": "cna-906258a8fda45ba972b0::審計",
+        "event_id": "cna-906258a8fda45ba972b0",
+        "event_revision": "cna-906258a8fda45ba972b0",
+        "source_support": [
+          {
+            "source_id": "rss-0a3e383da730e93a6d29",
+            "evidence": "出席同志遊行  沈伯洋：推性別有關審計創造友善空間\n（中央社記者楊淑閔台北31日電）民進黨台北市長參選人沈伯洋今天現身2026年台灣同志遊行隊伍，針對之前同志酒吧搜索不當案，他受訪表示，除被動不讓侵害權益的事發生，有審計制度，政策上會積極創造友善空間。"
+          }
+        ],
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning",
+        "clue_profile": "experienced-adults-v1"
+      },
+      {
+        "word": "政見",
+        "kind": "專業用語",
+        "answer_domain": "politics",
+        "answer_score": 86,
+        "difficulty": "medium",
+        "clue": "候選人對公共政策提出的主張，評估時應同時考量權限與財源。（2字）",
+        "id": "cna-049dfd3210bdea2a1c91::政見",
+        "event_id": "cna-049dfd3210bdea2a1c91",
+        "event_revision": "cna-049dfd3210bdea2a1c91",
+        "source_support": [
+          {
+            "source_id": "rss-69f2ed3dd882aeeac943",
+            "evidence": "卓榮泰：蔣萬安沈伯洋辯論認真　盼願景清晰可行\n（中央社記者黃旭昇新北31日電）「2026台北市長候選人電視辯論會」今天舉行，行政院長卓榮泰表示，出席辯論的蔣萬安、沈伯洋兩人都很認真，市民希望看到參選人提到的政見與可行願景，以作為投票的選擇。"
+          }
+        ],
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning",
+        "clue_profile": "experienced-adults-v1"
+      },
+      {
+        "word": "環保",
+        "kind": "專業用語",
+        "answer_domain": "environment",
+        "answer_score": 86,
+        "difficulty": "medium",
+        "clue": "減少污染、維護生態及資源永續利用的公共行動簡稱。（2字）",
+        "id": "cna-84014732a54bdc768c27::環保",
+        "event_id": "cna-84014732a54bdc768c27",
+        "event_revision": "cna-84014732a54bdc768c27",
+        "source_support": [
+          {
+            "source_id": "rss-a903da7ae139158ccd92",
+            "evidence": "高雄興達電廠鍋爐房火警釀空污  環保局開罰包商\n（中央社記者洪學廣高雄31日電）高雄興達電廠燃氣機組鍋爐房今天發生火警事故，火勢於中午12時24分許撲滅，無人傷亡。"
+          }
+        ],
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning",
+        "clue_profile": "experienced-adults-v1"
+      },
+      {
+        "word": "美元",
+        "kind": "財經用語",
+        "answer_score": 86,
+        "difficulty": "medium",
+        "clue": "國際貿易與外匯存底常用的計價貨幣，其利率變動牽動跨境資金。（2字）",
+        "id": "cna-90f319ab7bd51077fd56::美元",
+        "event_id": "cna-90f319ab7bd51077fd56",
+        "event_revision": "cna-90f319ab7bd51077fd56",
+        "source_support": [
+          {
+            "source_id": "rss-0993dd655209bc1f6221",
+            "evidence": "美批准售烏21億美元愛國者飛彈　交貨恐等到2030年代初期\n（中央社華盛頓30日綜合外電報導）美國國務院今天宣布，已批准向烏克蘭出售500枚愛國者三型（Patriot PAC-3）飛彈，估計總金額達21億美元。"
+          }
+        ],
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning",
+        "clue_profile": "experienced-adults-v1"
+      },
+      {
+        "word": "羈押",
+        "kind": "專業用語",
+        "answer_domain": "society",
+        "answer_score": 86,
+        "difficulty": "medium",
+        "clue": "審判確定前，法院依逃亡或串證等法定事由限制被告自由的處分。（2字）",
+        "id": "cna-0855bfaaaa21825c3dad::羈押",
+        "event_id": "cna-0855bfaaaa21825c3dad",
+        "event_revision": "cna-0855bfaaaa21825c3dad",
+        "source_support": [
+          {
+            "source_id": "rss-3c474aefb54995db3dd0",
+            "evidence": "台東延平鄉代參選人涉現金賄選　遭收押禁見\n（中央社記者盧太城台東縣31日電）陳姓台東縣延平鄉民代表參選人和胡姓配偶共同涉以每票新台幣2000元到5000元賄選，台灣台東地方檢察署檢察官向法院聲請羈押禁見陳姓被告獲准。"
           }
         ],
         "clue_style": "magazine-v1",
@@ -72482,6 +76117,46 @@
         "clue_profile": "experienced-adults-v1"
       },
       {
+        "word": "撤離",
+        "kind": "專業用語",
+        "answer_domain": "society",
+        "answer_score": 86,
+        "difficulty": "medium",
+        "clue": "因現地已有或預期出現危險，將人員移出原處所的應變措施。（2字）",
+        "id": "cna-6216331dfcb71f122066::撤離",
+        "event_id": "cna-6216331dfcb71f122066",
+        "event_revision": "cna-6216331dfcb71f122066",
+        "source_support": [
+          {
+            "source_id": "rss-ae0e8822e0bb75cae569",
+            "evidence": "泰國政府表示，已與軍方協調撤僑及緊急應變計畫，若衝突擴大，可能撤離當地泰國公民。"
+          }
+        ],
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning",
+        "clue_profile": "experienced-adults-v1"
+      },
+      {
+        "word": "風險",
+        "kind": "專業用語",
+        "answer_domain": "economy",
+        "answer_score": 86,
+        "difficulty": "medium",
+        "clue": "結果存在不確定性且可能帶來損失，決策時須衡量機率與影響。（2字）",
+        "id": "cna-6216331dfcb71f122066::風險",
+        "event_id": "cna-6216331dfcb71f122066",
+        "event_revision": "cna-6216331dfcb71f122066",
+        "source_support": [
+          {
+            "source_id": "rss-ae0e8822e0bb75cae569",
+            "evidence": "泰國備妥中東撤僑計畫　國安會評估美伊衝突風險\n（中央社記者李宗憲曼谷31日專電）美國可能再度對伊朗採取軍事行動，引發外界關注中東局勢升溫及能源供應風險。"
+          }
+        ],
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning",
+        "clue_profile": "experienced-adults-v1"
+      },
+      {
         "word": "期貨",
         "kind": "財經用語",
         "answer_score": 86,
@@ -72540,45 +76215,6 @@
         "clue_profile": "experienced-adults-v1"
       },
       {
-        "word": "美元",
-        "kind": "財經用語",
-        "answer_score": 86,
-        "difficulty": "medium",
-        "clue": "國際貿易與外匯存底常用的計價貨幣，其利率變動牽動跨境資金。（2字）",
-        "id": "cna-86cbfb143d183edd32f2::美元",
-        "event_id": "cna-86cbfb143d183edd32f2",
-        "event_revision": "cna-86cbfb143d183edd32f2",
-        "source_support": [
-          {
-            "source_id": "rss-6395a575da9d3e116306",
-            "evidence": "日對台直接投資近9億美元　日工商會：台日產業優勢互補\n（中央社記者謝怡璇台北31日電）2025年日本對台直接投資總額近9億美元。"
-          }
-        ],
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning",
-        "clue_profile": "experienced-adults-v1"
-      },
-      {
-        "word": "環保",
-        "kind": "專業用語",
-        "answer_domain": "environment",
-        "answer_score": 86,
-        "difficulty": "medium",
-        "clue": "減少污染、維護生態及資源永續利用的公共行動簡稱。（2字）",
-        "id": "cna-b8a72f5434408e570e60::環保",
-        "event_id": "cna-b8a72f5434408e570e60",
-        "event_revision": "cna-b8a72f5434408e570e60",
-        "source_support": [
-          {
-            "source_id": "rss-9b216b980d37c0aee613",
-            "evidence": "澎湖環保局號召民眾撿垃圾　清除241公斤廢棄物\n（中央社澎湖縣31日電）澎湖縣政府環境保護局今天號召民眾響應日本SPOGOMI撿垃圾競賽，推動「菸蒂不落地」環境清理活動，總計清除241公斤廢棄物，包含10.3公斤約6萬根菸蒂，展現全民維護環境行動力。"
-          }
-        ],
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning",
-        "clue_profile": "experienced-adults-v1"
-      },
-      {
         "word": "歐盟",
         "kind": "國家或地區",
         "answer_score": 86,
@@ -72618,46 +76254,6 @@
         "clue_profile": "experienced-adults-v1"
       },
       {
-        "word": "網路",
-        "kind": "專業用語",
-        "answer_domain": "technology",
-        "answer_score": 86,
-        "difficulty": "medium",
-        "clue": "連結設備與資訊的通訊系統，便利性也帶來身分冒用與攻擊風險。（2字）",
-        "id": "cna-2b9d7f4372fbe1d6b1f4::網路",
-        "event_id": "cna-2b9d7f4372fbe1d6b1f4",
-        "event_revision": "cna-2b9d7f4372fbe1d6b1f4",
-        "source_support": [
-          {
-            "source_id": "rss-f3b35fcf1845fe72af40",
-            "evidence": "假訊息稱桃園公車站有學生遭擄　湯姓男子涉違社維法送辦\n（中央社記者吳睿騏桃園31日電）桃園市警察局桃園分局今天表示，網路流傳桃園區某高中前公車站發生女學生遭擄案件，經警方查證並無此事，已查獲發布不實訊息的湯姓男子，全案依違反社會秩序維護法偵辦。"
-          }
-        ],
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning",
-        "clue_profile": "experienced-adults-v1"
-      },
-      {
-        "word": "羈押",
-        "kind": "專業用語",
-        "answer_domain": "society",
-        "answer_score": 86,
-        "difficulty": "medium",
-        "clue": "審判確定前，法院依逃亡或串證等法定事由限制被告自由的處分。（2字）",
-        "id": "cna-ec2bba8131bd0f6ed6b3::羈押",
-        "event_id": "cna-ec2bba8131bd0f6ed6b3",
-        "event_revision": "cna-ec2bba8131bd0f6ed6b3",
-        "source_support": [
-          {
-            "source_id": "rss-a538fe8599c8b009ce92",
-            "evidence": "桃園八德分局巡官疑侵占300萬元贓款　遭羈押禁見\n（中央社記者吳睿騏桃園31日電）桃園市政府警察局八德分局余姓巡官疑侵占職務上持有扣案贓款新台幣300萬元，遭台灣桃園地方檢察署約談聲請羈押，桃園地院今天說，犯嫌重大，裁定羈押2個月並禁止接見通信。"
-          }
-        ],
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning",
-        "clue_profile": "experienced-adults-v1"
-      },
-      {
         "word": "修復",
         "kind": "專業用語",
         "answer_domain": "culture",
@@ -72671,26 +76267,6 @@
           {
             "source_id": "rss-ebf50375db881068c162",
             "evidence": "日治建築修復　日本專家：台灣面臨人才斷層問題\n（中央社記者張榮祥台南31日電）日本統治台灣50年期間留下不少建築，日本金澤職人大學校事務長石浦裕治今天在台南市表示，台灣修復日治建築人才有斷層問題，須到職人學校學習，才有助於日治建築的保存。"
-          }
-        ],
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning",
-        "clue_profile": "experienced-adults-v1"
-      },
-      {
-        "word": "政見",
-        "kind": "專業用語",
-        "answer_domain": "politics",
-        "answer_score": 86,
-        "difficulty": "medium",
-        "clue": "候選人對公共政策提出的主張，評估時應同時考量權限與財源。（2字）",
-        "id": "cna-97000d52e0db637cc8a0::政見",
-        "event_id": "cna-97000d52e0db637cc8a0",
-        "event_revision": "cna-97000d52e0db637cc8a0",
-        "source_support": [
-          {
-            "source_id": "rss-d4a3339b899088136ac9",
-            "evidence": "AI政見成關鍵　雙北市長參選人搶攻智慧城市治理\n（中央社台北31日綜合報導）九合一大選將至，在AI浪潮下，台北市、新北市的市長參選人不約而同提出AI政策，鎖定產業、教育、市政服務，盼打造智慧城市，也透過AI協助分析資料、掌握議題，為選戰增添助力。"
           }
         ],
         "clue_style": "magazine-v1",
@@ -72744,26 +76320,6 @@
         "difficulty": "medium",
         "clue": "可遙控或自主飛行的載具，軍事偵察與民用巡檢皆有應用。（3字）",
         "id": "cna-abfd71942bf2f340e6ce::無人機",
-        "event_id": "cna-abfd71942bf2f340e6ce",
-        "event_revision": "cna-abfd71942bf2f340e6ce",
-        "source_support": [
-          {
-            "source_id": "rss-d2cb76dd9f075d3299bf",
-            "evidence": "內政部清查所屬亞拓無人機　涉及3機關採購32架\n（中央社記者吳書緯台北31日電）媒體報導，亞拓科技涉嫌將含有中國製晶片的無人機交付國軍。"
-          }
-        ],
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning",
-        "clue_profile": "experienced-adults-v1"
-      },
-      {
-        "word": "國軍",
-        "kind": "專業用語",
-        "answer_domain": "politics",
-        "answer_score": 86,
-        "difficulty": "medium",
-        "clue": "我國正規武裝部隊的統稱，受文人統制與國家法制規範。（2字）",
-        "id": "cna-abfd71942bf2f340e6ce::國軍",
         "event_id": "cna-abfd71942bf2f340e6ce",
         "event_revision": "cna-abfd71942bf2f340e6ce",
         "source_support": [
@@ -72835,25 +76391,6 @@
         "clue_profile": "experienced-adults-v1"
       },
       {
-        "word": "國防部",
-        "kind": "機關或組織",
-        "answer_score": 89,
-        "difficulty": "medium",
-        "clue": "統籌軍政與軍備業務、其預算及採購須受民意監督的中央部會。（3字）",
-        "id": "cna-9321ec80b2e5b4c37fca::國防部",
-        "event_id": "cna-9321ec80b2e5b4c37fca",
-        "event_revision": "cna-9321ec80b2e5b4c37fca",
-        "source_support": [
-          {
-            "source_id": "rss-edac1f8b7c1dce228bc8",
-            "evidence": "中共22機艦船台海周邊活動　國軍嚴密掌握應處\n（中央社記者吳書緯台北31日電）國防部表示，自昨天上午6時至今天上午6時，偵獲共機13架次，其中6架次逾越中線進入北部、中部及西南空域，以及7艘共艦及2艘公務船，總計中共22機艦船持續在台海周邊活動，國軍嚴密監控與應處。"
-          }
-        ],
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning",
-        "clue_profile": "experienced-adults-v1"
-      },
-      {
         "word": "外交",
         "kind": "專業用語",
         "answer_domain": "international",
@@ -72894,44 +76431,6 @@
         "clue_profile": "experienced-adults-v1"
       },
       {
-        "word": "物價",
-        "kind": "財經用語",
-        "answer_score": 86,
-        "difficulty": "medium",
-        "clue": "退休收入固定時，這項整體商品與服務價格水準的變化會影響生活負擔。（2字）",
-        "id": "cna-42e8bd3ca397dac94ee9::物價",
-        "event_id": "cna-42e8bd3ca397dac94ee9",
-        "event_revision": "cna-42e8bd3ca397dac94ee9",
-        "source_support": [
-          {
-            "source_id": "rss-ea8129015062a221573a",
-            "evidence": "義大利全國大示威　數萬學生羅馬街頭呼喊「還我未來」\n（中央社記者黃雅詩羅馬31日專電）義大利30日舉行全國大示威，在首都羅馬，上萬學生與民眾走上街頭，抗議高物價、青年未來等多重問題。"
-          }
-        ],
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning",
-        "clue_profile": "experienced-adults-v1"
-      },
-      {
-        "word": "外交部",
-        "kind": "機關或組織",
-        "answer_score": 89,
-        "difficulty": "medium",
-        "clue": "辦理對外關係與領事事務，並在海外事故時協調急難協助的中央部會。（3字）",
-        "id": "cna-3031d34b4b684bab0895::外交部",
-        "event_id": "cna-3031d34b4b684bab0895",
-        "event_revision": "cna-3031d34b4b684bab0895",
-        "source_support": [
-          {
-            "source_id": "rss-76b65b30c536be6e5497",
-            "evidence": "歐洲多國拒絕與俄外長合影　美國取消G20大合照\n（中央社亞特蘭大30日綜合外電報導）歐洲多國外交部長拒絕與俄羅斯外長拉夫羅夫在20國集團（G20）外長會議合影，東道主美國因此取消原定的大合照。"
-          }
-        ],
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning",
-        "clue_profile": "experienced-adults-v1"
-      },
-      {
         "word": "工會",
         "kind": "專業用語",
         "answer_domain": "society",
@@ -72952,26 +76451,6 @@
         "clue_profile": "experienced-adults-v1"
       },
       {
-        "word": "季風",
-        "kind": "專業用語",
-        "answer_domain": "environment",
-        "answer_score": 86,
-        "difficulty": "medium",
-        "clue": "大範圍盛行風向隨季節轉變，牽動區域乾濕與冷暖變化的氣候現象。（2字）",
-        "id": "cna-75461f4b54ff131a5c51::季風",
-        "event_id": "cna-75461f4b54ff131a5c51",
-        "event_revision": "cna-75461f4b54ff131a5c51",
-        "source_support": [
-          {
-            "source_id": "rss-a9407e1eda7dc65824af",
-            "evidence": "東部與大台北東側有雨　吳德榮：下週2波東北季風\n（中央社記者黃巧雯台北31日電）氣象專家吳德榮表示，今天東北季風影響，大台北東側、東部轉偶有局部短暫雨，西部晴朗，高溫上看34度，11月2日晚間起，另波東北季風南下，迎風面天氣轉變，6日又有東北季風。"
-          }
-        ],
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning",
-        "clue_profile": "experienced-adults-v1"
-      },
-      {
         "word": "記憶體",
         "kind": "科技用語",
         "answer_score": 89,
@@ -72984,65 +76463,6 @@
           {
             "source_id": "rss-468c681393ec38d5b67a",
             "evidence": "美科技股大幅下修　蘋果超越輝達成全球最大企業\n（中央社記者廖漢原華盛頓30日專電）受英特爾與Alphabet等業者財報展望不佳、現金緊縮等利空因素影響，投資人在本週收盤前拋售科技類股，AI晶片與高頻寬記憶體股價大跌。"
-          }
-        ],
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning",
-        "clue_profile": "experienced-adults-v1"
-      },
-      {
-        "word": "油價",
-        "kind": "財經用語",
-        "answer_score": 86,
-        "difficulty": "medium",
-        "clue": "運輸成本與民生物價的重要變數，常隨產油國政策及航道風險波動。（2字）",
-        "id": "cna-f118b15c29945ef88c95::油價",
-        "event_id": "cna-f118b15c29945ef88c95",
-        "event_revision": "cna-f118b15c29945ef88c95",
-        "source_support": [
-          {
-            "source_id": "rss-d1dbde614a24dbb5c2e0",
-            "evidence": "中東局勢不確定引發供應疑慮　推升油價\n（中央社紐約30日綜合外電報導）市場擔憂美國可能恢復對伊朗的攻擊行動，為中東供應增添新的風險，油價今天上漲。"
-          }
-        ],
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning",
-        "clue_profile": "experienced-adults-v1"
-      },
-      {
-        "word": "風險",
-        "kind": "專業用語",
-        "answer_domain": "economy",
-        "answer_score": 86,
-        "difficulty": "medium",
-        "clue": "結果存在不確定性且可能帶來損失，決策時須衡量機率與影響。（2字）",
-        "id": "cna-f118b15c29945ef88c95::風險",
-        "event_id": "cna-f118b15c29945ef88c95",
-        "event_revision": "cna-f118b15c29945ef88c95",
-        "source_support": [
-          {
-            "source_id": "rss-d1dbde614a24dbb5c2e0",
-            "evidence": "中東局勢不確定引發供應疑慮　推升油價\n（中央社紐約30日綜合外電報導）市場擔憂美國可能恢復對伊朗的攻擊行動，為中東供應增添新的風險，油價今天上漲。"
-          }
-        ],
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning",
-        "clue_profile": "experienced-adults-v1"
-      },
-      {
-        "word": "撤離",
-        "kind": "專業用語",
-        "answer_domain": "society",
-        "answer_score": 86,
-        "difficulty": "medium",
-        "clue": "因現地已有或預期出現危險，將人員移出原處所的應變措施。（2字）",
-        "id": "cna-8baa737b07baf3b60c9e::撤離",
-        "event_id": "cna-8baa737b07baf3b60c9e",
-        "event_revision": "cna-8baa737b07baf3b60c9e",
-        "source_support": [
-          {
-            "source_id": "rss-211d3bbc9a58ccac1ffe",
-            "evidence": "沙烏地聯軍稱攔截無人機及飛彈　美下令撤離非緊急人員\n（中央社杜拜30日綜合外電報導）葉門叛軍「青年運動」與沙烏地阿拉伯領導的聯軍衝突持續升高。"
           }
         ],
         "clue_style": "magazine-v1",
@@ -73122,26 +76542,6 @@
           {
             "source_id": "rss-02b7a35ec84401f9c499",
             "evidence": "賴瑞隆柯志恩辯論交鋒　205兵工廠、政治獻金成焦點[影]\n（中央社記者李卉婷高雄30日電）高雄市長選舉電視辯論會今天登場，民主進步黨高雄市長參選人賴瑞隆與中國國民黨高雄市長參選人柯志恩在政治獻金、205兵工廠開發與財政收支劃分法修法等議題攻防交鋒。"
-          }
-        ],
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning",
-        "clue_profile": "experienced-adults-v1"
-      },
-      {
-        "word": "制裁",
-        "kind": "專業用語",
-        "answer_domain": "international",
-        "answer_score": 86,
-        "difficulty": "medium",
-        "clue": "以貿易、金融或人員限制向對方施壓，屬於戰爭以外的政策工具。（2字）",
-        "id": "cna-e3fc68d549f51c16cbf0::制裁",
-        "event_id": "cna-e3fc68d549f51c16cbf0",
-        "event_revision": "cna-e3fc68d549f51c16cbf0",
-        "source_support": [
-          {
-            "source_id": "rss-ea716a1db56e5520f0af",
-            "evidence": "白俄鉀肥出口受阻　POLITICO：美施壓立陶宛開放運輸\n（中央社記者游堯茹維爾紐斯30日專電）美國川普政府傳施壓立陶宛，盼放寬歐盟對白俄羅斯的制裁，讓白俄鉀肥得以經由波羅的海港口出口，以降低美國農民的肥料成本。"
           }
         ],
         "clue_style": "magazine-v1",
@@ -73439,25 +76839,6 @@
         "clue_profile": "experienced-adults-v1"
       },
       {
-        "word": "景氣",
-        "kind": "財經用語",
-        "answer_score": 86,
-        "difficulty": "medium",
-        "clue": "整體經濟活動的起伏狀態，投資、就業與消費常隨其循環變化。（2字）",
-        "id": "cna-d718bc74b31851685e40::景氣",
-        "event_id": "cna-d718bc74b31851685e40",
-        "event_revision": "cna-d718bc74b31851685e40",
-        "source_support": [
-          {
-            "source_id": "rss-6354f01d75a699f26ef0",
-            "evidence": "出口投資超預期　第3季經濟成長率14.36%創48年同期最高\n（中央社記者潘姿羽台北30日電）主計總處今天公布第3季經濟成長概估為14.36%，較8月預測數大增2.94個百分點，創下48年同期最高，前3季經濟成長率14.22%則創半世紀以來最高成長，景氣呈現「內外皆熱」。"
-          }
-        ],
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning",
-        "clue_profile": "experienced-adults-v1"
-      },
-      {
         "word": "投信",
         "kind": "專業用語",
         "answer_domain": "economy",
@@ -73490,45 +76871,6 @@
           {
             "source_id": "rss-b11ddacd27de23393d81",
             "evidence": "多國宣導防災備糧　泰國澄清未因中東局勢籲囤物資\n（中央社記者李宗憲曼谷30日專電）俄烏戰爭、中東局勢及天災等風險引發全球對緊急應變的關注。"
-          }
-        ],
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning",
-        "clue_profile": "experienced-adults-v1"
-      },
-      {
-        "word": "峰會",
-        "kind": "專業用語",
-        "answer_domain": "international",
-        "answer_score": 86,
-        "difficulty": "medium",
-        "clue": "國家或政府領袖層級的會談，常藉聯合聲明表達共同立場。（2字）",
-        "id": "cna-74857550f788ca891d14::峰會",
-        "event_id": "cna-74857550f788ca891d14",
-        "event_revision": "cna-74857550f788ca891d14",
-        "source_support": [
-          {
-            "source_id": "rss-75630a0de42dc7928f80",
-            "evidence": "溫哥華國際安全峰會　專家讚台灣韌性與反制假訊息能力\n（中央社記者程愛芬溫哥華29日專電）加拿大今天發布20多年來首份國家安全戰略。"
-          }
-        ],
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning",
-        "clue_profile": "experienced-adults-v1"
-      },
-      {
-        "word": "立法院",
-        "kind": "機關或組織",
-        "answer_score": 89,
-        "difficulty": "medium",
-        "clue": "透過法律案、預算案及質詢等職權監督行政部門的中央民意機關。（3字）",
-        "id": "cna-950598e4e942b1207b78::立法院",
-        "event_id": "cna-950598e4e942b1207b78",
-        "event_revision": "cna-950598e4e942b1207b78",
-        "source_support": [
-          {
-            "source_id": "rss-91fedde247695854fe96",
-            "evidence": "民進黨團：支持嚴懲毒駕　勿將程序爭議抹黑成縱容犯罪\n（中央社記者陳俊華、葉素萍台北30日電）立法院今天三讀修正通過刑法第185條之3，加重毒駕刑責，毒駕者10年內再犯且致人於死，最重可處死刑。"
           }
         ],
         "clue_style": "magazine-v1",
@@ -73589,26 +76931,6 @@
           {
             "source_id": "rss-e74122f0158fd8dd1c1e",
             "evidence": "台中婦稱匯50萬裝潢女兒家　警銀聯手攔阻假投資\n（中央社記者蘇木春台中30日電）台中周姓婦人日前誤信假投資詐騙，前往銀行欲匯款新台幣50萬元，並依對方指示稱「女兒住家裝潢費」。"
-          }
-        ],
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning",
-        "clue_profile": "experienced-adults-v1"
-      },
-      {
-        "word": "主權",
-        "kind": "專業用語",
-        "answer_domain": "international",
-        "answer_score": 86,
-        "difficulty": "medium",
-        "clue": "國家對內最高統治權與對外自主地位，常是領土爭端的核心概念。（2字）",
-        "id": "cna-50836961cb617d76fdb0::主權",
-        "event_id": "cna-50836961cb617d76fdb0",
-        "event_revision": "cna-50836961cb617d76fdb0",
-        "source_support": [
-          {
-            "source_id": "rss-cabffeeb7daa9958b5ac",
-            "evidence": "兩人警告，在美國總統川普發動貿易戰之際，經濟脅迫正威脅各國主權。"
           }
         ],
         "clue_style": "magazine-v1",
@@ -74006,25 +77328,6 @@
         "clue_profile": "experienced-adults-v1"
       },
       {
-        "word": "聯合國",
-        "kind": "機關或組織",
-        "answer_score": 89,
-        "difficulty": "medium",
-        "clue": "以憲章為基礎、透過會員國合作處理和平安全與發展議題的國際組織。（3字）",
-        "id": "cna-a5270ff3f32603a4746f::聯合國",
-        "event_id": "cna-a5270ff3f32603a4746f",
-        "event_revision": "cna-a5270ff3f32603a4746f",
-        "source_support": [
-          {
-            "source_id": "rss-e2e83d3a4ea06329b3bc",
-            "evidence": "駐土耳其代表投書　籲挺台參與聯合國氣候公約機制\n（中央社台北29日電）聯合國氣候變化綱要公約第31次締約方大會（COP31）將於11月9日至20日在土耳其舉行，駐土耳其代表黃志揚於土耳其主流媒體「每日晨報」（Daily Sabah）投書，呼籲國際社會支持台灣實質參與聯合國氣候變化綱要公約（UNFCCC）及相關機制，共同補上全球氣候治理的關鍵拼圖。"
-          }
-        ],
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning",
-        "clue_profile": "experienced-adults-v1"
-      },
-      {
         "word": "災損",
         "kind": "專業用語",
         "answer_domain": "economy",
@@ -74174,26 +77477,6 @@
           {
             "source_id": "rss-f37c72f5fd82eb3784c9",
             "evidence": "失智照護現縣市落差　衛福部推3.0提4方向\n（中央社記者沈佩瑤台北29日電）台灣邁入超高齡社會，失智症防治成重要議題，針對各縣市診斷與照護資源落差，衛生福利部長石崇良今天說，將從精準診治、提升照護量能、前端預防及權益保障等4大方向著手。"
-          }
-        ],
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning",
-        "clue_profile": "experienced-adults-v1"
-      },
-      {
-        "word": "公投",
-        "kind": "專業用語",
-        "answer_domain": "politics",
-        "answer_score": 86,
-        "difficulty": "medium",
-        "clue": "選民對公共議題直接表決的制度，與選出代議士的選舉有所區別。（2字）",
-        "id": "cna-e5a7d8fa4fe0dbe88e51::公投",
-        "event_id": "cna-e5a7d8fa4fe0dbe88e51",
-        "event_revision": "cna-e5a7d8fa4fe0dbe88e51",
-        "source_support": [
-          {
-            "source_id": "rss-04a4434f746f51eb7b9c",
-            "evidence": "廢非核家園公投發表會　正方牛煦庭反方陳培瑜打頭陣\n（中央社記者吳書緯、劉冠廷台北29日電）「廢除非核家園」公投案將與九合一選舉於11月28日投票，中選會今天證實，5場發表會的正反雙方名單都已送至中選會；第一場將於11月12日舉行，正方代表為國民黨立委牛煦庭，反方代表為民進黨立委陳培瑜。"
           }
         ],
         "clue_style": "magazine-v1",
@@ -75229,6 +78512,39 @@
         "clue_profile": "experienced-adults-v1"
       },
       {
+        "id": "knowledge:國債",
+        "event_id": "cna-3df25aa6d808ae5c1b8d",
+        "word": "國債",
+        "content_kind": "knowledge",
+        "kind": "延伸知識",
+        "answer_domain": "economy",
+        "difficulty": "medium",
+        "answer_score": 84,
+        "clue": "政府籌措資金的借款憑證，其利息與償還責任由公共財政承擔。（2字）",
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning",
+        "clue_profile": "experienced-adults-v1",
+        "knowledge_source": {
+          "publisher": "時事填字樂詞義編輯庫",
+          "url": "https://github.com/echohook/news-crossword-studio/blob/main/core/experienced-definitions.mjs",
+          "meaning": "政府籌措資金的借款憑證，其利息與償還責任由公共財政承擔。"
+        },
+        "expansion": {
+          "method": "shared_character",
+          "seed_word": "美國",
+          "shared_character": "國",
+          "path": [
+            {
+              "from": "美國",
+              "to": "國債",
+              "character": "國"
+            }
+          ],
+          "source_id": "rss-c57a3310bab6413ef6b7"
+        },
+        "source_support": []
+      },
+      {
         "id": "knowledge:暴風圈",
         "event_id": "cna-046b0ce5cb6cc8d7e339",
         "word": "暴風圈",
@@ -75592,39 +78908,6 @@
         "source_support": []
       },
       {
-        "id": "knowledge:國債",
-        "event_id": "cna-22a1f426afe1ffe566dd",
-        "word": "國債",
-        "content_kind": "knowledge",
-        "kind": "延伸知識",
-        "answer_domain": "economy",
-        "difficulty": "medium",
-        "answer_score": 84,
-        "clue": "政府籌措資金的借款憑證，其利息與償還責任由公共財政承擔。（2字）",
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning",
-        "clue_profile": "experienced-adults-v1",
-        "knowledge_source": {
-          "publisher": "時事填字樂詞義編輯庫",
-          "url": "https://github.com/echohook/news-crossword-studio/blob/main/core/experienced-definitions.mjs",
-          "meaning": "政府籌措資金的借款憑證，其利息與償還責任由公共財政承擔。"
-        },
-        "expansion": {
-          "method": "shared_character",
-          "seed_word": "國民黨",
-          "shared_character": "國",
-          "path": [
-            {
-              "from": "國民黨",
-              "to": "國債",
-              "character": "國"
-            }
-          ],
-          "source_id": "rss-d81dd385dc372b26c0b9"
-        },
-        "source_support": []
-      },
-      {
         "id": "knowledge:難民",
         "event_id": "cna-22a1f426afe1ffe566dd",
         "word": "難民",
@@ -75819,6 +79102,171 @@
             }
           ],
           "source_id": "rss-47c718f9301717cd709d"
+        },
+        "source_support": []
+      },
+      {
+        "id": "knowledge:轉播權",
+        "event_id": "cna-6d0321afb2420e923dbb",
+        "word": "轉播權",
+        "content_kind": "knowledge",
+        "kind": "延伸知識",
+        "answer_domain": "sports",
+        "difficulty": "medium",
+        "answer_score": 84,
+        "clue": "賽事影像傳送與播出的授權，收入常是職業聯盟營運的重要來源。（3字）",
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning",
+        "clue_profile": "experienced-adults-v1",
+        "knowledge_source": {
+          "publisher": "時事填字樂詞義編輯庫",
+          "url": "https://github.com/echohook/news-crossword-studio/blob/main/core/experienced-definitions.mjs",
+          "meaning": "賽事影像傳送與播出的授權，收入常是職業聯盟營運的重要來源。"
+        },
+        "expansion": {
+          "method": "shared_character",
+          "seed_word": "主權",
+          "shared_character": "權",
+          "path": [
+            {
+              "from": "主權",
+              "to": "轉播權",
+              "character": "權"
+            }
+          ],
+          "source_id": "rss-a741981e46189262ac80"
+        },
+        "source_support": []
+      },
+      {
+        "id": "knowledge:著作權",
+        "event_id": "cna-6d0321afb2420e923dbb",
+        "word": "著作權",
+        "content_kind": "knowledge",
+        "kind": "延伸知識",
+        "answer_domain": "society",
+        "difficulty": "medium",
+        "answer_score": 84,
+        "clue": "保護文學藝術等創作表達的權利，並不直接保護抽象思想本身。（3字）",
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning",
+        "clue_profile": "experienced-adults-v1",
+        "knowledge_source": {
+          "publisher": "時事填字樂詞義編輯庫",
+          "url": "https://github.com/echohook/news-crossword-studio/blob/main/core/experienced-definitions.mjs",
+          "meaning": "保護文學藝術等創作表達的權利，並不直接保護抽象思想本身。"
+        },
+        "expansion": {
+          "method": "shared_character",
+          "seed_word": "主權",
+          "shared_character": "權",
+          "path": [
+            {
+              "from": "主權",
+              "to": "著作權",
+              "character": "權"
+            }
+          ],
+          "source_id": "rss-a741981e46189262ac80"
+        },
+        "source_support": []
+      },
+      {
+        "id": "knowledge:經濟制裁",
+        "event_id": "cna-6d0321afb2420e923dbb",
+        "word": "經濟制裁",
+        "content_kind": "knowledge",
+        "kind": "延伸知識",
+        "answer_domain": "international",
+        "difficulty": "medium",
+        "answer_score": 84,
+        "clue": "藉限制交易、資產或金融往來施壓，效果也受第三國配合程度影響。（4字）",
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning",
+        "clue_profile": "experienced-adults-v1",
+        "knowledge_source": {
+          "publisher": "時事填字樂詞義編輯庫",
+          "url": "https://github.com/echohook/news-crossword-studio/blob/main/core/experienced-definitions.mjs",
+          "meaning": "藉限制交易、資產或金融往來施壓，效果也受第三國配合程度影響。"
+        },
+        "expansion": {
+          "method": "shared_character",
+          "seed_word": "制裁",
+          "shared_character": "制",
+          "path": [
+            {
+              "from": "制裁",
+              "to": "經濟制裁",
+              "character": "制"
+            }
+          ],
+          "source_id": "rss-a741981e46189262ac80"
+        },
+        "source_support": []
+      },
+      {
+        "id": "knowledge:氣壓",
+        "event_id": "cna-7a46fe8cffca441a3462",
+        "word": "氣壓",
+        "content_kind": "knowledge",
+        "kind": "延伸知識",
+        "answer_domain": "environment",
+        "difficulty": "medium",
+        "answer_score": 84,
+        "clue": "空氣柱重量作用在單位面積上的力，其差異是驅動大氣流動的因素。（2字）",
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning",
+        "clue_profile": "experienced-adults-v1",
+        "knowledge_source": {
+          "publisher": "時事填字樂詞義編輯庫",
+          "url": "https://github.com/echohook/news-crossword-studio/blob/main/core/expansion-definitions.mjs",
+          "meaning": "空氣柱重量作用在單位面積上的力，其差異是驅動大氣流動的因素。"
+        },
+        "expansion": {
+          "method": "shared_character",
+          "seed_word": "景氣",
+          "shared_character": "氣",
+          "path": [
+            {
+              "from": "景氣",
+              "to": "氣壓",
+              "character": "氣"
+            }
+          ],
+          "source_id": "rss-dfd0b095e695c372c1b5"
+        },
+        "source_support": []
+      },
+      {
+        "id": "knowledge:廢氣",
+        "event_id": "cna-7a46fe8cffca441a3462",
+        "word": "廢氣",
+        "content_kind": "knowledge",
+        "kind": "延伸知識",
+        "answer_domain": "environment",
+        "difficulty": "medium",
+        "answer_score": 84,
+        "clue": "製程或燃燒後排出的氣體，污染防制常須兼顧濃度、排放量及設備效能。（2字）",
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning",
+        "clue_profile": "experienced-adults-v1",
+        "knowledge_source": {
+          "publisher": "時事填字樂詞義編輯庫",
+          "url": "https://github.com/echohook/news-crossword-studio/blob/main/core/experienced-definitions.mjs",
+          "meaning": "製程或燃燒後排出的氣體，污染防制常須兼顧濃度、排放量及設備效能。"
+        },
+        "expansion": {
+          "method": "shared_character",
+          "seed_word": "景氣",
+          "shared_character": "氣",
+          "path": [
+            {
+              "from": "景氣",
+              "to": "廢氣",
+              "character": "氣"
+            }
+          ],
+          "source_id": "rss-dfd0b095e695c372c1b5"
         },
         "source_support": []
       },
@@ -76120,39 +79568,6 @@
         "source_support": []
       },
       {
-        "id": "knowledge:經濟制裁",
-        "event_id": "cna-e3fc68d549f51c16cbf0",
-        "word": "經濟制裁",
-        "content_kind": "knowledge",
-        "kind": "延伸知識",
-        "answer_domain": "international",
-        "difficulty": "medium",
-        "answer_score": 84,
-        "clue": "藉限制交易、資產或金融往來施壓，效果也受第三國配合程度影響。（4字）",
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning",
-        "clue_profile": "experienced-adults-v1",
-        "knowledge_source": {
-          "publisher": "時事填字樂詞義編輯庫",
-          "url": "https://github.com/echohook/news-crossword-studio/blob/main/core/experienced-definitions.mjs",
-          "meaning": "藉限制交易、資產或金融往來施壓，效果也受第三國配合程度影響。"
-        },
-        "expansion": {
-          "method": "shared_character",
-          "seed_word": "制裁",
-          "shared_character": "制",
-          "path": [
-            {
-              "from": "制裁",
-              "to": "經濟制裁",
-              "character": "制"
-            }
-          ],
-          "source_id": "rss-ea716a1db56e5520f0af"
-        },
-        "source_support": []
-      },
-      {
         "id": "knowledge:專利",
         "event_id": "cna-f837050d62ae7a41c94f",
         "word": "專利",
@@ -76215,138 +79630,6 @@
             }
           ],
           "source_id": "rss-279b86dc6991d2aad278"
-        },
-        "source_support": []
-      },
-      {
-        "id": "knowledge:轉播權",
-        "event_id": "cna-84c94f34511f41a4d233",
-        "word": "轉播權",
-        "content_kind": "knowledge",
-        "kind": "延伸知識",
-        "answer_domain": "sports",
-        "difficulty": "medium",
-        "answer_score": 84,
-        "clue": "賽事影像傳送與播出的授權，收入常是職業聯盟營運的重要來源。（3字）",
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning",
-        "clue_profile": "experienced-adults-v1",
-        "knowledge_source": {
-          "publisher": "時事填字樂詞義編輯庫",
-          "url": "https://github.com/echohook/news-crossword-studio/blob/main/core/experienced-definitions.mjs",
-          "meaning": "賽事影像傳送與播出的授權，收入常是職業聯盟營運的重要來源。"
-        },
-        "expansion": {
-          "method": "shared_character",
-          "seed_word": "人權",
-          "shared_character": "權",
-          "path": [
-            {
-              "from": "人權",
-              "to": "轉播權",
-              "character": "權"
-            }
-          ],
-          "source_id": "rss-30c75f0b5255649d1a83"
-        },
-        "source_support": []
-      },
-      {
-        "id": "knowledge:著作權",
-        "event_id": "cna-84c94f34511f41a4d233",
-        "word": "著作權",
-        "content_kind": "knowledge",
-        "kind": "延伸知識",
-        "answer_domain": "society",
-        "difficulty": "medium",
-        "answer_score": 84,
-        "clue": "保護文學藝術等創作表達的權利，並不直接保護抽象思想本身。（3字）",
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning",
-        "clue_profile": "experienced-adults-v1",
-        "knowledge_source": {
-          "publisher": "時事填字樂詞義編輯庫",
-          "url": "https://github.com/echohook/news-crossword-studio/blob/main/core/experienced-definitions.mjs",
-          "meaning": "保護文學藝術等創作表達的權利，並不直接保護抽象思想本身。"
-        },
-        "expansion": {
-          "method": "shared_character",
-          "seed_word": "人權",
-          "shared_character": "權",
-          "path": [
-            {
-              "from": "人權",
-              "to": "著作權",
-              "character": "權"
-            }
-          ],
-          "source_id": "rss-30c75f0b5255649d1a83"
-        },
-        "source_support": []
-      },
-      {
-        "id": "knowledge:氣壓",
-        "event_id": "cna-d718bc74b31851685e40",
-        "word": "氣壓",
-        "content_kind": "knowledge",
-        "kind": "延伸知識",
-        "answer_domain": "environment",
-        "difficulty": "medium",
-        "answer_score": 84,
-        "clue": "空氣柱重量作用在單位面積上的力，其差異是驅動大氣流動的因素。（2字）",
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning",
-        "clue_profile": "experienced-adults-v1",
-        "knowledge_source": {
-          "publisher": "時事填字樂詞義編輯庫",
-          "url": "https://github.com/echohook/news-crossword-studio/blob/main/core/expansion-definitions.mjs",
-          "meaning": "空氣柱重量作用在單位面積上的力，其差異是驅動大氣流動的因素。"
-        },
-        "expansion": {
-          "method": "shared_character",
-          "seed_word": "景氣",
-          "shared_character": "氣",
-          "path": [
-            {
-              "from": "景氣",
-              "to": "氣壓",
-              "character": "氣"
-            }
-          ],
-          "source_id": "rss-6354f01d75a699f26ef0"
-        },
-        "source_support": []
-      },
-      {
-        "id": "knowledge:廢氣",
-        "event_id": "cna-d718bc74b31851685e40",
-        "word": "廢氣",
-        "content_kind": "knowledge",
-        "kind": "延伸知識",
-        "answer_domain": "environment",
-        "difficulty": "medium",
-        "answer_score": 84,
-        "clue": "製程或燃燒後排出的氣體，污染防制常須兼顧濃度、排放量及設備效能。（2字）",
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning",
-        "clue_profile": "experienced-adults-v1",
-        "knowledge_source": {
-          "publisher": "時事填字樂詞義編輯庫",
-          "url": "https://github.com/echohook/news-crossword-studio/blob/main/core/experienced-definitions.mjs",
-          "meaning": "製程或燃燒後排出的氣體，污染防制常須兼顧濃度、排放量及設備效能。"
-        },
-        "expansion": {
-          "method": "shared_character",
-          "seed_word": "景氣",
-          "shared_character": "氣",
-          "path": [
-            {
-              "from": "景氣",
-              "to": "廢氣",
-              "character": "氣"
-            }
-          ],
-          "source_id": "rss-6354f01d75a699f26ef0"
         },
         "source_support": []
       },
@@ -77119,6 +80402,39 @@
       "clue_profile": "experienced-adults-v1"
     },
     {
+      "id": "idiom:竹報平安",
+      "event_id": "idiom:竹報平安",
+      "word": "竹報平安",
+      "content_kind": "idiom",
+      "kind": "成語",
+      "answer_domain": "culture",
+      "difficulty": "medium",
+      "answer_score": 84,
+      "clue": "傳統書信與吉祥圖案中，借植物意象傳達家人無恙的祝頌語。（4字）",
+      "clue_style": "magazine-v1",
+      "clue_kind": "meaning",
+      "clue_profile": "experienced-adults-v1",
+      "knowledge_source": {
+        "publisher": "時事填字樂詞義編輯庫",
+        "url": "https://github.com/echohook/news-crossword-studio/blob/main/core/expansion-definitions.mjs",
+        "meaning": "傳統書信與吉祥圖案中，借植物意象傳達家人無恙的祝頌語。"
+      },
+      "related_news": {
+        "event_id": "cna-57f75deb721d4b2d7cc7",
+        "method": "shared_character",
+        "seed_word": "蔣萬安",
+        "shared_character": "安",
+        "path": [
+          {
+            "from": "蔣萬安",
+            "to": "竹報平安",
+            "character": "安"
+          }
+        ],
+        "source_id": "rss-b838dd6ebdee684c85dc"
+      }
+    },
+    {
       "id": "idiom:風聲鶴唳",
       "event_id": "idiom:風聲鶴唳",
       "word": "風聲鶴唳",
@@ -77401,7 +80717,7 @@
         "meaning": "在禍害尚未形成前，先採取措施加以預防。"
       },
       "related_news": {
-        "event_id": "cna-9321ec80b2e5b4c37fca",
+        "event_id": "cna-1c48c2d7a42465061f74",
         "method": "shared_character",
         "seed_word": "國防部",
         "shared_character": "防",
@@ -77412,40 +80728,7 @@
             "character": "防"
           }
         ],
-        "source_id": "rss-edac1f8b7c1dce228bc8"
-      }
-    },
-    {
-      "id": "idiom:竹報平安",
-      "event_id": "idiom:竹報平安",
-      "word": "竹報平安",
-      "content_kind": "idiom",
-      "kind": "成語",
-      "answer_domain": "culture",
-      "difficulty": "medium",
-      "answer_score": 84,
-      "clue": "傳統書信與吉祥圖案中，借植物意象傳達家人無恙的祝頌語。（4字）",
-      "clue_style": "magazine-v1",
-      "clue_kind": "meaning",
-      "clue_profile": "experienced-adults-v1",
-      "knowledge_source": {
-        "publisher": "時事填字樂詞義編輯庫",
-        "url": "https://github.com/echohook/news-crossword-studio/blob/main/core/expansion-definitions.mjs",
-        "meaning": "傳統書信與吉祥圖案中，借植物意象傳達家人無恙的祝頌語。"
-      },
-      "related_news": {
-        "event_id": "cna-8fdcc6b8d629c498eda8",
-        "method": "shared_character",
-        "seed_word": "情報",
-        "shared_character": "報",
-        "path": [
-          {
-            "from": "情報",
-            "to": "竹報平安",
-            "character": "報"
-          }
-        ],
-        "source_id": "rss-9b45cb56441c5877188b"
+        "source_id": "rss-38986ca9fd95d9e4cc42"
       }
     },
     {
@@ -77696,14 +80979,14 @@
   },
   "automation": {
     "enabled": true,
-    "updated_at": "2026-10-31T05:53:27.603Z",
+    "updated_at": "2026-10-31T12:43:10.532Z",
     "window": {
       "from": "2026-10-25",
       "to": "2026-10-31"
     },
     "interval_hours": 6,
     "source_count": 10,
-    "candidate_count": 239,
+    "candidate_count": 242,
     "sources": [
       {
         "id": "cna-politics",
@@ -77750,7 +81033,7 @@
         "publisher": "中央通訊社",
         "category": "生活",
         "url": "https://feeds.feedburner.com/rsscna/lifehealth",
-        "count": 19,
+        "count": 20,
         "error": null
       },
       {
@@ -77766,7 +81049,7 @@
         "publisher": "中央通訊社",
         "category": "台灣",
         "url": "https://feeds.feedburner.com/rsscna/local",
-        "count": 20,
+        "count": 19,
         "error": null
       },
       {
@@ -77774,7 +81057,7 @@
         "publisher": "中央通訊社",
         "category": "體育",
         "url": "https://feeds.feedburner.com/rsscna/sport",
-        "count": 20,
+        "count": 19,
         "error": null
       },
       {
@@ -77795,7 +81078,7 @@
       "generated_count": 7,
       "seed": 2,
       "attempts": 16,
-      "fingerprint": "fd59aef372ea14bdc26b0de5f074afbb313e83243fd445bcc69c33ed0ace2af5",
+      "fingerprint": "26cea1d94f3d0b6cff0f77e72e075d801cc609b44a1231621f789551bebc66e3",
       "grid_valid": true,
       "editorial_valid": true,
       "nonrepeating": true
