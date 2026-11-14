@@ -52726,6 +52726,174 @@
         "content_revision": "cna-592a4ce89036a5d6c07c"
       },
       {
+        "event_id": "cna-dacc917960c29898b60f",
+        "dedup_key": "https://www.cna.com.tw/news/aopl/202611150003.aspx",
+        "event_date": "2026-11-15",
+        "updated_at": "2026-11-15",
+        "published_at": "2026-11-14T18:42:59.000Z",
+        "title": "美中俄領袖APEC期間首度三方峰會　核武與伊朗戰爭成焦點",
+        "rss_lead": "（中央社華盛頓14日綜合外電報導）美中俄領袖19日將在中國亞太經濟合作會議（APEC）期間舉行三方領袖峰會，預料核武條約與美國對伊朗的戰爭，將是優先討論議題，但烏克蘭問題不太可能被提及。",
+        "summary": "美中俄領袖APEC期間首度三方峰會　核武與伊朗戰爭成焦點",
+        "categories": [
+          "國際"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-2929261c7fa40f5d27a4",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aopl/202611150003.aspx",
+            "published_at": "2026-11-15",
+            "excerpt": "美中俄領袖APEC期間首度三方峰會　核武與伊朗戰爭成焦點\n（中央社華盛頓14日綜合外電報導）美中俄領袖19日將在中國亞太經濟合作會議（APEC）期間舉行三方領袖峰會，預料核武條約與美國對伊朗的戰爭，將是優先討論議題，但烏克蘭問題不太可能被提及。",
+            "section": "國際"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "峰會",
+            "kind": "專業用語",
+            "answer_domain": "international",
+            "clue_options": [
+              {
+                "clue": "國家或政府領袖層級的會談，常藉聯合聲明表達共同立場。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "國家或政府領袖層級的會談，常藉聯合聲明表達共同立場。（2字）"
+          }
+        ],
+        "aliases": [
+          "cna-dacc917960c29898b60f"
+        ],
+        "content_revision": "cna-dacc917960c29898b60f"
+      },
+      {
+        "event_id": "cna-db60c1be4b537e3141f6",
+        "dedup_key": "https://www.cna.com.tw/news/aopl/202611150004.aspx",
+        "event_date": "2026-11-15",
+        "updated_at": "2026-11-15",
+        "published_at": "2026-11-14T19:30:02.000Z",
+        "title": "輝達兩大股東籲審慎評估領導人選　黃仁勳回任列入考量",
+        "rss_lead": "（中央社紐約14日綜合外電報導）輝達（Nvidia）兩大股東呼籲董事會，在評估公司未來領導人所有選項時，要包括「黃仁勳可能回任」。",
+        "summary": "輝達兩大股東籲審慎評估領導人選　黃仁勳回任列入考量",
+        "categories": [
+          "科技"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-08ff479864221ee58028",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aopl/202611150004.aspx",
+            "published_at": "2026-11-15",
+            "excerpt": "輝達兩大股東籲審慎評估領導人選　黃仁勳回任列入考量\n（中央社紐約14日綜合外電報導）輝達（Nvidia）兩大股東呼籲董事會，在評估公司未來領導人所有選項時，要包括「黃仁勳可能回任」。",
+            "section": "科技"
+          }
+        ],
+        "keywords": [],
+        "aliases": [
+          "cna-db60c1be4b537e3141f6"
+        ],
+        "content_revision": "cna-db60c1be4b537e3141f6"
+      },
+      {
+        "event_id": "cna-f876e4330d7303de284d",
+        "dedup_key": "https://www.cna.com.tw/news/aopl/202611150005.aspx",
+        "event_date": "2026-11-15",
+        "updated_at": "2026-11-15",
+        "published_at": "2026-11-14T19:54:04.000Z",
+        "title": "全美航班暫停起飛疑因設備問題或人為失誤　15日恢復正常航班",
+        "rss_lead": "（中央社記者侯姿瑩華盛頓14日專電）美國航空管制中心昨天發生通訊故障，迫使全美航班暫停起飛逾4小時。美官員今天表示，這起事件是承包商在一處偏遠設施更換老舊電信線路時，因設備故障或人為失誤所引起；估計航班將在這週末結束前恢復正常。",
+        "summary": "全美航班暫停起飛疑因設備問題或人為失誤　15日恢復正常航班",
+        "categories": [
+          "國際"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-f9bb8e445d8bc481e8a5",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aopl/202611150005.aspx",
+            "published_at": "2026-11-15",
+            "excerpt": "全美航班暫停起飛疑因設備問題或人為失誤　15日恢復正常航班\n（中央社記者侯姿瑩華盛頓14日專電）美國航空管制中心昨天發生通訊故障，迫使全美航班暫停起飛逾4小時。美官員今天表示，這起事件是承包商在一處偏遠設施更換老舊電信線路時，因設備故障或人為失誤所引起；估計航班將在這週末結束前恢復正常。",
+            "section": "國際"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "電信",
+            "kind": "專業用語",
+            "answer_domain": "technology",
+            "clue_options": [
+              {
+                "clue": "利用有線或無線系統傳送訊息的服務產業，頻譜與基礎設施是重要資源。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "利用有線或無線系統傳送訊息的服務產業，頻譜與基礎設施是重要資源。（2字）"
+          }
+        ],
+        "aliases": [
+          "cna-f876e4330d7303de284d"
+        ],
+        "content_revision": "cna-f876e4330d7303de284d"
+      },
+      {
+        "event_id": "cna-12d0441f65b60ccc4bac",
+        "dedup_key": "https://www.cna.com.tw/news/aopl/202611150006.aspx",
+        "event_date": "2026-11-15",
+        "updated_at": "2026-11-15",
+        "published_at": "2026-11-14T20:33:07.000Z",
+        "title": "馬克宏批限縮援助烏克蘭形同認輸　恐釀新戰爭",
+        "rss_lead": "（中央社巴黎14日綜合外電報導）法國總統馬克宏（Emmanuel Macron）今天表示，試圖限制對烏克蘭援助的國家，是想強迫烏克蘭接受「不公正的和平」，並警告此舉將導致另一場戰爭。",
+        "summary": "馬克宏批限縮援助烏克蘭形同認輸　恐釀新戰爭",
+        "categories": [
+          "國際"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-43b8f6e5e6725fbea960",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aopl/202611150006.aspx",
+            "published_at": "2026-11-15",
+            "excerpt": "馬克宏批限縮援助烏克蘭形同認輸　恐釀新戰爭\n（中央社巴黎14日綜合外電報導）法國總統馬克宏（Emmanuel Macron）今天表示，試圖限制對烏克蘭援助的國家，是想強迫烏克蘭接受「不公正的和平」，並警告此舉將導致另一場戰爭。",
+            "section": "國際"
+          }
+        ],
+        "keywords": [],
+        "aliases": [
+          "cna-12d0441f65b60ccc4bac"
+        ],
+        "content_revision": "cna-12d0441f65b60ccc4bac"
+      },
+      {
         "event_id": "cna-7dcfa33c676c0cfc0835",
         "dedup_key": "https://www.cna.com.tw/news/asoc/202611090021.aspx",
         "event_date": "2026-11-09",
@@ -63379,6 +63547,46 @@
         "clue_profile": "experienced-adults-v1"
       },
       {
+        "word": "電信",
+        "kind": "專業用語",
+        "answer_domain": "technology",
+        "answer_score": 86,
+        "difficulty": "medium",
+        "clue": "利用有線或無線系統傳送訊息的服務產業，頻譜與基礎設施是重要資源。（2字）",
+        "id": "cna-f876e4330d7303de284d::電信",
+        "event_id": "cna-f876e4330d7303de284d",
+        "event_revision": "cna-f876e4330d7303de284d",
+        "source_support": [
+          {
+            "source_id": "rss-f9bb8e445d8bc481e8a5",
+            "evidence": "美官員今天表示，這起事件是承包商在一處偏遠設施更換老舊電信線路時，因設備故障或人為失誤所引起；估計航班將在這週末結束前恢復正常。"
+          }
+        ],
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning",
+        "clue_profile": "experienced-adults-v1"
+      },
+      {
+        "word": "峰會",
+        "kind": "專業用語",
+        "answer_domain": "international",
+        "answer_score": 86,
+        "difficulty": "medium",
+        "clue": "國家或政府領袖層級的會談，常藉聯合聲明表達共同立場。（2字）",
+        "id": "cna-dacc917960c29898b60f::峰會",
+        "event_id": "cna-dacc917960c29898b60f",
+        "event_revision": "cna-dacc917960c29898b60f",
+        "source_support": [
+          {
+            "source_id": "rss-2929261c7fa40f5d27a4",
+            "evidence": "美中俄領袖APEC期間首度三方峰會　核武與伊朗戰爭成焦點\n（中央社華盛頓14日綜合外電報導）美中俄領袖19日將在中國亞太經濟合作會議（APEC）期間舉行三方領袖峰會，預料核武條約與美國對伊朗的戰爭，將是優先討論議題，但烏克蘭問題不太可能被提及。"
+          }
+        ],
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning",
+        "clue_profile": "experienced-adults-v1"
+      },
+      {
         "word": "人工智慧",
         "kind": "科技用語",
         "answer_score": 92,
@@ -63860,26 +64068,6 @@
           {
             "source_id": "rss-faa0711cfd6cdf6955fd",
             "evidence": "孫文南院院長涉收中共資金助里長參選 60萬交保\n（中央社記者洪學廣高雄14日電）孫文南院汪姓院長與婦女部主任潘姓女子疑接受中國資助，招待閔姓里長參選人赴中國旅遊，雄檢依違反反滲透法聲押3人，高雄地院裁定汪男60萬元交保，限制出境出海。"
-          }
-        ],
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning",
-        "clue_profile": "experienced-adults-v1"
-      },
-      {
-        "word": "峰會",
-        "kind": "專業用語",
-        "answer_domain": "international",
-        "answer_score": 86,
-        "difficulty": "medium",
-        "clue": "國家或政府領袖層級的會談，常藉聯合聲明表達共同立場。（2字）",
-        "id": "cna-9659493b56033f0cb5dc::峰會",
-        "event_id": "cna-9659493b56033f0cb5dc",
-        "event_revision": "cna-9659493b56033f0cb5dc",
-        "source_support": [
-          {
-            "source_id": "rss-0fa0881f37926dd964b2",
-            "evidence": "這將是「四方安全對話」（Quad）成員國領袖睽違2年再次舉行峰會。"
           }
         ],
         "clue_style": "magazine-v1",
@@ -65368,26 +65556,6 @@
           {
             "source_id": "rss-7e2849b9457c3b93f8f4",
             "evidence": "印尼政府正因經濟、貪腐和野火問題飽受民怨，這起事件令當局壓力倍增。"
-          }
-        ],
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning",
-        "clue_profile": "experienced-adults-v1"
-      },
-      {
-        "word": "電信",
-        "kind": "專業用語",
-        "answer_domain": "technology",
-        "answer_score": 86,
-        "difficulty": "medium",
-        "clue": "利用有線或無線系統傳送訊息的服務產業，頻譜與基礎設施是重要資源。（2字）",
-        "id": "cna-6c8891292f6272877e69::電信",
-        "event_id": "cna-6c8891292f6272877e69",
-        "event_revision": "cna-6c8891292f6272877e69",
-        "source_support": [
-          {
-            "source_id": "rss-276602095fd25fd4d16f",
-            "evidence": "新北男對店員飆三字經　法院認不致貶損人格判無罪\n（中央社記者曹亞沿新北12日電）新北1名男子去年在電信門市不滿久候飆罵店員三字經，遭告公然侮辱。"
           }
         ],
         "clue_style": "magazine-v1",
@@ -68977,7 +69145,7 @@
   },
   "automation": {
     "enabled": true,
-    "updated_at": "2026-11-14T18:13:34.376Z",
+    "updated_at": "2026-11-14T22:32:25.775Z",
     "window": {
       "from": "2026-11-09",
       "to": "2026-11-15"
@@ -69076,7 +69244,7 @@
       "generated_count": 7,
       "seed": 2,
       "attempts": 16,
-      "fingerprint": "27805e6de3576dad97415c370194c30682f4e3d66ec9a1a4a0e9edcbdde831a5",
+      "fingerprint": "279476156b8e8adeba453278b15bcbadaecac80a248c561cbd7d1ce11f448bfc",
       "grid_valid": true,
       "editorial_valid": true,
       "nonrepeating": true
