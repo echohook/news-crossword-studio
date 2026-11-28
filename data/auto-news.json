@@ -3796,6 +3796,108 @@
         "content_revision": "cna-175e777c63beff4b800d"
       },
       {
+        "event_id": "cna-82cf74a00a6a54f0db7f",
+        "dedup_key": "https://www.cna.com.tw/news/acn/202611280057.aspx",
+        "event_date": "2026-11-28",
+        "updated_at": "2026-11-28",
+        "published_at": "2026-11-28T04:32:43.000Z",
+        "title": "中國湖北縣級博物館疑展贗品　館方：有待專家確認",
+        "rss_lead": "（中央社記者李雅雯上海28日電）中國湖北通城縣博物館展品疑為贗品。館方回應，率先下架爭議展品，後續有待專家確認，被質疑為假的展品從取得到展出，均不存在「以假充真」的主觀故意。",
+        "summary": "中國湖北縣級博物館疑展贗品　館方：有待專家確認",
+        "categories": [
+          "國際"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-8ca2926f8dd0b88b23e1",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/acn/202611280057.aspx",
+            "published_at": "2026-11-28",
+            "excerpt": "中國湖北縣級博物館疑展贗品　館方：有待專家確認\n（中央社記者李雅雯上海28日電）中國湖北通城縣博物館展品疑為贗品。館方回應，率先下架爭議展品，後續有待專家確認，被質疑為假的展品從取得到展出，均不存在「以假充真」的主觀故意。",
+            "section": "國際"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "博物館",
+            "kind": "專業用語",
+            "answer_domain": "culture",
+            "clue_options": [
+              {
+                "clue": "從事蒐藏、研究、保存與展示的機構，公共教育功能不只在陳列珍品。（3字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 89,
+            "difficulty": "medium",
+            "clue": "從事蒐藏、研究、保存與展示的機構，公共教育功能不只在陳列珍品。（3字）"
+          }
+        ],
+        "aliases": [
+          "cna-82cf74a00a6a54f0db7f"
+        ],
+        "content_revision": "cna-82cf74a00a6a54f0db7f"
+      },
+      {
+        "event_id": "cna-d72cb55be47a891004c0",
+        "dedup_key": "https://www.cna.com.tw/news/acn/202611280071.aspx",
+        "event_date": "2026-11-28",
+        "updated_at": "2026-11-28",
+        "published_at": "2026-11-28T06:46:17.000Z",
+        "title": "九合一選舉海外華人來台觀選　對民主自由及公民素質留深刻印象",
+        "rss_lead": "（中央社記者呂佳蓉台北28日電）九合一選舉今天投、開票。華人民主書院協會常務理事曾建元表示，海外觀選團原先因台海局勢感到緊張，但實際走訪台灣後，對選舉的秩序、民主自由及公民素質留下深刻印象，認為台灣民主經驗十分珍貴。",
+        "summary": "九合一選舉海外華人來台觀選　對民主自由及公民素質留深刻印象",
+        "categories": [
+          "國際"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-1daf0303bbc6d2079751",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/acn/202611280071.aspx",
+            "published_at": "2026-11-28",
+            "excerpt": "九合一選舉海外華人來台觀選　對民主自由及公民素質留深刻印象\n（中央社記者呂佳蓉台北28日電）九合一選舉今天投、開票。華人民主書院協會常務理事曾建元表示，海外觀選團原先因台海局勢感到緊張，但實際走訪台灣後，對選舉的秩序、民主自由及公民素質留下深刻印象，認為台灣民主經驗十分珍貴。",
+            "section": "國際"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "選舉",
+            "kind": "專業用語",
+            "answer_domain": "politics",
+            "clue_options": [
+              {
+                "clue": "由選民投票產生公職代表的制度，結果仍須接受法定程序及監督。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "由選民投票產生公職代表的制度，結果仍須接受法定程序及監督。（2字）"
+          }
+        ],
+        "aliases": [
+          "cna-d72cb55be47a891004c0"
+        ],
+        "content_revision": "cna-d72cb55be47a891004c0"
+      },
+      {
         "event_id": "cna-08d75f2ad55741f046df",
         "dedup_key": "https://www.cna.com.tw/news/acul/202611230030.aspx",
         "event_date": "2026-11-23",
@@ -14217,6 +14319,174 @@
         "content_revision": "cna-e8ae6ce211f09fa5fa02"
       },
       {
+        "event_id": "cna-a862c019826cd077ec43",
+        "dedup_key": "https://www.cna.com.tw/news/afe/202611280007.aspx",
+        "event_date": "2026-11-28",
+        "updated_at": "2026-11-28",
+        "published_at": "2026-11-27T21:08:46.000Z",
+        "title": "市場交投清淡　油價震盪收低",
+        "rss_lead": "（中央社紐約27日綜合外電報導）中東能源基礎設施和油輪遭遇攻擊情形增加，投資人對供應的憂慮加深，市場交投清淡，油價今天震盪收低。",
+        "summary": "市場交投清淡　油價震盪收低",
+        "categories": [
+          "財經"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-634f325843baf86c46f9",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/afe/202611280007.aspx",
+            "published_at": "2026-11-28",
+            "excerpt": "市場交投清淡　油價震盪收低\n（中央社紐約27日綜合外電報導）中東能源基礎設施和油輪遭遇攻擊情形增加，投資人對供應的憂慮加深，市場交投清淡，油價今天震盪收低。",
+            "section": "財經"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "油價",
+            "kind": "財經用語",
+            "clue_options": [
+              {
+                "clue": "運輸成本與民生物價的重要變數，常隨產油國政策及航道風險波動。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "運輸成本與民生物價的重要變數，常隨產油國政策及航道風險波動。（2字）"
+          },
+          {
+            "word": "油輪",
+            "kind": "專業用語",
+            "answer_domain": "international",
+            "clue_options": [
+              {
+                "clue": "運送大量液態石油的船舶，重要海峽受阻時，其航線與保險成本備受關注。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "運送大量液態石油的船舶，重要海峽受阻時，其航線與保險成本備受關注。（2字）"
+          }
+        ],
+        "aliases": [
+          "cna-a862c019826cd077ec43"
+        ],
+        "content_revision": "cna-a862c019826cd077ec43"
+      },
+      {
+        "event_id": "cna-8d23e38fd0f39ad409a0",
+        "dedup_key": "https://www.cna.com.tw/news/afe/202611280012.aspx",
+        "event_date": "2026-11-28",
+        "updated_at": "2026-11-28",
+        "published_at": "2026-11-28T00:54:03.000Z",
+        "title": "法國預算赤字難減　標普下調主權信評展望至負面",
+        "rss_lead": "（中央社巴黎27日綜合外電報導）國際信評機構「標準普爾」（S&P），今天維持法國A+主權信評不變，但將信評展望由「穩定」下調至「負面」。如果法國未能有效刪減龐大預算赤字，未來評級恐將調降。",
+        "summary": "法國預算赤字難減　標普下調主權信評展望至負面",
+        "categories": [
+          "財經"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-353fc543d4da4b8c8a7e",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/afe/202611280012.aspx",
+            "published_at": "2026-11-28",
+            "excerpt": "法國預算赤字難減　標普下調主權信評展望至負面\n（中央社巴黎27日綜合外電報導）國際信評機構「標準普爾」（S&P），今天維持法國A+主權信評不變，但將信評展望由「穩定」下調至「負面」。如果法國未能有效刪減龐大預算赤字，未來評級恐將調降。",
+            "section": "財經"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "預算",
+            "kind": "專業用語",
+            "answer_domain": "economy",
+            "clue_options": [
+              {
+                "clue": "政府事先提出收入與支出計畫，須經民意機關審議的財政安排。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "政府事先提出收入與支出計畫，須經民意機關審議的財政安排。（2字）"
+          },
+          {
+            "word": "主權",
+            "kind": "專業用語",
+            "answer_domain": "international",
+            "clue_options": [
+              {
+                "clue": "國家對內最高統治權與對外自主地位，常是領土爭端的核心概念。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "國家對內最高統治權與對外自主地位，常是領土爭端的核心概念。（2字）"
+          }
+        ],
+        "aliases": [
+          "cna-8d23e38fd0f39ad409a0"
+        ],
+        "content_revision": "cna-8d23e38fd0f39ad409a0"
+      },
+      {
+        "event_id": "cna-35753d36dc37d4abb1f1",
+        "dedup_key": "https://www.cna.com.tw/news/afe/202611280014.aspx",
+        "event_date": "2026-11-28",
+        "updated_at": "2026-11-28",
+        "published_at": "2026-11-28T01:31:08.000Z",
+        "title": "OpenAI反告蘋果　控竊商業機密",
+        "rss_lead": "（中央社紐約27日綜合外電報導）OpenAI今天對蘋果公司提告，指控這家科技巨擘竊取其商業機密，並勸阻硬體供應商參與OpenAI未來裝置的開發。在此之前，蘋果曾控告OpenAI挖角旗下員工，藉此獲取蘋果技術。",
+        "summary": "OpenAI反告蘋果　控竊商業機密",
+        "categories": [
+          "財經"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-2a723c696bb1a4b666e1",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/afe/202611280014.aspx",
+            "published_at": "2026-11-28",
+            "excerpt": "OpenAI反告蘋果　控竊商業機密\n（中央社紐約27日綜合外電報導）OpenAI今天對蘋果公司提告，指控這家科技巨擘竊取其商業機密，並勸阻硬體供應商參與OpenAI未來裝置的開發。在此之前，蘋果曾控告OpenAI挖角旗下員工，藉此獲取蘋果技術。",
+            "section": "財經"
+          }
+        ],
+        "keywords": [],
+        "aliases": [
+          "cna-35753d36dc37d4abb1f1"
+        ],
+        "content_revision": "cna-35753d36dc37d4abb1f1"
+      },
+      {
         "event_id": "cna-62e88d9d8a210994e2eb",
         "dedup_key": "https://www.cna.com.tw/news/ahel/202611220014.aspx",
         "event_date": "2026-11-22",
@@ -20620,6 +20890,410 @@
           "cna-0c11b2c55adee1f03679"
         ],
         "content_revision": "cna-0c11b2c55adee1f03679"
+      },
+      {
+        "event_id": "cna-2ad88f696db00cc22ca9",
+        "dedup_key": "https://www.cna.com.tw/news/ahel/202611280009.aspx",
+        "event_date": "2026-11-28",
+        "updated_at": "2026-11-28",
+        "published_at": "2026-11-27T23:57:56.000Z",
+        "title": "萬家福網購系統遭攻擊　未發現信用卡等金融資料外洩",
+        "rss_lead": "（中央社記者吳家豪台北28日電）量販超市萬家福27日晚間發出電子郵件通知會員，證實近日萬家福系統委外廠商發現網購系統遭到攻擊。經初步調查，部分會員及訂單資料可能遭不當擷取，在訂單上的個人資料可能受到影響，但並無發現信用卡卡號、銀行帳戶等相關金融資料遭外洩；萬家福官網已暫停使用，進行功能維護。",
+        "summary": "萬家福網購系統遭攻擊　未發現信用卡等金融資料外洩",
+        "categories": [
+          "生活"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-6d2ee2450bf9e294d3f3",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/ahel/202611280009.aspx",
+            "published_at": "2026-11-28",
+            "excerpt": "萬家福網購系統遭攻擊　未發現信用卡等金融資料外洩\n（中央社記者吳家豪台北28日電）量販超市萬家福27日晚間發出電子郵件通知會員，證實近日萬家福系統委外廠商發現網購系統遭到攻擊。經初步調查，部分會員及訂單資料可能遭不當擷取，在訂單上的個人資料可能受到影響，但並無發現信用卡卡號、銀行帳戶等相關金融資料遭外洩；萬家福官網已暫停使用，進行功能維護。",
+            "section": "生活"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "金融",
+            "kind": "財經用語",
+            "clue_options": [
+              {
+                "clue": "透過存放款、投資與支付，把資金從供給者引導至需求者的經濟活動。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "透過存放款、投資與支付，把資金從供給者引導至需求者的經濟活動。（2字）"
+          }
+        ],
+        "aliases": [
+          "cna-2ad88f696db00cc22ca9"
+        ],
+        "content_revision": "cna-2ad88f696db00cc22ca9"
+      },
+      {
+        "event_id": "cna-b915bbc1a97ca82b8298",
+        "dedup_key": "https://www.cna.com.tw/news/ahel/202611280011.aspx",
+        "event_date": "2026-11-28",
+        "updated_at": "2026-11-28",
+        "published_at": "2026-11-28T00:38:01.000Z",
+        "title": "投票日各地晴朗　吳德榮：29日晨平地最低溫跌破12度",
+        "rss_lead": "（中央社記者黃巧雯台北28日電）九合一選舉與「廢除非核家園」公投今天舉行，氣象專家吳德榮說，乾空氣南下，各地晴朗，入夜輻射冷卻發威，明晨平地最低溫將降至12度以下，下週逐日回暖，高溫升至30度以上。",
+        "summary": "投票日各地晴朗　吳德榮：29日晨平地最低溫跌破12度",
+        "categories": [
+          "生活"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-5cb92524d24735d293d8",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/ahel/202611280011.aspx",
+            "published_at": "2026-11-28",
+            "excerpt": "投票日各地晴朗　吳德榮：29日晨平地最低溫跌破12度\n（中央社記者黃巧雯台北28日電）九合一選舉與「廢除非核家園」公投今天舉行，氣象專家吳德榮說，乾空氣南下，各地晴朗，入夜輻射冷卻發威，明晨平地最低溫將降至12度以下，下週逐日回暖，高溫升至30度以上。",
+            "section": "生活"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "公投",
+            "kind": "專業用語",
+            "answer_domain": "politics",
+            "clue_options": [
+              {
+                "clue": "選民對公共議題直接表決的制度，與選出代議士的選舉有所區別。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "選民對公共議題直接表決的制度，與選出代議士的選舉有所區別。（2字）"
+          },
+          {
+            "word": "選舉",
+            "kind": "專業用語",
+            "answer_domain": "politics",
+            "clue_options": [
+              {
+                "clue": "由選民投票產生公職代表的制度，結果仍須接受法定程序及監督。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "由選民投票產生公職代表的制度，結果仍須接受法定程序及監督。（2字）"
+          }
+        ],
+        "aliases": [
+          "cna-b915bbc1a97ca82b8298"
+        ],
+        "content_revision": "cna-b915bbc1a97ca82b8298"
+      },
+      {
+        "event_id": "cna-3b6a274ebb61ce3ccd00",
+        "dedup_key": "https://www.cna.com.tw/news/ahel/202611280020.aspx",
+        "event_date": "2026-11-28",
+        "updated_at": "2026-11-28",
+        "published_at": "2026-11-28T02:04:21.000Z",
+        "title": "摩斯漢堡遭惡意網攻　安心食品啟動資安事件應變",
+        "rss_lead": "（中央社記者黃巧雯台北28日電）安心食品昨天在旗下摩斯漢堡官網發聲明，公司系統近期偵測到異常惡意網路攻擊，導致會員資料遭到未經授權存取，已啟動資安事件應變作業，採取必要防護措施，並通報主管機關。",
+        "summary": "摩斯漢堡遭惡意網攻　安心食品啟動資安事件應變",
+        "categories": [
+          "生活"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-629acd411e66bcc42020",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/ahel/202611280020.aspx",
+            "published_at": "2026-11-28",
+            "excerpt": "摩斯漢堡遭惡意網攻　安心食品啟動資安事件應變\n（中央社記者黃巧雯台北28日電）安心食品昨天在旗下摩斯漢堡官網發聲明，公司系統近期偵測到異常惡意網路攻擊，導致會員資料遭到未經授權存取，已啟動資安事件應變作業，採取必要防護措施，並通報主管機關。",
+            "section": "生活"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "資安",
+            "kind": "科技用語",
+            "clue_options": [
+              {
+                "clue": "從帳號權限、系統防護到事件應變，維護數位資料機密與完整性的工作簡稱。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "從帳號權限、系統防護到事件應變，維護數位資料機密與完整性的工作簡稱。（2字）"
+          }
+        ],
+        "aliases": [
+          "cna-3b6a274ebb61ce3ccd00"
+        ],
+        "content_revision": "cna-3b6a274ebb61ce3ccd00"
+      },
+      {
+        "event_id": "cna-506f4ad990c77a9689e7",
+        "dedup_key": "https://www.cna.com.tw/news/ahel/202611280027.aspx",
+        "event_date": "2026-11-28",
+        "updated_at": "2026-11-28",
+        "published_at": "2026-11-28T02:30:37.000Z",
+        "title": "高鐵南港台北板橋站　上午9時至11時自由座進站管制",
+        "rss_lead": "（中央社記者黃巧雯台北28日電）九合一選舉與「廢除非核家園」公投今天舉行，上午湧現返鄉投票人潮，高鐵上午9時起至11時於南港、台北、板橋3站臨時啟動自由座旅客進站管制，採「開放12分鐘，管制3分鐘」。",
+        "summary": "高鐵南港台北板橋站　上午9時至11時自由座進站管制",
+        "categories": [
+          "生活"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-21f605f4fb786b75617f",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/ahel/202611280027.aspx",
+            "published_at": "2026-11-28",
+            "excerpt": "高鐵南港台北板橋站　上午9時至11時自由座進站管制\n（中央社記者黃巧雯台北28日電）九合一選舉與「廢除非核家園」公投今天舉行，上午湧現返鄉投票人潮，高鐵上午9時起至11時於南港、台北、板橋3站臨時啟動自由座旅客進站管制，採「開放12分鐘，管制3分鐘」。",
+            "section": "生活"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "公投",
+            "kind": "專業用語",
+            "answer_domain": "politics",
+            "clue_options": [
+              {
+                "clue": "選民對公共議題直接表決的制度，與選出代議士的選舉有所區別。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "選民對公共議題直接表決的制度，與選出代議士的選舉有所區別。（2字）"
+          },
+          {
+            "word": "選舉",
+            "kind": "專業用語",
+            "answer_domain": "politics",
+            "clue_options": [
+              {
+                "clue": "由選民投票產生公職代表的制度，結果仍須接受法定程序及監督。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "由選民投票產生公職代表的制度，結果仍須接受法定程序及監督。（2字）"
+          }
+        ],
+        "aliases": [
+          "cna-506f4ad990c77a9689e7"
+        ],
+        "content_revision": "cna-506f4ad990c77a9689e7"
+      },
+      {
+        "event_id": "cna-f04d02ba91aaa3e5b3c1",
+        "dedup_key": "https://www.cna.com.tw/news/ahel/202611280046.aspx",
+        "event_date": "2026-11-28",
+        "updated_at": "2026-11-28",
+        "published_at": "2026-11-28T03:38:18.000Z",
+        "title": "返鄉投票熱　雙鐵客運27日疏運較上屆選舉增近3成",
+        "rss_lead": "（中央社記者黃巧雯台北28日電）今年返鄉投票大眾運輸需求強勁，交通部今天說，昨天高鐵、台鐵、國道客運及國內空運的旅運量，較上屆地方選舉同期分別成長60%、21.2%、17%及6%，前3者共疏運135.3萬人次，增加28%。",
+        "summary": "返鄉投票熱　雙鐵客運27日疏運較上屆選舉增近3成",
+        "categories": [
+          "生活"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-e79938d87c3d5b33cbe5",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/ahel/202611280046.aspx",
+            "published_at": "2026-11-28",
+            "excerpt": "返鄉投票熱　雙鐵客運27日疏運較上屆選舉增近3成\n（中央社記者黃巧雯台北28日電）今年返鄉投票大眾運輸需求強勁，交通部今天說，昨天高鐵、台鐵、國道客運及國內空運的旅運量，較上屆地方選舉同期分別成長60%、21.2%、17%及6%，前3者共疏運135.3萬人次，增加28%。",
+            "section": "生活"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "選舉",
+            "kind": "專業用語",
+            "answer_domain": "politics",
+            "clue_options": [
+              {
+                "clue": "由選民投票產生公職代表的制度，結果仍須接受法定程序及監督。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "由選民投票產生公職代表的制度，結果仍須接受法定程序及監督。（2字）"
+          }
+        ],
+        "aliases": [
+          "cna-f04d02ba91aaa3e5b3c1"
+        ],
+        "content_revision": "cna-f04d02ba91aaa3e5b3c1"
+      },
+      {
+        "event_id": "cna-dfe863e15b252f0a58ec",
+        "dedup_key": "https://www.cna.com.tw/news/ahel/202611280054.aspx",
+        "event_date": "2026-11-28",
+        "updated_at": "2026-11-28",
+        "published_at": "2026-11-28T04:23:36.000Z",
+        "title": "越南馬來西亞水陸包裹重量上限　中華郵政12月起放寬為30公斤",
+        "rss_lead": "（中央社記者黃巧雯台北28日電）中華郵政12月1日起調高發往越南及馬來西亞的國際水陸包裹重量上限，由10公斤增至30公斤，盼滿足新住民及外籍移工寄送家鄉物資、大件民生用品需求，提升服務競爭力拓展客源。",
+        "summary": "越南馬來西亞水陸包裹重量上限　中華郵政12月起放寬為30公斤",
+        "categories": [
+          "生活"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-a593c2e5a6fc0d00772f",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/ahel/202611280054.aspx",
+            "published_at": "2026-11-28",
+            "excerpt": "越南馬來西亞水陸包裹重量上限　中華郵政12月起放寬為30公斤\n（中央社記者黃巧雯台北28日電）中華郵政12月1日起調高發往越南及馬來西亞的國際水陸包裹重量上限，由10公斤增至30公斤，盼滿足新住民及外籍移工寄送家鄉物資、大件民生用品需求，提升服務競爭力拓展客源。",
+            "section": "生活"
+          }
+        ],
+        "keywords": [],
+        "aliases": [
+          "cna-dfe863e15b252f0a58ec"
+        ],
+        "content_revision": "cna-dfe863e15b252f0a58ec"
+      },
+      {
+        "event_id": "cna-1ee8e46811a8525e50f3",
+        "dedup_key": "https://www.cna.com.tw/news/ahel/202611280067.aspx",
+        "event_date": "2026-11-28",
+        "updated_at": "2026-11-28",
+        "published_at": "2026-11-28T06:11:08.000Z",
+        "title": "諾貝爾生醫獎得主台大開講　坂口志文說免疫也談AI",
+        "rss_lead": "（中央社記者沈佩瑤台北28日電）國立台灣大學邀請2025年諾貝爾生醫獎得主、日本免疫學權威坂口志文來台演講。面對AI快速發展，坂口志文勉勵學子不要盲目追求熱門技術，應透過時間累積，探究科學問題本質，",
+        "summary": "諾貝爾生醫獎得主台大開講　坂口志文說免疫也談AI",
+        "categories": [
+          "生活"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-71efb73a68f34210ac20",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/ahel/202611280067.aspx",
+            "published_at": "2026-11-28",
+            "excerpt": "諾貝爾生醫獎得主台大開講　坂口志文說免疫也談AI\n（中央社記者沈佩瑤台北28日電）國立台灣大學邀請2025年諾貝爾生醫獎得主、日本免疫學權威坂口志文來台演講。面對AI快速發展，坂口志文勉勵學子不要盲目追求熱門技術，應透過時間累積，探究科學問題本質，",
+            "section": "生活"
+          }
+        ],
+        "keywords": [],
+        "aliases": [
+          "cna-1ee8e46811a8525e50f3"
+        ],
+        "content_revision": "cna-1ee8e46811a8525e50f3"
+      },
+      {
+        "event_id": "cna-f5ccad85fe092e0ce778",
+        "dedup_key": "https://www.cna.com.tw/news/ahel/202611280073.aspx",
+        "event_date": "2026-11-28",
+        "updated_at": "2026-11-28",
+        "published_at": "2026-11-28T06:52:22.000Z",
+        "title": "選後返工免擠車 台鐵29日下午再加開一列次區間快助疏運",
+        "rss_lead": "（中央社記者沈佩瑤台北28日電）為服務2026年九合一選舉投票結束後的旅客返工需求，台鐵公司宣布，明天下午將再加開一列次從彰化開往七堵區間快車，民眾可透過台鐵官網及「台鐵e訂通」APP查詢利用。",
+        "summary": "選後返工免擠車 台鐵29日下午再加開一列次區間快助疏運",
+        "categories": [
+          "生活"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-b897e2cc329ba5da8ea7",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/ahel/202611280073.aspx",
+            "published_at": "2026-11-28",
+            "excerpt": "選後返工免擠車 台鐵29日下午再加開一列次區間快助疏運\n（中央社記者沈佩瑤台北28日電）為服務2026年九合一選舉投票結束後的旅客返工需求，台鐵公司宣布，明天下午將再加開一列次從彰化開往七堵區間快車，民眾可透過台鐵官網及「台鐵e訂通」APP查詢利用。",
+            "section": "生活"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "選舉",
+            "kind": "專業用語",
+            "answer_domain": "politics",
+            "clue_options": [
+              {
+                "clue": "由選民投票產生公職代表的制度，結果仍須接受法定程序及監督。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "由選民投票產生公職代表的制度，結果仍須接受法定程序及監督。（2字）"
+          }
+        ],
+        "aliases": [
+          "cna-f5ccad85fe092e0ce778"
+        ],
+        "content_revision": "cna-f5ccad85fe092e0ce778"
       },
       {
         "event_id": "cna-9a44f45695082f829799",
@@ -30426,6 +31100,1086 @@
         "content_revision": "cna-c9322f534516c6b14f41"
       },
       {
+        "event_id": "cna-5eed5971dac6921bf393",
+        "dedup_key": "https://www.cna.com.tw/news/aipl/202611280015.aspx",
+        "event_date": "2026-11-28",
+        "updated_at": "2026-11-28",
+        "published_at": "2026-11-28T01:38:10.000Z",
+        "title": "蘇巧慧樹林投票　讚台灣民主成熟籲踴躍投票",
+        "rss_lead": "（中央社記者王鴻國新北28日電）民進黨新北市長候選人蘇巧慧今天一早到樹林育林國中排隊投票，她投完票對媒體表示，台灣的民主社會真的很成熟了，鼓勵大家趕快來投票，投票後一起開心等待最後的結果。",
+        "summary": "蘇巧慧樹林投票　讚台灣民主成熟籲踴躍投票",
+        "categories": [
+          "台灣"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-92accd907eb50a30f670",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aipl/202611280015.aspx",
+            "published_at": "2026-11-28",
+            "excerpt": "蘇巧慧樹林投票　讚台灣民主成熟籲踴躍投票\n（中央社記者王鴻國新北28日電）民進黨新北市長候選人蘇巧慧今天一早到樹林育林國中排隊投票，她投完票對媒體表示，台灣的民主社會真的很成熟了，鼓勵大家趕快來投票，投票後一起開心等待最後的結果。",
+            "section": "台灣"
+          }
+        ],
+        "keywords": [],
+        "aliases": [
+          "cna-5eed5971dac6921bf393"
+        ],
+        "content_revision": "cna-5eed5971dac6921bf393"
+      },
+      {
+        "event_id": "cna-7913ca4bea95b49584e5",
+        "dedup_key": "https://www.cna.com.tw/news/aipl/202611280016.aspx",
+        "event_date": "2026-11-28",
+        "updated_at": "2026-11-28",
+        "published_at": "2026-11-28T01:44:13.000Z",
+        "title": "九合一選舉投票  蔣萬安：帶著愉快心情來投票",
+        "rss_lead": "（中央社記者林長順台北28日電）今天是九合一選舉投票日，台北市長蔣萬安上午到永安國小投票後表示，他帶著愉快的心情來投票，出門前小朋友給他大大的擁抱，天氣很好，呼籲大家提前出門投票行使公民權。",
+        "summary": "九合一選舉投票  蔣萬安：帶著愉快心情來投票",
+        "categories": [
+          "台灣"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-da84504b3317d440258f",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aipl/202611280016.aspx",
+            "published_at": "2026-11-28",
+            "excerpt": "九合一選舉投票  蔣萬安：帶著愉快心情來投票\n（中央社記者林長順台北28日電）今天是九合一選舉投票日，台北市長蔣萬安上午到永安國小投票後表示，他帶著愉快的心情來投票，出門前小朋友給他大大的擁抱，天氣很好，呼籲大家提前出門投票行使公民權。",
+            "section": "台灣"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "選舉",
+            "kind": "專業用語",
+            "answer_domain": "politics",
+            "clue_options": [
+              {
+                "clue": "由選民投票產生公職代表的制度，結果仍須接受法定程序及監督。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "由選民投票產生公職代表的制度，結果仍須接受法定程序及監督。（2字）"
+          }
+        ],
+        "aliases": [
+          "cna-7913ca4bea95b49584e5"
+        ],
+        "content_revision": "cna-7913ca4bea95b49584e5"
+      },
+      {
+        "event_id": "cna-848a3efb7bc2cadb9117",
+        "dedup_key": "https://www.cna.com.tw/news/aipl/202611280017.aspx",
+        "event_date": "2026-11-28",
+        "updated_at": "2026-11-28",
+        "published_at": "2026-11-28T01:45:15.000Z",
+        "title": "九合一選舉登場　鄭麗文：對投票結果有信心",
+        "rss_lead": "（中央社記者王承中台北28日電）九合一選舉與「廢除非核家園」公投今天投、開票，國民黨主席鄭麗文上午完成投票後表示，對於投票結果有信心，今天天氣很好，希望大家能夠開開心心、快快樂樂的出門投票，記得一定要領公投票。",
+        "summary": "九合一選舉登場　鄭麗文：對投票結果有信心",
+        "categories": [
+          "台灣"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-02e5d8a9e7967a228053",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aipl/202611280017.aspx",
+            "published_at": "2026-11-28",
+            "excerpt": "九合一選舉登場　鄭麗文：對投票結果有信心\n（中央社記者王承中台北28日電）九合一選舉與「廢除非核家園」公投今天投、開票，國民黨主席鄭麗文上午完成投票後表示，對於投票結果有信心，今天天氣很好，希望大家能夠開開心心、快快樂樂的出門投票，記得一定要領公投票。",
+            "section": "台灣"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "公投",
+            "kind": "專業用語",
+            "answer_domain": "politics",
+            "clue_options": [
+              {
+                "clue": "選民對公共議題直接表決的制度，與選出代議士的選舉有所區別。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "選民對公共議題直接表決的制度，與選出代議士的選舉有所區別。（2字）"
+          },
+          {
+            "word": "選舉",
+            "kind": "專業用語",
+            "answer_domain": "politics",
+            "clue_options": [
+              {
+                "clue": "由選民投票產生公職代表的制度，結果仍須接受法定程序及監督。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "由選民投票產生公職代表的制度，結果仍須接受法定程序及監督。（2字）"
+          }
+        ],
+        "aliases": [
+          "cna-848a3efb7bc2cadb9117"
+        ],
+        "content_revision": "cna-848a3efb7bc2cadb9117"
+      },
+      {
+        "event_id": "cna-68dc2e75373bb7af506d",
+        "dedup_key": "https://www.cna.com.tw/news/aipl/202611280018.aspx",
+        "event_date": "2026-11-28",
+        "updated_at": "2026-11-28",
+        "published_at": "2026-11-28T01:48:17.000Z",
+        "title": "賴瑞隆投票稱睡飽心情佳　妻兒每天擁抱鼓勵",
+        "rss_lead": "（中央社記者洪學廣高雄28日電）九合一選舉今天舉行，民主進步黨高雄市長候選人賴瑞隆上午投票前受訪表示，睡得很飽，且今天天氣很好，心情不錯。他並提及妻兒每天出門前與回家後都會給予擁抱，對他是很大的鼓勵。",
+        "summary": "賴瑞隆投票稱睡飽心情佳　妻兒每天擁抱鼓勵",
+        "categories": [
+          "台灣"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-b989e37768a4c4cbe6bc",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aipl/202611280018.aspx",
+            "published_at": "2026-11-28",
+            "excerpt": "賴瑞隆投票稱睡飽心情佳　妻兒每天擁抱鼓勵\n（中央社記者洪學廣高雄28日電）九合一選舉今天舉行，民主進步黨高雄市長候選人賴瑞隆上午投票前受訪表示，睡得很飽，且今天天氣很好，心情不錯。他並提及妻兒每天出門前與回家後都會給予擁抱，對他是很大的鼓勵。",
+            "section": "台灣"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "選舉",
+            "kind": "專業用語",
+            "answer_domain": "politics",
+            "clue_options": [
+              {
+                "clue": "由選民投票產生公職代表的制度，結果仍須接受法定程序及監督。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "由選民投票產生公職代表的制度，結果仍須接受法定程序及監督。（2字）"
+          }
+        ],
+        "aliases": [
+          "cna-68dc2e75373bb7af506d"
+        ],
+        "content_revision": "cna-68dc2e75373bb7af506d"
+      },
+      {
+        "event_id": "cna-f2cd60d122289212a4c7",
+        "dedup_key": "https://www.cna.com.tw/news/aipl/202611280019.aspx",
+        "event_date": "2026-11-28",
+        "updated_at": "2026-11-28",
+        "published_at": "2026-11-28T01:57:19.000Z",
+        "title": "中共45機艦船台海周邊活動　國軍嚴密監控應處",
+        "rss_lead": "（中央社記者吳書緯台北28日電）九合一選舉前夕，中共軍機艦擾台。國防部表示，自昨天上午6時至今天上午6時，偵獲共機33架次，其中27架次逾越中線進入北部、中部、西南及東部空域，另有8艘共艦及4艘公務船，總計中共45機艦船持續在台海周邊活動，國軍嚴密監控應處。",
+        "summary": "中共45機艦船台海周邊活動　國軍嚴密監控應處",
+        "categories": [
+          "台灣"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-5b9324cc0a1176ec2a98",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aipl/202611280019.aspx",
+            "published_at": "2026-11-28",
+            "excerpt": "中共45機艦船台海周邊活動　國軍嚴密監控應處\n（中央社記者吳書緯台北28日電）九合一選舉前夕，中共軍機艦擾台。國防部表示，自昨天上午6時至今天上午6時，偵獲共機33架次，其中27架次逾越中線進入北部、中部、西南及東部空域，另有8艘共艦及4艘公務船，總計中共45機艦船持續在台海周邊活動，國軍嚴密監控應處。",
+            "section": "台灣"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "國防部",
+            "kind": "機關或組織",
+            "clue_options": [
+              {
+                "clue": "統籌軍政與軍備業務、其預算及採購須受民意監督的中央部會。（3字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 89,
+            "difficulty": "medium",
+            "clue": "統籌軍政與軍備業務、其預算及採購須受民意監督的中央部會。（3字）"
+          },
+          {
+            "word": "國軍",
+            "kind": "專業用語",
+            "answer_domain": "politics",
+            "clue_options": [
+              {
+                "clue": "我國正規武裝部隊的統稱，受文人統制與國家法制規範。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "我國正規武裝部隊的統稱，受文人統制與國家法制規範。（2字）"
+          },
+          {
+            "word": "選舉",
+            "kind": "專業用語",
+            "answer_domain": "politics",
+            "clue_options": [
+              {
+                "clue": "由選民投票產生公職代表的制度，結果仍須接受法定程序及監督。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "由選民投票產生公職代表的制度，結果仍須接受法定程序及監督。（2字）"
+          }
+        ],
+        "aliases": [
+          "cna-f2cd60d122289212a4c7"
+        ],
+        "content_revision": "cna-f2cd60d122289212a4c7"
+      },
+      {
+        "event_id": "cna-99e04d1f168e3ad8151a",
+        "dedup_key": "https://www.cna.com.tw/news/aipl/202611280022.aspx",
+        "event_date": "2026-11-28",
+        "updated_at": "2026-11-28",
+        "published_at": "2026-11-28T02:18:26.000Z",
+        "title": "李四川投票心情好　出門前妻子擁抱加油打氣",
+        "rss_lead": "（中央社記者黃旭昇新北28日電）中國國民黨籍新北市長候選人李四川今天上午在新北市長侯友宜陪同下投票。他表示，出門前妻子給他擁抱、加油打氣，雖然凌晨1時才入睡，但睡得安穩，精神很好。",
+        "summary": "李四川投票心情好　出門前妻子擁抱加油打氣",
+        "categories": [
+          "台灣"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-31b33364a429cc1dee3f",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aipl/202611280022.aspx",
+            "published_at": "2026-11-28",
+            "excerpt": "李四川投票心情好　出門前妻子擁抱加油打氣\n（中央社記者黃旭昇新北28日電）中國國民黨籍新北市長候選人李四川今天上午在新北市長侯友宜陪同下投票。他表示，出門前妻子給他擁抱、加油打氣，雖然凌晨1時才入睡，但睡得安穩，精神很好。",
+            "section": "台灣"
+          }
+        ],
+        "keywords": [],
+        "aliases": [
+          "cna-99e04d1f168e3ad8151a"
+        ],
+        "content_revision": "cna-99e04d1f168e3ad8151a"
+      },
+      {
+        "event_id": "cna-ca32dbf19cf20119c9de",
+        "dedup_key": "https://www.cna.com.tw/news/aipl/202611280023.aspx",
+        "event_date": "2026-11-28",
+        "updated_at": "2026-11-28",
+        "published_at": "2026-11-28T02:22:28.000Z",
+        "title": "江啟臣在盧秀燕陪同下投票　稱要補償妻子去做家事",
+        "rss_lead": "（中央社記者蘇木春台中28日電）國民黨台中市長候選人江啟臣今天在妻子劉姿伶及台中市長盧秀燕陪同下前往投票。江啟臣說，投完票後要補償妻子去做家事。盧秀燕則呼籲市民把握舒適天氣踴躍投票。",
+        "summary": "江啟臣在盧秀燕陪同下投票　稱要補償妻子去做家事",
+        "categories": [
+          "台灣"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-b98353a27382e9ab4fb8",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aipl/202611280023.aspx",
+            "published_at": "2026-11-28",
+            "excerpt": "江啟臣在盧秀燕陪同下投票　稱要補償妻子去做家事\n（中央社記者蘇木春台中28日電）國民黨台中市長候選人江啟臣今天在妻子劉姿伶及台中市長盧秀燕陪同下前往投票。江啟臣說，投完票後要補償妻子去做家事。盧秀燕則呼籲市民把握舒適天氣踴躍投票。",
+            "section": "台灣"
+          }
+        ],
+        "keywords": [],
+        "aliases": [
+          "cna-ca32dbf19cf20119c9de"
+        ],
+        "content_revision": "cna-ca32dbf19cf20119c9de"
+      },
+      {
+        "event_id": "cna-919a243193e13f098c29",
+        "dedup_key": "https://www.cna.com.tw/news/aipl/202611280024.aspx",
+        "event_date": "2026-11-28",
+        "updated_at": "2026-11-28",
+        "published_at": "2026-11-28T02:24:30.000Z",
+        "title": "九合一選舉投票 何欣純：心情輕鬆",
+        "rss_lead": "（中央社記者趙麗妍台中28日電）今天是九合一選舉投票日。民進黨台中市長候選人何欣純今天上午投票，她表示，昨晚睡得不錯，今天心情輕鬆，歡迎民眾下午4時到競選總部，一起看開票、迎接勝利。",
+        "summary": "九合一選舉投票 何欣純：心情輕鬆",
+        "categories": [
+          "台灣"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-5f582714a504e0cdf2e4",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aipl/202611280024.aspx",
+            "published_at": "2026-11-28",
+            "excerpt": "九合一選舉投票 何欣純：心情輕鬆\n（中央社記者趙麗妍台中28日電）今天是九合一選舉投票日。民進黨台中市長候選人何欣純今天上午投票，她表示，昨晚睡得不錯，今天心情輕鬆，歡迎民眾下午4時到競選總部，一起看開票、迎接勝利。",
+            "section": "台灣"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "選舉",
+            "kind": "專業用語",
+            "answer_domain": "politics",
+            "clue_options": [
+              {
+                "clue": "由選民投票產生公職代表的制度，結果仍須接受法定程序及監督。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "由選民投票產生公職代表的制度，結果仍須接受法定程序及監督。（2字）"
+          }
+        ],
+        "aliases": [
+          "cna-919a243193e13f098c29"
+        ],
+        "content_revision": "cna-919a243193e13f098c29"
+      },
+      {
+        "event_id": "cna-d6f7634ab0ad0c2e9924",
+        "dedup_key": "https://www.cna.com.tw/news/aipl/202611280025.aspx",
+        "event_date": "2026-11-28",
+        "updated_at": "2026-11-28",
+        "published_at": "2026-11-28T02:27:33.000Z",
+        "title": "黃國昌：天氣非常好　踴躍出門投票是最重要的事",
+        "rss_lead": "（中央社記者陳俊華新北28日電）九合一選舉與「廢除非核家園」公投今天投、開票。民眾黨主席黃國昌說，天氣非常好，大家踴躍出門投票是最重要的事；今晚他會到中央黨部和一級主管觀看開票，並將循往例召開記者會。",
+        "summary": "黃國昌：天氣非常好　踴躍出門投票是最重要的事",
+        "categories": [
+          "台灣"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-62bdbc925f4488d25f75",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aipl/202611280025.aspx",
+            "published_at": "2026-11-28",
+            "excerpt": "黃國昌：天氣非常好　踴躍出門投票是最重要的事\n（中央社記者陳俊華新北28日電）九合一選舉與「廢除非核家園」公投今天投、開票。民眾黨主席黃國昌說，天氣非常好，大家踴躍出門投票是最重要的事；今晚他會到中央黨部和一級主管觀看開票，並將循往例召開記者會。",
+            "section": "台灣"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "公投",
+            "kind": "專業用語",
+            "answer_domain": "politics",
+            "clue_options": [
+              {
+                "clue": "選民對公共議題直接表決的制度，與選出代議士的選舉有所區別。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "選民對公共議題直接表決的制度，與選出代議士的選舉有所區別。（2字）"
+          },
+          {
+            "word": "選舉",
+            "kind": "專業用語",
+            "answer_domain": "politics",
+            "clue_options": [
+              {
+                "clue": "由選民投票產生公職代表的制度，結果仍須接受法定程序及監督。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "由選民投票產生公職代表的制度，結果仍須接受法定程序及監督。（2字）"
+          }
+        ],
+        "aliases": [
+          "cna-d6f7634ab0ad0c2e9924"
+        ],
+        "content_revision": "cna-d6f7634ab0ad0c2e9924"
+      },
+      {
+        "event_id": "cna-d17cda89813f00282954",
+        "dedup_key": "https://www.cna.com.tw/news/aipl/202611280026.aspx",
+        "event_date": "2026-11-28",
+        "updated_at": "2026-11-28",
+        "published_at": "2026-11-28T02:29:35.000Z",
+        "title": "卓榮泰籲國人踴躍投票　盼投開票順利正確迅速完成",
+        "rss_lead": "（中央社記者曾筠庭台北28日電）今天是九合一選舉與「廢除非核家園」公投投、開票日，行政院長卓榮泰上午於投票前受訪表示，希望每位國民都能踴躍行使公民權利，並感謝所有候選人完成這項民主工程。在下午4時投票截止後，也將緊盯所有投開票作業，希望能順利、正確且迅速完成，讓國人第一時間掌握最終結果。",
+        "summary": "卓榮泰籲國人踴躍投票　盼投開票順利正確迅速完成",
+        "categories": [
+          "台灣"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-8ed806e0e10d64fbb529",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aipl/202611280026.aspx",
+            "published_at": "2026-11-28",
+            "excerpt": "卓榮泰籲國人踴躍投票　盼投開票順利正確迅速完成\n（中央社記者曾筠庭台北28日電）今天是九合一選舉與「廢除非核家園」公投投、開票日，行政院長卓榮泰上午於投票前受訪表示，希望每位國民都能踴躍行使公民權利，並感謝所有候選人完成這項民主工程。在下午4時投票截止後，也將緊盯所有投開票作業，希望能順利、正確且迅速完成，讓國人第一時間掌握最終結果。",
+            "section": "台灣"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "卓榮泰",
+            "kind": "人物",
+            "clue_options": [
+              {
+                "clue": "據報導，某位人物籲國人踴躍投票　盼投開票順利正確迅速完成。（3字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "event",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 89,
+            "difficulty": "medium",
+            "clue": "據報導，某位人物籲國人踴躍投票　盼投開票順利正確迅速完成。（3字）"
+          },
+          {
+            "word": "公投",
+            "kind": "專業用語",
+            "answer_domain": "politics",
+            "clue_options": [
+              {
+                "clue": "選民對公共議題直接表決的制度，與選出代議士的選舉有所區別。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "選民對公共議題直接表決的制度，與選出代議士的選舉有所區別。（2字）"
+          },
+          {
+            "word": "選舉",
+            "kind": "專業用語",
+            "answer_domain": "politics",
+            "clue_options": [
+              {
+                "clue": "由選民投票產生公職代表的制度，結果仍須接受法定程序及監督。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "由選民投票產生公職代表的制度，結果仍須接受法定程序及監督。（2字）"
+          }
+        ],
+        "aliases": [
+          "cna-d17cda89813f00282954"
+        ],
+        "content_revision": "cna-d17cda89813f00282954"
+      },
+      {
+        "event_id": "cna-30e094e7fbea25fd7813",
+        "dedup_key": "https://www.cna.com.tw/news/aipl/202611280028.aspx",
+        "event_date": "2026-11-28",
+        "updated_at": "2026-11-28",
+        "published_at": "2026-11-28T02:38:39.000Z",
+        "title": "沈伯洋偕妻女投票　笑稱家人是最大幸運",
+        "rss_lead": "（中央社記者劉世怡台北28日電）今天是九合一選舉投票日，民進黨台北市長候選人沈伯洋偕妻女前往投票。他表示，天氣很好，心情非常開朗，雖未帶幸運小物，但妻女就是他最大的幸運，投票後將全家共進早餐。",
+        "summary": "沈伯洋偕妻女投票　笑稱家人是最大幸運",
+        "categories": [
+          "台灣"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-210685a1e473dc2b5ec8",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aipl/202611280028.aspx",
+            "published_at": "2026-11-28",
+            "excerpt": "沈伯洋偕妻女投票　笑稱家人是最大幸運\n（中央社記者劉世怡台北28日電）今天是九合一選舉投票日，民進黨台北市長候選人沈伯洋偕妻女前往投票。他表示，天氣很好，心情非常開朗，雖未帶幸運小物，但妻女就是他最大的幸運，投票後將全家共進早餐。",
+            "section": "台灣"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "選舉",
+            "kind": "專業用語",
+            "answer_domain": "politics",
+            "clue_options": [
+              {
+                "clue": "由選民投票產生公職代表的制度，結果仍須接受法定程序及監督。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "由選民投票產生公職代表的制度，結果仍須接受法定程序及監督。（2字）"
+          }
+        ],
+        "aliases": [
+          "cna-30e094e7fbea25fd7813"
+        ],
+        "content_revision": "cna-30e094e7fbea25fd7813"
+      },
+      {
+        "event_id": "cna-382d759fbc9ddc6e13cc",
+        "dedup_key": "https://www.cna.com.tw/news/aipl/202611280029.aspx",
+        "event_date": "2026-11-28",
+        "updated_at": "2026-11-28",
+        "published_at": "2026-11-28T02:42:41.000Z",
+        "title": "投票日期待又緊張　蕭副總統：做家事能平穩心情",
+        "rss_lead": "（中央社記者吳家豪新北28日電）九合一選舉今天投、開票，副總統蕭美琴上午前往新北市永和區永平國小投票後表示，心情非常期待，但是又有點緊張，今天完成投票後終於有時間洗衣服、運動，「其實有時候做家事也是一種療癒跟平穩心情、重新調整的方式」，並呼籲民眾踴躍出門投票。",
+        "summary": "投票日期待又緊張　蕭副總統：做家事能平穩心情",
+        "categories": [
+          "台灣"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-8111cf78adc84b437a2c",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aipl/202611280029.aspx",
+            "published_at": "2026-11-28",
+            "excerpt": "投票日期待又緊張　蕭副總統：做家事能平穩心情\n（中央社記者吳家豪新北28日電）九合一選舉今天投、開票，副總統蕭美琴上午前往新北市永和區永平國小投票後表示，心情非常期待，但是又有點緊張，今天完成投票後終於有時間洗衣服、運動，「其實有時候做家事也是一種療癒跟平穩心情、重新調整的方式」，並呼籲民眾踴躍出門投票。",
+            "section": "台灣"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "選舉",
+            "kind": "專業用語",
+            "answer_domain": "politics",
+            "clue_options": [
+              {
+                "clue": "由選民投票產生公職代表的制度，結果仍須接受法定程序及監督。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "由選民投票產生公職代表的制度，結果仍須接受法定程序及監督。（2字）"
+          }
+        ],
+        "aliases": [
+          "cna-382d759fbc9ddc6e13cc"
+        ],
+        "content_revision": "cna-382d759fbc9ddc6e13cc"
+      },
+      {
+        "event_id": "cna-6b1b3c180b4d9d106e5f",
+        "dedup_key": "https://www.cna.com.tw/news/aipl/202611280043.aspx",
+        "event_date": "2026-11-28",
+        "updated_at": "2026-11-28",
+        "published_at": "2026-11-28T03:14:11.000Z",
+        "title": "賴總統回台南投票　籲投給最想要的生活",
+        "rss_lead": "（中央社記者張榮祥台南28日電）今天是九合一大選投票日，總統賴清德回到台南家投下神聖一票。賴總統呼籲踴躍投票，投給最想要的生活。",
+        "summary": "賴總統回台南投票　籲投給最想要的生活",
+        "categories": [
+          "台灣"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-cfa2a280169daf942d55",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aipl/202611280043.aspx",
+            "published_at": "2026-11-28",
+            "excerpt": "賴總統回台南投票　籲投給最想要的生活\n（中央社記者張榮祥台南28日電）今天是九合一大選投票日，總統賴清德回到台南家投下神聖一票。賴總統呼籲踴躍投票，投給最想要的生活。",
+            "section": "台灣"
+          }
+        ],
+        "keywords": [],
+        "aliases": [
+          "cna-6b1b3c180b4d9d106e5f"
+        ],
+        "content_revision": "cna-6b1b3c180b4d9d106e5f"
+      },
+      {
+        "event_id": "cna-e71f9f6d683ad8ae5679",
+        "dedup_key": "https://www.cna.com.tw/news/aipl/202611280052.aspx",
+        "event_date": "2026-11-28",
+        "updated_at": "2026-11-28",
+        "published_at": "2026-11-28T04:10:31.000Z",
+        "title": "陳其邁投完票　呼籲市民踴躍投票選出好市長",
+        "rss_lead": "（中央社記者蔡孟妤高雄28日電）高雄市長陳其邁今天上午完成投票，並呼籲市民要踴躍投票，希望選出一位好市長，帶領高雄繼續往前邁進。",
+        "summary": "陳其邁投完票　呼籲市民踴躍投票選出好市長",
+        "categories": [
+          "台灣"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-46558e037a245fa3dfc5",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aipl/202611280052.aspx",
+            "published_at": "2026-11-28",
+            "excerpt": "陳其邁投完票　呼籲市民踴躍投票選出好市長\n（中央社記者蔡孟妤高雄28日電）高雄市長陳其邁今天上午完成投票，並呼籲市民要踴躍投票，希望選出一位好市長，帶領高雄繼續往前邁進。",
+            "section": "台灣"
+          }
+        ],
+        "keywords": [],
+        "aliases": [
+          "cna-e71f9f6d683ad8ae5679"
+        ],
+        "content_revision": "cna-e71f9f6d683ad8ae5679"
+      },
+      {
+        "event_id": "cna-60812b2cc9cd216962bf",
+        "dedup_key": "https://www.cna.com.tw/news/aipl/202611280058.aspx",
+        "event_date": "2026-11-28",
+        "updated_at": "2026-11-28",
+        "published_at": "2026-11-28T04:33:45.000Z",
+        "title": "澎湖地方選舉  6位縣長候選人完成投票",
+        "rss_lead": "（中央社澎湖縣28日）地方公職人員選舉今天投票，澎湖縣6位縣長候選人都在上午完成投票，各投開票所秩序良好，由於天氣良好，預估投票率會提高。",
+        "summary": "澎湖地方選舉  6位縣長候選人完成投票",
+        "categories": [
+          "台灣"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-90cd899fd19fe64ba5de",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aipl/202611280058.aspx",
+            "published_at": "2026-11-28",
+            "excerpt": "澎湖地方選舉  6位縣長候選人完成投票\n（中央社澎湖縣28日）地方公職人員選舉今天投票，澎湖縣6位縣長候選人都在上午完成投票，各投開票所秩序良好，由於天氣良好，預估投票率會提高。",
+            "section": "台灣"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "選舉",
+            "kind": "專業用語",
+            "answer_domain": "politics",
+            "clue_options": [
+              {
+                "clue": "由選民投票產生公職代表的制度，結果仍須接受法定程序及監督。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "由選民投票產生公職代表的制度，結果仍須接受法定程序及監督。（2字）"
+          }
+        ],
+        "aliases": [
+          "cna-60812b2cc9cd216962bf"
+        ],
+        "content_revision": "cna-60812b2cc9cd216962bf"
+      },
+      {
+        "event_id": "cna-842f3de4b4698f54cf71",
+        "dedup_key": "https://www.cna.com.tw/news/aipl/202611280061.aspx",
+        "event_date": "2026-11-28",
+        "updated_at": "2026-11-28",
+        "published_at": "2026-11-28T04:54:52.000Z",
+        "title": "蔡英文赴建安國小投票　笑答心情很好",
+        "rss_lead": "（中央社記者葉素萍台北28日電）九合一選舉今天投票，前總統蔡英文中午赴台北市建安國小投票，今天陽光普照，媒體詢問她心情如何，蔡英文笑答「很好」。",
+        "summary": "蔡英文赴建安國小投票　笑答心情很好",
+        "categories": [
+          "台灣"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-f8f0af493404af122e8c",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aipl/202611280061.aspx",
+            "published_at": "2026-11-28",
+            "excerpt": "蔡英文赴建安國小投票　笑答心情很好\n（中央社記者葉素萍台北28日電）九合一選舉今天投票，前總統蔡英文中午赴台北市建安國小投票，今天陽光普照，媒體詢問她心情如何，蔡英文笑答「很好」。",
+            "section": "台灣"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "蔡英文",
+            "kind": "人物",
+            "clue_options": [
+              {
+                "clue": "據報導，某位人物赴建安國小投票　笑答心情很好。（3字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "event",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 89,
+            "difficulty": "medium",
+            "clue": "據報導，某位人物赴建安國小投票　笑答心情很好。（3字）"
+          },
+          {
+            "word": "選舉",
+            "kind": "專業用語",
+            "answer_domain": "politics",
+            "clue_options": [
+              {
+                "clue": "由選民投票產生公職代表的制度，結果仍須接受法定程序及監督。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "由選民投票產生公職代表的制度，結果仍須接受法定程序及監督。（2字）"
+          }
+        ],
+        "aliases": [
+          "cna-842f3de4b4698f54cf71"
+        ],
+        "content_revision": "cna-842f3de4b4698f54cf71"
+      },
+      {
+        "event_id": "cna-7626c151139664630071",
+        "dedup_key": "https://www.cna.com.tw/news/aipl/202611280064.aspx",
+        "event_date": "2026-11-28",
+        "updated_at": "2026-11-28",
+        "published_at": "2026-11-28T05:38:01.000Z",
+        "title": "賴總統蔡英文回報完成投票　籲民眾決定家鄉未來",
+        "rss_lead": "（中央社記者葉素萍台北28日電）今天是九合一選舉投票日，總統賴清德透過官方LINE表示，他已完成投票，提醒民眾帶齊投票三寶，在投票時間內完成投票。前總統蔡英文也透過臉書回報已完成投票，希望大家透過手上的選票，選擇自己想要的生活，一起決定家鄉的未來。",
+        "summary": "賴總統蔡英文回報完成投票　籲民眾決定家鄉未來",
+        "categories": [
+          "台灣"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-8bce3e4eafa48dbc924b",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aipl/202611280064.aspx",
+            "published_at": "2026-11-28",
+            "excerpt": "賴總統蔡英文回報完成投票　籲民眾決定家鄉未來\n（中央社記者葉素萍台北28日電）今天是九合一選舉投票日，總統賴清德透過官方LINE表示，他已完成投票，提醒民眾帶齊投票三寶，在投票時間內完成投票。前總統蔡英文也透過臉書回報已完成投票，希望大家透過手上的選票，選擇自己想要的生活，一起決定家鄉的未來。",
+            "section": "台灣"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "選舉",
+            "kind": "專業用語",
+            "answer_domain": "politics",
+            "clue_options": [
+              {
+                "clue": "由選民投票產生公職代表的制度，結果仍須接受法定程序及監督。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "由選民投票產生公職代表的制度，結果仍須接受法定程序及監督。（2字）"
+          }
+        ],
+        "aliases": [
+          "cna-7626c151139664630071"
+        ],
+        "content_revision": "cna-7626c151139664630071"
+      },
+      {
+        "event_id": "cna-3e96847e84faa1142127",
+        "dedup_key": "https://www.cna.com.tw/news/aipl/202611280065.aspx",
+        "event_date": "2026-11-28",
+        "updated_at": "2026-11-28",
+        "published_at": "2026-11-28T05:40:03.000Z",
+        "title": "選舉投票返鄉熱　台中快閃綠島蘭嶼路途逾500公里",
+        "rss_lead": "（中央社記者盧太城台東縣28日電）選情熱，不少台東年輕人珍惜手中一票，千辛萬苦返鄉投票，有人從台中出發開車500公里，再換船回綠島，有人回到蘭嶼只能快閃30分鐘，還有許多學生搶票回台東。",
+        "summary": "選舉投票返鄉熱　台中快閃綠島蘭嶼路途逾500公里",
+        "categories": [
+          "台灣"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-8e71d3e0baddf39b2465",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aipl/202611280065.aspx",
+            "published_at": "2026-11-28",
+            "excerpt": "選舉投票返鄉熱　台中快閃綠島蘭嶼路途逾500公里\n（中央社記者盧太城台東縣28日電）選情熱，不少台東年輕人珍惜手中一票，千辛萬苦返鄉投票，有人從台中出發開車500公里，再換船回綠島，有人回到蘭嶼只能快閃30分鐘，還有許多學生搶票回台東。",
+            "section": "台灣"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "選舉",
+            "kind": "專業用語",
+            "answer_domain": "politics",
+            "clue_options": [
+              {
+                "clue": "由選民投票產生公職代表的制度，結果仍須接受法定程序及監督。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "由選民投票產生公職代表的制度，結果仍須接受法定程序及監督。（2字）"
+          }
+        ],
+        "aliases": [
+          "cna-3e96847e84faa1142127"
+        ],
+        "content_revision": "cna-3e96847e84faa1142127"
+      },
+      {
+        "event_id": "cna-82bcd0e8d8869636955b",
+        "dedup_key": "https://www.cna.com.tw/news/aipl/202611280068.aspx",
+        "event_date": "2026-11-28",
+        "updated_at": "2026-11-28",
+        "published_at": "2026-11-28T06:17:10.000Z",
+        "title": "解除羈押後首次投票　柯文哲：只是來盡義務",
+        "rss_lead": "（中央社記者許維庭台北28日電）九合一選舉與「廢除非核家園」公投今天投、開票，民眾黨創黨主席柯文哲表示，這次投票選下午，是問過ChatGPT，下午1時到2時之間人最少；對於解除羈押後首次投票的心情，柯文哲說，沒有什麼心情，只是來盡義務。",
+        "summary": "解除羈押後首次投票　柯文哲：只是來盡義務",
+        "categories": [
+          "台灣"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-62d8a498bc8fb3c98ef0",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aipl/202611280068.aspx",
+            "published_at": "2026-11-28",
+            "excerpt": "解除羈押後首次投票　柯文哲：只是來盡義務\n（中央社記者許維庭台北28日電）九合一選舉與「廢除非核家園」公投今天投、開票，民眾黨創黨主席柯文哲表示，這次投票選下午，是問過ChatGPT，下午1時到2時之間人最少；對於解除羈押後首次投票的心情，柯文哲說，沒有什麼心情，只是來盡義務。",
+            "section": "台灣"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "公投",
+            "kind": "專業用語",
+            "answer_domain": "politics",
+            "clue_options": [
+              {
+                "clue": "選民對公共議題直接表決的制度，與選出代議士的選舉有所區別。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "選民對公共議題直接表決的制度，與選出代議士的選舉有所區別。（2字）"
+          },
+          {
+            "word": "選舉",
+            "kind": "專業用語",
+            "answer_domain": "politics",
+            "clue_options": [
+              {
+                "clue": "由選民投票產生公職代表的制度，結果仍須接受法定程序及監督。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "由選民投票產生公職代表的制度，結果仍須接受法定程序及監督。（2字）"
+          },
+          {
+            "word": "羈押",
+            "kind": "專業用語",
+            "answer_domain": "society",
+            "clue_options": [
+              {
+                "clue": "審判確定前，法院依逃亡或串證等法定事由限制被告自由的處分。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "審判確定前，法院依逃亡或串證等法定事由限制被告自由的處分。（2字）"
+          }
+        ],
+        "aliases": [
+          "cna-82bcd0e8d8869636955b"
+        ],
+        "content_revision": "cna-82bcd0e8d8869636955b"
+      },
+      {
+        "event_id": "cna-8330ebaaf4d16e991c67",
+        "dedup_key": "https://www.cna.com.tw/news/aipl/202611280076.aspx",
+        "event_date": "2026-11-28",
+        "updated_at": "2026-11-28",
+        "published_at": "2026-11-28T07:18:29.000Z",
+        "title": "陳水扁台南投票　低調表示今天純投票就好",
+        "rss_lead": "（中央社記者楊思瑞台南28日電）今天是九合一選舉投票日，前總統陳水扁下午前往設於台南市衛生局林森辦公室的投開票所投票，面對前往採訪媒體的詢問頻頻致謝，僅低調回應「今天純投票就好」。",
+        "summary": "陳水扁台南投票　低調表示今天純投票就好",
+        "categories": [
+          "台灣"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-c37f0c859124a4d0a2d2",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aipl/202611280076.aspx",
+            "published_at": "2026-11-28",
+            "excerpt": "陳水扁台南投票　低調表示今天純投票就好\n（中央社記者楊思瑞台南28日電）今天是九合一選舉投票日，前總統陳水扁下午前往設於台南市衛生局林森辦公室的投開票所投票，面對前往採訪媒體的詢問頻頻致謝，僅低調回應「今天純投票就好」。",
+            "section": "台灣"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "選舉",
+            "kind": "專業用語",
+            "answer_domain": "politics",
+            "clue_options": [
+              {
+                "clue": "由選民投票產生公職代表的制度，結果仍須接受法定程序及監督。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "由選民投票產生公職代表的制度，結果仍須接受法定程序及監督。（2字）"
+          }
+        ],
+        "aliases": [
+          "cna-8330ebaaf4d16e991c67"
+        ],
+        "content_revision": "cna-8330ebaaf4d16e991c67"
+      },
+      {
         "event_id": "cna-122928124b9ff032496d",
         "dedup_key": "https://www.cna.com.tw/news/ait/202611220116.aspx",
         "event_date": "2026-11-22",
@@ -36441,6 +38195,241 @@
           "cna-340a1e8a067c3ce99e1c"
         ],
         "content_revision": "cna-340a1e8a067c3ce99e1c"
+      },
+      {
+        "event_id": "cna-eb303c88e50a712cac57",
+        "dedup_key": "https://www.cna.com.tw/news/aloc/202611280021.aspx",
+        "event_date": "2026-11-28",
+        "updated_at": "2026-11-28",
+        "published_at": "2026-11-28T02:11:24.000Z",
+        "title": "柯志恩投票後打算逛市場　自誇很會煮菜",
+        "rss_lead": "（中央社記者林巧璉高雄28日電）九合一選舉今天進行投票，國民黨高雄市長候選人柯志恩上午完成投票後說，她心情很輕鬆，美好的一仗已經打完了，接下來她打算去逛逛市場，還不忘自誇：「我也是很會煮菜的。」",
+        "summary": "柯志恩投票後打算逛市場　自誇很會煮菜",
+        "categories": [
+          "台灣"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-097e630f41aac6dd1561",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aloc/202611280021.aspx",
+            "published_at": "2026-11-28",
+            "excerpt": "柯志恩投票後打算逛市場　自誇很會煮菜\n（中央社記者林巧璉高雄28日電）九合一選舉今天進行投票，國民黨高雄市長候選人柯志恩上午完成投票後說，她心情很輕鬆，美好的一仗已經打完了，接下來她打算去逛逛市場，還不忘自誇：「我也是很會煮菜的。」",
+            "section": "台灣"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "選舉",
+            "kind": "專業用語",
+            "answer_domain": "politics",
+            "clue_options": [
+              {
+                "clue": "由選民投票產生公職代表的制度，結果仍須接受法定程序及監督。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "由選民投票產生公職代表的制度，結果仍須接受法定程序及監督。（2字）"
+          }
+        ],
+        "aliases": [
+          "cna-eb303c88e50a712cac57"
+        ],
+        "content_revision": "cna-eb303c88e50a712cac57"
+      },
+      {
+        "event_id": "cna-2494b536f1f4e1dd4022",
+        "dedup_key": "https://www.cna.com.tw/news/aloc/202611280042.aspx",
+        "event_date": "2026-11-28",
+        "updated_at": "2026-11-28",
+        "published_at": "2026-11-28T03:09:09.000Z",
+        "title": "艋舺青山王遶境11/29衝轎  成都路階段性交管",
+        "rss_lead": "（中央社記者黃麗芸台北28日電）台北市艋舺青山王宮遶境活動自今天起至30日登場，北市警方指出，遶境隊伍明晚將於台北天后宮前進行衝轎儀式，為維護周邊車流和遶境隊伍秩序，成都路明晚將階段性交通管制。",
+        "summary": "艋舺青山王遶境11/29衝轎  成都路階段性交管",
+        "categories": [
+          "台灣"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-44281fc4aee04d8c7e11",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aloc/202611280042.aspx",
+            "published_at": "2026-11-28",
+            "excerpt": "艋舺青山王遶境11/29衝轎  成都路階段性交管\n（中央社記者黃麗芸台北28日電）台北市艋舺青山王宮遶境活動自今天起至30日登場，北市警方指出，遶境隊伍明晚將於台北天后宮前進行衝轎儀式，為維護周邊車流和遶境隊伍秩序，成都路明晚將階段性交通管制。",
+            "section": "台灣"
+          }
+        ],
+        "keywords": [],
+        "aliases": [
+          "cna-2494b536f1f4e1dd4022"
+        ],
+        "content_revision": "cna-2494b536f1f4e1dd4022"
+      },
+      {
+        "event_id": "cna-13e484726ddf2b53b13d",
+        "dedup_key": "https://www.cna.com.tw/news/aloc/202611280049.aspx",
+        "event_date": "2026-11-28",
+        "updated_at": "2026-11-28",
+        "published_at": "2026-11-28T03:53:25.000Z",
+        "title": "韓國瑜回雲林投票　籲守護台灣民主",
+        "rss_lead": "（中央社記者姜宜菁雲林縣28日電）立法院長韓國瑜今天上午完成投票，他說，台灣聞名世界一個硬體一個軟體，硬體是台積電，軟體則是民主制度，所以選舉是履行公民權益最重要的一環，「為台灣民主加油！」",
+        "summary": "韓國瑜回雲林投票　籲守護台灣民主",
+        "categories": [
+          "台灣"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-ad6bc49d321afb59be1c",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aloc/202611280049.aspx",
+            "published_at": "2026-11-28",
+            "excerpt": "韓國瑜回雲林投票　籲守護台灣民主\n（中央社記者姜宜菁雲林縣28日電）立法院長韓國瑜今天上午完成投票，他說，台灣聞名世界一個硬體一個軟體，硬體是台積電，軟體則是民主制度，所以選舉是履行公民權益最重要的一環，「為台灣民主加油！」",
+            "section": "台灣"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "立法院",
+            "kind": "機關或組織",
+            "clue_options": [
+              {
+                "clue": "透過法律案、預算案及質詢等職權監督行政部門的中央民意機關。（3字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 89,
+            "difficulty": "medium",
+            "clue": "透過法律案、預算案及質詢等職權監督行政部門的中央民意機關。（3字）"
+          },
+          {
+            "word": "選舉",
+            "kind": "專業用語",
+            "answer_domain": "politics",
+            "clue_options": [
+              {
+                "clue": "由選民投票產生公職代表的制度，結果仍須接受法定程序及監督。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "由選民投票產生公職代表的制度，結果仍須接受法定程序及監督。（2字）"
+          }
+        ],
+        "aliases": [
+          "cna-13e484726ddf2b53b13d"
+        ],
+        "content_revision": "cna-13e484726ddf2b53b13d"
+      },
+      {
+        "event_id": "cna-b0a4c28ed508c9e7505b",
+        "dedup_key": "https://www.cna.com.tw/news/aloc/202611280056.aspx",
+        "event_date": "2026-11-28",
+        "updated_at": "2026-11-28",
+        "published_at": "2026-11-28T04:28:40.000Z",
+        "title": "台南2起投票違規　女子撕毀選票及手機未關機鈴響",
+        "rss_lead": "（中央社記者張榮祥台南28日電）今天是九合一大選投票日，截至中午12時，台南市發生2起違規事件，分別是撕毀選票及在投票所手機未關機且鈴響，當事人都是女性，台南市選舉委員會將依法處理。",
+        "summary": "台南2起投票違規　女子撕毀選票及手機未關機鈴響",
+        "categories": [
+          "台灣"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-31ccdd12a72cb284c961",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aloc/202611280056.aspx",
+            "published_at": "2026-11-28",
+            "excerpt": "台南2起投票違規　女子撕毀選票及手機未關機鈴響\n（中央社記者張榮祥台南28日電）今天是九合一大選投票日，截至中午12時，台南市發生2起違規事件，分別是撕毀選票及在投票所手機未關機且鈴響，當事人都是女性，台南市選舉委員會將依法處理。",
+            "section": "台灣"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "選舉",
+            "kind": "專業用語",
+            "answer_domain": "politics",
+            "clue_options": [
+              {
+                "clue": "由選民投票產生公職代表的制度，結果仍須接受法定程序及監督。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "由選民投票產生公職代表的制度，結果仍須接受法定程序及監督。（2字）"
+          }
+        ],
+        "aliases": [
+          "cna-b0a4c28ed508c9e7505b"
+        ],
+        "content_revision": "cna-b0a4c28ed508c9e7505b"
+      },
+      {
+        "event_id": "cna-5116c226108de213af6c",
+        "dedup_key": "https://www.cna.com.tw/news/aloc/202611280063.aspx",
+        "event_date": "2026-11-28",
+        "updated_at": "2026-11-28",
+        "published_at": "2026-11-28T05:06:56.000Z",
+        "title": "北市動物園「企鵝走路趣」12月再辦3天　每天限160人",
+        "rss_lead": "（中央社記者楊淑閔台北28日電）台北市立動物園今天表示，19日首次辦理「企鵝走路趣」活動，獲得遊客迴響，規劃12月3日、17日、29日再舉辦3天活動，每天限額160人，分2場次各80人參與。",
+        "summary": "北市動物園「企鵝走路趣」12月再辦3天　每天限160人",
+        "categories": [
+          "台灣"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-38a4eaeff12b4044167f",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aloc/202611280063.aspx",
+            "published_at": "2026-11-28",
+            "excerpt": "北市動物園「企鵝走路趣」12月再辦3天　每天限160人\n（中央社記者楊淑閔台北28日電）台北市立動物園今天表示，19日首次辦理「企鵝走路趣」活動，獲得遊客迴響，規劃12月3日、17日、29日再舉辦3天活動，每天限額160人，分2場次各80人參與。",
+            "section": "台灣"
+          }
+        ],
+        "keywords": [],
+        "aliases": [
+          "cna-5116c226108de213af6c"
+        ],
+        "content_revision": "cna-5116c226108de213af6c"
       },
       {
         "event_id": "cna-7a832009d64f368beb5c",
@@ -48313,6 +50302,625 @@
         "content_revision": "cna-e98ce841c1d6562ee6bd"
       },
       {
+        "event_id": "cna-ba4b3f0396a9143e9851",
+        "dedup_key": "https://www.cna.com.tw/news/aopl/202611280008.aspx",
+        "event_date": "2026-11-28",
+        "updated_at": "2026-11-28",
+        "published_at": "2026-11-27T22:25:50.000Z",
+        "title": "烏克蘭雷射防空武器首傳戰果　擊落俄羅斯噴射無人機",
+        "rss_lead": "（中央社基輔27日綜合外電報導）烏克蘭國家支持的國防科技中心Brave1今天向法新社表示，烏克蘭首次使用雷射武器擊落一架俄羅斯噴射動力無人機。",
+        "summary": "烏克蘭雷射防空武器首傳戰果　擊落俄羅斯噴射無人機",
+        "categories": [
+          "國際"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-8b20709246796b2587f4",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aopl/202611280008.aspx",
+            "published_at": "2026-11-28",
+            "excerpt": "烏克蘭雷射防空武器首傳戰果　擊落俄羅斯噴射無人機\n（中央社基輔27日綜合外電報導）烏克蘭國家支持的國防科技中心Brave1今天向法新社表示，烏克蘭首次使用雷射武器擊落一架俄羅斯噴射動力無人機。",
+            "section": "國際"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "無人機",
+            "kind": "科技用語",
+            "clue_options": [
+              {
+                "clue": "可遙控或自主飛行的載具，軍事偵察與民用巡檢皆有應用。（3字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 89,
+            "difficulty": "medium",
+            "clue": "可遙控或自主飛行的載具，軍事偵察與民用巡檢皆有應用。（3字）"
+          },
+          {
+            "word": "國防",
+            "kind": "專業用語",
+            "answer_domain": "politics",
+            "clue_options": [
+              {
+                "clue": "面對外來威脅，整合軍事與非軍事資源維護國家安全的公共事務。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "面對外來威脅，整合軍事與非軍事資源維護國家安全的公共事務。（2字）"
+          }
+        ],
+        "aliases": [
+          "cna-ba4b3f0396a9143e9851"
+        ],
+        "content_revision": "cna-ba4b3f0396a9143e9851"
+      },
+      {
+        "event_id": "cna-e25760988ad7862f2d45",
+        "dedup_key": "https://www.cna.com.tw/news/aopl/202611280013.aspx",
+        "event_date": "2026-11-28",
+        "updated_at": "2026-11-28",
+        "published_at": "2026-11-28T01:28:06.000Z",
+        "title": "美軍擊癱試圖駛離伊朗商船　德黑蘭誓言突破美國封鎖",
+        "rss_lead": "（中央社杜拜27日綜合外電報導）美國軍方今天表示，已使1艘試圖突破美國對伊朗封鎖的商船失去動力。另一方面，伊朗最高領袖的顧問表示，德黑蘭不會重啟荷莫茲海峽（Strait of Hormuz），並誓言突破美方封鎖。",
+        "summary": "美軍擊癱試圖駛離伊朗商船　德黑蘭誓言突破美國封鎖",
+        "categories": [
+          "國際"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-e0fa0227ede1d06a0b24",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aopl/202611280013.aspx",
+            "published_at": "2026-11-28",
+            "excerpt": "美軍擊癱試圖駛離伊朗商船　德黑蘭誓言突破美國封鎖\n（中央社杜拜27日綜合外電報導）美國軍方今天表示，已使1艘試圖突破美國對伊朗封鎖的商船失去動力。另一方面，伊朗最高領袖的顧問表示，德黑蘭不會重啟荷莫茲海峽（Strait of Hormuz），並誓言突破美方封鎖。",
+            "section": "國際"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "國軍",
+            "kind": "專業用語",
+            "answer_domain": "politics",
+            "clue_options": [
+              {
+                "clue": "我國正規武裝部隊的統稱，受文人統制與國家法制規範。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "我國正規武裝部隊的統稱，受文人統制與國家法制規範。（2字）"
+          }
+        ],
+        "aliases": [
+          "cna-e25760988ad7862f2d45"
+        ],
+        "content_revision": "cna-e25760988ad7862f2d45"
+      },
+      {
+        "event_id": "cna-6c524fc8cb5cda3ab1b5",
+        "dedup_key": "https://www.cna.com.tw/news/aopl/202611280030.aspx",
+        "event_date": "2026-11-28",
+        "updated_at": "2026-11-28",
+        "published_at": "2026-11-28T02:49:44.000Z",
+        "title": "巴拉圭數位銀行倒閉案延燒　前經濟部長主動投案",
+        "rss_lead": "（中央社亞松森27日綜合外電報導）巴拉圭前經濟部長費南德茲（Carlos Fernandez Valdovinos）今天主動投案，成為該國大型銀行倒閉後，最新1名遭逮捕的前政府官員。",
+        "summary": "巴拉圭數位銀行倒閉案延燒　前經濟部長主動投案",
+        "categories": [
+          "國際"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-71ccce1249517c4ffe02",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aopl/202611280030.aspx",
+            "published_at": "2026-11-28",
+            "excerpt": "巴拉圭數位銀行倒閉案延燒　前經濟部長主動投案\n（中央社亞松森27日綜合外電報導）巴拉圭前經濟部長費南德茲（Carlos Fernandez Valdovinos）今天主動投案，成為該國大型銀行倒閉後，最新1名遭逮捕的前政府官員。",
+            "section": "國際"
+          }
+        ],
+        "keywords": [],
+        "aliases": [
+          "cna-6c524fc8cb5cda3ab1b5"
+        ],
+        "content_revision": "cna-6c524fc8cb5cda3ab1b5"
+      },
+      {
+        "event_id": "cna-792c195a2870dc27d1e1",
+        "dedup_key": "https://www.cna.com.tw/news/aopl/202611280034.aspx",
+        "event_date": "2026-11-28",
+        "updated_at": "2026-11-28",
+        "published_at": "2026-11-28T02:55:52.000Z",
+        "title": "澳洲維多利亞州選舉投票　保守派可望擊敗執政工黨",
+        "rss_lead": "（中央社墨爾本28日綜合外電報導）澳洲維多利亞州（Victoria）選舉今天展開投票，民調顯示保守派陣營可望拿下勝選，可能使總理艾班尼斯（Anthony Albanese）所屬的工黨（Labor）遭遇重挫。",
+        "summary": "澳洲維多利亞州選舉投票　保守派可望擊敗執政工黨",
+        "categories": [
+          "國際"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-889562d3b40a075b72f8",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aopl/202611280034.aspx",
+            "published_at": "2026-11-28",
+            "excerpt": "澳洲維多利亞州選舉投票　保守派可望擊敗執政工黨\n（中央社墨爾本28日綜合外電報導）澳洲維多利亞州（Victoria）選舉今天展開投票，民調顯示保守派陣營可望拿下勝選，可能使總理艾班尼斯（Anthony Albanese）所屬的工黨（Labor）遭遇重挫。",
+            "section": "國際"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "選舉",
+            "kind": "專業用語",
+            "answer_domain": "politics",
+            "clue_options": [
+              {
+                "clue": "由選民投票產生公職代表的制度，結果仍須接受法定程序及監督。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "由選民投票產生公職代表的制度，結果仍須接受法定程序及監督。（2字）"
+          }
+        ],
+        "aliases": [
+          "cna-792c195a2870dc27d1e1"
+        ],
+        "content_revision": "cna-792c195a2870dc27d1e1"
+      },
+      {
+        "event_id": "cna-603f299076d43ef2d993",
+        "dedup_key": "https://www.cna.com.tw/news/aopl/202611280045.aspx",
+        "event_date": "2026-11-28",
+        "updated_at": "2026-11-28",
+        "published_at": "2026-11-28T03:31:16.000Z",
+        "title": "凱特王妃抗癌紀錄片　真情流露打破王室矜持傳統",
+        "rss_lead": "（中央社倫敦28日綜合外電報導）英國威爾斯王妃凱特（Kate）親述抗癌歷程的新紀錄片，以坦率真摯的情感基調敞開心扉，呈現英國王室紀錄片前所未見的風格。",
+        "summary": "凱特王妃抗癌紀錄片　真情流露打破王室矜持傳統",
+        "categories": [
+          "國際"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-041adca1a4a27d7e9494",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aopl/202611280045.aspx",
+            "published_at": "2026-11-28",
+            "excerpt": "凱特王妃抗癌紀錄片　真情流露打破王室矜持傳統\n（中央社倫敦28日綜合外電報導）英國威爾斯王妃凱特（Kate）親述抗癌歷程的新紀錄片，以坦率真摯的情感基調敞開心扉，呈現英國王室紀錄片前所未見的風格。",
+            "section": "國際"
+          }
+        ],
+        "keywords": [],
+        "aliases": [
+          "cna-603f299076d43ef2d993"
+        ],
+        "content_revision": "cna-603f299076d43ef2d993"
+      },
+      {
+        "event_id": "cna-76187f68201b258a4cec",
+        "dedup_key": "https://www.cna.com.tw/news/aopl/202611280048.aspx",
+        "event_date": "2026-11-28",
+        "updated_at": "2026-11-28",
+        "published_at": "2026-11-28T03:48:22.000Z",
+        "title": "西班牙大選前夕　總理桑傑士最後衝刺力抗右派",
+        "rss_lead": "（中央社馬德里27日綜合外電報導）西班牙本週末將舉行國會大選，外界預料右派與極右派勢力可望勝出；屬於社會勞工黨（PSOE）的總理桑傑士，今天在選前最後造勢敦促踴躍投票，不要讓西班牙走上「回頭路」。",
+        "summary": "西班牙大選前夕　總理桑傑士最後衝刺力抗右派",
+        "categories": [
+          "國際"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-f70b17f833a5af81521d",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aopl/202611280048.aspx",
+            "published_at": "2026-11-28",
+            "excerpt": "西班牙大選前夕　總理桑傑士最後衝刺力抗右派\n（中央社馬德里27日綜合外電報導）西班牙本週末將舉行國會大選，外界預料右派與極右派勢力可望勝出；屬於社會勞工黨（PSOE）的總理桑傑士，今天在選前最後造勢敦促踴躍投票，不要讓西班牙走上「回頭路」。",
+            "section": "國際"
+          }
+        ],
+        "keywords": [],
+        "aliases": [
+          "cna-76187f68201b258a4cec"
+        ],
+        "content_revision": "cna-76187f68201b258a4cec"
+      },
+      {
+        "event_id": "cna-16fdfc0f7ccb39862283",
+        "dedup_key": "https://www.cna.com.tw/news/aopl/202611280051.aspx",
+        "event_date": "2026-11-28",
+        "updated_at": "2026-11-28",
+        "published_at": "2026-11-28T03:59:29.000Z",
+        "title": "路透：俄羅斯船隊駛往利比亞途中折返　疑因軍艦遭烏克蘭擊沉",
+        "rss_lead": "（中央社巴黎27日綜合外電報導）三名軍方及安全部門消息人士今天告訴路透社，22日烏克蘭無人艇於利比亞班加西港（Benghazi）擊沉俄羅斯海軍小型護衛艦後，俄羅斯一支載運軍用車輛、原定前往利比亞的船隊已在地中海中途折返。",
+        "summary": "路透：俄羅斯船隊駛往利比亞途中折返　疑因軍艦遭烏克蘭擊沉",
+        "categories": [
+          "國際"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-d045a350f75be00c9cac",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aopl/202611280051.aspx",
+            "published_at": "2026-11-28",
+            "excerpt": "路透：俄羅斯船隊駛往利比亞途中折返　疑因軍艦遭烏克蘭擊沉\n（中央社巴黎27日綜合外電報導）三名軍方及安全部門消息人士今天告訴路透社，22日烏克蘭無人艇於利比亞班加西港（Benghazi）擊沉俄羅斯海軍小型護衛艦後，俄羅斯一支載運軍用車輛、原定前往利比亞的船隊已在地中海中途折返。",
+            "section": "國際"
+          }
+        ],
+        "keywords": [],
+        "aliases": [
+          "cna-16fdfc0f7ccb39862283"
+        ],
+        "content_revision": "cna-16fdfc0f7ccb39862283"
+      },
+      {
+        "event_id": "cna-f6303ed8277d6607351c",
+        "dedup_key": "https://www.cna.com.tw/news/aopl/202611280053.aspx",
+        "event_date": "2026-11-28",
+        "updated_at": "2026-11-28",
+        "published_at": "2026-11-28T04:10:34.000Z",
+        "title": "西班牙29日大選右翼領先可能變天　重點一次看",
+        "rss_lead": "（中央社馬德里27日綜合外電報導）西班牙將於11月29日進行提前改選，總理桑傑士（Pedro Sanchez）的左翼社會勞工黨政府敗選機率不低，很可能出現極右翼勢力在西班牙當代民主時期首度執政的景況。",
+        "summary": "西班牙29日大選右翼領先可能變天　重點一次看",
+        "categories": [
+          "國際"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-f1f5476e5d9c7c060ed5",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aopl/202611280053.aspx",
+            "published_at": "2026-11-28",
+            "excerpt": "西班牙29日大選右翼領先可能變天　重點一次看\n（中央社馬德里27日綜合外電報導）西班牙將於11月29日進行提前改選，總理桑傑士（Pedro Sanchez）的左翼社會勞工黨政府敗選機率不低，很可能出現極右翼勢力在西班牙當代民主時期首度執政的景況。",
+            "section": "國際"
+          }
+        ],
+        "keywords": [],
+        "aliases": [
+          "cna-f6303ed8277d6607351c"
+        ],
+        "content_revision": "cna-f6303ed8277d6607351c"
+      },
+      {
+        "event_id": "cna-bb2c06b7053e683b5dc7",
+        "dedup_key": "https://www.cna.com.tw/news/aopl/202611280055.aspx",
+        "event_date": "2026-11-28",
+        "updated_at": "2026-11-28",
+        "published_at": "2026-11-28T04:24:38.000Z",
+        "title": "憂美管制晶片出口波及產業　荷總理計畫G20會川普",
+        "rss_lead": "（中央社阿姆斯特丹27日綜合外電報導）荷蘭總理葉騰（Rob Jetten）表示，他計畫在下個月於邁阿密舉行的20國集團峰會（G20），與美國總統川普討論美國擬議中的「硬體技術多邊協調管制法案」（MATCH Act）",
+        "summary": "憂美管制晶片出口波及產業　荷總理計畫G20會川普",
+        "categories": [
+          "國際"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-03c115a0e5d158add0d8",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aopl/202611280055.aspx",
+            "published_at": "2026-11-28",
+            "excerpt": "憂美管制晶片出口波及產業　荷總理計畫G20會川普\n（中央社阿姆斯特丹27日綜合外電報導）荷蘭總理葉騰（Rob Jetten）表示，他計畫在下個月於邁阿密舉行的20國集團峰會（G20），與美國總統川普討論美國擬議中的「硬體技術多邊協調管制法案」（MATCH Act）",
+            "section": "國際"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "晶片",
+            "kind": "科技用語",
+            "clue_options": [
+              {
+                "clue": "把大量電晶體整合在微小材料上的元件，效能與耗電是設計取捨。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "把大量電晶體整合在微小材料上的元件，效能與耗電是設計取捨。（2字）"
+          },
+          {
+            "word": "峰會",
+            "kind": "專業用語",
+            "answer_domain": "international",
+            "clue_options": [
+              {
+                "clue": "國家或政府領袖層級的會談，常藉聯合聲明表達共同立場。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "國家或政府領袖層級的會談，常藉聯合聲明表達共同立場。（2字）"
+          }
+        ],
+        "aliases": [
+          "cna-bb2c06b7053e683b5dc7"
+        ],
+        "content_revision": "cna-bb2c06b7053e683b5dc7"
+      },
+      {
+        "event_id": "cna-e52dd11e800281d84d0e",
+        "dedup_key": "https://www.cna.com.tw/news/aopl/202611280059.aspx",
+        "event_date": "2026-11-28",
+        "updated_at": "2026-11-28",
+        "published_at": "2026-11-28T04:34:47.000Z",
+        "title": "法極左派領袖梅蘭雄訪柏林　籲徹底重整法德關係",
+        "rss_lead": "（中央社柏林27日綜合外電報導）法國極左派總統候選人梅蘭雄（Jean-Luc Melenchon）今天呼籲「全面重整」與柏林當局的關係，並對德國在歐洲聯盟（EU）的經濟主導地位及國防支出紀錄提出尖銳批評。",
+        "summary": "法極左派領袖梅蘭雄訪柏林　籲徹底重整法德關係",
+        "categories": [
+          "國際"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-566d29eaed02037c5648",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aopl/202611280059.aspx",
+            "published_at": "2026-11-28",
+            "excerpt": "法極左派領袖梅蘭雄訪柏林　籲徹底重整法德關係\n（中央社柏林27日綜合外電報導）法國極左派總統候選人梅蘭雄（Jean-Luc Melenchon）今天呼籲「全面重整」與柏林當局的關係，並對德國在歐洲聯盟（EU）的經濟主導地位及國防支出紀錄提出尖銳批評。",
+            "section": "國際"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "國防",
+            "kind": "專業用語",
+            "answer_domain": "politics",
+            "clue_options": [
+              {
+                "clue": "面對外來威脅，整合軍事與非軍事資源維護國家安全的公共事務。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "面對外來威脅，整合軍事與非軍事資源維護國家安全的公共事務。（2字）"
+          }
+        ],
+        "aliases": [
+          "cna-e52dd11e800281d84d0e"
+        ],
+        "content_revision": "cna-e52dd11e800281d84d0e"
+      },
+      {
+        "event_id": "cna-3cbf6de2dc19b8b8cfdc",
+        "dedup_key": "https://www.cna.com.tw/news/aopl/202611280060.aspx",
+        "event_date": "2026-11-28",
+        "updated_at": "2026-11-28",
+        "published_at": "2026-11-28T04:41:49.000Z",
+        "title": "哥斯大黎加禁聯合國巴勒斯坦領土特別報告員入境　人權高專關切",
+        "rss_lead": "（中央社聖荷西27日綜合外電報導）哥斯大黎加拒絕聯合國負責以色列占領巴勒斯坦領土事務的特別報告員入境，聯合國人權事務高級專員圖克今天對此提出批評，並敦促有關當局重新考慮此決定。",
+        "summary": "哥斯大黎加禁聯合國巴勒斯坦領土特別報告員入境　人權高專關切",
+        "categories": [
+          "國際"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-2a82e206edd026c1ab7a",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aopl/202611280060.aspx",
+            "published_at": "2026-11-28",
+            "excerpt": "哥斯大黎加禁聯合國巴勒斯坦領土特別報告員入境　人權高專關切\n（中央社聖荷西27日綜合外電報導）哥斯大黎加拒絕聯合國負責以色列占領巴勒斯坦領土事務的特別報告員入境，聯合國人權事務高級專員圖克今天對此提出批評，並敦促有關當局重新考慮此決定。",
+            "section": "國際"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "聯合國",
+            "kind": "機關或組織",
+            "clue_options": [
+              {
+                "clue": "以憲章為基礎、透過會員國合作處理和平安全與發展議題的國際組織。（3字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 89,
+            "difficulty": "medium",
+            "clue": "以憲章為基礎、透過會員國合作處理和平安全與發展議題的國際組織。（3字）"
+          },
+          {
+            "word": "人權",
+            "kind": "專業用語",
+            "answer_domain": "society",
+            "clue_options": [
+              {
+                "clue": "每個人因其為人而享有的基本權利，國家權力行使須受其約束。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "每個人因其為人而享有的基本權利，國家權力行使須受其約束。（2字）"
+          }
+        ],
+        "aliases": [
+          "cna-3cbf6de2dc19b8b8cfdc"
+        ],
+        "content_revision": "cna-3cbf6de2dc19b8b8cfdc"
+      },
+      {
+        "event_id": "cna-0569be337e1056e6da60",
+        "dedup_key": "https://www.cna.com.tw/news/aopl/202611280062.aspx",
+        "event_date": "2026-11-28",
+        "updated_at": "2026-11-28",
+        "published_at": "2026-11-28T04:58:54.000Z",
+        "title": "禁公職戴宗教標誌　加最高法院裁定魁省法大部分有效",
+        "rss_lead": "（中央社蒙特婁27日綜合外電報導）加拿大最高法院今天裁定，魁北克省一項禁止多名公職人員在執勤時佩戴宗教標誌的法律大部分有效，為這起考驗加拿大憲法的指標性案件畫下句點。",
+        "summary": "禁公職戴宗教標誌　加最高法院裁定魁省法大部分有效",
+        "categories": [
+          "國際"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-d50a873c301b3b974a82",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aopl/202611280062.aspx",
+            "published_at": "2026-11-28",
+            "excerpt": "禁公職戴宗教標誌　加最高法院裁定魁省法大部分有效\n（中央社蒙特婁27日綜合外電報導）加拿大最高法院今天裁定，魁北克省一項禁止多名公職人員在執勤時佩戴宗教標誌的法律大部分有效，為這起考驗加拿大憲法的指標性案件畫下句點。",
+            "section": "國際"
+          }
+        ],
+        "keywords": [],
+        "aliases": [
+          "cna-0569be337e1056e6da60"
+        ],
+        "content_revision": "cna-0569be337e1056e6da60"
+      },
+      {
+        "event_id": "cna-45918db0fa60c723572a",
+        "dedup_key": "https://www.cna.com.tw/news/aopl/202611280072.aspx",
+        "event_date": "2026-11-28",
+        "updated_at": "2026-11-28",
+        "published_at": "2026-11-28T06:47:19.000Z",
+        "title": "美軍駐英基地遭無人機侵擾　約6架遭驅離後未尋獲",
+        "rss_lead": "（中央社倫敦27日綜合外電報導）知情人士透露，本月稍早約有6架無人機成群飛向一座英國軍事基地，在遭到基地內的美軍防禦裝備驅離後，這些無人機並未被尋獲。",
+        "summary": "美軍駐英基地遭無人機侵擾　約6架遭驅離後未尋獲",
+        "categories": [
+          "國際"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-41f646e225420e8915c7",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aopl/202611280072.aspx",
+            "published_at": "2026-11-28",
+            "excerpt": "美軍駐英基地遭無人機侵擾　約6架遭驅離後未尋獲\n（中央社倫敦27日綜合外電報導）知情人士透露，本月稍早約有6架無人機成群飛向一座英國軍事基地，在遭到基地內的美軍防禦裝備驅離後，這些無人機並未被尋獲。",
+            "section": "國際"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "無人機",
+            "kind": "科技用語",
+            "clue_options": [
+              {
+                "clue": "可遙控或自主飛行的載具，軍事偵察與民用巡檢皆有應用。（3字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 89,
+            "difficulty": "medium",
+            "clue": "可遙控或自主飛行的載具，軍事偵察與民用巡檢皆有應用。（3字）"
+          },
+          {
+            "word": "國軍",
+            "kind": "專業用語",
+            "answer_domain": "politics",
+            "clue_options": [
+              {
+                "clue": "我國正規武裝部隊的統稱，受文人統制與國家法制規範。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "我國正規武裝部隊的統稱，受文人統制與國家法制規範。（2字）"
+          }
+        ],
+        "aliases": [
+          "cna-45918db0fa60c723572a"
+        ],
+        "content_revision": "cna-45918db0fa60c723572a"
+      },
+      {
         "event_id": "cna-56179192aa6aa44faafb",
         "dedup_key": "https://www.cna.com.tw/news/asoc/202611220032.aspx",
         "event_date": "2026-11-22",
@@ -55146,6 +57754,176 @@
         "content_revision": "cna-e589ee61729fba101152"
       },
       {
+        "event_id": "cna-be7c80c4dddd5baa6928",
+        "dedup_key": "https://www.cna.com.tw/news/asoc/202611280044.aspx",
+        "event_date": "2026-11-28",
+        "updated_at": "2026-11-28",
+        "published_at": "2026-11-28T03:15:13.000Z",
+        "title": "花蓮玉里鎮男子疑自認廢票撕毀選票　警方將函請選委會裁處",
+        "rss_lead": "（中央社記者李先鳳花蓮縣28日電）今天是九合一選舉與「廢除非核家園」公投投、開票日，花蓮玉里一名男子疑似認為自己漏蓋選票成廢票，撕毀選票，當場被選務人員發現，並通知警方，將函請縣選委會認定裁處。",
+        "summary": "花蓮玉里鎮男子疑自認廢票撕毀選票　警方將函請選委會裁處",
+        "categories": [
+          "台灣"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-b3beba89260264998c82",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/asoc/202611280044.aspx",
+            "published_at": "2026-11-28",
+            "excerpt": "花蓮玉里鎮男子疑自認廢票撕毀選票　警方將函請選委會裁處\n（中央社記者李先鳳花蓮縣28日電）今天是九合一選舉與「廢除非核家園」公投投、開票日，花蓮玉里一名男子疑似認為自己漏蓋選票成廢票，撕毀選票，當場被選務人員發現，並通知警方，將函請縣選委會認定裁處。",
+            "section": "台灣"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "公投",
+            "kind": "專業用語",
+            "answer_domain": "politics",
+            "clue_options": [
+              {
+                "clue": "選民對公共議題直接表決的制度，與選出代議士的選舉有所區別。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "選民對公共議題直接表決的制度，與選出代議士的選舉有所區別。（2字）"
+          },
+          {
+            "word": "選舉",
+            "kind": "專業用語",
+            "answer_domain": "politics",
+            "clue_options": [
+              {
+                "clue": "由選民投票產生公職代表的制度，結果仍須接受法定程序及監督。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "由選民投票產生公職代表的制度，結果仍須接受法定程序及監督。（2字）"
+          }
+        ],
+        "aliases": [
+          "cna-be7c80c4dddd5baa6928"
+        ],
+        "content_revision": "cna-be7c80c4dddd5baa6928"
+      },
+      {
+        "event_id": "cna-3bc7dc1a50f9ed0089cd",
+        "dedup_key": "https://www.cna.com.tw/news/asoc/202611280050.aspx",
+        "event_date": "2026-11-28",
+        "updated_at": "2026-11-28",
+        "published_at": "2026-11-28T03:58:27.000Z",
+        "title": "北市上午兩起撕毀選票案　警依法函送裁罰",
+        "rss_lead": "（中央社記者黃麗芸台北28日電）九合一選舉今天投票，北市上午發生兩起撕毀選票案，包括萬華區陳女不滿向社區管委會反映事項未果而撕毀里長選票，士林區老翁則不熟投票作業而撕毀市長、議員選票，均遭警方依法函送裁罰。",
+        "summary": "北市上午兩起撕毀選票案　警依法函送裁罰",
+        "categories": [
+          "台灣"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-1a73d7de221ce33d8c2c",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/asoc/202611280050.aspx",
+            "published_at": "2026-11-28",
+            "excerpt": "北市上午兩起撕毀選票案　警依法函送裁罰\n（中央社記者黃麗芸台北28日電）九合一選舉今天投票，北市上午發生兩起撕毀選票案，包括萬華區陳女不滿向社區管委會反映事項未果而撕毀里長選票，士林區老翁則不熟投票作業而撕毀市長、議員選票，均遭警方依法函送裁罰。",
+            "section": "台灣"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "選舉",
+            "kind": "專業用語",
+            "answer_domain": "politics",
+            "clue_options": [
+              {
+                "clue": "由選民投票產生公職代表的制度，結果仍須接受法定程序及監督。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "由選民投票產生公職代表的制度，結果仍須接受法定程序及監督。（2字）"
+          }
+        ],
+        "aliases": [
+          "cna-3bc7dc1a50f9ed0089cd"
+        ],
+        "content_revision": "cna-3bc7dc1a50f9ed0089cd"
+      },
+      {
+        "event_id": "cna-6e605f18746f5ee0b075",
+        "dedup_key": "https://www.cna.com.tw/news/asoc/202611280066.aspx",
+        "event_date": "2026-11-28",
+        "updated_at": "2026-11-28",
+        "published_at": "2026-11-28T05:45:05.000Z",
+        "title": "九合一選舉投票全國上半天共65件違規　手機等攝影器材帶進投票最多",
+        "rss_lead": "（中央社記者黃麗芸台北28日電）九合一選舉今天投票，根據內政部警政署最新統計，全國共受理涉嫌違反選罷法案件計65件、65人，以攜帶手機等攝影器材進入投票所違規居冠，後續均依法函送相關選委會裁罰。",
+        "summary": "九合一選舉投票全國上半天共65件違規　手機等攝影器材帶進投票最多",
+        "categories": [
+          "台灣"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-be640e0053acbbb235e9",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/asoc/202611280066.aspx",
+            "published_at": "2026-11-28",
+            "excerpt": "九合一選舉投票全國上半天共65件違規　手機等攝影器材帶進投票最多\n（中央社記者黃麗芸台北28日電）九合一選舉今天投票，根據內政部警政署最新統計，全國共受理涉嫌違反選罷法案件計65件、65人，以攜帶手機等攝影器材進入投票所違規居冠，後續均依法函送相關選委會裁罰。",
+            "section": "台灣"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "選舉",
+            "kind": "專業用語",
+            "answer_domain": "politics",
+            "clue_options": [
+              {
+                "clue": "由選民投票產生公職代表的制度，結果仍須接受法定程序及監督。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "由選民投票產生公職代表的制度，結果仍須接受法定程序及監督。（2字）"
+          }
+        ],
+        "aliases": [
+          "cna-6e605f18746f5ee0b075"
+        ],
+        "content_revision": "cna-6e605f18746f5ee0b075"
+      },
+      {
         "event_id": "cna-4a67e69ac63a19369ea7",
         "dedup_key": "https://www.cna.com.tw/news/aspt/202611220007.aspx",
         "event_date": "2026-11-22",
@@ -58107,9 +60885,233 @@
           "cna-df778f177e3f1fd2a06f"
         ],
         "content_revision": "cna-df778f177e3f1fd2a06f"
+      },
+      {
+        "event_id": "cna-639e67a1f4f7ad724204",
+        "dedup_key": "https://www.cna.com.tw/news/aspt/202611280041.aspx",
+        "event_date": "2026-11-28",
+        "updated_at": "2026-11-28",
+        "published_at": "2026-11-28T02:57:07.000Z",
+        "title": "鄭宗哲遭美職老虎隊DFA　與李灝宇當隊友有變數",
+        "rss_lead": "（中央社記者謝靜雯台北28日電）美國職棒底特律老虎隊為了清出40人名單空間，將台灣25歲好手鄭宗哲指定讓渡（DFA），未來動向未定，與同為台灣出身的內野好手李灝宇當隊友還有變數。",
+        "summary": "鄭宗哲遭美職老虎隊DFA　與李灝宇當隊友有變數",
+        "categories": [
+          "體育"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-80fca12f688b9b5cb84e",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aspt/202611280041.aspx",
+            "published_at": "2026-11-28",
+            "excerpt": "鄭宗哲遭美職老虎隊DFA　與李灝宇當隊友有變數\n（中央社記者謝靜雯台北28日電）美國職棒底特律老虎隊為了清出40人名單空間，將台灣25歲好手鄭宗哲指定讓渡（DFA），未來動向未定，與同為台灣出身的內野好手李灝宇當隊友還有變數。",
+            "section": "體育"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "鄭宗哲",
+            "kind": "體育項目",
+            "clue_options": [
+              {
+                "clue": "據報導，某項運動遭美職老虎隊DFA　與李灝宇當隊友有變數。（3字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "event",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 89,
+            "difficulty": "medium",
+            "clue": "據報導，某項運動遭美職老虎隊DFA　與李灝宇當隊友有變數。（3字）"
+          }
+        ],
+        "aliases": [
+          "cna-639e67a1f4f7ad724204"
+        ],
+        "content_revision": "cna-639e67a1f4f7ad724204"
+      },
+      {
+        "event_id": "cna-21c3b373e7bbcf71c911",
+        "dedup_key": "https://www.cna.com.tw/news/aspt/202611280047.aspx",
+        "event_date": "2026-11-28",
+        "updated_at": "2026-11-28",
+        "published_at": "2026-11-28T03:40:20.000Z",
+        "title": "黑豹旗賽中拿手機請球員拍攝　行銷單位道歉為工作人員疏失",
+        "rss_lead": "（中央社記者謝靜雯台北28日電）黑豹旗青棒賽昨日4強賽平鎮與穀保賽事，最後半局平鎮球員被鏡頭拍到在休息區持手機拍攝場內引起討論。行銷單位悍創發道歉聲明，坦言是工作人員拿手機請球員拍攝、承擔責任。",
+        "summary": "黑豹旗賽中拿手機請球員拍攝　行銷單位道歉為工作人員疏失",
+        "categories": [
+          "體育"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-1adce4497e8ceb0368e3",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aspt/202611280047.aspx",
+            "published_at": "2026-11-28",
+            "excerpt": "黑豹旗賽中拿手機請球員拍攝　行銷單位道歉為工作人員疏失\n（中央社記者謝靜雯台北28日電）黑豹旗青棒賽昨日4強賽平鎮與穀保賽事，最後半局平鎮球員被鏡頭拍到在休息區持手機拍攝場內引起討論。行銷單位悍創發道歉聲明，坦言是工作人員拿手機請球員拍攝、承擔責任。",
+            "section": "體育"
+          }
+        ],
+        "keywords": [],
+        "aliases": [
+          "cna-21c3b373e7bbcf71c911"
+        ],
+        "content_revision": "cna-21c3b373e7bbcf71c911"
+      },
+      {
+        "event_id": "cna-d086d4ab1c0f1ef2c645",
+        "dedup_key": "https://www.cna.com.tw/news/aspt/202611280069.aspx",
+        "event_date": "2026-11-28",
+        "updated_at": "2026-11-28",
+        "published_at": "2026-11-28T06:24:12.000Z",
+        "title": "詹姆斯率76人首闖NBA盃8強　衛冕軍尼克慘遭淘汰",
+        "rss_lead": "（中央社洛杉磯27日綜合外電報導）美國職籃NBA盃（NBA Cup）晉級隊伍陸續出爐。費城76人的詹姆斯今天攻下21分，率隊輕取印第安納溜馬，隊史首度闖進8強。衛冕軍紐約尼克則不敵邁阿密熱火，無緣晉級。",
+        "summary": "詹姆斯率76人首闖NBA盃8強　衛冕軍尼克慘遭淘汰",
+        "categories": [
+          "體育"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-974207a3df17fd641214",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aspt/202611280069.aspx",
+            "published_at": "2026-11-28",
+            "excerpt": "詹姆斯率76人首闖NBA盃8強　衛冕軍尼克慘遭淘汰\n（中央社洛杉磯27日綜合外電報導）美國職籃NBA盃（NBA Cup）晉級隊伍陸續出爐。費城76人的詹姆斯今天攻下21分，率隊輕取印第安納溜馬，隊史首度闖進8強。衛冕軍紐約尼克則不敵邁阿密熱火，無緣晉級。",
+            "section": "體育"
+          }
+        ],
+        "keywords": [
+          {
+            "word": "晉級",
+            "kind": "專業用語",
+            "answer_domain": "sports",
+            "clue_options": [
+              {
+                "clue": "通過預賽或淘汰門檻進入下一階段，可能取決於成績、排名及同分規則。（2字）",
+                "clue_style": "magazine-v1",
+                "clue_kind": "meaning",
+                "clue_profile": "experienced-adults-v1",
+                "difficulty": "medium"
+              }
+            ],
+            "answer_score": 86,
+            "difficulty": "medium",
+            "clue": "通過預賽或淘汰門檻進入下一階段，可能取決於成績、排名及同分規則。（2字）"
+          }
+        ],
+        "aliases": [
+          "cna-d086d4ab1c0f1ef2c645"
+        ],
+        "content_revision": "cna-d086d4ab1c0f1ef2c645"
+      },
+      {
+        "event_id": "cna-078aec085bcc3e964d19",
+        "dedup_key": "https://www.cna.com.tw/news/aspt/202611280070.aspx",
+        "event_date": "2026-11-28",
+        "updated_at": "2026-11-28",
+        "published_at": "2026-11-28T06:41:15.000Z",
+        "title": "伊藤大海與MLB小熊達成加盟共識　與佐藤輝明當隊友",
+        "rss_lead": "（中央社芝加哥27日綜合外電報導）根據日媒與美國職棒大聯盟MLB官網記者披露，日職火腿隊投手伊藤大海已與芝加哥小熊達成加盟共識。小熊近期一口氣網羅佐藤輝明與伊藤大海一打一投兩名日籍球星。",
+        "summary": "伊藤大海與MLB小熊達成加盟共識　與佐藤輝明當隊友",
+        "categories": [
+          "體育"
+        ],
+        "fact_status": "reported",
+        "content_type": "news",
+        "event_score": 80,
+        "anchor_event": false,
+        "sources": [
+          {
+            "source_id": "rss-2798bd2de9261a129b46",
+            "publisher": "中央通訊社",
+            "kind": "newswire",
+            "url": "https://www.cna.com.tw/news/aspt/202611280070.aspx",
+            "published_at": "2026-11-28",
+            "excerpt": "伊藤大海與MLB小熊達成加盟共識　與佐藤輝明當隊友\n（中央社芝加哥27日綜合外電報導）根據日媒與美國職棒大聯盟MLB官網記者披露，日職火腿隊投手伊藤大海已與芝加哥小熊達成加盟共識。小熊近期一口氣網羅佐藤輝明與伊藤大海一打一投兩名日籍球星。",
+            "section": "體育"
+          }
+        ],
+        "keywords": [],
+        "aliases": [
+          "cna-078aec085bcc3e964d19"
+        ],
+        "content_revision": "cna-078aec085bcc3e964d19"
       }
     ],
     "candidates": [
+      {
+        "word": "蔡英文",
+        "kind": "人物",
+        "answer_score": 89,
+        "difficulty": "medium",
+        "clue": "據報導，某位人物赴建安國小投票　笑答心情很好。（3字）",
+        "id": "cna-842f3de4b4698f54cf71::蔡英文",
+        "event_id": "cna-842f3de4b4698f54cf71",
+        "event_revision": "cna-842f3de4b4698f54cf71",
+        "source_support": [
+          {
+            "source_id": "rss-f8f0af493404af122e8c",
+            "evidence": "蔡英文赴建安國小投票　笑答心情很好\n（中央社記者葉素萍台北28日電）九合一選舉今天投票，前總統蔡英文中午赴台北市建安國小投票，今天陽光普照，媒體詢問她心情如何，蔡英文笑答「很好」。"
+          }
+        ],
+        "clue_style": "magazine-v1",
+        "clue_kind": "event",
+        "clue_profile": "experienced-adults-v1"
+      },
+      {
+        "word": "鄭宗哲",
+        "kind": "體育項目",
+        "answer_score": 89,
+        "difficulty": "medium",
+        "clue": "據報導，某項運動遭美職老虎隊DFA　與李灝宇當隊友有變數。（3字）",
+        "id": "cna-639e67a1f4f7ad724204::鄭宗哲",
+        "event_id": "cna-639e67a1f4f7ad724204",
+        "event_revision": "cna-639e67a1f4f7ad724204",
+        "source_support": [
+          {
+            "source_id": "rss-80fca12f688b9b5cb84e",
+            "evidence": "鄭宗哲遭美職老虎隊DFA　與李灝宇當隊友有變數\n（中央社記者謝靜雯台北28日電）美國職棒底特律老虎隊為了清出40人名單空間，將台灣25歲好手鄭宗哲指定讓渡（DFA），未來動向未定，與同為台灣出身的內野好手李灝宇當隊友還有變數。"
+          }
+        ],
+        "clue_style": "magazine-v1",
+        "clue_kind": "event",
+        "clue_profile": "experienced-adults-v1"
+      },
+      {
+        "word": "卓榮泰",
+        "kind": "人物",
+        "answer_score": 89,
+        "difficulty": "medium",
+        "clue": "據報導，某位人物籲國人踴躍投票　盼投開票順利正確迅速完成。（3字）",
+        "id": "cna-d17cda89813f00282954::卓榮泰",
+        "event_id": "cna-d17cda89813f00282954",
+        "event_revision": "cna-d17cda89813f00282954",
+        "source_support": [
+          {
+            "source_id": "rss-8ed806e0e10d64fbb529",
+            "evidence": "卓榮泰籲國人踴躍投票　盼投開票順利正確迅速完成\n（中央社記者曾筠庭台北28日電）今天是九合一選舉與「廢除非核家園」公投投、開票日，行政院長卓榮泰上午於投票前受訪表示，希望每位國民都能踴躍行使公民權利，並感謝所有候選人完成這項民主工程。"
+          }
+        ],
+        "clue_style": "magazine-v1",
+        "clue_kind": "event",
+        "clue_profile": "experienced-adults-v1"
+      },
       {
         "word": "無人機",
         "kind": "科技用語",
@@ -58218,25 +61220,6 @@
           {
             "source_id": "rss-fba82dec888d59789a86",
             "evidence": "韓國擬擴大海軍任務區　伊朗警告波灣局勢恐升溫\n（中央社首爾27日綜合外電報導）韓國準備將海軍部隊作戰範圍擴大至阿曼灣（Gulf of Oman）以南海域之際，伊朗外交部長告訴韓國外長，外國軍事力量駐紮波斯灣地區無助於和平，反而會加劇緊張局勢。"
-          }
-        ],
-        "clue_style": "magazine-v1",
-        "clue_kind": "event",
-        "clue_profile": "experienced-adults-v1"
-      },
-      {
-        "word": "蔡英文",
-        "kind": "人物",
-        "answer_score": 89,
-        "difficulty": "medium",
-        "clue": "據報導，某位人物籲返鄉投票　理想世界從改變開始。（3字）",
-        "id": "cna-fe33b2e93a2b0981d345::蔡英文",
-        "event_id": "cna-fe33b2e93a2b0981d345",
-        "event_revision": "cna-fe33b2e93a2b0981d345",
-        "source_support": [
-          {
-            "source_id": "rss-b729f08fb2b9b96055c6",
-            "evidence": "蔡英文籲返鄉投票　理想世界從改變開始\n（中央社記者葉素萍台北27日電）九合一地方選舉明天投票，前總統蔡英文今天下午透過官方LINE帳號向民眾表示，想要的理想世界，或許不是這一代可以完全看到的，但是，只要有人開始做，就會開始有改變，「所以，我們一起回家投票吧！"
           }
         ],
         "clue_style": "magazine-v1",
@@ -58548,6 +61531,379 @@
         "clue_profile": "experienced-adults-v1"
       },
       {
+        "word": "選舉",
+        "kind": "專業用語",
+        "answer_domain": "politics",
+        "answer_score": 86,
+        "difficulty": "medium",
+        "clue": "由選民投票產生公職代表的制度，結果仍須接受法定程序及監督。（2字）",
+        "id": "cna-8330ebaaf4d16e991c67::選舉",
+        "event_id": "cna-8330ebaaf4d16e991c67",
+        "event_revision": "cna-8330ebaaf4d16e991c67",
+        "source_support": [
+          {
+            "source_id": "rss-c37f0c859124a4d0a2d2",
+            "evidence": "陳水扁台南投票　低調表示今天純投票就好\n（中央社記者楊思瑞台南28日電）今天是九合一選舉投票日，前總統陳水扁下午前往設於台南市衛生局林森辦公室的投開票所投票，面對前往採訪媒體的詢問頻頻致謝，僅低調回應「今天純投票就好」。"
+          }
+        ],
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning",
+        "clue_profile": "experienced-adults-v1"
+      },
+      {
+        "word": "國軍",
+        "kind": "專業用語",
+        "answer_domain": "politics",
+        "answer_score": 86,
+        "difficulty": "medium",
+        "clue": "我國正規武裝部隊的統稱，受文人統制與國家法制規範。（2字）",
+        "id": "cna-45918db0fa60c723572a::國軍",
+        "event_id": "cna-45918db0fa60c723572a",
+        "event_revision": "cna-45918db0fa60c723572a",
+        "source_support": [
+          {
+            "source_id": "rss-41f646e225420e8915c7",
+            "evidence": "美軍駐英基地遭無人機侵擾　約6架遭驅離後未尋獲\n（中央社倫敦27日綜合外電報導）知情人士透露，本月稍早約有6架無人機成群飛向一座英國軍事基地，在遭到基地內的美軍防禦裝備驅離後，這些無人機並未被尋獲。"
+          }
+        ],
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning",
+        "clue_profile": "experienced-adults-v1"
+      },
+      {
+        "word": "晉級",
+        "kind": "專業用語",
+        "answer_domain": "sports",
+        "answer_score": 86,
+        "difficulty": "medium",
+        "clue": "通過預賽或淘汰門檻進入下一階段，可能取決於成績、排名及同分規則。（2字）",
+        "id": "cna-d086d4ab1c0f1ef2c645::晉級",
+        "event_id": "cna-d086d4ab1c0f1ef2c645",
+        "event_revision": "cna-d086d4ab1c0f1ef2c645",
+        "source_support": [
+          {
+            "source_id": "rss-974207a3df17fd641214",
+            "evidence": "詹姆斯率76人首闖NBA盃8強　衛冕軍尼克慘遭淘汰\n（中央社洛杉磯27日綜合外電報導）美國職籃NBA盃（NBA Cup）晉級隊伍陸續出爐。"
+          }
+        ],
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning",
+        "clue_profile": "experienced-adults-v1"
+      },
+      {
+        "word": "公投",
+        "kind": "專業用語",
+        "answer_domain": "politics",
+        "answer_score": 86,
+        "difficulty": "medium",
+        "clue": "選民對公共議題直接表決的制度，與選出代議士的選舉有所區別。（2字）",
+        "id": "cna-82bcd0e8d8869636955b::公投",
+        "event_id": "cna-82bcd0e8d8869636955b",
+        "event_revision": "cna-82bcd0e8d8869636955b",
+        "source_support": [
+          {
+            "source_id": "rss-62d8a498bc8fb3c98ef0",
+            "evidence": "解除羈押後首次投票　柯文哲：只是來盡義務\n（中央社記者許維庭台北28日電）九合一選舉與「廢除非核家園」公投今天投、開票，民眾黨創黨主席柯文哲表示，這次投票選下午，是問過ChatGPT，下午1時到2時之間人最少；對於解除羈押後首次投票的心情，柯文哲說，沒有什麼心情，只是來盡義務。"
+          }
+        ],
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning",
+        "clue_profile": "experienced-adults-v1"
+      },
+      {
+        "word": "羈押",
+        "kind": "專業用語",
+        "answer_domain": "society",
+        "answer_score": 86,
+        "difficulty": "medium",
+        "clue": "審判確定前，法院依逃亡或串證等法定事由限制被告自由的處分。（2字）",
+        "id": "cna-82bcd0e8d8869636955b::羈押",
+        "event_id": "cna-82bcd0e8d8869636955b",
+        "event_revision": "cna-82bcd0e8d8869636955b",
+        "source_support": [
+          {
+            "source_id": "rss-62d8a498bc8fb3c98ef0",
+            "evidence": "解除羈押後首次投票　柯文哲：只是來盡義務\n（中央社記者許維庭台北28日電）九合一選舉與「廢除非核家園」公投今天投、開票，民眾黨創黨主席柯文哲表示，這次投票選下午，是問過ChatGPT，下午1時到2時之間人最少；對於解除羈押後首次投票的心情，柯文哲說，沒有什麼心情，只是來盡義務。"
+          }
+        ],
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning",
+        "clue_profile": "experienced-adults-v1"
+      },
+      {
+        "word": "聯合國",
+        "kind": "機關或組織",
+        "answer_score": 89,
+        "difficulty": "medium",
+        "clue": "以憲章為基礎、透過會員國合作處理和平安全與發展議題的國際組織。（3字）",
+        "id": "cna-3cbf6de2dc19b8b8cfdc::聯合國",
+        "event_id": "cna-3cbf6de2dc19b8b8cfdc",
+        "event_revision": "cna-3cbf6de2dc19b8b8cfdc",
+        "source_support": [
+          {
+            "source_id": "rss-2a82e206edd026c1ab7a",
+            "evidence": "哥斯大黎加禁聯合國巴勒斯坦領土特別報告員入境　人權高專關切\n（中央社聖荷西27日綜合外電報導）哥斯大黎加拒絕聯合國負責以色列占領巴勒斯坦領土事務的特別報告員入境，聯合國人權事務高級專員圖克今天對此提出批評，並敦促有關當局重新考慮此決定。"
+          }
+        ],
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning",
+        "clue_profile": "experienced-adults-v1"
+      },
+      {
+        "word": "人權",
+        "kind": "專業用語",
+        "answer_domain": "society",
+        "answer_score": 86,
+        "difficulty": "medium",
+        "clue": "每個人因其為人而享有的基本權利，國家權力行使須受其約束。（2字）",
+        "id": "cna-3cbf6de2dc19b8b8cfdc::人權",
+        "event_id": "cna-3cbf6de2dc19b8b8cfdc",
+        "event_revision": "cna-3cbf6de2dc19b8b8cfdc",
+        "source_support": [
+          {
+            "source_id": "rss-2a82e206edd026c1ab7a",
+            "evidence": "哥斯大黎加禁聯合國巴勒斯坦領土特別報告員入境　人權高專關切\n（中央社聖荷西27日綜合外電報導）哥斯大黎加拒絕聯合國負責以色列占領巴勒斯坦領土事務的特別報告員入境，聯合國人權事務高級專員圖克今天對此提出批評，並敦促有關當局重新考慮此決定。"
+          }
+        ],
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning",
+        "clue_profile": "experienced-adults-v1"
+      },
+      {
+        "word": "國防",
+        "kind": "專業用語",
+        "answer_domain": "politics",
+        "answer_score": 86,
+        "difficulty": "medium",
+        "clue": "面對外來威脅，整合軍事與非軍事資源維護國家安全的公共事務。（2字）",
+        "id": "cna-e52dd11e800281d84d0e::國防",
+        "event_id": "cna-e52dd11e800281d84d0e",
+        "event_revision": "cna-e52dd11e800281d84d0e",
+        "source_support": [
+          {
+            "source_id": "rss-566d29eaed02037c5648",
+            "evidence": "法極左派領袖梅蘭雄訪柏林　籲徹底重整法德關係\n（中央社柏林27日綜合外電報導）法國極左派總統候選人梅蘭雄（Jean-Luc Melenchon）今天呼籲「全面重整」與柏林當局的關係，並對德國在歐洲聯盟（EU）的經濟主導地位及國防支出紀錄提出尖銳批評。"
+          }
+        ],
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning",
+        "clue_profile": "experienced-adults-v1"
+      },
+      {
+        "word": "博物館",
+        "kind": "專業用語",
+        "answer_domain": "culture",
+        "answer_score": 89,
+        "difficulty": "medium",
+        "clue": "從事蒐藏、研究、保存與展示的機構，公共教育功能不只在陳列珍品。（3字）",
+        "id": "cna-82cf74a00a6a54f0db7f::博物館",
+        "event_id": "cna-82cf74a00a6a54f0db7f",
+        "event_revision": "cna-82cf74a00a6a54f0db7f",
+        "source_support": [
+          {
+            "source_id": "rss-8ca2926f8dd0b88b23e1",
+            "evidence": "中國湖北縣級博物館疑展贗品　館方：有待專家確認\n（中央社記者李雅雯上海28日電）中國湖北通城縣博物館展品疑為贗品。"
+          }
+        ],
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning",
+        "clue_profile": "experienced-adults-v1"
+      },
+      {
+        "word": "峰會",
+        "kind": "專業用語",
+        "answer_domain": "international",
+        "answer_score": 86,
+        "difficulty": "medium",
+        "clue": "國家或政府領袖層級的會談，常藉聯合聲明表達共同立場。（2字）",
+        "id": "cna-bb2c06b7053e683b5dc7::峰會",
+        "event_id": "cna-bb2c06b7053e683b5dc7",
+        "event_revision": "cna-bb2c06b7053e683b5dc7",
+        "source_support": [
+          {
+            "source_id": "rss-03c115a0e5d158add0d8",
+            "evidence": "憂美管制晶片出口波及產業　荷總理計畫G20會川普\n（中央社阿姆斯特丹27日綜合外電報導）荷蘭總理葉騰（Rob Jetten）表示，他計畫在下個月於邁阿密舉行的20國集團峰會（G20），與美國總統川普討論美國擬議中的「硬體技術多邊協調管制法案」（MATCH Act）"
+          }
+        ],
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning",
+        "clue_profile": "experienced-adults-v1"
+      },
+      {
+        "word": "晶片",
+        "kind": "科技用語",
+        "answer_score": 86,
+        "difficulty": "medium",
+        "clue": "把大量電晶體整合在微小材料上的元件，效能與耗電是設計取捨。（2字）",
+        "id": "cna-bb2c06b7053e683b5dc7::晶片",
+        "event_id": "cna-bb2c06b7053e683b5dc7",
+        "event_revision": "cna-bb2c06b7053e683b5dc7",
+        "source_support": [
+          {
+            "source_id": "rss-03c115a0e5d158add0d8",
+            "evidence": "憂美管制晶片出口波及產業　荷總理計畫G20會川普\n（中央社阿姆斯特丹27日綜合外電報導）荷蘭總理葉騰（Rob Jetten）表示，他計畫在下個月於邁阿密舉行的20國集團峰會（G20），與美國總統川普討論美國擬議中的「硬體技術多邊協調管制法案」（MATCH Act）"
+          }
+        ],
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning",
+        "clue_profile": "experienced-adults-v1"
+      },
+      {
+        "word": "立法院",
+        "kind": "機關或組織",
+        "answer_score": 89,
+        "difficulty": "medium",
+        "clue": "透過法律案、預算案及質詢等職權監督行政部門的中央民意機關。（3字）",
+        "id": "cna-13e484726ddf2b53b13d::立法院",
+        "event_id": "cna-13e484726ddf2b53b13d",
+        "event_revision": "cna-13e484726ddf2b53b13d",
+        "source_support": [
+          {
+            "source_id": "rss-ad6bc49d321afb59be1c",
+            "evidence": "韓國瑜回雲林投票　籲守護台灣民主\n（中央社記者姜宜菁雲林縣28日電）立法院長韓國瑜今天上午完成投票，他說，台灣聞名世界一個硬體一個軟體，硬體是台積電，軟體則是民主制度，所以選舉是履行公民權益最重要的一環，「為台灣民主加油！"
+          }
+        ],
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning",
+        "clue_profile": "experienced-adults-v1"
+      },
+      {
+        "word": "資安",
+        "kind": "科技用語",
+        "answer_score": 86,
+        "difficulty": "medium",
+        "clue": "從帳號權限、系統防護到事件應變，維護數位資料機密與完整性的工作簡稱。（2字）",
+        "id": "cna-3b6a274ebb61ce3ccd00::資安",
+        "event_id": "cna-3b6a274ebb61ce3ccd00",
+        "event_revision": "cna-3b6a274ebb61ce3ccd00",
+        "source_support": [
+          {
+            "source_id": "rss-629acd411e66bcc42020",
+            "evidence": "摩斯漢堡遭惡意網攻　安心食品啟動資安事件應變\n（中央社記者黃巧雯台北28日電）安心食品昨天在旗下摩斯漢堡官網發聲明，公司系統近期偵測到異常惡意網路攻擊，導致會員資料遭到未經授權存取，已啟動資安事件應變作業，採取必要防護措施，並通報主管機關。"
+          }
+        ],
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning",
+        "clue_profile": "experienced-adults-v1"
+      },
+      {
+        "word": "國防部",
+        "kind": "機關或組織",
+        "answer_score": 89,
+        "difficulty": "medium",
+        "clue": "統籌軍政與軍備業務、其預算及採購須受民意監督的中央部會。（3字）",
+        "id": "cna-f2cd60d122289212a4c7::國防部",
+        "event_id": "cna-f2cd60d122289212a4c7",
+        "event_revision": "cna-f2cd60d122289212a4c7",
+        "source_support": [
+          {
+            "source_id": "rss-5b9324cc0a1176ec2a98",
+            "evidence": "國防部表示，自昨天上午6時至今天上午6時，偵獲共機33架次，其中27架次逾越中線進入北部、中部、西南及東部空域，另有8艘共艦及4艘公務船，總計中共45機艦船持續在台海周邊活動，國軍嚴密監控應處。"
+          }
+        ],
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning",
+        "clue_profile": "experienced-adults-v1"
+      },
+      {
+        "word": "主權",
+        "kind": "專業用語",
+        "answer_domain": "international",
+        "answer_score": 86,
+        "difficulty": "medium",
+        "clue": "國家對內最高統治權與對外自主地位，常是領土爭端的核心概念。（2字）",
+        "id": "cna-8d23e38fd0f39ad409a0::主權",
+        "event_id": "cna-8d23e38fd0f39ad409a0",
+        "event_revision": "cna-8d23e38fd0f39ad409a0",
+        "source_support": [
+          {
+            "source_id": "rss-353fc543d4da4b8c8a7e",
+            "evidence": "法國預算赤字難減　標普下調主權信評展望至負面\n（中央社巴黎27日綜合外電報導）國際信評機構「標準普爾」（S&P），今天維持法國A+主權信評不變，但將信評展望由「穩定」下調至「負面」。"
+          }
+        ],
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning",
+        "clue_profile": "experienced-adults-v1"
+      },
+      {
+        "word": "預算",
+        "kind": "專業用語",
+        "answer_domain": "economy",
+        "answer_score": 86,
+        "difficulty": "medium",
+        "clue": "政府事先提出收入與支出計畫，須經民意機關審議的財政安排。（2字）",
+        "id": "cna-8d23e38fd0f39ad409a0::預算",
+        "event_id": "cna-8d23e38fd0f39ad409a0",
+        "event_revision": "cna-8d23e38fd0f39ad409a0",
+        "source_support": [
+          {
+            "source_id": "rss-353fc543d4da4b8c8a7e",
+            "evidence": "法國預算赤字難減　標普下調主權信評展望至負面\n（中央社巴黎27日綜合外電報導）國際信評機構「標準普爾」（S&P），今天維持法國A+主權信評不變，但將信評展望由「穩定」下調至「負面」。"
+          }
+        ],
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning",
+        "clue_profile": "experienced-adults-v1"
+      },
+      {
+        "word": "金融",
+        "kind": "財經用語",
+        "answer_score": 86,
+        "difficulty": "medium",
+        "clue": "透過存放款、投資與支付，把資金從供給者引導至需求者的經濟活動。（2字）",
+        "id": "cna-2ad88f696db00cc22ca9::金融",
+        "event_id": "cna-2ad88f696db00cc22ca9",
+        "event_revision": "cna-2ad88f696db00cc22ca9",
+        "source_support": [
+          {
+            "source_id": "rss-6d2ee2450bf9e294d3f3",
+            "evidence": "萬家福網購系統遭攻擊　未發現信用卡等金融資料外洩\n（中央社記者吳家豪台北28日電）量販超市萬家福27日晚間發出電子郵件通知會員，證實近日萬家福系統委外廠商發現網購系統遭到攻擊。"
+          }
+        ],
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning",
+        "clue_profile": "experienced-adults-v1"
+      },
+      {
+        "word": "油價",
+        "kind": "財經用語",
+        "answer_score": 86,
+        "difficulty": "medium",
+        "clue": "運輸成本與民生物價的重要變數，常隨產油國政策及航道風險波動。（2字）",
+        "id": "cna-a862c019826cd077ec43::油價",
+        "event_id": "cna-a862c019826cd077ec43",
+        "event_revision": "cna-a862c019826cd077ec43",
+        "source_support": [
+          {
+            "source_id": "rss-634f325843baf86c46f9",
+            "evidence": "市場交投清淡　油價震盪收低\n（中央社紐約27日綜合外電報導）中東能源基礎設施和油輪遭遇攻擊情形增加，投資人對供應的憂慮加深，市場交投清淡，油價今天震盪收低。"
+          }
+        ],
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning",
+        "clue_profile": "experienced-adults-v1"
+      },
+      {
+        "word": "油輪",
+        "kind": "專業用語",
+        "answer_domain": "international",
+        "answer_score": 86,
+        "difficulty": "medium",
+        "clue": "運送大量液態石油的船舶，重要海峽受阻時，其航線與保險成本備受關注。（2字）",
+        "id": "cna-a862c019826cd077ec43::油輪",
+        "event_id": "cna-a862c019826cd077ec43",
+        "event_revision": "cna-a862c019826cd077ec43",
+        "source_support": [
+          {
+            "source_id": "rss-634f325843baf86c46f9",
+            "evidence": "市場交投清淡　油價震盪收低\n（中央社紐約27日綜合外電報導）中東能源基礎設施和油輪遭遇攻擊情形增加，投資人對供應的憂慮加深，市場交投清淡，油價今天震盪收低。"
+          }
+        ],
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning",
+        "clue_profile": "experienced-adults-v1"
+      },
+      {
         "word": "人工智慧",
         "kind": "科技用語",
         "answer_score": 92,
@@ -58567,25 +61923,6 @@
         "clue_profile": "experienced-adults-v1"
       },
       {
-        "word": "聯合國",
-        "kind": "機關或組織",
-        "answer_score": 89,
-        "difficulty": "medium",
-        "clue": "以憲章為基礎、透過會員國合作處理和平安全與發展議題的國際組織。（3字）",
-        "id": "cna-c6a60b6f9fdd8bfafb77::聯合國",
-        "event_id": "cna-c6a60b6f9fdd8bfafb77",
-        "event_revision": "cna-c6a60b6f9fdd8bfafb77",
-        "source_support": [
-          {
-            "source_id": "rss-8a1a1145df37786a1aa1",
-            "evidence": "無人機襲科威特釀2義大利人死亡　聯合國秘書長籲各方克制\n（中央社紐約聯合國總部27日綜合外電報導）聯合國秘書長古特瑞斯（Antonio Guterres）今天譴責一起被指控由伊朗發動的無人機攻擊事件。"
-          }
-        ],
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning",
-        "clue_profile": "experienced-adults-v1"
-      },
-      {
         "word": "股市",
         "kind": "財經用語",
         "answer_score": 86,
@@ -58598,26 +61935,6 @@
           {
             "source_id": "rss-c701ba6f0cebc0f99f74",
             "evidence": "科技股續漲帶動　歐股收紅結束震盪一週\n（中央社倫敦27日綜合外電報導）受到人工智慧（AI）巨擘鉅額支出前景不明朗影響，本週股市走勢震盪，在科技股漲勢延續下，為動盪的一週劃下句點，歐洲股市今天收紅。"
-          }
-        ],
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning",
-        "clue_profile": "experienced-adults-v1"
-      },
-      {
-        "word": "羈押",
-        "kind": "專業用語",
-        "answer_domain": "society",
-        "answer_score": 86,
-        "difficulty": "medium",
-        "clue": "審判確定前，法院依逃亡或串證等法定事由限制被告自由的處分。（2字）",
-        "id": "cna-e589ee61729fba101152::羈押",
-        "event_id": "cna-e589ee61729fba101152",
-        "event_revision": "cna-e589ee61729fba101152",
-        "source_support": [
-          {
-            "source_id": "rss-46dc95110acdab1049a4",
-            "evidence": "屏檢查獲選舉賭盤每注1萬元　2組頭遭收押\n（中央社記者李卉婷屏東縣28日電）屏東地檢署偵辦蔡姓男子與周姓男子，涉以台北市等4縣市首長選舉結果經營賭盤，每注賭金1萬元以上，組頭蔡男已於18日羈押，昨天溯源拘提周男到案，訊後聲押大組頭周男獲准。"
           }
         ],
         "clue_style": "magazine-v1",
@@ -58645,65 +61962,6 @@
         "clue_profile": "experienced-adults-v1"
       },
       {
-        "word": "選舉",
-        "kind": "專業用語",
-        "answer_domain": "politics",
-        "answer_score": 86,
-        "difficulty": "medium",
-        "clue": "由選民投票產生公職代表的制度，結果仍須接受法定程序及監督。（2字）",
-        "id": "cna-e589ee61729fba101152::選舉",
-        "event_id": "cna-e589ee61729fba101152",
-        "event_revision": "cna-e589ee61729fba101152",
-        "source_support": [
-          {
-            "source_id": "rss-46dc95110acdab1049a4",
-            "evidence": "屏檢查獲選舉賭盤每注1萬元　2組頭遭收押\n（中央社記者李卉婷屏東縣28日電）屏東地檢署偵辦蔡姓男子與周姓男子，涉以台北市等4縣市首長選舉結果經營賭盤，每注賭金1萬元以上，組頭蔡男已於18日羈押，昨天溯源拘提周男到案，訊後聲押大組頭周男獲准。"
-          }
-        ],
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning",
-        "clue_profile": "experienced-adults-v1"
-      },
-      {
-        "word": "國防",
-        "kind": "專業用語",
-        "answer_domain": "politics",
-        "answer_score": 86,
-        "difficulty": "medium",
-        "clue": "面對外來威脅，整合軍事與非軍事資源維護國家安全的公共事務。（2字）",
-        "id": "cna-c9322f534516c6b14f41::國防",
-        "event_id": "cna-c9322f534516c6b14f41",
-        "event_revision": "cna-c9322f534516c6b14f41",
-        "source_support": [
-          {
-            "source_id": "rss-600fbb8219a66ddd71c0",
-            "evidence": "台灣與羅馬尼亞國防組織簽合作備忘錄　深化軍工航太交流\n（中央社記者劉郁葶布拉格27日專電）台灣國防產業發展協會理事長吳明蔚與羅馬尼亞國防工業雇主組織（OPIA）執行長皮爾克勒貝斯庫（Răzvan-Marian Pîrcălăbescu）今日在布加勒斯特簽署瞭解備忘錄，深化台灣與羅馬尼亞的軍工與航太產業交流。"
-          }
-        ],
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning",
-        "clue_profile": "experienced-adults-v1"
-      },
-      {
-        "word": "晶片",
-        "kind": "科技用語",
-        "answer_score": 86,
-        "difficulty": "medium",
-        "clue": "把大量電晶體整合在微小材料上的元件，效能與耗電是設計取捨。（2字）",
-        "id": "cna-2348520e57b0a6d6ac6c::晶片",
-        "event_id": "cna-2348520e57b0a6d6ac6c",
-        "event_revision": "cna-2348520e57b0a6d6ac6c",
-        "source_support": [
-          {
-            "source_id": "rss-3882505d92d747923e64",
-            "evidence": "美股早盤走高　那指漲逾1.5%\n（中央社紐約27日綜合外電報導）美股3大指數今天早盤走高，晶片股及其他科技類股歷經一週震盪後紛紛走揚。"
-          }
-        ],
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning",
-        "clue_profile": "experienced-adults-v1"
-      },
-      {
         "word": "著作權",
         "kind": "專業用語",
         "answer_domain": "society",
@@ -58717,25 +61975,6 @@
           {
             "source_id": "rss-c090573c1bb165720dd9",
             "evidence": "繼丹麥提出防制深偽法案後，芬蘭教育文化部昨日公布深偽研究報告，建議調整既有著作權法保護範圍，遏止AI冒用個人聲音與影像。"
-          }
-        ],
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning",
-        "clue_profile": "experienced-adults-v1"
-      },
-      {
-        "word": "油價",
-        "kind": "財經用語",
-        "answer_score": 86,
-        "difficulty": "medium",
-        "clue": "運輸成本與民生物價的重要變數，常隨產油國政策及航道風險波動。（2字）",
-        "id": "cna-ceef6a47964b4ab5dc88::油價",
-        "event_id": "cna-ceef6a47964b4ab5dc88",
-        "event_revision": "cna-ceef6a47964b4ab5dc88",
-        "source_support": [
-          {
-            "source_id": "rss-8408ae92bcee6f4927e8",
-            "evidence": "不堪燃料價格大漲再倒1家　挪威北歐大西洋航空聲請破產\n（中央社奧斯陸27日綜合外電報導）挪威廉價航空公司北歐大西洋航空（Norse Atlantic）的機隊租賃合約今天遭到終止後數小時，公司宣布將聲請破產，成為又1家不堪燃油價格大漲衝擊的航空業者。"
           }
         ],
         "clue_style": "magazine-v1",
@@ -58802,44 +62041,6 @@
         "clue_profile": "experienced-adults-v1"
       },
       {
-        "word": "立法院",
-        "kind": "機關或組織",
-        "answer_score": 89,
-        "difficulty": "medium",
-        "clue": "透過法律案、預算案及質詢等職權監督行政部門的中央民意機關。（3字）",
-        "id": "cna-31b71489d08cf6430f3c::立法院",
-        "event_id": "cna-31b71489d08cf6430f3c",
-        "event_revision": "cna-31b71489d08cf6430f3c",
-        "source_support": [
-          {
-            "source_id": "rss-1f5b0666ff4e1881f399",
-            "evidence": "韓國瑜、盧秀燕力挺　江啟臣選前之夜造勢拚勝選\n（中央社記者蘇木春台中27日電）中國國民黨台中市長候選人江啟臣今天選前之夜在南屯區造勢，立法院長韓國瑜、台中市長盧秀燕及多名立法委員力挺，江啟臣承諾打造具國際視野與溫度的智慧城市，呼籲選民支持。"
-          }
-        ],
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning",
-        "clue_profile": "experienced-adults-v1"
-      },
-      {
-        "word": "金融",
-        "kind": "財經用語",
-        "answer_score": 86,
-        "difficulty": "medium",
-        "clue": "透過存放款、投資與支付，把資金從供給者引導至需求者的經濟活動。（2字）",
-        "id": "cna-abe544196c8635ae6df1::金融",
-        "event_id": "cna-abe544196c8635ae6df1",
-        "event_revision": "cna-abe544196c8635ae6df1",
-        "source_support": [
-          {
-            "source_id": "rss-e8af9e77e8c4cd9c9e56",
-            "evidence": "韓國財經女主播報導股災忍不住哽咽　引發揣測\n（中央社首爾27日綜合外電報導）韓國1名財經電視台節目女主播25日播報全球科技股跌勢時，當現場螢幕秀出韓國科技業巨頭三星電子的相關金融商品大跌圖表後，她忍不住哽咽，引發網友猜測她是否也蒙受損失。"
-          }
-        ],
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning",
-        "clue_profile": "experienced-adults-v1"
-      },
-      {
         "word": "壽險",
         "kind": "專業用語",
         "answer_domain": "economy",
@@ -58899,26 +62100,6 @@
         "clue_profile": "experienced-adults-v1"
       },
       {
-        "word": "峰會",
-        "kind": "專業用語",
-        "answer_domain": "international",
-        "answer_score": 86,
-        "difficulty": "medium",
-        "clue": "國家或政府領袖層級的會談，常藉聯合聲明表達共同立場。（2字）",
-        "id": "cna-c1e02773979d08d7d6fc::峰會",
-        "event_id": "cna-c1e02773979d08d7d6fc",
-        "event_revision": "cna-c1e02773979d08d7d6fc",
-        "source_support": [
-          {
-            "source_id": "rss-3b50d897fd041562c25b",
-            "evidence": "高市早苗與普丁在中國非正式會談　莫斯科鬆口證實\n（中央社莫斯科27日綜合外電報導）俄羅斯外交部證實，日本首相高市早苗與俄羅斯總統普丁在中國舉行的亞太經濟合作會議高峰會場邊進行過面對面會談。"
-          }
-        ],
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning",
-        "clue_profile": "experienced-adults-v1"
-      },
-      {
         "word": "關稅",
         "kind": "財經用語",
         "answer_score": 86,
@@ -58931,25 +62112,6 @@
           {
             "source_id": "rss-775ff552a541d49d86f6",
             "evidence": "路透：川普新關稅施壓各國劍指北京　圖重塑全球貿易秩序\n（中央社新加坡／北京26日綜合外電報導）路透社報導，美國宣布最新一輪加徵關稅作為勢將加劇與中國的貿易緊張，讓北京成為華府透過施壓其他國家以懲罰這個世界工廠、進而重塑全球貿易秩序的主要目標。"
-          }
-        ],
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning",
-        "clue_profile": "experienced-adults-v1"
-      },
-      {
-        "word": "資安",
-        "kind": "科技用語",
-        "answer_score": 86,
-        "difficulty": "medium",
-        "clue": "從帳號權限、系統防護到事件應變，維護數位資料機密與完整性的工作簡稱。（2字）",
-        "id": "cna-2725c7d54d80354c10fd::資安",
-        "event_id": "cna-2725c7d54d80354c10fd",
-        "event_revision": "cna-2725c7d54d80354c10fd",
-        "source_support": [
-          {
-            "source_id": "rss-053aab09a51ca5a437e3",
-            "evidence": "金管會強化金融資安韌性推3大措施　擬將供應商納聯防機制\n（中央社記者蘇思云台北27日電）面對金融資安威脅快速演變，金管會指出，將推動3大措施，包含督導金融機構今年底前依14項強化措施完成自評，建立金融業與供應商的生態聯防機制，研議將關鍵供應商優先納入情資分享與聯防機制，並建立金融資安韌性發展藍圖成熟度指標並追蹤辦理情形。"
           }
         ],
         "clue_style": "magazine-v1",
@@ -58970,26 +62132,6 @@
           {
             "source_id": "rss-4ce6461b84c024c24a65",
             "evidence": "傳為救線人向中國提供台灣情報　韓國國情院否認\n（中央社首爾27日綜合外電報導）有消息指出，韓國情報機構在與北京方面交涉、以釋放因間諜等罪名遭拘留的韓方線人期間，曾向中國提供有關台灣人員情報來源的資訊。"
-          }
-        ],
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning",
-        "clue_profile": "experienced-adults-v1"
-      },
-      {
-        "word": "公投",
-        "kind": "專業用語",
-        "answer_domain": "politics",
-        "answer_score": 86,
-        "difficulty": "medium",
-        "clue": "選民對公共議題直接表決的制度，與選出代議士的選舉有所區別。（2字）",
-        "id": "cna-3b0009933505de1af199::公投",
-        "event_id": "cna-3b0009933505de1af199",
-        "event_revision": "cna-3b0009933505de1af199",
-        "source_support": [
-          {
-            "source_id": "rss-ec65a7823b6ee5c86026",
-            "evidence": "烏坵投票專船停開　中選會：完成應變確保如期投開票\n（中央社記者吳書緯台北27日電）九合一選舉與「廢除非核家園」公投明天投、開票，但金門縣烏坵鄉投票專船因海象惡劣停開；中選會今天表示，金門縣選舉委員會已提前完成選務整備，投票所選務人員與物資均已克服天候困難順利就位，明天將如期照常辦理投開票作業。"
           }
         ],
         "clue_style": "magazine-v1",
@@ -59171,26 +62313,6 @@
         "clue_profile": "experienced-adults-v1"
       },
       {
-        "word": "晉級",
-        "kind": "專業用語",
-        "answer_domain": "sports",
-        "answer_score": 86,
-        "difficulty": "medium",
-        "clue": "通過預賽或淘汰門檻進入下一階段，可能取決於成績、排名及同分規則。（2字）",
-        "id": "cna-20023ef8057233875145::晉級",
-        "event_id": "cna-20023ef8057233875145",
-        "event_revision": "cna-20023ef8057233875145",
-        "source_support": [
-          {
-            "source_id": "rss-2aabfaa50c8dac267407",
-            "evidence": "「轉運手」胡宸睿控球決勝　黑豹旗穩守助北科附工闖冠軍戰\n（中央社記者謝靜雯新北27日電）黑豹旗青棒賽北科附工今天與台南海事交手，4局得點圈有人危機，「轉運手」胡宸睿登板拆彈，後援3.1局無失分，助隊以1比0搶勝晉級冠軍戰，儘管球速僅約120公里，但發揮控球優勢。"
-          }
-        ],
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning",
-        "clue_profile": "experienced-adults-v1"
-      },
-      {
         "word": "衛星",
         "kind": "科技用語",
         "answer_score": 86,
@@ -59203,26 +62325,6 @@
           {
             "source_id": "rss-88f6dafd25fc019d74e0",
             "evidence": "路透：解放軍福建大埕灣演習　測試利用民船支援對台登陸\n（中央社台北27日綜合外電報導）衛星影像及研究報告顯示，中國正在面向台灣的福建省大埕灣（Dacheng Bay）舉行為期數週的兩棲登陸演習，以測試將民用船舶連結成臨時浮橋，將部隊及裝備運上岸的新方法。"
-          }
-        ],
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning",
-        "clue_profile": "experienced-adults-v1"
-      },
-      {
-        "word": "主權",
-        "kind": "專業用語",
-        "answer_domain": "international",
-        "answer_score": 86,
-        "difficulty": "medium",
-        "clue": "國家對內最高統治權與對外自主地位，常是領土爭端的核心概念。（2字）",
-        "id": "cna-b8148ce3528087ab55d4::主權",
-        "event_id": "cna-b8148ce3528087ab55d4",
-        "event_revision": "cna-b8148ce3528087ab55d4",
-        "source_support": [
-          {
-            "source_id": "rss-f50755c4c24e6bf731c2",
-            "evidence": "鴻海研究院FoxBrain　台灣主權AI評測居全球第2\n（中央社記者張建中新竹27日電）鴻海集團旗下鴻海研究院今天表示，新公布的大型語言模型FoxBrain v2.1在數位發展部「AI產品與系統評測中心」（AIEC）的「台灣主權AI基礎評測指標」中，依目前彙整的評測資料，整體名次為全球第2名。"
           }
         ],
         "clue_style": "magazine-v1",
@@ -59243,26 +62345,6 @@
           {
             "source_id": "rss-b6d4c07686aa27319ba8",
             "evidence": "三大法人外資及陸資賣超、投信買超、自營商賣超，合計賣超213.04億元。"
-          }
-        ],
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning",
-        "clue_profile": "experienced-adults-v1"
-      },
-      {
-        "word": "國軍",
-        "kind": "專業用語",
-        "answer_domain": "politics",
-        "answer_score": 86,
-        "difficulty": "medium",
-        "clue": "我國正規武裝部隊的統稱，受文人統制與國家法制規範。（2字）",
-        "id": "cna-9e12f6655370b0f1096f::國軍",
-        "event_id": "cna-9e12f6655370b0f1096f",
-        "event_revision": "cna-9e12f6655370b0f1096f",
-        "source_support": [
-          {
-            "source_id": "rss-b4ddfc9246aed2cc8658",
-            "evidence": "艾爾段正式批准麥加聯合防禦協議　土沙巴3國軍事結盟成形\n（中央社伊斯坦堡27日綜合外電報導）土耳其官方公報指出，總統艾爾段（Tayyip Erdogan）已正式批准與巴基斯坦及沙烏地阿拉伯簽署的麥加聯合防禦協議。"
           }
         ],
         "clue_style": "magazine-v1",
@@ -59322,25 +62404,6 @@
           {
             "source_id": "rss-e3213df37e8a99248de4",
             "evidence": "美晶片管制牽動AI布局　泰國資料中心協會：台灣具優勢\n（中央社記者李宗憲曼谷27日專電）美國收緊AI晶片出口管制，泰國相關產業面臨挑戰。"
-          }
-        ],
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning",
-        "clue_profile": "experienced-adults-v1"
-      },
-      {
-        "word": "國防部",
-        "kind": "機關或組織",
-        "answer_score": 89,
-        "difficulty": "medium",
-        "clue": "統籌軍政與軍備業務、其預算及採購須受民意監督的中央部會。（3字）",
-        "id": "cna-623fde24d8c6f2de2fd1::國防部",
-        "event_id": "cna-623fde24d8c6f2de2fd1",
-        "event_revision": "cna-623fde24d8c6f2de2fd1",
-        "source_support": [
-          {
-            "source_id": "rss-4fd855d6646743c0b6da",
-            "evidence": "26架次共機越中線配合共艦擾台　國軍嚴密掌握應處\n（中央社記者吳書緯台北27日電）九合一選舉明天投、開票，國防部表示，自今天上午9時25分起，陸續偵獲中共各型軍機30架次出海，其中26架次逾越中線及其延伸線，配合共艦，假所謂「聯合戰備警巡」、「遠海長航」，騷擾台灣周邊空、海域，國軍嚴密掌握應處。"
           }
         ],
         "clue_style": "magazine-v1",
@@ -60269,26 +63332,6 @@
         "clue_profile": "experienced-adults-v1"
       },
       {
-        "word": "預算",
-        "kind": "專業用語",
-        "answer_domain": "economy",
-        "answer_score": 86,
-        "difficulty": "medium",
-        "clue": "政府事先提出收入與支出計畫，須經民意機關審議的財政安排。（2字）",
-        "id": "cna-44ca6f9403ca40609292::預算",
-        "event_id": "cna-44ca6f9403ca40609292",
-        "event_revision": "cna-44ca6f9403ca40609292",
-        "source_support": [
-          {
-            "source_id": "rss-150e8afa433dc030888a",
-            "evidence": "沈伯洋談抹黑抹黃抹毒　籲中國別花預算、民眾停看聽\n（中央社記者劉建邦台北25日電）民進黨台北市長候選人沈伯洋今天被問及學者指選戰中社群出現來自中國的AI影片團隊時表示，中國會採取抹黑、抹黃、抹毒手法，提醒民眾停看聽，也呼籲中國「不要花預算在這個上面」。"
-          }
-        ],
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning",
-        "clue_profile": "experienced-adults-v1"
-      },
-      {
         "word": "地震",
         "kind": "生活用語",
         "answer_score": 86,
@@ -60359,26 +63402,6 @@
           {
             "source_id": "rss-af44220859d64bfe370d",
             "evidence": "國光攜安特羅、台宇　開發雙價腸病毒疫苗\n（中央社記者何秀玲台北25日電）國光生技與子公司安特羅生技今天宣布，攜手國衛院衍生公司台宇生醫，共同開發涵蓋腸病毒71型及克沙奇病毒A16型的雙價腸病毒疫苗，目標擴大疫苗防護範圍。"
-          }
-        ],
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning",
-        "clue_profile": "experienced-adults-v1"
-      },
-      {
-        "word": "人權",
-        "kind": "專業用語",
-        "answer_domain": "society",
-        "answer_score": 86,
-        "difficulty": "medium",
-        "clue": "每個人因其為人而享有的基本權利，國家權力行使須受其約束。（2字）",
-        "id": "cna-8d5992166dff640a3a48::人權",
-        "event_id": "cna-8d5992166dff640a3a48",
-        "event_revision": "cna-8d5992166dff640a3a48",
-        "source_support": [
-          {
-            "source_id": "rss-e8550ae1df70a7c659e2",
-            "evidence": "薩爾瓦多派兵協助掃黑　海地總理駁斥人權疑慮\n（中央社海地首都太子港24日綜合外電報導）海地總理費艾梅（Alix Didier Fils-Aime）今天捍衛與薩爾瓦多簽署的打擊幫派安全協議，強調國家處於緊急狀態，人權不應成為民眾免於恐懼、重獲自由權利的藉口。"
           }
         ],
         "clue_style": "magazine-v1",
@@ -60478,26 +63501,6 @@
           {
             "source_id": "rss-60dfe56d8e5bc33d4222",
             "evidence": "工會籲修聘僱人員給假辦法　喪假天數與公務員齊平\n（中央社記者陳至中台北25日電）全國代理暨代課教師產業工會今天呼籲，修正「行政院與所屬中央及地方各機關聘僱人員給假辦法」時，應將喪假天數與公務人員齊平，落實「哀痛平等」的價值。"
-          }
-        ],
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning",
-        "clue_profile": "experienced-adults-v1"
-      },
-      {
-        "word": "油輪",
-        "kind": "專業用語",
-        "answer_domain": "international",
-        "answer_score": 86,
-        "difficulty": "medium",
-        "clue": "運送大量液態石油的船舶，重要海峽受阻時，其航線與保險成本備受關注。（2字）",
-        "id": "cna-536d89b6152ea6c58c64::油輪",
-        "event_id": "cna-536d89b6152ea6c58c64",
-        "event_revision": "cna-536d89b6152ea6c58c64",
-        "source_support": [
-          {
-            "source_id": "rss-4ca6300660b1b6a900aa",
-            "evidence": "荷莫茲海峽頻傳油輪遇襲　國際油價小升\n（中央社紐約24日綜合外電報導）荷莫茲海峽（Strait of Hormuz）傳出又有油輪遭遇襲擊，這使美國與伊朗戰事的最新外交努力顯得黯然失色，國際油價今天便在交投清淡之下小幅走高。"
           }
         ],
         "clue_style": "magazine-v1",
@@ -60840,26 +63843,6 @@
         "clue_profile": "experienced-adults-v1"
       },
       {
-        "word": "博物館",
-        "kind": "專業用語",
-        "answer_domain": "culture",
-        "answer_score": 89,
-        "difficulty": "medium",
-        "clue": "從事蒐藏、研究、保存與展示的機構，公共教育功能不只在陳列珍品。（3字）",
-        "id": "cna-08d75f2ad55741f046df::博物館",
-        "event_id": "cna-08d75f2ad55741f046df",
-        "event_revision": "cna-08d75f2ad55741f046df",
-        "source_support": [
-          {
-            "source_id": "rss-77566f15c22600d7f66c",
-            "evidence": "人權繪本徵選成果出爐　7部潛力新作助媒合出版\n（中央社記者趙靜瑜台北23日電）國家人權博物館「畫話一座島的故事：人權教育繪本徵選計畫」第7屆成果發表會昨天舉行，現場揭曉李妘巧「誰說了那句話」等7部最具出版潛能的作品，未來將協助媒合出版社出版。"
-          }
-        ],
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning",
-        "clue_profile": "experienced-adults-v1"
-      },
-      {
         "word": "氣候變遷",
         "kind": "生活用語",
         "answer_score": 92,
@@ -61018,6 +64001,105 @@
         "clue_profile": "experienced-adults-v1"
       },
       {
+        "id": "knowledge:文化資產",
+        "event_id": "cna-842f3de4b4698f54cf71",
+        "word": "文化資產",
+        "content_kind": "knowledge",
+        "kind": "延伸知識",
+        "answer_domain": "culture",
+        "difficulty": "medium",
+        "answer_score": 84,
+        "clue": "具有歷史、藝術或科學等價值的有形與無形文化成果，保存不只限於建築。（4字）",
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning",
+        "clue_profile": "experienced-adults-v1",
+        "knowledge_source": {
+          "publisher": "時事填字樂詞義編輯庫",
+          "url": "https://github.com/echohook/news-crossword-studio/blob/main/core/experienced-definitions.mjs",
+          "meaning": "具有歷史、藝術或科學等價值的有形與無形文化成果，保存不只限於建築。"
+        },
+        "expansion": {
+          "method": "shared_character",
+          "seed_word": "蔡英文",
+          "shared_character": "文",
+          "path": [
+            {
+              "from": "蔡英文",
+              "to": "文化資產",
+              "character": "文"
+            }
+          ],
+          "source_id": "rss-f8f0af493404af122e8c"
+        },
+        "source_support": []
+      },
+      {
+        "id": "knowledge:文藝復興",
+        "event_id": "cna-842f3de4b4698f54cf71",
+        "word": "文藝復興",
+        "content_kind": "knowledge",
+        "kind": "延伸知識",
+        "answer_domain": "culture",
+        "difficulty": "medium",
+        "answer_score": 84,
+        "clue": "以重新理解古典文化為特色的歐洲思想藝術變革，常與人文主義相連。（4字）",
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning",
+        "clue_profile": "experienced-adults-v1",
+        "knowledge_source": {
+          "publisher": "時事填字樂詞義編輯庫",
+          "url": "https://github.com/echohook/news-crossword-studio/blob/main/core/experienced-definitions.mjs",
+          "meaning": "以重新理解古典文化為特色的歐洲思想藝術變革，常與人文主義相連。"
+        },
+        "expansion": {
+          "method": "shared_character",
+          "seed_word": "蔡英文",
+          "shared_character": "文",
+          "path": [
+            {
+              "from": "蔡英文",
+              "to": "文藝復興",
+              "character": "文"
+            }
+          ],
+          "source_id": "rss-f8f0af493404af122e8c"
+        },
+        "source_support": []
+      },
+      {
+        "id": "knowledge:文物",
+        "event_id": "cna-842f3de4b4698f54cf71",
+        "word": "文物",
+        "content_kind": "knowledge",
+        "kind": "延伸知識",
+        "answer_domain": "culture",
+        "difficulty": "medium",
+        "answer_score": 84,
+        "clue": "承載人類活動及文化意義的實物，其價值須結合來源與歷史脈絡判斷。（2字）",
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning",
+        "clue_profile": "experienced-adults-v1",
+        "knowledge_source": {
+          "publisher": "時事填字樂詞義編輯庫",
+          "url": "https://github.com/echohook/news-crossword-studio/blob/main/core/experienced-definitions.mjs",
+          "meaning": "承載人類活動及文化意義的實物，其價值須結合來源與歷史脈絡判斷。"
+        },
+        "expansion": {
+          "method": "shared_character",
+          "seed_word": "蔡英文",
+          "shared_character": "文",
+          "path": [
+            {
+              "from": "蔡英文",
+              "to": "文物",
+              "character": "文"
+            }
+          ],
+          "source_id": "rss-f8f0af493404af122e8c"
+        },
+        "source_support": []
+      },
+      {
         "id": "knowledge:人道救援",
         "event_id": "cna-c6a60b6f9fdd8bfafb77",
         "word": "人道救援",
@@ -61113,105 +64195,6 @@
             }
           ],
           "source_id": "rss-fba82dec888d59789a86"
-        },
-        "source_support": []
-      },
-      {
-        "id": "knowledge:文化資產",
-        "event_id": "cna-fe33b2e93a2b0981d345",
-        "word": "文化資產",
-        "content_kind": "knowledge",
-        "kind": "延伸知識",
-        "answer_domain": "culture",
-        "difficulty": "medium",
-        "answer_score": 84,
-        "clue": "具有歷史、藝術或科學等價值的有形與無形文化成果，保存不只限於建築。（4字）",
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning",
-        "clue_profile": "experienced-adults-v1",
-        "knowledge_source": {
-          "publisher": "時事填字樂詞義編輯庫",
-          "url": "https://github.com/echohook/news-crossword-studio/blob/main/core/experienced-definitions.mjs",
-          "meaning": "具有歷史、藝術或科學等價值的有形與無形文化成果，保存不只限於建築。"
-        },
-        "expansion": {
-          "method": "shared_character",
-          "seed_word": "蔡英文",
-          "shared_character": "文",
-          "path": [
-            {
-              "from": "蔡英文",
-              "to": "文化資產",
-              "character": "文"
-            }
-          ],
-          "source_id": "rss-b729f08fb2b9b96055c6"
-        },
-        "source_support": []
-      },
-      {
-        "id": "knowledge:文藝復興",
-        "event_id": "cna-fe33b2e93a2b0981d345",
-        "word": "文藝復興",
-        "content_kind": "knowledge",
-        "kind": "延伸知識",
-        "answer_domain": "culture",
-        "difficulty": "medium",
-        "answer_score": 84,
-        "clue": "以重新理解古典文化為特色的歐洲思想藝術變革，常與人文主義相連。（4字）",
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning",
-        "clue_profile": "experienced-adults-v1",
-        "knowledge_source": {
-          "publisher": "時事填字樂詞義編輯庫",
-          "url": "https://github.com/echohook/news-crossword-studio/blob/main/core/experienced-definitions.mjs",
-          "meaning": "以重新理解古典文化為特色的歐洲思想藝術變革，常與人文主義相連。"
-        },
-        "expansion": {
-          "method": "shared_character",
-          "seed_word": "蔡英文",
-          "shared_character": "文",
-          "path": [
-            {
-              "from": "蔡英文",
-              "to": "文藝復興",
-              "character": "文"
-            }
-          ],
-          "source_id": "rss-b729f08fb2b9b96055c6"
-        },
-        "source_support": []
-      },
-      {
-        "id": "knowledge:文物",
-        "event_id": "cna-fe33b2e93a2b0981d345",
-        "word": "文物",
-        "content_kind": "knowledge",
-        "kind": "延伸知識",
-        "answer_domain": "culture",
-        "difficulty": "medium",
-        "answer_score": 84,
-        "clue": "承載人類活動及文化意義的實物，其價值須結合來源與歷史脈絡判斷。（2字）",
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning",
-        "clue_profile": "experienced-adults-v1",
-        "knowledge_source": {
-          "publisher": "時事填字樂詞義編輯庫",
-          "url": "https://github.com/echohook/news-crossword-studio/blob/main/core/experienced-definitions.mjs",
-          "meaning": "承載人類活動及文化意義的實物，其價值須結合來源與歷史脈絡判斷。"
-        },
-        "expansion": {
-          "method": "shared_character",
-          "seed_word": "蔡英文",
-          "shared_character": "文",
-          "path": [
-            {
-              "from": "蔡英文",
-              "to": "文物",
-              "character": "文"
-            }
-          ],
-          "source_id": "rss-b729f08fb2b9b96055c6"
         },
         "source_support": []
       },
@@ -61414,8 +64397,206 @@
         "source_support": []
       },
       {
+        "id": "knowledge:核融合",
+        "event_id": "cna-3cbf6de2dc19b8b8cfdc",
+        "word": "核融合",
+        "content_kind": "knowledge",
+        "kind": "延伸知識",
+        "answer_domain": "technology",
+        "difficulty": "medium",
+        "answer_score": 84,
+        "clue": "輕原子核結合並釋放能量的反應，實現可控且持續的發電仍有工程挑戰。（3字）",
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning",
+        "clue_profile": "experienced-adults-v1",
+        "knowledge_source": {
+          "publisher": "時事填字樂詞義編輯庫",
+          "url": "https://github.com/echohook/news-crossword-studio/blob/main/core/experienced-definitions.mjs",
+          "meaning": "輕原子核結合並釋放能量的反應，實現可控且持續的發電仍有工程挑戰。"
+        },
+        "expansion": {
+          "method": "shared_character",
+          "seed_word": "聯合國",
+          "shared_character": "合",
+          "path": [
+            {
+              "from": "聯合國",
+              "to": "核融合",
+              "character": "合"
+            }
+          ],
+          "source_id": "rss-2a82e206edd026c1ab7a"
+        },
+        "source_support": []
+      },
+      {
+        "id": "knowledge:聯貸",
+        "event_id": "cna-3cbf6de2dc19b8b8cfdc",
+        "word": "聯貸",
+        "content_kind": "knowledge",
+        "kind": "延伸知識",
+        "answer_domain": "economy",
+        "difficulty": "medium",
+        "answer_score": 84,
+        "clue": "多家銀行共同提供一筆貸款，以分散單一借款人的授信風險。（2字）",
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning",
+        "clue_profile": "experienced-adults-v1",
+        "knowledge_source": {
+          "publisher": "時事填字樂詞義編輯庫",
+          "url": "https://github.com/echohook/news-crossword-studio/blob/main/core/experienced-definitions.mjs",
+          "meaning": "多家銀行共同提供一筆貸款，以分散單一借款人的授信風險。"
+        },
+        "expansion": {
+          "method": "shared_character",
+          "seed_word": "聯合國",
+          "shared_character": "聯",
+          "path": [
+            {
+              "from": "聯合國",
+              "to": "聯貸",
+              "character": "聯"
+            }
+          ],
+          "source_id": "rss-2a82e206edd026c1ab7a"
+        },
+        "source_support": []
+      },
+      {
+        "id": "knowledge:轉播權",
+        "event_id": "cna-3cbf6de2dc19b8b8cfdc",
+        "word": "轉播權",
+        "content_kind": "knowledge",
+        "kind": "延伸知識",
+        "answer_domain": "sports",
+        "difficulty": "medium",
+        "answer_score": 84,
+        "clue": "賽事影像傳送與播出的授權，收入常是職業聯盟營運的重要來源。（3字）",
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning",
+        "clue_profile": "experienced-adults-v1",
+        "knowledge_source": {
+          "publisher": "時事填字樂詞義編輯庫",
+          "url": "https://github.com/echohook/news-crossword-studio/blob/main/core/experienced-definitions.mjs",
+          "meaning": "賽事影像傳送與播出的授權，收入常是職業聯盟營運的重要來源。"
+        },
+        "expansion": {
+          "method": "shared_character",
+          "seed_word": "人權",
+          "shared_character": "權",
+          "path": [
+            {
+              "from": "人權",
+              "to": "轉播權",
+              "character": "權"
+            }
+          ],
+          "source_id": "rss-2a82e206edd026c1ab7a"
+        },
+        "source_support": []
+      },
+      {
+        "id": "knowledge:防波堤",
+        "event_id": "cna-e52dd11e800281d84d0e",
+        "word": "防波堤",
+        "content_kind": "knowledge",
+        "kind": "延伸知識",
+        "answer_domain": "environment",
+        "difficulty": "medium",
+        "answer_score": 84,
+        "clue": "港口外圍削減浪能、維護港內水面穩定的海岸構造物。（3字）",
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning",
+        "clue_profile": "experienced-adults-v1",
+        "knowledge_source": {
+          "publisher": "時事填字樂詞義編輯庫",
+          "url": "https://github.com/echohook/news-crossword-studio/blob/main/core/expansion-definitions.mjs",
+          "meaning": "港口外圍削減浪能、維護港內水面穩定的海岸構造物。"
+        },
+        "expansion": {
+          "method": "shared_character",
+          "seed_word": "國防",
+          "shared_character": "防",
+          "path": [
+            {
+              "from": "國防",
+              "to": "防波堤",
+              "character": "防"
+            }
+          ],
+          "source_id": "rss-566d29eaed02037c5648"
+        },
+        "source_support": []
+      },
+      {
+        "id": "knowledge:堤防",
+        "event_id": "cna-e52dd11e800281d84d0e",
+        "word": "堤防",
+        "content_kind": "knowledge",
+        "kind": "延伸知識",
+        "answer_domain": "environment",
+        "difficulty": "medium",
+        "answer_score": 84,
+        "clue": "沿河道或海岸修築，用以阻擋洪水或海水侵入的長形設施。（2字）",
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning",
+        "clue_profile": "experienced-adults-v1",
+        "knowledge_source": {
+          "publisher": "時事填字樂詞義編輯庫",
+          "url": "https://github.com/echohook/news-crossword-studio/blob/main/core/expansion-definitions.mjs",
+          "meaning": "沿河道或海岸修築，用以阻擋洪水或海水侵入的長形設施。"
+        },
+        "expansion": {
+          "method": "shared_character",
+          "seed_word": "國防",
+          "shared_character": "防",
+          "path": [
+            {
+              "from": "國防",
+              "to": "堤防",
+              "character": "防"
+            }
+          ],
+          "source_id": "rss-566d29eaed02037c5648"
+        },
+        "source_support": []
+      },
+      {
+        "id": "knowledge:晶圓",
+        "event_id": "cna-bb2c06b7053e683b5dc7",
+        "word": "晶圓",
+        "content_kind": "knowledge",
+        "kind": "延伸知識",
+        "answer_domain": "technology",
+        "difficulty": "medium",
+        "answer_score": 84,
+        "clue": "切割成個別積體電路之前，供微影等製程使用的圓形基板。（2字）",
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning",
+        "clue_profile": "experienced-adults-v1",
+        "knowledge_source": {
+          "publisher": "時事填字樂詞義編輯庫",
+          "url": "https://github.com/echohook/news-crossword-studio/blob/main/core/experienced-definitions.mjs",
+          "meaning": "切割成個別積體電路之前，供微影等製程使用的圓形基板。"
+        },
+        "expansion": {
+          "method": "shared_character",
+          "seed_word": "晶片",
+          "shared_character": "晶",
+          "path": [
+            {
+              "from": "晶片",
+              "to": "晶圓",
+              "character": "晶"
+            }
+          ],
+          "source_id": "rss-03c115a0e5d158add0d8"
+        },
+        "source_support": []
+      },
+      {
         "id": "knowledge:最低工資",
-        "event_id": "cna-e8ae6ce211f09fa5fa02",
+        "event_id": "cna-3b6a274ebb61ce3ccd00",
         "word": "最低工資",
         "content_kind": "knowledge",
         "kind": "延伸知識",
@@ -61433,16 +64614,148 @@
         },
         "expansion": {
           "method": "shared_character",
-          "seed_word": "人工智慧",
-          "shared_character": "工",
+          "seed_word": "資安",
+          "shared_character": "資",
           "path": [
             {
-              "from": "人工智慧",
+              "from": "資安",
               "to": "最低工資",
-              "character": "工"
+              "character": "資"
             }
           ],
-          "source_id": "rss-4215bc1585ebd7f2b411"
+          "source_id": "rss-629acd411e66bcc42020"
+        },
+        "source_support": []
+      },
+      {
+        "id": "knowledge:薪資上限",
+        "event_id": "cna-3b6a274ebb61ce3ccd00",
+        "word": "薪資上限",
+        "content_kind": "knowledge",
+        "kind": "延伸知識",
+        "answer_domain": "sports",
+        "difficulty": "medium",
+        "answer_score": 84,
+        "clue": "職業聯盟為球隊人事支出設下的限制，常以競爭平衡為政策目的。（4字）",
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning",
+        "clue_profile": "experienced-adults-v1",
+        "knowledge_source": {
+          "publisher": "時事填字樂詞義編輯庫",
+          "url": "https://github.com/echohook/news-crossword-studio/blob/main/core/experienced-definitions.mjs",
+          "meaning": "職業聯盟為球隊人事支出設下的限制，常以競爭平衡為政策目的。"
+        },
+        "expansion": {
+          "method": "shared_character",
+          "seed_word": "資安",
+          "shared_character": "資",
+          "path": [
+            {
+              "from": "資安",
+              "to": "薪資上限",
+              "character": "資"
+            }
+          ],
+          "source_id": "rss-629acd411e66bcc42020"
+        },
+        "source_support": []
+      },
+      {
+        "id": "knowledge:保護主義",
+        "event_id": "cna-8d23e38fd0f39ad409a0",
+        "word": "保護主義",
+        "content_kind": "knowledge",
+        "kind": "延伸知識",
+        "answer_domain": "economy",
+        "difficulty": "medium",
+        "answer_score": 84,
+        "clue": "以關稅或進口限制維護本地產業，卻可能引發貿易報復的政策取向。（4字）",
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning",
+        "clue_profile": "experienced-adults-v1",
+        "knowledge_source": {
+          "publisher": "時事填字樂詞義編輯庫",
+          "url": "https://github.com/echohook/news-crossword-studio/blob/main/core/experienced-definitions.mjs",
+          "meaning": "以關稅或進口限制維護本地產業，卻可能引發貿易報復的政策取向。"
+        },
+        "expansion": {
+          "method": "shared_character",
+          "seed_word": "主權",
+          "shared_character": "主",
+          "path": [
+            {
+              "from": "主權",
+              "to": "保護主義",
+              "character": "主"
+            }
+          ],
+          "source_id": "rss-353fc543d4da4b8c8a7e"
+        },
+        "source_support": []
+      },
+      {
+        "id": "knowledge:年金",
+        "event_id": "cna-2ad88f696db00cc22ca9",
+        "word": "年金",
+        "content_kind": "knowledge",
+        "kind": "延伸知識",
+        "answer_domain": "society",
+        "difficulty": "medium",
+        "answer_score": 84,
+        "clue": "把老年等保障以定期給付方式提供的安排，其永續性涉及收支與人口結構。（2字）",
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning",
+        "clue_profile": "experienced-adults-v1",
+        "knowledge_source": {
+          "publisher": "時事填字樂詞義編輯庫",
+          "url": "https://github.com/echohook/news-crossword-studio/blob/main/core/experienced-definitions.mjs",
+          "meaning": "把老年等保障以定期給付方式提供的安排，其永續性涉及收支與人口結構。"
+        },
+        "expansion": {
+          "method": "shared_character",
+          "seed_word": "金融",
+          "shared_character": "金",
+          "path": [
+            {
+              "from": "金融",
+              "to": "年金",
+              "character": "金"
+            }
+          ],
+          "source_id": "rss-6d2ee2450bf9e294d3f3"
+        },
+        "source_support": []
+      },
+      {
+        "id": "knowledge:電價",
+        "event_id": "cna-a862c019826cd077ec43",
+        "word": "電價",
+        "content_kind": "knowledge",
+        "kind": "延伸知識",
+        "answer_domain": "economy",
+        "difficulty": "medium",
+        "answer_score": 84,
+        "clue": "能源成本變動如何分攤至家庭與產業，常反映在這項公用事業收費。（2字）",
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning",
+        "clue_profile": "experienced-adults-v1",
+        "knowledge_source": {
+          "publisher": "時事填字樂詞義編輯庫",
+          "url": "https://github.com/echohook/news-crossword-studio/blob/main/core/experienced-definitions.mjs",
+          "meaning": "能源成本變動如何分攤至家庭與產業，常反映在這項公用事業收費。"
+        },
+        "expansion": {
+          "method": "shared_character",
+          "seed_word": "油價",
+          "shared_character": "價",
+          "path": [
+            {
+              "from": "油價",
+              "to": "電價",
+              "character": "價"
+            }
+          ],
+          "source_id": "rss-634f325843baf86c46f9"
         },
         "source_support": []
       },
@@ -61476,237 +64789,6 @@
             }
           ],
           "source_id": "rss-4215bc1585ebd7f2b411"
-        },
-        "source_support": []
-      },
-      {
-        "id": "knowledge:核融合",
-        "event_id": "cna-c6a60b6f9fdd8bfafb77",
-        "word": "核融合",
-        "content_kind": "knowledge",
-        "kind": "延伸知識",
-        "answer_domain": "technology",
-        "difficulty": "medium",
-        "answer_score": 84,
-        "clue": "輕原子核結合並釋放能量的反應，實現可控且持續的發電仍有工程挑戰。（3字）",
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning",
-        "clue_profile": "experienced-adults-v1",
-        "knowledge_source": {
-          "publisher": "時事填字樂詞義編輯庫",
-          "url": "https://github.com/echohook/news-crossword-studio/blob/main/core/experienced-definitions.mjs",
-          "meaning": "輕原子核結合並釋放能量的反應，實現可控且持續的發電仍有工程挑戰。"
-        },
-        "expansion": {
-          "method": "shared_character",
-          "seed_word": "聯合國",
-          "shared_character": "合",
-          "path": [
-            {
-              "from": "聯合國",
-              "to": "核融合",
-              "character": "合"
-            }
-          ],
-          "source_id": "rss-8a1a1145df37786a1aa1"
-        },
-        "source_support": []
-      },
-      {
-        "id": "knowledge:聯貸",
-        "event_id": "cna-c6a60b6f9fdd8bfafb77",
-        "word": "聯貸",
-        "content_kind": "knowledge",
-        "kind": "延伸知識",
-        "answer_domain": "economy",
-        "difficulty": "medium",
-        "answer_score": 84,
-        "clue": "多家銀行共同提供一筆貸款，以分散單一借款人的授信風險。（2字）",
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning",
-        "clue_profile": "experienced-adults-v1",
-        "knowledge_source": {
-          "publisher": "時事填字樂詞義編輯庫",
-          "url": "https://github.com/echohook/news-crossword-studio/blob/main/core/experienced-definitions.mjs",
-          "meaning": "多家銀行共同提供一筆貸款，以分散單一借款人的授信風險。"
-        },
-        "expansion": {
-          "method": "shared_character",
-          "seed_word": "聯合國",
-          "shared_character": "聯",
-          "path": [
-            {
-              "from": "聯合國",
-              "to": "聯貸",
-              "character": "聯"
-            }
-          ],
-          "source_id": "rss-8a1a1145df37786a1aa1"
-        },
-        "source_support": []
-      },
-      {
-        "id": "knowledge:防波堤",
-        "event_id": "cna-c9322f534516c6b14f41",
-        "word": "防波堤",
-        "content_kind": "knowledge",
-        "kind": "延伸知識",
-        "answer_domain": "environment",
-        "difficulty": "medium",
-        "answer_score": 84,
-        "clue": "港口外圍削減浪能、維護港內水面穩定的海岸構造物。（3字）",
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning",
-        "clue_profile": "experienced-adults-v1",
-        "knowledge_source": {
-          "publisher": "時事填字樂詞義編輯庫",
-          "url": "https://github.com/echohook/news-crossword-studio/blob/main/core/expansion-definitions.mjs",
-          "meaning": "港口外圍削減浪能、維護港內水面穩定的海岸構造物。"
-        },
-        "expansion": {
-          "method": "shared_character",
-          "seed_word": "國防",
-          "shared_character": "防",
-          "path": [
-            {
-              "from": "國防",
-              "to": "防波堤",
-              "character": "防"
-            }
-          ],
-          "source_id": "rss-600fbb8219a66ddd71c0"
-        },
-        "source_support": []
-      },
-      {
-        "id": "knowledge:堤防",
-        "event_id": "cna-c9322f534516c6b14f41",
-        "word": "堤防",
-        "content_kind": "knowledge",
-        "kind": "延伸知識",
-        "answer_domain": "environment",
-        "difficulty": "medium",
-        "answer_score": 84,
-        "clue": "沿河道或海岸修築，用以阻擋洪水或海水侵入的長形設施。（2字）",
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning",
-        "clue_profile": "experienced-adults-v1",
-        "knowledge_source": {
-          "publisher": "時事填字樂詞義編輯庫",
-          "url": "https://github.com/echohook/news-crossword-studio/blob/main/core/expansion-definitions.mjs",
-          "meaning": "沿河道或海岸修築，用以阻擋洪水或海水侵入的長形設施。"
-        },
-        "expansion": {
-          "method": "shared_character",
-          "seed_word": "國防",
-          "shared_character": "防",
-          "path": [
-            {
-              "from": "國防",
-              "to": "堤防",
-              "character": "防"
-            }
-          ],
-          "source_id": "rss-600fbb8219a66ddd71c0"
-        },
-        "source_support": []
-      },
-      {
-        "id": "knowledge:晶圓",
-        "event_id": "cna-2348520e57b0a6d6ac6c",
-        "word": "晶圓",
-        "content_kind": "knowledge",
-        "kind": "延伸知識",
-        "answer_domain": "technology",
-        "difficulty": "medium",
-        "answer_score": 84,
-        "clue": "切割成個別積體電路之前，供微影等製程使用的圓形基板。（2字）",
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning",
-        "clue_profile": "experienced-adults-v1",
-        "knowledge_source": {
-          "publisher": "時事填字樂詞義編輯庫",
-          "url": "https://github.com/echohook/news-crossword-studio/blob/main/core/experienced-definitions.mjs",
-          "meaning": "切割成個別積體電路之前，供微影等製程使用的圓形基板。"
-        },
-        "expansion": {
-          "method": "shared_character",
-          "seed_word": "晶片",
-          "shared_character": "晶",
-          "path": [
-            {
-              "from": "晶片",
-              "to": "晶圓",
-              "character": "晶"
-            }
-          ],
-          "source_id": "rss-3882505d92d747923e64"
-        },
-        "source_support": []
-      },
-      {
-        "id": "knowledge:轉播權",
-        "event_id": "cna-21a3c904fef5baff516b",
-        "word": "轉播權",
-        "content_kind": "knowledge",
-        "kind": "延伸知識",
-        "answer_domain": "sports",
-        "difficulty": "medium",
-        "answer_score": 84,
-        "clue": "賽事影像傳送與播出的授權，收入常是職業聯盟營運的重要來源。（3字）",
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning",
-        "clue_profile": "experienced-adults-v1",
-        "knowledge_source": {
-          "publisher": "時事填字樂詞義編輯庫",
-          "url": "https://github.com/echohook/news-crossword-studio/blob/main/core/experienced-definitions.mjs",
-          "meaning": "賽事影像傳送與播出的授權，收入常是職業聯盟營運的重要來源。"
-        },
-        "expansion": {
-          "method": "shared_character",
-          "seed_word": "著作權",
-          "shared_character": "權",
-          "path": [
-            {
-              "from": "著作權",
-              "to": "轉播權",
-              "character": "權"
-            }
-          ],
-          "source_id": "rss-c090573c1bb165720dd9"
-        },
-        "source_support": []
-      },
-      {
-        "id": "knowledge:電價",
-        "event_id": "cna-ceef6a47964b4ab5dc88",
-        "word": "電價",
-        "content_kind": "knowledge",
-        "kind": "延伸知識",
-        "answer_domain": "economy",
-        "difficulty": "medium",
-        "answer_score": 84,
-        "clue": "能源成本變動如何分攤至家庭與產業，常反映在這項公用事業收費。（2字）",
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning",
-        "clue_profile": "experienced-adults-v1",
-        "knowledge_source": {
-          "publisher": "時事填字樂詞義編輯庫",
-          "url": "https://github.com/echohook/news-crossword-studio/blob/main/core/experienced-definitions.mjs",
-          "meaning": "能源成本變動如何分攤至家庭與產業，常反映在這項公用事業收費。"
-        },
-        "expansion": {
-          "method": "shared_character",
-          "seed_word": "油價",
-          "shared_character": "價",
-          "path": [
-            {
-              "from": "油價",
-              "to": "電價",
-              "character": "價"
-            }
-          ],
-          "source_id": "rss-8408ae92bcee6f4927e8"
         },
         "source_support": []
       },
@@ -61843,39 +64925,6 @@
         "source_support": []
       },
       {
-        "id": "knowledge:年金",
-        "event_id": "cna-abe544196c8635ae6df1",
-        "word": "年金",
-        "content_kind": "knowledge",
-        "kind": "延伸知識",
-        "answer_domain": "society",
-        "difficulty": "medium",
-        "answer_score": 84,
-        "clue": "把老年等保障以定期給付方式提供的安排，其永續性涉及收支與人口結構。（2字）",
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning",
-        "clue_profile": "experienced-adults-v1",
-        "knowledge_source": {
-          "publisher": "時事填字樂詞義編輯庫",
-          "url": "https://github.com/echohook/news-crossword-studio/blob/main/core/experienced-definitions.mjs",
-          "meaning": "把老年等保障以定期給付方式提供的安排，其永續性涉及收支與人口結構。"
-        },
-        "expansion": {
-          "method": "shared_character",
-          "seed_word": "金融",
-          "shared_character": "金",
-          "path": [
-            {
-              "from": "金融",
-              "to": "年金",
-              "character": "金"
-            }
-          ],
-          "source_id": "rss-e8af9e77e8c4cd9c9e56"
-        },
-        "source_support": []
-      },
-      {
         "id": "knowledge:外銷",
         "event_id": "cna-c1e02773979d08d7d6fc",
         "word": "外銷",
@@ -61942,39 +64991,6 @@
         "source_support": []
       },
       {
-        "id": "knowledge:薪資上限",
-        "event_id": "cna-2725c7d54d80354c10fd",
-        "word": "薪資上限",
-        "content_kind": "knowledge",
-        "kind": "延伸知識",
-        "answer_domain": "sports",
-        "difficulty": "medium",
-        "answer_score": 84,
-        "clue": "職業聯盟為球隊人事支出設下的限制，常以競爭平衡為政策目的。（4字）",
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning",
-        "clue_profile": "experienced-adults-v1",
-        "knowledge_source": {
-          "publisher": "時事填字樂詞義編輯庫",
-          "url": "https://github.com/echohook/news-crossword-studio/blob/main/core/experienced-definitions.mjs",
-          "meaning": "職業聯盟為球隊人事支出設下的限制，常以競爭平衡為政策目的。"
-        },
-        "expansion": {
-          "method": "shared_character",
-          "seed_word": "資安",
-          "shared_character": "資",
-          "path": [
-            {
-              "from": "資安",
-              "to": "薪資上限",
-              "character": "資"
-            }
-          ],
-          "source_id": "rss-053aab09a51ca5a437e3"
-        },
-        "source_support": []
-      },
-      {
         "id": "knowledge:降息",
         "event_id": "cna-06bda38924f73e6f4017",
         "word": "降息",
@@ -62037,39 +65053,6 @@
             }
           ],
           "source_id": "rss-494638ba9bf515e925e2"
-        },
-        "source_support": []
-      },
-      {
-        "id": "knowledge:保護主義",
-        "event_id": "cna-b8148ce3528087ab55d4",
-        "word": "保護主義",
-        "content_kind": "knowledge",
-        "kind": "延伸知識",
-        "answer_domain": "economy",
-        "difficulty": "medium",
-        "answer_score": 84,
-        "clue": "以關稅或進口限制維護本地產業，卻可能引發貿易報復的政策取向。（4字）",
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning",
-        "clue_profile": "experienced-adults-v1",
-        "knowledge_source": {
-          "publisher": "時事填字樂詞義編輯庫",
-          "url": "https://github.com/echohook/news-crossword-studio/blob/main/core/experienced-definitions.mjs",
-          "meaning": "以關稅或進口限制維護本地產業，卻可能引發貿易報復的政策取向。"
-        },
-        "expansion": {
-          "method": "shared_character",
-          "seed_word": "主權",
-          "shared_character": "主",
-          "path": [
-            {
-              "from": "主權",
-              "to": "保護主義",
-              "character": "主"
-            }
-          ],
-          "source_id": "rss-f50755c4c24e6bf731c2"
         },
         "source_support": []
       },
@@ -62702,7 +65685,7 @@
       },
       {
         "id": "knowledge:少子化",
-        "event_id": "cna-c1e02773979d08d7d6fc",
+        "event_id": "cna-842f3de4b4698f54cf71",
         "word": "少子化",
         "content_kind": "knowledge",
         "kind": "延伸知識",
@@ -62720,21 +65703,59 @@
         },
         "expansion": {
           "method": "shared_character",
-          "seed_word": "高市早苗",
-          "shared_character": "高",
+          "seed_word": "蔡英文",
+          "shared_character": "文",
           "path": [
             {
-              "from": "高市早苗",
-              "to": "高齡化",
-              "character": "高"
+              "from": "蔡英文",
+              "to": "文化資產",
+              "character": "文"
             },
             {
-              "from": "高齡化",
+              "from": "文化資產",
               "to": "少子化",
               "character": "化"
             }
           ],
-          "source_id": "rss-3b50d897fd041562c25b"
+          "source_id": "rss-f8f0af493404af122e8c"
+        },
+        "source_support": []
+      },
+      {
+        "id": "knowledge:產銷履歷",
+        "event_id": "cna-842f3de4b4698f54cf71",
+        "word": "產銷履歷",
+        "content_kind": "knowledge",
+        "kind": "延伸知識",
+        "answer_domain": "society",
+        "difficulty": "medium",
+        "answer_score": 84,
+        "clue": "讓農產品生產、加工與流通紀錄可供追溯的管理及驗證制度。（4字）",
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning",
+        "clue_profile": "experienced-adults-v1",
+        "knowledge_source": {
+          "publisher": "時事填字樂詞義編輯庫",
+          "url": "https://github.com/echohook/news-crossword-studio/blob/main/core/experienced-definitions.mjs",
+          "meaning": "讓農產品生產、加工與流通紀錄可供追溯的管理及驗證制度。"
+        },
+        "expansion": {
+          "method": "shared_character",
+          "seed_word": "蔡英文",
+          "shared_character": "文",
+          "path": [
+            {
+              "from": "蔡英文",
+              "to": "文化資產",
+              "character": "文"
+            },
+            {
+              "from": "文化資產",
+              "to": "產銷履歷",
+              "character": "產"
+            }
+          ],
+          "source_id": "rss-f8f0af493404af122e8c"
         },
         "source_support": []
       },
@@ -62773,44 +65794,6 @@
             }
           ],
           "source_id": "rss-fba82dec888d59789a86"
-        },
-        "source_support": []
-      },
-      {
-        "id": "knowledge:產銷履歷",
-        "event_id": "cna-fe33b2e93a2b0981d345",
-        "word": "產銷履歷",
-        "content_kind": "knowledge",
-        "kind": "延伸知識",
-        "answer_domain": "society",
-        "difficulty": "medium",
-        "answer_score": 84,
-        "clue": "讓農產品生產、加工與流通紀錄可供追溯的管理及驗證制度。（4字）",
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning",
-        "clue_profile": "experienced-adults-v1",
-        "knowledge_source": {
-          "publisher": "時事填字樂詞義編輯庫",
-          "url": "https://github.com/echohook/news-crossword-studio/blob/main/core/experienced-definitions.mjs",
-          "meaning": "讓農產品生產、加工與流通紀錄可供追溯的管理及驗證制度。"
-        },
-        "expansion": {
-          "method": "shared_character",
-          "seed_word": "蔡英文",
-          "shared_character": "文",
-          "path": [
-            {
-              "from": "蔡英文",
-              "to": "文化資產",
-              "character": "文"
-            },
-            {
-              "from": "文化資產",
-              "to": "產銷履歷",
-              "character": "產"
-            }
-          ],
-          "source_id": "rss-b729f08fb2b9b96055c6"
         },
         "source_support": []
       },
@@ -63005,6 +65988,82 @@
         "source_support": []
       },
       {
+        "id": "knowledge:房貸",
+        "event_id": "cna-3cbf6de2dc19b8b8cfdc",
+        "word": "房貸",
+        "content_kind": "knowledge",
+        "kind": "延伸知識",
+        "answer_domain": "economy",
+        "difficulty": "medium",
+        "answer_score": 84,
+        "clue": "以住宅作擔保的長期借款，利率與成數會影響家庭購屋負擔。（2字）",
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning",
+        "clue_profile": "experienced-adults-v1",
+        "knowledge_source": {
+          "publisher": "時事填字樂詞義編輯庫",
+          "url": "https://github.com/echohook/news-crossword-studio/blob/main/core/experienced-definitions.mjs",
+          "meaning": "以住宅作擔保的長期借款，利率與成數會影響家庭購屋負擔。"
+        },
+        "expansion": {
+          "method": "shared_character",
+          "seed_word": "聯合國",
+          "shared_character": "聯",
+          "path": [
+            {
+              "from": "聯合國",
+              "to": "聯貸",
+              "character": "聯"
+            },
+            {
+              "from": "聯貸",
+              "to": "房貸",
+              "character": "貸"
+            }
+          ],
+          "source_id": "rss-2a82e206edd026c1ab7a"
+        },
+        "source_support": []
+      },
+      {
+        "id": "knowledge:轉型正義",
+        "event_id": "cna-3cbf6de2dc19b8b8cfdc",
+        "word": "轉型正義",
+        "content_kind": "knowledge",
+        "kind": "延伸知識",
+        "answer_domain": "society",
+        "difficulty": "medium",
+        "answer_score": 84,
+        "clue": "民主化後透過真相、究責與修復，處理過去國家不法侵害的公共工程。（4字）",
+        "clue_style": "magazine-v1",
+        "clue_kind": "meaning",
+        "clue_profile": "experienced-adults-v1",
+        "knowledge_source": {
+          "publisher": "時事填字樂詞義編輯庫",
+          "url": "https://github.com/echohook/news-crossword-studio/blob/main/core/experienced-definitions.mjs",
+          "meaning": "民主化後透過真相、究責與修復，處理過去國家不法侵害的公共工程。"
+        },
+        "expansion": {
+          "method": "shared_character",
+          "seed_word": "人權",
+          "shared_character": "權",
+          "path": [
+            {
+              "from": "人權",
+              "to": "轉播權",
+              "character": "權"
+            },
+            {
+              "from": "轉播權",
+              "to": "轉型正義",
+              "character": "轉"
+            }
+          ],
+          "source_id": "rss-2a82e206edd026c1ab7a"
+        },
+        "source_support": []
+      },
+      {
         "id": "knowledge:肌少症",
         "event_id": "cna-e8ae6ce211f09fa5fa02",
         "word": "肌少症",
@@ -63039,82 +66098,6 @@
             }
           ],
           "source_id": "rss-4215bc1585ebd7f2b411"
-        },
-        "source_support": []
-      },
-      {
-        "id": "knowledge:房貸",
-        "event_id": "cna-c6a60b6f9fdd8bfafb77",
-        "word": "房貸",
-        "content_kind": "knowledge",
-        "kind": "延伸知識",
-        "answer_domain": "economy",
-        "difficulty": "medium",
-        "answer_score": 84,
-        "clue": "以住宅作擔保的長期借款，利率與成數會影響家庭購屋負擔。（2字）",
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning",
-        "clue_profile": "experienced-adults-v1",
-        "knowledge_source": {
-          "publisher": "時事填字樂詞義編輯庫",
-          "url": "https://github.com/echohook/news-crossword-studio/blob/main/core/experienced-definitions.mjs",
-          "meaning": "以住宅作擔保的長期借款，利率與成數會影響家庭購屋負擔。"
-        },
-        "expansion": {
-          "method": "shared_character",
-          "seed_word": "聯合國",
-          "shared_character": "聯",
-          "path": [
-            {
-              "from": "聯合國",
-              "to": "聯貸",
-              "character": "聯"
-            },
-            {
-              "from": "聯貸",
-              "to": "房貸",
-              "character": "貸"
-            }
-          ],
-          "source_id": "rss-8a1a1145df37786a1aa1"
-        },
-        "source_support": []
-      },
-      {
-        "id": "knowledge:轉型正義",
-        "event_id": "cna-21a3c904fef5baff516b",
-        "word": "轉型正義",
-        "content_kind": "knowledge",
-        "kind": "延伸知識",
-        "answer_domain": "society",
-        "difficulty": "medium",
-        "answer_score": 84,
-        "clue": "民主化後透過真相、究責與修復，處理過去國家不法侵害的公共工程。（4字）",
-        "clue_style": "magazine-v1",
-        "clue_kind": "meaning",
-        "clue_profile": "experienced-adults-v1",
-        "knowledge_source": {
-          "publisher": "時事填字樂詞義編輯庫",
-          "url": "https://github.com/echohook/news-crossword-studio/blob/main/core/experienced-definitions.mjs",
-          "meaning": "民主化後透過真相、究責與修復，處理過去國家不法侵害的公共工程。"
-        },
-        "expansion": {
-          "method": "shared_character",
-          "seed_word": "著作權",
-          "shared_character": "權",
-          "path": [
-            {
-              "from": "著作權",
-              "to": "轉播權",
-              "character": "權"
-            },
-            {
-              "from": "轉播權",
-              "to": "轉型正義",
-              "character": "轉"
-            }
-          ],
-          "source_id": "rss-c090573c1bb165720dd9"
         },
         "source_support": []
       },
@@ -63609,6 +66592,39 @@
       }
     },
     {
+      "id": "idiom:防患未然",
+      "event_id": "idiom:防患未然",
+      "word": "防患未然",
+      "content_kind": "idiom",
+      "kind": "成語",
+      "answer_domain": "culture",
+      "difficulty": "medium",
+      "answer_score": 84,
+      "clue": "在禍害尚未形成前，先採取措施加以預防。（4字）",
+      "clue_style": "magazine-v1",
+      "clue_kind": "meaning",
+      "clue_profile": "experienced-adults-v1",
+      "knowledge_source": {
+        "publisher": "時事填字樂詞義編輯庫",
+        "url": "https://github.com/echohook/news-crossword-studio/blob/main/core/expansion-definitions.mjs",
+        "meaning": "在禍害尚未形成前，先採取措施加以預防。"
+      },
+      "related_news": {
+        "event_id": "cna-e52dd11e800281d84d0e",
+        "method": "shared_character",
+        "seed_word": "國防",
+        "shared_character": "防",
+        "path": [
+          {
+            "from": "國防",
+            "to": "防患未然",
+            "character": "防"
+          }
+        ],
+        "source_id": "rss-566d29eaed02037c5648"
+      }
+    },
+    {
       "id": "idiom:風聲鶴唳",
       "event_id": "idiom:風聲鶴唳",
       "word": "風聲鶴唳",
@@ -63639,39 +66655,6 @@
           }
         ],
         "source_id": "rss-46dc95110acdab1049a4"
-      }
-    },
-    {
-      "id": "idiom:防患未然",
-      "event_id": "idiom:防患未然",
-      "word": "防患未然",
-      "content_kind": "idiom",
-      "kind": "成語",
-      "answer_domain": "culture",
-      "difficulty": "medium",
-      "answer_score": 84,
-      "clue": "在禍害尚未形成前，先採取措施加以預防。（4字）",
-      "clue_style": "magazine-v1",
-      "clue_kind": "meaning",
-      "clue_profile": "experienced-adults-v1",
-      "knowledge_source": {
-        "publisher": "時事填字樂詞義編輯庫",
-        "url": "https://github.com/echohook/news-crossword-studio/blob/main/core/expansion-definitions.mjs",
-        "meaning": "在禍害尚未形成前，先採取措施加以預防。"
-      },
-      "related_news": {
-        "event_id": "cna-c9322f534516c6b14f41",
-        "method": "shared_character",
-        "seed_word": "國防",
-        "shared_character": "防",
-        "path": [
-          {
-            "from": "國防",
-            "to": "防患未然",
-            "character": "防"
-          }
-        ],
-        "source_id": "rss-600fbb8219a66ddd71c0"
       }
     },
     {
@@ -64045,14 +67028,14 @@
   },
   "automation": {
     "enabled": true,
-    "updated_at": "2026-11-27T21:25:24.449Z",
+    "updated_at": "2026-11-28T07:58:07.318Z",
     "window": {
       "from": "2026-11-22",
       "to": "2026-11-28"
     },
     "interval_hours": 6,
     "source_count": 10,
-    "candidate_count": 218,
+    "candidate_count": 220,
     "sources": [
       {
         "id": "cna-politics",
@@ -64144,7 +67127,7 @@
       "generated_count": 7,
       "seed": 2,
       "attempts": 16,
-      "fingerprint": "81f1cd7056025a103a48852fa1c1fb115c0e79190d91fa20aaadefc3b9726878",
+      "fingerprint": "10c3b8fbeef61c168eb9aec5940ed5eedb0b23bc40f0eeeb7d38c734f76f5c6d",
       "grid_valid": true,
       "editorial_valid": true,
       "nonrepeating": true
